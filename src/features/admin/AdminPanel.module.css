@@ -1,0 +1,214 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+    background: #f1f5f9;
+}
+
+.sidebar {
+    width: 260px;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #38bdf8;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.navItem {
+    color: #cbd5e1;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.navItem:hover,
+.navItemActive {
+    background: #1e293b;
+    color: white;
+}
+
+.navItemActive {
+    background: #0ea5e9;
+}
+
+.user {
+    padding-top: 1.5rem;
+    border-top: 1px solid #1e293b;
+    color: #94a3b8;
+    font-size: 0.875rem;
+}
+
+.navDivider {
+    height: 1px;
+    background: #1e293b;
+    margin: 1rem 0;
+}
+
+.logoutBtn {
+    width: 100%;
+    padding: 0.6rem;
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.logoutBtn:hover {
+    opacity: 0.9;
+}
+
+.content {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.pageContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 1.875rem;
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    color: #64748b;
+}
+
+.settingsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.card h3 {
+    font-size: 1.125rem;
+    color: #0f172a;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.fieldRow {
+    display: flex;
+    gap: 1rem;
+}
+
+.fieldRow>* {
+    flex: 1;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.checkbox input {
+    width: 18px;
+    height: 18px;
+}
+
+.saveBar {
+    position: sticky;
+    bottom: 2rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+}
+
+.error {
+    padding: 2rem;
+    color: #ef4444;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Dashboard Metrics Styles */
+.metricsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.metricCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.metricValue {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0ea5e9;
+    margin: 0.5rem 0;
+}
+
+.metricLabel {
+    color: #64748b;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.dashboardSection {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}

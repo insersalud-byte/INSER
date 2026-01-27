@@ -1,0 +1,156 @@
+.container {
+    padding: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text);
+}
+
+.header p {
+    color: var(--color-text-light);
+}
+
+/* Info Cards */
+.card {
+    background: white;
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.infoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.infoItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoLabel {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.infoValue {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+/* Tip & Warnings */
+.tipCard {
+    background: #f0f9ff;
+    border-left: 4px solid #0ea5e9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tipCard p {
+    font-size: 0.9rem;
+    color: #0369a1;
+    margin: 0;
+}
+
+.warningCard {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.warningCard p {
+    font-size: 0.9rem;
+    color: #991b1b;
+    margin: 0;
+}
+
+/* Step List */
+.stepList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.stepItem {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.stepNumber {
+    background: var(--color-primary);
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.stepTitle {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.stepText {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+}
+
+/* Action Buttons */
+.fixedBottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid #eee;
+}
+
+.headerImgContainer {
+    width: calc(100% + 3rem);
+    margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+    height: 200px;
+    overflow: hidden;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.headerImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,227 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+.card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.header p {
+    color: var(--color-text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.progress {
+    height: 6px;
+    background: #e2e8f0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progressBar {
+    height: 100%;
+    background: var(--color-primary);
+    transition: width 0.3s ease;
+}
+
+.question {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.question h2 {
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.hint {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.optionsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.optionCard {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.optionCard:hover {
+    border-color: var(--color-primary);
+    background: #f0f9ff;
+}
+
+.optionCard.selected {
+    border-color: var(--color-primary);
+    background: var(--color-primary);
+    color: white;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.consentBox {
+    background: #f8fafc;
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.checkbox input {
+    margin-top: 0.25rem;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checkbox span {
+    flex: 1;
+    line-height: 1.5;
+}
+
+.privacyNote {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+.error {
+    background: #fef2f2;
+    color: var(--color-danger);
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    margin-bottom: 1.5rem;
+    border: 1px solid #fecaca;
+}
+
+.otherInputContainer {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.otherInputContainer label {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.textInput {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid #e2e8f0;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.textInput:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px rgba(15, 118, 110, 0.1);
+}
+
+.whatsappBtn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    transition: transform 0.2s;
+    z-index: 1000;
+}
+
+.whatsappBtn:hover {
+    transform: scale(1.1);
+}
+
+.whatsappIcon {
+    font-size: 2rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 1.5rem;
+    }
+
+    .optionsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+}

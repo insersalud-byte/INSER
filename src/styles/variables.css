@@ -1,0 +1,58 @@
+:root {
+  /* Brand Colors - Medical Blue Palette */
+  --color-primary: #1e40af;
+  /* Blue 800 - Navy */
+  --color-primary-light: #3b82f6;
+  /* Blue 500 - Royal Blue */
+  --color-primary-dark: #1e3a8a;
+  /* Blue 900 */
+
+  --color-accent: #0ea5e9;
+  /* Sky Blue - Freshness */
+  --color-accent-glow: rgba(14, 165, 233, 0.3);
+
+  --color-bg-main: #f8fafc;
+  --color-bg-card: #ffffff;
+  --color-text-main: #0f172a;
+  --color-text-muted: #64748b;
+
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  --blur-amt: 12px;
+
+  /* Spacing & Layout */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-main: #0f172a;
+    /* Slate 900 */
+    --color-bg-card: #1e293b;
+    /* Slate 800 */
+    --color-text-main: #f1f5f9;
+    /* Slate 100 */
+    --color-text-muted: #94a3b8;
+    /* Slate 400 */
+
+    --glass-bg: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+  }
+}

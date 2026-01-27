@@ -1,0 +1,117 @@
+.suggestionsSection {
+    margin: 2rem 0;
+}
+
+.sectionTitle {
+    font-size: 1.25rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.suggestionsGrid {
+    display: grid;
+    gap: 1rem;
+}
+
+.suggestionCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.suggestionCard.critical {
+    border-left-color: #dc2626;
+    background: linear-gradient(to right, #fef2f2 0%, white 10%);
+}
+
+.suggestionCard.warning {
+    border-left-color: #f59e0b;
+    background: linear-gradient(to right, #fffbeb 0%, white 10%);
+}
+
+.suggestionCard.motivacional {
+    border-left-color: #10b981;
+    background: linear-gradient(to right, #f0fdf4 0%, white 10%);
+}
+
+.suggestionCard.preventivo {
+    border-left-color: #3b82f6;
+    background: linear-gradient(to right, #eff6ff 0%, white 10%);
+}
+
+.suggestionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.critical .badge {
+    background: #fecaca;
+    color: #991b1b;
+}
+
+.warning .badge {
+    background: #fed7aa;
+    color: #92400e;
+}
+
+.motivacional .badge {
+    background: #bbf7d0;
+    color: #065f46;
+}
+
+.preventivo .badge {
+    background: #bfdbfe;
+    color: #1e40af;
+}
+
+.suggestionCard h3 {
+    font-size: 1.125rem;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+}
+
+.suggestionCard p {
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .actions {
+        flex-direction: column;
+    }
+}

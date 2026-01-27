@@ -1,0 +1,3 @@
+-- AGREGAR NUEVAS COLUMNAS MÉDICAS A PROFILES
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS referring_doctor TEXT;
+ALTER TABLE public.profiles ADD COLUMN IF NOT EXISTS health_insurance TEXT;

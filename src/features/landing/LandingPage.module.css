@@ -1,0 +1,530 @@
+.landingContainer {
+    min-height: 100vh;
+    background-color: var(--color-bg-main);
+    color: var(--color-text-main);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--blur-amt));
+    border-bottom: 1px solid var(--glass-border);
+    padding: 1rem 0;
+}
+
+.navContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoImg {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navLinks a {
+    color: var(--color-text-main);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.navLinks a:hover {
+    color: var(--color-primary);
+}
+
+/* Hero Section */
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 8rem 1.5rem 4rem;
+    gap: 4rem;
+    background: linear-gradient(135deg, #ffffff 0%, #eff6ff 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.heroContent {
+    flex: 1;
+    z-index: 2;
+}
+
+.badge {
+    background: #dbeafe;
+    color: var(--color-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.heroTitle {
+    font-size: clamp(3rem, 6vw, 4.5rem);
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    color: var(--color-text-main);
+}
+
+.heroTitle span {
+    color: var(--color-primary);
+}
+
+.heroSubtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.heroActions {
+    display: flex;
+    gap: 1rem;
+}
+
+.heroImageContainer {
+    flex: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.heroImg {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-xl);
+    object-fit: cover;
+}
+
+/* Sections General */
+.section {
+    padding: 6rem 0;
+}
+
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.sectionHeader h2 {
+    font-size: 2.5rem;
+    color: var(--color-primary-dark);
+    margin-bottom: 1rem;
+}
+
+/* Services Grid */
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.serviceCard {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.serviceCard:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+}
+
+.serviceImgContainer {
+    height: 220px;
+    overflow: hidden;
+}
+
+.serviceImgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imgTop {
+    object-position: top !important;
+}
+
+.serviceInfo {
+    padding: 2rem;
+}
+
+.serviceInfo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+}
+
+/* Products Section */
+.productsSection {
+    background: var(--color-primary-dark);
+    padding: 6rem 0;
+}
+
+.whiteText {
+    color: white !important;
+}
+
+.whiteMutedText {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.productCard {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    text-align: center;
+    transition: all 0.3s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardBadge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--color-accent);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+
+.productImgContainer {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1.5rem;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background: white;
+}
+
+.productImgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.productCard h4 {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.priceTag {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.productNote {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.buyBtn {
+    background: white;
+    color: var(--color-primary);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.9rem;
+    width: 100%;
+    transition: background 0.2s;
+}
+
+.buyBtn:hover {
+    background: var(--color-accent);
+    color: white;
+}
+
+/* Trust Section */
+.trustSection {
+    padding: 6rem 0;
+    background: #f1f5f9;
+}
+
+.trustContent {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.trustList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 3rem;
+    padding: 0;
+}
+
+.trustList li {
+    font-weight: 700;
+    color: var(--color-primary);
+    background: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Contact Section */
+.contactSection {
+    padding: 6rem 0;
+}
+
+.contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    background: white;
+    padding: 4rem;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-xl);
+}
+
+.contactInfo h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+}
+
+.contactItems {
+    margin-top: 2rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.contactItem strong {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+}
+
+.contactItem span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+}
+
+.form {
+    display: grid;
+    gap: 1rem;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid #e2e8f0;
+    font-size: 1rem;
+    outline: none;
+    background: #f8fafc;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border-color: var(--color-primary);
+    background: white;
+}
+
+/* Footer */
+.footer {
+    padding: 3rem 0;
+    text-align: center;
+    color: var(--color-text-muted);
+    border-top: 1px solid #e2e8f0;
+}
+
+/* Hero Floating Card */
+.heroFloatCard {
+    position: absolute;
+    bottom: 2rem;
+    left: -2rem;
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    animation: float 3s ease-in-out infinite;
+}
+
+.santiMini {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--color-primary);
+}
+
+.heroFloatCard strong {
+    display: block;
+    color: var(--color-primary);
+    font-size: 0.9rem;
+}
+
+.heroFloatCard p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+/* Santi CTA Section */
+.santiCta {
+    padding: 4rem 0;
+    background: white;
+}
+
+.santiCard {
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+    border-radius: 2rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.santiCard:hover {
+    transform: scale(1.02);
+}
+
+.santiLarge {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.santiText h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.santiText p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    max-width: 500px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 968px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 10rem;
+    }
+
+    .heroActions {
+        justify-content: center;
+    }
+
+    .heroFloatCard {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -1rem;
+    }
+
+    .santiCard {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .santiLarge {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contactGrid {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .navLinks {
+        display: none;
+    }
+}

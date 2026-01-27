@@ -1,0 +1,100 @@
+.bannerContainer {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+    z-index: 1;
+}
+
+.banner:hover {
+    transform: translateY(-2px);
+}
+
+.bannerContent {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.bannerContent h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.bannerContent p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.ctaLabel {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: white;
+    color: var(--color-primary);
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #cbd5e1;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 0;
+}
+
+.dot.active {
+    background: var(--color-primary);
+    width: 24px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+
+    .bannerContent h3 {
+        font-size: 1.25rem;
+    }
+
+    .bannerContent p {
+        font-size: 0.875rem;
+    }
+}
