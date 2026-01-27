@@ -4,9 +4,8 @@ import { useAuth } from '../auth/AuthContext';
 import Navigation from '../../components/Navigation';
 import css from './ChatAI.module.css';
 
-// MODIFICACIÓN PARA VPS: Apuntamos al servidor propio que tiene la llave segura
-// Una vez que tengas tu IP, reemplazá 'localhost' por esa IP
-const API_URL = 'http://localhost:3000/api/chat';
+// MODIFICACIÓN PARA VPS: Apuntamos al servidor propio que tiene la llave segura en Hostinger
+const API_URL = 'http://72.60.4.111:3000/api/chat';
 
 const ChatAI = () => {
     const navigate = useNavigate();
