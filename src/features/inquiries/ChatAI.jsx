@@ -1,32 +1,13 @@
-import React, { useState, useEffect, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 import Navigation from '../../components/Navigation';
 import css from './ChatAI.module.css';
 
-import OpenAI from 'openai';
 
 const ChatAI = () => {
     const navigate = useNavigate();
     const { profile } = useAuth();
-
-    // Inicialización segura para evitar errores globales
-    const openai = useMemo(() => {
-        try {
-            const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
-            if (!apiKey) {
-                console.warn("Santi Warning: VITE_OPENAI_API_KEY is missing.");
-                return null;
-            }
-            return new OpenAI({
-                apiKey: apiKey,
-                dangerouslyAllowBrowser: true
-            });
-        } catch (e) {
-            console.error("Santi Error during OpenAI init:", e);
-            return null;
-        }
-    }, []);
 
     const [messages, setMessages] = useState([
         { id: 1, type: 'bot', text: `¡Hola! Soy Santi, asesor comercial de Inser Salud. 👋 ¿Estás buscando algún equipo o accesorio específico para tu tratamiento? Estoy aquí para ayudarte a elegir la mejor opción y pasarte nuestras ofertas vigentes.` }
@@ -63,11 +44,13 @@ REGLAS:
     const handleSend = async () => {
         if (!inputValue.trim()) return;
 
-        if (!openai) {
+        const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+
+        if (!apiKey) {
             setMessages(prev => [...prev, {
                 id: Date.now(),
                 type: 'bot',
-                text: "⚠️ El sistema de IA no está configurado correctamente (falta la API Key). Por favor, contactá al soporte técnico."
+                text: "⚠️ Configuración incompleta: No se detectó la clave de API en el servidor."
             }]);
             return;
         }
@@ -78,20 +61,33 @@ REGLAS:
         setIsTyping(true);
 
         try {
-            const response = await openai.chat.completions.create({
-                model: "gpt-4o-mini",
-                messages: [
-                    { role: "system", content: SYSTEM_PROMPT },
-                    ...messages.map(m => ({
-                        role: m.type === 'user' ? 'user' : 'assistant',
-                        content: m.text
-                    })),
-                    { role: "user", content: userMsg.text }
-                ],
-                temperature: 0.7,
+            const apiResponse = await fetch('https://api.openai.com/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${apiKey}`
+                },
+                body: JSON.stringify({
+                    model: "gpt-4o-mini",
+                    messages: [
+                        { role: "system", content: SYSTEM_PROMPT },
+                        ...messages.map(m => ({
+                            role: m.type === 'user' ? 'user' : 'assistant',
+                            content: m.text
+                        })),
+                        { role: "user", content: userMsg.text }
+                    ],
+                    temperature: 0.7,
+                })
             });
 
-            const botResponse = response.choices[0].message.content;
+            const data = await apiResponse.json();
+
+            if (!apiResponse.ok) {
+                throw new Error(data.error?.message || 'Error en la API de OpenAI');
+            }
+
+            const botResponse = data.choices[0].message.content;
             setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: botResponse }]);
         } catch (err) {
             console.error("AI Error:", err);
@@ -99,7 +95,7 @@ REGLAS:
             setMessages(prev => [...prev, {
                 id: Date.now() + 1,
                 type: 'bot',
-                text: `⚠️ Error de conexión con Santi: ${errorMessage}. Por favor, verificá la consola del navegador o las variables de entorno.`
+                text: `⚠️ Santi no pudo responder: ${errorMessage}`
             }]);
         } finally {
             setIsTyping(false);
