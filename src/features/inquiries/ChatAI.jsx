@@ -6,18 +6,23 @@ import css from './ChatAI.module.css';
 
 import OpenAI from 'openai';
 
-// Configuración de OpenAI (usando la llave configurada en Hostinger/Vite)
-const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
-console.log("Santi Debug - Key exists:", !!API_KEY);
-
-const openai = new OpenAI({
-    apiKey: API_KEY,
-    dangerouslyAllowBrowser: true
-});
-
 const ChatAI = () => {
     const navigate = useNavigate();
     const { profile } = useAuth();
+
+    // Inicialización segura para evitar errores globales
+    const openai = React.useMemo(() => {
+        const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+        if (!apiKey) {
+            console.warn("Santi Warning: VITE_OPENAI_API_KEY is missing.");
+            return null;
+        }
+        return new OpenAI({
+            apiKey: apiKey,
+            dangerouslyAllowBrowser: true
+        });
+    }, []);
+
     const [messages, setMessages] = useState([
         { id: 1, type: 'bot', text: `¡Hola! Soy Santi, asesor comercial de Inser Salud. 👋 ¿Estás buscando algún equipo o accesorio específico para tu tratamiento? Estoy aquí para ayudarte a elegir la mejor opción y pasarte nuestras ofertas vigentes.` }
     ]);
@@ -52,6 +57,15 @@ REGLAS:
 
     const handleSend = async () => {
         if (!inputValue.trim()) return;
+
+        if (!openai) {
+            setMessages(prev => [...prev, {
+                id: Date.now(),
+                type: 'bot',
+                text: "⚠️ El sistema de IA no está configurado correctamente (falta la API Key). Por favor, contactá al soporte técnico."
+            }]);
+            return;
+        }
 
         const userMsg = { id: Date.now(), type: 'user', text: inputValue };
         setMessages(prev => [...prev, userMsg]);
