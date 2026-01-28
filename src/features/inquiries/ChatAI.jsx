@@ -4,8 +4,13 @@ import { useAuth } from '../auth/AuthContext';
 import Navigation from '../../components/Navigation';
 import css from './ChatAI.module.css';
 
-// MODIFICACIÓN PARA VPS: Apuntamos al servidor propio que tiene la llave segura en Hostinger
-const API_URL = 'http://72.60.4.111:3000/api/chat';
+import OpenAI from 'openai';
+
+// Configuración de OpenAI (usando la llave configurada en Hostinger/Vite)
+const openai = new OpenAI({
+    apiKey: import.meta.env.VITE_OPENAI_API_KEY,
+    dangerouslyAllowBrowser: true
+});
 
 const ChatAI = () => {
     const navigate = useNavigate();
@@ -37,8 +42,9 @@ PRODUCTOS Y PRECIOS:
 
 REGLAS:
 - Siempre mencionar que debajo de la ficha técnica hay más marcas/modelos.
-- Derivar a WhatsApp para asesoramiento personalizado.
+- Derivar a WhatsApp para asesoramiento personalizado (Número: +54 9 351 206-5320).
 - Ser cálido, profesional y humanizado.
+- Si preguntan por alquiler, ofrecer la opción y derivar a WhatsApp.
 `;
 
     const handleSend = async () => {
@@ -50,22 +56,21 @@ REGLAS:
         setIsTyping(true);
 
         try {
-            const response = await fetch(API_URL, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    messages: messages.map(m => ({
+            const response = await openai.chat.completions.create({
+                model: "gpt-4o-mini",
+                messages: [
+                    { role: "system", content: SYSTEM_PROMPT },
+                    ...messages.map(m => ({
                         role: m.type === 'user' ? 'user' : 'assistant',
                         content: m.text
-                    })).concat([{ role: 'user', content: userMsg.text }]),
-                    systemPrompt: SYSTEM_PROMPT
-                })
+                    })),
+                    { role: "user", content: userMsg.text }
+                ],
+                temperature: 0.7,
             });
 
-            const data = await response.json();
-            if (!response.ok) throw new Error(data.error || 'Error en Santi');
-
-            setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: data.message }]);
+            const botResponse = response.choices[0].message.content;
+            setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: botResponse }]);
         } catch (err) {
             console.error("AI Error:", err);
             setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: "Lo siento, tuve un pequeño problema de conexión. ¿Podrías repetirme eso?" }]);
