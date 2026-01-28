@@ -76,7 +76,12 @@ REGLAS:
             setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: botResponse }]);
         } catch (err) {
             console.error("AI Error:", err);
-            setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: "Lo siento, tuve un pequeño problema de conexión. ¿Podrías repetirme eso?" }]);
+            const errorMessage = err.message || "Error desconocido";
+            setMessages(prev => [...prev, {
+                id: Date.now() + 1,
+                type: 'bot',
+                text: `⚠️ Error de conexión con Santi: ${errorMessage}. Por favor, verificá la consola del navegador o las variables de entorno.`
+            }]);
         } finally {
             setIsTyping(false);
         }
