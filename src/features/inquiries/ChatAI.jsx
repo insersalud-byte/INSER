@@ -7,8 +7,11 @@ import css from './ChatAI.module.css';
 import OpenAI from 'openai';
 
 // Configuración de OpenAI (usando la llave configurada en Hostinger/Vite)
+const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
+console.log("Santi Debug - Key exists:", !!API_KEY);
+
 const openai = new OpenAI({
-    apiKey: import.meta.env.VITE_OPENAI_API_KEY,
+    apiKey: API_KEY,
     dangerouslyAllowBrowser: true
 });
 
