@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 import Navigation from '../../components/Navigation';
@@ -11,16 +11,21 @@ const ChatAI = () => {
     const { profile } = useAuth();
 
     // Inicialización segura para evitar errores globales
-    const openai = React.useMemo(() => {
-        const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
-        if (!apiKey) {
-            console.warn("Santi Warning: VITE_OPENAI_API_KEY is missing.");
+    const openai = useMemo(() => {
+        try {
+            const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+            if (!apiKey) {
+                console.warn("Santi Warning: VITE_OPENAI_API_KEY is missing.");
+                return null;
+            }
+            return new OpenAI({
+                apiKey: apiKey,
+                dangerouslyAllowBrowser: true
+            });
+        } catch (e) {
+            console.error("Santi Error during OpenAI init:", e);
             return null;
         }
-        return new OpenAI({
-            apiKey: apiKey,
-            dangerouslyAllowBrowser: true
-        });
     }, []);
 
     const [messages, setMessages] = useState([
