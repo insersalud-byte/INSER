@@ -9,7 +9,7 @@ import AIFloat from './components/AIFloat';
 function App() {
   return (
     <div className="app-container">
-      {/* <AIFloat /> */}
+      <AIFloat />
       <Routes>
         {/* Main Entry: Landing Page */}
         <Route path="/" element={<LandingPage />} />
