@@ -113,7 +113,7 @@ const LandingPage = () => {
                             <p>¿Te ayudo a elegir tu equipo?</p>
                         </div>
                     </div>
-                    <img src="/artifacts/medico_sonriendo_estetoscopio_1769206037424.png" alt="Profesional Inser Salud" className={css.heroImg} />
+                    <img src="/artifacts/medico_sonriendo_estetoscopio_1769206037424.png" alt="Inser Salud" className={css.heroImg} />
                 </div>
             </header>
 

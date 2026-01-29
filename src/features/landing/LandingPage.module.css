@@ -564,3 +564,19 @@
         transform: translateY(0);
     }
 }
+
+.ctaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    height: 100%;
+}
+
+.ctaText {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+}
