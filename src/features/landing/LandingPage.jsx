@@ -91,7 +91,7 @@ const LandingPage = () => {
             <header className={css.hero}>
                 <div className={css.heroContent}>
                     <div className={css.badge}>Distribuidor Oficial Certificado</div>
-                    <h1 className={css.heroTitle}><span>INSER SALUD</span></h1>
+                    <h1 className={css.heroTitle}><span>Inser Salud</span></h1>
                     <p className={css.heroSubtitle}>
                         Especialistas en medicina respiratoria en Córdoba. Alquiler y venta de equipos
                         con seguimiento profesional y atención personalizada.
