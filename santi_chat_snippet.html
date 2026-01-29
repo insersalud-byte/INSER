@@ -1,0 +1,77 @@
+<script>
+    (function () {
+        // === CONFIGURACIÓN ===
+        // Pegá acá tu URL de Webhook de n8n o la que te proporcionen
+        const WEBHOOK_URL = "PEGAR_TU_WEBHOOK_URL_AQUI";
+        const PORTAL_ID = "inser-n8n-portal-custom";
+
+        // 1) Estilos para que el chat se vea bien en celu y compu (sin cortes)
+        var css = `
+    :root{
+      --chat--window--width: 400px;
+      --chat--window--height: 600px; /* Altura fija cómoda */
+      --chat--border-radius: 20px;
+      --chat--primary-color: #007bff; /* Color azul Inser Salud */
+    }
+    @media (max-width:640px){
+      :root{
+        --chat--window--width: 100vw;
+        --chat--window--height: 100dvh; /* Altura dinámica móvil */
+        --chat--border-radius: 0px;
+      }
+    }
+    /* Forzar que el chat flote sobre todo */
+    #n8n-chat, .n8n-chat {
+      position: fixed !important;
+      bottom: 20px !important;
+      right: 20px !important;
+      z-index: 999999 !important;
+    }
+  `;
+        var style = document.createElement('style');
+        style.textContent = css;
+        document.head.appendChild(style);
+
+        // 2) Cargar la librería del chat de n8n
+        var s = document.createElement('script');
+        s.src = "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.umd.js";
+        s.async = true;
+        s.onload = init;
+        document.head.appendChild(s);
+
+        function init() {
+            // Crear el contenedor si no existe
+            let el = document.getElementById(PORTAL_ID);
+            if (!el) {
+                el = document.createElement("div");
+                el.id = PORTAL_ID;
+                document.body.appendChild(el);
+            }
+
+            // Iniciar el chat
+            if (window.n8nChat && typeof window.n8nChat.createChat === "function") {
+                window.n8nChat.createChat({
+                    target: "#" + PORTAL_ID,
+                    mode: "window",
+                    webhookUrl: WEBHOOK_URL,
+                    loadPreviousSession: true,
+                    defaultLanguage: "es",
+                    i18n: {
+                        es: {
+                            title: "Inser Salud Assistant",
+                            subtitle: "Atención 24/7",
+                            getStarted: "Hola 👋",
+                            inputPlaceholder: "Escribí tu mensaje..."
+                        }
+                    },
+                    initialMessages: [
+                        "👋 ¡Hola! Soy el asistente virtual de Inser Salud.",
+                        "¿En qué te puedo ayudar?"
+                    ],
+                });
+            } else {
+                console.error("No se pudo cargar el chat de n8n.");
+            }
+        }
+    })();
+</script>
