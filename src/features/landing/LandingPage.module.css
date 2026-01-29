@@ -528,3 +528,39 @@
         display: none;
     }
 }
+
+.successMessage {
+    text-align: center;
+    padding: 2rem;
+    animation: fadeIn 0.5s ease;
+}
+
+.successMessage h3 {
+    color: var(--color-primary);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.successMessage p {
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+}
+
+.errorText {
+    color: #ef4444;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: -0.5rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

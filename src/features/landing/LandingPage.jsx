@@ -1,10 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { supabase } from '../../services/supabase';
 import Button from '../../components/ui/Button';
 import css from './LandingPage.module.css';
 
 const LandingPage = () => {
     const navigate = useNavigate();
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState('idle'); // 'idle', 'success', 'error'
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+        setSubmitStatus('idle');
+
+        try {
+            const { error } = await supabase
+                .from('leads')
+                .insert([{
+                    full_name: formData.name,
+                    email: formData.email,
+                    message: formData.message
+                }]);
+
+            if (error) throw error;
+
+            setSubmitStatus('success');
+            setFormData({ name: '', email: '', message: '' });
+        } catch (err) {
+            console.error('Error saving lead:', err);
+            setSubmitStatus('error');
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
 
     const saleOffers = [
         {
@@ -204,12 +243,48 @@ const LandingPage = () => {
                             </div>
                         </div>
                         <div className={css.contactFormContainer}>
-                            <form className={css.form} onSubmit={(e) => e.preventDefault()}>
-                                <input type="text" placeholder="Tu Nombre" required />
-                                <input type="email" placeholder="Email" required />
-                                <textarea placeholder="¿Cuál es tu consulta?" rows="4" required></textarea>
-                                <Button className="w-full">Enviar Consulta</Button>
-                            </form>
+                            {submitStatus === 'success' ? (
+                                <div className={css.successMessage}>
+                                    <h3>🎉 ¡Mensaje Recibido!</h3>
+                                    <p>Gracias por contactarte con Inser Salud. Un asesor técnico se comunicará con vos a la brevedad.</p>
+                                    <Button onClick={() => setSubmitStatus('idle')}>Enviar otro mensaje</Button>
+                                </div>
+                            ) : (
+                                <form className={css.form} onSubmit={handleSubmit}>
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        placeholder="Tu Nombre"
+                                        value={formData.name}
+                                        onChange={handleInputChange}
+                                        required
+                                    />
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        placeholder="Email"
+                                        value={formData.email}
+                                        onChange={handleInputChange}
+                                        required
+                                    />
+                                    <textarea
+                                        name="message"
+                                        placeholder="¿Cuál es tu consulta?"
+                                        rows="4"
+                                        value={formData.message}
+                                        onChange={handleInputChange}
+                                        required
+                                    ></textarea>
+                                    {submitStatus === 'error' && <p className={css.errorText}>❌ Hubo un error. Por favor, reintentá o escribinos por WhatsApp.</p>}
+                                    <Button
+                                        type="submit"
+                                        className="w-full"
+                                        disabled={isSubmitting}
+                                    >
+                                        {isSubmitting ? 'Enviando...' : 'Enviar Consulta'}
+                                    </Button>
+                                </form>
+                            )}
                         </div>
                     </div>
                 </div>
