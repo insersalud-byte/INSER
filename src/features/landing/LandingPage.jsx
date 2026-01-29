@@ -8,6 +8,13 @@ const LandingPage = () => {
 
     const saleOffers = [
         {
+            name: 'Máscara Nasal RESCOMF',
+            price: '$50.000',
+            img: '/artifacts/mascara_rescomf.jpg',
+            link: 'https://insersalud.com/tienda',
+            badge: 'OFERTA'
+        },
+        {
             name: 'CPAP BMC G2S',
             price: '$499.000',
             img: '/artifacts/cpap_bmc_g2s.jpg',
