@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { supabase } from '../../services/supabase';
 import Button from '../../components/ui/Button';
 import css from './LandingPage.module.css';
 
