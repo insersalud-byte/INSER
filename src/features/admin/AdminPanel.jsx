@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
+import { supabase } from '../../services/supabase';
 import css from './AdminPanel.module.css';
 
 import AdminDashboard from './components/AdminDashboard';
 import UsersList from './components/UsersList';
 import AdminSettings from './components/AdminSettings';
 import BannersManager from './components/BannersManager';
+import ChatLogs from './ChatLogs';
 
 const AdminPanel = () => {
     const { user, isAdmin } = useAuth();
@@ -29,6 +31,7 @@ const AdminPanel = () => {
                     <Link to="/admin/users" className={css.navItem}>👥 Usuarios</Link>
                     <Link to="/admin/settings" className={css.navItem}>⚙️ Configuración</Link>
                     <Link to="/admin/banners" className={css.navItem}>🖼️ Banners</Link>
+                    <Link to="/admin/chats" className={css.navItem}>💬 Chats Santi</Link>
 
                     <div className={css.navDivider} />
 
@@ -57,6 +60,7 @@ const AdminPanel = () => {
                     <Route path="/users" element={<UsersList />} />
                     <Route path="/settings" element={<AdminSettings />} />
                     <Route path="/banners" element={<BannersManager />} />
+                    <Route path="/chats" element={<ChatLogs />} />
                 </Routes>
             </main>
         </div>

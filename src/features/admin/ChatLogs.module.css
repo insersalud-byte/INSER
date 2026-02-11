@@ -1,0 +1,241 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f8fafc;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #1a202c;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 320px;
+    background-color: white;
+    border-right: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.02);
+}
+
+.sidebarHeader {
+    padding: 1.5rem 1rem;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+}
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.headerTop h2 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.searchContainer {
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #f1f5f9;
+    margin: 1rem;
+    border-radius: 8px;
+    color: #64748b;
+}
+
+.searchContainer input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    font-size: 0.875rem;
+}
+
+.conversationList {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.statusMsg {
+    padding: 2rem;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.875rem;
+}
+
+.conversationItem {
+    padding: 1rem;
+    border-bottom: 1px solid #f1f5f9;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.conversationItem:hover {
+    background-color: #f8fafc;
+}
+
+.conversationItem.active {
+    background-color: #eff6ff;
+    border-left: 4px solid #3b82f6;
+}
+
+.convHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #334155;
+}
+
+.time {
+    font-size: 0.75rem;
+    color: #64748b;
+}
+
+.convMeta {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    color: #94a3b8;
+}
+
+.arrow {
+    position: absolute;
+    right: 1rem;
+    bottom: 1.2rem;
+    color: #cbd5e1;
+}
+
+/* Chat Area */
+.chatArea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatHeader {
+    padding: 1rem 2rem;
+    background-color: white;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatTitle h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #0f172a;
+}
+
+.chatTitle small {
+    color: #94a3b8;
+}
+
+.refreshBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    color: #475569;
+}
+
+.refreshBtn:hover {
+    background-color: #e2e8f0;
+}
+
+.messagesContainer {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: #fdfdfd;
+}
+
+.message {
+    max-width: 80%;
+    padding: 1rem;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.userMessage {
+    align-self: flex-end;
+    background-color: #2563eb;
+    color: white;
+    border-bottom-right-radius: 2px;
+}
+
+.botMessage {
+    align-self: flex-start;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    color: #1e293b;
+    border-bottom-left-radius: 2px;
+}
+
+.msgHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+
+.msgHeader strong {
+    font-size: 0.85rem;
+}
+
+.msgHeader small {
+    margin-left: auto;
+    opacity: 0.7;
+}
+
+.msgContent {
+    line-height: 1.6;
+    white-space: pre-wrap;
+    font-size: 0.95rem;
+}
+
+.emptyState {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #94a3b8;
+    text-align: center;
+}
+
+.emptyIcon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.2;
+}
+
+.emptyState h3 {
+    margin: 0;
+    color: #64748b;
+}

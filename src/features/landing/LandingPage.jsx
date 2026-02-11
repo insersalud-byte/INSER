@@ -18,13 +18,13 @@ const LandingPage = () => {
             name: 'CPAP BMC G2S',
             price: '$499.000',
             img: '/artifacts/cpap_bmc_g2s.jpg',
-            link: 'https://insersalud.com/cpap-bmc-g2s1'
+            link: 'https://insersalud.com/cpap-bmc-g2s'
         },
         {
             name: 'BiPAP BMC G3',
             price: '$1.300.000',
             img: '/artifacts/bipap_bmc_g3.jpg',
-            link: 'https://insersalud.com/bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador'
+            link: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador'
         },
         {
             name: 'Máscara Nasal DreamWear',
@@ -50,7 +50,7 @@ const LandingPage = () => {
             name: 'KINGON P2-S3',
             price: '$2.735.400',
             img: '/artifacts/kingon_p2_s3.jpg',
-            link: '#',
+            link: 'https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico',
             badge: 'EL MÁS LIVIANO'
         }
     ];

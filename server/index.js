@@ -15,19 +15,28 @@ app.post('/api/chat', async (req, res) => {
     try {
         const { messages, systemPrompt } = req.body;
 
+        if (!process.env.OPENAI_API_KEY) {
+            console.error('ERROR: OPENAI_API_KEY no configurada en el servidor');
+            return res.status(500).json({ error: 'Configuración del servidor incompleta (falta API Key)' });
+        }
+
         const response = await openai.chat.completions.create({
             model: "gpt-4o-mini",
             messages: [
                 { role: "system", content: systemPrompt },
-                ...messages
+                ...(messages || [])
             ],
             temperature: 0.7,
         });
 
         res.json({ message: response.choices[0].message.content });
     } catch (error) {
-        console.error('AI Error:', error);
-        res.status(500).json({ error: 'Santi tiene problemas técnicos' });
+        console.error('AI Error:', error.message);
+        if (error.status === 401) {
+            res.status(401).json({ error: 'La clave de API de Santi es inválida o ha expirado' });
+        } else {
+            res.status(500).json({ error: 'Santi tiene problemas técnicos' });
+        }
     }
 });
 

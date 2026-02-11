@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth/AuthContext';
 import Navigation from '../../components/Navigation';
+import { supabase } from '../../services/supabase';
 import css from './ChatAI.module.css';
 
 
@@ -14,6 +15,7 @@ const ChatAI = () => {
     ]);
     const [inputValue, setInputValue] = useState('');
     const [isTyping, setIsTyping] = useState(false);
+    const [conversationId, setConversationId] = useState(null);
     const scrollRef = useRef(null);
 
     useEffect(() => {
@@ -54,12 +56,12 @@ Frase obligatoria:
 ---
 
 ## 🛒 Productos Principales – Precios en Pesos (NO MODIFICAR)
-1. CPAP Yuwind / BMC G2S – $499.000  
-2. BiPAP BMC G3 – $1.300.000  
+1. CPAP Yuwind / BMC G2S – $499.000 (Link: https://insersalud.com/cpap-bmc-g2s)
+2. BiPAP BMC G3 – $1.300.000 (Link: https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador)
 3. Máscara Nasal DreamWear – $223.000  
 4. Máscara Nasobucal DreamWear – $229.000  
 5. Concentrador GCE Zen-O – $5.451.885  
-6. Concentrador KINGON P2-S3 – $2.735.400  
+6. Concentrador KINGON P2-S3 – $2.735.400 (Link: https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico)
 7. Máscara nasal recomf CPAP/BIPAP – $50.000
 
 ---
@@ -193,42 +195,78 @@ Frase modelo:
 - WhatsApp es el **canal obligatorio de conversión**
 `;
 
+    // Inicializar conversación en BD
+    useEffect(() => {
+        const initConversation = async () => {
+            try {
+                const { data: { user } } = await supabase.auth.getUser();
+                const { data, error } = await supabase
+                    .from('chat_conversations')
+                    .insert([{
+                        user_id: user?.id || null,
+                        user_name: user?.email || 'Visitante',
+                        started_at: new Date()
+                    }])
+                    .select()
+                    .single();
+
+                if (data) {
+                    setConversationId(data.id);
+                    // Guardar el mensaje inicial de Santi si se desea, o dejarlo solo visual
+                }
+            } catch (error) {
+                console.error('Error creando conversación:', error);
+            }
+        };
+
+        initConversation();
+    }, []);
+
     const handleSend = async () => {
         if (!inputValue.trim()) return;
 
-        const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+        const apiUrl = import.meta.env.VITE_API_URL || '';
 
-        if (!apiKey) {
-            setMessages(prev => [...prev, {
-                id: Date.now(),
-                type: 'bot',
-                text: "⚠️ Configuración incompleta: No se detectó la clave de API en el servidor."
-            }]);
-            return;
-        }
-
+        // 1. Agregar mensaje del usuario al chat visual
         const userMsg = { id: Date.now(), type: 'user', text: inputValue };
         setMessages(prev => [...prev, userMsg]);
         setInputValue('');
         setIsTyping(true);
 
+        // Guardar mensaje del usuario en BD
+        if (conversationId) {
+            supabase.from('chat_messages').insert([{
+                conversation_id: conversationId,
+                role: 'user',
+                content: userMsg.text
+            }]).then(({ error }) => {
+                if (error) console.error('Error guardando msg user:', error);
+            });
+        }
+
         try {
-            const apiResponse = await fetch('https://api.openai.com/v1/chat/completions', {
+            // 2. Llamar al Proxy de Santi (o OpenAI directo si no hay proxy, pero mejor proxy)
+            const endpoint = apiUrl ? `${apiUrl}/api/chat` : 'https://api.openai.com/v1/chat/completions';
+
+            // Si llamamos directo a OpenAI (fallback local), necesitamos la KEY. 
+            // Pero en PROD siempre queremos ir por el PROXY.
+            const headers = { 'Content-Type': 'application/json' };
+            if (!apiUrl) {
+                const localKey = import.meta.env.VITE_OPENAI_API_KEY;
+                if (!localKey) throw new Error("Falta VITE_API_URL o VITE_OPENAI_API_KEY");
+                headers['Authorization'] = `Bearer ${localKey}`;
+            }
+
+            const apiResponse = await fetch(endpoint, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${apiKey}`
-                },
+                headers: headers,
                 body: JSON.stringify({
                     model: "gpt-4o-mini",
-                    messages: [
-                        { role: "system", content: SYSTEM_PROMPT },
-                        ...messages.map(m => ({
-                            role: m.type === 'user' ? 'user' : 'assistant',
-                            content: m.text
-                        })),
-                        { role: "user", content: userMsg.text }
-                    ],
+                    systemPrompt: SYSTEM_PROMPT, // El proxy espera systemPrompt por separado usualmente
+                    messages: messages.map(m => ({
+                        role: m.type === 'user' ? 'user' : 'assistant',
+                        content: m.text
+                    })).concat({ role: "user", content: userMsg.text }),
                     temperature: 0.7,
                 })
             });
@@ -240,7 +278,21 @@ Frase modelo:
             }
 
             const botResponse = data.choices[0].message.content;
+
+            // 3. Agregar respuesta de Santi al chat
             setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: botResponse }]);
+
+            // Guardar respuesta del bot en BD
+            if (conversationId) {
+                supabase.from('chat_messages').insert([{
+                    conversation_id: conversationId,
+                    role: 'bot',
+                    content: botResponse
+                }]).then(({ error }) => {
+                    if (error) console.error('Error guardando msg bot:', error);
+                });
+            }
+
         } catch (err) {
             console.error("AI Error:", err);
             const errorMessage = err.message || "Error desconocido";
