@@ -245,16 +245,24 @@ Frase modelo:
         }
 
         try {
-            // 2. Llamar al Proxy de Santi (o OpenAI directo si no hay proxy, pero mejor proxy)
-            const endpoint = apiUrl ? `${apiUrl}/api/chat` : 'https://api.openai.com/v1/chat/completions';
+            // 2. Determinar el endpoint. Si estamos en producción (inser.shop), 
+            // intentamos usar la ruta relativa /api/chat.
+            let endpoint = '/api/chat';
 
-            // Si llamamos directo a OpenAI (fallback local), necesitamos la KEY. 
-            // Pero en PROD siempre queremos ir por el PROXY.
+            if (apiUrl && !apiUrl.includes('localhost')) {
+                endpoint = `${apiUrl}/api/chat`;
+            } else if (!apiUrl && window.location.hostname === 'localhost') {
+                // Si estamos en local y no hay apiUrl, podemos intentar localhost:3000
+                endpoint = 'http://localhost:3000/api/chat';
+            }
+
+            // Si por alguna razón queremos forzar OpenAI directo (no recomendado en prod)
             const headers = { 'Content-Type': 'application/json' };
-            if (!apiUrl) {
+            if (!apiUrl && window.location.hostname === 'localhost') {
                 const localKey = import.meta.env.VITE_OPENAI_API_KEY;
-                if (!localKey) throw new Error("Falta VITE_API_URL o VITE_OPENAI_API_KEY");
-                headers['Authorization'] = `Bearer ${localKey}`;
+                if (localKey && localKey !== 'SOLO_USAR_EN_DESARROLLO_LOCAL_SI_ES_NECESARIO') {
+                    headers['Authorization'] = `Bearer ${localKey}`;
+                }
             }
 
             const apiResponse = await fetch(endpoint, {
