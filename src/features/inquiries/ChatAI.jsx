@@ -176,7 +176,6 @@ Frase modelo:
 `;
 
 const ChatAI = () => {
-    const { profile } = useAuth();
     const [messages, setMessages] = useState([
         { id: 1, type: 'bot', text: `¡Hola! Soy Santi, asesor comercial de Inser Salud. 👋 ¿Estás buscando algún equipo o accesorio específico para tu tratamiento? Estoy aquí para ayudarte a elegir la mejor opción y pasarte nuestras ofertas vigentes.` }
     ]);
@@ -199,7 +198,7 @@ const ChatAI = () => {
                     started_at: new Date()
                 }]).select().single();
                 if (data) setConversationId(data.id);
-            } catch (error) { console.error('Error:', error); }
+            } catch (error) { console.error('Error init:', error); }
         };
         initConversation();
     }, []);
@@ -222,40 +221,73 @@ const ChatAI = () => {
         }
 
         try {
-            // Buscamos el proxy en la misma web
+            // USAMOS RUTA RELATIVA PARA EL PROXY
             const endpoint = '/api/chat';
+
+            // CONSTRUIMOS EL BODY EXACTO QUE ESPERA OPENAI
+            // Esto funcionará si el proxy es un simple "pass-through"
+            const openAiBody = {
+                model: "gpt-4o-mini",
+                messages: [
+                    { role: "system", content: SYSTEM_PROMPT },
+                    ...history.map(m => ({
+                        role: m.type === 'user' ? 'user' : 'assistant',
+                        content: m.text
+                    }))
+                ],
+                temperature: 0.7
+            };
 
             const apiResponse = await fetch(endpoint, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    // Dual compatibility
-                    systemPrompt: SYSTEM_PROMPT,
-                    messages: history.map(m => ({
-                        role: m.type === 'user' ? 'user' : 'assistant',
-                        content: m.text
-                    }))
-                })
+                body: JSON.stringify(openAiBody)
             });
 
             const data = await apiResponse.json();
-            if (!apiResponse.ok) throw new Error(data.error || 'Error en Santi');
+
+            if (!apiResponse.ok) {
+                // Si falla por "Unrecognized argument: systemPrompt", 
+                // reintentamos con el formato viejo de nuestro proxy
+                if (data.error?.message?.includes('systemPrompt')) {
+                    const proxyOldBody = {
+                        systemPrompt: SYSTEM_PROMPT,
+                        messages: history.map(m => ({
+                            role: m.type === 'user' ? 'user' : 'assistant',
+                            content: m.text
+                        }))
+                    };
+                    const retryResponse = await fetch(endpoint, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(proxyOldBody)
+                    });
+                    const retryData = await retryResponse.json();
+                    if (!retryResponse.ok) throw new Error(retryData.error || 'Error en Santi');
+                    return finishResponse(retryData.message || retryData.choices?.[0]?.message?.content);
+                }
+                throw new Error(data.error?.message || data.error || 'Santi tiene problemas técnicos');
+            }
 
             const botResponse = data.message || data.choices?.[0]?.message?.content;
+            finishResponse(botResponse);
 
-            setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: botResponse }]);
-
-            if (conversationId) {
-                supabase.from('chat_messages').insert([{
-                    conversation_id: conversationId,
-                    role: 'bot',
-                    content: botResponse
-                }]).catch(e => { });
-            }
         } catch (err) {
+            console.error("AI Error:", err);
             setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: `⚠️ Santi: ${err.message}` }]);
         } finally {
             setIsTyping(false);
+        }
+    };
+
+    const finishResponse = (text) => {
+        setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text }]);
+        if (conversationId) {
+            supabase.from('chat_messages').insert([{
+                conversation_id: conversationId,
+                role: 'bot',
+                content: text
+            }]).catch(e => { });
         }
     };
 
