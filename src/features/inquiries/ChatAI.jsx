@@ -4,11 +4,7 @@ import Navigation from '../../components/Navigation';
 import { supabase } from '../../services/supabase';
 import css from './ChatAI.module.css';
 
-const SYSTEM_PROMPT = `
-# 🫁 PROMPT – ASISTENTE COMERCIAL IA INSER SALUD (VERSIÓN FINAL ÚNICA)
-## 🎭 Rol: Santi, Asesor Comercial de INSER SALUD.
-...(Instrucciones comerciales de Santi)...
-`;
+const SYSTEM_PROMPT = `(Prompt simplificado para el frontend - el completo está en el servidor)`;
 
 const ChatAI = () => {
     const [messages, setMessages] = useState([
@@ -57,56 +53,26 @@ const ChatAI = () => {
         }
 
         try {
-            const endpoint = '/api/chat';
+            // IMPORTANTE: Esta URL debe ser reemplazada con la URL de tu proyecto de Vercel
+            // Después del deploy, será algo como: https://inser-salud-app.vercel.app/api/chat
+            const VERCEL_URL = import.meta.env.VITE_VERCEL_API_URL || 'https://YOUR-PROJECT.vercel.app/api/chat';
 
-            // FORMATO 1: Estándar OpenAI (El más probable que funcione con un proxy moderno)
-            const openAiFormat = {
-                model: "gpt-4o-mini",
-                messages: [
-                    { role: "system", content: SYSTEM_PROMPT },
-                    ...history.map(m => ({
-                        role: m.type === 'user' ? 'user' : 'assistant',
-                        content: m.text
-                    }))
-                ],
-                temperature: 0.7
-            };
-
-            let response = await fetch(endpoint, {
+            const response = await fetch(VERCEL_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(openAiFormat)
-            });
-
-            let data = await response.json();
-
-            // Si falla por "Unrecognized argument: systemPrompt", significa que el proxy 
-            // está esperando el prompt en una propiedad dedicada pero NO lo filtra antes de enviarlo a OpenAI.
-            // Esto es contradictorio, pero vamos a intentar el formato de nuestro proxy viejo SI Y SOLO SI falla el primero.
-            if (!response.ok && data.error?.message?.includes('systemPrompt')) {
-                // Si llegamos aquí, el proxy NO sabe manejar el formato OpenAI estándar.
-                // Vamos a intentar enviarlo como esperaba el proxy de la Versión 316.
-                const proxyFormat = {
+                body: JSON.stringify({
                     messages: history.map(m => ({
                         role: m.type === 'user' ? 'user' : 'assistant',
                         content: m.text
-                    })),
-                    // Nota: Si el proxy es un pass-through fallará de nuevo.
-                    // Pero si el proxy es el que escribí en Step 316, funcionará.
-                    systemPrompt: SYSTEM_PROMPT
-                };
+                    }))
+                })
+            });
 
-                response = await fetch(endpoint, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(proxyFormat)
-                });
-                data = await response.json();
-            }
+            const data = await response.json();
 
-            if (!response.ok) throw new Error(data.error?.message || data.error || 'Error de comunicación');
+            if (!response.ok) throw new Error(data.error || 'Error de comunicación');
 
-            const botResponse = data.message || data.choices?.[0]?.message?.content;
+            const botResponse = data.message;
 
             setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: botResponse }]);
 
@@ -123,7 +89,7 @@ const ChatAI = () => {
             setMessages(prev => [...prev, {
                 id: Date.now() + 1,
                 type: 'bot',
-                text: `⚠️ Error de conexión: ${err.message}. Por favor, asegurate de que el servidor en Hostinger esté activo.`
+                text: `⚠️ Error de conexión: ${err.message}. Por favor, intenta de nuevo.`
             }]);
         } finally {
             setIsTyping(false);
