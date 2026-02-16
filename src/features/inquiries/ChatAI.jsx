@@ -55,7 +55,7 @@ const ChatAI = () => {
         try {
             // IMPORTANTE: Esta URL debe ser reemplazada con la URL de tu proyecto de Vercel
             // Después del deploy, será algo como: https://inser-salud-app.vercel.app/api/chat
-            const VERCEL_URL = import.meta.env.VITE_VERCEL_API_URL || 'https://YOUR-PROJECT.vercel.app/api/chat';
+            const VERCEL_URL = import.meta.env.VITE_VERCEL_API_URL || '/api/chat';
 
             const response = await fetch(VERCEL_URL, {
                 method: 'POST',
