@@ -14,17 +14,16 @@
 - **Triage** (`/triage`) - Cuestionario de 5 pasos para ubicar al usuario
 - **Onboarding** (`/onboarding`) - Configuración ramificada según tratamiento
 
-### 3. Componentes Creados
-- `WelcomePage.jsx` - Pantalla de bienvenida
-- `LoginPage.jsx` - Login con OTP
-- `TriagePage.jsx` - Cuestionario de triage
-- `OnboardingWizard.jsx` - Configuración de tratamiento
-- Botón WhatsApp fijo en todas las pantallas
+### 3. Dashboard y Santi AI
+- **Dashboard funcional** con módulos dinámicos y estética premium ✅
+- **Santi Agent Sucursal Integration** (v2026.3.0) ✅
+- **Motor de sugerencias** (CRITICAL/WARNING/MOTIVACIONAL) con visuales mejorados ✅
+- **Sistema de banners** administrables y segmentados ✅
+- Botón WhatsApp flotante premium ✅
 
 ## 📋 Próximos Pasos
 
 ### Paso 1: Configurar Supabase
-
 1. Ve a [https://supabase.com/dashboard](https://supabase.com/dashboard)
 2. Selecciona tu proyecto
 3. Ve a **SQL Editor**
@@ -32,36 +31,21 @@
 5. Ejecuta el SQL (Run o Ctrl+Enter)
 
 ### Paso 2: Crear Usuario Admin
-
 Ejecuta este SQL en Supabase para crear tu usuario admin:
-
 ```sql
--- Primero, crea el usuario en Auth (usa el dashboard de Supabase: Authentication > Users > Add User)
+-- Primero, crea el usuario en Auth (Authentication > Users > Add User)
 -- Luego, asigna el rol de admin:
 INSERT INTO user_roles (user_id, role)
 VALUES ('TU_USER_ID_AQUI', 'ADMIN');
 ```
 
-### Paso 3: Probar el Flujo
-
-1. Abre `http://localhost:5173` (debería redirigir a `/welcome`)
-2. Haz clic en "Inscribirme" o "Ingresar"
-3. Ingresa tu email
-4. Verifica el código OTP en tu correo
-5. Completa el Triage (5 preguntas)
-6. Completa el Onboarding según tu tratamiento
-7. Serás redirigido al Dashboard
-
 ## 🚧 Pendiente de Implementación
 
 ### Alta Prioridad
-1. **Dashboard funcional** con módulos dinámicos
-2. **Motor de sugerencias** (CRITICAL/WARNING/MOTIVACIONAL)
-3. **Sistema de banners** administrables
-4. **Panel Admin** completo
+1. **Panel Admin** completo e integración de logs
 
 ### Media Prioridad
-5. Catálogo de ejercicios
+2. Catálogo de ejercicios
 6. Sistema de recordatorios
 7. Logs de mantenimiento
 8. Sistema de consultas
