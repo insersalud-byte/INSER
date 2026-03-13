@@ -257,6 +257,18 @@ app.get(/^\/consultorio(\/.*)?$/, (req, res) => {
     res.sendFile(path.join(__dirname, '../consultorio/client/dist', 'index.html'));
 });
 
+// --- APLICACIÓN PRINCIPAL ---
+app.use(express.static(path.join(__dirname, '../dist')));
+
+// Catch-all para la aplicación principal (debe ir al final)
+app.get('*', (req, res, next) => {
+    // Si la ruta empieza con /api, no servir el index.html
+    if (req.path.startsWith('/api') || req.path.startsWith('/consultorio')) {
+        return next();
+    }
+    res.sendFile(path.join(__dirname, '../dist', 'index.html'));
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, async () => {
     console.log(`Servidor de Santi corriendo en puerto ${ PORT }`);
