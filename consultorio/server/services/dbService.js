@@ -1,106 +1,189 @@
-const sqlite3 = require('sqlite3').verbose();
-const { open } = require('sqlite');
-const path = require('path');
-const fs = require('fs');
+const { createClient } = require('@supabase/supabase-js');
+require('dotenv').config();
 
-const DB_PATH = path.join(__dirname, '../db/hospital_rawson.sqlite');
+const supabaseUrl = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY;
+
+if (!supabaseUrl || !supabaseKey) {
+    console.error('❌ Error: SUPABASE_URL o SUPABASE_SERVICE_ROLE_KEY no configurados.');
+}
+
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 class DatabaseService {
-    constructor() {
-        this.db = null;
-    }
-
-    async getDb() {
-        if (!this.db) {
-            const dbDir = path.dirname(DB_PATH);
-            if (!fs.existsSync(dbDir)) {
-                fs.mkdirSync(dbDir, { recursive: true });
-                console.log("📂 Carpeta de base de datos creada:", dbDir);
-            }
-            this.db = await open({
-                filename: DB_PATH,
-                driver: sqlite3.Database
-            });
-            console.log("📁 Archivo de base de datos abierto en:", DB_PATH);
-            await this.init();
-        }
-        return this.db;
-    }
-
     async init() {
-        if (!this.db) return; // Se llamará desde getDb
-        const db = this.db;
+        console.log("🚀 Sistema de Supabase listo para el Consultorio Rawson.");
+        return true;
+    }
 
-        // Crear tablas si no existen
-        await db.exec(`
-            CREATE TABLE IF NOT EXISTS profesionales (
-                id INTEGER PRIMARY KEY,
-                nombre TEXT,
-                matricula TEXT,
-                especialidad TEXT
-            );
-            
-            CREATE TABLE IF NOT EXISTS patologias (
-                id INTEGER PRIMARY KEY,
-                nombre TEXT
-            );
-            
-            CREATE TABLE IF NOT EXISTS tratamientos (
-                id INTEGER PRIMARY KEY,
-                nombre TEXT
-            );
-            
-            CREATE TABLE IF NOT EXISTS pacientes (
-                id INTEGER PRIMARY KEY,
-                nombre TEXT,
-                apellido TEXT,
-                historia_clinica TEXT,
-                telefono TEXT,
-                email TEXT,
-                created_at TEXT,
-                estado_paciente TEXT,
-                observaciones TEXT,
-                medico_derivante_nombre TEXT,
-                medico_derivante_telefono TEXT,
-                medico_derivante_institucion TEXT
-            );
-            
-            CREATE TABLE IF NOT EXISTS sesiones (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                paciente_id INTEGER,
-                fecha TEXT,
-                hora TEXT,
-                kinesiologo_id INTEGER,
-                kinesiologo_nombre_snapshot TEXT,
-                estado TEXT,
-                motivo_no_asistio TEXT,
-                perdida INTEGER DEFAULT 0,
-                whatsapp_enviado INTEGER DEFAULT 0,
-                fecha_envio TEXT,
-                created_at TEXT,
-                updated_at TEXT,
-                tratamiento_id INTEGER,
-                patologia_id INTEGER,
-                observaciones TEXT
-            );
+    // --- PROFESIONALES ---
+    async getProfessionals() {
+        const { data, error } = await supabase
+            .from('rawson_profesionales')
+            .select('*')
+            .order('nombre');
+        if (error) throw error;
+        return data;
+    }
+
+    async upsertProfessional(prof) {
+        const { data, error } = await supabase
+            .from('rawson_profesionales')
+            .upsert({
+                id: prof.id,
+                nombre: prof.nombre,
+                matricula: prof.matricula,
+                especialidad: prof.especialidad
+            });
+        if (error) throw error;
+        return data;
+    }
+
+    // --- PATOLOGIAS ---
+    async getPathologies() {
+        const { data, error } = await supabase
+            .from('rawson_patologias')
+            .select('*')
+            .order('nombre');
+        if (error) throw error;
+        return data;
+    }
+
+    async upsertPathology(patho) {
+        const { data, error } = await supabase
+            .from('rawson_patologias')
+            .upsert({ id: patho.id, nombre: patho.nombre });
+        if (error) throw error;
+        return data;
+    }
+
+    // --- TRATAMIENTOS ---
+    async getTreatments() {
+        const { data, error } = await supabase
+            .from('rawson_tratamientos')
+            .select('*')
+            .order('nombre');
+        if (error) throw error;
+        return data;
+    }
+
+    async upsertTreatment(treat) {
+        const { data, error } = await supabase
+            .from('rawson_tratamientos')
+            .upsert({ id: treat.id, nombre: treat.nombre });
+        if (error) throw error;
+        return data;
+    }
+
+    // --- PACIENTES ---
+    async getPatients() {
+        const { data, error } = await supabase
+            .from('rawson_pacientes')
+            .select('*')
+            .order('apellido');
+        if (error) throw error;
+        return data;
+    }
+
+    async upsertPatient(patient) {
+        const { id, ...rest } = patient;
+        const { data, error } = await supabase
+            .from('rawson_pacientes')
+            .upsert({ id, ...rest });
+        if (error) throw error;
+        return data;
+    }
+
+    // --- SESIONES ---
+    async getSessionsByPatient(patientId) {
+        const { data, error } = await supabase
+            .from('rawson_sesiones')
+            .select(`
+                *,
+                tratamiento:rawson_tratamientos(nombre)
+            `)
+            .eq('paciente_id', patientId)
+            .order('fecha', { ascending: false })
+            .order('hora', { ascending: false });
+        
+        if (error) throw error;
+        
+        // Formatear para compatibilidad con el frontend (tratamiento_nombre)
+        return data.map(s => ({
+            ...s,
+            tratamiento_nombre: s.tratamiento?.nombre
+        }));
+    }
+
+    async getAllSessions() {
+        const { data, error } = await supabase
+            .from('rawson_sesiones')
+            .select(`
+                *,
+                paciente:rawson_pacientes(nombre, apellido)
+            `);
+        if (error) throw error;
+        
+        return data.map(s => ({
+            ...s,
+            nombre: s.paciente?.nombre,
+            apellido: s.paciente?.apellido
+        }));
+    }
+
+    async createSession(session) {
+        const { data, error } = await supabase
+            .from('rawson_sesiones')
+            .insert(session);
+        if (error) throw error;
+        return data;
+    }
+
+    async createSessionsBatch(sessions) {
+        const { data, error } = await supabase
+            .from('rawson_sesiones')
+            .insert(sessions);
+        if (error) throw error;
+        return data;
+    }
+
+    async updateSession(id, updates) {
+        const { data, error } = await supabase
+            .from('rawson_sesiones')
+            .update({ ...updates, updated_at: new Date().toISOString() })
+            .eq('id', id);
+        if (error) throw error;
+        return data;
+    }
+
+    async deleteSession(id) {
+        const { error } = await supabase
+            .from('rawson_sesiones')
+            .delete()
+            .eq('id', id);
+        if (error) throw error;
+        return true;
+    }
+
+    // --- ESTADÍSTICAS ---
+    async getStats(start, end) {
+        let query = supabase.from('rawson_sesiones').select(`
+            *,
+            tratamiento:rawson_tratamientos(nombre)
         `);
-        console.log("🚀 Sistema de tablas SQLite verificado y listo.");
-    }
+        
+        if (start && end) {
+            query = query.gte('fecha', start).lte('fecha', end);
+        }
 
-    // Métodos Genéricos
-    async all(query, params = []) {
-        const db = await this.getDb();
-        return db.all(query, params);
-    }
+        const { data: sesiones, error: sError } = await query;
+        if (sError) throw sError;
 
-    async run(query, params = []) {
-        const db = await this.getDb();
-        return db.run(query, params);
-    }
+        let pQuery = supabase.from('rawson_pacientes').select('*');
+        const { data: pacientes, error: pError } = await pQuery;
+        if (pError) throw pError;
 
-    async get(query, params = []) {
-        const db = await this.getDb();
-        return db.get(query, params);
+        return { sesiones, pacientes };
     }
 }
 

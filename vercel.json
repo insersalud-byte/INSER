@@ -4,15 +4,44 @@
         {
             "src": "api/chat.js",
             "use": "@vercel/node"
+        },
+        {
+            "src": "api/rawson.js",
+            "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "/api/chat",
             "dest": "/api/chat.js"
+        },
+        {
+            "src": "/api/rawson/(.*)",
+            "dest": "/api/rawson.js"
+        },
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/rawson.js"
+        },
+        {
+            "src": "/consultorio/(.*)\\.(js|css|png|jpg|svg|json|ico|webmanifest)$",
+            "dest": "/consultorio/client/dist/$1.$2"
+        },
+        {
+            "src": "/consultorio/(.*)",
+            "dest": "/consultorio/client/dist/index.html"
+        },
+        {
+            "src": "/assets/(.*)",
+            "dest": "/dist/assets/$1"
+        },
+        {
+            "src": "/(.*)\\.(js|css|png|jpg|svg|json|ico|webmanifest)$",
+            "dest": "/dist/$1.$2"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/dist/index.html"
         }
-    ],
-    "env": {
-        "OPENAI_API_KEY": "@openai_api_key"
-    }
+    ]
 }
