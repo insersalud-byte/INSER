@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const cors = require('cors');
 const OpenAI = require('openai');
 const { synthesizeSpeech } = require('./services/voice');
