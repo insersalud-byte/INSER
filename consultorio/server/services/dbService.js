@@ -1,8 +1,8 @@
 const { createClient } = require('@supabase/supabase-js');
 require('dotenv').config();
 
-const supabaseUrl = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY;
+const supabaseUrl = process.env.VITE_SUPABASE_URL || process.env.SUPABASE_URL || 'https://gvharyztavhugqiaihjq.supabase.co';
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY || 'sb_publishable_wTO5X4JfeoHP0zg7qq4azQ_OJ3jxfwL';
 
 if (!supabaseUrl || !supabaseKey) {
     console.error('❌ Error: SUPABASE_URL o SUPABASE_SERVICE_ROLE_KEY no configurados.');
