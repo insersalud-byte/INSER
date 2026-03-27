@@ -8,6 +8,7 @@ if (!supabaseUrl || !supabaseKey) {
     console.error('❌ Error: SUPABASE_URL o SUPABASE_SERVICE_ROLE_KEY no configurados.');
 }
 
+console.log('🔌 Intentando conectar a Supabase URL:', supabaseUrl);
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 class DatabaseService {

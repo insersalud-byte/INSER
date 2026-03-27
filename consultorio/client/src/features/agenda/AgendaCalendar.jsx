@@ -26,12 +26,12 @@ const PatientPanel = ({ patient, onClose, onSaved }) => {
 
     useEffect(() => {
         axios.get(`${API_URL}/sessions/patient/${patient.id}`)
-            .then(res => setHistory(res.data || []))
+            .then(res => setHistory(Array.isArray(res.data) ? res.data : []))
             .catch(() => setHistory([]))
             .finally(() => setLoadingHistory(false));
         axios.get(`${API_URL}/treatments`)
-            .then(res => setTreatments(res.data || []))
-            .catch(() => { });
+            .then(res => setTreatments(Array.isArray(res.data) ? res.data : []))
+            .catch(() => setTreatments([]));
     }, [patient.id]);
 
     // Timer countdown
@@ -118,10 +118,10 @@ const PatientPanel = ({ patient, onClose, onSaved }) => {
         }
     };
 
-    const estadoColor = (estado) => {
-        if (estado === 'asistió') return '#00e676';
-        if (estado === 'no asistió') return '#ff5252';
-        return 'var(--text-muted)';
+    const estadoColor = (estado, alpha = false) => {
+        if (estado === 'asistió') return alpha ? 'rgba(0, 230, 118, 0.15)' : '#00e676';
+        if (estado === 'no asistió') return alpha ? 'rgba(255, 82, 82, 0.15)' : '#ff5252';
+        return alpha ? 'rgba(255, 255, 255, 0.05)' : 'var(--text-muted)';
     };
 
     return (
@@ -201,15 +201,24 @@ const PatientPanel = ({ patient, onClose, onSaved }) => {
                                 }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '6px' }}>
                                         <span style={{ fontWeight: '700' }}>
-                                            {s.fecha ? format(new Date(s.fecha + 'T00:00:00'), "EEEE d/MM/yy", { locale: es }) : '—'}
+                                            {(() => {
+                                                if (!s.fecha) return '—';
+                                                try {
+                                                    const d = new Date(s.fecha + 'T00:00:00');
+                                                    if (isNaN(d.getTime())) return s.fecha;
+                                                    return format(d, "EEEE d/MM/yy", { locale: es });
+                                                } catch (e) {
+                                                    return s.fecha || '—';
+                                                }
+                                            })()}
                                             <span style={{ color: 'var(--text-muted)', fontWeight: '400', marginLeft: '8px', fontSize: '0.85rem' }}>
                                                 🕐 {s.hora}
                                             </span>
                                         </span>
                                         <span style={{
                                             padding: '3px 10px', borderRadius: '20px', fontSize: '0.75rem', fontWeight: '700',
-                                            background: `${estadoColor(s.estado)}22`, color: estadoColor(s.estado),
-                                            border: `1px solid ${estadoColor(s.estado)}`
+                                            background: estadoColor(s.estado, true), color: estadoColor(s.estado),
+                                            border: `1px solid ${s.estado === 'asistió' || s.estado === 'no asistió' ? estadoColor(s.estado) : 'var(--border)'}`
                                         }}>
                                             {s.estado || 'programado'}
                                         </span>
@@ -356,11 +365,15 @@ const AgendaCalendar = () => {
                 axios.get(`${API_URL}/sessions`)
             ]);
             const dateStr = format(currentDate, 'yyyy-MM-dd');
-            const daySessions = (resSessions.data || []).filter(s => s.fecha === dateStr && s.estado === 'programado');
+            const patientsArr = Array.isArray(resPatients.data) ? resPatients.data : [];
+            const sessionsArr = Array.isArray(resSessions.data) ? resSessions.data : [];
+            const daySessions = sessionsArr.filter(s => s.fecha === dateStr && s.estado === 'programado');
             const newApt = {};
             daySessions.forEach(session => {
-                const hora = session.hora;
-                const patient = (resPatients.data || []).find(p => String(p.id) === String(session.paciente_id));
+                // Normalizar hora (ej: '08:00:00' -> '08:00')
+                const horaFull = session.hora || '';
+                const hora = horaFull.length > 5 ? horaFull.substring(0, 5) : horaFull;
+                const patient = patientsArr.find(p => String(p.id) === String(session.paciente_id));
                 const count = Object.keys(newApt).filter(k => k.startsWith(`${hora}-`)).length;
                 if (patient && count < 2) {
                     newApt[`${hora}-${count}`] = { ...patient, sessionId: session.id, hora };
