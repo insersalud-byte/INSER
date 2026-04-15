@@ -1,3 +1,4 @@
+/* ── FAB Button ── */
 .fabContainer {
     position: fixed;
     bottom: 2rem;
@@ -15,103 +16,436 @@
     height: 70px;
     border-radius: 50%;
     border: 3px solid white;
-    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.25);
-    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.3);
+    overflow: visible;
     position: relative;
     background: white;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.fabContainer:hover .avatarBtn {
-    transform: scale(1.1) translateY(-5px);
-    box-shadow: 0 12px 40px rgba(31, 38, 135, 0.35);
 }
 
 .avatarBtn img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.fabContainer:hover .avatarBtn {
+    transform: scale(1.1) translateY(-4px);
+    box-shadow: 0 16px 40px rgba(31, 38, 135, 0.4);
 }
 
 .onlineDot {
     position: absolute;
-    top: 5px;
-    right: 12px;
-    width: 12px;
-    height: 12px;
+    top: 3px;
+    right: 3px;
+    width: 14px;
+    height: 14px;
     background: #10b981;
-    border: 2px solid white;
+    border: 2.5px solid white;
     border-radius: 50%;
     z-index: 2;
+    animation: pulse 2s infinite;
+}
+
+.fabShadow {
+    position: absolute;
+    bottom: -8px;
+    right: 5px;
+    width: 60px;
+    height: 20px;
+    background: var(--color-primary);
+    filter: blur(18px);
+    opacity: 0.25;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .tooltip {
     background: white;
-    padding: 1rem 1.25rem;
-    border-radius: 1.25rem;
-    font-size: 0.95rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 0.85rem 1.2rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
     color: var(--color-text-main);
     line-height: 1.4;
     position: relative;
     animation: slideIn 0.4s ease-out;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    max-width: 200px;
+    text-align: center;
+}
+
+.tooltip span {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
 }
 
 .tooltip strong {
     color: var(--color-primary);
     display: block;
-    font-size: 1.05rem;
-    margin-top: 0.25rem;
+    font-size: 0.88rem;
 }
 
-/* Speech bubble triangle */
 .tooltip::after {
     content: '';
     position: absolute;
-    bottom: -10px;
-    right: 25px;
-    width: 20px;
-    height: 20px;
+    bottom: -9px;
+    right: 28px;
+    width: 18px;
+    height: 18px;
     background: white;
     transform: rotate(45deg);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.05);
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.fabShadow {
+/* ── Chat Panel ── */
+.chatPanel {
+    position: fixed;
+    bottom: 6.5rem;
+    right: 2rem;
+    width: 380px;
+    max-height: 560px;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18), 0 4px 16px rgba(30, 64, 175, 0.12);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 9999;
+    animation: popIn 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(30, 64, 175, 0.08);
+}
+
+/* ── Chat Header ── */
+.chatHeader {
+    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.headerInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.headerAvatar {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.headerAvatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.onlineDotHeader {
     position: absolute;
-    bottom: 0;
-    right: 5px;
-    width: 60px;
-    height: 20px;
+    bottom: 1px;
+    right: 1px;
+    width: 11px;
+    height: 11px;
+    background: #10b981;
+    border: 2px solid white;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+.headerInfo strong {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.headerInfo span {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.75rem;
+}
+
+.headerActions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.waLink {
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.waLink:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.closeBtn {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.closeBtn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* ── Messages ── */
+.messagesList {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    background: #f8fafc;
+    scroll-behavior: smooth;
+}
+
+.messagesList::-webkit-scrollbar {
+    width: 4px;
+}
+
+.messagesList::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 2px;
+}
+
+.message {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    animation: fadeUp 0.25s ease-out;
+}
+
+.message.user {
+    flex-direction: row-reverse;
+}
+
+.botAvatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid #e2e8f0;
+}
+
+.bubble {
+    max-width: 78%;
+    padding: 0.7rem 1rem;
+    border-radius: 1.2rem;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.bot .bubble {
+    background: white;
+    color: var(--color-text-main);
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e8eef6;
+}
+
+.user .bubble {
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    color: white;
+    border-bottom-right-radius: 4px;
+}
+
+/* Typing indicator */
+.typingBubble {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0.75rem 1rem;
+    min-width: 60px;
+}
+
+.typingBubble span {
+    width: 7px;
+    height: 7px;
+    background: #94a3b8;
+    border-radius: 50%;
+    animation: bounce 1.2s infinite;
+    display: inline-block;
+}
+
+.typingBubble span:nth-child(2) { animation-delay: 0.2s; }
+.typingBubble span:nth-child(3) { animation-delay: 0.4s; }
+
+/* Quick chips */
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.25rem 0 0.5rem;
+    animation: fadeUp 0.3s ease-out 0.2s both;
+}
+
+.chip {
+    background: white;
+    border: 1.5px solid #bfdbfe;
+    color: var(--color-primary);
+    padding: 0.45rem 0.85rem;
+    border-radius: 2rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.chip:hover {
     background: var(--color-primary);
-    filter: blur(20px);
-    opacity: 0.2;
-    z-index: -1;
+    color: white;
+    border-color: var(--color-primary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(30, 64, 175, 0.25);
 }
 
+/* ── Input Area ── */
+.inputArea {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1rem;
+    background: white;
+    border-top: 1px solid #e8eef6;
+    flex-shrink: 0;
+}
+
+.inputArea input {
+    flex: 1;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 1.5rem;
+    padding: 0.6rem 1rem;
+    font-size: 0.88rem;
+    outline: none;
+    transition: border-color 0.2s;
+    background: #f8fafc;
+    color: var(--color-text-main);
+}
+
+.inputArea input:focus {
+    border-color: var(--color-primary);
+    background: white;
+}
+
+.inputArea input:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.sendBtn {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s;
+}
+
+.sendBtn:hover:not(:disabled) {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(30, 64, 175, 0.35);
+}
+
+.sendBtn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* ── Chat Footer ── */
+.chatFooter {
+    text-align: center;
+    padding: 0.4rem;
+    background: white;
+    border-top: 1px solid #f1f5f9;
+    font-size: 0.7rem;
+    color: #94a3b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    flex-shrink: 0;
+}
+
+/* ── Keyframes ── */
 @keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px) scale(0.9);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
+    from { opacity: 0; transform: translateY(16px) scale(0.9); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
 }
 
+@keyframes popIn {
+    from { opacity: 0; transform: scale(0.85) translateY(20px); transform-origin: bottom right; }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+    0%, 60%, 100% { transform: translateY(0); }
+    30%           { transform: translateY(-6px); }
+}
+
+@keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+    50%      { box-shadow: 0 0 0 5px rgba(16, 185, 129, 0); }
+}
+
+/* ── Mobile ── */
 @media (max-width: 480px) {
+    .chatPanel {
+        right: 0;
+        bottom: 0;
+        width: 100vw;
+        max-height: 85vh;
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+
     .fabContainer {
-        bottom: 1.5rem;
-        right: 1rem;
+        bottom: 1.25rem;
+        right: 1.25rem;
     }
 
     .avatarBtn {
-        width: 60px;
-        height: 60px;
+        width: 62px;
+        height: 62px;
     }
 }
