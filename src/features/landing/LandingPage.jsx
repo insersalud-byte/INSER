@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
     Moon, Wind, Activity, Brain, Zap, Heart,
     CheckCircle, Clock, Award, Users,
@@ -25,12 +26,66 @@ const services = [
 ];
 
 const pathologies = [
-    { icon: Moon, name: 'Apnea del Sueño', desc: 'Diagnóstico y equipamiento CPAP/BiPAP para mejorar tu descanso y calidad de vida.', color: '#1e40af' },
-    { icon: Wind, name: 'EPOC', desc: 'Oxigenoterapia y rehabilitación pulmonar para pacientes con enfermedad pulmonar obstructiva crónica.', color: '#0ea5e9' },
-    { icon: Activity, name: 'Fibrosis Pulmonar', desc: 'Soporte integral con concentradores de oxígeno y seguimiento profesional continuo.', color: '#6366f1' },
-    { icon: Brain, name: 'ELA / Esclerosis', desc: 'Ventilación no invasiva y asistentes de tos para enfermedades neuromusculares.', color: '#8b5cf6' },
-    { icon: Zap, name: 'Atrofia Muscular', desc: 'Equipamiento especializado para AME y otras patologías musculares de origen genético.', color: '#ec4899' },
-    { icon: Heart, name: 'Parálisis Cerebral', desc: 'Soluciones respiratorias adaptadas con acompañamiento humano cercano y personalizado.', color: '#f59e0b' },
+    {
+        icon: Moon,
+        slug: 'apnea-del-sueno',
+        name: 'Apnea del Sueño',
+        subtitle: 'Diagnóstico · Tratamiento · CPAP/BiPAP',
+        desc: 'La apnea del sueño provoca pausas en la respiración durante el descanso. Se diagnostica con poligrafía respiratoria y se trata con CPAP o BiPAP. En Inser Salud te asesoramos desde el diagnóstico hasta la adaptación al equipo.',
+        img: '/artifacts/cpap_bmc_g2s.jpg',
+        color: '#1e40af',
+        tags: ['CPAP', 'BiPAP', 'Máscaras', 'Alquiler'],
+    },
+    {
+        icon: Wind,
+        slug: 'epoc',
+        name: 'EPOC',
+        subtitle: 'Oxigenoterapia · Inhaladores · Concentradores',
+        desc: 'Brindamos datos y consejos sobre la EPOC para ayudar a los pacientes a manejar su condición. Contamos con concentradores portátiles, mochilas de oxígeno y asesoramiento sobre el uso correcto del inhalador con aerocámara.',
+        img: '/artifacts/kingon_p2_s3.jpg',
+        color: '#0ea5e9',
+        tags: ['Concentrador', 'Oxígeno', 'Portátil', 'Mochila O₂'],
+    },
+    {
+        icon: Activity,
+        slug: 'fibrosis-pulmonar',
+        name: 'Fibrosis Pulmonar',
+        subtitle: 'Oxígeno líquido · Concentradores · Soporte 24hs',
+        desc: 'La fibrosis pulmonar requiere oxigenoterapia continua. Ofrecemos concentradores de oxígeno estacionarios y portátiles, mochilas de oxígeno y oxígeno líquido para mantener la independencia y calidad de vida del paciente.',
+        img: '/artifacts/gce_zeno.jpg',
+        color: '#6366f1',
+        tags: ['Concentrador', 'O₂ Líquido', 'Mochila O₂', 'Portátil'],
+    },
+    {
+        icon: Brain,
+        slug: 'esclerosis-lateral-amiotrofica',
+        name: 'Esclerosis Lateral Amiotrófica',
+        subtitle: 'Asistente de tos · BiPAP · Ventilación no invasiva',
+        desc: 'En la ELA es fundamental mantener una tos eficaz y una ventilación adecuada. Equipamos a los pacientes con asistentes de tos (cough assist) y ventiladores no invasivos BiPAP para preservar la función respiratoria.',
+        img: '/artifacts/bipap_bmc_g3.jpg',
+        color: '#8b5cf6',
+        tags: ['Cough Assist', 'BiPAP', 'Ventilación', 'ELA'],
+    },
+    {
+        icon: Zap,
+        slug: 'atrofia-muscular-espinal',
+        name: 'Atrofia Muscular Espinal',
+        subtitle: 'BiPAP · Asistente de tos · Seguimiento especializado',
+        desc: 'La AME afecta los músculos respiratorios progresivamente. Proveemos equipos de ventilación no invasiva y asistentes de tos adaptados a cada etapa de la enfermedad, con acompañamiento profesional continuo.',
+        img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
+        color: '#ec4899',
+        tags: ['BiPAP', 'Cough Assist', 'AME', 'Pediátrico'],
+    },
+    {
+        icon: Heart,
+        slug: 'paralisis-cerebral',
+        name: 'Parálisis Cerebral',
+        subtitle: 'Máscaras BiPAP · Ventilación · Adaptación',
+        desc: 'Los pacientes con parálisis cerebral frecuentemente requieren soporte ventilatorio con BiPAP y máscaras especiales. Contamos con una amplia variedad de interfaces y acompañamiento para lograr la mejor adaptación.',
+        img: '/artifacts/mascara_nasal_dreamwear.jpg',
+        color: '#f59e0b',
+        tags: ['BiPAP', 'Máscaras', 'Adaptación', 'Seguimiento'],
+    },
 ];
 
 const tips = [
@@ -60,6 +115,7 @@ const openSanti = (message) => {
 // ── Componente ─────────────────────────────────────────────────────────────
 const LandingPage = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const navigate = useNavigate();
 
     const scrollTo = (id) => {
         document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -176,17 +232,53 @@ const LandingPage = () => {
                     <div className={css.pathGrid}>
                         {pathologies.map((p, i) => (
                             <div key={i} className={css.pathCard} style={{ '--card-color': p.color }}>
-                                <div className={css.pathIcon}>
-                                    <p.icon size={28} />
-                                </div>
-                                <h3>{p.name}</h3>
-                                <p>{p.desc}</p>
-                                <button
-                                    className={css.pathBtn}
-                                    onClick={() => openSanti(`Hola Santi, necesito información sobre tratamiento para ${p.name}. ¿Qué equipos me recomendás?`)}
+                                {/* Imagen del equipo */}
+                                <div
+                                    className={css.pathImgLink}
+                                    onClick={() => navigate(`/patologia/${p.slug}`)}
+                                    style={{ cursor: 'pointer' }}
                                 >
-                                    Consultar con Santi →
-                                </button>
+                                    <div className={css.pathImgContainer}>
+                                        <img src={p.img} alt={p.name} />
+                                        <div className={css.pathImgOverlay}>
+                                            <p.icon size={32} />
+                                            <span>Ver más info →</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Contenido */}
+                                <div className={css.pathBody}>
+                                    <div className={css.pathIconSmall}>
+                                        <p.icon size={18} />
+                                    </div>
+                                    <h3>{p.name}</h3>
+                                    <span className={css.pathSubtitle}>{p.subtitle}</span>
+                                    <p>{p.desc}</p>
+
+                                    {/* Tags */}
+                                    <div className={css.pathTags}>
+                                        {p.tags.map((tag, j) => (
+                                            <span key={j} className={css.pathTag}>{tag}</span>
+                                        ))}
+                                    </div>
+
+                                    {/* Acciones */}
+                                    <div className={css.pathActions}>
+                                        <button
+                                            className={css.pathBtnSanti}
+                                            onClick={() => openSanti(`Hola Santi, necesito información y equipos para ${p.name}. ¿Qué me recomendás?`)}
+                                        >
+                                            Consultar con Santi
+                                        </button>
+                                        <button
+                                            className={css.pathBtnInfo}
+                                            onClick={() => navigate(`/patologia/${p.slug}`)}
+                                        >
+                                            Más info →
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         ))}
                     </div>
