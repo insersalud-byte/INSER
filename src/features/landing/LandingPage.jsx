@@ -21,8 +21,8 @@ const saleOffers = [
 
 const services = [
     { title: 'Alquiler de Equipos', desc: 'CPAP, BiPAP y Concentradores con entrega inmediata en domicilio en Córdoba. Sin depósito, con soporte técnico incluido.', img: '/artifacts/cpap_real.png', link: 'https://wa.me/5493512065320', cta: 'Consultar alquiler' },
-    { title: 'Venta Directa', desc: 'Equipos nuevos con garantía oficial y el mejor asesoramiento técnico del mercado. Los precios más competitivos de Córdoba.', img: '/artifacts/venta_directa_ofertas.jpg', link: 'https://insersalud.com/tienda', cta: 'Ver tienda', focusTop: true },
-    { title: 'Adaptación y Seguimiento', desc: 'Nuestro equipo de especialistas te acompaña día a día con cuidado, paciencia y respeto para que tu terapia sea un éxito.', img: '/artifacts/seguimiento_profesional.jpg', link: 'https://insersalud.com/servicios', cta: 'Saber más' },
+    { title: 'Venta Directa', desc: 'Equipos nuevos con garantía oficial y el mejor asesoramiento técnico del mercado. Los precios más competitivos de Córdoba.', img: '/artifacts/venta_directa_ofertas.jpg', link: '#ofertas', cta: 'Ver ofertas', focusTop: true },
+    { title: 'Adaptación y Seguimiento', desc: 'Nuestro equipo de especialistas te acompaña día a día con cuidado, paciencia y respeto para que tu terapia sea un éxito.', img: '/artifacts/seguimiento_profesional.jpg', link: 'https://wa.me/5493512065320', cta: 'Consultar' },
 ];
 
 const pathologies = [
@@ -310,9 +310,12 @@ const LandingPage = () => {
                                     >
                                         Consultar precio
                                     </button>
-                                    <a href={p.link} target="_blank" rel="noopener noreferrer" className={css.specBtn}>
-                                        Ficha técnica
-                                    </a>
+                                    <button
+                                        className={css.specBtn}
+                                        onClick={() => openSanti(`Hola Santi, necesito conocer las especificaciones técnicas del ${p.name}. ¿Me podés ayudar?`)}
+                                    >
+                                        Especificaciones
+                                    </button>
                                 </div>
                             </div>
                         ))}
@@ -468,10 +471,10 @@ const LandingPage = () => {
                     </div>
 
                     <div className={css.portalCta}>
-                        <p>Para información completa de productos y patologías visitá nuestro portal:</p>
-                        <a href="https://insersalud.com" target="_blank" rel="noopener noreferrer" className={css.portalBtn}>
-                            Ir a insersalud.com →
-                        </a>
+                        <p>¿Necesitás asesoramiento personalizado? Santi te responde al instante.</p>
+                        <button className={css.portalBtn} onClick={() => openSanti('Hola Santi, necesito asesoramiento sobre equipos respiratorios. ¿Podés ayudarme?')}>
+                            Hablar con Santi ahora →
+                        </button>
                     </div>
                 </div>
             </section>
@@ -496,7 +499,7 @@ const LandingPage = () => {
                         <strong>Contacto</strong>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer">WhatsApp: +54 9 351 206-5320</a>
                         <a href="mailto:inser.salud@gmail.com">inser.salud@gmail.com</a>
-                        <a href="https://insersalud.com" target="_blank" rel="noopener noreferrer">insersalud.com</a>
+                        <a href="mailto:inser.salud@gmail.com">inser.salud@gmail.com</a>
                     </div>
                 </div>
                 <div className={css.footerBottom}>

@@ -545,6 +545,8 @@
     text-decoration: none;
     transition: all 0.2s;
     white-space: nowrap;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .specBtn:hover {

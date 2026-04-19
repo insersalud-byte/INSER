@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, MessageCircle, ExternalLink, CheckCircle, ChevronRight, Phone, Star, AlertCircle, Link2 } from 'lucide-react';
+import { ArrowLeft, MessageCircle, CheckCircle, ChevronRight, Phone, Star, AlertCircle, ExternalLink } from 'lucide-react';
 import { getPathologyBySlug, pathologies } from './pathologyData';
 import css from './PathologyPage.module.css';
 
@@ -142,10 +142,19 @@ const PathologyPage = () => {
                                 <div className={css.infoNum}>{String(i + 1).padStart(2, '0')}</div>
                                 <h3>{s.title}</h3>
                                 <p className={css.infoContent}>{s.content}</p>
-                                {s.link && (
+                                {s.link && s.link.includes('wa.me') && (
                                     <a href={s.link} target="_blank" rel="noopener noreferrer" className={css.infoLink}>
                                         {s.linkText} <ExternalLink size={13} />
                                     </a>
+                                )}
+                                {s.link && !s.link.includes('wa.me') && (
+                                    <button
+                                        className={css.infoLink}
+                                        onClick={() => openSanti(data.santiMessage)}
+                                        style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', fontFamily: 'inherit' }}
+                                    >
+                                        {s.linkText} →
+                                    </button>
                                 )}
                             </div>
                         ))}
@@ -178,13 +187,16 @@ const PathologyPage = () => {
                                 <div className={css.productBtns}>
                                     <button
                                         className={css.consultBtn}
-                                        onClick={() => openSanti(`Hola Santi, me interesa el ${p.name} (${formatPrice(p)}) para tratar ${data.title}. ¿Podés darme más información?`)}
+                                        onClick={() => openSanti(`Hola Santi, me interesa el ${p.name} (${formatPrice(p)}) para tratar ${data.title}. ¿Podés darme más información y disponibilidad?`)}
                                     >
                                         Consultar precio
                                     </button>
-                                    <a href={p.link} target="_blank" rel="noopener noreferrer" className={css.specBtn}>
-                                        Ficha →
-                                    </a>
+                                    <button
+                                        className={css.specBtn}
+                                        onClick={() => openSanti(`Hola Santi, quiero conocer las especificaciones técnicas del ${p.name}. ¿Me podés dar más detalles?`)}
+                                    >
+                                        Especificaciones
+                                    </button>
                                 </div>
                             </div>
                         ))}
@@ -239,23 +251,6 @@ const PathologyPage = () => {
                 </section>
             )}
 
-            {/* ── LINKS RELACIONADOS ─────────────────────────────── */}
-            {data.relatedLinks && data.relatedLinks.length > 0 && (
-                <section className={css.relatedSection}>
-                    <div className={css.container}>
-                        <h2 className={css.sectionTitle}>Recursos relacionados</h2>
-                        <div className={css.relatedList}>
-                            {data.relatedLinks.map((l, i) => (
-                                <a key={i} href={l.url} target="_blank" rel="noopener noreferrer" className={css.relatedLink}>
-                                    <Link2 size={15} />
-                                    <span>{l.text}</span>
-                                    <ExternalLink size={13} className={css.relatedExtIcon} />
-                                </a>
-                            ))}
-                        </div>
-                    </div>
-                </section>
-            )}
 
             {/* ── SANTI CTA ──────────────────────────────────────── */}
             <section className={css.santiSection}>
@@ -304,9 +299,9 @@ const PathologyPage = () => {
                     <span>&copy; 2026 Inser Salud · Certificado ANMAT · Córdoba, Argentina</span>
                     <div className={css.footerLinks}>
                         <Link to="/">Inicio</Link>
+                        <Link to="/#patologias">Patologías</Link>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                         <a href="mailto:inser.salud@gmail.com">Email</a>
-                        <a href={data.moreInfoUrl} target="_blank" rel="noopener noreferrer">Sitio original</a>
                     </div>
                 </div>
             </footer>
