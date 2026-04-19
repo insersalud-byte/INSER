@@ -1,6 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, MessageCircle, CheckCircle, ChevronRight, Phone, Star, AlertCircle, ExternalLink } from 'lucide-react';
+import {
+    ArrowLeft, MessageCircle, CheckCircle, ChevronRight,
+    Phone, Star, AlertCircle, X, BookOpen
+} from 'lucide-react';
 import { getPathologyBySlug, pathologies } from './pathologyData';
 import css from './PathologyPage.module.css';
 
@@ -8,16 +11,84 @@ const openSanti = (message) => {
     window.dispatchEvent(new CustomEvent('open-santi', { detail: { message } }));
 };
 
+/* ── Modal de sección informativa ───────────────────────────────── */
+const SectionModal = ({ section, data, onClose }) => {
+    // Cerrar con ESC
+    useEffect(() => {
+        const handleKey = (e) => { if (e.key === 'Escape') onClose(); };
+        document.addEventListener('keydown', handleKey);
+        document.body.style.overflow = 'hidden';
+        return () => {
+            document.removeEventListener('keydown', handleKey);
+            document.body.style.overflow = '';
+        };
+    }, [onClose]);
+
+    return (
+        <div className={css.modalOverlay} onClick={onClose}>
+            <div className={css.modalPanel} onClick={(e) => e.stopPropagation()}>
+                {/* Header del modal */}
+                <div className={css.modalHeader} style={{ background: `linear-gradient(135deg, var(--path-color), color-mix(in srgb, var(--path-color) 70%, #60a5fa))` }}>
+                    <div className={css.modalHeaderContent}>
+                        <BookOpen size={22} color="white" />
+                        <span className={css.modalPathLabel}>{data.title}</span>
+                    </div>
+                    <button className={css.modalClose} onClick={onClose} aria-label="Cerrar">
+                        <X size={22} />
+                    </button>
+                </div>
+
+                {/* Contenido */}
+                <div className={css.modalBody}>
+                    <h2 className={css.modalTitle}>{section.title}</h2>
+                    <div className={css.modalContent}>
+                        {section.content}
+                    </div>
+
+                    {/* CTAs dentro del modal */}
+                    <div className={css.modalActions}>
+                        {section.link && section.link.includes('wa.me') && (
+                            <a
+                                href={section.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={css.modalBtnWa}
+                                onClick={onClose}
+                            >
+                                <MessageCircle size={17} />
+                                {section.linkText}
+                            </a>
+                        )}
+                        <button
+                            className={css.modalBtnSanti}
+                            onClick={() => { openSanti(data.santiMessage); onClose(); }}
+                        >
+                            Consultar con Santi
+                        </button>
+                        <a
+                            href="https://wa.me/5493512065320"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={css.modalBtnWaDirect}
+                        >
+                            <Phone size={15} /> WhatsApp directo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+/* ── Componente principal ─────────────────────────────────────── */
 const PathologyPage = () => {
     const { slug } = useParams();
     const navigate = useNavigate();
     const data = getPathologyBySlug(slug);
+    const [activeSection, setActiveSection] = useState(null);
 
-    // Set document title
     useEffect(() => {
-        if (data?.metaTitle) {
-            document.title = data.metaTitle;
-        }
+        if (data?.metaTitle) document.title = data.metaTitle;
         return () => { document.title = 'INSER SALUD'; };
     }, [data]);
 
@@ -30,10 +101,8 @@ const PathologyPage = () => {
         );
     }
 
-    // Otras patologías para el bloque "También tratamos"
     const others = pathologies.filter(p => p.slug !== slug).slice(0, 3);
 
-    // Helper para formatear el precio del producto
     const formatPrice = (product) => {
         if (product.priceARS && product.priceUSD) return `${product.priceARS} · ${product.priceUSD}`;
         if (product.priceARS) return product.priceARS;
@@ -41,11 +110,25 @@ const PathologyPage = () => {
         return 'Consultar precio';
     };
 
-    // Artículo gramatical
     const article = ['EPOC', 'ALS', 'ELA'].includes(data.title) ? 'el' : 'la';
+
+    // Truncar texto para preview en card
+    const truncate = (text, max = 160) => {
+        const plain = text.split('\n')[0]; // primer párrafo
+        return plain.length > max ? plain.slice(0, max) + '…' : plain;
+    };
 
     return (
         <div className={css.page} style={{ '--path-color': data.color, '--path-light': data.colorLight }}>
+
+            {/* ── MODAL ──────────────────────────────────────────── */}
+            {activeSection && (
+                <SectionModal
+                    section={activeSection}
+                    data={data}
+                    onClose={() => setActiveSection(null)}
+                />
+            )}
 
             {/* ── NAVBAR ─────────────────────────────────────────── */}
             <nav className={css.navbar}>
@@ -76,18 +159,10 @@ const PathologyPage = () => {
                     <h1>{data.headline}</h1>
                     <p className={css.heroSub}>{data.subtitle}</p>
                     <div className={css.heroCtas}>
-                        <button
-                            className={css.ctaPrimary}
-                            onClick={() => openSanti(data.santiMessage)}
-                        >
+                        <button className={css.ctaPrimary} onClick={() => openSanti(data.santiMessage)}>
                             Consultar con Santi
                         </button>
-                        <a
-                            href="https://wa.me/5493512065320"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={css.ctaWa}
-                        >
+                        <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.ctaWa}>
                             <Phone size={16} /> WhatsApp directo
                         </a>
                     </div>
@@ -107,24 +182,19 @@ const PathologyPage = () => {
                     <div className={css.descCard}>
                         <h2>¿Qué es {article} {data.title}?</h2>
                         <p className={css.descMain}>{data.description}</p>
-                        {data.intro && (
-                            <p className={css.descIntro}>{data.intro}</p>
-                        )}
+                        {data.intro && <p className={css.descIntro}>{data.intro}</p>}
                     </div>
                 </div>
             </section>
 
-            {/* ── ALERTA / CTA BANNER ────────────────────────────── */}
+            {/* ── ALERTA ─────────────────────────────────────────── */}
             {data.alertText && (
                 <div className={css.alertBanner}>
                     <div className={css.container}>
                         <div className={css.alertInner}>
                             <AlertCircle size={22} className={css.alertIcon} />
                             <p>{data.alertText}</p>
-                            <button
-                                className={css.alertBtn}
-                                onClick={() => openSanti(data.santiMessage)}
-                            >
+                            <button className={css.alertBtn} onClick={() => openSanti(data.santiMessage)}>
                                 {data.alertCta || 'Consultar ahora →'}
                             </button>
                         </div>
@@ -141,21 +211,26 @@ const PathologyPage = () => {
                             <div key={i} className={css.infoCard}>
                                 <div className={css.infoNum}>{String(i + 1).padStart(2, '0')}</div>
                                 <h3>{s.title}</h3>
-                                <p className={css.infoContent}>{s.content}</p>
-                                {s.link && s.link.includes('wa.me') && (
-                                    <a href={s.link} target="_blank" rel="noopener noreferrer" className={css.infoLink}>
-                                        {s.linkText} <ExternalLink size={13} />
-                                    </a>
-                                )}
-                                {s.link && !s.link.includes('wa.me') && (
+                                <p className={css.infoPreview}>{truncate(s.content)}</p>
+                                <div className={css.infoCardBtns}>
                                     <button
-                                        className={css.infoLink}
-                                        onClick={() => openSanti(data.santiMessage)}
-                                        style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', fontFamily: 'inherit' }}
+                                        className={css.infoReadMore}
+                                        onClick={() => setActiveSection(s)}
                                     >
-                                        {s.linkText} →
+                                        <BookOpen size={14} />
+                                        Leer información completa
                                     </button>
-                                )}
+                                    {s.link && s.link.includes('wa.me') && (
+                                        <a
+                                            href={s.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className={css.infoLink}
+                                        >
+                                            <MessageCircle size={13} /> {s.linkText}
+                                        </a>
+                                    )}
+                                </div>
                             </div>
                         ))}
                     </div>
@@ -250,7 +325,6 @@ const PathologyPage = () => {
                     </div>
                 </section>
             )}
-
 
             {/* ── SANTI CTA ──────────────────────────────────────── */}
             <section className={css.santiSection}>

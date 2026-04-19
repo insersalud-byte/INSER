@@ -372,6 +372,44 @@
     white-space: pre-line;
 }
 
+.infoPreview {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    line-height: 1.65;
+    flex: 1;
+}
+
+.infoCardBtns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.infoReadMore {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: var(--path-light, #dbeafe);
+    color: var(--path-color, #1e40af);
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    width: 100%;
+    justify-content: center;
+}
+
+.infoReadMore:hover {
+    background: var(--path-color, #1e40af);
+    color: white;
+    transform: translateY(-1px);
+}
+
 .infoLink {
     display: inline-flex;
     align-items: center;
@@ -758,6 +796,188 @@
 }
 
 .footerLinks a:hover { color: white; }
+
+/* ── Modal Sección ─────────────────────────────────────────────── */
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    animation: fadeInOverlay 0.2s ease;
+}
+
+@keyframes fadeInOverlay {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modalPanel {
+    background: white;
+    border-radius: 1.5rem;
+    width: 100%;
+    max-width: 640px;
+    max-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.25);
+    animation: slideUpModal 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes slideUpModal {
+    from { transform: translateY(40px) scale(0.96); opacity: 0; }
+    to { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+.modalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+    flex-shrink: 0;
+}
+
+.modalHeaderContent {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.modalPathLabel {
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+.modalClose {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    flex-shrink: 0;
+}
+
+.modalClose:hover {
+    background: rgba(255,255,255,0.35);
+}
+
+.modalBody {
+    padding: 2rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.modalTitle {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: var(--path-color, #1e40af);
+    line-height: 1.25;
+    margin: 0;
+}
+
+.modalContent {
+    font-size: 0.97rem;
+    color: var(--color-text-main);
+    line-height: 1.75;
+    white-space: pre-line;
+    flex: 1;
+    background: #f8fafc;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border-left: 4px solid var(--path-color, #1e40af);
+}
+
+.modalActions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #f1f5f9;
+}
+
+.modalBtnSanti {
+    flex: 1;
+    background: linear-gradient(135deg, var(--path-color, #1e40af), color-mix(in srgb, var(--path-color, #1e40af) 70%, #60a5fa));
+    color: white;
+    border: none;
+    padding: 0.8rem 1.25rem;
+    border-radius: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    min-width: 160px;
+}
+
+.modalBtnSanti:hover {
+    opacity: 0.88;
+    transform: translateY(-1px);
+}
+
+.modalBtnWa {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: #25d366;
+    color: white;
+    padding: 0.8rem 1.25rem;
+    border-radius: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.modalBtnWa:hover {
+    background: #1da954;
+    transform: translateY(-1px);
+}
+
+.modalBtnWaDirect {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: white;
+    color: #1da954;
+    border: 2px solid #25d366;
+    padding: 0.8rem 1.25rem;
+    border-radius: 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.modalBtnWaDirect:hover {
+    background: #25d366;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .modalPanel { max-height: 95vh; border-radius: 1.25rem 1.25rem 0 0; }
+    .modalOverlay { align-items: flex-end; padding: 0; }
+    .modalBody { padding: 1.5rem; }
+    .modalActions { flex-direction: column; }
+    .modalBtnSanti, .modalBtnWa, .modalBtnWaDirect { text-align: center; justify-content: center; }
+}
 
 /* ── Testimonios ───────────────────────────────────────────────── */
 .testimonialsSection {
