@@ -9,8 +9,13 @@ lerna-debug.log*
 
 node_modules
 node_modules
-dist
+!dist/
 dist-ssr
+
+# Consultorio Rawson
+consultorio/client/node_modules
+consultorio/server/node_modules
+!consultorio/client/dist/
 *.local
 .env
 .env.*

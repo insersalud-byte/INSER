@@ -1,18 +1,20 @@
 .bannerContainer {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     position: relative;
+    animation: fadeIn 0.8s ease-out;
 }
 
 .banner {
     background-size: cover;
     background-position: center;
-    border-radius: var(--radius-lg);
-    padding: 2rem;
-    min-height: 150px;
+    border-radius: var(--radius-xl);
+    padding: 2.5rem;
+    min-height: 180px;
     display: flex;
     align-items: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--glass-border);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
     overflow: hidden;
 }
@@ -24,40 +26,52 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.2) 60%, transparent 100%);
     z-index: 1;
 }
 
 .banner:hover {
-    transform: translateY(-2px);
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: var(--shadow-xl);
 }
 
 .bannerContent {
     position: relative;
     z-index: 2;
     color: white;
+    max-width: 80%;
 }
 
 .bannerContent h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
-    font-weight: 700;
+    font-weight: 800;
+    letter-spacing: -0.02em;
 }
 
 .bannerContent p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    opacity: 0.9;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+    font-weight: 500;
 }
 
 .ctaLabel {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1.5rem;
     background: white;
     color: var(--color-primary);
-    border-radius: var(--radius-sm);
-    font-weight: 600;
-    font-size: 0.875rem;
+    border-radius: 100px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.banner:hover .ctaLabel {
+    transform: scale(1.05);
 }
 
 .dots {

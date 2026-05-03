@@ -1,117 +1,156 @@
 .suggestionsSection {
-    margin: 2rem 0;
+    margin: 3.5rem 0;
+    animation: fadeIn 0.8s ease-out;
 }
 
 .sectionTitle {
-    font-size: 1.25rem;
-    color: var(--color-text);
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-text-main);
+    margin-bottom: 1.5rem;
     padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.sectionTitle::before {
+    content: '';
+    width: 4px;
+    height: 24px;
+    background: var(--color-accent);
+    border-radius: 2px;
 }
 
 .suggestionsGrid {
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .suggestionCard {
-    background: white;
-    padding: 1.5rem;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    border-left: 4px solid;
-    animation: fadeIn 0.3s ease-out;
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--blur-amt));
+    -webkit-backdrop-filter: blur(var(--blur-amt));
+    padding: 2rem;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--glass-border);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.suggestionCard:hover {
+    transform: scale(1.01);
+    box-shadow: var(--shadow-xl);
+}
+
+.suggestionCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+}
+
+.suggestionCard.critical::before {
+    background: var(--color-danger);
+}
+
+.suggestionCard.warning::before {
+    background: var(--color-warning);
+}
+
+.suggestionCard.motivacional::before {
+    background: var(--color-success);
+}
+
+.suggestionCard.preventivo::before {
+    background: var(--color-primary);
 }
 
 .suggestionCard.critical {
-    border-left-color: #dc2626;
-    background: linear-gradient(to right, #fef2f2 0%, white 10%);
+    background: linear-gradient(135deg, hsla(0, 80%, 60%, 0.05) 0%, var(--glass-bg) 100%);
 }
 
 .suggestionCard.warning {
-    border-left-color: #f59e0b;
-    background: linear-gradient(to right, #fffbeb 0%, white 10%);
+    background: linear-gradient(135deg, hsla(35, 90%, 55%, 0.05) 0%, var(--glass-bg) 100%);
 }
 
 .suggestionCard.motivacional {
-    border-left-color: #10b981;
-    background: linear-gradient(to right, #f0fdf4 0%, white 10%);
+    background: linear-gradient(135deg, hsla(150, 80%, 40%, 0.05) 0%, var(--glass-bg) 100%);
 }
 
 .suggestionCard.preventivo {
-    border-left-color: #3b82f6;
-    background: linear-gradient(to right, #eff6ff 0%, white 10%);
+    background: linear-gradient(135deg, hsla(var(--h-primary), var(--s-primary), var(--l-primary), 0.05) 0%, var(--glass-bg) 100%);
 }
 
 .suggestionHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 .badge {
     display: inline-block;
-    padding: 0.25rem 0.75rem;
-    border-radius: 12px;
+    padding: 0.4rem 1rem;
+    border-radius: 100px;
     font-size: 0.75rem;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 
 .critical .badge {
-    background: #fecaca;
-    color: #991b1b;
+    background: hsla(0, 80%, 60%, 0.15);
+    color: var(--color-danger);
 }
 
 .warning .badge {
-    background: #fed7aa;
-    color: #92400e;
+    background: hsla(35, 90%, 55%, 0.15);
+    color: var(--color-warning);
 }
 
 .motivacional .badge {
-    background: #bbf7d0;
-    color: #065f46;
+    background: hsla(150, 80%, 40%, 0.15);
+    color: var(--color-success);
 }
 
 .preventivo .badge {
-    background: #bfdbfe;
-    color: #1e40af;
+    background: var(--color-primary-glow);
+    color: var(--color-primary);
 }
 
 .suggestionCard h3 {
-    font-size: 1.125rem;
-    color: var(--color-text);
-    margin-bottom: 0.5rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--color-text-main);
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.01em;
 }
 
 .suggestionCard p {
     color: var(--color-text-muted);
-    font-size: 0.9375rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
 }
 
 .actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    gap: 1rem;
 }
 
 @media (max-width: 768px) {
     .actions {
         flex-direction: column;
+    }
+
+    .suggestionCard {
+        padding: 1.5rem;
     }
 }
