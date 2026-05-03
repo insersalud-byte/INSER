@@ -4,6 +4,15 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    proxy: {
+      // En desarrollo local, reenvía /api/* al servidor Express en puerto 3001
+      '/api': {
+        target: 'http://localhost:3001',
+        changeOrigin: true,
+      }
+    }
+  },
   plugins: [
     react(),
     VitePWA({

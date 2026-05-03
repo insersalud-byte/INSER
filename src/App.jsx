@@ -6,10 +6,12 @@ import AdminPanel from './features/admin/AdminPanel';
 import AdminLoginPage from './features/admin/AdminLoginPage';
 import PathologyPage from './features/pathologies/PathologyPage';
 import AIFloat from './components/AIFloat';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="app-container">
+      <ScrollToTop />
       <AIFloat />
       <Routes>
         {/* Main Entry: Landing Page */}

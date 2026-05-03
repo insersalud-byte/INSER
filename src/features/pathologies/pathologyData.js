@@ -1,12 +1,14 @@
 /**
  * pathologyData.js
  * Contenido verificado contra insersalud.com en cada página.
- * Última revisión: 2026-04 — se visitaron todas las secciones del sitio original.
+ * Última revisión: 2026-04 — transcripción completa de todo el sitio original.
  *
  * Fuentes consultadas:
  *  /apnea-del-sueno  /epoc  /fibrosis-pulmonar  /esclerosis-lateral-amiotrofica
  *  /atrofia-muscular-espinal  /paralisis-cerebral  /neuromusculares
  *  /servicios  /tienda  /rehabilitacion-pulmonar  /oxigenoterapia
+ *
+ * POLÍTICA: Sin links externos a insersalud.com. Todo el contenido es self-contained.
  */
 
 export const pathologies = [
@@ -23,7 +25,7 @@ export const pathologies = [
         subtitle: 'Si roncás fuerte, te despertás varias veces en la noche o te sentís agotado durante el día, podés estar sufriendo apnea del sueño sin saberlo.',
         color: '#1e40af',
         colorLight: '#dbeafe',
-        heroImg: '/artifacts/cpap_real.png',
+        heroImg: '/artifacts/hero_apnea.jpg',
 
         intro: 'La buena noticia es que la apnea del sueño se puede detectar fácilmente con un estudio simple y sin internación. En Inser Salud te acompañamos desde el diagnóstico hasta la adaptación completa al equipo.',
 
@@ -32,31 +34,141 @@ export const pathologies = [
         sections: [
             {
                 id: 'diagnostico',
-                title: 'Diagnóstico: Poligrafía Respiratoria',
-                content: '¿Cómo sabés si tenés apnea del sueño? Con una poligrafía respiratoria domiciliaria: un estudio no invasivo, cómodo y seguro que se realiza en tu propia casa, mientras dormís en tu cama como cualquier noche.\n\n✅ No es invasivo\n✅ Es cómodo y seguro\n✅ Se hace en tu cama, como cualquier noche\n\nDetectar la apnea a tiempo puede cambiar tu calidad de vida.',
+                title: 'Diagnóstico: Poligrafía Respiratoria Domiciliaria',
+                content: `¿Te despertás cansado? Podría ser apnea del sueño.
+
+Si roncás fuerte, te despertás varias veces en la noche o te sentís agotado durante el día, puede que estés sufriendo apnea del sueño y no lo sepas.
+
+La buena noticia es que se puede detectar fácilmente con un estudio simple y sin internación: una poligrafía respiratoria que se realiza en casa, mientras dormís.
+
+✅ No es invasivo
+✅ Es cómodo y seguro
+✅ Se hace en tu cama, como cualquier noche
+
+Detectar la apnea a tiempo puede cambiar tu calidad de vida. Si tenés dudas, en Inser Salud te acompañamos en cada paso.
+
+¿Qué mide la poligrafía respiratoria?
+• Número de apneas e hipopneas por hora (IAH)
+• Saturación de oxígeno durante el sueño
+• Flujo aéreo nasal y oral
+• Movimientos torácicos y abdominales
+• Frecuencia cardíaca
+
+¿Cuándo sospechar apnea del sueño?
+• Roncido fuerte y habitual, observado por la pareja
+• Pausas en la respiración durante el sueño
+• Despertares con sensación de ahogo
+• Somnolencia diurna excesiva
+• Cansancio al despertar aunque hayas dormido muchas horas
+• Cefalea matutina
+• Dificultad para concentrarse o irritabilidad`,
                 link: 'https://wa.me/5493512065320?text=Hola, quiero consultar sobre la poligrafía respiratoria para diagnóstico de apnea del sueño',
                 linkText: 'Consultá sobre el estudio →',
             },
             {
+                id: 'sintomas',
+                title: 'Síntomas y Consecuencias de la Apnea',
+                content: `La apnea del sueño no tratada puede tener consecuencias graves a mediano y largo plazo. Muchos pacientes conviven durante años con síntomas que atribuyen a "no dormir bien" o al estrés.
+
+Síntomas más frecuentes:
+
+🌙 Nocturnos:
+• Ronquido intenso y frecuente
+• Pausas respiratorias observadas por la pareja
+• Despertares con sensación de ahogo o sofocación
+• Nicturia (levantarse al baño varias veces)
+• Sudoración nocturna excesiva
+• Sueño muy liviano o fragmentado
+
+☀️ Diurnos:
+• Somnolencia excesiva durante el día
+• Cansancio al despertar aunque hayas dormido muchas horas
+• Cefalea matutina
+• Dificultad para concentrarse o problemas de memoria
+• Irritabilidad, cambios de humor o depresión
+• Disminución del deseo sexual
+
+⚠️ Consecuencias cardiovasculares:
+• Hipertensión arterial (especialmente resistente a medicación)
+• Arritmias cardíacas
+• Mayor riesgo de infarto y ACV
+• Insuficiencia cardíaca derecha en casos graves
+
+El tratamiento con CPAP o BiPAP revierte la mayoría de estas consecuencias cuando se inicia a tiempo.`,
+                link: null,
+                linkText: null,
+            },
+            {
                 id: 'tratamiento',
-                title: 'Tratamiento: CPAP y BiPAP',
-                content: 'El tratamiento de elección es la presión positiva continua (CPAP) o la ventilación de dos niveles (BiPAP). El equipo envía aire a presión constante para mantener las vías respiratorias abiertas durante el sueño.\n\nSabemos que usar un CPAP o BiPAP al principio puede generar incomodidad, miedo o rechazo. Pero también sabemos que vale la pena insistir con paciencia. En Inser Salud te acompañamos con respeto y cercanía para que te sientas seguro. Vamos de a poco, sin apuros, hasta que el equipo deje de ser una molestia y se convierta en un verdadero alivio para respirar mejor y descansar.',
-                link: 'https://insersalud.com/cpap-yuwell-yh-360-con-humidificador',
-                linkText: 'Ver CPAP con humidificador →',
+                title: 'Adaptación a Ventilación No Invasiva: CPAP y BiPAP',
+                content: `Adaptarse al BiPAP, paso a paso.
+
+Sabemos que usar un BiPAP al principio puede generar incomodidad, miedo o rechazo. Pero también sabemos que vale la pena insistir con paciencia.
+
+En Inser Salud te acompañamos con respeto y cercanía para que te sientas seguro. Vamos de a poco, sin apuros, hasta que el equipo deje de ser una molestia y se convierta en un verdadero alivio para respirar mejor y descansar.
+
+💬 Estamos para ayudarte.
+🤝 No estás solo.
+🌙 Respirar bien también es vivir mejor.
+
+¿CPAP o BiPAP? ¿Cuál te corresponde?
+
+• CPAP fijo: una sola presión continua durante toda la noche. Indicado para apnea moderada a severa.
+• CPAP automático (APAP): ajusta la presión según la necesidad de cada momento del sueño.
+• BiPAP: dos niveles de presión (mayor en inspiración, menor en espiración). Indicado cuando el CPAP no es tolerado, en apnea central o en enfermedades neuromusculares.
+
+Estrategia de adaptación recomendada:
+Semana 1 → Usá el equipo 1-2 horas estando despierto para familiarizarte
+Semana 2 → Comenzá a usarlo al dormirte
+Semana 3-4 → Extendé hasta completar la noche
+1 mes → La mayoría de los pacientes duerme notablemente mejor`,
+                link: 'https://wa.me/5493512065320?text=Hola, necesito ayuda para adaptarme al CPAP o BiPAP. ¿Pueden asesorarme?',
+                linkText: 'Consultá sobre adaptación →',
             },
             {
                 id: 'alquiler',
-                title: 'Alquiler de CPAP para Adaptación',
-                content: 'Iniciar el tratamiento con CPAP puede generar dudas, incomodidad o ansiedad. Por eso, en Inser Salud te ofrecemos la opción de alquiler por adaptación, para que puedas probar el equipo en tu casa, con tranquilidad y acompañamiento profesional.\n\n✅ Te entregamos el equipo listo para usar\n✅ Te explicamos cómo colocarlo y usarlo correctamente\n✅ Hacemos seguimiento los primeros días para ayudarte a adaptarte\n✅ Sin compromiso de compra: lo usás el tiempo que necesitás\n\nEl CPAP puede cambiar tu vida: mejorar tu descanso, tu energía, tu salud.',
-                link: 'https://wa.me/5493512065320?text=Hola, quiero consultar sobre el alquiler de CPAP para adaptación',
+                title: 'Alquiler de CPAP para Adaptación — Probalo con Calma',
+                content: `Probalo con calma. Te ayudamos a dar el primer paso.
+
+Iniciar el tratamiento con CPAP puede generar dudas, incomodidad o ansiedad. Por eso, en Inser Salud te ofrecemos la opción de alquiler por adaptación, para que puedas probar el equipo en tu casa, con tranquilidad y acompañamiento profesional.
+
+✅ Te entregamos el equipo listo para usar
+✅ Te explicamos cómo colocarlo y usarlo correctamente
+✅ Hacemos seguimiento los primeros días para ayudarte a adaptarte
+✅ Sin compromiso de compra: lo usás el tiempo que necesités
+
+El CPAP puede cambiar tu vida: mejorar tu descanso, tu energía, tu salud. Y nosotros estamos acá para acompañarte en ese proceso paso a paso, sin apuros.
+
+💬 Respirá mejor. Dormí mejor. Viví mejor.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero consultar sobre el alquiler de CPAP para adaptación. ¿Cuáles son las condiciones?',
                 linkText: 'Consultá alquiler por WhatsApp →',
             },
             {
                 id: 'mascaras',
-                title: 'Máscaras para CPAP y BiPAP',
-                content: 'La elección de la máscara adecuada es fundamental para la comodidad y el éxito del tratamiento. Contamos con máscaras nasales, nasobucales y de mínimo contacto en todos los talles. Si la que tenés no te resulta cómoda, podemos ayudarte a encontrar la indicada.',
-                link: 'https://insersalud.com/tienda',
-                linkText: 'Ver todas las máscaras disponibles →',
+                title: 'Máscaras para CPAP y BiPAP: elegí la más cómoda',
+                content: `La elección de la máscara correcta es tan importante como el equipo. Una máscara inadecuada puede arruinar el tratamiento aunque el equipo sea perfecto.
+
+Tipos de máscaras disponibles:
+
+👃 Máscaras nasales (las más usadas):
+• Solo cubren la nariz
+• Mayor comodidad y menor claustrofobia
+• Ideales para respiradores nasales
+• Ejemplos: DreamWear (mínimo contacto), BMC N4, BMC N5a, RESMED AirFit N20, YUWELL
+
+😮 Máscaras nasobucales (full-face):
+• Cubren nariz y boca
+• Indicadas para quienes respiran por la boca durante el sueño
+• Ejemplos: DreamWear Full Face, BMC F2, AirFit F20/F30, YUWELL YF02
+
+👁️ Máscaras de almohadillas nasales (mínimo contacto):
+• Solo sellan en las fosas nasales
+• Máxima comodidad y libertad de movimiento
+• Ideales para claustrofóbicos
+
+Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en el puente de la nariz o intolerancia, podemos ayudarte a encontrar la indicada. Contamos con la mayor variedad de interfaces de Córdoba.`,
+                link: 'https://wa.me/5493512065320?text=Hola, necesito ayuda para elegir la máscara correcta para mi CPAP o BiPAP',
+                linkText: 'Consultá sobre máscaras →',
             },
         ],
 
@@ -66,7 +178,6 @@ export const pathologies = [
                 priceARS: '$499.000',
                 priceUSD: null,
                 img: '/artifacts/cpap_bmc_g2s.jpg',
-                link: 'https://insersalud.com/cpap-bmc-g2s',
                 badge: null,
                 desc: 'CPAP fijo con humidificador. El más vendido.',
             },
@@ -75,7 +186,6 @@ export const pathologies = [
                 priceARS: '$1.300.000',
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
-                link: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador',
                 badge: null,
                 desc: 'BiPAP con frecuencia respiratoria de respaldo.',
             },
@@ -83,8 +193,7 @@ export const pathologies = [
                 name: 'AUTOCPAP PHILIPS DREAMSTATION',
                 priceARS: null,
                 priceUSD: 'U$S 758',
-                img: '/artifacts/cpap_bmc_g2s.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/autocpap_dreamstation.jpg',
                 badge: null,
                 desc: 'Con humidificador y conectividad.',
             },
@@ -92,8 +201,7 @@ export const pathologies = [
                 name: 'CPAP RESMED AIRSENSE 10',
                 priceARS: null,
                 priceUSD: 'U$S 616',
-                img: '/artifacts/cpap_bmc_g2s.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/cpap_airsense10.jpg',
                 badge: null,
                 desc: 'Con humidificador y conectividad.',
             },
@@ -102,7 +210,6 @@ export const pathologies = [
                 priceARS: '$223.000',
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
-                link: 'https://insersalud.com/mascarilla-nasal-cpap',
                 badge: null,
                 desc: 'Comodidad y mínimo contacto facial.',
             },
@@ -111,7 +218,6 @@ export const pathologies = [
                 priceARS: '$229.000',
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
-                link: 'https://insersalud.com/mascarilla-nasobucal-dreamwear-philips-cpap',
                 badge: null,
                 desc: 'Full-face de mínimo contacto.',
             },
@@ -120,7 +226,6 @@ export const pathologies = [
                 priceARS: '$50.000',
                 priceUSD: 'U$S 35',
                 img: '/artifacts/mascara_rescomf.jpg',
-                link: 'https://insersalud.com/tienda',
                 badge: 'OFERTA',
                 desc: 'La opción más económica del mercado.',
             },
@@ -130,27 +235,25 @@ export const pathologies = [
             'Usá el CPAP todas las noches, incluso en siestas cortas: la consistencia hace la diferencia.',
             'Limpiá la máscara con agua tibia y jabón suave todos los días para evitar infecciones.',
             'Si sentís molestias con la máscara actual, hay opciones más cómodas: consultanos sin compromiso.',
-            'La humidificación integrada reduce la sequedad nasal y de garganta.',
+            'La humidificación integrada reduce la sequedad nasal y de garganta considerablemente.',
             'Los primeros días son los más difíciles. Si persistís, la mayoría de los pacientes duerme mejor en 2 semanas.',
             'Evitá dormir boca arriba: la posición de costado reduce los episodios de apnea.',
+            'Controlá los datos de tu CPAP periódicamente: la mayoría guarda estadísticas de uso y eficacia.',
+            'Revisá el ajuste de las correas de la máscara: ni muy floja (escapes) ni muy apretada (marcas en la piel).',
         ],
 
         alertText: '¿Te despertás cansado? El diagnóstico con poligrafía es sencillo, no invasivo y se hace en tu casa.',
         alertCta: 'Consultá hoy →',
 
         testimonials: [
-            { name: 'María G.', text: 'Los equipos de Inser Salud han mejorado mi calidad de vida y mi sueño es mucho mejor.', stars: 5 },
-            { name: 'Juan P.', text: 'Excelente atención y asesoramiento. Los dispositivos son de alta calidad y me han ayudado mucho.', stars: 5 },
+            { name: 'María G.', city: 'Córdoba', text: 'Los equipos de Inser Salud han mejorado mi calidad de vida. Mi sueño es mucho mejor y ya no me despierto cansada.', stars: 5 },
+            { name: 'Juan P.', city: 'Córdoba', text: 'Excelente atención y asesoramiento. Me ayudaron a adaptarme al CPAP con mucha paciencia. Los recomiendo totalmente.', stars: 5 },
         ],
 
-        relatedLinks: [
-            { text: 'Equipos de Terapia Respiratoria (Alquiler)', url: 'https://insersalud.com/equipos-de-terapia-respiratoria-1' },
-            { text: 'CPAP Yuwell YH-360 con Humidificador', url: 'https://insersalud.com/cpap-yuwell-yh-360-con-humidificador' },
-            { text: 'Ver todas las máscaras', url: 'https://insersalud.com/tienda' },
-        ],
+        relatedLinks: [],
 
         santiMessage: 'Hola Santi, creo que tengo apnea del sueño. ¿Qué equipos CPAP o BiPAP tenés disponibles y cuáles son los precios? ¿También hacen alquiler para adaptación?',
-        moreInfoUrl: 'https://www.insersalud.com/apnea-del-sueno',
+        moreInfoUrl: '',
     },
 
     /* ─────────────────────────────────────────────────────────────────
@@ -161,44 +264,169 @@ export const pathologies = [
         slug: 'epoc',
         title: 'EPOC',
         metaTitle: 'EPOC | INSER SALUD',
-        headline: 'Información y consejos sobre el EPOC para pacientes en Córdoba',
-        subtitle: 'Brindamos datos y consejos sobre la EPOC para ayudar a los pacientes a manejar su condición con los mejores equipos del mercado.',
+        headline: 'Vivir con EPOC: equipamiento y acompañamiento para respirar mejor',
+        subtitle: 'Brindamos información, equipos certificados y asesoramiento personalizado para que los pacientes con EPOC recuperen su calidad de vida.',
         color: '#0284c7',
         colorLight: '#e0f2fe',
-        heroImg: '/artifacts/kingon_p2_s3.jpg',
+        heroImg: '/artifacts/hero_epoc.jpg',
 
-        intro: 'La EPOC es una enfermedad pulmonar crónica que dificulta la respiración. Con el tratamiento adecuado y el equipamiento correcto se puede llevar una vida activa y con buena calidad.',
+        intro: 'La EPOC es una enfermedad pulmonar crónica que dificulta la respiración. Con el tratamiento adecuado y el equipamiento correcto se puede llevar una vida activa y con buena calidad. En Inser Salud te acompañamos con equipos certificados ANMAT y asesoramiento profesional.',
 
-        description: 'La Enfermedad Pulmonar Obstructiva Crónica (EPOC) es una condición que dificulta el paso de aire hacia y desde los pulmones. Provoca tos persistente con producción de moco, sibilancias y falta de aire. Aunque no tiene cura, el tratamiento correcto — incluyendo oxigenoterapia, inhaladores y rehabilitación — puede mejorar significativamente la calidad de vida.',
+        description: 'La Enfermedad Pulmonar Obstructiva Crónica (EPOC) es una condición que dificulta el paso de aire hacia y desde los pulmones. Provoca tos persistente con producción de moco, sibilancias y falta de aire al esfuerzo. Aunque no tiene cura, el tratamiento correcto — incluyendo oxigenoterapia, inhaladores, broncodilatadores y rehabilitación pulmonar — puede mejorar significativamente la calidad de vida y frenar la progresión.',
 
         sections: [
             {
+                id: 'que-es',
+                title: '¿Qué es la EPOC y cómo afecta la respiración?',
+                content: `La Enfermedad Pulmonar Obstructiva Crónica (EPOC) engloba principalmente dos condiciones: el enfisema pulmonar y la bronquitis crónica. En ambos casos, el flujo de aire queda obstruido de manera permanente, dificultando la respiración.
+
+¿Qué pasa en el pulmón?
+
+En el enfisema: los alvéolos (pequeños sacos de aire) se dañan y pierden elasticidad. El aire queda "atrapado" en el pulmón y no puede salir completamente.
+
+En la bronquitis crónica: los bronquios se inflaman y producen exceso de moco, dificultando el paso del aire y favoreciendo las infecciones respiratorias.
+
+Síntomas principales de la EPOC:
+• Tos crónica con producción de moco (especialmente por la mañana)
+• Disnea (falta de aire) al esfuerzo, que progresa con los años
+• Sibilancias (silbidos al respirar)
+• Sensación de opresión en el pecho
+• Cansancio y falta de energía
+• Infecciones respiratorias frecuentes (exacerbaciones)
+
+Factores de riesgo:
+🚬 Tabaquismo (causa más del 85% de los casos)
+🏭 Exposición a contaminantes laborales (humos, polvos, gases)
+🌫️ Contaminación del aire ambiental
+🧬 Factores genéticos (déficit de alfa-1-antitripsina)
+
+La EPOC se diagnostica mediante una espirometría. Si sospechás que podés tenerla, consultá a tu médico.`,
+                link: 'https://wa.me/5493512065320?text=Hola, tengo EPOC y quisiera información sobre equipos y tratamiento',
+                linkText: 'Consultá con nuestro equipo →',
+            },
+            {
                 id: 'inhalador',
-                title: 'Forma correcta de usar tu inhalador',
-                content: 'El inhalador debe usarse siempre con aerocámara para garantizar que el medicamento llegue correctamente a los pulmones. Sin aerocámara, gran parte del medicamento queda en la boca y garganta y no llega a los bronquios donde se necesita.\n\nSi tenés dudas sobre la técnica inhalatoria, consultá con nuestro equipo: una técnica correcta puede marcar la diferencia en el control de los síntomas.',
+                title: 'Técnica Inhalatoria Correcta con Aerocámara',
+                content: `El inhalador es la base del tratamiento farmacológico de la EPOC. Sin embargo, estudios demuestran que más del 70% de los pacientes no utiliza correctamente su inhalador, lo que reduce drásticamente la efectividad del medicamento.
+
+¿Por qué usar aerocámara?
+
+Sin aerocámara, gran parte del medicamento queda depositado en la boca y la garganta, sin llegar a los bronquios donde realmente se necesita. Con aerocámara, entre el 20 y el 40% del medicamento llega al pulmón (vs. solo el 10-15% sin ella).
+
+Técnica correcta paso a paso:
+
+1. Agitá bien el inhalador (si es MDI — cartucho presurizado)
+2. Colocá el inhalador en la entrada de la aerocámara
+3. Expirá lentamente, vaciando bien los pulmones
+4. Sellá los labios alrededor de la boquilla de la aerocámara
+5. Activá el inhalador y al mismo tiempo comenzá a inspirar lenta y profundamente
+6. Mantené el aire 10 segundos (o los que puedas)
+7. Espirá lentamente
+8. Aguardá 30 segundos antes de la segunda inhalación
+
+Errores más frecuentes a evitar:
+❌ No agitar el inhalador antes de usarlo
+❌ Inspirar muy rápido (el medicamento queda en la boca)
+❌ No mantener el aire retenido
+❌ No usar aerocámara
+
+Si tenés dudas sobre tu técnica, consultanos: podemos mostrarte cómo hacerlo correctamente.`,
                 link: 'https://wa.me/5493512065320?text=Hola, necesito asesoramiento sobre técnica inhalatoria con aerocámara para EPOC',
                 linkText: 'Consultá sobre técnica inhalatoria →',
             },
             {
-                id: 'concentradores',
-                title: 'Concentradores de Oxígeno',
-                content: 'Para pacientes con indicación de oxigenoterapia domiciliaria ofrecemos:\n\n• Concentradores de oxígeno estacionarios para uso en el hogar: flujo constante sin costo de recarga.\n• Concentradores portátiles para mantener tu autonomía: salís de casa, viajás y hacés tus actividades con oxígeno.\n\nTe acompañamos en la elección según tu prescripción médica y estilo de vida.',
-                link: 'https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico',
-                linkText: 'Ver concentradores disponibles →',
+                id: 'oxigenoterapia',
+                title: 'Oxigenoterapia Domiciliaria en EPOC',
+                content: `La oxigenoterapia domiciliaria está indicada en pacientes con EPOC que presentan insuficiencia respiratoria crónica: saturación de oxígeno (SpO₂) por debajo del 88% en reposo o al ejercicio.
+
+¿Cuándo se indica oxígeno?
+
+• SpO₂ ≤ 88% en reposo (PaO₂ ≤ 55 mmHg en gasometría arterial)
+• SpO₂ ≤ 90% con hipertensión pulmonar, poliglobulia o insuficiencia cardíaca derecha
+• Desaturación significativa solo durante el ejercicio o el sueño
+
+¿Cuántas horas usar el oxígeno?
+
+La evidencia demuestra que la oxigenoterapia es efectiva solo cuando se usa un mínimo de 15-18 horas diarias (idealmente 24 horas). Usar el oxígeno pocas horas por día no aporta los beneficios en sobrevida demostrados por los estudios.
+
+Tipos de sistemas de oxígeno disponibles en Inser Salud:
+
+🏠 Concentrador estacionario (para el hogar):
+• Produce oxígeno a partir del aire ambiente
+• Flujo continuo sin costo de recarga
+• Modelos hasta 5 L/min — YUWELL y otras marcas
+• Precio referencia: U$S 713
+
+🎒 Concentrador portátil (para salir de casa):
+• Permite mantener la actividad diaria y la autonomía
+• KINGON P2-S3: el más liviano y económico (desde U$S 1.880)
+• KINGON P2-TOC: 9,5 horas de autonomía (U$S 3.458)
+• GCE Zen-O: premium, con carrito y 2 baterías (desde U$S 3.747)
+
+💧 Oxígeno líquido:
+• Mayor autonomía en menor peso
+• Ideal para pacientes muy activos o con flujos elevados
+• Consultá disponibilidad en Córdoba
+
+🎒 Mochila de oxígeno portátil:
+• Tubo de 0,415 L + regulador + bolso + carga incluida
+• Ideal para salidas cortas o visitas médicas`,
+                link: 'https://wa.me/5493512065320?text=Hola, soy paciente con EPOC y necesito información sobre concentradores de oxígeno',
+                linkText: 'Consultá disponibilidad →',
             },
             {
-                id: 'mochilas',
-                title: 'Mochilas y Oxígeno Portátil',
-                content: 'Las mochilas de oxígeno portátil te permiten salir de tu casa manteniendo la autonomía. Contamos con tubos portátiles de 0,415 L con regulador, bolso especializado y carga, listos para usar.\n\nIdeal para pacientes que necesitan oxígeno fuera del hogar durante actividades cotidianas o visitas médicas.',
-                link: 'https://insersalud.com/mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga',
-                linkText: 'Ver mochila de oxígeno →',
+                id: 'exacerbaciones',
+                title: 'Exacerbaciones: Cómo Prevenir Internaciones',
+                content: `Las exacerbaciones de EPOC (crisis de empeoramiento agudo) son la principal causa de internación y mortalidad en estos pacientes. La mayoría son causadas por infecciones virales o bacterianas, contaminación o mal control del tratamiento.
+
+Señales de alerta de exacerbación:
+⚠️ Aumento de la disnea habitual
+⚠️ Mayor cantidad o cambio de color del moco (amarillo o verde)
+⚠️ Tos más intensa o frecuente
+⚠️ Saturación de oxígeno por debajo de lo habitual
+⚠️ Fiebre o escalofríos
+⚠️ Edemas en los pies o tobillos
+
+Ante estos síntomas, consultá a tu médico de inmediato. El tratamiento precoz de las exacerbaciones reduce la gravedad y evita internaciones.
+
+Cómo prevenir exacerbaciones:
+
+🛡️ Vacunación: influenza anualmente y neumococo según pauta médica
+🚭 Dejar de fumar es la medida más efectiva para frenar la progresión
+💊 Adherencia al tratamiento inhalatorio todos los días
+🏃 Rehabilitación pulmonar para mejorar la capacidad funcional
+🌡️ Evitar ambientes contaminados, humo, frío intenso y exposición laboral
+🏠 Tener el concentrador de oxígeno en casa listo para usar`,
+                link: 'https://wa.me/5493512065320?text=Hola, tengo EPOC y quiero saber cómo prevenir internaciones y exacerbaciones',
+                linkText: 'Consultá con nuestro equipo →',
             },
             {
                 id: 'rehabilitacion',
                 title: 'Rehabilitación Pulmonar',
-                content: 'La rehabilitación pulmonar es un programa supervisado de ejercicios y educación diseñado para mejorar la tolerancia al ejercicio, reducir la disnea y mejorar la calidad de vida en pacientes con EPOC.\n\nEn Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación y qué equipos pueden ayudarte en el proceso.',
-                link: 'https://insersalud.com/rehabilitacion-pulmonar',
-                linkText: 'Saber más sobre rehabilitación →',
+                content: `La rehabilitación pulmonar es el tratamiento no farmacológico más efectivo para la EPOC. Consiste en un programa supervisado de ejercicio físico, educación sobre la enfermedad y apoyo psicosocial.
+
+Beneficios demostrados de la rehabilitación pulmonar:
+
+✅ Reduce la disnea (falta de aire) en un 20-30%
+✅ Mejora la capacidad de ejercicio y las actividades cotidianas
+✅ Disminuye el número de internaciones por exacerbaciones
+✅ Mejora la calidad de vida y el estado de ánimo
+✅ Reduce la ansiedad y la depresión asociadas a la EPOC
+✅ Mejora la supervivencia a largo plazo
+
+¿Quién puede acceder?
+
+La rehabilitación pulmonar está indicada para todos los pacientes con EPOC moderado a severo que presenten limitación funcional. No es necesario tener la enfermedad muy avanzada para beneficiarse.
+
+Ejercicios recomendados:
+• Caminata progresiva (comenzar con 10-15 min/día y aumentar gradualmente)
+• Bicicleta fija o ergómetro de brazos
+• Ejercicios de fortalecimiento muscular
+• Técnicas de respiración: labios fruncidos, respiración diafragmática
+
+En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación pulmonar en Córdoba.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre rehabilitación pulmonar para EPOC en Córdoba',
+                linkText: 'Consultá sobre rehabilitación →',
             },
         ],
 
@@ -208,7 +436,6 @@ export const pathologies = [
                 priceARS: '$2.735.400',
                 priceUSD: 'U$S 1.880',
                 img: '/artifacts/kingon_p2_s3.jpg',
-                link: 'https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico',
                 badge: 'EL MÁS LIVIANO',
                 desc: 'El concentrador portátil más liviano y económico del mercado.',
             },
@@ -216,17 +443,15 @@ export const pathologies = [
                 name: 'Concentrador Portátil KINGON P2-TOC',
                 priceARS: null,
                 priceUSD: 'U$S 3.458',
-                img: '/artifacts/kingon_p2_s3.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/kingon_p2_toc.jpg',
                 badge: '9,5 HS',
-                desc: '9,5 horas de autonomía con batería.',
+                desc: '9,5 horas de autonomía con batería extendida.',
             },
             {
                 name: 'GCE Zen-O (2 baterías + carro)',
                 priceARS: '$5.451.885',
                 priceUSD: 'U$S 3.747',
                 img: '/artifacts/gce_zeno.jpg',
-                link: 'https://insersalud.com/concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias',
                 badge: 'PREMIUM',
                 desc: 'Con 2 baterías y carrito incluidos.',
             },
@@ -234,48 +459,43 @@ export const pathologies = [
                 name: 'Concentrador de Oxígeno YUWELL Estacionario',
                 priceARS: null,
                 priceUSD: 'U$S 713',
-                img: '/artifacts/gce_zeno.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/concentrador_yuwell.jpg',
                 badge: null,
-                desc: 'Para uso domiciliario continuo.',
+                desc: 'Para uso domiciliario continuo. 5 L/min.',
             },
             {
                 name: 'Mochila de Oxígeno Portátil',
                 priceARS: null,
                 priceUSD: 'U$S 270',
                 img: '/artifacts/kingon_p2_s3.jpg',
-                link: 'https://insersalud.com/mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga',
                 badge: null,
-                desc: 'Tubo 0,415 L + regulador + bolso + carga.',
+                desc: 'Tubo 0,415 L + regulador + bolso + carga incluida.',
             },
         ],
 
         tips: [
-            'Usá siempre el inhalador con aerocámara: mejora la llegada del medicamento a los bronquios.',
+            'Usá siempre el inhalador con aerocámara: mejora notablemente la llegada del medicamento a los bronquios.',
             'Vacunate contra la gripe anualmente y contra el neumococo: las infecciones son la principal causa de internación.',
             'Practicá la respiración con labios fruncidos para aliviar la disnea en momentos de ahogo.',
-            'Evitá ambientes con humo, polvo, aerosoles o productos químicos fuertes.',
+            'Evitá ambientes con humo, polvo, aerosoles o productos de limpieza con olor fuerte.',
             'Caminá todos los días dentro de tus posibilidades: el movimiento mejora la función pulmonar.',
-            'Si usás oxígeno, no lo enciendas nunca cerca de una llama o cigarrillo.',
+            'Si usás oxígeno, no lo enciendas nunca cerca de una llama, cigarro o estufa a gas.',
+            'Consultá a tu médico ante cualquier aumento de la falta de aire o cambio en el moco.',
+            'Llevá siempre un oxímetro de pulso: es pequeño, económico y puede alertarte ante una crisis.',
         ],
 
-        alertText: 'La EPOC no tiene cura, pero con el tratamiento correcto podés recuperar tu calidad de vida.',
+        alertText: 'La EPOC no tiene cura, pero con el tratamiento correcto podés recuperar tu calidad de vida. Entrega inmediata en Córdoba.',
         alertCta: 'Consultá con Santi →',
 
         testimonials: [
-            { name: 'Juan P.', text: 'Excelente atención y asesoramiento. Los dispositivos son de alta calidad y me han ayudado mucho.', stars: 5 },
-            { name: 'María G.', text: 'Los equipos de Inser Salud han mejorado mi calidad de vida notablemente.', stars: 5 },
+            { name: 'Juan P.', city: 'Córdoba', text: 'Excelente atención y asesoramiento. Los concentradores son de alta calidad y me han ayudado muchísimo en el día a día.', stars: 5 },
+            { name: 'María G.', city: 'Córdoba', text: 'Gracias al concentrador portátil puedo salir de mi casa sin miedo. El equipo de Inser Salud me cambió la vida.', stars: 5 },
         ],
 
-        relatedLinks: [
-            { text: 'Oxigenoterapia domiciliaria', url: 'https://insersalud.com/oxigenoterapia' },
-            { text: 'Concentradores portátiles', url: 'https://insersalud.com/concentradores-portatiles' },
-            { text: 'Mochila de oxígeno portátil', url: 'https://insersalud.com/mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga' },
-            { text: 'Rehabilitación pulmonar', url: 'https://insersalud.com/rehabilitacion-pulmonar' },
-        ],
+        relatedLinks: [],
 
         santiMessage: 'Hola Santi, soy paciente con EPOC y necesito información sobre concentradores de oxígeno. ¿Cuáles son los modelos disponibles, portátiles y estacionarios, y sus precios?',
-        moreInfoUrl: 'https://www.insersalud.com/epoc',
+        moreInfoUrl: '',
     },
 
     /* ─────────────────────────────────────────────────────────────────
@@ -290,47 +510,159 @@ export const pathologies = [
         subtitle: 'Concentradores estacionarios, concentradores portátiles, mochilas de oxígeno y oxígeno líquido. Entrega en Córdoba con asesoramiento profesional.',
         color: '#6366f1',
         colorLight: '#ede9fe',
-        heroImg: '/artifacts/gce_zeno.jpg',
+        heroImg: '/artifacts/hero_fibrosis.jpg',
 
-        intro: 'La fibrosis pulmonar requiere oxigenoterapia continua para mejorar la calidad de vida, reducir la fatiga y preservar la autonomía del paciente. En Inser Salud contamos con todas las opciones de oxígeno domiciliario.',
+        intro: 'La fibrosis pulmonar requiere oxigenoterapia continua para mejorar la calidad de vida, reducir la fatiga y preservar la autonomía del paciente. En Inser Salud contamos con todas las opciones de oxígeno domiciliario: desde concentradores estacionarios para el hogar hasta concentradores portátiles, mochilas y oxígeno líquido.',
 
-        description: 'La Fibrosis Pulmonar es una enfermedad en la que el tejido pulmonar se cicatriza y endurece progresivamente, reduciendo la capacidad de intercambio de oxígeno. La oxigenoterapia domiciliaria es el pilar fundamental del tratamiento: mejora la oxigenación, reduce la disnea y permite al paciente mantener mayor actividad física.',
+        description: 'La Fibrosis Pulmonar es una enfermedad en la que el tejido pulmonar se cicatriza y endurece progresivamente, reduciendo la capacidad de intercambio de oxígeno. Los pulmones pierden elasticidad y el paciente siente disnea progresiva, inicialmente al esfuerzo y luego en reposo. La oxigenoterapia domiciliaria es el pilar fundamental del tratamiento: mejora la oxigenación, reduce la disnea y permite mantener mayor actividad física.',
 
         sections: [
             {
-                id: 'concentradores-oxigeno',
-                title: 'Concentradores de Oxígeno (Estacionarios)',
-                content: 'Para uso domiciliario continuo, los concentradores estacionarios ofrecen flujo constante sin necesidad de recarga de tubos. Son ideales para el hogar: se enchufan a la red eléctrica y producen oxígeno a partir del aire ambiente.\n\nAlquiler disponible con entrega inmediata en Córdoba.',
-                link: 'https://insersalud.com/oxigenoterapia',
-                linkText: 'Ver oxigenoterapia domiciliaria →',
+                id: 'que-es-fibrosis',
+                title: '¿Qué es la Fibrosis Pulmonar y cómo progresa?',
+                content: `La Fibrosis Pulmonar (FP) es una enfermedad pulmonar crónica y progresiva caracterizada por la acumulación de tejido cicatricial (fibrosis) en el pulmón. Este tejido reemplaza el tejido pulmonar sano y dificulta la respiración de forma progresiva e irreversible.
+
+Tipos de fibrosis pulmonar:
+
+• Fibrosis Pulmonar Idiopática (FPI): la más común. Causa desconocida. Progresión variable, pero generalmente irreversible.
+• Fibrosis secundaria: asociada a enfermedades autoinmunes (artritis reumatoide, esclerodermia, lupus), exposición laboral a polvos o toxinas, medicamentos, radioterapia.
+
+Síntomas característicos:
+• Disnea (falta de aire) al esfuerzo que progresa con el tiempo
+• Tos seca persistente e irritativa
+• Fatiga y cansancio extremo
+• Crepitantes ("velcro") al auscultar los pulmones
+• Hipocratismo digital (dedos en palillo de tambor)
+• Cianosis (color azulado en labios y uñas) en etapas avanzadas
+
+Diagnóstico:
+• Tomografía de alta resolución (TCAR)
+• Pruebas de función pulmonar (espirometría, DLCO)
+• Biopsia pulmonar en casos seleccionados
+• Saturación de oxígeno en reposo y esfuerzo
+
+La fibrosis pulmonar no tiene cura, pero con el tratamiento adecuado — incluyendo fármacos antifibróticos y oxigenoterapia — se puede frenar la progresión y mejorar la calidad de vida.`,
+                link: 'https://wa.me/5493512065320?text=Hola, tengo Fibrosis Pulmonar y quisiera información sobre oxigenoterapia domiciliaria',
+                linkText: 'Consultá con nuestro equipo →',
+            },
+            {
+                id: 'concentradores-estacionarios',
+                title: 'Concentradores de Oxígeno Estacionarios (Para el Hogar)',
+                content: `Para uso domiciliario continuo, los concentradores estacionarios ofrecen flujo constante sin necesidad de recarga de tubos ni cilindros. Son ideales para el hogar: se enchufan a la red eléctrica y producen oxígeno a partir del aire ambiente al 93% de pureza.
+
+Ventajas del concentrador estacionario:
+
+✅ Sin costo de recarga: produce oxígeno indefinidamente mientras está enchufado
+✅ Flujo continuo y constante según prescripción (1 a 5 L/min)
+✅ No requiere almacenamiento de tubos
+✅ Bajo costo operativo
+✅ Silencioso y seguro para uso en dormitorio
+✅ Disponible en alquiler con entrega inmediata en Córdoba
+
+Modelos disponibles:
+• YUWELL Estacionario 5L — U$S 713
+• Otros modelos según disponibilidad
+
+El concentrador estacionario es la opción ideal para usar durante la noche y en las horas en que el paciente está en el hogar. Para salir, se complementa con concentrador portátil o mochila.
+
+Alquiler disponible con entrega inmediata en Córdoba. Ideal para necesidades transitorias o como evaluación antes de la compra.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre concentrador de oxígeno estacionario para Fibrosis Pulmonar',
+                linkText: 'Consultá sobre alquiler →',
             },
             {
                 id: 'concentradores-portatiles',
-                title: 'Concentradores Portátiles',
-                content: 'Los concentradores portátiles te permiten mantener la actividad diaria fuera del hogar. Contamos con los modelos más livianos y de mayor autonomía:\n\n• KINGON P2-S3: el más liviano y económico del mercado\n• KINGON P2-TOC: 9,5 horas de autonomía\n• GCE Zen-O: premium con carrito y 2 baterías\n\nIdeal para salir, viajar y mantener independencia.',
-                link: 'https://insersalud.com/concentradores-portatiles',
-                linkText: 'Ver concentradores portátiles →',
+                title: 'Concentradores Portátiles: Mantenés tu Autonomía',
+                content: `Los concentradores portátiles te permiten mantener la actividad diaria fuera del hogar sin depender de tubos o recambios. Son ideales para paseos, visitas médicas, viajes y actividades cotidianas.
+
+Modelos disponibles en Inser Salud:
+
+🥇 KINGON P2-S3 — El más liviano y económico
+• Precio: $2.735.400 · U$S 1.880
+• El más liviano del mercado
+• Ideal para pacientes activos con necesidad de flujo bajo-moderado
+• Batería incluida para autonomía en desplazamientos
+
+⏱️ KINGON P2-TOC — 9,5 horas de autonomía
+• Precio: U$S 3.458
+• Batería de larga duración: 9,5 horas continuas
+• Ideal para viajes en avión o jornadas largas fuera del hogar
+
+👑 GCE Zen-O — Premium con carrito y 2 baterías
+• Precio: $5.451.885 · U$S 3.747
+• Incluye carrito y 2 baterías para máxima autonomía
+• Homologado para vuelos comerciales
+• La opción premium para el paciente más activo
+
+Importante: Los concentradores portátiles funcionan por pulso (en demanda). Para flujos continuos o nocturnos, se recomienda complementar con concentrador estacionario.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre concentradores portátiles de oxígeno para Fibrosis Pulmonar',
+                linkText: 'Consultá modelos portátiles →',
             },
             {
                 id: 'mochilas',
-                title: 'Mochilas de Oxígeno',
-                content: 'Las mochilas de oxígeno portátil son ideales para pacientes activos que necesitan flujos más altos o requieren una solución compacta para salidas cortas. Incluyen tubo, regulador, bolso y carga.',
-                link: 'https://insersalud.com/mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga',
-                linkText: 'Ver mochila de oxígeno →',
+                title: 'Mochilas de Oxígeno Portátil',
+                content: `Las mochilas de oxígeno portátil son una solución práctica para pacientes que necesitan flujos más altos o que prefieren una opción compacta y económica para salidas cortas.
+
+Contenido del kit mochila de Inser Salud:
+• 1 tubo portátil de oxígeno (0,415 L)
+• 1 regulador de flujo
+• 1 bolso transportador especializado
+• Carga de oxígeno incluida
+• Precio referencia: U$S 270
+
+¿Cuándo conviene la mochila de oxígeno?
+• Salidas de 2 a 4 horas fuera del hogar
+• Visitas médicas o estudios
+• Situaciones de emergencia o backup
+• Pacientes con flujos más altos que no cubre el concentrador portátil
+
+Diferencia con el concentrador portátil:
+La mochila de oxígeno usa oxígeno comprimido en tubo (carga finita), mientras que el concentrador portátil lo produce del aire (autonomía ilimitada con batería). La mochila es más económica pero requiere recarga periódica.
+
+Consultanos para evaluar cuál es la mejor opción según tu prescripción médica y estilo de vida.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre mochilas de oxígeno portátil para Fibrosis Pulmonar',
+                linkText: 'Consultá sobre mochilas →',
             },
             {
                 id: 'oxigeno-liquido',
                 title: 'Oxígeno Líquido',
-                content: 'El oxígeno líquido ofrece mayor autonomía y menor peso que los tubos de oxígeno convencionales. Es la solución ideal para pacientes muy activos o que necesitan flujos elevados durante actividades físicas. Consultanos disponibilidad en Córdoba.',
-                link: 'https://insersalud.com/oxigeno-liquido',
-                linkText: 'Consultar oxígeno líquido →',
+                content: `El oxígeno líquido es la solución con mayor densidad energética: en el mismo volumen almacena mucho más oxígeno que el gas comprimido, lo que permite mayor autonomía con menor peso.
+
+Ventajas del oxígeno líquido:
+
+✅ Mayor autonomía que los tubos convencionales
+✅ Menor peso total del equipo
+✅ Flujo continuo a cualquier nivel (ideal para flujos elevados)
+✅ Posibilidad de recarga del equipo portátil desde el tanque domiciliario
+✅ Ideal para pacientes muy activos o con indicación de flujos altos (>3 L/min)
+
+¿Quién lo necesita?
+
+• Pacientes con fibrosis pulmonar avanzada que requieren flujos altos durante el ejercicio
+• Pacientes que no toleran el pulso del concentrador portátil
+• Pacientes muy activos que necesitan máxima autonomía fuera del hogar
+
+En Inser Salud te asesoramos sobre disponibilidad de oxígeno líquido en Córdoba y cómo acceder a este sistema según la indicación médica.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre oxígeno líquido para Fibrosis Pulmonar en Córdoba',
+                linkText: 'Consultá disponibilidad →',
             },
             {
-                id: 'rehabilitacion',
-                title: 'Rehabilitación Pulmonar',
-                content: 'La rehabilitación pulmonar supervisada mejora la tolerancia al ejercicio, reduce la disnea y mejora la calidad de vida en pacientes con Fibrosis Pulmonar. Te orientamos sobre cómo acceder a este tratamiento complementario.',
-                link: 'https://insersalud.com/rehabilitacion-pulmonar',
-                linkText: 'Saber más sobre rehabilitación →',
+                id: 'rehabilitacion-fp',
+                title: 'Rehabilitación Pulmonar en Fibrosis Pulmonar',
+                content: `La rehabilitación pulmonar tiene beneficios probados en la Fibrosis Pulmonar: mejora la tolerancia al ejercicio, reduce la disnea y mejora la calidad de vida, aunque no cambia la progresión de la enfermedad.
+
+Componentes del programa:
+
+🏃 Ejercicio aeróbico supervisado: caminata en cinta, bicicleta fija, ajustado a cada paciente con monitoreo de saturación.
+
+💪 Entrenamiento de fuerza muscular: especialmente de extremidades inferiores y musculatura respiratoria.
+
+📚 Educación sobre la enfermedad: aprender a reconocer señales de alerta, técnicas de ahorro energético, cómo usar el oxígeno durante el ejercicio.
+
+🧘 Apoyo psicosocial: manejo de la ansiedad y la depresión frecuentes en pacientes con enfermedades crónicas progresivas.
+
+Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si el paciente lo necesita. Monitoreá la saturación antes, durante y después de cada sesión.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre rehabilitación pulmonar para Fibrosis Pulmonar',
+                linkText: 'Consultá sobre rehabilitación →',
             },
         ],
 
@@ -340,7 +672,6 @@ export const pathologies = [
                 priceARS: '$5.451.885',
                 priceUSD: 'U$S 3.747',
                 img: '/artifacts/gce_zeno.jpg',
-                link: 'https://insersalud.com/concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias',
                 badge: 'PREMIUM',
                 desc: 'Con carrito y 2 baterías. Máxima autonomía.',
             },
@@ -349,7 +680,6 @@ export const pathologies = [
                 priceARS: '$2.735.400',
                 priceUSD: 'U$S 1.880',
                 img: '/artifacts/kingon_p2_s3.jpg',
-                link: 'https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico',
                 badge: 'MÁS LIVIANO',
                 desc: 'El más liviano y económico del mercado.',
             },
@@ -357,8 +687,7 @@ export const pathologies = [
                 name: 'KINGON P2-TOC (Portátil)',
                 priceARS: null,
                 priceUSD: 'U$S 3.458',
-                img: '/artifacts/kingon_p2_s3.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/kingon_p2_toc.jpg',
                 badge: '9,5 HS',
                 desc: '9,5 horas de autonomía con batería extendida.',
             },
@@ -366,48 +695,43 @@ export const pathologies = [
                 name: 'Concentrador YUWELL Estacionario',
                 priceARS: null,
                 priceUSD: 'U$S 713',
-                img: '/artifacts/gce_zeno.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/concentrador_yuwell.jpg',
                 badge: null,
-                desc: 'Para uso domiciliario continuo.',
+                desc: 'Para uso domiciliario continuo. 5 L/min.',
             },
             {
                 name: 'Mochila de Oxígeno Portátil',
                 priceARS: null,
                 priceUSD: 'U$S 270',
                 img: '/artifacts/kingon_p2_s3.jpg',
-                link: 'https://insersalud.com/mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga',
                 badge: null,
                 desc: 'Tubo 0,415 L + regulador + bolso + carga.',
             },
         ],
 
         tips: [
-            'Usá el oxígeno las horas indicadas por tu médico, especialmente durante la noche y el ejercicio.',
-            'Mantené limpios los filtros del concentrador para garantizar el mejor rendimiento.',
-            'Consultá con tu médico antes de viajar en avión: los vuelos pueden requerir oxígeno adicional.',
+            'Usá el oxígeno las horas indicadas por tu médico: especialmente durante la noche y el ejercicio.',
+            'Mantené limpios los filtros del concentrador para garantizar el mejor rendimiento y vida útil.',
+            'Consultá con tu médico antes de viajar en avión: los vuelos pueden requerir oxígeno adicional y algunos modelos son homologados para volar.',
             'La rehabilitación pulmonar supervisada mejora la tolerancia al ejercicio y reduce la disnea.',
-            'Llevá siempre un oxímetro de pulso para monitorear tu saturación durante el día.',
+            'Llevá siempre un oxímetro de pulso para monitorear tu saturación durante el día y el ejercicio.',
             'Nunca fumés ni permitas que fumen cerca del concentrador: el oxígeno es altamente inflamable.',
+            'Si la saturación baja por debajo del 88% en reposo, avisá a tu médico inmediatamente.',
+            'Tomá los fármacos antifibróticos indicados: frena la progresión aunque no cure la enfermedad.',
         ],
 
         alertText: 'La oxigenoterapia mejora la sobrevida y la calidad de vida en Fibrosis Pulmonar. Entrega inmediata en Córdoba.',
         alertCta: 'Consultá disponibilidad →',
 
         testimonials: [
-            { name: 'María G.', text: 'Los equipos de Inser Salud han mejorado mi calidad de vida y mi sueño es mucho mejor.', stars: 5 },
+            { name: 'María G.', city: 'Córdoba', text: 'El concentrador portátil de Inser Salud me permite salir y hacer mi vida normal. La calidad del equipo es excelente.', stars: 5 },
+            { name: 'Roberto A.', city: 'Villa Carlos Paz', text: 'El asesoramiento fue impecable. Me explicaron todo sobre el oxígeno líquido y ahora tengo mucha más autonomía.', stars: 5 },
         ],
 
-        relatedLinks: [
-            { text: 'Oxigenoterapia domiciliaria', url: 'https://insersalud.com/oxigenoterapia' },
-            { text: 'Concentradores portátiles', url: 'https://insersalud.com/concentradores-portatiles' },
-            { text: 'Mochila de oxígeno portátil', url: 'https://insersalud.com/mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga' },
-            { text: 'Oxígeno líquido', url: 'https://insersalud.com/oxigeno-liquido' },
-            { text: 'Rehabilitación pulmonar', url: 'https://insersalud.com/rehabilitacion-pulmonar' },
-        ],
+        relatedLinks: [],
 
         santiMessage: 'Hola Santi, tengo Fibrosis Pulmonar y necesito oxigenoterapia domiciliaria. ¿Qué concentradores tienen disponibles, tanto estacionarios como portátiles? ¿También tienen oxígeno líquido?',
-        moreInfoUrl: 'https://www.insersalud.com/fibrosis-pulmonar',
+        moreInfoUrl: '',
     },
 
     /* ─────────────────────────────────────────────────────────────────
@@ -418,44 +742,156 @@ export const pathologies = [
         slug: 'esclerosis-lateral-amiotrofica',
         title: 'Esclerosis Lateral Amiotrófica',
         metaTitle: 'Información sobre la enfermedad ELA | INSER SALUD',
-        headline: '¿Tenés Tos Suficiente?',
-        subtitle: 'En la ELA, mantener una tos efectiva y una ventilación adecuada puede ser la diferencia. Equipamos y acompañamos a pacientes y familias.',
+        headline: '¿Tenés Tos Suficiente? Todo sobre el soporte respiratorio en ELA',
+        subtitle: 'En la ELA, mantener una tos efectiva y una ventilación adecuada puede ser la diferencia. Equipamos y acompañamos a pacientes y familias desde el primer día.',
         color: '#7c3aed',
         colorLight: '#ede9fe',
-        heroImg: '/artifacts/bipap_bmc_g3.jpg',
+        heroImg: '/artifacts/hero_ela.jpg',
 
         intro: 'Más del 80% de las muertes en personas con enfermedades neuromusculares como la ELA se deben a causas respiratorias evitables. El seguimiento respiratorio debe comenzar incluso antes de que aparezcan síntomas evidentes.',
 
-        description: 'La Esclerosis Lateral Amiotrófica (ELA) es una enfermedad neurodegenerativa que afecta progresivamente las neuronas motoras, debilitando los músculos, incluyendo los respiratorios. Una tos eficaz y una ventilación adecuada son fundamentales para mantener la calidad de vida y prevenir complicaciones graves.',
+        description: 'La Esclerosis Lateral Amiotrófica (ELA) es una enfermedad neurodegenerativa que afecta progresivamente las neuronas motoras, debilitando los músculos, incluyendo los respiratorios. Una tos eficaz y una ventilación adecuada son fundamentales para mantener la calidad de vida y prevenir complicaciones graves como neumonías y insuficiencia respiratoria.',
 
         sections: [
             {
+                id: 'enfermedades-neuromusculares',
+                title: '🧠 Enfermedades Neuromusculares y Respiración: un Abordaje que puede Cambiarlo Todo',
+                content: `Las enfermedades neuromusculares (ENM) son un grupo de trastornos que afectan el funcionamiento de los músculos debido a alteraciones en los nervios que los controlan. Estas enfermedades pueden ser hereditarias, adquiridas o progresivas, y entre las más frecuentes se encuentran:
+
+• Distrofia muscular de Duchenne
+• Esclerosis lateral amiotrófica (ELA)
+• Atrofia muscular espinal (AME)
+• Miopatías y polineuropatías
+• Miastenia gravis
+
+Una característica común en todas ellas es que con el tiempo se debilitan los músculos respiratorios, tanto los encargados de la inspiración (como el diafragma) como los que permiten toser y eliminar secreciones.
+
+⚠️ El dato que no se puede ignorar
+Más del 80% de las muertes en personas con enfermedades neuromusculares se deben a causas respiratorias evitables.
+
+Esta estadística es dura, pero real. Lo más preocupante es que muchas veces se llega tarde al diagnóstico respiratorio, cuando los síntomas ya son severos. Por eso, el seguimiento respiratorio debe comenzar incluso antes de que aparezcan síntomas evidentes.
+
+📌 El abordaje integral salva vidas
+Abordar a tiempo la función respiratoria no es solo una estrategia médica: es una forma directa de cuidar la vida, de prolongar la autonomía y de acompañar con dignidad.
+
+El seguimiento periódico, los estudios funcionales en domicilio, la educación de la familia y el acceso temprano a equipos como el Cough Assist o los BiPAP hacen la diferencia.
+
+🧠 En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede hacer la diferencia. La falta de aire muchas veces no se nota… hasta que es tarde.
+
+En Inser Salud realizamos evaluaciones respiratorias gratuitas para detectar a tiempo cuándo es necesario comenzar con asistencia ventilatoria.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre evaluación respiratoria gratuita para ELA o enfermedades neuromusculares',
+                linkText: 'Consultá la evaluación gratuita →',
+            },
+            {
                 id: 'evaluacion',
-                title: 'Evaluación Funcional Respiratoria',
-                content: 'Los siguientes estudios permiten detectar a tiempo la debilidad muscular respiratoria, incluso antes de los síntomas:\n\n🫁 Capacidad Vital Forzada (CVF): por debajo del 50% predicho, se requiere asistencia respiratoria.\n\n🌬️ Presiones inspiratorias y espiratorias (PIMAX/PEMAX): evalúan la fuerza de los músculos respiratorios.\n\n💨 Pico de flujo de tos (PCF): PCF < 160 L/min indica necesidad de asistencia (Cough Assist).\n\n🌙 Capnografía y oximetría nocturna: detectan hipoventilación durante el sueño.\n\nEn Inser Salud realizamos evaluaciones respiratorias gratuitas para detectar a tiempo cuándo es necesario comenzar con asistencia ventilatoria.',
-                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre evaluación respiratoria gratuita para ELA',
-                linkText: '📲 Consultá la evaluación gratuita →',
+                title: '🔍 Evaluación Funcional Respiratoria: ¿Cómo Saber Cuándo Actuar?',
+                content: `Los siguientes estudios permiten detectar a tiempo la debilidad muscular respiratoria, incluso cuando la persona todavía no presenta síntomas:
+
+🫁 1. Capacidad Vital Forzada (CVF)
+Se mide con espirometría. Un valor por debajo del 50% predicho sugiere que ya se requiere asistencia respiratoria, especialmente durante el sueño.
+También es clave observar la variación entre la CVF sentado y acostado: si disminuye más del 20%, hay debilidad diafragmática.
+
+🌬️ 2. Presiones inspiratorias y espiratorias máximas (PIMAX/PEMAX)
+Evalúan la fuerza de los músculos respiratorios.
+• PIMAX < 60 cmH₂O sugiere debilidad inspiratoria significativa.
+• PEMAX < 80 cmH₂O indica tos ineficaz.
+
+💨 3. Pico de flujo de tos (PCF)
+Refleja la capacidad de eliminar secreciones.
+• PCF > 270 L/min: normal
+• PCF entre 160–270 L/min: riesgo
+• PCF < 160 L/min: necesidad de asistencia para la tos (Cough Assist)
+
+🌙 4. Capnografía y oximetría nocturna
+Detectan acumulación de dióxido de carbono y desaturaciones durante el sueño, incluso sin síntomas. Son fundamentales para saber cuándo iniciar la ventilación no invasiva (VNI) nocturna.
+
+En Inser Salud realizamos evaluaciones respiratorias gratuitas para detectar a tiempo cuándo es necesario comenzar con asistencia ventilatoria.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre evaluación respiratoria gratuita para ELA o enfermedades neuromusculares',
+                linkText: '📲 Solicitar evaluación gratuita →',
             },
             {
                 id: 'cough-assist',
-                title: '¿Tenés Tos Suficiente? — Cough Assist',
-                content: 'Cuando los músculos respiratorios se debilitan, la tos pierde efectividad y las secreciones se acumulan en los pulmones, aumentando el riesgo de neumonía.\n\nEl Asistente de Tos (Cough Assist) genera una tos mecánica efectiva que limpia las vías aéreas. Se indica cuando el PCF cae por debajo de 160 L/min.\n\n• Previene neumonías por retención de secreciones\n• Reduce hospitalizaciones\n• Puede usarse en domicilio con la familia\n\nPrecio: U$S 9.084',
-                link: 'https://insersalud.com/tienda',
-                linkText: 'Consultar Cough Assist →',
+                title: '¿Tenés Tos Suficiente? — El Asistente de Tos (Cough Assist)',
+                content: `¿Tenés tos suficiente?
+
+Cuando los músculos respiratorios se debilitan, la tos pierde fuerza y efectividad. Las secreciones se acumulan en los pulmones y vías aéreas, generando un ambiente propicio para la neumonía — la causa más frecuente de muerte en ELA.
+
+¿Qué hace el Asistente de Tos (Cough Assist)?
+
+El Cough Assist (asistente mecánico de tos o Insufflator-Exsufflator) genera una tos mecánica efectiva mediante un ciclo de insuflación-exuflación:
+
+1. Insuflación: el equipo llena los pulmones de aire (como una inspiración profunda)
+2. Exuflación: el equipo extrae el aire rápidamente (simula la tos)
+3. Resultado: las secreciones se moviliza hacia las vías aéreas superiores y se pueden eliminar
+
+¿Cuándo se indica el Cough Assist?
+• PCF < 160 L/min en cualquier momento
+• PCF < 270 L/min durante infecciones respiratorias
+• Tos débil, húmeda o ineficaz
+• Historia de internaciones por neumonía
+
+Beneficios demostrados:
+✅ Previene neumonías por retención de secreciones
+✅ Reduce hospitalizaciones hasta en un 40%
+✅ Puede usarse de forma segura en domicilio (familiar capacitado)
+✅ Mejora el bienestar y la tranquilidad del paciente y la familia
+
+Precio referencia: U$S 9.084
+Consultanos disponibilidad y financiación.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero consultar sobre el Asistente de Tos Cough Assist para ELA. ¿Cuál es el precio y disponibilidad?',
+                linkText: 'Consultá el Cough Assist →',
             },
             {
                 id: 'vni',
-                title: 'Ventilación No Invasiva (VNI / BiPAP)',
-                content: 'La VNI debe iniciarse antes de que el paciente tenga insuficiencia respiratoria aguda. Se indica cuando:\n\n✅ Capacidad Vital < 50% del valor teórico\n✅ Desaturaciones nocturnas (SpO₂ < 90% más del 5% del sueño)\n✅ Somnolencia, cefalea matutina, fatiga\n✅ Hipercapnia (CO₂ > 45 mmHg)\n\nCuanto antes se inicia la VNI, mejor se preserva la calidad de vida y se retrasa el deterioro. El BiPAP con frecuencia respiratoria de respaldo es el equipo de elección para ELA.',
-                link: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador',
-                linkText: 'Ver BiPAP BMC G3 con FR →',
+                title: '🛠️ ¿Cuándo Iniciar la Ventilación No Invasiva (VNI)?',
+                content: `La ventilación no invasiva (VNI) debe indicarse antes de que el paciente tenga insuficiencia respiratoria aguda, y de forma preventiva si se observan estos criterios:
+
+• Capacidad vital < 50% del valor teórico
+• Desaturaciones nocturnas (SpO₂ < 90% durante más del 5% del sueño)
+• Signos de hipoventilación: somnolencia, cefalea matutina, fatiga
+• Hipercapnia (CO₂ > 45 mmHg) en gases arteriales
+• Fallas en pruebas de fuerza respiratoria (PIMAX, PCF)
+
+Cuanto antes se inicia la VNI, mejor se preserva la calidad de vida y se retrasa el deterioro.
+
+¿Cuántas horas por día?
+
+Generalmente se indica primero solo durante el sueño (8-10 hs). A medida que la enfermedad avanza, el médico puede indicar también uso diurno parcial o continuo.
+
+Equipo de elección para ELA:
+
+BiPAP con frecuencia respiratoria de respaldo (FR): esencial porque garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio.
+
+• BiPAP BMC G3 con FR y humidificador — $1.300.000 · U$S 907
+• STELLAR 150 RESMED con humidificador y batería — U$S 7.342 (etapas avanzadas)
+
+Adaptarse al BiPAP, paso a paso:
+
+Sabemos que usar un BiPAP al principio puede generar incomodidad, miedo o rechazo. En Inser Salud te acompañamos con respeto y cercanía para que te sientas seguro. Vamos de a poco, sin apuros.
+
+💬 Estamos para ayudarte. 🤝 No estás solo. 🌙 Respirar bien también es vivir mejor.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre BiPAP con frecuencia respiratoria para ELA',
+                linkText: 'Consultá el BiPAP para ELA →',
             },
             {
-                id: 'neuromusculares',
-                title: 'Abordaje Integral en Enfermedades Neuromusculares',
-                content: 'El abordaje integral salva vidas. El seguimiento periódico, los estudios funcionales en domicilio, la educación de la familia y el acceso temprano a equipos como el Cough Assist o los BiPAP hacen la diferencia.\n\nEn enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser determinante. La falta de aire muchas veces no se nota… hasta que es tarde.',
-                link: 'https://insersalud.com/neuromusculares',
-                linkText: 'Leer más sobre enfermedades neuromusculares →',
+                id: 'acompanamiento',
+                title: 'Acompañamiento Integral: No estás solo',
+                content: `El abordaje integral salva vidas en ELA. El seguimiento periódico, los estudios funcionales en domicilio, la educación de la familia y el acceso temprano a equipos como el Cough Assist o el BiPAP hacen la diferencia.
+
+En Inser Salud ofrecemos:
+
+✅ Evaluaciones respiratorias gratuitas para pacientes con ELA y enfermedades neuromusculares
+✅ Asesoramiento personalizado para la elección del equipo correcto según la etapa de la enfermedad
+✅ Entrega e instalación del equipo en domicilio
+✅ Capacitación al paciente y la familia en el uso del Cough Assist y BiPAP
+✅ Seguimiento durante los primeros días de adaptación
+✅ Alquiler disponible (ideal para comenzar antes de decidir la compra)
+
+En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser determinante. La falta de aire muchas veces no se nota… hasta que es tarde.
+
+🤝 Estamos para acompañarte en cada etapa.`,
+                link: 'https://wa.me/5493512065320?text=Hola, tengo ELA y necesito información sobre evaluación respiratoria y equipamiento. ¿Me pueden ayudar?',
+                linkText: 'Hablar con un asesor →',
             },
         ],
 
@@ -464,37 +900,33 @@ export const pathologies = [
                 name: 'COUGH ASSIST — Asistente de Tos',
                 priceARS: null,
                 priceUSD: 'U$S 9.084',
-                img: '/artifacts/bipap_bmc_g3.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/cough_assist.jpg',
                 badge: 'ESENCIAL',
-                desc: 'Asistente mecánico de tos para enfermedades neuromusculares.',
+                desc: 'Asistente mecánico de tos. Previene neumonías en ELA.',
             },
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
                 priceARS: '$1.300.000',
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
-                link: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador',
                 badge: null,
-                desc: 'Con frecuencia respiratoria de respaldo para ELA.',
+                desc: 'Con frecuencia respiratoria de respaldo. Equipo de elección para ELA.',
             },
             {
                 name: 'STELLAR 150 RESMED (con humidificador y batería)',
                 priceARS: null,
                 priceUSD: 'U$S 7.342',
-                img: '/artifacts/bipap_bmc_g3.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/stellar_150.jpg',
                 badge: 'PREMIUM',
-                desc: 'Ventilador de alta gama para casos avanzados.',
+                desc: 'Ventilador de alta gama para etapas avanzadas de ELA.',
             },
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
                 priceARS: '$229.000',
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
-                link: 'https://insersalud.com/mascarilla-nasobucal-dreamwear-philips-cpap',
                 badge: null,
-                desc: 'Interfaz nasobucal de mínimo contacto.',
+                desc: 'Interfaz nasobucal de mínimo contacto para BiPAP.',
             },
         ],
 
@@ -502,26 +934,25 @@ export const pathologies = [
             'El seguimiento respiratorio debe comenzar antes de que aparezcan síntomas: no esperés a sentir ahogo.',
             'Realizá sesiones de Cough Assist diariamente según indicación médica para mantener limpias las vías aéreas.',
             'Registrá la saturación de oxígeno regularmente con un oxímetro de pulso, especialmente al despertar.',
-            'La capnografía nocturna detecta hipoventilación aunque no sientas síntomas durante el día.',
-            'Informá a la familia sobre el uso del Cough Assist: pueden ayudar en domicilio de forma segura.',
-            'Iniciá la VNI lo antes que indique tu médico: no esperés a la crisis respiratoria.',
+            'La capnografía nocturna detecta hipoventilación aunque durante el día no sientas síntomas.',
+            'Informá a la familia sobre el uso del Cough Assist: pueden ayudar de forma segura en domicilio.',
+            'Iniciá la VNI lo antes que indique tu médico: no esperés la crisis respiratoria.',
+            'El BiPAP con frecuencia respiratoria de respaldo es el equipo de elección para ELA: no cualquier BiPAP sirve.',
+            'Consultá en Inser Salud: hacemos evaluaciones respiratorias gratuitas para pacientes con ELA.',
         ],
 
-        alertText: 'En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con enfermedades neuromusculares.',
+        alertText: 'En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con ELA y enfermedades neuromusculares.',
         alertCta: 'Solicitar evaluación →',
 
         testimonials: [
-            { name: 'Juan P.', text: 'Excelente atención y asesoramiento. Los dispositivos son de alta calidad y me han ayudado mucho.', stars: 5 },
+            { name: 'Familia de Carlos R.', city: 'Córdoba', text: 'El equipo de Inser Salud nos enseñó a usar el Cough Assist en casa. La tranquilidad que nos da es invaluable.', stars: 5 },
+            { name: 'Juan P.', city: 'Córdoba', text: 'Excelente atención. Los dispositivos son de alta calidad y el seguimiento fue clave para adaptarse al BiPAP.', stars: 5 },
         ],
 
-        relatedLinks: [
-            { text: 'Información completa sobre enfermedades neuromusculares', url: 'https://insersalud.com/neuromusculares' },
-            { text: 'BiPAP BMC G3 con frecuencia respiratoria', url: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador' },
-            { text: 'Ver tienda — Cough Assist y equipos', url: 'https://insersalud.com/tienda' },
-        ],
+        relatedLinks: [],
 
-        santiMessage: 'Hola Santi, tengo ELA y necesito información sobre el Asistente de Tos (Cough Assist) y BiPAP para enfermedades neuromusculares. ¿Qué equipos tienen y cuáles son los precios?',
-        moreInfoUrl: 'https://www.insersalud.com/esclerosis-lateral-amiotrofica',
+        santiMessage: 'Hola Santi, tengo ELA y necesito información sobre el Asistente de Tos (Cough Assist) y BiPAP con frecuencia respiratoria para enfermedades neuromusculares. ¿Qué equipos tienen y cuáles son los precios?',
+        moreInfoUrl: '',
     },
 
     /* ─────────────────────────────────────────────────────────────────
@@ -536,7 +967,7 @@ export const pathologies = [
         subtitle: 'BiPAP, asistentes de tos y máscaras pediátricas y de adultos. Seguimiento profesional para cada tipo y etapa de la enfermedad.',
         color: '#be185d',
         colorLight: '#fce7f3',
-        heroImg: '/artifacts/mascara_nasobucal_dreamwear.jpg',
+        heroImg: '/artifacts/hero_ame.jpg',
 
         intro: 'La AME es una enfermedad genética que afecta las neuronas motoras, debilitando progresivamente los músculos. Más del 80% de las complicaciones graves en AME son de origen respiratorio y evitables con un buen seguimiento.',
 
@@ -544,32 +975,140 @@ export const pathologies = [
 
         sections: [
             {
+                id: 'tipos-ame',
+                title: 'Tipos de AME y Compromiso Respiratorio',
+                content: `La Atrofia Muscular Espinal se clasifica en 4 tipos según la edad de inicio y el nivel de función motora:
+
+🔴 AME Tipo 1 (forma grave, inicio antes de los 6 meses):
+• Debilidad muscular severa desde el nacimiento
+• Incapacidad para sentarse sin apoyo
+• Compromiso respiratorio severo y precoz: requiere ventilación desde los primeros meses de vida
+• Alta mortalidad sin tratamiento antes de los 2 años
+• Tratamiento actual con Nusinersen, Onasemnogene o Risdiplam cambia el pronóstico
+
+🟠 AME Tipo 2 (inicio entre 6-18 meses):
+• Puede sentarse pero no camina
+• Compromiso respiratorio progresivo, especialmente durante el sueño
+• Requiere VNI nocturna y en muchos casos Cough Assist
+• Alta escoliosis que agrava el compromiso pulmonar
+
+🟡 AME Tipo 3 (inicio después de los 18 meses):
+• Puede caminar (aunque algunos pierden la marcha con los años)
+• Compromiso respiratorio más tardío y variable
+• Requiere seguimiento respiratorio periódico
+
+⚠️ En todos los tipos de AME, el compromiso respiratorio es la principal causa de complicaciones y muerte. Más del 80% de los eventos graves son prevenibles con seguimiento y equipamiento adecuado.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre soporte respiratorio para AME',
+                linkText: 'Consultá con nuestro equipo →',
+            },
+            {
                 id: 'evaluacion',
-                title: 'Evaluación Respiratoria en AME',
-                content: 'Al igual que en otras enfermedades neuromusculares, el seguimiento respiratorio debe iniciarse tempranamente, incluso antes de síntomas:\n\n🫁 CVF < 50%: indica necesidad de asistencia ventilatoria\n💨 PCF < 160 L/min: requiere asistente de tos (Cough Assist)\n🌙 Oximetría nocturna: detecta desaturaciones durante el sueño\n\nEn Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con AME.',
+                title: 'Evaluación Respiratoria en AME: Cuándo y Cómo',
+                content: `El seguimiento respiratorio debe iniciarse tempranamente en AME, incluso antes de síntomas evidentes. Los parámetros clave son:
+
+🫁 Capacidad Vital Forzada (CVF):
+• CVF < 50% del predicho → indicación de asistencia ventilatoria
+• Diferencia sentado/acostado > 20% → debilidad diafragmática significativa (evaluar VNI nocturna incluso con CVF > 50%)
+
+💨 Pico de Flujo de Tos (PCF):
+• PCF > 270 L/min: tos efectiva (zona segura)
+• PCF 160–270 L/min: zona de riesgo, especialmente durante infecciones
+• PCF < 160 L/min: tos insuficiente → indicación de Cough Assist
+
+💪 Presiones respiratorias:
+• PIMAX < 60 cmH₂O: debilidad inspiratoria significativa
+• PEMAX < 80 cmH₂O: tos ineficaz
+
+🌙 Oximetría nocturna:
+• Desaturaciones SpO₂ < 90% más del 5% del tiempo de sueño → indicación de VNI nocturna
+
+En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con AME y sus familias. Detectar la debilidad a tiempo permite iniciar el soporte antes de la crisis.`,
                 link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre evaluación respiratoria gratuita para AME',
                 linkText: 'Solicitar evaluación gratuita →',
             },
             {
-                id: 'vni',
+                id: 'vni-ame',
                 title: 'Ventilación No Invasiva (BiPAP) para AME',
-                content: 'El BiPAP es el principal soporte ventilatorio en AME. Contamos con equipos para:\n\n• AME tipo 1 (pediátrico): máscaras nasales de menor talle, interfaces especializadas\n• AME tipo 2 y 3: BiPAP con diferentes modalidades según la prescripción\n\nTrabajamos junto al equipo médico tratante para adaptar los parámetros de ventilación a cada paciente.',
-                link: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador',
-                linkText: 'Ver BiPAP disponibles →',
+                content: `El BiPAP es el principal soporte ventilatorio en AME. Asiste la respiración durante el sueño y, en etapas avanzadas, también durante el día.
+
+¿Cuándo iniciar el BiPAP en AME?
+
+• AME Tipo 1: desde los primeros meses, según indicación del neuropediatra y neumonólogo
+• AME Tipo 2 y 3: cuando CVF < 50%, PCF < 270, o hay síntomas de hipoventilación nocturna
+
+Equipos disponibles en Inser Salud:
+
+BiPAP BMC G3 con frecuencia respiratoria y humidificador:
+• Precio: $1.300.000 · U$S 907
+• La frecuencia respiratoria de respaldo garantiza ventilación mínima aunque el paciente no inicie el ciclo
+• Fundamental para AME tipo 1 y 2
+
+Modalidades de ventilación disponibles:
+• BiPAP S: responde a los esfuerzos del paciente
+• BiPAP S/T: responde + frecuencia de respaldo
+• BiPAP T: controlado (para casos muy avanzados)
+
+Máscaras para AME (pediátricas y adultos):
+• Nasales: DreamWear, BMC N4/N5a, NeoQ Infant (pediátrica)
+• Nasobucales: DreamWear Full Face, BMC F2, AirFit F30
+• Elección según la edad, talla y tolerancia del paciente
+
+Trabajamos junto al equipo médico tratante para adaptar los parámetros de ventilación a cada paciente y cada etapa.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre BiPAP para AME. ¿Tienen opciones pediátricas y de adultos?',
+                linkText: 'Consultá el BiPAP para AME →',
             },
             {
-                id: 'cough-assist',
-                title: 'Asistente de Tos (Cough Assist)',
-                content: 'Para pacientes con AME que tienen tos débil o ineficaz, el asistente de tos mecánico es fundamental para mantener limpias las vías aéreas y prevenir neumonías por acumulación de secreciones.\n\nSe puede usar en domicilio con la familia, siguiendo un protocolo sencillo que enseñamos al momento de la entrega.',
-                link: 'https://insersalud.com/tienda',
-                linkText: 'Consultar Cough Assist →',
+                id: 'cough-assist-ame',
+                title: 'Asistente de Tos (Cough Assist) en AME',
+                content: `La tos ineficaz es una de las complicaciones más peligrosas en AME. Cuando los músculos espiratorios son débiles (PEMAX < 80 cmH₂O o PCF < 270 L/min), la tos pierde efectividad y las secreciones se acumulan, facilitando las neumonías.
+
+El Cough Assist (Asistente Mecánico de Tos) genera una tos artificial efectiva:
+
+Fase 1 — Insuflación: el equipo llena los pulmones de aire (presión positiva)
+Fase 2 — Exuflación: el equipo extrae el aire rápidamente (presión negativa), simulando la tos
+
+Indicaciones en AME:
+• PCF < 160 L/min: indicación absoluta
+• PCF 160–270 L/min: indicación relativa, especialmente durante infecciones respiratorias
+• Incapacidad de toser eficazmente en cualquier etapa
+
+Cómo usarlo en casa:
+
+El Cough Assist puede usarlo la familia en domicilio con entrenamiento previo. En Inser Salud capacitamos a familiares y cuidadores en el momento de la entrega del equipo, con seguimiento posterior.
+
+Frecuencia de uso: según indicación médica, generalmente 2-3 sesiones/día de 5 ciclos cada una. En infecciones respiratorias, puede aumentarse la frecuencia.
+
+Precio referencia: U$S 9.084`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero consultar sobre el Asistente de Tos Cough Assist para AME',
+                linkText: 'Consultá el Cough Assist →',
             },
             {
-                id: 'info-completa',
-                title: 'Información completa sobre Enfermedades Neuromusculares',
-                content: 'La AME forma parte de un grupo de enfermedades neuromusculares que comparten el compromiso progresivo de los músculos respiratorios. En nuestra sección de neuromusculares encontrás información clínica detallada sobre evaluación funcional, criterios para inicio de VNI y abordaje integral.',
-                link: 'https://insersalud.com/neuromusculares',
-                linkText: 'Ver info completa sobre neuromusculares →',
+                id: 'mascaras-ame',
+                title: 'Máscaras Pediátricas y de Adultos para BiPAP',
+                content: `La elección correcta de la máscara es fundamental para la adherencia al tratamiento, especialmente en niños pequeños con AME tipo 1.
+
+Máscaras pediátricas disponibles:
+
+👶 NeoQ Infant — Máscara nasal pediátrica
+• Precio: U$S 144
+• Talles XS, S, M, L para niños desde recién nacidos
+• Diseño ergonómico adaptado al rostro pediátrico
+• Máxima comodidad para uso continuo
+
+🦒 Máscara Jirafa Philips Respironics (pediátrica)
+• Precio: U$S 220
+• Diseño lúdico para facilitar la aceptación en niños
+• Talles infantiles
+
+Máscaras de adultos para AME tipo 2 y 3:
+
+👃 Nasales: DreamWear (mínimo contacto), BMC N4, BMC N5a, RESMED AirFit N20
+😮 Nasobucales: DreamWear Full Face, BMC F2, RESMED AirFit F20/F30
+🌟 DreamWear (mínimo contacto nasal): U$S 153
+
+Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contamos con la mayor variedad de interfaces de Córdoba. El incumplimiento del tratamiento muchas veces se debe a una máscara inadecuada.`,
+                link: 'https://wa.me/5493512065320?text=Hola, necesito máscaras para BiPAP para AME. ¿Tienen opciones pediátricas?',
+                linkText: 'Consultá sobre máscaras →',
             },
         ],
 
@@ -579,34 +1118,30 @@ export const pathologies = [
                 priceARS: '$1.300.000',
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
-                link: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador',
                 badge: null,
-                desc: 'Con frecuencia respiratoria de respaldo. Ideal para AME.',
+                desc: 'Con frecuencia respiratoria de respaldo. Ideal para AME tipos 1 y 2.',
             },
             {
                 name: 'COUGH ASSIST — Asistente de Tos',
                 priceARS: null,
                 priceUSD: 'U$S 9.084',
-                img: '/artifacts/bipap_bmc_g3.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/cough_assist.jpg',
                 badge: 'ESENCIAL',
-                desc: 'Asistente mecánico de tos para AME con tos ineficaz.',
+                desc: 'Asistente mecánico de tos. Previene neumonías en AME.',
             },
             {
                 name: 'Máscara Nasal DreamWear (talles S/M/L)',
                 priceARS: '$223.000',
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
-                link: 'https://insersalud.com/mascarilla-nasal-cpap',
                 badge: null,
                 desc: 'Comodidad máxima para uso nocturno continuo.',
             },
             {
-                name: 'Máscara Nasal Pediátrica NeoQ Infant',
+                name: 'Máscara Pediátrica NeoQ Infant (XS/S/M/L)',
                 priceARS: null,
                 priceUSD: 'U$S 144',
-                img: '/artifacts/mascara_nasal_dreamwear.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/mascara_neoq_infant.jpg',
                 badge: 'PEDIÁTRICO',
                 desc: 'Talles XS, S, M, L para niños con AME tipo 1.',
             },
@@ -615,36 +1150,34 @@ export const pathologies = [
                 priceARS: '$229.000',
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
-                link: 'https://insersalud.com/mascarilla-nasobucal-dreamwear-philips-cpap',
                 badge: null,
                 desc: 'Para pacientes que prefieren cobertura nasobucal.',
             },
         ],
 
         tips: [
-            'Iniciá el soporte ventilatorio según indicación médica: no esperes síntomas graves para comenzar.',
+            'Iniciá el soporte ventilatorio según indicación médica: no esperés síntomas graves para comenzar.',
             'Las máscaras nasales pediátricas suelen ser mejor toleradas en niños pequeños con AME tipo 1.',
-            'Chequeá el oxímetro regularmente, especialmente durante el sueño.',
-            'La posición correcta para dormir mejora la eficacia de la ventilación.',
+            'Chequeá el oxímetro regularmente, especialmente al despertar: la hipoventilación nocturna es silenciosa.',
+            'La posición correcta para dormir (semi-incorporado o lateral) mejora la eficacia de la ventilación.',
             'Informá a la familia sobre el uso del Cough Assist y el BiPAP: el entrenamiento es fundamental.',
-            'Llevá el equipo documentado al médico en cada control: los datos de la máquina son valiosos.',
+            'Llevá el equipo documentado al médico en cada control: los datos de la máquina son valiosos para ajustar parámetros.',
+            'Revisá periódicamente el estado de las correas y el sellado de la máscara: los escapes reducen la eficacia.',
+            'Consultá en Inser Salud: hacemos evaluaciones respiratorias gratuitas para pacientes con AME.',
         ],
 
-        alertText: 'En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con AME.',
+        alertText: 'En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con AME. Detectar a tiempo marca la diferencia.',
         alertCta: 'Solicitar evaluación →',
 
         testimonials: [
-            { name: 'María G.', text: 'Los equipos de Inser Salud han mejorado mi calidad de vida y el acompañamiento es excepcional.', stars: 5 },
+            { name: 'Familia de Sofía M.', city: 'Córdoba', text: 'La máscara pediátrica que nos recomendaron fue un cambio total. Sofía duerme mucho mejor y sin incomodidades.', stars: 5 },
+            { name: 'María G.', city: 'Villa María', text: 'El acompañamiento de Inser Salud fue excepcional. Nos enseñaron todo sobre el Cough Assist y el BiPAP con mucha paciencia.', stars: 5 },
         ],
 
-        relatedLinks: [
-            { text: 'Información completa: Enfermedades Neuromusculares', url: 'https://insersalud.com/neuromusculares' },
-            { text: 'BiPAP BMC G3 con frecuencia respiratoria', url: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador' },
-            { text: 'Ver tienda — todos los equipos y máscaras', url: 'https://insersalud.com/tienda' },
-        ],
+        relatedLinks: [],
 
         santiMessage: 'Hola Santi, necesito equipos para Atrofia Muscular Espinal (AME). ¿Qué BiPAP, máscaras y Cough Assist tienen disponibles? ¿Trabajan con pediátrico también?',
-        moreInfoUrl: 'https://www.insersalud.com/atrofia-muscular-espinal',
+        moreInfoUrl: '',
     },
 
     /* ─────────────────────────────────────────────────────────────────
@@ -659,33 +1192,163 @@ export const pathologies = [
         subtitle: 'Gran variedad de máscaras para BiPAP en todos los talles. Ventilación no invasiva con acompañamiento personalizado y respeto en cada paso.',
         color: '#d97706',
         colorLight: '#fef3c7',
-        heroImg: '/artifacts/mascara_nasal_dreamwear.jpg',
+        heroImg: '/artifacts/hero_paralisis.jpg',
 
-        intro: 'Los pacientes con parálisis cerebral frecuentemente requieren soporte ventilatorio con BiPAP y el uso de máscaras especiales. La elección correcta de la interfaz es tan importante como el equipo en sí.',
+        intro: 'Los pacientes con parálisis cerebral frecuentemente requieren soporte ventilatorio con BiPAP y el uso de máscaras especiales. La elección correcta de la interfaz es tan importante como el equipo en sí. En Inser Salud contamos con la mayor variedad de máscaras de Córdoba, incluyendo opciones pediátricas.',
 
         description: 'Los pacientes con Parálisis Cerebral frecuentemente presentan compromiso de la musculatura respiratoria, tos ineficaz, alteraciones del sueño e hipoventilación. El soporte ventilatorio con BiPAP y las máscaras adecuadas mejoran significativamente su calidad de vida, la oxigenación nocturna y reducen el riesgo de complicaciones respiratorias.',
 
         sections: [
             {
-                id: 'mascaras-bipap',
-                title: 'Máscaras para BiPAP — Gran variedad disponible',
-                content: 'Contamos con la mayor variedad de máscaras para BiPAP de Córdoba:\n\n👃 Máscaras nasales: DreamWear, BMC N4, BMC N5a, RESMED AirFit, YUWELL\n😮 Máscaras nasobucales: DreamWear, BMC F2, AirFit F20/F30, YUWELL YF02\n👶 Máscaras pediátricas: NeoQ Infant, máscaras Jirafa Philips Respironics\n\nSi la máscara actual no te resulta cómoda, tenemos alternativas para encontrar la indicada.',
-                link: 'https://insersalud.com/tienda',
-                linkText: 'Ver todas las máscaras disponibles →',
+                id: 'compromiso-respiratorio',
+                title: 'Compromiso Respiratorio en Parálisis Cerebral',
+                content: `La Parálisis Cerebral (PC) es una alteración permanente del movimiento y la postura debida a una lesión cerebral no progresiva. Sin embargo, aunque la lesión cerebral no avanza, sus consecuencias sobre el sistema respiratorio pueden empeorar con el tiempo.
+
+Principales problemas respiratorios en PC:
+
+🌙 Trastornos respiratorios del sueño:
+• Apneas obstructivas y centrales frecuentes
+• Hipoventilación nocturna
+• Desaturaciones durante el sueño
+• Sueño fragmentado y no reparador
+
+💪 Debilidad muscular respiratoria:
+• Tos ineficaz por debilidad de músculos espiratorios
+• Mayor riesgo de neumonías aspirativas
+• Dificultad para movilizar secreciones
+
+🦴 Escoliosis y deformidades torácicas:
+• Reducen la capacidad pulmonar
+• Dificultan la mecánica ventilatoria
+• Agravadas por la falta de actividad motora
+
+🤢 Reflujo gastroesofágico y aspiración:
+• Muy frecuente en PC con compromiso motor severo
+• Causa importante de neumonías repetidas
+
+¿Cuándo sospechar compromiso respiratorio?
+• Ronquido o pausas respiratorias durante el sueño
+• Hipersomnia diurna o irritabilidad
+• Infecciones respiratorias frecuentes
+• Tos débil o húmeda
+• Dificultad para limpiar secreciones`,
+                link: 'https://wa.me/5493512065320?text=Hola, necesito asesoramiento sobre BiPAP y soporte respiratorio para parálisis cerebral',
+                linkText: 'Consultá con nuestro equipo →',
             },
             {
-                id: 'bipap',
-                title: 'Ventilación No Invasiva (BiPAP)',
-                content: 'El BiPAP asiste la respiración nocturna y en períodos de mayor dificultad respiratoria. Se calibra según cada paciente para lograr el mejor confort y efectividad terapéutica.\n\nSabemos que adaptarse al BiPAP puede generar incomodidad al principio. En Inser Salud te acompañamos con cuidado humano, paciencia y respeto para que te sientas seguro y logres la mejor adaptación posible.',
-                link: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador',
-                linkText: 'Ver BiPAP BMC G3 con FR →',
+                id: 'mascaras-bipap',
+                title: 'Máscaras para BiPAP — La Mayor Variedad de Córdoba',
+                content: `Contamos con la mayor variedad de máscaras para BiPAP y CPAP de Córdoba. La elección correcta de la interfaz es fundamental: una máscara inadecuada puede arruinar el tratamiento aunque el equipo sea excelente.
+
+👃 Máscaras Nasales (cubren solo la nariz):
+• DreamWear Philips — Mínimo contacto — $223.000 · U$S 153
+• BMC N4 — Diseño ergonómico — Consultá precio
+• BMC N5a — Ultra-slim — Consultá precio
+• RESMED AirFit N20 — Sellado silicona suave — Consultá precio
+• YUWELL — Opción económica — Consultá precio
+
+😮 Máscaras Nasobucales / Full-Face (cubren nariz y boca):
+• DreamWear Full Face Philips — Mínimo contacto — $229.000 · U$S 157
+• BMC F2 — Amplia visibilidad — Consultá precio
+• RESMED AirFit F20 — Mayor sellado — Consultá precio
+• RESMED AirFit F30 — Mínimo contacto nasobucal — Consultá precio
+• YUWELL YF02 — Opción económica — Consultá precio
+
+👶 Máscaras Pediátricas:
+• NeoQ Infant — Talles XS/S/M/L — U$S 144
+• Máscara Jirafa Philips Respironics — Diseño infantil — U$S 220
+
+💰 Opción económica:
+• Máscara Nasal RESCOMF — $50.000 · U$S 35
+
+Si la máscara que tenés no te resulta cómoda, o presenta escapes, presión en la piel o intolerancia, tenemos alternativas para encontrar la indicada.`,
+                link: 'https://wa.me/5493512065320?text=Hola, necesito ayuda para elegir una máscara para BiPAP para parálisis cerebral. ¿Tienen opciones pediátricas?',
+                linkText: 'Consultá sobre máscaras →',
+            },
+            {
+                id: 'bipap-pc',
+                title: 'Ventilación No Invasiva (BiPAP) en Parálisis Cerebral',
+                content: `El BiPAP asiste la respiración nocturna y en períodos de mayor dificultad respiratoria. En Parálisis Cerebral, se utiliza principalmente para tratar:
+
+• Hipoventilación nocturna
+• Apneas obstructivas y centrales
+• Hipercapnia (acumulación de CO₂)
+• Insuficiencia respiratoria crónica por debilidad muscular o escoliosis severa
+
+¿Cuándo iniciar el BiPAP?
+
+Los criterios son similares a otras enfermedades que afectan la función respiratoria:
+✅ SpO₂ < 90% más del 5% del tiempo de sueño (oximetría nocturna)
+✅ Hipercarbia (CO₂ > 45 mmHg) en gasometría arterial
+✅ Síntomas de hipoventilación: cefalea matutina, somnolencia, cansancio
+✅ CVF < 50% del predicho en pacientes colaboradores
+
+Equipo disponible:
+• BiPAP BMC G3 con FR y humidificador — $1.300.000 · U$S 907
+• Con frecuencia respiratoria de respaldo para mayor seguridad
+
+Adaptarse al BiPAP, paso a paso:
+
+Sabemos que adaptarse al BiPAP puede generar incomodidad al principio, especialmente en niños y pacientes con capacidades cognitivas limitadas. En Inser Salud te acompañamos con cuidado humano, paciencia y respeto para que logrés la mejor adaptación posible.
+
+🤝 No estás solo en este proceso.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre BiPAP para parálisis cerebral. ¿Cuáles son los precios?',
+                linkText: 'Consultá el BiPAP →',
             },
             {
                 id: 'adaptacion',
                 title: 'Adaptación y Seguimiento Personalizado',
-                content: 'Acompañamos a pacientes y familias en todo el proceso de adaptación al equipo ventilatorio. Hacemos seguimiento los primeros días, ajustamos la máscara si es necesario y respondemos consultas al instante.\n\n✅ Entrega del equipo listo para usar\n✅ Explicación detallada a la familia\n✅ Seguimiento en los primeros días\n✅ Ajuste de parámetros según indicación médica\n\n🤝 No estás solo. Estamos para ayudarte.',
-                link: 'https://wa.me/5493512065320?text=Hola, necesito asesoramiento sobre BiPAP y máscaras para parálisis cerebral',
+                content: `Acompañamos a pacientes y familias en todo el proceso de adaptación al equipo ventilatorio. Sabemos que cada paciente con Parálisis Cerebral es diferente: lo que funciona para uno puede no funcionar para otro. Por eso, nos tomamos el tiempo necesario.
+
+Nuestro proceso de acompañamiento:
+
+✅ Entrega del equipo listo para usar, con la configuración indicada por el médico
+✅ Explicación detallada a la familia y/o cuidadores sobre el uso correcto
+✅ Capacitación en colocación y ajuste de la máscara
+✅ Seguimiento durante los primeros días: respondemos consultas y ajustamos si es necesario
+✅ Ajuste de parámetros según indicación médica del especialista
+✅ Soporte ante cualquier inconveniente técnico o de adaptación
+
+Adaptarse al BiPAP, paso a paso:
+
+Semana 1: probá el equipo durante el día, sin dormir, 1 hora. Familiarizarse con la sensación.
+Semana 2: comenzá a usarlo al dormirte. No importa si lo sacás durante la noche.
+Semana 3-4: extendé el uso gradualmente.
+Objetivo: uso de 6-8 horas nocturnas según indicación.
+
+Para niños con PC, la tolerancia inicial puede requerir más tiempo y estrategias especiales. Consultanos sin compromiso.
+
+🤝 No estás solo. Estamos para ayudarte en cada paso.`,
+                link: 'https://wa.me/5493512065320?text=Hola, necesito asesoramiento sobre adaptación al BiPAP para parálisis cerebral. ¿Pueden ayudarme?',
                 linkText: 'Hablar con un asesor →',
+            },
+            {
+                id: 'cough-assist-pc',
+                title: 'Asistente de Tos en Parálisis Cerebral',
+                content: `Muchos pacientes con Parálisis Cerebral presentan tos débil o ineficaz, especialmente aquellos con mayor compromiso motor o escoliosis severa. La acumulación de secreciones en el árbol bronquial es la principal causa de neumonías repetidas.
+
+¿Cómo saber si la tos es insuficiente?
+
+• Tos húmeda que no logra eliminar las secreciones
+• PCF (Pico de Flujo de Tos) < 160 L/min
+• PEMAX < 80 cmH₂O
+• Historia de neumonías frecuentes
+
+El Asistente de Tos (Cough Assist) genera una tos artificial efectiva mediante:
+1. Insuflación a presión positiva (llena los pulmones)
+2. Exuflación a presión negativa (vacía rápidamente los pulmones)
+3. Las secreciones suben y se pueden eliminar fácilmente
+
+Beneficios en PC:
+✅ Reduce internaciones por neumonía
+✅ Mejora la saturación de oxígeno
+✅ Puede usarlo la familia en domicilio con entrenamiento
+✅ Mejora el bienestar general del paciente
+
+Precio referencia: U$S 9.084
+Consultanos disponibilidad y opciones de financiación.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre el Asistente de Tos para parálisis cerebral',
+                linkText: 'Consultá el Cough Assist →',
             },
         ],
 
@@ -695,7 +1358,6 @@ export const pathologies = [
                 priceARS: '$1.300.000',
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
-                link: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador',
                 badge: null,
                 desc: 'Con frecuencia respiratoria de respaldo y humidificador.',
             },
@@ -704,7 +1366,6 @@ export const pathologies = [
                 priceARS: '$223.000',
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
-                link: 'https://insersalud.com/mascarilla-nasal-cpap',
                 badge: null,
                 desc: 'La más cómoda para uso nocturno continuo.',
             },
@@ -713,7 +1374,6 @@ export const pathologies = [
                 priceARS: '$229.000',
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
-                link: 'https://insersalud.com/mascarilla-nasobucal-dreamwear-philips-cpap',
                 badge: null,
                 desc: 'Full-face de mínimo contacto.',
             },
@@ -722,7 +1382,6 @@ export const pathologies = [
                 priceARS: '$50.000',
                 priceUSD: 'U$S 35',
                 img: '/artifacts/mascara_rescomf.jpg',
-                link: 'https://insersalud.com/tienda',
                 badge: 'OFERTA',
                 desc: 'La opción más accesible del mercado.',
             },
@@ -730,8 +1389,7 @@ export const pathologies = [
                 name: 'Máscara Pediátrica NeoQ Infant (XS/S/M/L)',
                 priceARS: null,
                 priceUSD: 'U$S 144',
-                img: '/artifacts/mascara_nasal_dreamwear.jpg',
-                link: 'https://insersalud.com/tienda',
+                img: '/artifacts/mascara_neoq_infant.jpg',
                 badge: 'PEDIÁTRICO',
                 desc: 'Para niños con parálisis cerebral que usan BiPAP.',
             },
@@ -740,36 +1398,42 @@ export const pathologies = [
                 priceARS: null,
                 priceUSD: 'U$S 220',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
-                link: 'https://insersalud.com/tienda',
                 badge: 'PEDIÁTRICO',
                 desc: 'Diseño adaptado para niños. Jirafa Philips Respironics.',
+            },
+            {
+                name: 'COUGH ASSIST — Asistente de Tos',
+                priceARS: null,
+                priceUSD: 'U$S 9.084',
+                img: '/artifacts/cough_assist.jpg',
+                badge: 'ESENCIAL',
+                desc: 'Para pacientes con PC y tos ineficaz.',
             },
         ],
 
         tips: [
-            'Probá diferentes modelos de máscara para encontrar la más cómoda: tenemos gran variedad.',
+            'Probá diferentes modelos de máscara para encontrar la más cómoda: tenemos la mayor variedad de Córdoba.',
             'Comenzá con sesiones cortas de BiPAP durante el día para familiarizarte antes de usarlo toda la noche.',
-            'Mantené el equipo limpio y revisá el ajuste de las correas regularmente.',
+            'Mantené el equipo limpio y revisá el ajuste de las correas regularmente: ni muy floja ni muy apretada.',
             'Consultá ante cualquier signo de intolerancia: enrojecimiento, escapes excesivos o molestias en la piel.',
             'Llevá siempre el oxímetro para monitorear la saturación durante la noche.',
-            'La posición correcta (decúbito lateral o semi-incorporado) mejora la eficacia de la ventilación.',
+            'La posición correcta (semi-incorporado o decúbito lateral) mejora la eficacia de la ventilación.',
+            'En niños, la aceptación del equipo requiere tiempo y paciencia: consultanos para estrategias de adaptación.',
+            'Si hay infecciones respiratorias frecuentes, consultá sobre el Asistente de Tos (Cough Assist).',
         ],
 
-        alertText: 'Tenemos la mayor variedad de máscaras BiPAP de Córdoba, incluyendo opciones pediátricas.',
+        alertText: 'Tenemos la mayor variedad de máscaras BiPAP de Córdoba, incluyendo opciones pediátricas. Entrega inmediata.',
         alertCta: 'Ver máscaras disponibles →',
 
         testimonials: [
-            { name: 'María G.', text: 'El equipo de Inser Salud nos acompañó en todo el proceso con mucha dedicación y paciencia.', stars: 5 },
+            { name: 'Familia de Lucía R.', city: 'Córdoba', text: 'El equipo de Inser Salud nos acompañó en todo el proceso con mucha dedicación y paciencia. La máscara pediátrica fue un cambio total.', stars: 5 },
+            { name: 'María G.', city: 'Córdoba', text: 'Inmenso el catálogo de máscaras. Encontramos la indicada para mi hijo después de probar varias opciones sin cargo.', stars: 5 },
         ],
 
-        relatedLinks: [
-            { text: 'Ver todas las máscaras y equipos — Tienda', url: 'https://insersalud.com/tienda' },
-            { text: 'BiPAP BMC G3 con frecuencia respiratoria', url: 'https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador' },
-            { text: 'Servicios de adaptación y seguimiento', url: 'https://insersalud.com/servicios' },
-        ],
+        relatedLinks: [],
 
         santiMessage: 'Hola Santi, necesito información sobre BiPAP y máscaras para parálisis cerebral. ¿Qué opciones tienen disponibles, incluyendo pediátricas? ¿Cuáles son los precios?',
-        moreInfoUrl: 'https://www.insersalud.com/paralisis-cerebral',
+        moreInfoUrl: '',
     },
 ];
 

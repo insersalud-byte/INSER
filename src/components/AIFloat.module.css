@@ -109,7 +109,8 @@
     bottom: 6.5rem;
     right: 2rem;
     width: 380px;
-    max-height: 560px;
+    height: min(560px, calc(100vh - 8rem));
+    max-height: calc(100vh - 8rem);
     background: white;
     border-radius: 1.5rem;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18), 0 4px 16px rgba(30, 64, 175, 0.12);
@@ -199,19 +200,23 @@
 }
 
 .closeBtn {
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
+    background: rgba(255, 255, 255, 0.18);
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
     color: white;
     cursor: pointer;
-    padding: 0.4rem;
-    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
     display: flex;
     align-items: center;
-    transition: background 0.2s;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    transition: all 0.2s;
 }
 
 .closeBtn:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.35);
+    transform: rotate(90deg) scale(1.05);
 }
 
 /* ── Messages ── */

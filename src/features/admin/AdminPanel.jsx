@@ -9,6 +9,7 @@ import UsersList from './components/UsersList';
 import AdminSettings from './components/AdminSettings';
 import BannersManager from './components/BannersManager';
 import ChatLogs from './ChatLogs';
+import SantiDashboard from './SantiDashboard';
 
 const AdminPanel = () => {
     const { user, isAdmin } = useAuth();
@@ -32,6 +33,7 @@ const AdminPanel = () => {
                     <Link to="/admin/settings" className={css.navItem}>⚙️ Configuración</Link>
                     <Link to="/admin/banners" className={css.navItem}>🖼️ Banners</Link>
                     <Link to="/admin/chats" className={css.navItem}>💬 Chats Santi</Link>
+                    <Link to="/admin/santi" className={css.navItem}>🤖 Santi Dashboard</Link>
 
                     <div className={css.navDivider} />
 
@@ -61,6 +63,7 @@ const AdminPanel = () => {
                     <Route path="/settings" element={<AdminSettings />} />
                     <Route path="/banners" element={<BannersManager />} />
                     <Route path="/chats" element={<ChatLogs />} />
+                    <Route path="/santi" element={<SantiDashboard />} />
                 </Routes>
             </main>
         </div>

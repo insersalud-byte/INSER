@@ -5,10 +5,100 @@ import {
     Phone, Star, AlertCircle, X, BookOpen
 } from 'lucide-react';
 import { getPathologyBySlug, pathologies } from './pathologyData';
+import { getSpecsFor } from '../../data/productSpecs';
 import css from './PathologyPage.module.css';
 
 const openSanti = (message) => {
     window.dispatchEvent(new CustomEvent('open-santi', { detail: { message } }));
+};
+
+/* ── Modal de especificaciones técnicas ─────────────────────────── */
+const SpecsModal = ({ product, onClose }) => {
+    useEffect(() => {
+        const handleKey = (e) => { if (e.key === 'Escape') onClose(); };
+        document.addEventListener('keydown', handleKey);
+        document.body.style.overflow = 'hidden';
+        return () => {
+            document.removeEventListener('keydown', handleKey);
+            document.body.style.overflow = '';
+        };
+    }, [onClose]);
+
+    if (!product) return null;
+    const specs = getSpecsFor(product.name);
+    const priceTxt = [product.priceARS, product.priceUSD].filter(Boolean).join(' · ') || 'Consultar precio';
+
+    return (
+        <div className={css.modalOverlay} onClick={onClose}>
+            <div className={css.specsPanel} onClick={(e) => e.stopPropagation()}>
+                <button className={css.modalCloseBtn} onClick={onClose} aria-label="Cerrar">
+                    <X size={22} />
+                </button>
+
+                <div className={css.specsHead}>
+                    <div className={css.specsHeadImg}>
+                        <img src={product.img} alt={product.name}
+                            onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
+                    </div>
+                    <div className={css.specsHeadInfo}>
+                        <h3>{product.name}</h3>
+                        <div className={css.specsHeadPrice}>{priceTxt}</div>
+                        {product.desc && <p>{product.desc}</p>}
+                    </div>
+                </div>
+
+                <div className={css.specsContent}>
+                    <h4>Especificaciones técnicas</h4>
+                    {specs.length > 0 ? (
+                        <table className={css.specsTable}>
+                            <tbody>
+                                {specs.map(([k, v], i) => (
+                                    <tr key={i}><th>{k}</th><td>{v}</td></tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    ) : (
+                        <p className={css.specsFallback}>
+                            Las especificaciones completas las tiene Santi. Te pasa ficha técnica, manual y compatibilidades al instante.
+                        </p>
+                    )}
+                </div>
+
+                <div className={css.specsFoot}>
+                    <div className={css.specsSantiRow}>
+                        <img
+                            src="/artifacts/santi_real.jpg"
+                            alt="Santi"
+                            onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff'; }}
+                        />
+                        <div>
+                            <strong>¿Te asesoro con este equipo?</strong>
+                            <p>Disponibilidad, financiación y adaptación — al instante.</p>
+                        </div>
+                    </div>
+                    <div className={css.specsFootActions}>
+                        <button
+                            className={css.specsBtnSanti}
+                            onClick={() => {
+                                openSanti(`Hola Santi, estoy viendo las especificaciones del ${product.name} (${priceTxt}). ¿Podés asesorarme?`);
+                                onClose();
+                            }}
+                        >
+                            <MessageCircle size={16} /> Consultar con Santi
+                        </button>
+                        <a
+                            className={css.specsBtnWa}
+                            href={`https://wa.me/5493512065320?text=${encodeURIComponent(`Hola, me interesa el ${product.name}. ¿Me das más info?`)}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Phone size={14} /> WhatsApp directo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 };
 
 /* ── Modal de sección informativa ───────────────────────────────── */
@@ -86,6 +176,7 @@ const PathologyPage = () => {
     const navigate = useNavigate();
     const data = getPathologyBySlug(slug);
     const [activeSection, setActiveSection] = useState(null);
+    const [specsProduct, setSpecsProduct] = useState(null);
 
     useEffect(() => {
         if (data?.metaTitle) document.title = data.metaTitle;
@@ -127,6 +218,14 @@ const PathologyPage = () => {
                     section={activeSection}
                     data={data}
                     onClose={() => setActiveSection(null)}
+                />
+            )}
+
+            {/* ── MODAL DE ESPECIFICACIONES ─────────────────────── */}
+            {specsProduct && (
+                <SpecsModal
+                    product={specsProduct}
+                    onClose={() => setSpecsProduct(null)}
                 />
             )}
 
@@ -268,7 +367,7 @@ const PathologyPage = () => {
                                     </button>
                                     <button
                                         className={css.specBtn}
-                                        onClick={() => openSanti(`Hola Santi, quiero conocer las especificaciones técnicas del ${p.name}. ¿Me podés dar más detalles?`)}
+                                        onClick={() => setSpecsProduct(p)}
                                     >
                                         Especificaciones
                                     </button>
@@ -373,7 +472,7 @@ const PathologyPage = () => {
                     <span>&copy; 2026 Inser Salud · Certificado ANMAT · Córdoba, Argentina</span>
                     <div className={css.footerLinks}>
                         <Link to="/">Inicio</Link>
-                        <Link to="/#patologias">Patologías</Link>
+                        <Link to="/">Patologías</Link>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                         <a href="mailto:inser.salud@gmail.com">Email</a>
                     </div>

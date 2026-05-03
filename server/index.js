@@ -7,9 +7,27 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY
-});
+// ── Proveedor de IA ──────────────────────────────────────────────
+// Soporta Groq (gratis, rápido) u OpenAI según variables de entorno.
+// Si GROQ_API_KEY está definida, usa Groq; si no, cae a OpenAI.
+const USE_GROQ = !!process.env.GROQ_API_KEY;
+
+const openai = new OpenAI(
+    USE_GROQ
+        ? {
+              apiKey: process.env.GROQ_API_KEY,
+              baseURL: 'https://api.groq.com/openai/v1'
+          }
+        : {
+              apiKey: process.env.OPENAI_API_KEY
+          }
+);
+
+const AI_MODEL = USE_GROQ
+    ? (process.env.GROQ_MODEL || 'llama-3.3-70b-versatile')
+    : (process.env.OPENAI_MODEL || 'gpt-4o-mini');
+
+console.log(`[Santi] Proveedor de IA: ${USE_GROQ ? 'Groq' : 'OpenAI'} · Modelo: ${AI_MODEL}`);
 
 const SYSTEM_PROMPT = `
 # 🫁 PROMPT – ASISTENTE COMERCIAL IA INSER SALUD (VERSIÓN FINAL ÚNICA)
@@ -112,20 +130,28 @@ Frase guía:
 
 ---
 
+## 💲 Regla – Cotización del Dólar Oficial (HOY)
+**VALOR OFICIAL DEL DÓLAR HOY: $1.400 ARS** (cotización vigente).
+
+Si preguntan “¿a cuánto está el dólar?”, “cotización”, “dólar hoy”, “dólar oficial”:
+- Responder directamente: **“El dólar oficial hoy está a $1.400.”**
+- Aclarar que es **dólar oficial** (no blue, no MEP).
+- Ofrecer convertir cualquier producto a pesos si lo necesitan.
+
 ## 💲 Regla – Conversión USD a Pesos
 Si preguntan “¿cuánto es en pesos?”:
-- Aclarar que es **dólar oficial**.
-- Indicar el valor del dólar si se conoce (ejemplo).
-- Mostrar el cálculo.
-- Aclarar que es **aproximado**.
+- Usar SIEMPRE **$1.400** como referencia del dólar oficial.
+- Mostrar el cálculo claro.
+- Aclarar que es **aproximado** y que se confirma por WhatsApp.
 
 Ejemplo:
-> El precio está expresado en **dólares oficiales**.  
-> Tomando como referencia un dólar oficial de **$1.465**, el valor sería aproximadamente:  
-> **U$S 758 × $1.465 = $1.110.470**.  
+> El precio está expresado en **dólares oficiales**.
+> Tomando como referencia el dólar oficial de hoy **$1.400**, el valor sería aproximadamente:
+> **U$S 758 × $1.400 = $1.061.200**.
 > Para confirmar el valor exacto actualizado, escribinos por WhatsApp 👉 +54 9 351 206-5320.
 
-- ❌ No usar dólar blue, MEP u otros.
+- ❌ No usar dólar blue, MEP, CCL u otros tipos de cambio.
+- ✅ Siempre usar $1.400 (dólar oficial de hoy).
 
 ---
 
@@ -186,13 +212,13 @@ app.post('/api/chat', async (req, res) => {
     try {
         const { messages } = req.body;
 
-        if (!process.env.OPENAI_API_KEY) {
-            console.error('ERROR: OPENAI_API_KEY no configurada en el servidor');
+        if (!process.env.GROQ_API_KEY && !process.env.OPENAI_API_KEY) {
+            console.error('ERROR: No hay API key configurada (GROQ_API_KEY u OPENAI_API_KEY)');
             return res.status(500).json({ error: 'Configuración del servidor incompleta (falta API Key)' });
         }
 
         const response = await openai.chat.completions.create({
-            model: "gpt-4o-mini",
+            model: AI_MODEL,
             messages: [
                 { role: "system", content: SYSTEM_PROMPT },
                 ...(messages || [])

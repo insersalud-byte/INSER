@@ -30,9 +30,25 @@ const AIFloat = () => {
         return () => clearTimeout(timer);
     }, []);
 
-    // Auto-scroll al último mensaje
+    // Auto-scroll inteligente:
+    // · Usuario envía / Santi escribiendo → scroll al fondo (ver indicador)
+    // · Santi responde → scroll al INICIO de su respuesta (leer de arriba hacia abajo)
     useEffect(() => {
-        if (scrollRef.current) {
+        if (!scrollRef.current) return;
+        if (isTyping) {
+            // Mostrar indicador de escritura
+            scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
+            return;
+        }
+        const lastMsg = messages[messages.length - 1];
+        if (lastMsg?.type === 'bot' && messages.length > 1) {
+            // Ir al inicio del último mensaje de Santi
+            const botBubbles = scrollRef.current.querySelectorAll('[data-msg-type="bot"]');
+            const lastBubble = botBubbles[botBubbles.length - 1];
+            if (lastBubble) {
+                lastBubble.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        } else {
             scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
         }
     }, [messages, isTyping]);
@@ -157,7 +173,7 @@ const AIFloat = () => {
                     {/* Messages */}
                     <div className={css.messagesList} ref={scrollRef}>
                         {messages.map(msg => (
-                            <div key={msg.id} className={`${css.message} ${css[msg.type]}`}>
+                            <div key={msg.id} className={`${css.message} ${css[msg.type]}`} data-msg-type={msg.type}>
                                 {msg.type === 'bot' && (
                                     <img
                                         src="/artifacts/santi_real.jpg"
