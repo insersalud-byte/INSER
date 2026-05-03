@@ -1,23 +1,7 @@
 {
-    "version": 2,
-    "builds": [
-        { "src": "api/chat.js",        "use": "@vercel/node" },
-        { "src": "api/messenger.js",   "use": "@vercel/node" },
-        { "src": "api/admin-reply.js", "use": "@vercel/node" }
-    ],
-    "routes": [
-        { "src": "/api/chat",        "dest": "/api/chat.js"        },
-        { "src": "/api/messenger",   "dest": "/api/messenger.js"   },
-        { "src": "/api/admin-reply", "dest": "/api/admin-reply.js" },
-        { "src": "/(.*)",            "dest": "/index.html"          }
-    ],
-    "env": {
-        "OPENAI_API_KEY":            "@openai_api_key",
-        "SUPABASE_URL":              "@supabase_url",
-        "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_role_key",
-        "FB_PAGE_ACCESS_TOKEN":      "@fb_page_access_token",
-        "FB_VERIFY_TOKEN":           "@fb_verify_token",
-        "FB_APP_SECRET":             "@fb_app_secret",
-        "ADMIN_SECRET":              "@admin_secret"
-    }
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "rewrites": [
+        { "source": "/((?!api/).*)", "destination": "/index.html" }
+    ]
 }
