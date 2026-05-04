@@ -12,7 +12,7 @@ const QUICK_CHIPS = [
 const INITIAL_MESSAGE = {
     id: 1,
     type: 'bot',
-    text: '¡Hola! Soy Santi, asesor comercial de Inser Salud. 👋 ¿Estás buscando algún equipo o necesitás asesoramiento sobre tu tratamiento? ¡Estoy aquí para ayudarte!'
+    text: '¡Hola! 😊 Soy Santi, de INSER SALUD. ¿En qué te puedo ayudar hoy?'
 };
 
 // Sesión persistente para tracking en Supabase
