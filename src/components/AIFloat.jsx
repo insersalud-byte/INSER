@@ -15,6 +15,16 @@ const INITIAL_MESSAGE = {
     text: '¡Hola! Soy Santi, asesor comercial de Inser Salud. 👋 ¿Estás buscando algún equipo o necesitás asesoramiento sobre tu tratamiento? ¡Estoy aquí para ayudarte!'
 };
 
+// Sesión persistente para tracking en Supabase
+function getSessionId() {
+    let id = localStorage.getItem('santi_session_id');
+    if (!id) {
+        id = 'web_' + Date.now() + '_' + Math.random().toString(36).slice(2, 9);
+        localStorage.setItem('santi_session_id', id);
+    }
+    return id;
+}
+
 const AIFloat = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [showTooltip, setShowTooltip] = useState(false);
@@ -23,6 +33,7 @@ const AIFloat = () => {
     const [isTyping, setIsTyping] = useState(false);
     const scrollRef = useRef(null);
     const inputRef = useRef(null);
+    const sessionId = useRef(getSessionId());
 
     // Tooltip aparece a los 2s
     useEffect(() => {
@@ -99,6 +110,7 @@ const AIFloat = () => {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
+                    sessionId: sessionId.current,
                     messages: updatedMessages.map(m => ({
                         role: m.type === 'user' ? 'user' : 'assistant',
                         content: m.text
