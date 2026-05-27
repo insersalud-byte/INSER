@@ -246,7 +246,7 @@ const AIFloat = () => {
             )}
 
             {/* FAB Button */}
-            <div className={css.fabContainer} onClick={handleOpen}>
+            {!isOpen && <div className={css.fabContainer} onClick={handleOpen}>
                 {showTooltip && !isOpen && (
                     <div className={css.tooltip}>
                         <span>👋 ¡Hola!</span>
@@ -262,7 +262,7 @@ const AIFloat = () => {
                         onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi+IA&background=1e40af&color=fff'; }}
                     />
                 </div>
-            </div>
+            </div>}
         </>
     );
 };
