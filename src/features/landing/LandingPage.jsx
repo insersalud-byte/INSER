@@ -591,7 +591,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Nasobucal AirFit F20 RESMED (S/M/L)', price: 'U$S 189,50', img: '/artifacts/mascara_nasobucal_dreamwear.jpg', badge: null, note: 'Clásica full-face Resmed.', category: 'Máscara',
+        name: 'Nasobucal AirFit F20 RESMED (S/M/L)', price: 'U$S 189,50', img: '/artifacts/airfit_f20.jpg', badge: null, note: 'Clásica full-face Resmed.', category: 'Máscara',
         specs: [
             ['Fabricante', 'ResMed'],
             ['Modelo', 'AirFit F20'],
