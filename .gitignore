@@ -31,3 +31,6 @@ consultorio/server/node_modules
 *.njsproj
 *.sln
 *.sw?
+
+# Prevenir que carpetas del sistema de Windows se cometan por error
+OneDrive/
