@@ -133,6 +133,18 @@ const ofertas = [
             ['Ventaja', 'Sin contacto con puente nasal'],
         ],
     },
+    {
+        name: 'Máscara Nasobucal BMC F2 Multitalle', slug: 'mascara-cpap-bipap-bmc-f2-nasobucal-con-apoya-frontal-', price: '$180.000 · U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'NUEVO', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
+        specs: [
+            ['Fabricante', 'BMC Medical'],
+            ['Tipo', 'Nasobucal (full face) con apoya frente'],
+            ['Tallas', 'S / M / L (multitalle)'],
+            ['Compatibilidad', 'CPAP / BiPAP'],
+            ['Ventaja', 'Tan cómoda como la DreamWear pero más económica'],
+            ['Material', 'Silicona médica suave'],
+            ['Garantía', '1 año oficial'],
+        ],
+    },
 ];
 
 // Catálogo completo de tienda (todos los productos)
@@ -359,12 +371,14 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara BMC F2 Nasobucal con Apoya Frontal', slug: 'mascara-cpap-bipap-bmc-f2-nasobucal-con-apoya-frontal-', price: 'U$S 52', img: '/artifacts/products/08ff650a-7c35-466c-ab0c-216c15999d3f.jpg', badge: 'NUEVO', note: 'CPAP/BiPAP.', category: 'Máscara',
+        name: 'Máscara Nasobucal BMC F2 Multitalle', slug: 'mascara-cpap-bipap-bmc-f2-nasobucal-con-apoya-frontal-', price: '$180.000 · U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'NUEVO', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
-            ['Tipo', 'Nasobucal con apoya frente'],
-            ['Tallas', 'S / M / L'],
+            ['Tipo', 'Nasobucal (full face) con apoya frente'],
+            ['Tallas', 'S / M / L (multitalle)'],
             ['Compatibilidad', 'CPAP / BiPAP'],
+            ['Ventaja', 'Tan cómoda como la DreamWear pero más económica'],
+            ['Material', 'Silicona médica suave'],
             ['Arnés', 'Ajustable 4 puntos'],
         ],
     },

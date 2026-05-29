@@ -93,7 +93,7 @@ Links: CPAP BMC G2S → https://insersalud.com/cpap-bmc-g2s | BiPAP BMC G3 → h
 | Máscara Nasal BMC Multitalle | U$S 89.50 | ~$129.775 | Compatible CPAP/BiPAP, varias tallas |
 | Máscara Nasal Pillow Yuwell YP-01 | U$S 42 | ~$60.900 | Almohada nasal, mínima presencia facial |
 | Máscara Buconasal Yuwell | U$S 52 | ~$75.400 | Buconasal estándar |
-| Máscara Nasobucal BMC F2 | U$S 52 | ~$75.400 | Gel cómodo, múltiples tallas |
+| Máscara Nasobucal BMC F2 Multitalle | $180.000 / U$S 124 | — | Tan cómoda como la DreamWear pero más barata. Full face con apoya frente, silicona médica, tallas S/M/L, CPAP/BiPAP |
 | Máscara Yuwell YF02 sin apoya frente | U$S 55 | ~$79.750 | Sin apoya frente, campo visual amplio |
 | Máscara BMC F5A sin apoya frente | U$S 52 | ~$75.400 | Sin apoya frente, buconasal |
 | AirFit F30 ResMed | U$S 212 | ~$307.400 | Buconasal contacto mínimo, bajo perfil |
