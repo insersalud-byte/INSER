@@ -511,12 +511,15 @@ const tienda = [
         ],
     },
     {
-        name: 'Concentrador de Oxígeno ESTACIONARIO (Genérico)', slug: 'concentrador-de-oxigeno-estacionario', price: 'U$S 756', img: '/artifacts/products/1752272456759-ae9c1d51-2e03-4ecb-9271-03f82ddcadf5.jfif', badge: null, note: 'Para uso domiciliario 24hs.', category: 'Concentrador',
+        name: 'Concentrador de Oxígeno BMC Estacionario', slug: 'concentrador-de-oxigeno-bmc-estacionario', price: 'U$S 756', img: '/artifacts/products/concentrador_bmc_1.jpg', images: ['/artifacts/products/concentrador_bmc_1.jpg', '/artifacts/products/concentrador_bmc_2.jpg'], badge: 'CONTROL REMOTO', note: 'Con control remoto y medidor de oxígeno integrado.', category: 'Concentrador',
         specs: [
+            ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Concentrador estacionario domiciliario'],
+            ['Control remoto', 'Sí — manejo a distancia'],
+            ['Medidor de O₂', 'Sí — monitor de pureza integrado'],
             ['Flujo', '0,5 – 5 L/min'],
             ['Pureza O₂', '≥ 93%'],
-            ['Consumo', '≈ 350 W'],
+            ['Pantalla', 'Display digital (pureza, flujo, horas)'],
             ['Uso', 'Continuo 24hs'],
             ['Garantía', '2 años'],
         ],
