@@ -533,6 +533,17 @@ const tienda = [
             ['Uso', 'Salidas cortas, transporte'],
         ],
     },
+    {
+        name: 'Tubuladura para CPAP / BiPAP', slug: 'tubuladura-para-cpap-bipap', price: '$36.000', img: '/artifacts/products/tubuladura_cpap_bipap.jpg', badge: 'NUEVO', note: 'Repuesto universal CPAP/BiPAP.', category: 'Oxígeno',
+        specs: [
+            ['Tipo', 'Tubuladura (manguera) de paciente'],
+            ['Compatibilidad', 'CPAP / BiPAP universal'],
+            ['Diámetro', '22 mm estándar'],
+            ['Largo', '1,8 m aprox.'],
+            ['Material', 'PVC flexible de grado médico'],
+            ['Uso', 'Repuesto / recambio de tubo'],
+        ],
+    },
     // ("Tubo Portátil 0,5 m" era local — no existe en catálogo oficial. Removido.)
     // Máscaras adicionales
     {
