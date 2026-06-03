@@ -11,8 +11,17 @@
 const OpenAI = require('openai');
 const { createClient } = require('@supabase/supabase-js');
 
+// Proveedor de IA: soporta OpenRouter (sk-or-...) u OpenAI directo.
+// Usa OpenRouter si hay OPENROUTER_API_KEY o si la OPENAI_API_KEY es una clave sk-or-.
+const AI_API_KEY = process.env.OPENROUTER_API_KEY || process.env.OPENAI_API_KEY || '';
+const USE_OPENROUTER = !!process.env.OPENROUTER_API_KEY || AI_API_KEY.startsWith('sk-or-');
+const AI_MODEL = USE_OPENROUTER
+    ? (process.env.AI_MODEL || 'openai/gpt-4o-mini')
+    : (process.env.AI_MODEL || 'gpt-4o-mini');
+
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY
+    apiKey: AI_API_KEY,
+    ...(USE_OPENROUTER ? { baseURL: 'https://openrouter.ai/api/v1' } : {}),
 });
 
 function getSupabase() {
@@ -236,8 +245,8 @@ module.exports = async (req, res) => {
     try {
         const { messages, sessionId, userMeta } = req.body || {};
 
-        if (!process.env.OPENAI_API_KEY) {
-            console.error('ERROR: OPENAI_API_KEY no configurada');
+        if (!AI_API_KEY) {
+            console.error('ERROR: falta OPENROUTER_API_KEY / OPENAI_API_KEY');
             return res.status(500).json({ error: 'Configuración del servidor incompleta' });
         }
 
@@ -260,7 +269,7 @@ module.exports = async (req, res) => {
         }
 
         const response = await openai.chat.completions.create({
-            model: 'gpt-4o-mini',
+            model: AI_MODEL,
             messages: [
                 { role: 'system', content: SYSTEM_PROMPT },
                 ...(messages || [])
