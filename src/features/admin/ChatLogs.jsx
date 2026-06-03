@@ -40,7 +40,7 @@ const ChatLogs = () => {
             const { data, error } = await supabase
                 .from('chat_conversations')
                 .select('*')
-                .order('started_at', { ascending: false })
+                .order('last_message_at', { ascending: false })
                 .limit(50);
 
             if (error) throw error;
@@ -109,12 +109,12 @@ const ChatLogs = () => {
                                     <span className={css.user}>{conv.user_name || 'Anónimo'}</span>
                                 </div>
                                 <span className={css.time}>
-                                    {format(new Date(conv.started_at), 'HH:mm')}
+                                    {format(new Date(conv.last_message_at || conv.created_at), 'HH:mm')}
                                 </span>
                             </div>
                             <div className={css.convMeta}>
                                 <Calendar size={12} />
-                                <span>{format(new Date(conv.started_at), 'dd/MM/yyyy')}</span>
+                                <span>{format(new Date(conv.last_message_at || conv.created_at), 'dd/MM/yyyy')}</span>
                             </div>
                             <ChevronRight size={14} className={css.arrow} />
                         </div>
@@ -137,10 +137,10 @@ const ChatLogs = () => {
                         </div>
                         <div className={css.messagesContainer}>
                             {messages.map(msg => (
-                                <div key={msg.id} className={`${css.message} ${msg.role === 'user' ? css.userMessage : msg.role === 'bot' ? css.botMessage : css.systemMessage}`}>
+                                <div key={msg.id} className={`${css.message} ${msg.role === 'user' ? css.userMessage : css.botMessage}`}>
                                     <div className={css.msgHeader}>
-                                        {msg.role === 'bot' ? <Bot size={14} /> : <User size={14} />}
-                                        <strong>{msg.role === 'bot' ? 'Santi' : 'Usuario'}</strong>
+                                        {msg.role === 'user' ? <User size={14} /> : <Bot size={14} />}
+                                        <strong>{msg.role === 'user' ? 'Usuario' : 'Santi'}</strong>
                                         <small>{format(new Date(msg.created_at), 'HH:mm')}</small>
                                     </div>
                                     <div className={css.msgContent}>{msg.content}</div>

@@ -203,7 +203,7 @@ export default function SantiDashboard() {
         open:    conversations.filter(c => c.status === 'open').length,
         paused:  conversations.filter(c => c.is_paused).length,
         today:   conversations.filter(c => {
-            const d = new Date(c.last_message_at || c.started_at);
+            const d = new Date(c.last_message_at || c.created_at);
             return d.toDateString() === new Date().toDateString();
         }).length,
     };
@@ -327,7 +327,7 @@ export default function SantiDashboard() {
                                         {CHANNEL_ICON[conv.channel] || '💬'}
                                     </span>
                                     <span className={css.convName}>
-                                        {conv.sender_name || conv.platform_sender_id || 'Usuario Web'}
+                                        {conv.user_name || conv.external_id || 'Usuario Web'}
                                     </span>
                                     <span
                                         className={css.convStatus}
@@ -337,7 +337,7 @@ export default function SantiDashboard() {
                                     </span>
                                 </div>
                                 <div className={css.convTime}>
-                                    {new Date(conv.last_message_at || conv.started_at)
+                                    {new Date(conv.last_message_at || conv.created_at)
                                         .toLocaleString('es-AR', {
                                             day: '2-digit', month: '2-digit',
                                             hour: '2-digit', minute: '2-digit',
@@ -361,7 +361,7 @@ export default function SantiDashboard() {
                             <div className={css.chatHeader}>
                                 <div className={css.chatHeaderInfo}>
                                     <strong>
-                                        {selectedConv.sender_name || selectedConv.platform_sender_id || 'Usuario Web'}
+                                        {selectedConv.user_name || selectedConv.external_id || 'Usuario Web'}
                                     </strong>
                                     <span className={css.headerMeta}>
                                         {CHANNEL_ICON[selectedConv.channel]} {selectedConv.channel}
