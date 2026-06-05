@@ -1018,7 +1018,7 @@ const testimonials = [
 const stats = [
     { value: '+500', label: 'Pacientes atendidos', icon: Users },
     { value: '+5', label: 'Años de experiencia', icon: Award },
-    { value: 'ANMAT', label: 'Certificado oficial', icon: Shield },
+    { value: 'Soporte', label: 'Técnico continuo', icon: Shield },
     { value: '24hs', label: 'Entrega en Córdoba', icon: Clock },
 ];
 
@@ -1326,7 +1326,7 @@ const LandingPage = () => {
             <header className={css.hero}>
                 <div className={css.heroContent}>
                     <div className={css.badge}>
-                        <Shield size={14} /> Distribuidor Oficial Certificado ANMAT
+                        <Shield size={14} /> Equipos de terapia respiratoria · Córdoba
                     </div>
                     <h1 className={css.heroTitle}>
                         Respirá mejor,<br />
@@ -1635,7 +1635,7 @@ const LandingPage = () => {
                     <div className={css.sectionHeader}>
                         <span className={css.sectionTagWhite}>🔥 Promociones especiales</span>
                         <h2 className={css.whiteText}>Ofertas Vigentes</h2>
-                        <p className={css.whiteMutedText}>Precios promocionales por tiempo limitado. Equipos certificados ANMAT.</p>
+                        <p className={css.whiteMutedText}>Precios promocionales por tiempo limitado.</p>
                     </div>
                     <div className={css.productsGrid}>
                         {ofertas.map((p, i) => {
@@ -1681,7 +1681,7 @@ const LandingPage = () => {
                     <div className={css.sectionHeader}>
                         <span className={css.sectionTag}>Catálogo completo</span>
                         <h2>Nuestra Tienda</h2>
-                        <p>CPAP, BiPAP, concentradores de oxígeno, máscaras y accesorios. Todos los productos certificados por ANMAT.</p>
+                        <p>CPAP, BiPAP, concentradores de oxígeno, máscaras y accesorios.</p>
                     </div>
 
                     {[
@@ -1958,7 +1958,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className={css.footerBottom}>
-                    <p>&copy; 2026 Inser Salud · Certificado ANMAT · Córdoba, Argentina</p>
+                    <p>&copy; 2026 Inser Salud · Córdoba, Argentina</p>
                 </div>
             </footer>
 

@@ -268,10 +268,6 @@ const PathologyPage = () => {
                 </div>
                 <div className={css.heroImgWrap}>
                     <img src={data.heroImg} alt={data.title} className={css.heroImg} />
-                    <div className={css.heroImgBadge}>
-                        <Star size={14} fill="white" color="white" />
-                        <span>Certificado ANMAT</span>
-                    </div>
                 </div>
             </header>
 
@@ -341,7 +337,7 @@ const PathologyPage = () => {
                 <div className={css.container}>
                     <div className={css.productsSectionHeader}>
                         <h2>Equipos disponibles</h2>
-                        <p>Equipos certificados ANMAT con precios actualizados. Consultá disponibilidad con Santi.</p>
+                        <p>Equipos con precios actualizados. Consultá disponibilidad con Santi.</p>
                     </div>
                     <div className={css.productsGrid}>
                         {data.products.map((p, i) => (
@@ -469,7 +465,7 @@ const PathologyPage = () => {
             {/* ── FOOTER ─────────────────────────────────────────── */}
             <footer className={css.footer}>
                 <div className={css.footerInner}>
-                    <span>&copy; 2026 Inser Salud · Certificado ANMAT · Córdoba, Argentina</span>
+                    <span>&copy; 2026 Inser Salud · Córdoba, Argentina</span>
                     <div className={css.footerLinks}>
                         <Link to="/">Inicio</Link>
                         <Link to="/">Patologías</Link>
