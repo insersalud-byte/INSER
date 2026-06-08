@@ -270,7 +270,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
         colorLight: '#e0f2fe',
         heroImg: '/artifacts/hero_epoc.jpg',
 
-        intro: 'La EPOC es una enfermedad pulmonar crónica que dificulta la respiración. Con el tratamiento adecuado y el equipamiento correcto se puede llevar una vida activa y con buena calidad. En Inser Salud te acompañamos con equipos y asesoramiento profesional.',
+        intro: 'La EPOC es una enfermedad pulmonar crónica que dificulta la respiración. Con el tratamiento adecuado y el equipamiento correcto se puede llevar una vida activa y con buena calidad. En Inser Salud te acompañamos con aparatología aprobada por ANMAT y asesoramiento profesional.',
 
         description: 'La Enfermedad Pulmonar Obstructiva Crónica (EPOC) es una condición que dificulta el paso de aire hacia y desde los pulmones. Provoca tos persistente con producción de moco, sibilancias y falta de aire al esfuerzo. Aunque no tiene cura, el tratamiento correcto — incluyendo oxigenoterapia, inhaladores, broncodilatadores y rehabilitación pulmonar — puede mejorar significativamente la calidad de vida y frenar la progresión.',
 
