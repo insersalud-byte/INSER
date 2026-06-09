@@ -32,6 +32,7 @@ export function useSEO({ title, description, canonical }) {
         const descRef = setMeta('meta[name="description"]', ['name', 'description'], description);
         const ogTitleRef = setMeta('meta[property="og:title"]', ['property', 'og:title'], title);
         const ogDescRef = setMeta('meta[property="og:description"]', ['property', 'og:description'], description);
+        const ogUrlRef = setMeta('meta[property="og:url"]', ['property', 'og:url'], canonical);
 
         let canonEl = null;
         let canonCreated = false;
@@ -52,7 +53,7 @@ export function useSEO({ title, description, canonical }) {
         return () => {
             document.title = prevTitle;
             // Limpiar/restaurar elementos creados para no contaminar otras rutas
-            [descRef, ogTitleRef, ogDescRef].forEach(ref => {
+            [descRef, ogTitleRef, ogDescRef, ogUrlRef].forEach(ref => {
                 if (ref?.created && ref.el?.parentNode) ref.el.parentNode.removeChild(ref.el);
             });
             if (canonEl) {

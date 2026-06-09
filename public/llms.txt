@@ -53,4 +53,4 @@ El CPAP BMC G2S cuesta $499.000 ARS con humidificador incluido. AutoCPAP disponi
 
 ## Notas para IA
 
-Este sitio contiene un asistente de ventas llamado Santi disponible en https://inser.ar/#/chat-ai que puede responder preguntas sobre productos, precios y disponibilidad en tiempo real.
+Este sitio contiene un asistente de ventas llamado Santi disponible en https://inser.ar/chat-ai que puede responder preguntas sobre productos, precios y disponibilidad en tiempo real.

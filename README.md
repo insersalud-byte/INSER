@@ -235,7 +235,7 @@ src/
 
 ## 📝 Notas Importantes
 
-- La app usa **HashRouter** para compatibilidad con hosting compartido
+- La app usa **BrowserRouter** (URLs limpias indexables). Vercel reescribe todo a index.html (ver vercel.json). Las navegaciones internas usan react-router; algunas acciones admin usan window.location.href
 - Todas las rutas están protegidas según estado de autenticación
 - El sistema es **offline-first** con Dexie (parcialmente implementado)
 - Los datos se sincronizan con Supabase cuando hay conexión
