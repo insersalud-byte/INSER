@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { getPathologyBySlug, pathologies } from './pathologyData';
 import { getSpecsFor } from '../../data/productSpecs';
+import { useSEO } from '../../hooks/useSEO';
 import css from './PathologyPage.module.css';
 
 const openSanti = (message) => {
@@ -178,10 +179,11 @@ const PathologyPage = () => {
     const [activeSection, setActiveSection] = useState(null);
     const [specsProduct, setSpecsProduct] = useState(null);
 
-    useEffect(() => {
-        if (data?.metaTitle) document.title = data.metaTitle;
-        return () => { document.title = 'INSER SALUD'; };
-    }, [data]);
+    useSEO({
+        title: data?.metaTitle,
+        description: data?.subtitle || data?.intro,
+        canonical: slug ? `https://inser.ar/patologia/${slug}` : undefined,
+    });
 
     if (!data) {
         return (

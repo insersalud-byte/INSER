@@ -37,7 +37,7 @@ const AdminLoginPage = () => {
                 throw signInError;
             }
 
-            window.location.hash = '/admin';
+            window.location.href = '/admin';
 
         } catch (err) {
             setError(err.message);
@@ -48,7 +48,7 @@ const AdminLoginPage = () => {
 
     const handleDemoEntry = () => {
         loginAsDemo('ADMIN');
-        window.location.hash = '/admin';
+        window.location.href = '/admin';
     };
 
     return (
@@ -87,7 +87,7 @@ const AdminLoginPage = () => {
                 </div>
 
                 <div className={css.adminLink}>
-                    <small>¿Sos paciente? <a href="/#/login">Ingresá acá</a></small>
+                    <small>¿Sos paciente? <a href="/login">Ingresá acá</a></small>
                 </div>
             </div>
         </div>

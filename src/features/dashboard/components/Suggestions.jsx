@@ -228,7 +228,8 @@ const Suggestions = () => {
                                         if (action.url.startsWith('http')) {
                                             window.open(action.url, '_blank');
                                         } else {
-                                            window.location.hash = action.url;
+                                            const dest = (action.url || '').replace(/^#/, '');
+                                            window.location.href = dest.startsWith('/') ? dest : `/${dest}`;
                                         }
                                     }}
                                 >

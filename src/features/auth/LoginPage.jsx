@@ -126,7 +126,7 @@ const LoginPage = () => {
                 </div>
 
                 <div className={css.adminLink}>
-                    <small>¿Sos administrador? <a href="/#/login-admin">Ingresá acá</a></small>
+                    <small>¿Sos administrador? <a href="/login-admin">Ingresá acá</a></small>
                 </div>
             </div>
         </div>

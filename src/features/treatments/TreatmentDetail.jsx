@@ -8,7 +8,7 @@ const TreatmentDetail = () => {
 
     return (
         <div className={css.pageContainer}>
-            <Button variant="ghost" onClick={() => window.location.hash = '/'}>← Volver al Inicio</Button>
+            <Button variant="ghost" onClick={() => window.location.href = '/'}>← Volver al Inicio</Button>
 
             <div style={{ marginTop: '1.5rem', background: 'white', padding: '2rem', borderRadius: '16px' }}>
                 <h1>Mi Tratamiento</h1>

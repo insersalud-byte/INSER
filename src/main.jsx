@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import './styles/global.css';
 import { AuthProvider } from './features/auth/AuthContext.jsx';
@@ -15,11 +15,11 @@ if (!rootElement) {
   try {
     ReactDOM.createRoot(rootElement).render(
       <React.StrictMode>
-        <HashRouter>
+        <BrowserRouter>
           <AuthProvider>
             <App />
           </AuthProvider>
-        </HashRouter>
+        </BrowserRouter>
       </React.StrictMode>
     );
     console.log('React DOM Render called successfully.');

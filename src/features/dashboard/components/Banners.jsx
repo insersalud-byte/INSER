@@ -126,7 +126,9 @@ const Banners = () => {
         if (banner.cta_type === 'STORE' || banner.cta_type === 'WHATSAPP') {
             window.open(banner.cta_url, '_blank');
         } else if (banner.cta_type === 'INTERNAL') {
-            window.location.hash = banner.cta_url;
+            // Soporta valores guardados como "#/x", "/x" o "x"
+            const dest = (banner.cta_url || '').replace(/^#/, '');
+            window.location.href = dest.startsWith('/') ? dest : `/${dest}`;
         }
     };
 

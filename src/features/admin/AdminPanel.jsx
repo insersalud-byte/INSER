@@ -48,7 +48,7 @@ const AdminPanel = () => {
                     <button
                         onClick={() => {
                             localStorage.removeItem('demo_admin');
-                            supabase.auth.signOut().then(() => window.location.hash = '/welcome');
+                            supabase.auth.signOut().then(() => window.location.href = '/');
                         }}
                         className={css.logoutBtn}
                     >

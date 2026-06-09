@@ -105,8 +105,8 @@ const AdminDashboard = () => {
             <div className={css.dashboardSection}>
                 <h3>Acciones Rápidas</h3>
                 <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-                    <Button onClick={() => window.location.hash = '/admin/users'}>Ver Usuarios</Button>
-                    <Button variant="outline" onClick={() => window.location.hash = '/admin/banners'}>Gestionar Banners</Button>
+                    <Button onClick={() => window.location.href = '/admin/users'}>Ver Usuarios</Button>
+                    <Button variant="outline" onClick={() => window.location.href = '/admin/banners'}>Gestionar Banners</Button>
                 </div>
             </div>
         </div>
