@@ -34,3 +34,4 @@ consultorio/server/node_modules
 
 # Prevenir que carpetas del sistema de Windows se cometan por error
 OneDrive/
+.vercel
