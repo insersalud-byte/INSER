@@ -1254,6 +1254,10 @@ const LandingPage = () => {
     const [epworthResult, setEpworthResult] = useState(null);
     const navigate = useNavigate();
 
+    // Diferenciacion por dominio: inser.ar apunta a venta de equipos;
+    // insersalud.com a terapias domiciliarias y alquiler (su identidad historica).
+    const isInsersalud = typeof window !== 'undefined' && window.location.hostname.includes('insersalud.com');
+
     const closeEpworth = () => {
         setShowEpworth(false);
         setEpworthAnswers(Array(8).fill(-1));
@@ -1328,13 +1332,27 @@ const LandingPage = () => {
                     <div className={css.badge}>
                         <Shield size={14} /> Aparatología aprobada por ANMAT
                     </div>
-                    <h1 className={css.heroTitle}>
-                        Respirá mejor,<br />
-                        <span>viví mejor</span>
-                    </h1>
-                    <p className={css.heroSubtitle}>
-                        Especialistas en medicina respiratoria en Córdoba. Alquiler y venta de equipos CPAP, BiPAP y concentradores de oxígeno con seguimiento profesional y atención personalizada.
-                    </p>
+                    {isInsersalud ? (
+                        <>
+                            <h1 className={css.heroTitle}>
+                                Terapias respiratorias<br />
+                                <span>domiciliarias</span>
+                            </h1>
+                            <p className={css.heroSubtitle}>
+                                Alquiler y venta de equipos CPAP, BiPAP y oxigenoterapia a domicilio en Córdoba. Instalación, adaptación y seguimiento profesional en tu hogar, con soporte técnico continuo.
+                            </p>
+                        </>
+                    ) : (
+                        <>
+                            <h1 className={css.heroTitle}>
+                                Respirá mejor,<br />
+                                <span>viví mejor</span>
+                            </h1>
+                            <p className={css.heroSubtitle}>
+                                Especialistas en medicina respiratoria en Córdoba. Venta y alquiler de equipos CPAP, BiPAP y concentradores de oxígeno con seguimiento profesional y atención personalizada.
+                            </p>
+                        </>
+                    )}
                     <div className={css.heroActions}>
                         <button className={css.heroBtnPrimary} onClick={() => openSanti(null)}>
                             Hablar con Santi

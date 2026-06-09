@@ -41,7 +41,8 @@
   <meta name="twitter:description" content="Gran variedad de máscaras para BiPAP en todos los talles. Ventilación no invasiva con acompañamiento personalizado y respeto en cada paso." />
   <meta name="twitter:image" content="https://inser.ar/artifacts/logo_insersalud.jpg" />
 
-  <!-- Canonical/og:url segun el host que sirve (inser.ar e insersalud.com se indexan por separado) -->
+  <!-- SEO por host: inser.ar (venta de equipos) e insersalud.com (terapias domiciliarias
+       y alquiler) se indexan por separado con titulo, descripcion y canonical propios -->
   <script>
     (function () {
       var h = location.hostname;
@@ -51,6 +52,17 @@
       if (c) c.setAttribute('href', base + location.pathname);
       var u = document.querySelector('meta[property="og:url"]');
       if (u) u.setAttribute('content', base + location.pathname);
+      // Solo en la home: identidad propia del dominio (domiciliario/alquiler)
+      if (location.pathname !== '/' && location.pathname !== '/index.html') return;
+      var T = 'INSER SALUD – Terapias Respiratorias Domiciliarias | Alquiler y Venta CPAP, BiPAP y Oxígeno | Córdoba';
+      var D = 'Terapias respiratorias domiciliarias en Córdoba. Alquiler y venta de CPAP, BiPAP y concentradores de oxígeno con instalación y seguimiento profesional en tu hogar. Aparatología aprobada por ANMAT. ☎ +54 9 351 206-5320.';
+      document.title = T;
+      var set = function (sel, val) { var e = document.querySelector(sel); if (e) e.setAttribute('content', val); };
+      set('meta[name="description"]', D);
+      set('meta[property="og:title"]', T);
+      set('meta[property="og:description"]', D);
+      set('meta[name="twitter:title"]', T);
+      set('meta[name="twitter:description"]', D);
     })();
   </script>
 
@@ -242,7 +254,7 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-CHLysuvM.js"></script>
+  <script type="module" crossorigin src="/assets/index-BNyGDhvP.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-DjlHNr9F.css">
 <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 

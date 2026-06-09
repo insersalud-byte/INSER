@@ -179,12 +179,14 @@ const PathologyPage = () => {
     const [activeSection, setActiveSection] = useState(null);
     const [specsProduct, setSpecsProduct] = useState(null);
 
-    // Cada dominio (inser.ar / insersalud.com) se auto-referencia para indexarse por separado
-    const seoBase = (typeof window !== 'undefined' && window.location.hostname.includes('insersalud.com'))
-        ? 'https://insersalud.com'
-        : 'https://inser.ar';
+    // Cada dominio se indexa por separado con angulo propio:
+    // inser.ar = equipos/venta; insersalud.com = tratamiento domiciliario.
+    const isInsersaludHost = typeof window !== 'undefined' && window.location.hostname.includes('insersalud.com');
+    const seoBase = isInsersaludHost ? 'https://insersalud.com' : 'https://inser.ar';
     useSEO({
-        title: data?.metaTitle,
+        title: isInsersaludHost && data?.metaTitle
+            ? data.metaTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD')
+            : data?.metaTitle,
         description: data?.subtitle || data?.intro,
         canonical: slug ? `${seoBase}/patologia/${slug}` : undefined,
     });
