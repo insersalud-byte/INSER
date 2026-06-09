@@ -41,6 +41,19 @@
   <meta name="twitter:description" content="BiPAP, asistentes de tos y máscaras pediátricas y de adultos. Seguimiento profesional para cada tipo y etapa de la enfermedad." />
   <meta name="twitter:image" content="https://inser.ar/artifacts/logo_insersalud.jpg" />
 
+  <!-- Canonical/og:url segun el host que sirve (inser.ar e insersalud.com se indexan por separado) -->
+  <script>
+    (function () {
+      var h = location.hostname;
+      if (h !== 'insersalud.com' && h !== 'www.insersalud.com') return;
+      var base = 'https://insersalud.com';
+      var c = document.querySelector('link[rel="canonical"]');
+      if (c) c.setAttribute('href', base + location.pathname);
+      var u = document.querySelector('meta[property="og:url"]');
+      if (u) u.setAttribute('content', base + location.pathname);
+    })();
+  </script>
+
   <!-- ══ Google Analytics 4 ══════════════════════════════════════════════ -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV"></script>
   <script>
@@ -229,7 +242,7 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-DTGFb74C.js"></script>
+  <script type="module" crossorigin src="/assets/index-CHLysuvM.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-DjlHNr9F.css">
 <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 

@@ -179,10 +179,14 @@ const PathologyPage = () => {
     const [activeSection, setActiveSection] = useState(null);
     const [specsProduct, setSpecsProduct] = useState(null);
 
+    // Cada dominio (inser.ar / insersalud.com) se auto-referencia para indexarse por separado
+    const seoBase = (typeof window !== 'undefined' && window.location.hostname.includes('insersalud.com'))
+        ? 'https://insersalud.com'
+        : 'https://inser.ar';
     useSEO({
         title: data?.metaTitle,
         description: data?.subtitle || data?.intro,
-        canonical: slug ? `https://inser.ar/patologia/${slug}` : undefined,
+        canonical: slug ? `${seoBase}/patologia/${slug}` : undefined,
     });
 
     if (!data) {
