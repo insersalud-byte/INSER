@@ -81,6 +81,20 @@ const ofertas = [
         ],
     },
     {
+        name: 'Concentrador de Oxígeno BMC Estacionario', slug: 'concentrador-de-oxigeno-bmc-estacionario', price: '$999.000', img: '/artifacts/products/concentrador_bmc_1.jpg', images: ['/artifacts/products/concentrador_bmc_1.jpg', '/artifacts/products/concentrador_bmc_2.jpg'], badge: 'OFERTA', note: 'Con control remoto y medidor de oxígeno.', category: 'Concentrador',
+        specs: [
+            ['Fabricante', 'BMC Medical'],
+            ['Tipo', 'Concentrador estacionario domiciliario'],
+            ['Control remoto', 'Sí — manejo a distancia'],
+            ['Medidor de O₂', 'Sí — monitor de pureza integrado'],
+            ['Flujo', '0,5 – 5 L/min'],
+            ['Pureza O₂', '≥ 93%'],
+            ['Pantalla', 'Display digital (pureza, flujo, horas)'],
+            ['Uso', 'Continuo 24hs'],
+            ['Garantía', '2 años'],
+        ],
+    },
+    {
         name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: '$5.451.885 · U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'GCE Healthcare (Europa)'],
