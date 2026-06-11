@@ -148,7 +148,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Máscara Nasobucal BMC F2 Multitalle', slug: 'mascara-cpap-bipap-bmc-f2-nasobucal-con-apoya-frontal-', price: '$180.000 · U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'NUEVO', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
+        name: 'Máscara Nasobucal BMC F6 Multitalle', slug: 'mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-', price: '$180.000 · U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'NUEVO', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Nasobucal (full face) con apoya frente'],
@@ -385,7 +385,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasobucal BMC F2 Multitalle', slug: 'mascara-cpap-bipap-bmc-f2-nasobucal-con-apoya-frontal-', price: '$180.000 · U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'NUEVO', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
+        name: 'Máscara Nasobucal BMC F6 Multitalle', slug: 'mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-', price: '$180.000 · U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'NUEVO', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Nasobucal (full face) con apoya frente'],
@@ -758,7 +758,7 @@ const ALL_TAG_INFO = {
                     'Para EPOC y enfermedades neuromusculares',
                     'Mayor superficie de sellado',
                     'Algo más de sensación de claustrofobia',
-                    'Ej: DreamWear Full, BMC F2, AirFit F30/F20',
+                    'Ej: DreamWear Full, BMC F6, AirFit F30/F20',
                 ],
             },
         },

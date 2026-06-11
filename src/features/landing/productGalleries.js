@@ -104,7 +104,7 @@ export const productGalleries = {
     "/artifacts/products/1752269565561-269d4b6c-772c-4dcb-b8f1-0bcc3244be73.jfif",
     "/artifacts/products/1752269581367-ea3fc8ca-bf2c-45b0-932e-e15cab69b8c1.jfif",
   ],
-  "mascara-cpap-bipap-bmc-f2-nasobucal-con-apoya-frontal-": [
+  "mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-": [
     "/artifacts/products/08ff650a-7c35-466c-ab0c-216c15999d3f.jpg",
     "/artifacts/products/6274e898-137c-48f6-a354-4a52704ab235.jpg",
     "/artifacts/products/3fdc4b7d-b1be-4b64-8f4c-dcc38fac9f6d.jpg",

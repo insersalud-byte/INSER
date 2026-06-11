@@ -57,7 +57,7 @@ INSERT INTO santi_products (name, category, price_ars, price_usd, url, note, sor
 ('Máscara Nasal BMC Multitalle','MASCARA',NULL,'U$S 89.50',NULL,'Se adapta a distintas morfologías.',35),
 ('Máscara Nasal Pillow YUWELL YP-01','MASCARA',NULL,'U$S 42',NULL,'Almohadillas nasales L/M.',36),
 ('Mascarilla Nasobucal DreamWear Philips','MASCARA','$229.000','U$S 157',NULL,'Mínimo contacto nasobucal.',37),
-('Máscara BMC F2 Nasobucal','MASCARA',NULL,'U$S 52',NULL,'Con apoya frontal.',38),
+('Máscara BMC F6 Nasobucal','MASCARA','$180.000','U$S 124',NULL,'Con apoya frontal.',38),
 ('Buconasal YUWELL','MASCARA',NULL,'U$S 52',NULL,'Con apoya frente.',39),
 ('Buconasal YUWELL YF02 sin Apoya Frente','MASCARA',NULL,'U$S 55',NULL,'Mayor campo visual.',40),
 ('Buconasal BMC F5A sin Apoya Frente','MASCARA',NULL,'U$S 52',NULL,'Talles S/M/L.',41),

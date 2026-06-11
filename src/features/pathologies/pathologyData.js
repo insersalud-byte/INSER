@@ -159,7 +159,7 @@ Tipos de máscaras disponibles:
 😮 Máscaras nasobucales (full-face):
 • Cubren nariz y boca
 • Indicadas para quienes respiran por la boca durante el sueño
-• Ejemplos: DreamWear Full Face, BMC F2, AirFit F20/F30, YUWELL YF02
+• Ejemplos: DreamWear Full Face, BMC F6, AirFit F20/F30, YUWELL YF02
 
 👁️ Máscaras de almohadillas nasales (mínimo contacto):
 • Solo sellan en las fosas nasales
@@ -1050,7 +1050,7 @@ Modalidades de ventilación disponibles:
 
 Máscaras para AME (pediátricas y adultos):
 • Nasales: DreamWear, BMC N4/N5a, NeoQ Infant (pediátrica)
-• Nasobucales: DreamWear Full Face, BMC F2, AirFit F30
+• Nasobucales: DreamWear Full Face, BMC F6, AirFit F30
 • Elección según la edad, talla y tolerancia del paciente
 
 Trabajamos junto al equipo médico tratante para adaptar los parámetros de ventilación a cada paciente y cada etapa.`,
@@ -1103,7 +1103,7 @@ Máscaras pediátricas disponibles:
 Máscaras de adultos para AME tipo 2 y 3:
 
 👃 Nasales: DreamWear (mínimo contacto), BMC N4, BMC N5a, RESMED AirFit N20
-😮 Nasobucales: DreamWear Full Face, BMC F2, RESMED AirFit F20/F30
+😮 Nasobucales: DreamWear Full Face, BMC F6, RESMED AirFit F20/F30
 🌟 DreamWear (mínimo contacto nasal): U$S 153
 
 Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contamos con la mayor variedad de interfaces de Córdoba. El incumplimiento del tratamiento muchas veces se debe a una máscara inadecuada.`,
@@ -1249,7 +1249,7 @@ Principales problemas respiratorios en PC:
 
 😮 Máscaras Nasobucales / Full-Face (cubren nariz y boca):
 • DreamWear Full Face Philips — Mínimo contacto — $229.000 · U$S 157
-• BMC F2 — Amplia visibilidad — Consultá precio
+• BMC F6 — Amplia visibilidad — Consultá precio
 • RESMED AirFit F20 — Mayor sellado — Consultá precio
 • RESMED AirFit F30 — Mínimo contacto nasobucal — Consultá precio
 • YUWELL YF02 — Opción económica — Consultá precio

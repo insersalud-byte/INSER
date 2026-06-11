@@ -117,7 +117,7 @@ Frase guía:
     - AUTOCPAP RESMED AIRSENSE 10 – U$S 907
     - BIPAP BMC G3 – U$S 907
     - Máscara buconasal YUWELL – U$S 52
-    - Máscara nasobucal BMC F2 – U$S 52
+    - Máscara nasobucal BMC F6 – $180.000 / U$S 124
     - Concentrador YUWELL estacionario – U$S 713
     - AUTOCPAP BMC G2s M1 Mini – U$S 1.400
     - Máscara YUWELL YF02 – U$S 55
