@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Send, X, MessageCircle, ExternalLink } from 'lucide-react';
 import css from './AIFloat.module.css';
 
@@ -26,6 +27,7 @@ function getSessionId() {
 }
 
 const AIFloat = () => {
+    const { pathname } = useLocation();
     const [isOpen, setIsOpen] = useState(false);
     const [showTooltip, setShowTooltip] = useState(false);
     const [messages, setMessages] = useState([INITIAL_MESSAGE]);
@@ -143,6 +145,11 @@ const AIFloat = () => {
     };
 
     const showChips = messages.length === 1;
+
+    // En la pagina de chat dedicada el widget es redundante
+    if (pathname.startsWith('/chat-ai')) {
+        return null;
+    }
 
     return (
         <>

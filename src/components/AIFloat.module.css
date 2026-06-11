@@ -444,13 +444,29 @@
         border-radius: 1.5rem 1.5rem 0 0;
     }
 
+    /* En celular el avatar va ARRIBA, al lado del logo (fijo en la barra),
+       para no tapar el contenido que se esta leyendo */
     .fabContainer {
-        bottom: 1.25rem;
-        right: 1.25rem;
+        top: 20px;
+        left: 104px;
+        bottom: auto;
+        right: auto;
+        flex-direction: row;
+        align-items: center;
+        z-index: 1001;
     }
 
     .avatarBtn {
-        width: 62px;
-        height: 62px;
+        width: 52px;
+        height: 52px;
+        border-width: 2px;
+    }
+
+    .tooltip {
+        display: none;
+    }
+
+    .fabShadow {
+        display: none;
     }
 }
