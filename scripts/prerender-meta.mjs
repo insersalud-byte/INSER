@@ -1,15 +1,20 @@
 /**
  * prerender-meta.mjs
- * Post-build: genera un index.html por página de patología con su <title>,
- * meta description, canonical y Open Graph propios, partiendo de dist/index.html.
+ * Post-build: genera HTML estatico con meta propio por pagina Y por dominio.
  *
- * Por qué: la app es CSR (BrowserRouter). Googlebot ejecuta JS y toma el SEO
- * del hook useSEO, pero los crawlers SIN JS (WhatsApp, Facebook, etc.) solo leen
- * el HTML estático. Esto les entrega el meta correcto por URL para los previews
- * y acelera el indexado. El bundle React sigue cargando igual (misma app).
+ * - inser.ar  -> venta de equipos (titulos originales)
+ *   · home: dist/index.html (tal cual sale de vite)
+ *   · patologias: dist/patologia/<slug>/index.html
+ * - insersalud.com -> terapias domiciliarias + alquiler (variante propia)
+ *   · home: dist/insersalud/index.html
+ *   · patologias: dist/insersalud/patologia/<slug>/index.html
+ *   El middleware (middleware.js) enruta insersalud.com -> /insersalud/...
  *
- * Es deliberadamente a prueba de fallos: ante cualquier error sale con código 0
- * para no romper el build de Vercel (en el peor caso, simplemente no prerenderiza).
+ * Asi cada dominio sirve su title/description/canonical correctos en el HTML
+ * mismo (no solo por JS), para que compitan por separado en Google.
+ *
+ * A prueba de fallos: ante cualquier error sale con codigo 0 para no romper
+ * el build de Vercel (en el peor caso, no prerenderiza y sirve el base).
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
@@ -17,7 +22,15 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = resolve(__dirname, '..', 'dist');
-const BASE = 'https://inser.ar';
+
+const INSER = 'https://inser.ar';
+const SALUD = 'https://insersalud.com';
+
+// Home de insersalud.com (mismo angulo que el script inline: domiciliario)
+const SALUD_HOME = {
+    title: 'INSER SALUD – Terapias Respiratorias Domiciliarias | Alquiler y Venta CPAP, BiPAP y Oxígeno | Córdoba',
+    desc: 'Terapias respiratorias domiciliarias en Córdoba. Alquiler y venta de CPAP, BiPAP y concentradores de oxígeno con instalación y seguimiento profesional en tu hogar. Aparatología aprobada por ANMAT. ☎ +54 9 351 206-5320.',
+};
 
 const PAGES = [
     { slug: 'apnea-del-sueno', title: 'APNEA DEL SUEÑO | INSER SALUD', desc: 'Si roncás fuerte, te despertás varias veces en la noche o te sentís agotado durante el día, podés estar sufriendo apnea del sueño sin saberlo. CPAP y diagnóstico en Córdoba.' },
@@ -30,6 +43,28 @@ const PAGES = [
 
 const attr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 
+// Aplica title/description/canonical/OG sobre una plantilla HTML
+function applyMeta(tpl, { title, desc, url }) {
+    let html = tpl;
+    html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${attr(title)}<\/title>`);
+    html = html.replace(/(<meta\s+name="description"\s+content=")[^"]*(")/, `$1${attr(desc)}$2`);
+    html = html.replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/, `$1${attr(title)}$2`);
+    html = html.replace(/(<meta\s+property="og:description"\s+content=")[^"]*(")/, `$1${attr(desc)}$2`);
+    html = html.replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/, `$1${attr(url)}$2`);
+    html = html.replace(/(<meta\s+name="twitter:description"\s+content=")[^"]*(")/, `$1${attr(desc)}$2`);
+    if (/<link\s+rel="canonical"/.test(html)) {
+        html = html.replace(/(<link\s+rel="canonical"\s+href=")[^"]*(")/, `$1${attr(url)}$2`);
+    } else {
+        html = html.replace(/<\/head>/, `  <link rel="canonical" href="${attr(url)}" />\n</head>`);
+    }
+    return html;
+}
+
+function write(dir, html) {
+    mkdirSync(dir, { recursive: true });
+    writeFileSync(resolve(dir, 'index.html'), html, 'utf8');
+}
+
 try {
     const indexPath = resolve(DIST, 'index.html');
     if (!existsSync(indexPath)) {
@@ -39,29 +74,28 @@ try {
     const tpl = readFileSync(indexPath, 'utf8');
     let count = 0;
 
+    // 1) Home de insersalud.com (variante domiciliaria)
+    write(resolve(DIST, 'insersalud'), applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }));
+    count++;
+
+    // 2) Patologias: variante inser.ar y variante insersalud.com
     for (const p of PAGES) {
-        const url = `${BASE}/patologia/${p.slug}`;
-        let html = tpl;
-
-        html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${attr(p.title)}<\/title>`);
-        html = html.replace(/(<meta\s+name="description"\s+content=")[^"]*(")/, `$1${attr(p.desc)}$2`);
-        html = html.replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/, `$1${attr(p.title)}$2`);
-        html = html.replace(/(<meta\s+property="og:description"\s+content=")[^"]*(")/, `$1${attr(p.desc)}$2`);
-        html = html.replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/, `$1${attr(url)}$2`);
-        html = html.replace(/(<meta\s+name="twitter:description"\s+content=")[^"]*(")/, `$1${attr(p.desc)}$2`);
-        if (/<link\s+rel="canonical"/.test(html)) {
-            html = html.replace(/(<link\s+rel="canonical"\s+href=")[^"]*(")/, `$1${attr(url)}$2`);
-        } else {
-            html = html.replace(/<\/head>/, `  <link rel="canonical" href="${attr(url)}" />\n</head>`);
-        }
-
-        const outDir = resolve(DIST, 'patologia', p.slug);
-        mkdirSync(outDir, { recursive: true });
-        writeFileSync(resolve(outDir, 'index.html'), html, 'utf8');
+        // inser.ar
+        write(
+            resolve(DIST, 'patologia', p.slug),
+            applyMeta(tpl, { title: p.title, desc: p.desc, url: `${INSER}/patologia/${p.slug}` })
+        );
+        count++;
+        // insersalud.com (sufijo domiciliario + canonical propio)
+        const saludTitle = p.title.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
+        write(
+            resolve(DIST, 'insersalud', 'patologia', p.slug),
+            applyMeta(tpl, { title: saludTitle, desc: p.desc, url: `${SALUD}/patologia/${p.slug}` })
+        );
         count++;
     }
 
-    console.log(`[prerender] ${count} páginas de patología generadas en dist/patologia/`);
+    console.log(`[prerender] ${count} páginas estáticas generadas (inser.ar + insersalud.com)`);
 } catch (err) {
     console.warn('[prerender] error no fatal, se omite prerender:', err?.message);
 }
