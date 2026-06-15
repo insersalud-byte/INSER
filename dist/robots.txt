@@ -4,6 +4,7 @@ Disallow: /api/
 Disallow: /admin
 Disallow: /login
 Disallow: /login-admin
+Disallow: /insersalud
 
 # Sitemaps
 Sitemap: https://inser.ar/sitemap.xml
