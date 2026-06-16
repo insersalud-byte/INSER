@@ -1,49 +1,81 @@
 /**
  * prerender-meta.mjs
- * Post-build: genera HTML estatico con meta propio por pagina Y por dominio.
+ * Post-build: genera HTML ESTATICO con meta + CONTENIDO REAL en el <body>,
+ * por pagina y por dominio. Critico para GEO: los crawlers de IA (GPTBot,
+ * ClaudeBot, PerplexityBot, OAI-SearchBot, etc.) NO ejecutan JavaScript, asi
+ * que solo pueden citar lo que esta en el HTML crudo. La app React hidrata/
+ * re-renderiza encima (createRoot reemplaza el contenido inyectado al cargar).
  *
- * - inser.ar  -> venta de equipos (titulos originales)
- *   · home: dist/index.html (tal cual sale de vite)
+ * - inser.ar  -> venta de equipos
+ *   · home: dist/index.html
  *   · patologias: dist/patologia/<slug>/index.html
- * - insersalud.com -> terapias domiciliarias + alquiler (variante propia)
+ * - insersalud.com -> terapias domiciliarias + alquiler
  *   · home: dist/insersalud/index.html
  *   · patologias: dist/insersalud/patologia/<slug>/index.html
- *   El middleware (middleware.js) enruta insersalud.com -> /insersalud/...
+ *   (middleware.js enruta insersalud.com -> /insersalud/...)
  *
- * Asi cada dominio sirve su title/description/canonical correctos en el HTML
- * mismo (no solo por JS), para que compitan por separado en Google.
- *
- * A prueba de fallos: ante cualquier error sale con codigo 0 para no romper
- * el build de Vercel (en el peor caso, no prerenderiza y sirve el base).
+ * El contenido de patologias se genera desde src/.../pathologyData.js (fuente
+ * unica). A prueba de fallos: ante cualquier error sale 0 para no romper Vercel.
  */
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = resolve(__dirname, '..', 'dist');
-
 const INSER = 'https://inser.ar';
 const SALUD = 'https://insersalud.com';
+const WA = '+54 9 351 206-5320';
 
-// Home de insersalud.com (mismo angulo que el script inline: domiciliario)
 const SALUD_HOME = {
     title: 'INSER SALUD – Terapias Respiratorias Domiciliarias | Alquiler y Venta CPAP, BiPAP y Oxígeno | Córdoba',
     desc: 'Terapias respiratorias domiciliarias en Córdoba. Alquiler y venta de CPAP, BiPAP y concentradores de oxígeno con instalación y seguimiento profesional en tu hogar. Aparatología aprobada por ANMAT. ☎ +54 9 351 206-5320.',
 };
+const INSER_HOME = {
+    title: 'INSER SALUD – Equipos Respiratorios CPAP, BiPAP y Oxígeno | Córdoba, Argentina',
+    desc: 'CPAP, AutoCPAP, BiPAP, máscaras nasales y nasobucales (DreamWear), oxigenoterapia y concentradores de oxígeno portátiles. Venta y alquiler en Córdoba.',
+};
 
-const PAGES = [
-    { slug: 'apnea-del-sueno', title: 'APNEA DEL SUEÑO | INSER SALUD', desc: 'Si roncás fuerte, te despertás varias veces en la noche o te sentís agotado durante el día, podés estar sufriendo apnea del sueño sin saberlo. CPAP y diagnóstico en Córdoba.' },
-    { slug: 'epoc', title: 'EPOC | INSER SALUD', desc: 'Información, aparatología aprobada por ANMAT y asesoramiento personalizado para que los pacientes con EPOC recuperen su calidad de vida. Córdoba, Argentina.' },
-    { slug: 'fibrosis-pulmonar', title: 'FIBROSIS PULMONAR | INSER SALUD', desc: 'Concentradores estacionarios, concentradores portátiles, mochilas de oxígeno y oxígeno líquido. Entrega en Córdoba con asesoramiento profesional.' },
-    { slug: 'esclerosis-lateral-amiotrofica', title: 'Información sobre la enfermedad ELA | INSER SALUD', desc: 'En la ELA, mantener una tos efectiva y una ventilación adecuada puede ser la diferencia. Equipamos y acompañamos a pacientes y familias desde el primer día.' },
-    { slug: 'atrofia-muscular-espinal', title: 'ATROFIA MUSCULAR ESPINAL | INSER SALUD', desc: 'BiPAP, asistentes de tos y máscaras pediátricas y de adultos. Seguimiento profesional para cada tipo y etapa de la enfermedad.' },
-    { slug: 'paralisis-cerebral', title: 'Información para Pacientes sobre Parálisis Cerebral | INSER SALUD', desc: 'Gran variedad de máscaras para BiPAP en todos los talles. Ventilación no invasiva con acompañamiento personalizado y respeto en cada paso.' },
+// Catalogo curado (mismo dato que llms.txt) para el contenido estatico del home
+const PRODUCTS = [
+    ['CPAP BMC G2S con humidificador', '$499.000', 'CPAP fijo, el más vendido'],
+    ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, con almohadillas nasales'],
+    ['AutoCPAP Philips DreamStation', 'U$S 758', 'con humidificador y conectividad'],
+    ['CPAP ResMed AirSense 10', 'U$S 616', 'con conectividad a la nube'],
+    ['BiPAP BMC G3 con frecuencia respiratoria', '$1.300.000', 'para EPOC y enfermedades neuromusculares'],
+    ['Ventilador STELLAR 150 ResMed', 'U$S 7.342', 'ventilación de alta gama con batería'],
+    ['Cough Assist (asistente de tos)', 'U$S 9.084', 'insuflación-exuflación para tos débil'],
+    ['Concentrador de oxígeno BMC estacionario', '$999.000', 'con control remoto y medidor de O₂'],
+    ['Concentrador portátil KINGON P2-S3', '$2.735.400', 'el más liviano, apto para vuelos'],
+    ['Concentrador portátil GCE Zen-O', '$5.451.885', '2 baterías + carro, homologado para vuelos'],
+    ['Máscara nasal DreamWear', '$223.000', 'mínimo contacto, CPAP/BiPAP'],
+    ['Máscara nasobucal DreamWear Philips', '$229.000', 'full face, cubre nariz y boca'],
+    ['Máscara nasobucal BMC F6 multitalle', '$180.000', 'tan cómoda como la DreamWear, más económica'],
+    ['Polígrafo BMC YH-600B PRO', 'U$S 1.570', 'estudio del sueño domiciliario'],
 ];
 
+const DEFINITIONS = [
+    ['¿Qué es un CPAP?', 'Un CPAP entrega una presión de aire fija y continua que mantiene abiertas las vías respiratorias durante el sueño. Es el tratamiento estándar de la apnea obstructiva del sueño.'],
+    ['¿Qué es un AutoCPAP?', 'El AutoCPAP (APAP) funciona como un CPAP pero ajusta la presión automáticamente noche a noche según la respiración del paciente, ofreciendo mayor comodidad.'],
+    ['¿Qué es un BiPAP?', 'Un BiPAP entrega dos presiones: una mayor al inhalar (IPAP) y otra menor al exhalar (EPAP). Se usa en EPOC, enfermedades neuromusculares e hipoventilación, y puede tener frecuencia respiratoria de respaldo.'],
+    ['¿Qué es la oxigenoterapia?', 'Es el aporte de oxígeno suplementario mediante concentradores de oxígeno (estacionarios para el hogar o portátiles para salir) o tubos, indicado cuando la saturación de oxígeno en sangre es baja.'],
+    ['¿Qué es un concentrador de oxígeno?', 'Un equipo que filtra el aire del ambiente y entrega oxígeno concentrado (≥93%). Estacionario para uso continuo en el hogar, o portátil con batería para viajar.'],
+    ['¿Máscara nasal o nasobucal?', 'La máscara nasal cubre solo la nariz (cómoda y liviana, para quienes respiran por la nariz). La nasobucal o full face cubre nariz y boca, ideal para quienes respiran por la boca o necesitan presiones altas (DreamWear, ResMed AirFit F20/F30, BMC F6).'],
+];
+
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const attr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 
-// Aplica title/description/canonical/OG sobre una plantilla HTML
+// Convierte el texto multilinea de pathologyData en HTML (parrafos + saltos)
+function textToHtml(text) {
+    if (!text) return '';
+    return String(text)
+        .trim()
+        .split(/\n\s*\n/)
+        .map(block => `<p>${esc(block.trim()).replace(/\n/g, '<br>')}</p>`)
+        .join('\n');
+}
+
 function applyMeta(tpl, { title, desc, url }) {
     let html = tpl;
     html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${attr(title)}<\/title>`);
@@ -60,43 +92,145 @@ function applyMeta(tpl, { title, desc, url }) {
     return html;
 }
 
+// Inyecta contenido real dentro de <div id="root"> (React lo reemplaza al montar)
+function injectBody(html, contentHtml) {
+    return html.replace(/<div id="root">\s*<\/div>/, `<div id="root">${contentHtml}</div>`);
+}
+
 function write(dir, html) {
     mkdirSync(dir, { recursive: true });
     writeFileSync(resolve(dir, 'index.html'), html, 'utf8');
 }
 
+function buildHomeBody(variant) {
+    const isSalud = variant === 'salud';
+    const h1 = isSalud
+        ? 'INSER SALUD — Terapias respiratorias domiciliarias en Córdoba'
+        : 'INSER SALUD — Equipos respiratorios CPAP, BiPAP y oxígeno en Córdoba';
+    const intro = isSalud
+        ? 'Alquiler y venta de equipos de terapia respiratoria con instalación y seguimiento profesional a domicilio en Córdoba, Argentina. CPAP, BiPAP y oxigenoterapia. Aparatología aprobada por ANMAT.'
+        : 'Venta y alquiler de equipos respiratorios en Córdoba, Argentina: CPAP, AutoCPAP, BiPAP, máscaras, oxigenoterapia y concentradores de oxígeno. Aparatología aprobada por ANMAT.';
+
+    const defs = DEFINITIONS.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('\n');
+
+    const compare = `
+<h2>CPAP vs AutoCPAP vs BiPAP</h2>
+<table>
+<thead><tr><th>Equipo</th><th>Cómo funciona</th><th>Para qué</th><th>Desde</th></tr></thead>
+<tbody>
+<tr><td>CPAP</td><td>Presión fija continua</td><td>Apnea del sueño estándar</td><td>$499.000</td></tr>
+<tr><td>AutoCPAP</td><td>Presión automática</td><td>Apnea, mayor confort</td><td>U$S 415</td></tr>
+<tr><td>BiPAP</td><td>Dos presiones (inhala/exhala)</td><td>EPOC, neuromusculares, apnea compleja</td><td>$1.300.000</td></tr>
+</tbody>
+</table>`;
+
+    const prods = `
+<h2>Productos destacados (precios de referencia)</h2>
+<ul>
+${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — ${esc(d)}</li>`).join('\n')}
+</ul>`;
+
+    const services = `
+<h2>Servicios</h2>
+<ul>
+<li>Venta de equipos respiratorios aprobados por ANMAT</li>
+<li>Alquiler de CPAP, BiPAP y concentradores de oxígeno</li>
+<li>Oxigenoterapia domiciliaria con instalación y seguimiento</li>
+<li>Adaptación y seguimiento de equipos con profesionales</li>
+<li>Servicio técnico de equipos respiratorios</li>
+</ul>`;
+
+    const paths = `
+<h2>Patologías que tratamos</h2>
+<ul>
+<li><a href="/patologia/apnea-del-sueno">Apnea del sueño</a></li>
+<li><a href="/patologia/epoc">EPOC</a></li>
+<li><a href="/patologia/fibrosis-pulmonar">Fibrosis pulmonar</a></li>
+<li><a href="/patologia/esclerosis-lateral-amiotrofica">ELA (Esclerosis Lateral Amiotrófica)</a></li>
+<li><a href="/patologia/atrofia-muscular-espinal">Atrofia Muscular Espinal</a></li>
+<li><a href="/patologia/paralisis-cerebral">Parálisis cerebral</a></li>
+</ul>`;
+
+    const about = `
+<h2>Sobre INSER SALUD</h2>
+<p>Empresa cordobesa con más de 5 años de experiencia y más de 500 pacientes atendidos. Aparatología aprobada por ANMAT, entrega en 24 hs en Córdoba y soporte técnico continuo. Atención por WhatsApp ${esc(WA)} y asesoramiento con el agente Santi.</p>`;
+
+    return `<div id="ssr-content"><main>
+<h1>${esc(h1)}</h1>
+<p>${esc(intro)}</p>
+<h2>Preguntas frecuentes</h2>
+${defs}
+${compare}
+${prods}
+${services}
+${paths}
+${about}
+<p>Contacto: WhatsApp ${esc(WA)} · inser.salud@gmail.com · Córdoba, Argentina</p>
+</main></div>`;
+}
+
+function buildPathologyBody(p, isSalud) {
+    const sufijo = isSalud ? ' — Tratamiento Domiciliario' : '';
+    const secs = (p.sections || []).map(s =>
+        `<section><h2>${esc(s.title)}</h2>${textToHtml(s.content)}</section>`
+    ).join('\n');
+    return `<div id="ssr-content"><main>
+<nav><a href="/">Inicio</a> › <a href="/patologia/${esc(p.slug)}">${esc(p.title)}</a></nav>
+<h1>${esc(p.title)}${esc(sufijo)}</h1>
+${p.headline ? `<p><strong>${esc(p.headline)}</strong></p>` : ''}
+${p.subtitle ? `<p>${esc(p.subtitle)}</p>` : ''}
+${p.intro ? `<p>${esc(p.intro)}</p>` : ''}
+${p.description ? `<p>${esc(p.description)}</p>` : ''}
+${secs}
+<p>INSER SALUD — equipos y asesoramiento para ${esc(p.title)} en Córdoba. WhatsApp ${esc(WA)}.</p>
+</main></div>`;
+}
+
 try {
     const indexPath = resolve(DIST, 'index.html');
     if (!existsSync(indexPath)) {
-        console.warn('[prerender] dist/index.html no existe, se omite prerender.');
+        console.warn('[prerender] dist/index.html no existe, se omite.');
         process.exit(0);
     }
     const tpl = readFileSync(indexPath, 'utf8');
+
+    let pathologies = [];
+    try {
+        const mod = await import(pathToFileURL(resolve(__dirname, '..', 'src', 'features', 'pathologies', 'pathologyData.js')).href);
+        pathologies = mod.pathologies || [];
+    } catch (e) {
+        console.warn('[prerender] no pude importar pathologyData.js:', e?.message);
+    }
+
     let count = 0;
 
-    // 1) Home de insersalud.com (variante domiciliaria)
-    write(resolve(DIST, 'insersalud'), applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }));
+    // HOME inser.ar (meta ya esta en tpl; solo inyecto body)
+    write(DIST, injectBody(applyMeta(tpl, { ...INSER_HOME, url: INSER + '/' }), buildHomeBody('inser')));
+    count++;
+    // HOME insersalud.com
+    write(resolve(DIST, 'insersalud'), injectBody(applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }), buildHomeBody('salud')));
     count++;
 
-    // 2) Patologias: variante inser.ar y variante insersalud.com
-    for (const p of PAGES) {
+    // PATOLOGIAS (inser.ar + insersalud.com)
+    for (const p of pathologies) {
+        const meta = { title: p.metaTitle || `${p.title} | INSER SALUD`, desc: p.subtitle || p.intro || '', };
         // inser.ar
         write(
             resolve(DIST, 'patologia', p.slug),
-            applyMeta(tpl, { title: p.title, desc: p.desc, url: `${INSER}/patologia/${p.slug}` })
+            injectBody(applyMeta(tpl, { ...meta, url: `${INSER}/patologia/${p.slug}` }), buildPathologyBody(p, false))
         );
         count++;
-        // insersalud.com (sufijo domiciliario + canonical propio)
-        const saludTitle = p.title.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
+        // insersalud.com
+        const saludTitle = (p.metaTitle || `${p.title} | INSER SALUD`).replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
         write(
             resolve(DIST, 'insersalud', 'patologia', p.slug),
-            applyMeta(tpl, { title: saludTitle, desc: p.desc, url: `${SALUD}/patologia/${p.slug}` })
+            injectBody(applyMeta(tpl, { title: saludTitle, desc: meta.desc, url: `${SALUD}/patologia/${p.slug}` }), buildPathologyBody(p, true))
         );
         count++;
     }
 
-    console.log(`[prerender] ${count} páginas estáticas generadas (inser.ar + insersalud.com)`);
+    console.log(`[prerender] ${count} páginas con CONTENIDO en el body (inser.ar + insersalud.com)`);
 } catch (err) {
-    console.warn('[prerender] error no fatal, se omite prerender:', err?.message);
+    console.warn('[prerender] error no fatal, se omite:', err?.message);
 }
 process.exit(0);

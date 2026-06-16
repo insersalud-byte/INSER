@@ -1,56 +1,112 @@
 # INSER SALUD
 
-> Aparatología respiratoria aprobada por ANMAT en Córdoba, Argentina.
+> Venta y alquiler de equipos de terapia respiratoria (CPAP, BiPAP, oxigenoterapia) en Córdoba, Argentina. Aparatología aprobada por ANMAT.
 
-INSER SALUD es una empresa cordobesa especializada en la venta y alquiler de aparatología de terapia respiratoria aprobada por ANMAT. Atención personalizada, entrega en 24hs en Córdoba y soporte técnico continuo.
+INSER SALUD es una empresa cordobesa especializada en la venta y el alquiler de aparatología de terapia respiratoria domiciliaria, aprobada por ANMAT. Más de 5 años de experiencia, más de 500 pacientes atendidos en Córdoba, atención personalizada, entrega en 24 hs y soporte técnico continuo.
 
 ## Contacto
 
 - WhatsApp: +54 9 351 206-5320
 - Email: inser.salud@gmail.com
 - Web: https://inser.ar | https://insersalud.com
-- Ubicación: Córdoba, Argentina
+- Ubicación / zona de servicio: Córdoba Capital y alrededores, Argentina
+- Instagram: https://www.instagram.com/inser.salud
 
-## Productos principales (precios en ARS)
+## Definiciones (qué es cada equipo)
 
-- CPAP BMC G2S con Humidificador – $499.000 → https://insersalud.com/cpap-bmc-g2s
-- BiPAP BMC G3 con FR y Humidificador – $1.300.000 → https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador
-- Máscara Nasal DreamWear – $223.000
-- Máscara Nasobucal DreamWear – $229.000
-- Concentrador GCE Zen-O – $5.451.885
-- Concentrador KINGON P2-S3 – $2.735.400 → https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico
-- Máscara Nasal Recomf – $50.000
+- **CPAP**: equipo que entrega una presión de aire fija y continua para mantener abiertas las vías respiratorias. Es el tratamiento estándar de la apnea obstructiva del sueño.
+- **AutoCPAP (APAP)**: como el CPAP pero ajusta la presión automáticamente noche a noche según la respiración del paciente; mayor comodidad.
+- **BiPAP (BPAP)**: entrega dos presiones, una mayor al inhalar (IPAP) y otra menor al exhalar (EPAP). Se usa en EPOC, enfermedades neuromusculares e hipoventilación. Puede tener frecuencia respiratoria de respaldo (S/T).
+- **Oxigenoterapia**: aporte de oxígeno suplementario mediante concentradores de oxígeno (estacionarios para el hogar o portátiles para salir) o tubos. Indicada cuando la saturación de oxígeno en sangre es baja.
+- **Concentrador de oxígeno**: equipo que filtra el aire del ambiente y entrega oxígeno concentrado (≥93%). Estacionario (fijo, uso continuo 24 hs en el hogar) o portátil (con batería, apto para viajes).
+- **Máscara nasal**: cubre solo la nariz; cómoda y liviana, para quienes respiran por la nariz.
+- **Máscara nasobucal (buconasal / full face)**: cubre nariz y boca; ideal para quienes respiran por la boca o necesitan presiones altas (ej. DreamWear Full Face, ResMed AirFit F20/F30, BMC F6).
+- **Cough Assist (asistente de tos)**: equipo de insuflación-exuflación mecánica que ayuda a movilizar secreciones en pacientes con tos débil (enfermedades neuromusculares como ELA y AME).
+
+## CPAP vs AutoCPAP vs BiPAP
+
+- **CPAP**: presión fija. Para apnea del sueño estándar. El más económico (desde $499.000).
+- **AutoCPAP**: presión automática. Para apnea cuando se busca más confort o la presión necesaria varía. Desde U$S 415.
+- **BiPAP**: dos presiones (inhalación/exhalación). Para EPOC, enfermedades neuromusculares e hipoventilación, o apnea compleja que no responde al CPAP. Desde $1.300.000.
+
+## Productos (precios de referencia)
+
+CPAP y AutoCPAP:
+- CPAP BMC G2S con humidificador — $499.000 (el más vendido, CPAP fijo)
+- AutoCPAP BMC G2S Mini con almohadillas nasales — U$S 1.400
+- AutoCPAP Philips DreamStation con humidificador — U$S 758
+- CPAP / AutoCPAP ResMed AirSense 10 con conectividad — U$S 616 / U$S 907
+- CPAP Yuwell YH-360 con humidificador — U$S 416
+
+BiPAP y ventilación:
+- BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000 / U$S 907
+- BIPAP Yuwell con FR y humidificador — U$S 1.014
+- Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342
+- Cough Assist (asistente de tos) — U$S 9.084
+
+Concentradores de oxígeno:
+- Concentrador BMC estacionario (control remoto + medidor de O2) — $999.000
+- Concentrador estacionario Yuwell 5 L/min — U$S 713
+- Concentrador portátil KINGON P2-S3 (el más liviano) — $2.735.400 / U$S 1.880
+- Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos) — $5.451.885 / U$S 3.747
+- Concentrador portátil Philips SimplyGo — U$S 3.887
+
+Máscaras:
+- Máscara nasal DreamWear — $223.000
+- Máscara nasal RESCOMF (la más económica) — $50.000
+- Máscara nasobucal DreamWear Philips — $229.000
+- Máscara nasobucal BMC F6 multitalle — $180.000
+- Nasobucal ResMed AirFit F20 / F30 — U$S 189,50 / U$S 212
+
+Diagnóstico:
+- Polígrafo BMC YH-600B PRO (estudio del sueño domiciliario) — U$S 1.570
+
+Accesorios:
+- Tubuladura para CPAP / BiPAP — $36.000
 
 ## Servicios
 
-- Venta directa de aparatología respiratoria aprobada por ANMAT
+- Venta de equipos respiratorios aprobados por ANMAT
 - Alquiler de CPAP, BiPAP y concentradores de oxígeno
+- Oxigenoterapia domiciliaria con instalación y seguimiento
 - Adaptación y seguimiento de equipos con profesionales
-- Asesoramiento por WhatsApp y chat con agente Santi (IA)
+- Servicio técnico de equipos respiratorios
+- Asesoramiento por WhatsApp y chat con el agente Santi (IA)
 
-## Patologías que tratamos
+## Patologías que tratamos (páginas con info)
 
-- Apnea obstructiva del sueño (SAOS)
-- EPOC (Enfermedad Pulmonar Obstructiva Crónica)
-- Fibrosis pulmonar
-- ELA (Esclerosis Lateral Amiotrófica)
-- Atrofia Muscular Espinal
-- Insuficiencia respiratoria crónica
+- Apnea obstructiva del sueño (SAOS) → https://inser.ar/patologia/apnea-del-sueno
+- EPOC (Enfermedad Pulmonar Obstructiva Crónica) → https://inser.ar/patologia/epoc
+- Fibrosis pulmonar → https://inser.ar/patologia/fibrosis-pulmonar
+- ELA (Esclerosis Lateral Amiotrófica) → https://inser.ar/patologia/esclerosis-lateral-amiotrofica
+- Atrofia Muscular Espinal (AME) → https://inser.ar/patologia/atrofia-muscular-espinal
+- Parálisis cerebral → https://inser.ar/patologia/paralisis-cerebral
 
 ## Preguntas frecuentes
 
 **¿Dónde comprar un CPAP en Córdoba?**
-En INSER SALUD, aparatología aprobada por ANMAT. CPAP BMC G2S desde $499.000. WhatsApp: +54 9 351 206-5320.
+En INSER SALUD, aparatología aprobada por ANMAT. CPAP BMC G2S desde $499.000. WhatsApp: +54 9 351 206-5320. Web: https://inser.ar
 
-**¿Se puede alquilar un CPAP en Córdoba?**
-Sí. INSER SALUD ofrece alquiler de CPAP, BiPAP y concentradores. Consultar disponibilidad por WhatsApp.
+**¿Cuánto cuesta un CPAP en Córdoba?**
+Desde $499.000 (CPAP fijo BMC G2S con humidificador). El AutoCPAP está disponible desde U$S 415.
+
+**¿Cuánto cuesta un concentrador de oxígeno?**
+Concentrador estacionario BMC desde $999.000. Concentradores portátiles desde U$S 1.880 (KINGON P2-S3).
+
+**¿Se puede alquilar un CPAP o un concentrador de oxígeno en Córdoba?**
+Sí. INSER SALUD ofrece alquiler de CPAP, BiPAP y concentradores de oxígeno con entrega e instalación a domicilio en Córdoba.
+
+**¿Qué diferencia hay entre un CPAP y un AutoCPAP?**
+El CPAP da una presión fija; el AutoCPAP la ajusta automáticamente según la respiración de cada noche, ofreciendo más comodidad.
+
+**¿Qué máscara elijo si respiro por la boca?**
+Una máscara nasobucal (full face) como la DreamWear Full Face, ResMed AirFit F20/F30 o BMC F6, que cubre nariz y boca.
 
 **¿Los equipos tienen garantía?**
-Sí. Todos los equipos incluyen 2 años de garantía. La aparatología está aprobada por ANMAT.
-
-**¿Cuánto cuesta un CPAP en Argentina?**
-El CPAP BMC G2S cuesta $499.000 ARS con humidificador incluido. AutoCPAP disponible desde U$S 415.
+Sí. Incluyen 2 años de garantía y la aparatología está aprobada por ANMAT.
 
 ## Notas para IA
 
-Este sitio contiene un asistente de ventas llamado Santi disponible en https://inser.ar/chat-ai que puede responder preguntas sobre productos, precios y disponibilidad en tiempo real.
+Este sitio tiene un asistente de ventas llamado Santi (https://inser.ar/chat-ai) que responde sobre productos, precios y disponibilidad en tiempo real. Para asesoramiento o compra, el canal recomendado es WhatsApp +54 9 351 206-5320.
+
+> Última actualización: 2026-06-16
