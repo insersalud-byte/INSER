@@ -63,8 +63,64 @@ const DEFINITIONS = [
     ['¿Máscara nasal o nasobucal?', 'La máscara nasal cubre solo la nariz (cómoda y liviana, para quienes respiran por la nariz). La nasobucal o full face cubre nariz y boca, ideal para quienes respiran por la boca o necesitan presiones altas (DreamWear, ResMed AirFit F20/F30, BMC F6).'],
 ];
 
+// Datos clinicos por patologia para el schema MedicalCondition
+const PATH_SCHEMA = {
+    'apnea-del-sueno': { alt: ['SAOS', 'Síndrome de apnea obstructiva del sueño'], tx: ['CPAP', 'AutoCPAP'], spec: 'PulmonaryMedicine' },
+    'epoc': { alt: ['Enfermedad Pulmonar Obstructiva Crónica'], tx: ['Oxigenoterapia', 'BiPAP'], spec: 'PulmonaryMedicine' },
+    'fibrosis-pulmonar': { alt: ['Fibrosis pulmonar idiopática'], tx: ['Oxigenoterapia', 'Ventilación no invasiva'], spec: 'PulmonaryMedicine' },
+    'esclerosis-lateral-amiotrofica': { alt: ['ELA', 'Enfermedad de la motoneurona'], tx: ['BiPAP', 'Ventilación no invasiva', 'Cough Assist'], spec: 'Neurologic' },
+    'atrofia-muscular-espinal': { alt: ['AME'], tx: ['BiPAP', 'Cough Assist'], spec: 'Neurologic' },
+    'paralisis-cerebral': { alt: ['Parálisis cerebral infantil'], tx: ['BiPAP', 'Ventilación no invasiva'], spec: 'Neurologic' },
+};
+
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const attr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+
+// Quita el bloque JSON-LD del home que contiene un @type dado (para no duplicar en subpaginas)
+function removeLdBlock(html, typeName) {
+    const re = new RegExp('<script type="application/ld\\+json">(?:(?!</script>)[\\s\\S])*?"' + typeName + '"(?:(?!</script>)[\\s\\S])*?</script>\\s*', '');
+    return html.replace(re, '');
+}
+
+// JSON-LD MedicalWebPage + MedicalCondition + BreadcrumbList por patologia
+function buildPathologySchema(p, base) {
+    const cfg = PATH_SCHEMA[p.slug] || { alt: [], tx: ['CPAP', 'BiPAP', 'Oxigenoterapia'], spec: 'PulmonaryMedicine' };
+    const url = `${base}/patologia/${p.slug}`;
+    const graph = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'MedicalWebPage',
+                '@id': `${url}#webpage`,
+                url,
+                name: p.metaTitle || `${p.title} | INSER SALUD`,
+                description: p.description || p.subtitle || '',
+                inLanguage: 'es-AR',
+                isPartOf: { '@id': 'https://inser.ar/#website' },
+                about: { '@id': `${url}#condition` },
+                publisher: { '@id': 'https://inser.ar/#organization' },
+            },
+            {
+                '@type': 'MedicalCondition',
+                '@id': `${url}#condition`,
+                name: p.title,
+                alternateName: cfg.alt,
+                description: p.description || p.subtitle || '',
+                relevantSpecialty: cfg.spec,
+                possibleTreatment: cfg.tx.map(t => ({ '@type': 'MedicalTherapy', name: t })),
+            },
+            {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                    { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${base}/` },
+                    { '@type': 'ListItem', position: 2, name: 'Patologías', item: `${base}/#patologias` },
+                    { '@type': 'ListItem', position: 3, name: p.title, item: url },
+                ],
+            },
+        ],
+    };
+    return `<script type="application/ld+json">\n${JSON.stringify(graph, null, 2)}\n</script>\n`;
+}
 
 // Convierte el texto multilinea de pathologyData en HTML (parrafos + saltos)
 function textToHtml(text) {
@@ -212,20 +268,22 @@ try {
     count++;
 
     // PATOLOGIAS (inser.ar + insersalud.com)
+    const buildPathologyPage = (p, base, title, desc, isSalud) => {
+        let h = applyMeta(tpl, { title, desc, url: `${base}/patologia/${p.slug}` });
+        h = removeLdBlock(h, 'BreadcrumbList'); // quitar breadcrumb generico del home
+        h = h.replace('</head>', buildPathologySchema(p, base) + '</head>'); // schema medico propio
+        h = injectBody(h, buildPathologyBody(p, isSalud)); // contenido real
+        return h;
+    };
     for (const p of pathologies) {
-        const meta = { title: p.metaTitle || `${p.title} | INSER SALUD`, desc: p.subtitle || p.intro || '', };
+        const baseTitle = p.metaTitle || `${p.title} | INSER SALUD`;
+        const desc = p.subtitle || p.intro || '';
         // inser.ar
-        write(
-            resolve(DIST, 'patologia', p.slug),
-            injectBody(applyMeta(tpl, { ...meta, url: `${INSER}/patologia/${p.slug}` }), buildPathologyBody(p, false))
-        );
+        write(resolve(DIST, 'patologia', p.slug), buildPathologyPage(p, INSER, baseTitle, desc, false));
         count++;
         // insersalud.com
-        const saludTitle = (p.metaTitle || `${p.title} | INSER SALUD`).replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
-        write(
-            resolve(DIST, 'insersalud', 'patologia', p.slug),
-            injectBody(applyMeta(tpl, { title: saludTitle, desc: meta.desc, url: `${SALUD}/patologia/${p.slug}` }), buildPathologyBody(p, true))
-        );
+        const saludTitle = baseTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
+        write(resolve(DIST, 'insersalud', 'patologia', p.slug), buildPathologyPage(p, SALUD, saludTitle, desc, true));
         count++;
     }
 

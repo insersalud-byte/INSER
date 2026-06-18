@@ -5,7 +5,8 @@ import {
     CheckCircle, Clock, Award, Users,
     Lightbulb, Shield, Bell, RefreshCw,
     Phone, Mail, MapPin, Star, Menu, X, MessageCircle,
-    Layers, Droplet, Waves, Stethoscope, ChevronDown, BookOpen
+    Layers, Droplet, Waves, Stethoscope, ChevronDown, BookOpen,
+    Instagram, Facebook
 } from 'lucide-react';
 import css from './LandingPage.module.css';
 import { productGalleries } from './productGalleries';
@@ -1987,6 +1988,10 @@ const LandingPage = () => {
                         <strong>Contacto</strong>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer">WhatsApp: +54 9 351 206-5320</a>
                         <a href="mailto:inser.salud@gmail.com">inser.salud@gmail.com</a>
+                        <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
+                            <a href="https://www.instagram.com/inser.salud" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Inser Salud" title="Instagram"><Instagram size={20} /></a>
+                            <a href="https://www.facebook.com/insersalud" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Inser Salud" title="Facebook"><Facebook size={20} /></a>
+                        </div>
                     </div>
                 </div>
                 <div className={css.footerBottom}>

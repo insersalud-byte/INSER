@@ -91,9 +91,18 @@
     "url": "https://inser.ar",
     "logo": "https://inser.ar/artifacts/logo_insersalud.jpg",
     "image": "https://inser.ar/artifacts/logo_insersalud.jpg",
-    "description": "Aparatología respiratoria aprobada por ANMAT en Córdoba, Argentina. Venta y alquiler de CPAP, BiPAP, concentradores de oxígeno portátiles y fijos. Atención personalizada y soporte técnico.",
+    "description": "Aparatología respiratoria aprobada por ANMAT en Córdoba, Argentina. Venta y alquiler de CPAP, AutoCPAP, BiPAP, máscaras, concentradores de oxígeno portátiles y fijos. Atención personalizada y soporte técnico a domicilio.",
     "telephone": "+54-9-351-206-5320",
     "email": "inser.salud@gmail.com",
+    "priceRange": "$$",
+    "currenciesAccepted": "ARS, USD",
+    "paymentAccepted": "Efectivo, Transferencia bancaria, Tarjeta de crédito",
+    "medicalSpecialty": ["Pulmonary", "SleepMedicine"],
+    "knowsAbout": ["Apnea del sueño", "EPOC", "Oxigenoterapia", "Ventilación no invasiva", "CPAP", "BiPAP", "Concentrador de oxígeno"],
+    "areaServed": [
+      { "@type": "City", "name": "Córdoba" },
+      { "@type": "AdministrativeArea", "name": "Provincia de Córdoba, Argentina" }
+    ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Córdoba",
@@ -115,11 +124,11 @@
       "@type": "ContactPoint",
       "telephone": "+54-9-351-206-5320",
       "contactType": "sales",
-      "availableLanguage": "Spanish",
-      "contactOption": "TollFree"
+      "availableLanguage": "Spanish"
     },
     "sameAs": [
       "https://insersalud.com",
+      "https://www.instagram.com/inser.salud",
       "https://www.facebook.com/insersalud",
       "https://wa.me/5493512065320"
     ],
@@ -127,53 +136,65 @@
       "@type": "OfferCatalog",
       "name": "Equipos Respiratorios",
       "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "CPAP BMC G2S con Humidificador",
-            "description": "CPAP fijo con humidificador calefactado integrado, pantalla LCD color táctil y registro de uso en tarjeta SD. Aprobado por ANMAT.",
-            "brand": { "@type": "Brand", "name": "BMC Medical" },
-            "category": "Equipos de presión positiva continua en vías aéreas",
-            "url": "https://insersalud.com/cpap-bmc-g2s"
-          },
-          "price": "499000",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock",
-          "areaServed": { "@type": "City", "name": "Córdoba" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador",
-            "description": "BiPAP S/T con frecuencia respiratoria de respaldo e humidificador. Ideal para ELA, fibrosis pulmonar y pacientes con EPOC severo.",
-            "brand": { "@type": "Brand", "name": "BMC Medical" },
-            "category": "Ventilación no invasiva",
-            "url": "https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador"
-          },
-          "price": "1300000",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock",
-          "areaServed": { "@type": "City", "name": "Córdoba" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Product",
-            "name": "Concentrador de Oxígeno Portátil KINGON P2-S3",
-            "description": "Concentrador portátil, el más liviano y económico del mercado. Ideal para pacientes activos con insuficiencia respiratoria.",
-            "brand": { "@type": "Brand", "name": "KINGON" },
-            "category": "Concentradores de oxígeno portátiles",
-            "url": "https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico"
-          },
-          "price": "2735400",
-          "priceCurrency": "ARS",
-          "availability": "https://schema.org/InStock",
-          "areaServed": { "@type": "City", "name": "Córdoba" }
-        }
+        { "@type": "Offer", "price": "499000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "CPAP BMC G2S con Humidificador", "description": "CPAP fijo con humidificador calefactado, pantalla LCD táctil y tarjeta SD. Aprobado por ANMAT.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "CPAP" } },
+        { "@type": "Offer", "price": "1400", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "AutoCPAP BMC G2S Mini con Almohadillas Nasales", "description": "AutoCPAP de presión automática con humidificador p2H y almohadillas nasales.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "AutoCPAP" } },
+        { "@type": "Offer", "price": "758", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "AutoCPAP Philips DreamStation con Humidificador", "description": "AutoCPAP con humidificador y conectividad.", "brand": { "@type": "Brand", "name": "Philips Respironics" }, "category": "AutoCPAP" } },
+        { "@type": "Offer", "price": "1300000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador", "description": "BiPAP S/T con frecuencia respiratoria de respaldo. Ideal para EPOC, ELA y enfermedades neuromusculares.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "BiPAP" } },
+        { "@type": "Offer", "price": "9084", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Cough Assist (Asistente de Tos)", "description": "Insuflación-exuflación mecánica para movilizar secreciones en pacientes con tos débil.", "category": "Asistente de tos" } },
+        { "@type": "Offer", "price": "999000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Concentrador de Oxígeno BMC Estacionario", "description": "Concentrador de oxígeno fijo para el hogar, con control remoto y medidor de oxígeno integrado.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "Concentrador de oxígeno estacionario" } },
+        { "@type": "Offer", "price": "2735400", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Concentrador de Oxígeno Portátil KINGON P2-S3", "description": "Concentrador portátil, el más liviano y económico, apto para vuelos.", "brand": { "@type": "Brand", "name": "KINGON" }, "category": "Concentrador de oxígeno portátil" } },
+        { "@type": "Offer", "price": "5451885", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Concentrador de Oxígeno Portátil GCE Zen-O", "description": "Concentrador portátil con 2 baterías y carro, homologado para vuelos.", "brand": { "@type": "Brand", "name": "GCE Healthcare" }, "category": "Concentrador de oxígeno portátil" } },
+        { "@type": "Offer", "price": "223000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Máscara Nasal DreamWear", "description": "Máscara nasal de mínimo contacto para CPAP y BiPAP.", "brand": { "@type": "Brand", "name": "Philips Respironics" }, "category": "Máscara nasal" } },
+        { "@type": "Offer", "price": "229000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Máscara Nasobucal DreamWear Philips", "description": "Máscara nasobucal (full face) que cubre nariz y boca, para CPAP y BiPAP.", "brand": { "@type": "Brand", "name": "Philips Respironics" }, "category": "Máscara nasobucal" } },
+        { "@type": "Offer", "price": "180000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Máscara Nasobucal BMC F6 Multitalle", "description": "Máscara nasobucal con apoya frente, tan cómoda como la DreamWear y más económica.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "Máscara nasobucal" } },
+        { "@type": "Offer", "price": "1570", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Polígrafo BMC YH-600B PRO", "description": "Polígrafo para estudio del sueño (poligrafía respiratoria) domiciliario.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "Diagnóstico del sueño" } }
       ]
     }
+  }
+  </script>
+
+  <!-- ══ Structured Data – WebSite + Servicios ═══════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://inser.ar/#website",
+        "url": "https://inser.ar/",
+        "name": "INSER SALUD",
+        "inLanguage": "es-AR",
+        "publisher": { "@id": "https://inser.ar/#organization" }
+      },
+      {
+        "@type": "Service",
+        "name": "Alquiler de equipos respiratorios",
+        "serviceType": "Alquiler de CPAP, BiPAP y concentradores de oxígeno",
+        "provider": { "@id": "https://inser.ar/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      },
+      {
+        "@type": "Service",
+        "name": "Oxigenoterapia domiciliaria",
+        "serviceType": "Provisión e instalación de oxígeno a domicilio (concentradores fijos y portátiles)",
+        "provider": { "@id": "https://inser.ar/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      },
+      {
+        "@type": "Service",
+        "name": "Adaptación y seguimiento de CPAP/BiPAP",
+        "serviceType": "Instalación, adaptación y seguimiento profesional de ventilación no invasiva",
+        "provider": { "@id": "https://inser.ar/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      },
+      {
+        "@type": "Service",
+        "name": "Servicio técnico de equipos respiratorios",
+        "serviceType": "Mantenimiento y reparación de CPAP, BiPAP y concentradores",
+        "provider": { "@id": "https://inser.ar/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      }
+    ]
   }
   </script>
 
@@ -252,35 +273,81 @@
   </script>
 
   <!-- ══ Structured Data – BreadcrumbList ═════════════════════════════════ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Inicio",
-        "item": "https://inser.ar/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Equipos CPAP",
-        "item": "https://inser.ar/#ofertas"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Contacto",
-        "item": "https://inser.ar/#contacto"
-      }
-    ]
-  }
-  </script>
-  <script type="module" crossorigin src="/assets/index-Coa_vZId.js"></script>
+  <script type="module" crossorigin src="/assets/index-DFCrzYhL.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-DcvcrDhY.css">
-<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://inser.ar/patologia/esclerosis-lateral-amiotrofica#webpage",
+      "url": "https://inser.ar/patologia/esclerosis-lateral-amiotrofica",
+      "name": "Información sobre la enfermedad ELA | INSER SALUD",
+      "description": "La Esclerosis Lateral Amiotrófica (ELA) es una enfermedad neurodegenerativa que afecta progresivamente las neuronas motoras, debilitando los músculos, incluyendo los respiratorios. Una tos eficaz y una ventilación adecuada son fundamentales para mantener la calidad de vida y prevenir complicaciones graves como neumonías y insuficiencia respiratoria.",
+      "inLanguage": "es-AR",
+      "isPartOf": {
+        "@id": "https://inser.ar/#website"
+      },
+      "about": {
+        "@id": "https://inser.ar/patologia/esclerosis-lateral-amiotrofica#condition"
+      },
+      "publisher": {
+        "@id": "https://inser.ar/#organization"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://inser.ar/patologia/esclerosis-lateral-amiotrofica#condition",
+      "name": "Esclerosis Lateral Amiotrófica",
+      "alternateName": [
+        "ELA",
+        "Enfermedad de la motoneurona"
+      ],
+      "description": "La Esclerosis Lateral Amiotrófica (ELA) es una enfermedad neurodegenerativa que afecta progresivamente las neuronas motoras, debilitando los músculos, incluyendo los respiratorios. Una tos eficaz y una ventilación adecuada son fundamentales para mantener la calidad de vida y prevenir complicaciones graves como neumonías y insuficiencia respiratoria.",
+      "relevantSpecialty": "Neurologic",
+      "possibleTreatment": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "BiPAP"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Ventilación no invasiva"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Cough Assist"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://inser.ar/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Patologías",
+          "item": "https://inser.ar/#patologias"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Esclerosis Lateral Amiotrófica",
+          "item": "https://inser.ar/patologia/esclerosis-lateral-amiotrofica"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
 
 <body>
   <div id="root"><div id="ssr-content"><main>
