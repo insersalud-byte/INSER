@@ -6,9 +6,8 @@ Disallow: /login
 Disallow: /login-admin
 Disallow: /insersalud
 
-# Sitemaps
-Sitemap: https://inser.ar/sitemap.xml
-Sitemap: https://insersalud.com/sitemap-insersalud.xml
+# Sitemaps (dominio principal: insersalud.com)
+Sitemap: https://insersalud.com/sitemap.xml
 
 # Crawl-delay para bots agresivos
 User-agent: AhrefsBot
