@@ -8,6 +8,7 @@ import {
     Layers, Droplet, Waves, Stethoscope, ChevronDown, BookOpen,
     Instagram, Facebook
 } from 'lucide-react';
+import LeadForm from '../../components/LeadForm';
 import css from './LandingPage.module.css';
 import { productGalleries } from './productGalleries';
 
@@ -1025,11 +1026,6 @@ const tips = [
     { icon: Bell, title: 'Señales de alerta', desc: 'Consultá a tu médico si notás mayor somnolencia diurna, dolores de cabeza matutinos, boca muy seca o si el equipo hace ruidos inusuales.', color: '#ef4444' },
 ];
 
-const testimonials = [
-    { name: 'María López', city: 'Córdoba', text: 'La atención y los equipos de Inser Salud han cambiado mi vida. Ahora duermo toda la noche sin interrupciones y me levanto con energía. El seguimiento de los especialistas fue clave en mi adaptación.', condition: 'Apnea del Sueño', avatar: 'ML' },
-    { name: 'Juan Pérez', city: 'Córdoba', text: 'Servicio excepcional. Me ayudaron a elegir el concentrador de oxígeno ideal para mi EPOC con mucha paciencia y conocimiento técnico. Los precios son los mejores que encontré en Córdoba.', condition: 'EPOC', avatar: 'JP' },
-];
-
 const stats = [
     { value: '+500', label: 'Pacientes atendidos', icon: Users },
     { value: '+5', label: 'Años de experiencia', icon: Award },
@@ -1861,38 +1857,6 @@ const LandingPage = () => {
             </section>
 
             {/* ── TESTIMONIOS ────────────────────────────────────────── */}
-            <section className={css.testimonialsSection}>
-                <div className={css.container}>
-                    <div className={css.sectionHeader}>
-                        <span className={css.sectionTag}>Lo que dicen nuestros pacientes</span>
-                        <h2>Testimonios</h2>
-                    </div>
-                    <div className={css.testimonialsGrid}>
-                        {testimonials.map((t, i) => (
-                            <div key={i} className={css.testimonialCard}>
-                                <div className={css.stars}>
-                                    {[...Array(5)].map((_, j) => (
-                                        <Star key={j} size={16} fill="#f59e0b" color="#f59e0b" />
-                                    ))}
-                                </div>
-                                <p className={css.testimonialText}>"{t.text}"</p>
-                                <div className={css.testimonialAuthor}>
-                                    <div className={css.testimonialAvatar}>
-                                        <img
-                                            src={`https://ui-avatars.com/api/?name=${encodeURIComponent(t.name)}&background=1e40af&color=fff&size=48`}
-                                            alt={t.name}
-                                        />
-                                    </div>
-                                    <div>
-                                        <strong>{t.name}</strong>
-                                        <span>{t.city} · {t.condition}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
 
             {/* ── SANTI CTA ──────────────────────────────────────────── */}
             <section className={css.santiCta}>
@@ -1922,6 +1886,9 @@ const LandingPage = () => {
                         <span className={css.sectionTag}>Estamos para vos</span>
                         <h2>Contacto Directo</h2>
                         <p>Respondemos todos los días. Para emergencias de equipos, tenemos atención prioritaria.</p>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+                        <LeadForm contexto="Home" />
                     </div>
                     <div className={css.contactGrid}>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.contactCardWa}>

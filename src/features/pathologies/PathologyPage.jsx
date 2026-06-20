@@ -7,6 +7,7 @@ import {
 import { getPathologyBySlug, pathologies } from './pathologyData';
 import { getSpecsFor } from '../../data/productSpecs';
 import { useSEO } from '../../hooks/useSEO';
+import LeadForm from '../../components/LeadForm';
 import css from './PathologyPage.module.css';
 
 const openSanti = (message) => {
@@ -401,38 +402,6 @@ const PathologyPage = () => {
                 </div>
             </section>
 
-            {/* ── TESTIMONIOS ────────────────────────────────────── */}
-            {data.testimonials && data.testimonials.length > 0 && (
-                <section className={css.testimonialsSection}>
-                    <div className={css.container}>
-                        <h2 className={css.sectionTitle}>Lo que dicen nuestros pacientes</h2>
-                        <div className={css.testimonialsGrid}>
-                            {data.testimonials.map((t, i) => (
-                                <div key={i} className={css.testimonialCard}>
-                                    <div className={css.testimonialStars}>
-                                        {Array.from({ length: t.stars || 5 }).map((_, si) => (
-                                            <Star key={si} size={16} className={css.starFilled} />
-                                        ))}
-                                    </div>
-                                    <p className={css.testimonialText}>"{t.text}"</p>
-                                    <div className={css.testimonialAuthor}>
-                                        <img
-                                            src={`https://ui-avatars.com/api/?name=${encodeURIComponent(t.name)}&background=1e40af&color=fff&size=64&bold=true`}
-                                            alt={t.name}
-                                            className={css.testimonialAvatar}
-                                        />
-                                        <div>
-                                            <strong>{t.name}</strong>
-                                            {t.city && <span className={css.testimonialCity}>{t.city}</span>}
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </section>
-            )}
-
             {/* ── SANTI CTA ──────────────────────────────────────── */}
             <section className={css.santiSection}>
                 <div className={css.container}>
@@ -449,6 +418,13 @@ const PathologyPage = () => {
                             <button className={css.santiBtn}>Hablar con Santi ahora</button>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* ── FORMULARIO DE CONSULTA ─────────────────────────── */}
+            <section className={css.santiSection}>
+                <div className={css.container} style={{ display: 'flex', justifyContent: 'center' }}>
+                    <LeadForm contexto={data.title} />
                 </div>
             </section>
 
