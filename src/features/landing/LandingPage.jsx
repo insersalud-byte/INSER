@@ -1988,6 +1988,9 @@ const LandingPage = () => {
                         <strong>Contacto</strong>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer">WhatsApp: +54 9 351 206-5320</a>
                         <a href="mailto:inser.salud@gmail.com">inser.salud@gmail.com</a>
+                        <a href="https://g.page/r/CZW6Qq0aHAUAEBM/review" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', marginTop: '0.35rem', fontWeight: 600 }}>
+                            <Star size={16} /> Dejanos tu reseña en Google
+                        </a>
                         <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
                             <a href="https://www.instagram.com/inser.salud" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Inser Salud" title="Instagram"><Instagram size={20} /></a>
                             <a href="https://www.facebook.com/insersalud" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Inser Salud" title="Facebook"><Facebook size={20} /></a>
