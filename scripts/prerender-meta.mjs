@@ -96,9 +96,9 @@ function buildPathologySchema(p, base) {
                 name: p.metaTitle || `${p.title} | INSER SALUD`,
                 description: p.description || p.subtitle || '',
                 inLanguage: 'es-AR',
-                isPartOf: { '@id': 'https://inser.ar/#website' },
+                isPartOf: { '@id': 'https://insersalud.com/#website' },
                 about: { '@id': `${url}#condition` },
-                publisher: { '@id': 'https://inser.ar/#organization' },
+                publisher: { '@id': 'https://insersalud.com/#organization' },
             },
             {
                 '@type': 'MedicalCondition',

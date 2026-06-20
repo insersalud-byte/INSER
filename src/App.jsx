@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import LandingPage from './features/landing/LandingPage';
 import ChatAI from './features/inquiries/ChatAI';
@@ -9,6 +10,21 @@ import AIFloat from './components/AIFloat';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
+  // Eventos de conversión para GA4 (clicks de WhatsApp y apertura de Santi)
+  useEffect(() => {
+    const track = (name, params) => { if (typeof window !== 'undefined' && typeof window.gtag === 'function') window.gtag('event', name, params || {}); };
+    const onClick = (e) => {
+      const a = e.target.closest && e.target.closest('a[href*="wa.me"], a[href^="tel:"]');
+      if (!a) return;
+      const href = a.getAttribute('href') || '';
+      track(href.startsWith('tel:') ? 'contact_phone' : 'contact_whatsapp', { transport_type: 'beacon', link_url: href });
+    };
+    const onSanti = () => track('open_santi');
+    document.addEventListener('click', onClick, true);
+    window.addEventListener('open-santi', onSanti);
+    return () => { document.removeEventListener('click', onClick, true); window.removeEventListener('open-santi', onSanti); };
+  }, []);
+
   return (
     <div className="app-container">
       <ScrollToTop />
