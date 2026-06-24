@@ -50,7 +50,7 @@ const PRODUCTS = [
     ['Concentrador portátil GCE Zen-O', '$5.451.885', '2 baterías + carro, homologado para vuelos'],
     ['Máscara nasal DreamWear', '$223.000', 'mínimo contacto, CPAP/BiPAP'],
     ['Máscara nasobucal DreamWear Philips', '$229.000', 'full face, cubre nariz y boca'],
-    ['Máscara nasobucal BMC F6 multitalle', '$186.000', 'tan cómoda como la DreamWear, más económica'],
+    ['Máscara nasobucal BMC F6 multitalle', '$198.000', 'tan cómoda como la DreamWear, más económica'],
     ['Polígrafo BMC YH-600B PRO', 'U$S 1.570', 'estudio del sueño domiciliario'],
 ];
 
