@@ -29,7 +29,7 @@ INSER SALUD es una empresa cordobesa especializada en la venta y el alquiler de 
 
 - **CPAP**: presión fija. Para apnea del sueño estándar. El más económico (desde $499.000).
 - **AutoCPAP**: presión automática. Para apnea cuando se busca más confort o la presión necesaria varía. Desde U$S 415.
-- **BiPAP**: dos presiones (inhalación/exhalación). Para EPOC, enfermedades neuromusculares e hipoventilación, o apnea compleja que no responde al CPAP. Desde $1.300.000.
+- **BiPAP**: dos presiones (inhalación/exhalación). Para EPOC, enfermedades neuromusculares e hipoventilación, o apnea compleja que no responde al CPAP. Desde $1.360.500.
 
 ## Productos (precios de referencia)
 
@@ -41,7 +41,7 @@ CPAP y AutoCPAP:
 - CPAP Yuwell YH-360 con humidificador — U$S 416
 
 BiPAP y ventilación:
-- BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000 / U$S 907
+- BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.360.500 / U$S 907
 - BIPAP Yuwell con FR y humidificador — U$S 1.014
 - Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342
 - Cough Assist (asistente de tos) — U$S 9.084
@@ -49,15 +49,15 @@ BiPAP y ventilación:
 Concentradores de oxígeno:
 - Concentrador BMC estacionario (control remoto + medidor de O2) — $999.000
 - Concentrador estacionario Yuwell 5 L/min — U$S 713
-- Concentrador portátil KINGON P2-S3 (el más liviano) — $2.735.400 / U$S 1.880
-- Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos) — $5.451.885 / U$S 3.747
+- Concentrador portátil KINGON P2-S3 (el más liviano) — $2.820.000 / U$S 1.880
+- Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos) — $5.620.500 / U$S 3.747
 - Concentrador portátil Philips SimplyGo — U$S 3.887
 
 Máscaras:
-- Máscara nasal DreamWear — $223.000
-- Máscara nasal RESCOMF (la más económica) — $50.000
-- Máscara nasobucal DreamWear Philips — $229.000
-- Máscara nasobucal BMC F6 multitalle — $180.000
+- Máscara nasal DreamWear — $229.500
+- Máscara nasal RESCOMF (la más económica) — $52.500
+- Máscara nasobucal DreamWear Philips — $235.500
+- Máscara nasobucal BMC F6 multitalle — $186.000
 - Nasobucal ResMed AirFit F20 / F30 — U$S 189,50 / U$S 212
 
 Diagnóstico:

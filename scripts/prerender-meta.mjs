@@ -42,15 +42,15 @@ const PRODUCTS = [
     ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, con almohadillas nasales'],
     ['AutoCPAP Philips DreamStation', 'U$S 758', 'con humidificador y conectividad'],
     ['CPAP ResMed AirSense 10', '$799.000', 'oferta, equipo completo, el estándar de oro en apnea del sueño'],
-    ['BiPAP BMC G3 con frecuencia respiratoria', '$1.300.000', 'para EPOC y enfermedades neuromusculares'],
+    ['BiPAP BMC G3 con frecuencia respiratoria', '$1.360.500', 'para EPOC y enfermedades neuromusculares'],
     ['Ventilador STELLAR 150 ResMed', 'U$S 7.342', 'ventilación de alta gama con batería'],
     ['Cough Assist (asistente de tos)', 'U$S 9.084', 'insuflación-exuflación para tos débil'],
     ['Concentrador de oxígeno BMC estacionario', '$999.000', 'con control remoto y medidor de O₂'],
-    ['Concentrador portátil KINGON P2-S3', '$2.735.400', 'el más liviano, apto para vuelos'],
-    ['Concentrador portátil GCE Zen-O', '$5.451.885', '2 baterías + carro, homologado para vuelos'],
-    ['Máscara nasal DreamWear', '$223.000', 'mínimo contacto, CPAP/BiPAP'],
-    ['Máscara nasobucal DreamWear Philips', '$229.000', 'full face, cubre nariz y boca'],
-    ['Máscara nasobucal BMC F6 multitalle', '$180.000', 'tan cómoda como la DreamWear, más económica'],
+    ['Concentrador portátil KINGON P2-S3', '$2.820.000', 'el más liviano, apto para vuelos'],
+    ['Concentrador portátil GCE Zen-O', '$5.620.500', '2 baterías + carro, homologado para vuelos'],
+    ['Máscara nasal DreamWear', '$229.500', 'mínimo contacto, CPAP/BiPAP'],
+    ['Máscara nasobucal DreamWear Philips', '$235.500', 'full face, cubre nariz y boca'],
+    ['Máscara nasobucal BMC F6 multitalle', '$186.000', 'tan cómoda como la DreamWear, más económica'],
     ['Polígrafo BMC YH-600B PRO', 'U$S 1.570', 'estudio del sueño domiciliario'],
 ];
 
@@ -176,7 +176,7 @@ function buildHomeBody(variant) {
 <tbody>
 <tr><td>CPAP</td><td>Presión fija continua</td><td>Apnea del sueño estándar</td><td>$499.000</td></tr>
 <tr><td>AutoCPAP</td><td>Presión automática</td><td>Apnea, mayor confort</td><td>U$S 415</td></tr>
-<tr><td>BiPAP</td><td>Dos presiones (inhala/exhala)</td><td>EPOC, neuromusculares, apnea compleja</td><td>$1.300.000</td></tr>
+<tr><td>BiPAP</td><td>Dos presiones (inhala/exhala)</td><td>EPOC, neuromusculares, apnea compleja</td><td>$1.360.500</td></tr>
 </tbody>
 </table>`;
 
