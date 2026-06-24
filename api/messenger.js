@@ -51,12 +51,12 @@ Cuando el cliente saluda por primera vez (hola, buenos días, etc.), responder S
 | Producto | Precio | Características principales |
 |---|---|---|
 | CPAP BMC G2S | $499.000 | CPAP fijo, humidificador calefactado incluido, LCD táctil, <30dB, tarjeta SD, 2 años garantía ANMAT |
-| BiPAP BMC G3 | $1.360.500 | BiPAP S/T con FR de respaldo, humidificador incluido, IPAP 4-25 cmH₂O, EPAP 4-20 cmH₂O, ideal ELA/EPOC severo |
-| Máscara Nasal DreamWear Philips | $229.500 | Contacto mínimo, tubo superior, compatible CPAP/BiPAP, varias tallas |
-| Máscara Nasobucal DreamWear Philips | $235.500 | Buconasal, contacto mínimo, tubo superior, compatible CPAP/BiPAP |
-| Concentrador GCE Zen-O | $5.620.500 | Portátil, 2 posiciones (continuo + pulso), 2,7 kg, batería incluida, aprobado para vuelos |
-| Concentrador KINGON P2-S3 | $2.820.000 | El más liviano del mercado, flujo pulso, batería larga duración, ideal paciente activo |
-| Máscara Nasal RESCOMF CPAP/BiPAP | $52.500 | Económica, multitalle, compatible todos los equipos |
+| BiPAP BMC G3 | $1.300.000 | BiPAP S/T con FR de respaldo, humidificador incluido, IPAP 4-25 cmH₂O, EPAP 4-20 cmH₂O, ideal ELA/EPOC severo |
+| Máscara Nasal DreamWear Philips | $223.000 | Contacto mínimo, tubo superior, compatible CPAP/BiPAP, varias tallas |
+| Máscara Nasobucal DreamWear Philips | $229.000 | Buconasal, contacto mínimo, tubo superior, compatible CPAP/BiPAP |
+| Concentrador GCE Zen-O | $5.451.885 | Portátil, 2 posiciones (continuo + pulso), 2,7 kg, batería incluida, aprobado para vuelos |
+| Concentrador KINGON P2-S3 | $2.735.400 | El más liviano del mercado, flujo pulso, batería larga duración, ideal paciente activo |
+| Máscara Nasal RESCOMF CPAP/BiPAP | $50.000 | Económica, multitalle, compatible todos los equipos |
 
 Links: CPAP BMC G2S → https://insersalud.com/cpap-bmc-g2s | BiPAP BMC G3 → https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador | KINGON P2-S3 → https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico
 
@@ -69,9 +69,9 @@ Links: CPAP BMC G2S → https://insersalud.com/cpap-bmc-g2s | BiPAP BMC G3 → h
 | COUGH ASSIST Asistente de Tos | U$S 9.084 | ~$13.626.000 | Limpieza de secreciones, insuflación/exuflación, esencial en ELA/AME/parálisis |
 | AUTOCPAP Philips DreamStation | U$S 758 | ~$1.137.000 | AutoCPAP inteligente, humidificador integrado, app MyDreamMapper |
 | CPAP Philips DreamStation | U$S 579 | ~$868.500 | CPAP fijo, humidificador, app conectada |
-| AUTOCPAP ResMed AirSense 10 | U$S 907 | ~$1.360.500 | AutoCPAP con myAir app, humidificador HumidAir, clima automático |
+| AUTOCPAP ResMed AirSense 10 | U$S 907 | ~$1.300.000 | AutoCPAP con myAir app, humidificador HumidAir, clima automático |
 | CPAP ResMed AirSense 10 | U$S 616 | ~$924.000 | CPAP fijo, humidificador integrado, app myAir |
-| BiPAP BMC G3 | U$S 907 | ~$1.360.500 | BiPAP S/T con FR de respaldo, humidificador |
+| BiPAP BMC G3 | U$S 907 | ~$1.300.000 | BiPAP S/T con FR de respaldo, humidificador |
 | STELLAR 150 ResMed | U$S 7.342 | ~$11.013.000 | Ventilador invasivo/no invasivo, EPOC severo, UCI domiciliaria |
 | AUTOCPAP BMC G2s M1 Mini + almohadillas | U$S 1.400 | ~$2.100.000 | El más compacto, almohadillas incluidas, humidificador p2H |
 | AUTOCPAP BMC G2s | U$S 415 | ~$622.500 | AutoCPAP económico, tarjeta SD |
@@ -79,7 +79,7 @@ Links: CPAP BMC G2S → https://insersalud.com/cpap-bmc-g2s | BiPAP BMC G3 → h
 | CPAP Yuwell YH-360 | U$S 416 | ~$624.000 | CPAP con humidificador, silencioso |
 | CPAP Yamind | U$S 330 | ~$495.000 | CPAP económico con humidificador activo |
 | BiPAP Yuwell con FR | U$S 1.014 | ~$1.521.000 | BiPAP S/T con frecuencia respiratoria de respaldo, humidificador |
-| Concentrador KINGON P2-S3 portátil | U$S 1.880 | ~$2.820.000 | Flujo pulso, liviano, batería larga |
+| Concentrador KINGON P2-S3 portátil | U$S 1.880 | ~$2.735.400 | Flujo pulso, liviano, batería larga |
 | Concentrador KINGON P2-TOC portátil | U$S 3.458 | ~$5.187.000 | Flujo continuo + pulso, alta concentración |
 | Concentrador KINGON P2-E7 portátil | U$S 3.099 | ~$4.648.500 | Alto flujo continuo, batería extendida |
 | Concentrador KINGON P2-E6 portátil | U$S 2.695 | ~$4.042.500 | Flujo continuo, batería |
@@ -89,7 +89,7 @@ Links: CPAP BMC G2S → https://insersalud.com/cpap-bmc-g2s | BiPAP BMC G3 → h
 | Concentrador estacionario genérico | U$S 756 | ~$1.134.000 | 5 L/min, uso domiciliario |
 | Máscara Nasal BMC N4 | U$S 36 | ~$54.000 | Liviana, gel suave |
 | Máscara Nasal BMC N5a sin apoya frente | U$S 60 | ~$90.000 | Sin apoya frente, amplio campo visual |
-| Máscara Nasal AirFit Mínimo Contacto ResMed | U$S 157 | ~$235.500 | Contacto mínimo, sin apoya frente |
+| Máscara Nasal AirFit Mínimo Contacto ResMed | U$S 157 | ~$229.000 | Contacto mínimo, sin apoya frente |
 | Máscara Nasal BMC Multitalle | U$S 89.50 | ~$134.250 | Compatible CPAP/BiPAP, varias tallas |
 | Máscara Nasal Pillow Yuwell YP-01 | U$S 42 | ~$63.000 | Almohada nasal, mínima presencia facial |
 | Máscara Buconasal Yuwell | U$S 52 | ~$78.000 | Buconasal estándar |

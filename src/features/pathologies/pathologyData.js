@@ -183,7 +183,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: '$1.360.500',
+                priceARS: '$1.300.000',
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
@@ -207,7 +207,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'Máscara Nasal DreamWear (mínimo contacto)',
-                priceARS: '$229.500',
+                priceARS: '$223.000',
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
                 badge: null,
@@ -215,7 +215,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
-                priceARS: '$235.500',
+                priceARS: '$229.000',
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
                 badge: null,
@@ -223,7 +223,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'Máscara Nasal RESCOMF CPAP/BIPAP',
-                priceARS: '$52.500',
+                priceARS: '$50.000',
                 priceUSD: 'U$S 35',
                 img: '/artifacts/mascara_rescomf.jpg',
                 badge: 'OFERTA',
@@ -433,7 +433,7 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
         products: [
             {
                 name: 'Concentrador Portátil KINGON P2-S3',
-                priceARS: '$2.820.000',
+                priceARS: '$2.735.400',
                 priceUSD: 'U$S 1.880',
                 img: '/artifacts/kingon_p2_s3.jpg',
                 badge: 'EL MÁS LIVIANO',
@@ -449,7 +449,7 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
             },
             {
                 name: 'GCE Zen-O (2 baterías + carro)',
-                priceARS: '$5.620.500',
+                priceARS: '$5.451.885',
                 priceUSD: 'U$S 3.747',
                 img: '/artifacts/gce_zeno.jpg',
                 badge: 'PREMIUM',
@@ -577,7 +577,7 @@ Alquiler disponible con entrega inmediata en Córdoba. Ideal para necesidades tr
 Modelos disponibles en Inser Salud:
 
 🥇 KINGON P2-S3 — El más liviano y económico
-• Precio: $2.820.000 · U$S 1.880
+• Precio: $2.735.400 · U$S 1.880
 • El más liviano del mercado
 • Ideal para pacientes activos con necesidad de flujo bajo-moderado
 • Batería incluida para autonomía en desplazamientos
@@ -588,7 +588,7 @@ Modelos disponibles en Inser Salud:
 • Ideal para viajes en avión o jornadas largas fuera del hogar
 
 👑 GCE Zen-O — Premium con carrito y 2 baterías
-• Precio: $5.620.500 · U$S 3.747
+• Precio: $5.451.885 · U$S 3.747
 • Incluye carrito y 2 baterías para máxima autonomía
 • Homologado para vuelos comerciales
 • La opción premium para el paciente más activo
@@ -669,7 +669,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
         products: [
             {
                 name: 'GCE Zen-O (2 baterías + carro)',
-                priceARS: '$5.620.500',
+                priceARS: '$5.451.885',
                 priceUSD: 'U$S 3.747',
                 img: '/artifacts/gce_zeno.jpg',
                 badge: 'PREMIUM',
@@ -677,7 +677,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
             },
             {
                 name: 'KINGON P2-S3 (Portátil)',
-                priceARS: '$2.820.000',
+                priceARS: '$2.735.400',
                 priceUSD: 'U$S 1.880',
                 img: '/artifacts/kingon_p2_s3.jpg',
                 badge: 'MÁS LIVIANO',
@@ -862,7 +862,7 @@ Equipo de elección para ELA:
 
 BiPAP con frecuencia respiratoria de respaldo (FR): esencial porque garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio.
 
-• BiPAP BMC G3 con FR y humidificador — $1.360.500 · U$S 907
+• BiPAP BMC G3 con FR y humidificador — $1.300.000 · U$S 907
 • STELLAR 150 RESMED con humidificador y batería — U$S 7.342 (etapas avanzadas)
 
 Adaptarse al BiPAP, paso a paso:
@@ -906,7 +906,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
             },
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: '$1.360.500',
+                priceARS: '$1.300.000',
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
@@ -922,7 +922,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
             },
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
-                priceARS: '$235.500',
+                priceARS: '$229.000',
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
                 badge: null,
@@ -1039,7 +1039,7 @@ En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes co
 Equipos disponibles en Inser Salud:
 
 BiPAP BMC G3 con frecuencia respiratoria y humidificador:
-• Precio: $1.360.500 · U$S 907
+• Precio: $1.300.000 · U$S 907
 • La frecuencia respiratoria de respaldo garantiza ventilación mínima aunque el paciente no inicie el ciclo
 • Fundamental para AME tipo 1 y 2
 
@@ -1115,7 +1115,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contam
         products: [
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: '$1.360.500',
+                priceARS: '$1.300.000',
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
@@ -1131,7 +1131,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contam
             },
             {
                 name: 'Máscara Nasal DreamWear (talles S/M/L)',
-                priceARS: '$229.500',
+                priceARS: '$223.000',
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
                 badge: null,
@@ -1147,7 +1147,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contam
             },
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
-                priceARS: '$235.500',
+                priceARS: '$229.000',
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
                 badge: null,
@@ -1241,14 +1241,14 @@ Principales problemas respiratorios en PC:
                 content: `Contamos con la mayor variedad de máscaras para BiPAP y CPAP de Córdoba. La elección correcta de la interfaz es fundamental: una máscara inadecuada puede arruinar el tratamiento aunque el equipo sea excelente.
 
 👃 Máscaras Nasales (cubren solo la nariz):
-• DreamWear Philips — Mínimo contacto — $229.500 · U$S 153
+• DreamWear Philips — Mínimo contacto — $223.000 · U$S 153
 • BMC N4 — Diseño ergonómico — Consultá precio
 • BMC N5a — Ultra-slim — Consultá precio
 • RESMED AirFit N20 — Sellado silicona suave — Consultá precio
 • YUWELL — Opción económica — Consultá precio
 
 😮 Máscaras Nasobucales / Full-Face (cubren nariz y boca):
-• DreamWear Full Face Philips — Mínimo contacto — $235.500 · U$S 157
+• DreamWear Full Face Philips — Mínimo contacto — $229.000 · U$S 157
 • BMC F6 — Amplia visibilidad — Consultá precio
 • RESMED AirFit F20 — Mayor sellado — Consultá precio
 • RESMED AirFit F30 — Mínimo contacto nasobucal — Consultá precio
@@ -1259,7 +1259,7 @@ Principales problemas respiratorios en PC:
 • Máscara Jirafa Philips Respironics — Diseño infantil — U$S 220
 
 💰 Opción económica:
-• Máscara Nasal RESCOMF — $52.500 · U$S 35
+• Máscara Nasal RESCOMF — $50.000 · U$S 35
 
 Si la máscara que tenés no te resulta cómoda, o presenta escapes, presión en la piel o intolerancia, tenemos alternativas para encontrar la indicada.`,
                 link: 'https://wa.me/5493512065320?text=Hola, necesito ayuda para elegir una máscara para BiPAP para parálisis cerebral. ¿Tienen opciones pediátricas?',
@@ -1284,7 +1284,7 @@ Los criterios son similares a otras enfermedades que afectan la función respira
 ✅ CVF < 50% del predicho en pacientes colaboradores
 
 Equipo disponible:
-• BiPAP BMC G3 con FR y humidificador — $1.360.500 · U$S 907
+• BiPAP BMC G3 con FR y humidificador — $1.300.000 · U$S 907
 • Con frecuencia respiratoria de respaldo para mayor seguridad
 
 Adaptarse al BiPAP, paso a paso:
@@ -1355,7 +1355,7 @@ Consultanos disponibilidad y opciones de financiación.`,
         products: [
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: '$1.360.500',
+                priceARS: '$1.300.000',
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
@@ -1363,7 +1363,7 @@ Consultanos disponibilidad y opciones de financiación.`,
             },
             {
                 name: 'Máscara Nasal DreamWear (mínimo contacto)',
-                priceARS: '$229.500',
+                priceARS: '$223.000',
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
                 badge: null,
@@ -1371,7 +1371,7 @@ Consultanos disponibilidad y opciones de financiación.`,
             },
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
-                priceARS: '$235.500',
+                priceARS: '$229.000',
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
                 badge: null,
@@ -1379,7 +1379,7 @@ Consultanos disponibilidad y opciones de financiación.`,
             },
             {
                 name: 'Máscara Nasal RESCOMF CPAP/BIPAP',
-                priceARS: '$52.500',
+                priceARS: '$50.000',
                 priceUSD: 'U$S 35',
                 img: '/artifacts/mascara_rescomf.jpg',
                 badge: 'OFERTA',
