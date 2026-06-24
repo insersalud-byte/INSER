@@ -24,12 +24,12 @@ const getGallery = (p) => {
 // OFERTAS = todos los productos con precio en pesos ARS (promo local)
 const ofertas = [
     {
-        name: 'CPAP/AutoCPAP ResMed AirSense 10 AutoSet', slug: 'cpap-autocpap-resmed-airsense-10-autoset', price: '$799.000', img: '/artifacts/products/resmed_airsense10_3.jpg', images: ['/artifacts/products/resmed_airsense10_3.jpg', '/artifacts/products/resmed_airsense10_4.jpg', '/artifacts/products/resmed_airsense10_2.jpg', '/artifacts/products/resmed_airsense10_5.jpg', '/artifacts/products/resmed_airsense10_1.jpg'], badge: 'OFERTA', note: 'El estándar de oro en apnea del sueño. Equipo completo.', category: 'CPAP',
-        review: 'El ResMed AirSense 10 AutoSet es el estándar de oro en el tratamiento de la apnea del sueño y uno de los equipos más elegidos del mundo. Su tecnología AutoSet ajusta la presión automáticamente respiración a respiración: recibís solo la presión que necesitás en cada momento, más cómodo y más efectivo que un CPAP de presión fija. Incluye humidificador HumidAir integrado para evitar la sequedad de nariz y garganta, alivio en la exhalación (EPR) y la función AutoRamp que arranca con presión suave y sube cuando ya estás dormido. Se conecta a la app myAir para que veas tu calidad de sueño cada mañana, y es notablemente silencioso (26 dB). Viene completo: humidificador, tubuladura, fuente, tarjeta SD y bolso de transporte. Aparatología aprobada por ANMAT, con 2 años de garantía oficial. Si preferís, también lo tenemos disponible en alquiler.',
+        name: 'CPAP ResMed AirSense 10', slug: 'cpap-resmed-airsense-10', price: '$799.000', img: '/artifacts/products/resmed_airsense10_3.jpg', images: ['/artifacts/products/resmed_airsense10_3.jpg', '/artifacts/products/resmed_airsense10_4.jpg', '/artifacts/products/resmed_airsense10_2.jpg', '/artifacts/products/resmed_airsense10_5.jpg', '/artifacts/products/resmed_airsense10_1.jpg'], badge: 'OFERTA', note: 'El estándar de oro en apnea del sueño. Equipo completo.', category: 'CPAP',
+        review: 'El ResMed AirSense 10 es el estándar de oro en el tratamiento de la apnea del sueño y uno de los equipos más elegidos del mundo. Entrega una presión continua estable y confiable que mantiene tus vías respiratorias abiertas durante toda la noche. Incluye humidificador HumidAir integrado para evitar la sequedad de nariz y garganta, alivio en la exhalación (EPR) que hace más natural el momento de exhalar, y la función AutoRamp que arranca con presión suave y sube recién cuando ya estás dormido. Se conecta a la app myAir para que veas tu calidad de sueño cada mañana, y es notablemente silencioso (26 dB). Viene completo: humidificador, tubuladura, fuente, tarjeta SD y bolso de transporte. Aparatología aprobada por ANMAT, con 2 años de garantía oficial. Si preferís, también lo tenemos disponible en alquiler.',
         specs: [
             ['Fabricante', 'ResMed (Australia)'],
-            ['Tipo', 'AutoCPAP (AirSense 10 AutoSet) — también modo CPAP fijo'],
-            ['Rango de presión', '4 – 20 cm H₂O autoajustable'],
+            ['Tipo', 'CPAP — presión continua fija'],
+            ['Rango de presión', '4 – 20 cm H₂O'],
             ['Humidificador', 'HumidAir calefactado integrado'],
             ['Alivio espiratorio', 'EPR 1 – 3 cm H₂O'],
             ['AutoRamp', 'Sí, con detección de sueño'],
