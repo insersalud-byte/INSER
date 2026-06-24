@@ -41,7 +41,7 @@ const PRODUCTS = [
     ['CPAP BMC G2S con humidificador', '$499.000', 'CPAP fijo, el más vendido'],
     ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, con almohadillas nasales'],
     ['AutoCPAP Philips DreamStation', 'U$S 758', 'con humidificador y conectividad'],
-    ['CPAP ResMed AirSense 10', 'U$S 616', 'con conectividad a la nube'],
+    ['CPAP ResMed AirSense 10', '$799.000', 'oferta, equipo completo, el estándar de oro en apnea del sueño'],
     ['BiPAP BMC G3 con frecuencia respiratoria', '$1.300.000', 'para EPOC y enfermedades neuromusculares'],
     ['Ventilador STELLAR 150 ResMed', 'U$S 7.342', 'ventilación de alta gama con batería'],
     ['Cough Assist (asistente de tos)', 'U$S 9.084', 'insuflación-exuflación para tos débil'],
