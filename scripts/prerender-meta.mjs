@@ -54,6 +54,14 @@ const PRODUCTS = [
     ['Polígrafo BMC YH-600B PRO', 'U$S 1.570', 'estudio del sueño domiciliario'],
 ];
 
+// Links internos a las landing SEO locales (discovery + PageRank desde el home)
+const LOCAL_LINKS = [
+    ['/comprar-cpap-cordoba', 'Comprar CPAP en Córdoba'],
+    ['/alquiler-cpap-cordoba', 'Alquiler de CPAP en Córdoba'],
+    ['/alquiler-concentrador-oxigeno-cordoba', 'Alquiler de concentrador de oxígeno en Córdoba'],
+    ['/estudio-del-sueno-cordoba', 'Estudio del sueño a domicilio en Córdoba'],
+];
+
 const DEFINITIONS = [
     ['¿Qué es un CPAP?', 'Un CPAP entrega una presión de aire fija y continua que mantiene abiertas las vías respiratorias durante el sueño. Es el tratamiento estándar de la apnea obstructiva del sueño.'],
     ['¿Qué es un AutoCPAP?', 'El AutoCPAP (APAP) funciona como un CPAP pero ajusta la presión automáticamente noche a noche según la respiración del paciente, ofreciendo mayor comodidad.'],
@@ -207,6 +215,12 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <li><a href="/patologia/paralisis-cerebral">Parálisis cerebral</a></li>
 </ul>`;
 
+    const serviciosLocales = `
+<h2>Servicios en Córdoba</h2>
+<ul>
+${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`).join('\n')}
+</ul>`;
+
     const about = `
 <h2>Sobre INSER SALUD</h2>
 <p>Empresa cordobesa con más de 5 años de experiencia y más de 500 pacientes atendidos. Aparatología aprobada por ANMAT, entrega en 24 hs en Córdoba y soporte técnico continuo. Atención por WhatsApp ${esc(WA)} y asesoramiento con el agente Santi.</p>`;
@@ -219,6 +233,7 @@ ${defs}
 ${compare}
 ${prods}
 ${services}
+${serviciosLocales}
 ${paths}
 ${about}
 <p>Contacto: WhatsApp ${esc(WA)} · inser.salud@gmail.com · Córdoba, Argentina</p>
@@ -242,6 +257,70 @@ ${secs}
 </main></div>`;
 }
 
+// ── Landing pages SEO locales (alta intencion, Cordoba) ───────────────────────
+function buildLocalBody(p) {
+    const secs = (p.sections || []).map(s =>
+        `<section><h2>${esc(s.title)}</h2>${textToHtml(s.content)}</section>`
+    ).join('\n');
+    const prods = (p.products && p.products.length)
+        ? `<h2>Equipos relacionados</h2>\n<ul>\n${p.products.map(x => `<li>${esc(x.name)} — ${esc(x.price)}</li>`).join('\n')}\n</ul>`
+        : '';
+    const faq = (p.faq || []).map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('\n');
+    const rel = (p.related || []).map(r => `<li><a href="${attr(r.href)}">${esc(r.label)}</a></li>`).join('\n');
+    return `<div id="ssr-content"><main>
+<nav><a href="/">Inicio</a> › <span>${esc(p.h1)}</span></nav>
+<h1>${esc(p.h1)}</h1>
+<p>${esc(p.intro)}</p>
+<p>Aparatología aprobada por ANMAT · Entrega a domicilio 24 hs en Córdoba · 2 años de garantía · +500 pacientes.</p>
+${secs}
+${prods}
+<h2>Preguntas frecuentes</h2>
+${faq}
+<h2>También te puede servir</h2>
+<ul>
+${rel}
+</ul>
+<p>INSER SALUD — Córdoba, Argentina. WhatsApp ${esc(WA)} · inser.salud@gmail.com</p>
+</main></div>`;
+}
+
+// JSON-LD WebPage + BreadcrumbList + FAQPage por landing local
+function buildLocalSchema(p, base) {
+    const url = `${base}/${p.slug}`;
+    const graph = {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'WebPage',
+                '@id': `${url}#webpage`,
+                url,
+                name: p.metaTitle,
+                description: p.description,
+                inLanguage: 'es-AR',
+                isPartOf: { '@id': 'https://insersalud.com/#website' },
+                publisher: { '@id': 'https://insersalud.com/#organization' },
+            },
+            {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                    { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${base}/` },
+                    { '@type': 'ListItem', position: 2, name: p.h1, item: url },
+                ],
+            },
+            {
+                '@type': 'FAQPage',
+                '@id': `${url}#faq`,
+                mainEntity: (p.faq || []).map(f => ({
+                    '@type': 'Question',
+                    name: f.q,
+                    acceptedAnswer: { '@type': 'Answer', text: f.a },
+                })),
+            },
+        ],
+    };
+    return `<script type="application/ld+json">\n${JSON.stringify(graph, null, 2)}\n</script>\n`;
+}
+
 try {
     const indexPath = resolve(DIST, 'index.html');
     if (!existsSync(indexPath)) {
@@ -256,6 +335,14 @@ try {
         pathologies = mod.pathologies || [];
     } catch (e) {
         console.warn('[prerender] no pude importar pathologyData.js:', e?.message);
+    }
+
+    let localPages = [];
+    try {
+        const mod = await import(pathToFileURL(resolve(__dirname, '..', 'src', 'features', 'seo', 'localPages.js')).href);
+        localPages = mod.localPages || [];
+    } catch (e) {
+        console.warn('[prerender] no pude importar localPages.js:', e?.message);
     }
 
     let count = 0;
@@ -284,6 +371,24 @@ try {
         // insersalud.com
         const saludTitle = baseTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
         write(resolve(DIST, 'insersalud', 'patologia', p.slug), buildPathologyPage(p, SALUD, saludTitle, desc, true));
+        count++;
+    }
+
+    // LANDING SEO LOCALES (inser.ar + insersalud.com)
+    const buildLocalPage = (p, base, title) => {
+        let h = applyMeta(tpl, { title, desc: p.description, url: `${base}/${p.slug}` });
+        h = removeLdBlock(h, 'BreadcrumbList');   // quitar breadcrumb generico del home
+        h = removeLdBlock(h, 'FAQPage');          // reemplazar FAQ del home por la de la pagina
+        h = h.replace('</head>', buildLocalSchema(p, base) + '</head>');
+        h = injectBody(h, buildLocalBody(p));
+        return h;
+    };
+    for (const p of localPages) {
+        // inser.ar
+        write(resolve(DIST, p.slug), buildLocalPage(p, INSER, p.metaTitle));
+        count++;
+        // insersalud.com
+        write(resolve(DIST, 'insersalud', p.slug), buildLocalPage(p, SALUD, p.metaTitleSalud || p.metaTitle));
         count++;
     }
 

@@ -14,7 +14,14 @@ import { rewrite, next } from '@vercel/edge';
  * Cualquier error cae en next() para no romper el sitio.
  */
 export const config = {
-    matcher: ['/', '/patologia/:path*'],
+    matcher: [
+        '/',
+        '/patologia/:path*',
+        '/alquiler-cpap-cordoba',
+        '/alquiler-concentrador-oxigeno-cordoba',
+        '/comprar-cpap-cordoba',
+        '/estudio-del-sueno-cordoba',
+    ],
 };
 
 export default function middleware(request) {

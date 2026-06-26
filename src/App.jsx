@@ -6,7 +6,10 @@ import LoginPage from './features/auth/LoginPage';
 import AdminPanel from './features/admin/AdminPanel';
 import AdminLoginPage from './features/admin/AdminLoginPage';
 import PathologyPage from './features/pathologies/PathologyPage';
+import LocalPage from './features/seo/LocalPage';
+import { localPages } from './features/seo/localPages';
 import AIFloat from './components/AIFloat';
+import WhatsAppFloat from './components/WhatsAppFloat';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -29,12 +32,18 @@ function App() {
     <div className="app-container">
       <ScrollToTop />
       <AIFloat />
+      <WhatsAppFloat />
       <Routes>
         {/* Main Entry: Landing Page */}
         <Route path="/" element={<LandingPage />} />
 
         {/* Pathology Pages — rutas internas modernas */}
         <Route path="/patologia/:slug" element={<PathologyPage />} />
+
+        {/* Landing pages SEO locales (alta intención, Córdoba) */}
+        {localPages.map((p) => (
+          <Route key={p.slug} path={`/${p.slug}`} element={<LocalPage slug={p.slug} />} />
+        ))}
 
         {/* Alias con los slugs originales de insersalud.com para futura migración */}
         <Route path="/apnea-del-sueno" element={<Navigate to="/patologia/apnea-del-sueno" replace />} />
