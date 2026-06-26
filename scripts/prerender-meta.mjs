@@ -58,7 +58,10 @@ const PRODUCTS = [
 const LOCAL_LINKS = [
     ['/comprar-cpap-cordoba', 'Comprar CPAP en Córdoba'],
     ['/alquiler-cpap-cordoba', 'Alquiler de CPAP en Córdoba'],
+    ['/bipap-cordoba', 'BiPAP en Córdoba'],
+    ['/oxigeno-a-domicilio-cordoba', 'Oxígeno a domicilio en Córdoba'],
     ['/alquiler-concentrador-oxigeno-cordoba', 'Alquiler de concentrador de oxígeno en Córdoba'],
+    ['/concentrador-oxigeno-portatil-cordoba', 'Concentrador de oxígeno portátil en Córdoba'],
     ['/estudio-del-sueno-cordoba', 'Estudio del sueño a domicilio en Córdoba'],
 ];
 
