@@ -208,6 +208,20 @@ const tienda = [
         ],
     },
     {
+        name: 'AUTOCPAP BMC G2S con Humidificador', slug: 'autocpap-bmc-g2s', price: '$600.000', img: '/artifacts/products/autocpap_bmc_g2_2.jpg', images: ['/artifacts/products/autocpap_bmc_g2_2.jpg', '/artifacts/products/autocpap_bmc_g2_1.jpg', '/artifacts/products/autocpap_bmc_g2_3.jpg'], badge: 'NUEVO', note: 'Presión automática. Equipo completo con bolso.', category: 'CPAP',
+        specs: [
+            ['Fabricante', 'BMC Medical'],
+            ['Tipo', 'AutoCPAP (presión automática)'],
+            ['Rango de presión', '4 – 20 cm H₂O autoajustable'],
+            ['Humidificador', 'Calefactado integrado'],
+            ['Rampa', 'Automática, presión inicial reducida'],
+            ['Pantalla', 'LCD color'],
+            ['Incluye', 'Equipo, humidificador, tubuladura, fuente y bolso de transporte'],
+            ['Tarjeta SD', 'Sí, registro de uso'],
+            ['Garantía', '2 años oficiales ANMAT'],
+        ],
+    },
+    {
         name: 'AUTOCPAP PHILIPS DREAMSTATION con Humidificador', slug: 'autocpap-philips-dreamstation-con-humidificador-y-conectividad-', price: 'U$S 758', img: '/artifacts/products/bbb738c4-8671-4228-b86d-6f1ffd179569.jpg', badge: null, note: 'Con conectividad.', category: 'CPAP',
         specs: [
             ['Fabricante', 'Philips Respironics'],

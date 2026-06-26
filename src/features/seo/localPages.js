@@ -105,7 +105,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Precios de CPAP en Córdoba (referencia)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro en apnea del sueño).\nBiPAP BMC G3 con frecuencia respiratoria: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $600.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro en apnea del sueño).\nBiPAP BMC G3 con frecuencia respiratoria: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
             },
             {
                 title: 'CPAP, AutoCPAP o BiPAP: ¿cuál te conviene?',
@@ -118,6 +118,7 @@ export const localPages = [
         ],
         products: [
             { name: 'CPAP BMC G2S con humidificador', price: '$499.000' },
+            { name: 'AutoCPAP BMC G2S con humidificador', price: '$600.000' },
             { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$799.000' },
             { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: '$1.300.000' },
         ],
