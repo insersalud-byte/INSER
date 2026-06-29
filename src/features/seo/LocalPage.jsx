@@ -69,9 +69,14 @@ const LocalPage = ({ slug }) => {
                         <img src="/artifacts/logo_insersalud.jpg" alt="INSER SALUD" style={{ height: 38 }}
                             onError={(e) => { e.target.style.display = 'none'; }} />
                     </Link>
-                    <a href={WA} target="_blank" rel="noopener noreferrer" style={c.waBtn}>
-                        <MessageCircle size={16} /> WhatsApp
-                    </a>
+                    <div style={{ display: 'flex', gap: '0.5rem' }}>
+                        <a href="tel:+5493512065320" style={{ ...c.waBtn, background: '#1e40af' }}>
+                            <Phone size={16} /> Llamar
+                        </a>
+                        <a href={WA} target="_blank" rel="noopener noreferrer" style={c.waBtn}>
+                            <MessageCircle size={16} /> WhatsApp
+                        </a>
+                    </div>
                 </div>
             </nav>
 

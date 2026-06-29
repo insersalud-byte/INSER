@@ -249,6 +249,9 @@ const PathologyPage = () => {
                         <button className={css.backBtn} onClick={() => navigate('/')}>
                             <ArrowLeft size={16} /> Inicio
                         </button>
+                        <a href="tel:+5493512065320" className={css.waBtn} style={{ background: '#1e40af' }}>
+                            <Phone size={15} /> Llamar
+                        </a>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.waBtn}>
                             <MessageCircle size={15} /> WhatsApp
                         </a>

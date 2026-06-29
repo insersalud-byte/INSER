@@ -1344,6 +1344,9 @@ const LandingPage = () => {
                     </div>
 
                     <div className={css.navRight}>
+                        <a href="tel:+5493512065320" className={css.waNavBtn} style={{ background: '#1e40af' }}>
+                            <Phone size={16} /> Llamar
+                        </a>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.waNavBtn}>
                             <MessageCircle size={16} /> WhatsApp
                         </a>
@@ -1367,6 +1370,9 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
+                        <a href="tel:+5493512065320" className={css.mobileWa} style={{ background: '#1e40af' }}>
+                            <Phone size={16} /> Llamar al +54 9 351 206-5320
+                        </a>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.mobileWa}>
                             <MessageCircle size={16} /> Escribirnos por WhatsApp
                         </a>
