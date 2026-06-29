@@ -6,7 +6,7 @@ import {
     Lightbulb, Shield, Bell, RefreshCw,
     Phone, Mail, MapPin, Star, Menu, X, MessageCircle,
     Layers, Droplet, Waves, Stethoscope, ChevronDown, BookOpen,
-    Instagram, Facebook
+    Instagram, Facebook, Truck
 } from 'lucide-react';
 import LeadForm from '../../components/LeadForm';
 import css from './LandingPage.module.css';
@@ -1380,6 +1380,9 @@ const LandingPage = () => {
                     <div className={css.badge}>
                         <Shield size={14} /> Aparatología aprobada por ANMAT
                     </div>
+                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', marginTop: '0.6rem', background: '#ecfdf5', color: '#047857', border: '1px solid #a7f3d0', borderRadius: '999px', padding: '0.35rem 0.85rem', fontWeight: 700, fontSize: '0.83rem' }}>
+                        <Truck size={14} /> Venta con envío a todo el país · Alquiler en Córdoba
+                    </div>
                     {isInsersalud ? (
                         <>
                             <h1 className={css.heroTitle}>
@@ -1387,7 +1390,7 @@ const LandingPage = () => {
                                 <span>domiciliarias</span>
                             </h1>
                             <p className={css.heroSubtitle}>
-                                Alquiler y venta de equipos CPAP, BiPAP y oxigenoterapia a domicilio en Córdoba. Instalación, adaptación y seguimiento profesional en tu hogar, con soporte técnico continuo.
+                                Alquiler y venta de equipos CPAP, BiPAP y oxigenoterapia a domicilio en Córdoba. Instalación, adaptación y seguimiento profesional en tu hogar, con soporte técnico continuo. Vendemos con envío a todo el país; el alquiler es en Córdoba.
                             </p>
                         </>
                     ) : (
@@ -1397,7 +1400,7 @@ const LandingPage = () => {
                                 <span>viví mejor</span>
                             </h1>
                             <p className={css.heroSubtitle}>
-                                Especialistas en medicina respiratoria en Córdoba. Venta y alquiler de equipos CPAP, BiPAP y concentradores de oxígeno con seguimiento profesional y atención personalizada.
+                                Especialistas en medicina respiratoria en Córdoba. Venta de equipos CPAP, BiPAP y concentradores de oxígeno con envío a todo el país, y alquiler en Córdoba, con seguimiento profesional y atención personalizada.
                             </p>
                         </>
                     )}

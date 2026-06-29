@@ -200,8 +200,8 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
     const services = `
 <h2>Servicios</h2>
 <ul>
-<li>Venta de equipos respiratorios aprobados por ANMAT</li>
-<li>Alquiler de CPAP, BiPAP y concentradores de oxígeno</li>
+<li>Venta de equipos respiratorios aprobados por ANMAT, con envío a todo el país</li>
+<li>Alquiler de CPAP, BiPAP y concentradores de oxígeno (en Córdoba)</li>
 <li>Oxigenoterapia domiciliaria con instalación y seguimiento</li>
 <li>Adaptación y seguimiento de equipos con profesionales</li>
 <li>Servicio técnico de equipos respiratorios</li>
@@ -226,7 +226,7 @@ ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></l
 
     const about = `
 <h2>Sobre INSER SALUD</h2>
-<p>Empresa cordobesa con más de 5 años de experiencia y más de 500 pacientes atendidos. Aparatología aprobada por ANMAT, entrega en 24 hs en Córdoba y soporte técnico continuo. Atención por WhatsApp ${esc(WA)} y asesoramiento con el agente Santi.</p>`;
+<p>Empresa cordobesa con más de 5 años de experiencia y más de 500 pacientes atendidos. Aparatología aprobada por ANMAT. La venta de equipos se realiza con envío a todo el país (cualquier provincia de Argentina); el alquiler está disponible en Córdoba, con entrega en 24 hs y soporte técnico continuo. Atención por WhatsApp ${esc(WA)} y asesoramiento con el agente Santi.</p>`;
 
     return `<div id="ssr-content"><main>
 <h1>${esc(h1)}</h1>
