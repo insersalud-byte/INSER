@@ -32,6 +32,9 @@ export default function LeadForm({ contexto = 'Home' }) {
         if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
             window.gtag('event', 'generate_lead', { context: contexto });
         }
+        if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+            window.fbq('track', 'Lead', { content_name: contexto });
+        }
         try {
             await fetch(FORM_ENDPOINT, {
                 method: 'POST',

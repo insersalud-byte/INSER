@@ -29,6 +29,7 @@ function App() {
         page_title: document.title,
       });
     }
+    if (typeof window !== 'undefined' && typeof window.fbq === 'function') window.fbq('track', 'PageView');
   }, [location.pathname, location.search]);
 
   // Eventos de conversión para GA4 (clicks de WhatsApp y apertura de Santi)
@@ -39,8 +40,9 @@ function App() {
       if (!a) return;
       const href = a.getAttribute('href') || '';
       track(href.startsWith('tel:') ? 'contact_phone' : 'contact_whatsapp', { transport_type: 'beacon', link_url: href });
+      if (typeof window.fbq === 'function') window.fbq('track', 'Contact', { method: href.startsWith('tel:') ? 'phone' : 'whatsapp' });
     };
-    const onSanti = () => track('open_santi');
+    const onSanti = () => { track('open_santi'); if (typeof window !== 'undefined' && typeof window.fbq === 'function') window.fbq('trackCustom', 'OpenSanti'); };
     document.addEventListener('click', onClick, true);
     window.addEventListener('open-santi', onSanti);
     return () => { document.removeEventListener('click', onClick, true); window.removeEventListener('open-santi', onSanti); };

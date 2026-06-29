@@ -76,6 +76,23 @@
     gtag('config', 'G-XD586V0PLV', { send_page_view: false });
   </script>
 
+  <!-- ══ Meta Pixel (Facebook / Instagram Ads) ════════════════════════════════
+       Para ACTIVARLO: pegá tu Pixel ID en META_PIXEL_ID (ej. '1234567890123456').
+       Mientras esté vacío no carga nada. Los eventos de lead (Lead, Contact) los
+       dispara App.jsx / LeadForm.jsx en los mismos clicks que GA4. -->
+  <script>
+    window.META_PIXEL_ID = ''; // <-- PEGAR ACÁ EL PIXEL ID DE META PARA ACTIVAR
+    (function () {
+      if (window.META_PIXEL_ID) {
+        !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', window.META_PIXEL_ID);
+        fbq('track', 'PageView');
+      } else {
+        window.fbq = window.fbq || function () {}; // no-op hasta que se cargue el pixel
+      }
+    })();
+  </script>
+
   <!-- ══ Performance: Preconnect ═══════════════════════════════════════════ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -206,7 +223,7 @@
 
   <!-- ══ Structured Data – FAQPage (para IA y rich snippets) ══════════════ -->
   <!-- ══ Structured Data – BreadcrumbList ═════════════════════════════════ -->
-  <script type="module" crossorigin src="/assets/index-CEPkCuFe.js"></script>
+  <script type="module" crossorigin src="/assets/index-Dg_1AqgM.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/react-vendor-B12fju8x.js">
   <link rel="modulepreload" crossorigin href="/assets/icons-CFj-sk0s.js">
   <link rel="modulepreload" crossorigin href="/assets/supabase-DfwcnzK-.js">
