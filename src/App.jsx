@@ -1,16 +1,20 @@
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import LandingPage from './features/landing/LandingPage';
-import ChatAI from './features/inquiries/ChatAI';
-import LoginPage from './features/auth/LoginPage';
-import AdminPanel from './features/admin/AdminPanel';
-import AdminLoginPage from './features/admin/AdminLoginPage';
 import PathologyPage from './features/pathologies/PathologyPage';
 import LocalPage from './features/seo/LocalPage';
 import { localPages } from './features/seo/localPages';
 import AIFloat from './components/AIFloat';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import ScrollToTop from './components/ScrollToTop';
+
+// Rutas privadas/pesadas en lazy: sacan admin, login y chat (con Supabase y
+// dashboard) del bundle publico. Landing/patologias/locales quedan eager para
+// que las paginas SEO no parpadeen al entrar directo desde Google.
+const ChatAI = lazy(() => import('./features/inquiries/ChatAI'));
+const LoginPage = lazy(() => import('./features/auth/LoginPage'));
+const AdminPanel = lazy(() => import('./features/admin/AdminPanel'));
+const AdminLoginPage = lazy(() => import('./features/admin/AdminLoginPage'));
 
 function App() {
   const location = useLocation();
@@ -47,6 +51,7 @@ function App() {
       <ScrollToTop />
       <AIFloat />
       <WhatsAppFloat />
+      <Suspense fallback={null}>
       <Routes>
         {/* Main Entry: Landing Page */}
         <Route path="/" element={<LandingPage />} />
@@ -78,6 +83,7 @@ function App() {
         {/* Fallback to Landing */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      </Suspense>
     </div>
   );
 }
