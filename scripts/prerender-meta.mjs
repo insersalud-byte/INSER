@@ -63,6 +63,8 @@ const LOCAL_LINKS = [
     ['/alquiler-concentrador-oxigeno-cordoba', 'Alquiler de concentrador de oxígeno en Córdoba'],
     ['/concentrador-oxigeno-portatil-cordoba', 'Concentrador de oxígeno portátil en Córdoba'],
     ['/estudio-del-sueno-cordoba', 'Estudio del sueño a domicilio en Córdoba'],
+    ['/comprar-cpap-argentina', 'Comprar CPAP en Argentina (envío a todo el país)'],
+    ['/comprar-concentrador-oxigeno-argentina', 'Comprar concentrador de oxígeno en Argentina (envío)'],
 ];
 
 const DEFINITIONS = [
@@ -274,7 +276,7 @@ function buildLocalBody(p) {
 <nav><a href="/">Inicio</a> › <span>${esc(p.h1)}</span></nav>
 <h1>${esc(p.h1)}</h1>
 <p>${esc(p.intro)}</p>
-<p>Aparatología aprobada por ANMAT · Entrega a domicilio 24 hs en Córdoba · 2 años de garantía · +500 pacientes.</p>
+<p>Aparatología aprobada por ANMAT · ${p.national ? 'Envío a todo el país' : 'Entrega a domicilio 24 hs en Córdoba'} · 2 años de garantía · +500 pacientes.</p>
 ${secs}
 ${prods}
 <h2>Preguntas frecuentes</h2>

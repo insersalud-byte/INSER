@@ -98,9 +98,9 @@ const LocalPage = ({ slug }) => {
             <div style={c.trust}>
                 <div style={c.trustInner}>
                     <span style={c.trustItem}><ShieldCheck size={16} /> Aprobado por ANMAT</span>
-                    <span style={c.trustItem}><Truck size={16} /> Entrega a domicilio 24 hs</span>
+                    <span style={c.trustItem}><Truck size={16} /> {data.national ? 'Envío a todo el país' : 'Entrega a domicilio 24 hs'}</span>
                     <span style={c.trustItem}><Clock size={16} /> 2 años de garantía</span>
-                    <span style={c.trustItem}><Star size={16} /> +500 pacientes en Córdoba</span>
+                    <span style={c.trustItem}><Star size={16} /> {data.national ? '+500 pacientes' : '+500 pacientes en Córdoba'}</span>
                 </div>
             </div>
 

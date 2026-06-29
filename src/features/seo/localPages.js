@@ -267,6 +267,88 @@ export const localPages = [
             { label: 'EPOC', href: '/patologia/epoc' },
         ],
     },
+    {
+        slug: 'comprar-cpap-argentina',
+        national: true,
+        h1: 'Comprar CPAP en Argentina: envío a todo el país',
+        metaTitle: 'Comprar CPAP en Argentina | Envío a Todo el País | INSER SALUD',
+        metaTitleSalud: 'Comprar CPAP en Argentina | Envío a Todo el País | INSER SALUD',
+        description: 'Comprá tu CPAP, AutoCPAP o BiPAP en Argentina con envío a todo el país. Equipos aprobados por ANMAT, con garantía y asesoramiento. CPAP desde $499.000. Estés donde estés, te lo enviamos. Consultá por WhatsApp.',
+        heroImg: '/artifacts/products/resmed_airsense10_3.jpg',
+        intro: 'En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Salta o donde sea, te enviamos tu equipo aprobado por ANMAT, con garantía, configuración y asesoramiento para que lo uses bien desde el primer día.',
+        ctaSanti: 'Hola Santi, quiero comprar un CPAP y me lo envíen a mi provincia. ¿Cómo es el envío y qué modelos tienen?',
+        sections: [
+            {
+                title: 'Equipos y precios (envío a todo el país)',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S: $600.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro).\nBiPAP BMC G3: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
+            },
+            {
+                title: 'Cómo comprar y recibir tu equipo',
+                content: 'Nos escribís por WhatsApp, te asesoramos sobre el equipo según tu indicación médica y coordinamos el envío a tu domicilio en cualquier provincia de Argentina. Te llega configurado y con instrucciones; si necesitás ayuda con la puesta en marcha, te guiamos a distancia.',
+            },
+            {
+                title: 'Garantía, ANMAT y respaldo',
+                content: 'Todos los equipos son aparatología aprobada por ANMAT, con 2 años de garantía oficial. Conseguís repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.',
+            },
+        ],
+        products: [
+            { name: 'CPAP BMC G2S con humidificador', price: '$499.000' },
+            { name: 'AutoCPAP BMC G2S con humidificador', price: '$600.000' },
+            { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$799.000' },
+        ],
+        faq: [
+            { q: '¿Envían CPAP a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina (Buenos Aires, Rosario, Salta, etc.). Coordinamos el envío por WhatsApp.' },
+            { q: '¿Cuánto cuesta un CPAP?', a: 'Desde $499.000 (CPAP BMC G2S). El AutoCPAP BMC está a $600.000 y el ResMed AirSense 10 a $799.000. Confirmá el precio del día por WhatsApp.' },
+            { q: '¿Los equipos tienen garantía?', a: 'Sí, 2 años de garantía oficial y aparatología aprobada por ANMAT, en todo el país.' },
+            { q: '¿Me ayudan a configurarlo si estoy en otra provincia?', a: 'Sí, te enviamos el equipo configurado y te guiamos a distancia en la puesta en marcha y la adaptación.' },
+        ],
+        related: [
+            { label: 'Comprar concentrador de oxígeno (envío nacional)', href: '/comprar-concentrador-oxigeno-argentina' },
+            { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
+            { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
+        ],
+    },
+    {
+        slug: 'comprar-concentrador-oxigeno-argentina',
+        national: true,
+        h1: 'Comprar concentrador de oxígeno en Argentina: envío a todo el país',
+        metaTitle: 'Comprar Concentrador de Oxígeno en Argentina | Envío Nacional | INSER SALUD',
+        metaTitleSalud: 'Comprar Concentrador de Oxígeno en Argentina | Envío Nacional | INSER SALUD',
+        description: 'Comprá un concentrador de oxígeno (fijo o portátil) en Argentina con envío a todo el país. Para oxigenoterapia en EPOC y fibrosis pulmonar. Aprobado por ANMAT, con garantía. Consultá por WhatsApp.',
+        heroImg: '/artifacts/products/concentrador_bmc_1.jpg',
+        intro: 'En INSER SALUD vendemos concentradores de oxígeno fijos y portátiles con envío a todo el país. Para oxigenoterapia domiciliaria en EPOC, fibrosis pulmonar y otras indicaciones, te enviamos el equipo aprobado por ANMAT a cualquier provincia.',
+        ctaSanti: 'Hola Santi, quiero comprar un concentrador de oxígeno con envío a mi provincia. ¿Qué modelos tienen?',
+        sections: [
+            {
+                title: 'Concentrador fijo o portátil',
+                content: 'El concentrador estacionario (fijo) es para uso continuo en el hogar y entrega mayor flujo. El portátil tiene batería para salir o viajar. Te ayudamos a elegir según el flujo que indicó tu médico (litros por minuto) y tu rutina.',
+            },
+            {
+                title: 'Envío a todo el país',
+                content: 'Coordinamos el envío del concentrador a tu domicilio en cualquier provincia de Argentina. Te llega listo para usar, con instrucciones y soporte técnico a distancia. Consultá costo y plazo de envío por WhatsApp.',
+            },
+            {
+                title: 'Garantía y respaldo',
+                content: 'Aparatología aprobada por ANMAT, con garantía oficial. Acceso a repuestos y soporte técnico continuo en todo el país.',
+            },
+        ],
+        products: [
+            { name: 'Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)', price: '$999.000' },
+            { name: 'Concentrador portátil KINGON P2-S3 (apto vuelos)', price: 'consultar' },
+            { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro)', price: 'consultar' },
+        ],
+        faq: [
+            { q: '¿Envían concentradores de oxígeno a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina. Coordinamos el envío por WhatsApp.' },
+            { q: '¿Conviene fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
+            { q: '¿Hay concentradores aptos para vuelos?', a: 'Sí, modelos como el GCE Zen-O están homologados para volar. Consultanos antes de viajar.' },
+            { q: '¿Necesito receta médica?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
+        ],
+        related: [
+            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Concentrador de oxígeno portátil en Córdoba', href: '/concentrador-oxigeno-portatil-cordoba' },
+            { label: 'EPOC', href: '/patologia/epoc' },
+        ],
+    },
 ];
 
 export const getLocalPageBySlug = (slug) => localPages.find((p) => p.slug === slug);

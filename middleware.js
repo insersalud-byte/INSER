@@ -24,6 +24,8 @@ export const config = {
         '/bipap-cordoba',
         '/oxigeno-a-domicilio-cordoba',
         '/concentrador-oxigeno-portatil-cordoba',
+        '/comprar-cpap-argentina',
+        '/comprar-concentrador-oxigeno-argentina',
     ],
 };
 
