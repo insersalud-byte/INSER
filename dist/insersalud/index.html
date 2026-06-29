@@ -72,7 +72,8 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XD586V0PLV');
+    // send_page_view:false -> el page_view de cada ruta lo envia App.jsx (SPA)
+    gtag('config', 'G-XD586V0PLV', { send_page_view: false });
   </script>
 
   <!-- ══ Performance: Preconnect ═══════════════════════════════════════════ -->
@@ -303,7 +304,7 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-BtuI5onu.js"></script>
+  <script type="module" crossorigin src="/assets/index-es3tLtcv.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-DcvcrDhY.css">
 <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
 

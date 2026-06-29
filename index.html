@@ -72,7 +72,8 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XD586V0PLV');
+    // send_page_view:false -> el page_view de cada ruta lo envia App.jsx (SPA)
+    gtag('config', 'G-XD586V0PLV', { send_page_view: false });
   </script>
 
   <!-- ══ Performance: Preconnect ═══════════════════════════════════════════ -->

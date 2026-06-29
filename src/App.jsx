@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import LandingPage from './features/landing/LandingPage';
 import ChatAI from './features/inquiries/ChatAI';
 import LoginPage from './features/auth/LoginPage';
@@ -13,6 +13,20 @@ import WhatsAppFloat from './components/WhatsAppFloat';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
+  const location = useLocation();
+
+  // SPA page_view: GA4 solo dispara 1 page_view al cargar; aca lo enviamos en
+  // cada cambio de ruta para medir bien patologias y landing locales.
+  useEffect(() => {
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'page_view', {
+        page_path: location.pathname + location.search,
+        page_location: window.location.href,
+        page_title: document.title,
+      });
+    }
+  }, [location.pathname, location.search]);
+
   // Eventos de conversión para GA4 (clicks de WhatsApp y apertura de Santi)
   useEffect(() => {
     const track = (name, params) => { if (typeof window !== 'undefined' && typeof window.gtag === 'function') window.gtag('event', name, params || {}); };
