@@ -49,6 +49,7 @@ BiPAP y ventilación:
 
 Concentradores de oxígeno:
 - Concentrador BMC estacionario (control remoto + medidor de O2) — $999.000
+- Concentrador YUWELL 10 litros / alto flujo (alta demanda de oxígeno y rehabilitación pulmonar) — $2.800.000
 - Concentrador estacionario Yuwell 5 L/min — U$S 713
 - Concentrador portátil KINGON P2-S3 (el más liviano) — $2.735.400 / U$S 1.880
 - Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos) — $5.451.885 / U$S 3.747

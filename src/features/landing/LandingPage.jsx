@@ -353,6 +353,20 @@ const tienda = [
     },
     // ── Concentradores Estacionarios ─────────────────────────────────────────
     {
+        name: 'Concentrador de Oxígeno YUWELL 10 Litros (Alto Flujo)', slug: 'concentrador-de-oxigeno-yuwell-10-litros', price: '$2.800.000', img: '/artifacts/products/concentrador_yuwell_10l_2.jpg', images: ['/artifacts/products/concentrador_yuwell_10l_2.jpg', '/artifacts/products/concentrador_yuwell_10l_1.jpg'], badge: 'ALTO FLUJO', note: 'Hasta 10 L/min, el doble del estándar. Para alta demanda de oxígeno y centros de rehabilitación pulmonar.', category: 'Concentrador',
+        specs: [
+            ['Fabricante', 'YUWELL (China)'],
+            ['Tipo', 'Concentrador estacionario de alto flujo'],
+            ['Flujo', '1 – 10 L/min (el doble del concentrador estándar de 5 L)'],
+            ['Indicado para', 'Alta demanda de oxígeno y centros de rehabilitación pulmonar'],
+            ['Uso', 'Continuo, 24 hs'],
+            ['Pantalla', 'Display digital de flujo'],
+            ['Alarmas', 'De seguridad (corte de energía y baja concentración)'],
+            ['Movilidad', 'Ruedas para traslado'],
+            ['Garantía', '1 año oficial'],
+        ],
+    },
+    {
         name: 'Concentrador de Oxígeno YUWELL Estacionario', slug: 'concentrador-de-oxigeno-estacionario1', price: 'U$S 713', img: '/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg', badge: null, note: 'Para uso domiciliario. 5 L/min.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'YUWELL (China)'],
