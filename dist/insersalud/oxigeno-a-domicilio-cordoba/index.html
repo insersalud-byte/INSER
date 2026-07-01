@@ -100,82 +100,497 @@
 
   <!-- ══ Structured Data – LocalBusiness + MedicalBusiness ════════════════ -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": ["MedicalBusiness", "LocalBusiness"],
-    "@id": "https://insersalud.com/#organization",
-    "name": "INSER SALUD",
-    "alternateName": "Inser Salud Córdoba",
-    "url": "https://insersalud.com",
-    "logo": "https://insersalud.com/artifacts/logo_insersalud.jpg",
-    "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
-    "description": "Aparatología respiratoria aprobada por ANMAT. Venta de CPAP, AutoCPAP, BiPAP, máscaras y concentradores de oxígeno con envío a todo el país, y alquiler en Córdoba (entrega a domicilio). Atención personalizada y soporte técnico.",
-    "telephone": "+54-9-351-206-5320",
-    "email": "inser.salud@gmail.com",
-    "priceRange": "$$",
-    "currenciesAccepted": "ARS, USD",
-    "paymentAccepted": "Efectivo, Transferencia bancaria, Tarjeta de crédito",
-    "medicalSpecialty": ["Pulmonary", "SleepMedicine"],
-    "knowsAbout": ["Apnea del sueño", "EPOC", "Oxigenoterapia", "Ventilación no invasiva", "CPAP", "BiPAP", "Concentrador de oxígeno"],
-    "areaServed": [
-      { "@type": "Country", "name": "Argentina" },
-      { "@type": "City", "name": "Córdoba" },
-      { "@type": "AdministrativeArea", "name": "Provincia de Córdoba, Argentina" }
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Córdoba",
-      "addressRegion": "Córdoba",
-      "addressCountry": "AR"
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "MedicalBusiness",
+    "LocalBusiness"
+  ],
+  "@id": "https://insersalud.com/#organization",
+  "name": "INSER SALUD",
+  "alternateName": "Inser Salud Córdoba",
+  "url": "https://insersalud.com",
+  "logo": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+  "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+  "description": "Aparatología respiratoria aprobada por ANMAT. Venta de CPAP, AutoCPAP, BiPAP, máscaras y concentradores de oxígeno con envío a todo el país, y alquiler en Córdoba (entrega a domicilio). Atención personalizada y soporte técnico.",
+  "telephone": "+54-9-351-206-5320",
+  "email": "inser.salud@gmail.com",
+  "priceRange": "$",
+  "currenciesAccepted": "ARS, USD",
+  "paymentAccepted": "Efectivo, Transferencia bancaria, Tarjeta de crédito",
+  "medicalSpecialty": [
+    "Pulmonary",
+    "SleepMedicine"
+  ],
+  "knowsAbout": [
+    "Apnea del sueño",
+    "EPOC",
+    "Oxigenoterapia",
+    "Ventilación no invasiva",
+    "CPAP",
+    "BiPAP",
+    "Concentrador de oxígeno"
+  ],
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "Argentina"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": -31.4201,
-      "longitude": -64.1888
+    {
+      "@type": "City",
+      "name": "Córdoba"
     },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "09:00",
-      "closes": "18:00"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+54-9-351-206-5320",
-      "contactType": "sales",
-      "availableLanguage": "Spanish"
-    },
-    "sameAs": [
-      "https://insersalud.com",
-      "https://share.google/QTMdrJZGqmyyNBHYh",
-      "https://www.google.com/search?kgmid=/g/11zfs2vwmz",
-      "https://www.instagram.com/inser.salud",
-      "https://www.facebook.com/insersalud",
-      "https://wa.me/5493512065320"
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Equipos Respiratorios",
-      "itemListElement": [
-        { "@type": "Offer", "price": "799000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "CPAP ResMed AirSense 10", "description": "CPAP ResMed AirSense 10 con humidificador HumidAir integrado, alivio espiratorio EPR, AutoRamp y app myAir. Equipo completo: humidificador, tubuladura, fuente, tarjeta SD y bolso. Aprobado por ANMAT, 2 años de garantía.", "brand": { "@type": "Brand", "name": "ResMed" }, "category": "CPAP" } },
-        { "@type": "Offer", "price": "499000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "CPAP BMC G2S con Humidificador", "description": "CPAP fijo con humidificador calefactado, pantalla LCD táctil y tarjeta SD. Aprobado por ANMAT.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "CPAP" } },
-        { "@type": "Offer", "price": "600000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "AutoCPAP BMC G2S con Humidificador", "description": "AutoCPAP de presión automática con humidificador calefactado, rampa automática y tarjeta SD. Equipo completo con bolso. Aprobado por ANMAT.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "AutoCPAP" } },
-        { "@type": "Offer", "price": "1400", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "AutoCPAP BMC G2S Mini con Almohadillas Nasales", "description": "AutoCPAP de presión automática con humidificador p2H y almohadillas nasales.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "AutoCPAP" } },
-        { "@type": "Offer", "price": "758", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "AutoCPAP Philips DreamStation con Humidificador", "description": "AutoCPAP con humidificador y conectividad.", "brand": { "@type": "Brand", "name": "Philips Respironics" }, "category": "AutoCPAP" } },
-        { "@type": "Offer", "price": "1300000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador", "description": "BiPAP S/T con frecuencia respiratoria de respaldo. Ideal para EPOC, ELA y enfermedades neuromusculares.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "BiPAP" } },
-        { "@type": "Offer", "price": "9084", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Cough Assist (Asistente de Tos)", "description": "Insuflación-exuflación mecánica para movilizar secreciones en pacientes con tos débil.", "category": "Asistente de tos" } },
-        { "@type": "Offer", "price": "999000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Concentrador de Oxígeno BMC Estacionario", "description": "Concentrador de oxígeno fijo para el hogar, con control remoto y medidor de oxígeno integrado.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "Concentrador de oxígeno estacionario" } },
-        { "@type": "Offer", "price": "2800000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "Country", "name": "Argentina" }, "itemOffered": { "@type": "Product", "name": "Concentrador de Oxígeno YUWELL 10 Litros (Alto Flujo)", "description": "Concentrador estacionario de alto flujo, hasta 10 L/min (el doble del estándar). Para pacientes con alta demanda de oxígeno y centros de rehabilitación pulmonar. Aprobado por ANMAT.", "brand": { "@type": "Brand", "name": "YUWELL" }, "category": "Concentrador de oxígeno estacionario" } },
-        { "@type": "Offer", "price": "2735400", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Concentrador de Oxígeno Portátil KINGON P2-S3", "description": "Concentrador portátil, el más liviano y económico, apto para vuelos.", "brand": { "@type": "Brand", "name": "KINGON" }, "category": "Concentrador de oxígeno portátil" } },
-        { "@type": "Offer", "price": "5451885", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Concentrador de Oxígeno Portátil GCE Zen-O", "description": "Concentrador portátil con 2 baterías y carro, homologado para vuelos.", "brand": { "@type": "Brand", "name": "GCE Healthcare" }, "category": "Concentrador de oxígeno portátil" } },
-        { "@type": "Offer", "price": "223000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Máscara Nasal DreamWear", "description": "Máscara nasal de mínimo contacto para CPAP y BiPAP.", "brand": { "@type": "Brand", "name": "Philips Respironics" }, "category": "Máscara nasal" } },
-        { "@type": "Offer", "price": "229000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Máscara Nasobucal DreamWear Philips", "description": "Máscara nasobucal (full face) que cubre nariz y boca, para CPAP y BiPAP.", "brand": { "@type": "Brand", "name": "Philips Respironics" }, "category": "Máscara nasobucal" } },
-        { "@type": "Offer", "price": "198000", "priceCurrency": "ARS", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Máscara Nasobucal BMC F6 Multitalle", "description": "Máscara nasobucal con apoya frente, tan cómoda como la DreamWear y más económica.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "Máscara nasobucal" } },
-        { "@type": "Offer", "price": "1570", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "areaServed": { "@type": "City", "name": "Córdoba" }, "itemOffered": { "@type": "Product", "name": "Polígrafo BMC YH-600B PRO", "description": "Polígrafo para estudio del sueño (poligrafía respiratoria) domiciliario.", "brand": { "@type": "Brand", "name": "BMC Medical" }, "category": "Diagnóstico del sueño" } }
-      ]
+    {
+      "@type": "AdministrativeArea",
+      "name": "Provincia de Córdoba, Argentina"
     }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Córdoba",
+    "addressRegion": "Córdoba",
+    "addressCountry": "AR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -31.4201,
+    "longitude": -64.1888
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "18:00"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+54-9-351-206-5320",
+    "contactType": "sales",
+    "availableLanguage": "Spanish"
+  },
+  "sameAs": [
+    "https://insersalud.com",
+    "https://share.google/QTMdrJZGqmyyNBHYh",
+    "https://www.google.com/search?kgmid=/g/11zfs2vwmz",
+    "https://www.instagram.com/inser.salud",
+    "https://www.facebook.com/insersalud",
+    "https://wa.me/5493512065320"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Equipos Respiratorios",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "price": "799000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "CPAP ResMed AirSense 10",
+          "description": "CPAP ResMed AirSense 10 con humidificador HumidAir integrado, alivio espiratorio EPR, AutoRamp y app myAir. Equipo completo: humidificador, tubuladura, fuente, tarjeta SD y bolso. Aprobado por ANMAT, 2 años de garantía.",
+          "brand": {
+            "@type": "Brand",
+            "name": "ResMed"
+          },
+          "category": "CPAP",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "799000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "499000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "CPAP BMC G2S con Humidificador",
+          "description": "CPAP fijo con humidificador calefactado, pantalla LCD táctil y tarjeta SD. Aprobado por ANMAT.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BMC Medical"
+          },
+          "category": "CPAP",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "499000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "600000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "AutoCPAP BMC G2S con Humidificador",
+          "description": "AutoCPAP de presión automática con humidificador calefactado, rampa automática y tarjeta SD. Equipo completo con bolso. Aprobado por ANMAT.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BMC Medical"
+          },
+          "category": "AutoCPAP",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "600000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "1400",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "AutoCPAP BMC G2S Mini con Almohadillas Nasales",
+          "description": "AutoCPAP de presión automática con humidificador p2H y almohadillas nasales.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BMC Medical"
+          },
+          "category": "AutoCPAP",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "1400",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "758",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "AutoCPAP Philips DreamStation con Humidificador",
+          "description": "AutoCPAP con humidificador y conectividad.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Philips Respironics"
+          },
+          "category": "AutoCPAP",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "758",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "1300000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador",
+          "description": "BiPAP S/T con frecuencia respiratoria de respaldo. Ideal para EPOC, ELA y enfermedades neuromusculares.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BMC Medical"
+          },
+          "category": "BiPAP",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "1300000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "9084",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Cough Assist (Asistente de Tos)",
+          "description": "Insuflación-exuflación mecánica para movilizar secreciones en pacientes con tos débil.",
+          "category": "Asistente de tos",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "9084",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "999000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Concentrador de Oxígeno BMC Estacionario",
+          "description": "Concentrador de oxígeno fijo para el hogar, con control remoto y medidor de oxígeno integrado.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BMC Medical"
+          },
+          "category": "Concentrador de oxígeno estacionario",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "999000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "2800000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Argentina"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Concentrador de Oxígeno YUWELL 10 Litros (Alto Flujo)",
+          "description": "Concentrador estacionario de alto flujo, hasta 10 L/min (el doble del estándar). Para pacientes con alta demanda de oxígeno y centros de rehabilitación pulmonar. Aprobado por ANMAT.",
+          "brand": {
+            "@type": "Brand",
+            "name": "YUWELL"
+          },
+          "category": "Concentrador de oxígeno estacionario",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "2800000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "2735400",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Concentrador de Oxígeno Portátil KINGON P2-S3",
+          "description": "Concentrador portátil, el más liviano y económico, apto para vuelos.",
+          "brand": {
+            "@type": "Brand",
+            "name": "KINGON"
+          },
+          "category": "Concentrador de oxígeno portátil",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "2735400",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "5451885",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Concentrador de Oxígeno Portátil GCE Zen-O",
+          "description": "Concentrador portátil con 2 baterías y carro, homologado para vuelos.",
+          "brand": {
+            "@type": "Brand",
+            "name": "GCE Healthcare"
+          },
+          "category": "Concentrador de oxígeno portátil",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "5451885",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "223000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Máscara Nasal DreamWear",
+          "description": "Máscara nasal de mínimo contacto para CPAP y BiPAP.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Philips Respironics"
+          },
+          "category": "Máscara nasal",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "223000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "229000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Máscara Nasobucal DreamWear Philips",
+          "description": "Máscara nasobucal (full face) que cubre nariz y boca, para CPAP y BiPAP.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Philips Respironics"
+          },
+          "category": "Máscara nasobucal",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "229000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "198000",
+        "priceCurrency": "ARS",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Máscara Nasobucal BMC F6 Multitalle",
+          "description": "Máscara nasobucal con apoya frente, tan cómoda como la DreamWear y más económica.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BMC Medical"
+          },
+          "category": "Máscara nasobucal",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "198000",
+            "priceCurrency": "ARS",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "1570",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Polígrafo BMC YH-600B PRO",
+          "description": "Polígrafo para estudio del sueño (poligrafía respiratoria) domiciliario.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BMC Medical"
+          },
+          "category": "Diagnóstico del sueño",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "1570",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      }
+    ]
   }
-  </script>
+}
+</script>
 
   <!-- ══ Structured Data – WebSite + Servicios ═══════════════════════════ -->
   <script type="application/ld+json">
