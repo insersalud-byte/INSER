@@ -349,6 +349,47 @@ export const localPages = [
             { label: 'EPOC', href: '/patologia/epoc' },
         ],
     },
+    {
+        slug: 'concentrador-oxigeno-10-litros',
+        national: true,
+        h1: 'Concentrador de oxígeno de 10 litros (alto flujo)',
+        metaTitle: 'Concentrador de Oxígeno 10 Litros (Alto Flujo) | Alta Demanda y Rehabilitación | INSER SALUD',
+        metaTitleSalud: 'Concentrador de Oxígeno 10 Litros (Alto Flujo) | Alta Demanda y Rehabilitación | INSER SALUD',
+        description: 'Concentrador de oxígeno de 10 litros (alto flujo) para pacientes con alta demanda de oxígeno y centros de rehabilitación pulmonar. Hasta 10 L/min, el doble del estándar. Envío a todo el país, aprobado por ANMAT. $2.800.000. Consultá por WhatsApp.',
+        heroImg: '/artifacts/products/concentrador_yuwell_10l_2.jpg',
+        intro: 'El concentrador de oxígeno YUWELL de 10 litros entrega alto flujo (hasta 10 L/min, el doble del concentrador estándar de 5 L). Está pensado para pacientes con alta demanda de oxígeno y para centros de rehabilitación pulmonar. Se vende con envío a todo el país; $2.800.000, aprobado por ANMAT.',
+        ctaSanti: 'Hola Santi, me interesa el concentrador de oxígeno de 10 litros (alto flujo). ¿Me das más información y disponibilidad?',
+        sections: [
+            {
+                title: '¿Por qué un concentrador de 10 litros?',
+                content: 'La mayoría de los concentradores domiciliarios entregan hasta 5 L/min. El de 10 litros duplica ese flujo, lo que lo hace apto para quienes necesitan altas concentraciones de oxígeno de forma sostenida y para uso intensivo en instituciones.\n\nEs un equipo estacionario de uso continuo (24 hs), con ruedas para trasladarlo dentro del hogar o el centro.',
+            },
+            {
+                title: 'Ideal para alta demanda y rehabilitación pulmonar',
+                content: 'Para pacientes con requerimientos altos de oxígeno (EPOC avanzado, fibrosis pulmonar, secuelas respiratorias graves) y para centros de rehabilitación pulmonar y kinesiología respiratoria que necesitan un equipo confiable de alto flujo para sesiones y uso frecuente.',
+            },
+            {
+                title: 'Compra con envío a todo el país',
+                content: 'Lo enviamos a cualquier provincia de Argentina. Aparatología aprobada por ANMAT, con garantía y soporte técnico. Precio: $2.800.000. Consultá disponibilidad, formas de pago y envío por WhatsApp.',
+            },
+        ],
+        products: [
+            { name: 'Concentrador de oxígeno YUWELL 10 litros (alto flujo)', price: '$2.800.000' },
+            { name: 'Concentrador de oxígeno BMC estacionario 5 L/min', price: '$999.000' },
+            { name: 'Concentrador de oxígeno portátil (para salir/viajar)', price: 'consultar' },
+        ],
+        faq: [
+            { q: '¿Para qué sirve un concentrador de oxígeno de 10 litros?', a: 'Para pacientes con alta demanda de oxígeno y para centros de rehabilitación pulmonar: entrega hasta 10 L/min, el doble del concentrador estándar de 5 L.' },
+            { q: '¿Cuánto cuesta el concentrador de 10 litros?', a: 'Está a $2.800.000, aprobado por ANMAT y con garantía. Confirmá el precio del día y el envío por WhatsApp.' },
+            { q: '¿Lo envían a todo el país?', a: 'Sí. Se vende con envío a cualquier provincia de Argentina. Coordinamos el envío por WhatsApp.' },
+            { q: '¿Sirve para un centro de rehabilitación pulmonar?', a: 'Sí, es un equipo estacionario de alto flujo pensado para uso intensivo y sostenido, ideal para centros de rehabilitación pulmonar y kinesiología respiratoria.' },
+        ],
+        related: [
+            { label: 'Comprar concentrador de oxígeno (envío nacional)', href: '/comprar-concentrador-oxigeno-argentina' },
+            { label: 'Oxígeno a domicilio en Córdoba', href: '/oxigeno-a-domicilio-cordoba' },
+            { label: 'EPOC', href: '/patologia/epoc' },
+        ],
+    },
 ];
 
 export const getLocalPageBySlug = (slug) => localPages.find((p) => p.slug === slug);

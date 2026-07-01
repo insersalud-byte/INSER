@@ -26,6 +26,7 @@ export const config = {
         '/concentrador-oxigeno-portatil-cordoba',
         '/comprar-cpap-argentina',
         '/comprar-concentrador-oxigeno-argentina',
+        '/concentrador-oxigeno-10-litros',
     ],
 };
 

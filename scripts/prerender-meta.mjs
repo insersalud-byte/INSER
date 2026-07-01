@@ -46,6 +46,7 @@ const PRODUCTS = [
     ['Ventilador STELLAR 150 ResMed', 'U$S 7.342', 'ventilación de alta gama con batería'],
     ['Cough Assist (asistente de tos)', 'U$S 9.084', 'insuflación-exuflación para tos débil'],
     ['Concentrador de oxígeno BMC estacionario', '$999.000', 'con control remoto y medidor de O₂'],
+    ['Concentrador de oxígeno YUWELL 10 litros (alto flujo)', '$2.800.000', 'hasta 10 L/min, para alta demanda de oxígeno y centros de rehabilitación pulmonar'],
     ['Concentrador portátil KINGON P2-S3', '$2.735.400', 'el más liviano, apto para vuelos'],
     ['Concentrador portátil GCE Zen-O', '$5.451.885', '2 baterías + carro, homologado para vuelos'],
     ['Máscara nasal DreamWear', '$223.000', 'mínimo contacto, CPAP/BiPAP'],
@@ -65,6 +66,7 @@ const LOCAL_LINKS = [
     ['/estudio-del-sueno-cordoba', 'Estudio del sueño a domicilio en Córdoba'],
     ['/comprar-cpap-argentina', 'Comprar CPAP en Argentina (envío a todo el país)'],
     ['/comprar-concentrador-oxigeno-argentina', 'Comprar concentrador de oxígeno en Argentina (envío)'],
+    ['/concentrador-oxigeno-10-litros', 'Concentrador de oxígeno de 10 litros (alto flujo)'],
 ];
 
 const DEFINITIONS = [
