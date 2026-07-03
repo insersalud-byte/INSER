@@ -572,7 +572,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Concentrador de Oxígeno BMC Estacionario', slug: 'concentrador-de-oxigeno-bmc-estacionario', price: 'U$S 756', img: '/artifacts/products/concentrador_bmc_1.jpg', images: ['/artifacts/products/concentrador_bmc_1.jpg', '/artifacts/products/concentrador_bmc_2.jpg'], badge: 'CONTROL REMOTO', note: 'Con control remoto y medidor de oxígeno integrado.', category: 'Concentrador',
+        name: 'Concentrador de Oxígeno BMC Estacionario', slug: 'concentrador-de-oxigeno-bmc-estacionario', price: '$999.000', img: '/artifacts/products/concentrador_bmc_1.jpg', images: ['/artifacts/products/concentrador_bmc_1.jpg', '/artifacts/products/concentrador_bmc_2.jpg'], badge: 'CONTROL REMOTO', note: 'Con control remoto y medidor de oxígeno integrado.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Concentrador estacionario domiciliario'],

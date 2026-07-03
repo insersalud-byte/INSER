@@ -87,7 +87,7 @@ Links: CPAP BMC G2S → https://insersalud.com/cpap-bmc-g2s | BiPAP BMC G3 → h
 | Concentrador KINGON P2-E portátil | U$S 2.379 | ~$3.568.500 | Entrada a portátiles de flujo continuo |
 | Concentrador Philips SimplyGo portátil | U$S 3.887 | ~$5.830.500 | Continuo + pulso, aprobado para vuelos, 4,3 kg |
 | Concentrador Yuwell estacionario | U$S 713 | ~$1.069.500 | 3 L/min, silencioso, para domicilio |
-| Concentrador estacionario genérico | U$S 756 | ~$1.134.000 | 5 L/min, uso domiciliario |
+| Concentrador BMC estacionario | $999.000 | 5 L/min, control remoto y medidor de O₂, uso domiciliario continuo |
 | Máscara Nasal BMC N4 | U$S 36 | ~$54.000 | Liviana, gel suave |
 | Máscara Nasal BMC N5a sin apoya frente | U$S 60 | ~$90.000 | Sin apoya frente, amplio campo visual |
 | Máscara Nasal AirFit Mínimo Contacto ResMed | U$S 157 | ~$229.000 | Contacto mínimo, sin apoya frente |
