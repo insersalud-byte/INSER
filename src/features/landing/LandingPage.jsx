@@ -1400,8 +1400,13 @@ const LandingPage = () => {
                     <div className={css.badge}>
                         <Shield size={14} /> Aparatología aprobada por ANMAT
                     </div>
-                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', marginTop: '0.6rem', background: '#ecfdf5', color: '#047857', border: '1px solid #a7f3d0', borderRadius: '999px', padding: '0.35rem 0.85rem', fontWeight: 700, fontSize: '0.83rem' }}>
-                        <Truck size={14} /> Venta con envío a todo el país · Alquiler en Córdoba
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '0.6rem' }}>
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#ecfdf5', color: '#047857', border: '1px solid #a7f3d0', borderRadius: '999px', padding: '0.35rem 0.85rem', fontWeight: 700, fontSize: '0.83rem' }}>
+                            <Truck size={14} /> Venta con envío a todo el país · Alquiler en Córdoba
+                        </span>
+                        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#fefce8', color: '#a16207', border: '1px solid #fde68a', borderRadius: '999px', padding: '0.35rem 0.85rem', fontWeight: 700, fontSize: '0.83rem' }}>
+                            💳 3 cuotas sin interés con Banco Galicia
+                        </span>
                     </div>
                     {isInsersalud ? (
                         <>
@@ -1725,6 +1730,18 @@ const LandingPage = () => {
                         <span className={css.sectionTagWhite}>🔥 Promociones especiales</span>
                         <h2 className={css.whiteText}>Ofertas Vigentes</h2>
                         <p className={css.whiteMutedText}>Precios promocionales por tiempo limitado. Aparatología aprobada por ANMAT.</p>
+                    </div>
+                    {/* Financiación Banco Galicia */}
+                    <div style={{ maxWidth: 720, margin: '0 auto 2rem', background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.35)', borderRadius: '0.9rem', padding: '1rem 1.25rem', textAlign: 'center', color: '#fff' }}>
+                        <div style={{ fontWeight: 800, fontSize: '1.05rem', marginBottom: '0.25rem' }}>
+                            💳 3 CUOTAS SIN INTERÉS con Banco Galicia
+                        </div>
+                        <div style={{ fontSize: '0.9rem', opacity: 0.95 }}>
+                            Clientes Galicia, miércoles y viernes, en todos los equipos. Otras opciones: 3 cuotas +15% · 6 cuotas +24% · 9 cuotas +39%.
+                        </div>
+                        <div style={{ fontSize: '0.78rem', opacity: 0.8, marginTop: '0.3rem' }}>
+                            Promoción sujeta a condiciones del banco. Consultanos por tu equipo.
+                        </div>
                     </div>
                     <div className={css.productsGrid}>
                         {ofertas.map((p, i) => {

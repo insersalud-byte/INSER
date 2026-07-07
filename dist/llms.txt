@@ -99,6 +99,7 @@ Accesorios:
 - Adaptación y seguimiento de equipos con profesionales
 - Servicio técnico de equipos respiratorios
 - Presupuesto formal y factura oficial para gestionar el reintegro con tu obra social o prepaga (venta particular, sin facturación directa a la obra social)
+- Financiación: 3 cuotas sin interés con Banco Galicia (miércoles y viernes, todos los equipos) y planes de 3 cuotas +15%, 6 cuotas +24% y 9 cuotas +39% (sujeto a condiciones del banco)
 - Asesoramiento por WhatsApp y chat con el agente Santi (IA)
 
 ## Patologías que tratamos (páginas con info)
@@ -129,6 +130,9 @@ Sí. La venta de equipos se realiza con envío a toda Argentina (Buenos Aires y 
 
 **¿Trabajan con obras sociales o prepagas?**
 Trabajamos de forma particular y ayudamos con el reintegro: entregamos presupuesto formal y factura oficial para que el paciente gestione el reembolso ante su obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico.
+
+**¿Se puede pagar en cuotas?**
+Sí. Con Banco Galicia hay 3 cuotas sin interés los miércoles y viernes en todos los equipos (sujeto a condiciones del banco). También planes de 3 cuotas (+15%), 6 cuotas (+24%) y 9 cuotas (+39%). Se acepta efectivo, transferencia y tarjeta.
 
 **¿Qué diferencia hay entre un CPAP y un AutoCPAP?**
 El CPAP da una presión fija; el AutoCPAP la ajusta automáticamente según la respiración de cada noche, ofreciendo más comodidad.

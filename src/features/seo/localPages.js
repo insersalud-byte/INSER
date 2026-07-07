@@ -398,7 +398,12 @@ const FAQ_OBRA_SOCIAL = {
     q: '¿Trabajan con obras sociales o prepagas?',
     a: 'Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos presupuesto formal y factura oficial para que gestiones el reembolso ante tu obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico.',
 };
-for (const p of localPages) p.faq.push(FAQ_OBRA_SOCIAL);
+// FAQ compartida: financiacion Banco Galicia (flyer jul 2026).
+const FAQ_CUOTAS = {
+    q: '¿Se puede pagar en cuotas?',
+    a: 'Sí. Con Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes en todos los equipos (sujeto a condiciones del banco). También hay planes de 3 cuotas (+15%), 6 cuotas (+24%) y 9 cuotas (+39%). Además aceptamos efectivo, transferencia y tarjeta.',
+};
+for (const p of localPages) p.faq.push(FAQ_OBRA_SOCIAL, FAQ_CUOTAS);
 
 export const getLocalPageBySlug = (slug) => localPages.find((p) => p.slug === slug);
 
