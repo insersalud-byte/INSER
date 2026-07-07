@@ -238,6 +238,7 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <li>Oxigenoterapia domiciliaria con instalación y seguimiento</li>
 <li>Adaptación y seguimiento de equipos con profesionales</li>
 <li>Servicio técnico de equipos respiratorios</li>
+<li>Presupuesto formal y factura oficial para gestionar el reintegro con tu obra social o prepaga (venta particular)</li>
 </ul>`;
 
     const paths = `

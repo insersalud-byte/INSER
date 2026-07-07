@@ -1939,6 +1939,41 @@ const LandingPage = () => {
                 </div>
             </section>
 
+            {/* ── OBRA SOCIAL / REINTEGRO ────────────────────────────── */}
+            <section id="obra-social" style={{ background: '#eff6ff', borderTop: '1px solid #dbeafe', borderBottom: '1px solid #dbeafe', padding: '3rem 1rem' }}>
+                <div className={css.container}>
+                    <div style={{ maxWidth: 860, margin: '0 auto', textAlign: 'center' }}>
+                        <h2 style={{ color: '#0f172a', fontSize: 'clamp(1.4rem, 3vw, 1.9rem)', margin: '0 0 0.75rem' }}>
+                            ¿Tenés obra social o prepaga? Te ayudamos con el reintegro
+                        </h2>
+                        <p style={{ color: '#334155', fontSize: '1.02rem', lineHeight: 1.65, margin: '0 0 1.25rem' }}>
+                            Trabajamos de forma particular: comprás o alquilás con nosotros y te entregamos el
+                            <strong> presupuesto formal</strong> y la <strong>factura oficial</strong> para que gestiones
+                            el reembolso ante tu obra social o prepaga. Muchas coberturas reintegran total o parcialmente
+                            los equipos con pedido médico. Te orientamos sobre qué documentación conviene presentar.
+                        </p>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center', marginBottom: '1.5rem' }}>
+                            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#fff', border: '1px solid #bfdbfe', borderRadius: '999px', padding: '0.45rem 0.95rem', color: '#1e40af', fontWeight: 600, fontSize: '0.9rem' }}>
+                                <CheckCircle size={15} /> Presupuesto formal para presentar
+                            </span>
+                            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#fff', border: '1px solid #bfdbfe', borderRadius: '999px', padding: '0.45rem 0.95rem', color: '#1e40af', fontWeight: 600, fontSize: '0.9rem' }}>
+                                <CheckCircle size={15} /> Factura oficial para el reintegro
+                            </span>
+                            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#fff', border: '1px solid #bfdbfe', borderRadius: '999px', padding: '0.45rem 0.95rem', color: '#1e40af', fontWeight: 600, fontSize: '0.9rem' }}>
+                                <CheckCircle size={15} /> Te orientamos con la documentación
+                            </span>
+                        </div>
+                        <a
+                            href={`https://wa.me/5493512065320?text=${encodeURIComponent('Hola, quiero saber cómo gestionar el reintegro con mi obra social por un equipo.')}`}
+                            target="_blank" rel="noopener noreferrer"
+                            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#25d366', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.85rem 1.4rem', borderRadius: '0.7rem', fontSize: '1rem' }}
+                        >
+                            <MessageCircle size={18} /> Consultar por mi obra social
+                        </a>
+                    </div>
+                </div>
+            </section>
+
             {/* ── CONTACTO ───────────────────────────────────────────── */}
             <section id="contacto" className={css.contactSection}>
                 <div className={css.container}>

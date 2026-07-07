@@ -392,6 +392,14 @@ export const localPages = [
     },
 ];
 
+// FAQ compartida: reintegro por obra social (trabajamos particular, NO facturacion
+// directa a la obra social). Se agrega a TODAS las landings (React + prerender la ven).
+const FAQ_OBRA_SOCIAL = {
+    q: '¿Trabajan con obras sociales o prepagas?',
+    a: 'Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos presupuesto formal y factura oficial para que gestiones el reembolso ante tu obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico.',
+};
+for (const p of localPages) p.faq.push(FAQ_OBRA_SOCIAL);
+
 export const getLocalPageBySlug = (slug) => localPages.find((p) => p.slug === slug);
 
 export default localPages;
