@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import {
     Moon, Wind, Activity, Brain, Zap, Heart,
     CheckCircle, Clock, Award, Users,
@@ -11,6 +11,7 @@ import {
 import LeadForm from '../../components/LeadForm';
 import css from './LandingPage.module.css';
 import { productGalleries } from './productGalleries';
+import { localPages } from '../seo/localPages';
 
 // Resuelve la galería de imágenes de un producto.
 // Prioridad: (1) product.images si existe, (2) productGalleries[slug], (3) [product.img]
@@ -2062,6 +2063,22 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
+                    </div>
+                    {/* Enlaces internos reales (<a href>) para crawlers: guias/landing y patologias */}
+                    <div className={css.footerContact}>
+                        <strong>Comprar y alquilar</strong>
+                        {localPages.map((p) => (
+                            <Link key={p.slug} to={`/${p.slug}`}>{p.h1}</Link>
+                        ))}
+                    </div>
+                    <div className={css.footerContact}>
+                        <strong>Patologías</strong>
+                        <Link to="/patologia/apnea-del-sueno">Apnea del sueño</Link>
+                        <Link to="/patologia/epoc">EPOC</Link>
+                        <Link to="/patologia/fibrosis-pulmonar">Fibrosis pulmonar</Link>
+                        <Link to="/patologia/esclerosis-lateral-amiotrofica">ELA</Link>
+                        <Link to="/patologia/atrofia-muscular-espinal">Atrofia Muscular Espinal</Link>
+                        <Link to="/patologia/paralisis-cerebral">Parálisis cerebral</Link>
                     </div>
                     <div className={css.footerContact}>
                         <strong>Contacto</strong>
