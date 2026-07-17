@@ -187,6 +187,10 @@ export const localPages = [
             { title: '¿Qué es un BiPAP y cuándo se usa?', content: 'El BiPAP (o BPAP) entrega dos niveles de presión: uno mayor al inhalar (IPAP) y otro menor al exhalar (EPAP), lo que facilita la respiración. Puede incluir frecuencia respiratoria de respaldo (modo S/T).\n\nSe indica en EPOC, enfermedades neuromusculares (ELA, AME), síndrome de hipoventilación y en apnea del sueño compleja que no responde al CPAP.' },
             { title: 'BiPAP o CPAP: ¿cuál necesito?', content: 'El CPAP entrega una sola presión continua y es el tratamiento estándar de la apnea del sueño. El BiPAP entrega dos presiones y se usa cuando hace falta asistir tanto la inhalación como la exhalación, o cuando se necesitan presiones altas que con CPAP serían incómodas.\n\nLa indicación la define tu médico; nosotros te ayudamos a elegir el equipo correcto.' },
             { title: 'Venta y alquiler con soporte', content: 'Vendemos y alquilamos BiPAP en Córdoba con entrega e instalación a domicilio, configuración según tu prescripción, máscara adecuada y soporte técnico continuo. Aparatología aprobada por ANMAT con garantía.' },
+            {
+                title: 'Evidencia científica: la ventilación no invasiva en EPOC y enfermedades neuromusculares',
+                content: 'La ventilación no invasiva (VNI) con dos niveles de presión es uno de los tratamientos con mayor respaldo en medicina respiratoria. En las exacerbaciones de EPOC con retención de dióxido de carbono, la VNI reduce la necesidad de intubación y la mortalidad, y es el estándar de cuidado recomendado por las guías internacionales (GOLD).\n\nEn EPOC estable con hipercapnia crónica, el ensayo de Köhnlein y colaboradores (2014) mostró que la VNI domiciliaria bien configurada mejora la sobrevida, y el ensayo HOT-HMV (Murphy y col., 2017) demostró que sumar VNI al oxígeno domiciliario tras una exacerbación prolonga el tiempo libre de reinternaciones.\n\nEn enfermedades neuromusculares como la ELA, el trabajo de Bourke y colaboradores (2006) demostró que la VNI mejora tanto la sobrevida como la calidad de vida, y las guías la recomiendan de forma temprana cuando aparecen signos de hipoventilación. Para estos pacientes es clave que el equipo cuente con frecuencia respiratoria de respaldo (modo S/T), como el BiPAP BMC G3.\n\nNota: la indicación de VNI, los modos y las presiones los define siempre el médico tratante. Esta reseña es informativa. Última revisión: julio 2026.',
+            },
         ],
         products: [
             { name: 'BiPAP BMC G3 con frecuencia respiratoria y humidificador', price: '$1.300.000' },
@@ -289,6 +293,10 @@ export const localPages = [
             {
                 title: 'Garantía, ANMAT y respaldo',
                 content: 'Todos los equipos son aparatología aprobada por ANMAT, con 2 años de garantía oficial. Conseguís repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.',
+            },
+            {
+                title: 'Evidencia científica: por qué el CPAP es el tratamiento de referencia',
+                content: 'El CPAP es el tratamiento de primera línea para la apnea obstructiva del sueño moderada y severa según las guías de la Academia Americana de Medicina del Sueño (AASM), desde su descripción original por Sullivan y colaboradores en 1981.\n\nLa evidencia acumulada muestra que la apnea no tratada se asocia a hipertensión arterial (cohorte de Wisconsin, Peppard y col.) y a mayor riesgo de eventos cardiovasculares en los casos severos (Marin y col., 2005), además de somnolencia diurna que multiplica el riesgo de accidentes de tránsito y laborales.\n\nEl tratamiento con CPAP reduce la somnolencia diurna, mejora la calidad de vida y el descanso del acompañante, disminuye modestamente la presión arterial en pacientes hipertensos con apnea, y reduce el riesgo de accidentes. El beneficio depende de la constancia: se recomienda usarlo todas las noches, al menos 4 a 6 horas, para obtener resultados.\n\nNota: el diagnóstico (poligrafía o polisomnografía) y la indicación de presión los define el médico especialista en sueño. Esta reseña es informativa. Última revisión: julio 2026.',
             },
         ],
         products: [
