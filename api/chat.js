@@ -71,7 +71,15 @@ Saludar SIEMPRE con un "Hola" cordial y respetuoso (ej: "¡Hola! 😊 Soy Santi,
 | Concentrador YUWELL 10 Litros (alto flujo) | $2.800.000 | Estacionario de alto flujo, hasta 10 L/min (el doble del estándar). Ideal alta demanda de oxígeno y centros de rehabilitación pulmonar. Uso continuo 24hs, ruedas para traslado |
 | Máscara Nasal RESCOMF CPAP/BiPAP | $50.000 | Económica, multitalle, compatible todos los equipos |
 
-Links: CPAP BMC G2S → https://insersalud.com/cpap-bmc-g2s | BiPAP BMC G3 → https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador | KINGON P2-S3 → https://insersalud.com/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico
+Links utiles para compartir con el cliente (usa el que corresponda al tema):
+- Comprar CPAP: https://insersalud.com/comprar-cpap-argentina (nacional) | https://insersalud.com/comprar-cpap-cordoba (Cordoba)
+- Alquiler CPAP Cordoba: https://insersalud.com/alquiler-cpap-cordoba
+- Mascaras (nasales/nasobucales/pediatricas): https://insersalud.com/mascaras-cpap
+- BiPAP: https://insersalud.com/bipap-cordoba | Ventilador STELLAR 150: https://insersalud.com/ventilador-stellar-150
+- Concentradores: https://insersalud.com/comprar-concentrador-oxigeno-argentina (fijos) | https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina (portatiles) | https://insersalud.com/concentrador-oxigeno-10-litros (10 litros alto flujo)
+- Oxigeno/alquiler Cordoba: https://insersalud.com/oxigeno-a-domicilio-cordoba | https://insersalud.com/alquiler-concentrador-oxigeno-cordoba
+- Estudio del sueño: https://insersalud.com/estudio-del-sueno-cordoba | Poligrafo (profesionales): https://insersalud.com/comprar-poligrafo-argentina
+- Cough Assist: https://insersalud.com/cough-assist-asistente-de-tos | Centros de rehabilitacion: https://insersalud.com/equipamiento-rehabilitacion-pulmonar
 
 ---
 

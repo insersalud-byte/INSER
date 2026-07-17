@@ -33,7 +33,7 @@ const SALUD_HOME = {
 };
 const INSER_HOME = {
     title: 'INSER SALUD – Equipos Respiratorios CPAP, BiPAP y Oxígeno | Córdoba, Argentina',
-    desc: 'CPAP, AutoCPAP, BiPAP, máscaras nasales y nasobucales (DreamWear), oxigenoterapia y concentradores de oxígeno portátiles. Venta y alquiler en Córdoba.',
+    desc: 'CPAP, AutoCPAP, BiPAP, máscaras nasales y nasobucales (DreamWear), oxigenoterapia y concentradores de oxígeno. Venta con envío a todo el país y alquiler en Córdoba. Cuotas con Banco Galicia.',
 };
 
 // Catalogo curado (mismo dato que llms.txt) para el contenido estatico del home
@@ -225,7 +225,7 @@ function buildHomeBody(variant) {
 <thead><tr><th>Equipo</th><th>Cómo funciona</th><th>Para qué</th><th>Desde</th></tr></thead>
 <tbody>
 <tr><td>CPAP</td><td>Presión fija continua</td><td>Apnea del sueño estándar</td><td>$499.000</td></tr>
-<tr><td>AutoCPAP</td><td>Presión automática</td><td>Apnea, mayor confort</td><td>U$S 415</td></tr>
+<tr><td>AutoCPAP</td><td>Presión automática</td><td>Apnea, mayor confort</td><td>$600.000</td></tr>
 <tr><td>BiPAP</td><td>Dos presiones (inhala/exhala)</td><td>EPOC, neuromusculares, apnea compleja</td><td>$1.300.000</td></tr>
 </tbody>
 </table>`;
