@@ -242,6 +242,31 @@
             "source": "/paralisis-cerebral",
             "destination": "/patologia/paralisis-cerebral",
             "permanent": true
+        },
+        {
+            "source": "/servicios",
+            "destination": "/#servicios",
+            "permanent": true
+        },
+        {
+            "source": "/tienda",
+            "destination": "/#tienda",
+            "permanent": true
+        },
+        {
+            "source": "/contacto",
+            "destination": "/#contacto",
+            "permanent": true
+        },
+        {
+            "source": "/equipos-de-terapia-respiratoria",
+            "destination": "/#tienda",
+            "permanent": true
+        },
+        {
+            "source": "/equipos-de-terapia-respiratoria-1",
+            "destination": "/#tienda",
+            "permanent": true
         }
     ]
 }
