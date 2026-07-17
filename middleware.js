@@ -27,6 +27,10 @@ export const config = {
         '/comprar-cpap-argentina',
         '/comprar-concentrador-oxigeno-argentina',
         '/concentrador-oxigeno-10-litros',
+        '/mascaras-cpap',
+        '/equipamiento-rehabilitacion-pulmonar',
+        '/comprar-concentrador-oxigeno-portatil-argentina',
+        '/ventilador-stellar-150',
     ],
 };
 

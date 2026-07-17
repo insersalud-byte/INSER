@@ -390,6 +390,192 @@ export const localPages = [
             { label: 'EPOC', href: '/patologia/epoc' },
         ],
     },
+    {
+        slug: 'mascaras-cpap',
+        national: true,
+        h1: 'Máscaras para CPAP y BiPAP: nasales, nasobucales y pediátricas',
+        metaTitle: 'Máscaras para CPAP | Nasales, Nasobucales y Pediátricas | Precios | INSER SALUD',
+        metaTitleSalud: 'Máscaras para CPAP y BiPAP | Precios y Envío Nacional | INSER SALUD',
+        description: 'Máscaras para CPAP y BiPAP con precios visibles y envío a todo el país: nasales desde $50.000, DreamWear $223.000, nasobucales (full face) y línea pediátrica completa. Aprobadas por ANMAT. Consultá por WhatsApp.',
+        heroImg: '/artifacts/products/1751037116992-1000306910.jpg',
+        intro: 'La máscara es la mitad del éxito del tratamiento con CPAP o BiPAP: una interfaz incómoda es la principal causa de abandono. En INSER SALUD tenés máscaras nasales, nasobucales (full face), almohadillas y línea pediátrica, con precios visibles y envío a todo el país. Te ayudamos a elegir el modelo y el talle correcto para tu equipo.',
+        ctaSanti: 'Hola Santi, necesito una máscara para mi CPAP/BiPAP. ¿Me ayudás a elegir entre nasal y nasobucal, y me pasás precios?',
+        sections: [
+            {
+                title: '¿Máscara nasal, nasobucal o almohadillas?',
+                content: 'La máscara NASAL cubre solo la nariz: es liviana y cómoda, ideal si respirás por la nariz al dormir.\n\nLa NASOBUCAL (buconasal o full face) cubre nariz y boca: es la indicada si respirás por la boca, tenés congestión frecuente o usás presiones altas.\n\nLas ALMOHADILLAS nasales (pillow) apoyan directo en las fosas nasales, con mínima presencia facial: ideales para quienes se sienten encerrados o usan anteojos para leer.\n\nTodas nuestras máscaras son compatibles con equipos CPAP, AutoCPAP y BiPAP de cualquier marca (conexión estándar de tubuladura).',
+            },
+            {
+                title: 'Precios de máscaras (referencia)',
+                content: 'Nasales: RESCOMF multitalle $50.000 (la más económica) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto $223.000 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.\n\nNasobucales (full face): BMC F6 multitalle $198.000 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face $229.000 · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
+            },
+            {
+                title: 'Máscaras pediátricas',
+                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: NeoQ Infant para recién nacidos y lactantes (U$S 144), HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Jirafa de Philips Respironics con diseño amigable (U$S 220) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, parálisis cerebral y cuadros respiratorios pediátricos, siempre con indicación médica.',
+            },
+            {
+                title: 'Cambio y reposición',
+                content: 'La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas que restan eficacia al tratamiento.\n\nEnviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos compatibilidad con tu equipo antes de comprar.',
+            },
+        ],
+        products: [
+            { name: 'Máscara nasal RESCOMF multitalle (la más económica)', price: '$50.000' },
+            { name: 'Máscara nasal Philips DreamWear — mínimo contacto', price: '$223.000' },
+            { name: 'Máscara nasobucal BMC F6 multitalle (oferta)', price: '$198.000' },
+            { name: 'Máscara nasobucal Philips DreamWear Full Face', price: '$229.000' },
+            { name: 'Máscaras pediátricas (NeoQ, Cirri Mini, Jirafa, Infant Kit)', price: 'desde U$S 97' },
+        ],
+        faq: [
+            { q: '¿Qué máscara elijo si respiro por la boca?', a: 'Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face ($229.000), BMC F6 ($198.000) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.' },
+            { q: '¿Cuánto cuesta una máscara para CPAP?', a: 'Desde $50.000 (nasal RESCOMF multitalle). La DreamWear de Philips está a $223.000 y las nasobucales desde U$S 52. Enviamos a todo el país.' },
+            { q: '¿Son compatibles con cualquier equipo CPAP o BiPAP?', a: 'Sí. Todas usan la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP de cualquier marca (BMC, ResMed, Philips, Yuwell, etc.).' },
+            { q: '¿Cada cuánto se cambia la máscara?', a: 'La almohadilla de silicona cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. Un sellado gastado genera fugas y resta eficacia al tratamiento.' },
+            { q: '¿Tienen máscaras para chicos?', a: 'Sí, línea pediátrica completa: NeoQ Infant (recién nacidos), HSINER Cirri Mini, máscara Jirafa de Philips e Infant CPAP Kit neonatal. Siempre con indicación médica.' },
+        ],
+        related: [
+            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
+            { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
+        ],
+    },
+    {
+        slug: 'equipamiento-rehabilitacion-pulmonar',
+        national: true,
+        h1: 'Equipamiento para centros de rehabilitación pulmonar',
+        metaTitle: 'Equipamiento para Centros de Rehabilitación Pulmonar | Concentrador 10 Litros | INSER SALUD',
+        metaTitleSalud: 'Equipamiento para Centros de Rehabilitación Pulmonar | INSER SALUD',
+        description: 'Equipamiento para centros de rehabilitación pulmonar y kinesiología respiratoria: concentrador de oxígeno de 10 litros (alto flujo), BiPAP, ventilador STELLAR 150, máscaras e insumos. Presupuestos formales para instituciones y envío a todo el país. Aprobado por ANMAT.',
+        heroImg: '/artifacts/products/concentrador_yuwell_10l_1.jpg',
+        intro: 'Equipamos centros de rehabilitación pulmonar, consultorios de kinesiología respiratoria e instituciones de salud en todo el país: concentradores de oxígeno de alto flujo para uso intensivo, ventilación no invasiva, máscaras e insumos de reposición. Presupuesto formal, factura y soporte técnico continuo.',
+        ctaSanti: 'Hola Santi, equipo un centro de rehabilitación pulmonar. ¿Me pasás presupuesto del concentrador de 10 litros y el equipamiento disponible?',
+        sections: [
+            {
+                title: 'Qué necesita un centro de rehabilitación pulmonar',
+                content: 'El uso institucional es distinto al domiciliario: varias sesiones por día, pacientes con requerimientos de flujo altos y equipos que no pueden fallar.\n\nPor eso el equipo central es el concentrador de ALTO FLUJO (10 L/min, el doble del estándar domiciliario de 5 L), apto para uso continuo e intensivo, complementado con ventilación no invasiva (BiPAP) y máscaras de reposición en varios talles.',
+            },
+            {
+                title: 'El equipo central: concentrador de oxígeno de 10 litros',
+                content: 'Concentrador YUWELL de 10 litros (alto flujo) — $2.800.000. Hasta 10 L/min, uso continuo 24 hs, display digital, alarmas de seguridad y ruedas para moverlo entre boxes o consultorios. Aprobado por ANMAT, con garantía.\n\nPara demanda muy alta, se pueden combinar dos equipos o complementar con tubos de oxígeno de respaldo.',
+            },
+            {
+                title: 'Complementos: ventilación, máscaras e insumos',
+                content: 'BiPAP BMC G3 con frecuencia respiratoria ($1.300.000) para ventilación no invasiva en sesiones y titulación.\nVentilador ResMed STELLAR 150 (U$S 7.342) para soporte ventilatorio invasivo/no invasivo de mayor complejidad.\nMáscaras nasales y nasobucales en todos los talles (desde $50.000), incluida línea pediátrica, e insumos de reposición: tubuladuras, filtros y cánulas.',
+            },
+            {
+                title: 'Compra institucional',
+                content: 'Emitimos presupuesto formal y factura para instituciones, obras sociales y compras corporativas. Envío a todo el país con capacitación de uso (presencial en Córdoba, guiada a distancia en el resto del país), soporte técnico continuo y provisión de repuestos e insumos.',
+            },
+        ],
+        products: [
+            { name: 'Concentrador YUWELL 10 litros — alto flujo (uso intensivo)', price: '$2.800.000' },
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: '$1.300.000' },
+            { name: 'Ventilador ResMed STELLAR 150', price: 'U$S 7.342' },
+            { name: 'Máscaras e insumos de reposición', price: 'desde $50.000' },
+        ],
+        faq: [
+            { q: '¿Sirve un concentrador domiciliario de 5 litros para un centro de rehabilitación?', a: 'Para uso intensivo o pacientes de alta demanda conviene el de 10 litros: duplica el flujo (hasta 10 L/min) y está pensado para funcionar de forma continua durante toda la jornada.' },
+            { q: '¿Emiten presupuesto formal y factura para instituciones?', a: 'Sí. Preparamos presupuesto formal para la institución u obra social y entregamos factura. También asesoramos en la elección del equipamiento según la demanda del centro.' },
+            { q: '¿Hacen envío e instalación en el interior?', a: 'Enviamos a todo el país. En Córdoba la capacitación es presencial; en el resto del país guiamos la puesta en marcha a distancia y damos soporte técnico continuo.' },
+            { q: '¿Proveen repuestos e insumos de forma continua?', a: 'Sí: máscaras, tubuladuras, filtros, cánulas y humidificadores de reposición, con envío a todo el país.' },
+        ],
+        related: [
+            { label: 'Concentrador de oxígeno de 10 litros', href: '/concentrador-oxigeno-10-litros' },
+            { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
+            { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
+        ],
+    },
+    {
+        slug: 'comprar-concentrador-oxigeno-portatil-argentina',
+        national: true,
+        h1: 'Comprar concentrador de oxígeno portátil: envío a todo el país',
+        metaTitle: 'Comprar Concentrador de Oxígeno Portátil en Argentina | KINGON, Zen-O, SimplyGo | INSER SALUD',
+        metaTitleSalud: 'Comprar Concentrador de Oxígeno Portátil en Argentina | INSER SALUD',
+        description: 'Venta de concentradores de oxígeno portátiles con envío a todo el país: KINGON P2-S3 (el más liviano, $2.735.400), línea KINGON de flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. Aprobados por ANMAT, con garantía. Consultá por WhatsApp.',
+        heroImg: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg',
+        intro: 'Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles de pulso y de flujo continuo con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.',
+        ctaSanti: 'Hola Santi, quiero comprar un concentrador de oxígeno portátil. ¿Qué modelos tienen, precios y cuál me conviene según mi flujo?',
+        sections: [
+            {
+                title: 'Pulso o flujo continuo: la primera decisión',
+                content: 'Los portátiles de PULSO entregan oxígeno al detectar la inspiración: son los más livianos y de mayor autonomía, ideales para caminar y salir.\n\nLos de FLUJO CONTINUO entregan oxígeno constante como un equipo fijo: son la opción cuando el médico indica flujo continuo o para usar con equipos de presión (CPAP/BiPAP) durante el sueño.\n\nLa indicación médica (litros por minuto y modalidad) define el modelo correcto; te asesoramos antes de comprar.',
+            },
+            {
+                title: 'Modelos y precios',
+                content: 'KINGON P2-S3 — $2.735.400: el más liviano (2,3 kg con batería) y económico, pulso, apto vuelos (FAA).\nKINGON P2-E — U$S 2.379: entrada a los de flujo continuo.\nKINGON P2-E6 — U$S 2.695: flujo continuo con batería.\nKINGON P2-E7 — U$S 3.099: alto flujo continuo, batería extendida.\nKINGON P2-TOC — U$S 3.458: continuo + pulso con 9,5 hs de autonomía.\nGCE Zen-O — $5.451.885: premium europeo, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
+            },
+            {
+                title: 'Para viajar en avión',
+                content: 'Los modelos KINGON P2-S3, GCE Zen-O y Philips SimplyGo cuentan con aprobación FAA para vuelos. Las aerolíneas suelen exigir batería para el 150% de la duración del vuelo y aviso previo: te asesoramos con los requisitos antes de tu viaje.',
+            },
+            {
+                title: 'Compra con respaldo',
+                content: 'Aparatología aprobada por ANMAT con garantía oficial. Envío a todo el país, capacitación de uso, servicio técnico y provisión de baterías y accesorios. Si estás en Córdoba, también ofrecemos alquiler para probar antes de comprar.',
+            },
+        ],
+        products: [
+            { name: 'KINGON P2-S3 (el más liviano, apto vuelos)', price: '$2.735.400' },
+            { name: 'KINGON P2-TOC (9,5 hs, continuo + pulso)', price: 'U$S 3.458' },
+            { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: '$5.451.885' },
+            { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887' },
+        ],
+        faq: [
+            { q: '¿Cuál es el concentrador portátil más liviano y económico?', a: 'El KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a $2.735.400.' },
+            { q: '¿Puedo viajar en avión con un concentrador portátil?', a: 'Sí, con los modelos aprobados FAA (KINGON P2-S3, GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.' },
+            { q: '¿Pulso o flujo continuo?', a: 'Depende de tu indicación médica. Pulso: más liviano y autónomo, para actividad. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. Te ayudamos a elegir.' },
+            { q: '¿Envían a todo el país?', a: 'Sí, enviamos a cualquier provincia con capacitación de uso guiada y garantía oficial. En Córdoba también hay alquiler para probar antes de comprar.' },
+        ],
+        related: [
+            { label: 'Concentrador portátil en Córdoba (venta y alquiler)', href: '/concentrador-oxigeno-portatil-cordoba' },
+            { label: 'Comprar concentrador de oxígeno (envío nacional)', href: '/comprar-concentrador-oxigeno-argentina' },
+            { label: 'EPOC', href: '/patologia/epoc' },
+        ],
+    },
+    {
+        slug: 'ventilador-stellar-150',
+        national: true,
+        h1: 'Ventilador ResMed STELLAR 150: venta en Argentina',
+        metaTitle: 'Ventilador ResMed STELLAR 150 | Venta en Argentina | Soporte Vital | INSER SALUD',
+        metaTitleSalud: 'Ventilador ResMed STELLAR 150 | Venta en Argentina | INSER SALUD',
+        description: 'Venta del ventilador ResMed STELLAR 150 en Argentina: soporte ventilatorio invasivo y no invasivo para ELA, enfermedades neuromusculares y EPOC severo. Con batería interna y humidificador. U$S 7.342. Envío a todo el país. Aprobado por ANMAT.',
+        heroImg: '/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg',
+        intro: 'El ResMed STELLAR 150 es un ventilador de soporte vital para uso domiciliario e institucional: ventilación invasiva y no invasiva, pacientes adultos y pediátricos, con batería interna para traslados y cortes de luz. En INSER SALUD lo vendemos con envío a todo el país y acompañamiento en la puesta en marcha.',
+        ctaSanti: 'Hola Santi, me interesa el ventilador ResMed STELLAR 150. ¿Me pasás precio, disponibilidad y qué incluye?',
+        sections: [
+            {
+                title: 'Qué es el STELLAR 150',
+                content: 'Es el ventilador de alta gama de ResMed para UCI domiciliaria: soporta ventilación INVASIVA (por traqueostomía) y NO INVASIVA (por máscara), con múltiples modos ventilatorios, alarmas clínicas completas, humidificador y batería interna de respaldo.\n\nEs el paso siguiente cuando un BiPAP ya no alcanza: pensado para dependencia ventilatoria de mayor complejidad.',
+            },
+            {
+                title: 'Para quién está indicado',
+                content: 'Pacientes con ELA y otras enfermedades neuromusculares en etapas avanzadas, EPOC severo con dependencia ventilatoria, hipoventilación y cuadros que requieren soporte por traqueostomía.\n\nSIEMPRE con prescripción y configuración indicada por el médico tratante: nosotros proveemos el equipo y acompañamos la puesta en marcha técnica.',
+            },
+            {
+                title: 'Precio y qué incluye',
+                content: 'Precio de referencia: U$S 7.342 (consultá la cotización del día por WhatsApp). Incluye humidificador y batería interna. Aprobado por ANMAT, con garantía oficial y acceso a servicio técnico y repuestos.\n\nComplementos habituales: Cough Assist (asistente de tos, U$S 9.084) para el manejo de secreciones en ELA/AME, y máscaras de ventilación no invasiva en todos los talles.',
+            },
+            {
+                title: 'Compra con acompañamiento',
+                content: 'Envío a todo el país. Coordinamos la puesta en marcha con la familia y el equipo tratante (presencial en Córdoba, guiada a distancia en el resto del país), y quedamos como soporte técnico permanente. También asesoramos el presupuesto formal para gestionar el reintegro o la cobertura con la obra social.',
+            },
+        ],
+        products: [
+            { name: 'Ventilador ResMed STELLAR 150 (humidificador + batería)', price: 'U$S 7.342' },
+            { name: 'Cough Assist — asistente de tos (complemento ELA/AME)', price: 'U$S 9.084' },
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)', price: '$1.300.000' },
+            { name: 'Máscaras de ventilación no invasiva', price: 'desde $50.000' },
+        ],
+        faq: [
+            { q: '¿El STELLAR 150 sirve para ventilación invasiva y no invasiva?', a: 'Sí, soporta ambas: por traqueostomía (invasiva) y por máscara (no invasiva), en pacientes adultos y pediátricos, con alarmas clínicas y batería interna.' },
+            { q: '¿Cuánto cuesta el STELLAR 150 en Argentina?', a: 'Precio de referencia U$S 7.342, con humidificador y batería interna incluidos. Confirmá la cotización del día por WhatsApp. Aprobado por ANMAT con garantía oficial.' },
+            { q: '¿Necesito prescripción médica?', a: 'Sí. Es un equipo de soporte vital: la indicación y la configuración las define el médico tratante. Nosotros proveemos el equipo y el soporte técnico.' },
+            { q: '¿Qué diferencia hay con un BiPAP?', a: 'El BiPAP es para ventilación no invasiva de soporte. El STELLAR 150 agrega ventilación invasiva, más modos ventilatorios, alarmas clínicas completas y batería interna: es para dependencia ventilatoria de mayor complejidad.' },
+        ],
+        related: [
+            { label: 'ELA (Esclerosis Lateral Amiotrófica)', href: '/patologia/esclerosis-lateral-amiotrofica' },
+            { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
+            { label: 'Equipamiento para centros de rehabilitación', href: '/equipamiento-rehabilitacion-pulmonar' },
+        ],
+    },
 ];
 
 // FAQ compartida: reintegro por obra social (trabajamos particular, NO facturacion
