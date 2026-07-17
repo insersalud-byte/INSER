@@ -29,7 +29,7 @@ const WA = '+54 9 351 206-5320';
 
 const SALUD_HOME = {
     title: 'INSER SALUD – Terapias Respiratorias Domiciliarias | Alquiler y Venta CPAP, BiPAP y Oxígeno | Córdoba',
-    desc: 'Terapias respiratorias domiciliarias en Córdoba. Alquiler y venta de CPAP, BiPAP y concentradores de oxígeno con instalación y seguimiento profesional en tu hogar. Aparatología aprobada por ANMAT. ☎ +54 9 351 206-5320.',
+    desc: 'Terapias respiratorias domiciliarias en Córdoba y venta de CPAP, BiPAP y concentradores de oxígeno con envío a todo el país. Alquiler con instalación en Córdoba. Cuotas con Banco Galicia. Aparatología ANMAT. ☎ +54 9 351 206-5320.',
 };
 const INSER_HOME = {
     title: 'INSER SALUD – Equipos Respiratorios CPAP, BiPAP y Oxígeno | Córdoba, Argentina',
