@@ -31,6 +31,8 @@ export const config = {
         '/equipamiento-rehabilitacion-pulmonar',
         '/comprar-concentrador-oxigeno-portatil-argentina',
         '/ventilador-stellar-150',
+        '/comprar-poligrafo-argentina',
+        '/cough-assist-asistente-de-tos',
     ],
 };
 

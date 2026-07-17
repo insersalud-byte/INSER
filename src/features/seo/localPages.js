@@ -588,6 +588,97 @@ export const localPages = [
             { label: 'Equipamiento para centros de rehabilitación', href: '/equipamiento-rehabilitacion-pulmonar' },
         ],
     },
+    {
+        slug: 'comprar-poligrafo-argentina',
+        national: true,
+        h1: 'Comprar polígrafo respiratorio para estudios del sueño',
+        metaTitle: 'Comprar Polígrafo Respiratorio | BMC YH-600B PRO | Estudios del Sueño | INSER SALUD',
+        metaTitleSalud: 'Comprar Polígrafo Respiratorio para Estudios del Sueño | INSER SALUD',
+        description: 'Venta del polígrafo respiratorio BMC YH-600B PRO para neumonólogos, clínicas del sueño y kinesiólogos: poligrafía domiciliaria de la apnea del sueño. U$S 1.570, aprobado por ANMAT, con envío a todo el país y capacitación. Consultá por WhatsApp.',
+        heroImg: '/artifacts/products/1752508033704-poligrafobmc.jfif',
+        intro: 'El polígrafo respiratorio permite estudiar la apnea del sueño en el domicilio del paciente, sin laboratorio. En INSER SALUD vendemos el BMC YH-600B PRO a profesionales de la salud (neumonólogos, clínicas del sueño, kinesiólogos y centros de diagnóstico) con envío a todo el país, capacitación de uso y soporte técnico.',
+        ctaSanti: 'Hola Santi, soy profesional de la salud y me interesa comprar el polígrafo BMC YH-600B PRO. ¿Me pasás precio, qué incluye y disponibilidad?',
+        sections: [
+            {
+                title: 'Para quién es este equipo',
+                content: 'Para profesionales e instituciones que quieren ofrecer estudios del sueño domiciliarios: neumonólogos, clínicas del sueño, centros de diagnóstico y consultorios de kinesiología respiratoria.\n\nLa poligrafía respiratoria domiciliaria es hoy la vía más accesible para diagnosticar la apnea obstructiva del sueño: el paciente duerme en su casa con el equipo colocado y el profesional analiza el registro al día siguiente. Sumar el estudio al consultorio acorta el circuito diagnóstico y fideliza al paciente que después necesita su CPAP.',
+            },
+            {
+                title: 'El equipo: BMC YH-600B PRO',
+                content: 'Polígrafo respiratorio de 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno (SpO2) y frecuencia cardíaca (oximetría de pulso). Portátil y sencillo de colocar, con software de descarga y análisis para el informe profesional.\n\nEs un equipo robusto pensado para rotar entre pacientes: se entrega a la noche, se retira a la mañana y queda listo para el siguiente estudio.',
+            },
+            {
+                title: 'Precio y compra',
+                content: 'Precio de referencia: U$S 1.570 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial.\n\nEnviamos a todo el país, con capacitación de uso y del software incluida (presencial en Córdoba, guiada a distancia en el resto del país), y quedamos como soporte técnico permanente. Emitimos factura y presupuesto formal para instituciones.',
+            },
+            {
+                title: '¿Buscás hacerte un estudio del sueño?',
+                content: 'Esta página es para profesionales que compran el equipo. Si sos paciente y querés hacerte una poligrafía en Córdoba, mirá nuestra página de estudio del sueño a domicilio, donde te explicamos cómo es el proceso y cómo seguir si el resultado da apnea.',
+            },
+        ],
+        products: [
+            { name: 'Polígrafo BMC YH-600B PRO (4 canales + software)', price: 'U$S 1.570' },
+            { name: 'CPAP BMC G2S (tratamiento post-diagnóstico)', price: '$499.000' },
+            { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$799.000' },
+        ],
+        faq: [
+            { q: '¿Quién puede comprar y usar el polígrafo?', a: 'Está orientado a profesionales e instituciones de salud (neumonólogos, clínicas del sueño, kinesiólogos, centros de diagnóstico). La interpretación del estudio la realiza el médico.' },
+            { q: '¿Qué registra el BMC YH-600B PRO?', a: 'Es un polígrafo respiratorio de 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca. Incluye software de descarga y análisis para el informe.' },
+            { q: '¿Cuánto cuesta el polígrafo?', a: 'Precio de referencia U$S 1.570, aprobado por ANMAT y con garantía oficial. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.' },
+            { q: '¿Incluye capacitación?', a: 'Sí: capacitación de uso del equipo y del software, presencial en Córdoba o guiada a distancia en el resto del país, más soporte técnico permanente.' },
+        ],
+        related: [
+            { label: 'Estudio del sueño a domicilio en Córdoba', href: '/estudio-del-sueno-cordoba' },
+            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
+        ],
+    },
+    {
+        slug: 'cough-assist-asistente-de-tos',
+        national: true,
+        h1: 'Cough Assist (asistente de tos mecánico): venta en Argentina',
+        metaTitle: 'Cough Assist | Asistente de Tos Mecánico | Venta en Argentina | ELA y AME | INSER SALUD',
+        metaTitleSalud: 'Cough Assist | Asistente de Tos Mecánico | Venta en Argentina | INSER SALUD',
+        description: 'Venta de Cough Assist (asistente de tos mecánico, insuflación-exuflación) para ELA, AME y enfermedades neuromusculares con tos débil. U$S 9.084, aprobado por ANMAT, envío a todo el país y capacitación familiar. Consultá por WhatsApp.',
+        heroImg: '/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg',
+        intro: 'El Cough Assist es un asistente de tos mecánico: mediante insuflación-exuflación reproduce una tos eficaz en pacientes que perdieron la fuerza para toser, ayudando a eliminar secreciones y prevenir infecciones respiratorias. Es un equipo clave en ELA, AME y otras enfermedades neuromusculares. Lo vendemos con envío a todo el país y capacitación para la familia.',
+        ctaSanti: 'Hola Santi, me interesa el Cough Assist (asistente de tos). ¿Me pasás precio, disponibilidad y cómo es la capacitación?',
+        sections: [
+            {
+                title: 'Qué es y cómo funciona',
+                content: 'El asistente de tos aplica una presión positiva (insuflación) que llena los pulmones y de inmediato una presión negativa (exuflación) que genera un flujo espiratorio alto, imitando la mecánica de una tos eficaz.\n\nEso permite movilizar y eliminar las secreciones bronquiales en pacientes cuya musculatura respiratoria está debilitada, de forma no invasiva, a través de una máscara o boquilla, o por traqueostomía.',
+            },
+            {
+                title: 'Para quién está indicado',
+                content: 'Para pacientes con tos débil o ineficaz por enfermedades neuromusculares: ELA (Esclerosis Lateral Amiotrófica), AME (Atrofia Muscular Espinal), distrofias musculares, lesiones medulares altas y cuadros similares.\n\nLos consensos internacionales de cuidado respiratorio en enfermedades neuromusculares recomiendan la asistencia mecánica de la tos cuando la tos espontánea deja de ser eficaz, como complemento de la ventilación no invasiva. La indicación y los parámetros los define siempre el equipo médico tratante.',
+            },
+            {
+                title: 'Precio y compra',
+                content: 'Precio de referencia: U$S 9.084 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial.\n\nEnviamos a todo el país y capacitamos a la familia y a los cuidadores en el uso seguro del equipo (presencial en Córdoba, guiada a distancia en el resto del país). Entregamos presupuesto formal y factura para gestionar el reintegro o la cobertura con la obra social.',
+            },
+            {
+                title: 'El circuito completo para el paciente neuromuscular',
+                content: 'El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo ($1.300.000) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.',
+            },
+        ],
+        products: [
+            { name: 'Cough Assist — asistente de tos mecánico', price: 'U$S 9.084' },
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: '$1.300.000' },
+            { name: 'Ventilador ResMed STELLAR 150', price: 'U$S 7.342' },
+            { name: 'Máscaras de ventilación (adultos y pediátricas)', price: 'desde $50.000' },
+        ],
+        faq: [
+            { q: '¿Qué hace exactamente un Cough Assist?', a: 'Reproduce una tos eficaz mediante insuflación-exuflación mecánica: llena los pulmones con presión positiva y de inmediato aplica presión negativa, generando el flujo que arrastra las secreciones. Es no invasivo.' },
+            { q: '¿Para qué pacientes está indicado?', a: 'Para tos débil o ineficaz por enfermedades neuromusculares: ELA, AME, distrofias musculares y lesiones medulares, entre otras. La indicación la define el equipo médico tratante.' },
+            { q: '¿Cuánto cuesta el Cough Assist en Argentina?', a: 'Precio de referencia U$S 9.084, aprobado por ANMAT con garantía oficial. Confirmá la cotización del día por WhatsApp. Entregamos presupuesto y factura para el reintegro de la obra social.' },
+            { q: '¿La familia puede aprender a usarlo?', a: 'Sí, es parte de la entrega: capacitamos a familiares y cuidadores en el uso seguro (presencial en Córdoba, a distancia en el resto del país) y quedamos como soporte permanente.' },
+        ],
+        related: [
+            { label: 'ELA (Esclerosis Lateral Amiotrófica)', href: '/patologia/esclerosis-lateral-amiotrofica' },
+            { label: 'Atrofia Muscular Espinal (AME)', href: '/patologia/atrofia-muscular-espinal' },
+            { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
+        ],
+    },
 ];
 
 // FAQ compartida: reintegro por obra social (trabajamos particular, NO facturacion

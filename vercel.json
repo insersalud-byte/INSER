@@ -95,7 +95,7 @@
         },
         {
             "source": "/cough-asisst-asistente-tos",
-            "destination": "/patologia/esclerosis-lateral-amiotrofica",
+            "destination": "/cough-assist-asistente-de-tos",
             "permanent": true
         },
         {
@@ -140,7 +140,7 @@
         },
         {
             "source": "/poligrafo-bmc-yh-600b-pro-",
-            "destination": "/estudio-del-sueno-cordoba",
+            "destination": "/comprar-poligrafo-argentina",
             "permanent": true
         },
         {

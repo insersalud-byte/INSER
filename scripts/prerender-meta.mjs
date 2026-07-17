@@ -100,6 +100,8 @@ const LOCAL_LINKS = [
     ['/equipamiento-rehabilitacion-pulmonar', 'Equipamiento para centros de rehabilitación pulmonar'],
     ['/comprar-concentrador-oxigeno-portatil-argentina', 'Comprar concentrador de oxígeno portátil (envío a todo el país)'],
     ['/ventilador-stellar-150', 'Ventilador ResMed STELLAR 150'],
+    ['/comprar-poligrafo-argentina', 'Comprar polígrafo respiratorio (estudios del sueño)'],
+    ['/cough-assist-asistente-de-tos', 'Cough Assist — asistente de tos mecánico'],
 ];
 
 const DEFINITIONS = [
