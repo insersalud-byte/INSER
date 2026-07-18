@@ -1482,6 +1482,27 @@ const LandingPage = () => {
                 ))}
             </div>
 
+            {/* ── ¿QUÉ NECESITÁS HOY? (caminos de usuario) ───────────── */}
+            <section style={{ padding: '2.5rem 1rem', background: '#fff' }}>
+                <div className={css.container}>
+                    <h2 style={{ textAlign: 'center', color: '#0f172a', fontSize: 'clamp(1.3rem, 3vw, 1.7rem)', margin: '0 0 1.5rem' }}>¿Qué necesitás hoy?</h2>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', maxWidth: 980, margin: '0 auto' }}>
+                        <a href={`https://wa.me/5493512065320?text=${encodeURIComponent('Hola, necesito alquilar un equipo hoy en Córdoba.')}`} target="_blank" rel="noopener noreferrer" style={{ display: 'block', background: '#f0fdf4', border: '1.5px solid #bbf7d0', borderRadius: '1rem', padding: '1.25rem', textDecoration: 'none' }}>
+                            <strong style={{ display: 'block', color: '#166534', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Necesito alquilar hoy</strong>
+                            <span style={{ color: '#334155', fontSize: '0.9rem' }}>Entrega e instalación a domicilio en Córdoba, en 24 hs. Escribinos y lo resolvemos.</span>
+                        </a>
+                        <button onClick={() => scrollTo('ofertas')} style={{ textAlign: 'left', cursor: 'pointer', background: '#eff6ff', border: '1.5px solid #bfdbfe', borderRadius: '1rem', padding: '1.25rem', fontFamily: 'inherit' }}>
+                            <strong style={{ display: 'block', color: '#1e40af', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Quiero comprar un equipo</strong>
+                            <span style={{ color: '#334155', fontSize: '0.9rem' }}>Precios visibles, envío a todo el país y cuotas con Banco Galicia. Mirá las ofertas.</span>
+                        </button>
+                        <button onClick={() => openSanti(null)} style={{ textAlign: 'left', cursor: 'pointer', background: '#fefce8', border: '1.5px solid #fde68a', borderRadius: '1rem', padding: '1.25rem', fontFamily: 'inherit' }}>
+                            <strong style={{ display: 'block', color: '#a16207', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Necesito asesoramiento</strong>
+                            <span style={{ color: '#334155', fontSize: '0.9rem' }}>Santi te orienta al instante según tu indicación médica. Sin turnos, las 24 hs.</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
             {/* ── PATOLOGÍAS ─────────────────────────────────────────── */}
             <section id="patologias" className={css.section}>
                 <div className={css.container}>
@@ -1967,6 +1988,28 @@ const LandingPage = () => {
                                 ¡Quiero asesorarme ahora!
                             </button>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* ── CÓMO TRABAJAMOS (proceso post-contacto) ────────────── */}
+            <section style={{ padding: '3rem 1rem', background: '#fff' }}>
+                <div className={css.container}>
+                    <h2 style={{ textAlign: 'center', color: '#0f172a', fontSize: 'clamp(1.3rem, 3vw, 1.7rem)', margin: '0 0 0.5rem' }}>Cómo trabajamos</h2>
+                    <p style={{ textAlign: 'center', color: '#475569', margin: '0 0 1.75rem', fontSize: '0.95rem' }}>Del primer mensaje al seguimiento: así es comprar o alquilar con INSER SALUD.</p>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem', maxWidth: 1050, margin: '0 auto' }}>
+                        {[
+                            ['1', 'Nos contactás', 'Por WhatsApp, teléfono, formulario o con Santi. Respondemos en minutos, todos los días.'],
+                            ['2', 'Te asesoramos', 'Elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.'],
+                            ['3', 'Entregamos e instalamos', 'En Córdoba, a domicilio en 24 hs con instalación. Al resto del país, envío con puesta en marcha guiada.'],
+                            ['4', 'Te acompañamos', 'Adaptación, soporte técnico continuo, repuestos, y factura con presupuesto formal para el reintegro de tu obra social.'],
+                        ].map(([n, t, d]) => (
+                            <div key={n} style={{ background: '#f8fafc', border: '1px solid #e8eef6', borderRadius: '1rem', padding: '1.25rem' }}>
+                                <div style={{ width: 34, height: 34, borderRadius: '50%', background: 'linear-gradient(135deg,#1e40af,#3b82f6)', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, marginBottom: '0.6rem' }}>{n}</div>
+                                <strong style={{ display: 'block', color: '#0f172a', marginBottom: '0.3rem' }}>{t}</strong>
+                                <span style={{ color: '#475569', fontSize: '0.9rem', lineHeight: 1.55 }}>{d}</span>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
