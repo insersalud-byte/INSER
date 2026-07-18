@@ -1376,7 +1376,7 @@ const LandingPage = () => {
                         <a href="tel:+5493512065320" className={css.waNavBtn} style={{ background: '#1e40af' }}>
                             <Phone size={16} /> Llamar
                         </a>
-                        <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.waNavBtn}>
+                        <a href={'https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20sitio%20de%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta.'} target="_blank" rel="noopener noreferrer" className={css.waNavBtn}>
                             <MessageCircle size={16} /> WhatsApp
                         </a>
                         <button
@@ -1402,7 +1402,7 @@ const LandingPage = () => {
                         <a href="tel:+5493512065320" className={css.mobileWa} style={{ background: '#1e40af' }}>
                             <Phone size={16} /> Llamar al +54 9 351 206-5320
                         </a>
-                        <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.mobileWa}>
+                        <a href={'https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20sitio%20de%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta.'} target="_blank" rel="noopener noreferrer" className={css.mobileWa}>
                             <MessageCircle size={16} /> Escribirnos por WhatsApp
                         </a>
                     </div>
@@ -2061,7 +2061,7 @@ const LandingPage = () => {
                         <LeadForm contexto="Home" />
                     </div>
                     <div className={css.contactGrid}>
-                        <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.contactCardWa}>
+                        <a href={'https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20sitio%20de%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta.'} target="_blank" rel="noopener noreferrer" className={css.contactCardWa}>
                             <MessageCircle size={32} />
                             <div>
                                 <strong>WhatsApp Ventas</strong>

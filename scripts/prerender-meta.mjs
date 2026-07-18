@@ -291,7 +291,7 @@ ${serviciosLocales}
 ${proceso}
 ${paths}
 ${about}
-<p>Contacto: WhatsApp ${esc(WA)} · inser.salud@gmail.com · Córdoba, Argentina</p>
+<p>Contacto: <a href="https://wa.me/5493512065320">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a> · inser.salud@gmail.com · Córdoba, Argentina</p>
 </main></div>`;
 }
 
@@ -335,7 +335,7 @@ ${faq}
 <ul>
 ${rel}
 </ul>
-<p>INSER SALUD — Córdoba, Argentina. WhatsApp ${esc(WA)} · inser.salud@gmail.com</p>
+<p>INSER SALUD — Córdoba, Argentina. <a href="https://wa.me/5493512065320">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a> · inser.salud@gmail.com</p>
 </main></div>`;
 }
 

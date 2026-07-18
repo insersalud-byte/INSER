@@ -10,6 +10,7 @@ const openSanti = (message) => {
 };
 
 const WA = 'https://wa.me/5493512065320';
+const waCtx = (h1) => `${WA}?text=${encodeURIComponent(`Hola, estoy viendo "${h1}" en insersalud.com y quiero hacer una consulta.`)}`;
 
 /**
  * LocalPage — landing SEO local (alta intención, Córdoba). Render por slug.
@@ -73,7 +74,7 @@ const LocalPage = ({ slug }) => {
                         <a href="tel:+5493512065320" style={{ ...c.waBtn, background: '#1e40af' }}>
                             <Phone size={16} /> Llamar
                         </a>
-                        <a href={WA} target="_blank" rel="noopener noreferrer" style={c.waBtn}>
+                        <a href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer" style={c.waBtn}>
                             <MessageCircle size={16} /> WhatsApp
                         </a>
                     </div>
@@ -92,8 +93,9 @@ const LocalPage = ({ slug }) => {
                     <p style={c.intro}>{data.intro}</p>
                     <div style={c.ctas}>
                         <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
-                        <a style={c.ctaWa} href={WA} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
+                        <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
                     </div>
+                    <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0.6rem 0 0' }}>Respondemos en minutos, todos los días. Santi atiende 24 hs.</p>
                 </div>
                 <img src={data.heroImg} alt={data.h1} style={c.heroImg}
                     onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
@@ -134,6 +136,19 @@ const LocalPage = ({ slug }) => {
                         </p>
                     </section>
                 )}
+
+                {/* COMO FUNCIONA */}
+                <section>
+                    <h2 style={c.h2}>Cómo funciona</h2>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.75rem' }}>
+                        {[['1','Nos contactás','WhatsApp, teléfono o formulario. Respondemos en minutos.'],['2','Te asesoramos','Elegimos el equipo según tu prescripción médica.'],['3','Entregamos','En Córdoba con instalación en 24 hs; al país, envío con puesta en marcha guiada y seguimiento.']].map(([n,t,d]) => (
+                            <div key={n} style={{ background: '#fff', border: '1px solid #e8eef6', borderRadius: '0.7rem', padding: '0.9rem 1rem' }}>
+                                <strong style={{ color: '#1e40af' }}>{n}. {t}</strong>
+                                <p style={{ ...c.p, margin: '0.3rem 0 0', fontSize: '0.88rem' }}>{d}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
 
                 {/* FAQ */}
                 <section>

@@ -252,7 +252,7 @@ const PathologyPage = () => {
                         <a href="tel:+5493512065320" className={css.waBtn} style={{ background: '#1e40af' }}>
                             <Phone size={15} /> Llamar
                         </a>
-                        <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.waBtn}>
+                        <a href={`https://wa.me/5493512065320?text=${encodeURIComponent(`Hola, estoy viendo la página de ${data?.title || 'patologías'} en insersalud.com y quiero hacer una consulta.`)}`} target="_blank" rel="noopener noreferrer" className={css.waBtn}>
                             <MessageCircle size={15} /> WhatsApp
                         </a>
                     </div>
@@ -273,7 +273,7 @@ const PathologyPage = () => {
                         <button className={css.ctaPrimary} onClick={() => openSanti(data.santiMessage)}>
                             Consultar con Santi
                         </button>
-                        <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer" className={css.ctaWa}>
+                        <a href={`https://wa.me/5493512065320?text=${encodeURIComponent(`Hola, estoy viendo la página de ${data?.title} en insersalud.com y quiero asesorarme.`)}`} target="_blank" rel="noopener noreferrer" className={css.ctaWa}>
                             <Phone size={16} /> WhatsApp directo
                         </a>
                     </div>

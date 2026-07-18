@@ -48,6 +48,14 @@ export default function LeadForm({ contexto = 'Home' }) {
                     Pagina: contexto,
                 }),
             });
+            if (!res.ok) throw new Error('FormSubmit ' + res.status);
+            // Eventos de conversion SOLO cuando el lead realmente se envio
+            if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+                window.gtag('event', 'generate_lead', { context: contexto });
+            }
+            if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+                window.fbq('track', 'Lead', { content_name: contexto });
+            }
             setStatus('done');
         } catch {
             setStatus('error');
@@ -76,7 +84,7 @@ export default function LeadForm({ contexto = 'Home' }) {
                 <div style={{ textAlign: 'center', color: '#0f172a' }}>
                     <CheckCircle size={40} color="#10b981" style={{ marginBottom: '0.5rem' }} />
                     <h3 style={{ margin: '0 0 0.4rem' }}>¡Gracias! Recibimos tu consulta</h3>
-                    <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.92rem' }}>Te vamos a contactar a la brevedad. Si querés, escribinos ahora por WhatsApp:</p>
+                    <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.92rem' }}>Nuestro equipo te va a escribir en minutos desde el <strong>+54 9 351 206-5320</strong> (guardalo así nos reconocés). Si preferís, adelantate por WhatsApp:</p>
                     <a href={waLink()} target="_blank" rel="noopener noreferrer" style={{ ...btn, textDecoration: 'none', background: '#25d366' }}>
                         <MessageCircle size={18} /> Continuar por WhatsApp
                     </a>
@@ -88,7 +96,7 @@ export default function LeadForm({ contexto = 'Home' }) {
     return (
         <form style={card} onSubmit={submit}>
             <h3 style={{ margin: '0 0 0.25rem', color: '#0f172a' }}>Dejanos tu consulta</h3>
-            <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.88rem' }}>Te contactamos a la brevedad. Sin compromiso.</p>
+            <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.88rem' }}>Respondemos en minutos, todos los días. Sin compromiso. Si tenés obra social, te preparamos presupuesto formal y factura para el reintegro.</p>
             <input style={input} type="text" placeholder="Tu nombre *" value={form.name} onChange={upd('name')} required />
             <input style={input} type="tel" placeholder="Tu teléfono / WhatsApp *" value={form.phone} onChange={upd('phone')} required />
             <textarea style={{ ...input, minHeight: 80, resize: 'vertical' }} placeholder="¿En qué te podemos ayudar? (equipo, patología, alquiler...)" value={form.message} onChange={upd('message')} />
