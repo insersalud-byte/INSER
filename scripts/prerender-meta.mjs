@@ -75,6 +75,7 @@ const PRODUCTS = [
     ['Máscara buconasal Yuwell con apoya frente', 'U$S 52', 'full face estándar'],
     ['Máscara buconasal Yuwell YF02', 'U$S 55', 'sin apoya frente'],
     ['Máscara buconasal BMC F5A', 'U$S 52', 'sin apoya frente'],
+    ['Máscara buconasal BMC F2 codo azul (terapia intensiva)', '$68.000', 'SIN FUGA, para respiradores / VNI con válvula espiratoria'],
     ['Máscara nasobucal ResMed AirFit F20 / F30', 'U$S 189,50 / U$S 212', 'full face premium'],
     ['Máscara pediátrica NeoQ Infant', 'U$S 144', 'para recién nacidos y lactantes'],
     ['Máscara pediátrica HSINER Cirri Mini', 'U$S 105', 'nasal pediátrica XS/S/M/L'],

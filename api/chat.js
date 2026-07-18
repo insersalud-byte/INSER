@@ -70,6 +70,7 @@ Saludar SIEMPRE con un "Hola" cordial y respetuoso (ej: "¡Hola! 😊 Soy Santi,
 | Concentrador KINGON P2-S3 | $2.735.400 | El más liviano del mercado, flujo pulso, batería larga duración, ideal paciente activo |
 | Concentrador YUWELL 10 Litros (alto flujo) | $2.800.000 | Estacionario de alto flujo, hasta 10 L/min (el doble del estándar). Ideal alta demanda de oxígeno y centros de rehabilitación pulmonar. Uso continuo 24hs, ruedas para traslado |
 | Máscara Nasal RESCOMF CPAP/BiPAP | $50.000 | Económica, multitalle, compatible todos los equipos |
+| Máscara Buconasal BMC F2 Codo Azul | $68.000 | SIN FUGA (no ventilada), para respiradores de terapia intensiva / VNI con válvula espiratoria. NO sirve para CPAP/BiPAP domiciliario estándar (esos usan máscara ventilada como F6 o DreamWear) |
 
 Links utiles para compartir con el cliente (usa el que corresponda al tema):
 - Comprar CPAP: https://insersalud.com/comprar-cpap-argentina (nacional) | https://insersalud.com/comprar-cpap-cordoba (Cordoba)

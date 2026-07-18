@@ -179,6 +179,20 @@ const ofertas = [
             ['Garantía', '1 año oficial'],
         ],
     },
+    {
+        name: 'Máscara Buconasal BMC F2 Codo Azul — Terapia Intensiva', slug: 'mascara-buconasal-bmc-f2-codo-azul', price: '$68.000', img: '/artifacts/products/bmc_f2_codo_azul_2.jpg', images: ['/artifacts/products/bmc_f2_codo_azul_2.jpg', '/artifacts/products/bmc_f2_codo_azul_1.jpg'], badge: 'OFERTA', note: 'SIN FUGA (no ventilada): para respiradores de terapia intensiva.', category: 'Máscara',
+        review: 'Máscara buconasal (full face) BMC F2 con codo azul SIN FUGA: a diferencia de las máscaras ventiladas de CPAP domiciliario, no tiene puertos de exhalación, por eso es la interfaz correcta para respiradores de terapia intensiva y ventilación no invasiva con válvula espiratoria en el circuito. Silicona médica hipoalergénica, arnés con apoya frente y conexión estándar de 22 mm. Ideal para clínicas, sanatorios e internación domiciliaria con ventilador. Importante: para CPAP o BiPAP domiciliario estándar corresponde una máscara ventilada (como la BMC F6 o la DreamWear).',
+        specs: [
+            ['Fabricante', 'BMC Medical'],
+            ['Tipo', 'Buconasal (full face) NO ventilada — codo azul'],
+            ['Uso', 'Respiradores de terapia intensiva / VNI con válvula espiratoria'],
+            ['Fuga', 'SIN puertos de exhalación (sin fuga intencional)'],
+            ['Conexión', 'Estándar 22 mm'],
+            ['Material', 'Silicona médica hipoalergénica'],
+            ['Importante', 'NO usar con CPAP/BiPAP domiciliario estándar (requieren máscara ventilada)'],
+            ['Garantía', '1 año oficial'],
+        ],
+    },
 ];
 
 // Catálogo completo de tienda (todos los productos)

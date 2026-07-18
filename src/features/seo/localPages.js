@@ -419,7 +419,7 @@ export const localPages = [
             },
             {
                 title: 'Precios de máscaras (referencia)',
-                content: 'Nasales: RESCOMF multitalle $50.000 (la más económica) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto $223.000 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.\n\nNasobucales (full face): BMC F6 multitalle $198.000 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face $229.000 · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
+                content: 'Nasales: RESCOMF multitalle $50.000 (la más económica) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto $223.000 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.\n\nNasobucales (full face): BMC F6 multitalle $198.000 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face $229.000 · BMC F2 codo azul SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
             },
             {
                 title: 'Máscaras pediátricas',
@@ -435,6 +435,7 @@ export const localPages = [
             { name: 'Máscara nasal Philips DreamWear — mínimo contacto', price: '$223.000' },
             { name: 'Máscara nasobucal BMC F6 multitalle (oferta)', price: '$198.000' },
             { name: 'Máscara nasobucal Philips DreamWear Full Face', price: '$229.000' },
+            { name: 'Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva', price: '$68.000' },
             { name: 'Máscaras pediátricas (NeoQ, Cirri Mini, Jirafa, Infant Kit)', price: 'desde U$S 97' },
         ],
         faq: [
