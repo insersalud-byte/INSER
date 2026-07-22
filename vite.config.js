@@ -33,6 +33,10 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+      workbox: {
+        // /tarjeta es una página estática fuera de la SPA: sin esto el SW la tapa con el shell de React
+        navigateFallbackDenylist: [/^\/tarjeta/],
+      },
       manifest: {
         name: 'Inser Salud App',
         short_name: 'InserSalud',
