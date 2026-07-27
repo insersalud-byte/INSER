@@ -19,6 +19,12 @@ export const pathologies = [
     ───────────────────────────────────────────────────────────────── */
     {
         slug: 'apnea-del-sueno',
+        faq: [
+            { q: '¿Qué equipo se usa para tratar la apnea del sueño?', a: 'El tratamiento de referencia es el CPAP, que entrega una presión de aire fija durante la noche. También existe el AutoCPAP, que ajusta la presión solo. Cuál corresponde y con qué presión lo define tu médico a partir del estudio del sueño. En INSER SALUD tenemos CPAP BMC G2S a $499.000, AutoCPAP BMC G2S a $600.000 y CPAP ResMed AirSense 10 a $799.000, todos con humidificador incluido.' },
+            { q: '¿Necesito un estudio del sueño antes de comprar el equipo?', a: 'Sí. El equipo y la presión se determinan a partir de una poligrafía respiratoria o polisomnografía indicada por tu médico. En Córdoba hacemos el estudio del sueño a domicilio: dormís en tu casa y el informe lo interpreta un profesional.' },
+            { q: '¿Puedo alquilar un CPAP antes de comprarlo?', a: 'En Córdoba sí: alquilamos CPAP con entrega e instalación a domicilio, lo que permite probar el tratamiento antes de decidir la compra. Al resto del país enviamos equipos en venta, con garantía de 2 años.' },
+            { q: '¿Cada cuánto se cambia la máscara del CPAP?', a: 'La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos máscaras nasales desde $50.000 y nasobucales, con asesoramiento para elegir la talla correcta.' },
+        ],
         title: 'Apnea del Sueño',
         metaTitle: 'APNEA DEL SUEÑO | INSER SALUD',
         headline: '¿Te despertás cansado? Podría ser Apnea del Sueño.',
@@ -262,6 +268,12 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
     ───────────────────────────────────────────────────────────────── */
     {
         slug: 'epoc',
+        faq: [
+            { q: '¿Qué equipos se usan en el tratamiento domiciliario de la EPOC?', a: 'Los más frecuentes son los concentradores de oxígeno para oxigenoterapia domiciliaria y, en casos de mayor compromiso, los equipos de ventilación no invasiva tipo BiPAP. Qué corresponde en cada caso, y con qué flujo o presión, lo indica el neumonólogo.' },
+            { q: '¿Cuántas horas por día se usa el oxígeno?', a: 'Lo define tu médico según los resultados de saturación y gases en sangre. Nuestros concentradores están preparados para uso continuo las 24 horas del día, así que soportan cualquier esquema que te hayan indicado.' },
+            { q: '¿Se puede alquilar el concentrador de oxígeno?', a: 'En Córdoba sí, con entrega e instalación a domicilio y capacitación en el uso. Es la opción habitual después de una internación o para tratamientos por tiempo definido. A todo el país vendemos con envío.' },
+            { q: '¿Sirve un concentrador portátil para salir de casa?', a: 'Sí, siempre que respete el tipo de flujo que te indicaron. Hay portátiles de flujo continuo y otros que entregan oxígeno solo por pulsos: si tu indicación es de flujo continuo, un equipo de pulsos no lo reemplaza. Te ayudamos a verificar la compatibilidad antes de comprar.' },
+        ],
         title: 'EPOC',
         metaTitle: 'EPOC | INSER SALUD',
         headline: 'Vivir con EPOC: equipamiento y acompañamiento para respirar mejor',
@@ -504,6 +516,12 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
     ───────────────────────────────────────────────────────────────── */
     {
         slug: 'fibrosis-pulmonar',
+        faq: [
+            { q: '¿Qué equipamiento se usa en la fibrosis pulmonar?', a: 'Principalmente oxigenoterapia domiciliaria con concentrador de oxígeno. El flujo en litros por minuto y las horas de uso los indica tu neumonólogo según la saturación. En rehabilitación pulmonar suelen usarse concentradores de alto flujo, como el Yuwell de 10 litros.' },
+            { q: '¿Concentrador fijo o portátil?', a: 'El fijo es para el domicilio y funciona enchufado, sin recargas. El portátil tiene batería y permite salir, viajar o hacer trámites. Muchos pacientes usan los dos: el fijo en casa y el portátil para mantener su actividad.' },
+            { q: '¿Alquilan equipos de oxígeno en Córdoba?', a: 'Sí. Alquilamos concentradores fijos y portátiles con entrega e instalación a domicilio en Córdoba Capital y alrededores. Respondemos consultas por WhatsApp todos los días.' },
+            { q: '¿Trabajan con obra social?', a: 'Vendemos de forma particular y te ayudamos con el reintegro: te damos un presupuesto formal para presentar en tu obra social o prepaga y la factura oficial para gestionar el recupero según tu plan.' },
+        ],
         title: 'Fibrosis Pulmonar',
         metaTitle: 'FIBROSIS PULMONAR | INSER SALUD',
         headline: 'Oxigenoterapia continua para una vida activa con Fibrosis Pulmonar',
@@ -740,6 +758,12 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
     ───────────────────────────────────────────────────────────────── */
     {
         slug: 'esclerosis-lateral-amiotrofica',
+        faq: [
+            { q: '¿Qué equipos se usan en la ELA?', a: 'Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a $1.300.000), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.' },
+            { q: '¿Para qué sirve el asistente de tos (Cough Assist)?', a: 'Cuando la musculatura respiratoria se debilita, la tos pierde fuerza y cuesta eliminar secreciones. El asistente de tos insufla aire y luego genera una salida rápida que imita el mecanismo de la tos, ayudando a despejar la vía aérea. Es un equipo de indicación médica.' },
+            { q: '¿Se pueden alquilar estos equipos?', a: 'En Córdoba alquilamos equipos de ventilación con entrega e instalación a domicilio. Al resto del país vendemos con envío, garantía y asesoramiento para la puesta en marcha.' },
+            { q: '¿Cómo funciona el reintegro por obra social?', a: 'Trabajamos de forma particular y te acompañamos en el trámite: preparamos el presupuesto formal con los datos del equipo indicado y emitimos factura oficial para que gestiones el reintegro con tu cobertura.' },
+        ],
         title: 'Esclerosis Lateral Amiotrófica',
         metaTitle: 'Información sobre la enfermedad ELA | INSER SALUD',
         headline: '¿Tenés Tos Suficiente? Todo sobre el soporte respiratorio en ELA',
@@ -961,6 +985,12 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
     ───────────────────────────────────────────────────────────────── */
     {
         slug: 'atrofia-muscular-espinal',
+        faq: [
+            { q: '¿Qué equipamiento respiratorio se usa en la AME?', a: 'Habitualmente ventilación no invasiva tipo BiPAP con frecuencia de respaldo y asistente de tos para el manejo de secreciones. En pacientes pediátricos se suman máscaras de tamaño adecuado. Todo el esquema lo define el equipo médico tratante.' },
+            { q: '¿Tienen máscaras pediátricas?', a: 'Sí. Contamos con máscaras nasales pediátricas y kits neonatales de distintas tallas. La elección de la interfaz es clave para la tolerancia al tratamiento, así que te asesoramos según la edad y la anatomía del paciente.' },
+            { q: '¿Hacen entrega e instalación a domicilio?', a: 'En Córdoba sí: llevamos el equipo, lo instalamos y capacitamos a la familia o al cuidador en el uso seguro. Al resto del país enviamos con instrucciones y soporte por WhatsApp.' },
+            { q: '¿Qué pasa si el equipo falla?', a: 'Todos los equipos son aparatología aprobada por ANMAT y tienen 2 años de garantía oficial. Ante cualquier problema podés escribirnos por WhatsApp; respondemos todos los días.' },
+        ],
         title: 'Atrofia Muscular Espinal',
         metaTitle: 'ATROFIA MUSCULAR ESPINAL | INSER SALUD',
         headline: 'Soporte ventilatorio especializado para AME en todas sus etapas',
@@ -1186,6 +1216,12 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contam
     ───────────────────────────────────────────────────────────────── */
     {
         slug: 'paralisis-cerebral',
+        faq: [
+            { q: '¿Qué equipos respiratorios se usan en parálisis cerebral?', a: 'Depende del grado de compromiso respiratorio. Los más frecuentes son la ventilación no invasiva tipo BiPAP y el asistente de tos cuando hay dificultad para movilizar secreciones. La indicación siempre proviene del equipo médico tratante.' },
+            { q: '¿Tienen máscaras para niños?', a: 'Sí, contamos con máscaras nasales pediátricas en varias tallas y kits neonatales. Una interfaz bien elegida mejora mucho la tolerancia del paciente al tratamiento.' },
+            { q: '¿Alquilan equipos en Córdoba?', a: 'Sí, alquilamos equipos de ventilación y oxígeno con entrega e instalación a domicilio en Córdoba, incluyendo la capacitación de la familia o el cuidador.' },
+            { q: '¿Me ayudan con el trámite de la obra social?', a: 'Sí. Trabajamos de forma particular y preparamos el presupuesto formal y la factura oficial para que puedas gestionar el reintegro con tu obra social o prepaga.' },
+        ],
         title: 'Parálisis Cerebral',
         metaTitle: 'Información para Pacientes sobre Parálisis Cerebral | INSER SALUD',
         headline: 'Máscaras BiPAP y soporte ventilatorio para Parálisis Cerebral',

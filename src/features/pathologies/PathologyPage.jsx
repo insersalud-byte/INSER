@@ -405,6 +405,23 @@ const PathologyPage = () => {
                 </div>
             </section>
 
+            {/* ── PREGUNTAS FRECUENTES (propias de la patología) ─── */}
+            {data.faq && data.faq.length > 0 && (
+                <section className={css.tipsSection}>
+                    <div className={css.container}>
+                        <h2 className={css.sectionTitle}>Preguntas frecuentes sobre {data.title}</h2>
+                        <div style={{ display: 'grid', gap: '0.8rem', maxWidth: 860, margin: '0 auto' }}>
+                            {data.faq.map((f, i) => (
+                                <div key={i} style={{ background: '#fff', border: '1px solid #e8eef6', borderRadius: '0.7rem', padding: '1rem 1.2rem' }}>
+                                    <h3 style={{ margin: '0 0 0.4rem', fontSize: '1.02rem', color: '#0f172a' }}>{f.q}</h3>
+                                    <p style={{ margin: 0, lineHeight: 1.65, color: '#334155' }}>{f.a}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            )}
+
             {/* ── SANTI CTA ──────────────────────────────────────── */}
             <section className={css.santiSection}>
                 <div className={css.container}>

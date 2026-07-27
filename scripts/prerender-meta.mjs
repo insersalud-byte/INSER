@@ -127,6 +127,25 @@ const PATH_SCHEMA = {
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const attr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 
+// Quita hasOfferCatalog (los 45 productos, ~38 KB) del bloque de negocio en las SUBPAGINAS.
+// El catalogo completo pertenece al home; repetirlo en las 23 URLs gastaba casi 1 MB del
+// presupuesto de rastreo de Google en contenido identico. Los datos del negocio (nombre,
+// telefono, direccion, areaServed, sameAs) se conservan en todas las paginas.
+function stripOfferCatalog(html) {
+    const re = /<script type="application\/ld\+json">((?:(?!<\/script>)[\s\S])*?"hasOfferCatalog"(?:(?!<\/script>)[\s\S])*?)<\/script>/;
+    const m = html.match(re);
+    if (!m) return html;
+    let obj;
+    try {
+        obj = JSON.parse(m[1]);
+    } catch {
+        return html; // ante la duda, dejar el bloque intacto
+    }
+    delete obj.hasOfferCatalog;
+    const nuevo = '<script type="application/ld+json">\n' + JSON.stringify(obj, null, 2) + '\n</script>';
+    return html.replace(re, () => nuevo);
+}
+
 // Quita el bloque JSON-LD del home que contiene un @type dado (para no duplicar en subpaginas)
 function removeLdBlock(html, typeName) {
     const re = new RegExp('<script type="application/ld\\+json">(?:(?!</script>)[\\s\\S])*?"' + typeName + '"(?:(?!</script>)[\\s\\S])*?</script>\\s*', '');
@@ -170,6 +189,18 @@ function buildPathologySchema(p, base) {
             },
         ],
     };
+    // FAQ propia de la patologia (reemplaza a la del home, que era sobre comprar CPAP en Cordoba)
+    if (p.faq && p.faq.length) {
+        graph['@graph'].push({
+            '@type': 'FAQPage',
+            '@id': `${url}#faq`,
+            mainEntity: p.faq.map(f => ({
+                '@type': 'Question',
+                name: f.q,
+                acceptedAnswer: { '@type': 'Answer', text: sinMarkdown(f.a) },
+            })),
+        });
+    }
     return `<script type="application/ld+json">\n${JSON.stringify(graph, null, 2)}\n</script>\n`;
 }
 
@@ -318,6 +349,11 @@ function buildPathologyBody(p, isSalud) {
     const secs = (p.sections || []).map(s =>
         `<section><h2>${esc(s.title)}</h2>${textToHtml(s.content)}</section>`
     ).join('\n');
+    const faqs = (p.faq && p.faq.length)
+        ? `<section><h2>Preguntas frecuentes sobre ${esc(p.title)}</h2>\n` +
+          p.faq.map(f => `<h3>${esc(f.q)}</h3><p>${inlineLinks(esc(f.a))}</p>`).join('\n') +
+          `\n</section>`
+        : '';
     return `<div id="ssr-content"><main>
 <nav><a href="/">Inicio</a> › <a href="/patologia/${esc(p.slug)}">${esc(p.title)}</a></nav>
 <h1>${esc(p.title)}${esc(sufijo)}</h1>
@@ -326,7 +362,8 @@ ${p.subtitle ? `<p>${esc(p.subtitle)}</p>` : ''}
 ${p.intro ? `<p>${inlineLinks(esc(p.intro))}</p>` : ''}
 ${p.description ? `<p>${esc(p.description)}</p>` : ''}
 ${secs}
-<p>INSER SALUD — equipos y asesoramiento para ${esc(p.title)} en Córdoba. WhatsApp ${esc(WA)}.</p>
+${faqs}
+<p>INSER SALUD — equipos y asesoramiento para ${esc(p.title)} en Córdoba. <a href="https://wa.me/5493512065320">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a>.</p>
 </main></div>`;
 }
 
@@ -433,6 +470,8 @@ try {
     const buildPathologyPage = (p, base, title, desc, isSalud) => {
         let h = applyMeta(tpl, { title, desc, url: `${base}/patologia/${p.slug}` });
         h = removeLdBlock(h, 'BreadcrumbList'); // quitar breadcrumb generico del home
+        h = removeLdBlock(h, 'FAQPage');        // la FAQ del home es sobre comprar CPAP, no sobre la patologia
+        h = stripOfferCatalog(h);               // el catalogo de 45 productos va solo en el home
         h = h.replace('</head>', buildPathologySchema(p, base) + '</head>'); // schema medico propio
         h = injectBody(h, buildPathologyBody(p, isSalud)); // contenido real
         return h;
@@ -454,6 +493,7 @@ try {
         let h = applyMeta(tpl, { title, desc: p.description, url: `${base}/${p.slug}` });
         h = removeLdBlock(h, 'BreadcrumbList');   // quitar breadcrumb generico del home
         h = removeLdBlock(h, 'FAQPage');          // reemplazar FAQ del home por la de la pagina
+        h = stripOfferCatalog(h);                 // el catalogo de 45 productos va solo en el home
         h = h.replace('</head>', buildLocalSchema(p, base) + '</head>');
         h = injectBody(h, buildLocalBody(p));
         return h;
