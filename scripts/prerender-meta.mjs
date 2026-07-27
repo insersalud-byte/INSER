@@ -186,13 +186,16 @@ function textToHtml(text) {
 function applyMeta(tpl, { title, desc, url }) {
     let html = tpl;
     html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${attr(title)}<\/title>`);
-    html = html.replace(/(<meta\s+name="description"\s+content=")[^"]*(")/, `$1${attr(desc)}$2`);
-    html = html.replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/, `$1${attr(title)}$2`);
-    html = html.replace(/(<meta\s+property="og:description"\s+content=")[^"]*(")/, `$1${attr(desc)}$2`);
-    html = html.replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/, `$1${attr(url)}$2`);
-    html = html.replace(/(<meta\s+name="twitter:description"\s+content=")[^"]*(")/, `$1${attr(desc)}$2`);
+    // OJO: usar SIEMPRE funcion de reemplazo, nunca template string. Con `$1${desc}$2` cualquier
+    // precio que empiece con $1 o $2 ($223.000, $2.800.000) se interpreta como grupo de captura
+    // y corta el atributo a la mitad. Rompio 3 meta descriptions hasta jul 2026.
+    html = html.replace(/(<meta\s+name="description"\s+content=")[^"]*(")/, (m, a, b) => a + attr(desc) + b);
+    html = html.replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/, (m, a, b) => a + attr(title) + b);
+    html = html.replace(/(<meta\s+property="og:description"\s+content=")[^"]*(")/, (m, a, b) => a + attr(desc) + b);
+    html = html.replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/, (m, a, b) => a + attr(url) + b);
+    html = html.replace(/(<meta\s+name="twitter:description"\s+content=")[^"]*(")/, (m, a, b) => a + attr(desc) + b);
     if (/<link\s+rel="canonical"/.test(html)) {
-        html = html.replace(/(<link\s+rel="canonical"\s+href=")[^"]*(")/, `$1${attr(url)}$2`);
+        html = html.replace(/(<link\s+rel="canonical"\s+href=")[^"]*(")/, (m, a, b) => a + attr(url) + b);
     } else {
         html = html.replace(/<\/head>/, `  <link rel="canonical" href="${attr(url)}" />\n</head>`);
     }

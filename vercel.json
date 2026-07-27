@@ -267,6 +267,46 @@
       "source": "/equipos-de-terapia-respiratoria-1",
       "destination": "/#tienda",
       "permanent": true
+    },
+    {
+      "source": "/cpap-bmc-g2s1",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-estacionario",
+      "destination": "/comprar-concentrador-oxigeno-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/mascara-buconasal-bmc-f2-codo-azul",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/mascara-nasal-bmc-multitalle-para-cpap-y-bipap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/mascarilla-nasobucal-airfit-f20-resmed-cpapbpap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitacion-pulmonar",
+      "destination": "/equipamiento-rehabilitacion-pulmonar",
+      "permanent": true
+    },
+    {
+      "source": "/oxigeno-liquido",
+      "destination": "/comprar-concentrador-oxigeno-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/neuromusculares",
+      "destination": "/bipap-cordoba",
+      "permanent": true
     }
   ],
   "headers": [
