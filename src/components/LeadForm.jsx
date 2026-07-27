@@ -29,14 +29,8 @@ export default function LeadForm({ contexto = 'Home' }) {
         e.preventDefault();
         if (!form.name.trim() || !form.phone.trim() || status === 'sending') return;
         setStatus('sending');
-        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-            window.gtag('event', 'generate_lead', { context: contexto });
-        }
-        if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
-            window.fbq('track', 'Lead', { content_name: contexto });
-        }
         try {
-            await fetch(FORM_ENDPOINT, {
+            const res = await fetch(FORM_ENDPOINT, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
                 body: JSON.stringify({

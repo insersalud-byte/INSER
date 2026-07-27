@@ -1204,7 +1204,7 @@ const ProductGallery = ({ images, name }) => {
     return (
         <div className={css.galleryWrap}>
             <div className={css.galleryMain}>
-                <img src={images[idx]} alt={`${name} (${idx + 1}/${total})`} />
+                <img src={images[idx]} alt={`${name} (${idx + 1}/${total})`} loading="lazy" decoding="async" />
                 {total > 1 && (
                     <>
                         <button className={`${css.galleryNav} ${css.galleryPrev}`} onClick={prev} aria-label="Anterior">‹</button>
@@ -1222,7 +1222,7 @@ const ProductGallery = ({ images, name }) => {
                             onClick={(e) => { e.stopPropagation(); setIdx(i); }}
                             aria-label={`Imagen ${i + 1}`}
                         >
-                            <img src={src} alt={`${name} thumb ${i + 1}`} />
+                            <img src={src} alt={`${name} thumb ${i + 1}`} loading="lazy" decoding="async" />
                         </button>
                     ))}
                 </div>
@@ -1521,7 +1521,7 @@ const LandingPage = () => {
                                     style={{ cursor: 'pointer' }}
                                 >
                                     <div className={css.pathImgContainer}>
-                                        <img src={p.img} alt={p.name} />
+                                        <img src={p.img} alt={p.name} loading="lazy" decoding="async" />
                                         <div className={css.pathImgOverlay}>
                                             <p.icon size={32} />
                                             <span>Ver más info →</span>
@@ -1666,7 +1666,7 @@ const LandingPage = () => {
                                     {/* Imagen de portada */}
                                     {g.img && (
                                         <div className={css.guiaImgWrap}>
-                                            <img src={g.img} alt={g.title} className={css.guiaImg} />
+                                            <img src={g.img} alt={g.title} className={css.guiaImg} loading="lazy" decoding="async" />
                                             <div className={css.guiaImgOverlay} style={{ background: `linear-gradient(to bottom, transparent 40%, ${g.color}22 100%)` }} />
                                         </div>
                                     )}
@@ -1790,7 +1790,7 @@ const LandingPage = () => {
                                     onClick={() => setSpecsProduct(p)}
                                     aria-label={`Ver galería de ${p.name}`}
                                 >
-                                    <img src={p.img} alt={p.name} />
+                                    <img src={p.img} alt={p.name} loading="lazy" decoding="async" />
                                     {gCount > 1 && <span className={css.galleryCountBadge}>📸 {gCount}</span>}
                                 </button>
                                 <h4>{p.name}</h4>
@@ -1851,7 +1851,7 @@ const LandingPage = () => {
                                         <div key={i} className={css.productCard}>
                                             {p.badge && <span className={css.cardBadge}>{p.badge}</span>}
                                             <button className={css.productImgContainer} onClick={() => setSpecsProduct(p)}>
-                                                <img src={p.img} alt={p.name} />
+                                                <img src={p.img} alt={p.name} loading="lazy" decoding="async" />
                                                 {gCount > 1 && <span className={css.galleryCountBadge}>📸 {gCount}</span>}
                                             </button>
                                             <h4>{p.name}</h4>
@@ -1895,7 +1895,7 @@ const LandingPage = () => {
                             return (
                             <div key={i} className={`${css.serviceCard} ${isExp ? css.serviceCardExpanded : ''}`}>
                                 <div className={css.serviceImgContainer}>
-                                    <img src={s.img} alt={s.title} className={s.focusTop ? css.imgTop : ''} />
+                                    <img src={s.img} alt={s.title} className={s.focusTop ? css.imgTop : ''} loading="lazy" decoding="async" />
                                 </div>
                                 <div className={css.serviceInfo}>
                                     <h3>{s.title}</h3>
@@ -2108,7 +2108,7 @@ const LandingPage = () => {
             <footer className={css.footer}>
                 <div className={css.footerInner}>
                     <div className={css.footerBrand}>
-                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" className={css.footerLogo}
+                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" className={css.footerLogo} loading="lazy" decoding="async"
                             onError={(e) => { e.target.style.display = 'none'; }} />
                         <p>Especialistas en terapias respiratorias domiciliarias. Córdoba, Argentina.</p>
                     </div>

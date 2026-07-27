@@ -360,7 +360,7 @@ const PathologyPage = () => {
                             <div key={i} className={css.productCard}>
                                 {p.badge && <span className={css.productBadge}>{p.badge}</span>}
                                 <div className={css.productImg}>
-                                    <img src={p.img} alt={p.name}
+                                    <img src={p.img} alt={p.name} loading="lazy" decoding="async"
                                         onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                                 </div>
                                 <h4>{p.name}</h4>
@@ -439,7 +439,7 @@ const PathologyPage = () => {
                         {others.map((o, i) => (
                             <Link key={i} to={`/patologia/${o.slug}`} className={css.otherCard} style={{ '--other-color': o.color }}>
                                 <div className={css.otherImg}>
-                                    <img src={o.heroImg} alt={o.title}
+                                    <img src={o.heroImg} alt={o.title} loading="lazy" decoding="async"
                                         onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                                 </div>
                                 <div className={css.otherBody}>

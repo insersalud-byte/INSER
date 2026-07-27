@@ -1,272 +1,309 @@
 {
-    "buildCommand": "npm run build",
-    "outputDirectory": "dist",
-    "rewrites": [
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/cpap-resmed-airsense-10",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/cpap-bmc-g2s",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/oferta-autocpap-bmc-g2s-m1-mini-con-almohadillas-nasales-con-humidificador-p2h-",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador",
+      "destination": "/bipap-cordoba",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico",
+      "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-bmc-estacionario",
+      "destination": "/comprar-concentrador-oxigeno-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias",
+      "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/mascarilla-nasal-cpap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/mascara-nasal-para-cpap-y-bipap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/mascarilla-nasobucal-dreamwear-philips-cpap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/autocpap-bmc-g2s",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/autocpap-philips-dreamstation-con-humidificador-y-conectividad-",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/cpap-philips-dreamstation-con-humidificador-y-conectividad-",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/cpap-resmed-airsense-10-con-humidificador-y-conectividad",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/autocpap-resmed-airsense-10-con-nube",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/stellar-50-resmed-con-humidificador-y-bateria",
+      "destination": "/ventilador-stellar-150",
+      "permanent": true
+    },
+    {
+      "source": "/cough-asisst-asistente-tos",
+      "destination": "/cough-assist-asistente-de-tos",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-portatil-kingon-p2-toc",
+      "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-yuwell-10-litros",
+      "destination": "/concentrador-oxigeno-10-litros",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-estacionario1",
+      "destination": "/comprar-concentrador-oxigeno-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/nascara-nasal-con-apoya-frente-bmc-n4-talle-m-l",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/nascara-nasal-pediatrica-neoq-infant-nasal-xs-s-m-l",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/buconasal-con-apoya-frente-yuwell-cpapbpap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/buconasal-sin-apoya-frente-yuwell-yf02-cpapbpap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/cpap-yuwell-yh-360-con-humidificador",
+      "destination": "/comprar-cpap-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/poligrafo-bmc-yh-600b-pro-",
+      "destination": "/comprar-poligrafo-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-portatil-kingon-p2-e7",
+      "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-portatil-kingon-p2-e6",
+      "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-portatil",
+      "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/concentrador-de-oxigeno-portatil-simplygo",
+      "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
+      "permanent": true
+    },
+    {
+      "source": "/mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga",
+      "destination": "/oxigeno-a-domicilio-cordoba",
+      "permanent": true
+    },
+    {
+      "source": "/tubuladura-para-cpap-bipap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/nascara-nasal-pediatrica-nasal-hsiner-cirri-mini-s-m-l-xs",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/nascara-nasal-peditrica-jirafa-philips-respironics",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/nascara-nasal-pediatrica-infant-cpap-kit-00-0-1-2-3-4-5",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/nascara-nasal-sin-apoya-frente-bmc-n5a-talles-swsm-",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/buconasal-sin-apoya-frente-bmc-sml-f5a-cpapbpap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/-mascara-nasal-airfit-mimimo-contacto-talles-swsm-resmed",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/mascarilla-nasobucal-airfit-f30-resmed-cpapbpap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/mascara-nasal-yuwell-pillow-l-o-m-yp-01-para-cpap-y-bipap",
+      "destination": "/mascaras-cpap",
+      "permanent": true
+    },
+    {
+      "source": "/apnea-del-sueno",
+      "destination": "/patologia/apnea-del-sueno",
+      "permanent": true
+    },
+    {
+      "source": "/epoc",
+      "destination": "/patologia/epoc",
+      "permanent": true
+    },
+    {
+      "source": "/fibrosis-pulmonar",
+      "destination": "/patologia/fibrosis-pulmonar",
+      "permanent": true
+    },
+    {
+      "source": "/esclerosis-lateral-amiotrofica",
+      "destination": "/patologia/esclerosis-lateral-amiotrofica",
+      "permanent": true
+    },
+    {
+      "source": "/atrofia-muscular-espinal",
+      "destination": "/patologia/atrofia-muscular-espinal",
+      "permanent": true
+    },
+    {
+      "source": "/paralisis-cerebral",
+      "destination": "/patologia/paralisis-cerebral",
+      "permanent": true
+    },
+    {
+      "source": "/servicios",
+      "destination": "/#servicios",
+      "permanent": true
+    },
+    {
+      "source": "/tienda",
+      "destination": "/#tienda",
+      "permanent": true
+    },
+    {
+      "source": "/contacto",
+      "destination": "/#contacto",
+      "permanent": true
+    },
+    {
+      "source": "/equipos-de-terapia-respiratoria",
+      "destination": "/#tienda",
+      "permanent": true
+    },
+    {
+      "source": "/equipos-de-terapia-respiratoria-1",
+      "destination": "/#tienda",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
         {
-            "source": "/((?!api/).*)",
-            "destination": "/index.html"
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
-    ],
-    "redirects": [
+      ]
+    },
+    {
+      "source": "/artifacts/(.*)",
+      "headers": [
         {
-            "source": "/cpap-resmed-airsense-10",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/cpap-bmc-g2s",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/oferta-autocpap-bmc-g2s-m1-mini-con-almohadillas-nasales-con-humidificador-p2h-",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador",
-            "destination": "/bipap-cordoba",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico",
-            "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-bmc-estacionario",
-            "destination": "/comprar-concentrador-oxigeno-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias",
-            "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/mascarilla-nasal-cpap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/mascara-nasal-para-cpap-y-bipap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/mascarilla-nasobucal-dreamwear-philips-cpap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/autocpap-bmc-g2s",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/autocpap-philips-dreamstation-con-humidificador-y-conectividad-",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/cpap-philips-dreamstation-con-humidificador-y-conectividad-",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/cpap-resmed-airsense-10-con-humidificador-y-conectividad",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/autocpap-resmed-airsense-10-con-nube",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/stellar-50-resmed-con-humidificador-y-bateria",
-            "destination": "/ventilador-stellar-150",
-            "permanent": true
-        },
-        {
-            "source": "/cough-asisst-asistente-tos",
-            "destination": "/cough-assist-asistente-de-tos",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-portatil-kingon-p2-toc",
-            "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-yuwell-10-litros",
-            "destination": "/concentrador-oxigeno-10-litros",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-estacionario1",
-            "destination": "/comprar-concentrador-oxigeno-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/nascara-nasal-con-apoya-frente-bmc-n4-talle-m-l",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/nascara-nasal-pediatrica-neoq-infant-nasal-xs-s-m-l",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/buconasal-con-apoya-frente-yuwell-cpapbpap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/buconasal-sin-apoya-frente-yuwell-yf02-cpapbpap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/cpap-yuwell-yh-360-con-humidificador",
-            "destination": "/comprar-cpap-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/poligrafo-bmc-yh-600b-pro-",
-            "destination": "/comprar-poligrafo-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-portatil-kingon-p2-e7",
-            "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-portatil-kingon-p2-e6",
-            "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-portatil",
-            "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/concentrador-de-oxigeno-portatil-simplygo",
-            "destination": "/comprar-concentrador-oxigeno-portatil-argentina",
-            "permanent": true
-        },
-        {
-            "source": "/mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga",
-            "destination": "/oxigeno-a-domicilio-cordoba",
-            "permanent": true
-        },
-        {
-            "source": "/tubuladura-para-cpap-bipap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/nascara-nasal-pediatrica-nasal-hsiner-cirri-mini-s-m-l-xs",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/nascara-nasal-peditrica-jirafa-philips-respironics",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/nascara-nasal-pediatrica-infant-cpap-kit-00-0-1-2-3-4-5",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/nascara-nasal-sin-apoya-frente-bmc-n5a-talles-swsm-",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/buconasal-sin-apoya-frente-bmc-sml-f5a-cpapbpap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/-mascara-nasal-airfit-mimimo-contacto-talles-swsm-resmed",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/mascarilla-nasobucal-airfit-f30-resmed-cpapbpap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/mascara-nasal-yuwell-pillow-l-o-m-yp-01-para-cpap-y-bipap",
-            "destination": "/mascaras-cpap",
-            "permanent": true
-        },
-        {
-            "source": "/apnea-del-sueno",
-            "destination": "/patologia/apnea-del-sueno",
-            "permanent": true
-        },
-        {
-            "source": "/epoc",
-            "destination": "/patologia/epoc",
-            "permanent": true
-        },
-        {
-            "source": "/fibrosis-pulmonar",
-            "destination": "/patologia/fibrosis-pulmonar",
-            "permanent": true
-        },
-        {
-            "source": "/esclerosis-lateral-amiotrofica",
-            "destination": "/patologia/esclerosis-lateral-amiotrofica",
-            "permanent": true
-        },
-        {
-            "source": "/atrofia-muscular-espinal",
-            "destination": "/patologia/atrofia-muscular-espinal",
-            "permanent": true
-        },
-        {
-            "source": "/paralisis-cerebral",
-            "destination": "/patologia/paralisis-cerebral",
-            "permanent": true
-        },
-        {
-            "source": "/servicios",
-            "destination": "/#servicios",
-            "permanent": true
-        },
-        {
-            "source": "/tienda",
-            "destination": "/#tienda",
-            "permanent": true
-        },
-        {
-            "source": "/contacto",
-            "destination": "/#contacto",
-            "permanent": true
-        },
-        {
-            "source": "/equipos-de-terapia-respiratoria",
-            "destination": "/#tienda",
-            "permanent": true
-        },
-        {
-            "source": "/equipos-de-terapia-respiratoria-1",
-            "destination": "/#tienda",
-            "permanent": true
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
         }
-    ]
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    }
+  ]
 }

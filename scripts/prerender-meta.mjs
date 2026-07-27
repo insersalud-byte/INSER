@@ -402,8 +402,10 @@ try {
 
     let count = 0;
 
-    // HOME inser.ar (meta ya esta en tpl; solo inyecto body)
-    write(DIST, injectBody(applyMeta(tpl, { ...INSER_HOME, url: INSER + '/' }), buildHomeBody('inser')));
+    // dist/index.html: ademas de la variante inser.ar (dormida, el dominio redirige 308), este archivo
+    // es el que Vercel sirve como fallback para CUALQUIER URL inexistente. Por eso su canonical debe
+    // apuntar a insersalud.com: asi los soft-404 se consolidan en el home real y no en un dominio que redirige.
+    write(DIST, injectBody(applyMeta(tpl, { ...INSER_HOME, url: SALUD + '/' }), buildHomeBody('inser')));
     count++;
     // HOME insersalud.com
     write(resolve(DIST, 'insersalud'), injectBody(applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }), buildHomeBody('salud')));
