@@ -307,6 +307,11 @@
       "source": "/neuromusculares",
       "destination": "/bipap-cordoba",
       "permanent": true
+    },
+    {
+      "source": "/oxigenoterapia",
+      "destination": "/oxigeno-a-domicilio-cordoba",
+      "permanent": true
     }
   ],
   "headers": [
