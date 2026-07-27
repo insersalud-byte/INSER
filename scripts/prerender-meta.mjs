@@ -173,13 +173,28 @@ function buildPathologySchema(p, base) {
     return `<script type="application/ld+json">\n${JSON.stringify(graph, null, 2)}\n</script>\n`;
 }
 
+// Enlaces internos inline estilo markdown: [texto](/ruta) -> <a href="/ruta">texto</a>
+// Se aplica DESPUES de esc() para no escapar las etiquetas que generamos.
+// OJO: funcion de reemplazo, nunca template string (ver regla de $1/$2 en applyMeta).
+// Quita la sintaxis [texto](/ruta) para textos que van en atributos (meta, title)
+function sinMarkdown(s) {
+    return String(s || '').replace(/\[([^\]]+)\]\(\/[^)\s]*\)/g, (m, texto) => texto);
+}
+
+function inlineLinks(htmlEscapado) {
+    return htmlEscapado.replace(
+        /\[([^\]]+)\]\((\/[^)\s]*)\)/g,
+        (m, texto, href) => '<a href="' + href + '">' + texto + '</a>'
+    );
+}
+
 // Convierte el texto multilinea de pathologyData en HTML (parrafos + saltos)
 function textToHtml(text) {
     if (!text) return '';
     return String(text)
         .trim()
         .split(/\n\s*\n/)
-        .map(block => `<p>${esc(block.trim()).replace(/\n/g, '<br>')}</p>`)
+        .map(block => `<p>${inlineLinks(esc(block.trim())).replace(/\n/g, '<br>')}</p>`)
         .join('\n');
 }
 
@@ -308,7 +323,7 @@ function buildPathologyBody(p, isSalud) {
 <h1>${esc(p.title)}${esc(sufijo)}</h1>
 ${p.headline ? `<p><strong>${esc(p.headline)}</strong></p>` : ''}
 ${p.subtitle ? `<p>${esc(p.subtitle)}</p>` : ''}
-${p.intro ? `<p>${esc(p.intro)}</p>` : ''}
+${p.intro ? `<p>${inlineLinks(esc(p.intro))}</p>` : ''}
 ${p.description ? `<p>${esc(p.description)}</p>` : ''}
 ${secs}
 <p>INSER SALUD — equipos y asesoramiento para ${esc(p.title)} en Córdoba. WhatsApp ${esc(WA)}.</p>
@@ -328,7 +343,7 @@ function buildLocalBody(p) {
     return `<div id="ssr-content"><main>
 <nav><a href="/">Inicio</a> › <span>${esc(p.h1)}</span></nav>
 <h1>${esc(p.h1)}</h1>
-<p>${esc(p.intro)}</p>
+<p>${inlineLinks(esc(p.intro))}</p>
 <p>Aparatología aprobada por ANMAT · ${p.national ? 'Envío a todo el país' : 'Entrega a domicilio 24 hs en Córdoba'} · 2 años de garantía · +500 pacientes.</p>
 ${secs}
 ${prods}
@@ -424,7 +439,7 @@ try {
     };
     for (const p of pathologies) {
         const baseTitle = p.metaTitle || `${p.title} | INSER SALUD`;
-        const desc = p.subtitle || p.intro || '';
+        const desc = sinMarkdown(p.subtitle || p.intro || '');
         // inser.ar
         write(resolve(DIST, 'patologia', p.slug), buildPathologyPage(p, INSER, baseTitle, desc, false));
         count++;

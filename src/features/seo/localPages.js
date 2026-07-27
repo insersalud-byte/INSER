@@ -33,7 +33,7 @@ export const localPages = [
             },
             {
                 title: '¿Qué incluye?',
-                content: 'El alquiler incluye el equipo CPAP o AutoCPAP, la máscara (nasal o nasobucal según tu caso), el humidificador, la tubuladura, la instalación a domicilio y el seguimiento. Aparatología aprobada por ANMAT. Si más adelante querés comprar tu propio equipo, te asesoramos para pasar de alquiler a compra.',
+                content: 'El alquiler incluye el equipo CPAP o AutoCPAP, la [máscara (nasal o nasobucal según tu caso)](/mascaras-cpap), el humidificador, la tubuladura, la instalación a domicilio y el seguimiento. Aparatología aprobada por ANMAT. Si más adelante querés comprar tu propio equipo, te asesoramos para pasar de alquiler a compra.',
             },
         ],
         products: [
@@ -147,7 +147,7 @@ export const localPages = [
         sections: [
             {
                 title: '¿Qué es la poligrafía respiratoria?',
-                content: 'Es un estudio del sueño que se realiza en tu propia casa con un equipo (polígrafo) que registra durante la noche tu respiración, el flujo de aire, los ronquidos, el oxígeno en sangre y las pausas respiratorias.\n\nEs cómodo, no invasivo y permite detectar la apnea obstructiva del sueño sin tener que dormir en un laboratorio.',
+                content: 'Es un estudio del sueño que se realiza en tu propia casa con un equipo ([polígrafo respiratorio](/comprar-poligrafo-argentina)) que registra durante la noche tu respiración, el flujo de aire, los ronquidos, el oxígeno en sangre y las pausas respiratorias.\n\nEs cómodo, no invasivo y permite detectar la apnea obstructiva del sueño sin tener que dormir en un laboratorio.',
             },
             {
                 title: 'Señales de que podrías tener apnea del sueño',
@@ -187,7 +187,7 @@ export const localPages = [
         sections: [
             { title: '¿Qué es un BiPAP y cuándo se usa?', content: 'El BiPAP (o BPAP) entrega dos niveles de presión: uno mayor al inhalar (IPAP) y otro menor al exhalar (EPAP), lo que facilita la respiración. Puede incluir frecuencia respiratoria de respaldo (modo S/T).\n\nSe indica en EPOC, enfermedades neuromusculares (ELA, AME), síndrome de hipoventilación y en apnea del sueño compleja que no responde al CPAP.' },
             { title: 'BiPAP o CPAP: ¿cuál necesito?', content: 'El CPAP entrega una sola presión continua y es el tratamiento estándar de la apnea del sueño. El BiPAP entrega dos presiones y se usa cuando hace falta asistir tanto la inhalación como la exhalación, o cuando se necesitan presiones altas que con CPAP serían incómodas.\n\nLa indicación la define tu médico; nosotros te ayudamos a elegir el equipo correcto.' },
-            { title: 'Venta y alquiler con soporte', content: 'Vendemos y alquilamos BiPAP en Córdoba con entrega e instalación a domicilio, configuración según tu prescripción, máscara adecuada y soporte técnico continuo. Aparatología aprobada por ANMAT con garantía.' },
+            { title: 'Venta y alquiler con soporte', content: 'Vendemos y alquilamos BiPAP en Córdoba con entrega e instalación a domicilio, configuración según tu prescripción, [máscara adecuada](/mascaras-cpap) y soporte técnico continuo. Aparatología aprobada por ANMAT con garantía.' },
             {
                 title: 'Evidencia científica: la ventilación no invasiva en EPOC y enfermedades neuromusculares',
                 content: 'La ventilación no invasiva (VNI) con dos niveles de presión es uno de los tratamientos con mayor respaldo en medicina respiratoria. En las exacerbaciones de EPOC con retención de dióxido de carbono, la VNI reduce la necesidad de intubación y la mortalidad, y es el estándar de cuidado recomendado por las guías internacionales (GOLD).\n\nEn EPOC estable con hipercapnia crónica, el ensayo de Köhnlein y colaboradores (2014) mostró que la VNI domiciliaria bien configurada mejora la sobrevida, y el ensayo HOT-HMV (Murphy y col., 2017) demostró que sumar VNI al oxígeno domiciliario tras una exacerbación prolonga el tiempo libre de reinternaciones.\n\nEn enfermedades neuromusculares como la ELA, el trabajo de Bourke y colaboradores (2006) demostró que la VNI mejora tanto la sobrevida como la calidad de vida, y las guías la recomiendan de forma temprana cuando aparecen signos de hipoventilación. Para estos pacientes es clave que el equipo cuente con frecuencia respiratoria de respaldo (modo S/T), como el BiPAP BMC G3.\n\nNota: la indicación de VNI, los modos y las presiones los define siempre el médico tratante. Esta reseña es informativa. Última revisión: julio 2026.',
@@ -220,7 +220,7 @@ export const localPages = [
         intro: 'En INSER SALUD llevamos el oxígeno a tu casa en Córdoba. Ofrecemos oxigenoterapia domiciliaria con concentradores de oxígeno fijos y portátiles, en venta y alquiler, con entrega, instalación y capacitación de uso.',
         ctaSanti: 'Hola Santi, necesito oxígeno a domicilio en Córdoba. ¿Qué opciones tienen y cómo es la entrega?',
         sections: [
-            { title: '¿Qué es la oxigenoterapia domiciliaria?', content: 'Es el aporte de oxígeno suplementario en el hogar cuando la saturación de oxígeno en sangre es baja. Se indica en EPOC, fibrosis pulmonar, secuelas post-COVID y otros cuadros respiratorios crónicos, siempre según prescripción médica (flujo en litros por minuto).' },
+            { title: '¿Qué es la oxigenoterapia domiciliaria?', content: 'Es el aporte de oxígeno suplementario en el hogar cuando la saturación de oxígeno en sangre es baja. Se indica en EPOC, [fibrosis pulmonar](/patologia/fibrosis-pulmonar), secuelas post-COVID y otros cuadros respiratorios crónicos, siempre según prescripción médica (flujo en litros por minuto).' },
             { title: 'Concentrador, tubo o mochila de oxígeno', content: 'El concentrador estacionario filtra el aire y entrega oxígeno de forma continua en el hogar, sin recargas. El concentrador portátil tiene batería para salir. También contamos con tubos y mochilas de oxígeno para traslados. Te ayudamos a elegir según tu necesidad.' },
             { title: 'Entrega e instalación a domicilio en 24 hs', content: 'Llevamos el equipo a tu casa en Córdoba, lo instalamos y te capacitamos en el uso seguro. Incluye soporte técnico. Disponible en venta y alquiler. Aparatología aprobada por ANMAT.' },
         ],
@@ -294,7 +294,7 @@ export const localPages = [
             },
             {
                 title: 'Garantía, ANMAT y respaldo',
-                content: 'Todos los equipos son aparatología aprobada por ANMAT, con 2 años de garantía oficial. Conseguís repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.',
+                content: 'Todos los equipos son aparatología aprobada por ANMAT, con 2 años de garantía oficial. Conseguís repuestos ([máscaras](/mascaras-cpap), filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.',
             },
             {
                 title: 'Evidencia científica: por qué el CPAP es el tratamiento de referencia',
@@ -367,7 +367,7 @@ export const localPages = [
         metaTitleSalud: 'Concentrador de Oxígeno 10 Litros Yuwell $2.800.000 | INSER',
         description: 'Concentrador de alto flujo hasta 10 L/min, el doble del estándar, para alta demanda de oxígeno y rehabilitación pulmonar. $2.800.000, ANMAT y envío a todo el país.',
         heroImg: '/artifacts/products/concentrador_yuwell_10l_2.jpg',
-        intro: 'El concentrador de oxígeno YUWELL de 10 litros entrega alto flujo (hasta 10 L/min, el doble del concentrador estándar de 5 L). Está pensado para pacientes con alta demanda de oxígeno y para centros de rehabilitación pulmonar. Se vende con envío a todo el país; $2.800.000, aprobado por ANMAT.',
+        intro: 'El concentrador de oxígeno YUWELL de 10 litros entrega alto flujo (hasta 10 L/min, el doble del concentrador estándar de 5 L). Está pensado para pacientes con alta demanda de oxígeno y para [centros de rehabilitación pulmonar](/equipamiento-rehabilitacion-pulmonar). Se vende con envío a todo el país; $2.800.000, aprobado por ANMAT.',
         ctaSanti: 'Hola Santi, me interesa el concentrador de oxígeno de 10 litros (alto flujo). ¿Me das más información y disponibilidad?',
         sections: [
             {
@@ -425,7 +425,7 @@ export const localPages = [
             },
             {
                 title: 'Máscaras pediátricas',
-                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: NeoQ Infant para recién nacidos y lactantes (U$S 144), HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Jirafa de Philips Respironics con diseño amigable (U$S 220) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, parálisis cerebral y cuadros respiratorios pediátricos, siempre con indicación médica.',
+                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: NeoQ Infant para recién nacidos y lactantes (U$S 144), HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Jirafa de Philips Respironics con diseño amigable (U$S 220) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, [parálisis cerebral](/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.',
             },
             {
                 title: 'Cambio y reposición',

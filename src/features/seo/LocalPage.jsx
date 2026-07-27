@@ -13,6 +13,29 @@ const WA = 'https://wa.me/5493512065320';
 const waCtx = (h1) => `${WA}?text=${encodeURIComponent(`Hola, estoy viendo "${h1}" en insersalud.com y quiero hacer una consulta.`)}`;
 
 /**
+ * Enlaces internos inline estilo markdown dentro del texto de las secciones: [texto](/ruta).
+ * Tiene que coincidir con la funcion inlineLinks() de scripts/prerender-meta.mjs para que
+ * el HTML estatico y el render de React muestren lo mismo.
+ */
+const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+const conEnlaces = (texto) => {
+    if (!texto || !texto.includes('](/')) return texto;
+    const partes = [];
+    let ultimo = 0;
+    for (const m of String(texto).matchAll(LINK_RE)) {
+        if (m.index > ultimo) partes.push(texto.slice(ultimo, m.index));
+        partes.push(
+            <Link key={m.index} to={m[2]} style={{ color: '#1e40af', textDecoration: 'underline' }}>
+                {m[1]}
+            </Link>
+        );
+        ultimo = m.index + m[0].length;
+    }
+    if (ultimo < texto.length) partes.push(texto.slice(ultimo));
+    return partes;
+};
+
+/**
  * LocalPage — landing SEO local (alta intención, Córdoba). Render por slug.
  * Cada dominio se indexa con angulo propio (inser.ar venta / insersalud.com domiciliario).
  * El HTML estático para crawlers lo genera scripts/prerender-meta.mjs desde localPages.js.
@@ -90,7 +113,7 @@ const LocalPage = ({ slug }) => {
                         <span>{data.h1}</span>
                     </div>
                     <h1 style={c.h1}>{data.h1}</h1>
-                    <p style={c.intro}>{data.intro}</p>
+                    <p style={c.intro}>{conEnlaces(data.intro)}</p>
                     <div style={c.ctas}>
                         <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
                         <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
@@ -116,7 +139,7 @@ const LocalPage = ({ slug }) => {
                 {data.sections.map((s, i) => (
                     <section key={i}>
                         <h2 style={c.h2}>{s.title}</h2>
-                        <p style={c.p}>{s.content}</p>
+                        <p style={c.p}>{conEnlaces(s.content)}</p>
                     </section>
                 ))}
 
