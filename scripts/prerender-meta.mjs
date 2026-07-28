@@ -375,7 +375,7 @@ function buildLocalBody(p) {
     const prods = (p.products && p.products.length)
         ? `<h2>Equipos relacionados</h2>\n<ul>\n${p.products.map(x => `<li>${esc(x.name)} — ${esc(x.price)}</li>`).join('\n')}\n</ul>`
         : '';
-    const faq = (p.faq || []).map(f => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('\n');
+    const faq = (p.faq || []).map(f => `<h3>${esc(f.q)}</h3><p>${inlineLinks(esc(f.a))}</p>`).join('\n');
     const rel = (p.related || []).map(r => `<li><a href="${attr(r.href)}">${esc(r.label)}</a></li>`).join('\n');
     return `<div id="ssr-content"><main>
 <nav><a href="/">Inicio</a> › <span>${esc(p.h1)}</span></nav>
@@ -423,7 +423,7 @@ function buildLocalSchema(p, base) {
                 mainEntity: (p.faq || []).map(f => ({
                     '@type': 'Question',
                     name: f.q,
-                    acceptedAnswer: { '@type': 'Answer', text: f.a },
+                    acceptedAnswer: { '@type': 'Answer', text: sinMarkdown(f.a) },
                 })),
             },
         ],

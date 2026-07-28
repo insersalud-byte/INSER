@@ -35,6 +35,18 @@ export const localPages = [
                 title: '¿Qué incluye?',
                 content: 'El alquiler incluye el equipo CPAP o AutoCPAP, la [máscara (nasal o nasobucal según tu caso)](/mascaras-cpap), el humidificador, la tubuladura, la instalación a domicilio y el seguimiento. Aparatología aprobada por ANMAT. Si más adelante querés comprar tu propio equipo, te asesoramos para pasar de alquiler a compra.',
             },
+            {
+                title: 'Los primeros días con el equipo',
+                content: 'Es normal que las primeras noches cuesten. Casi nadie duerme perfecto la primera vez que usa un CPAP, y eso no significa que el tratamiento no sirva.\n\nLo más común al principio es sentir el aire fuerte al empezar, despertarse con la boca seca, o que la máscara marque un poco la cara. Las tres cosas se resuelven ajustando: el humidificador para la sequedad, el arnés para las marcas, y la función de rampa para que la presión suba de a poco mientras te dormís.\n\nPor eso la instalación la hacemos en tu casa y no te dejamos el equipo en una caja. Si a los pocos días algo no te cierra, escribinos: la mayoría de los problemas se arreglan con un ajuste, no cambiando de equipo.',
+            },
+            {
+                title: 'Alquilar o comprar: cuándo conviene cada uno',
+                content: 'Alquilar conviene si recién te diagnosticaron y querés empezar el tratamiento sin desembolsar todo de una, si el uso es por un tiempo definido (después de una internación o una cirugía), o si querés probar cómo te adaptás antes de decidir.\n\nComprar conviene cuando la indicación es de largo plazo. La apnea del sueño es una condición crónica: si vas a usar el equipo todas las noches durante años, en algún momento la compra se vuelve más conveniente que seguir pagando el alquiler.\n\nEscribinos y vemos tu caso: no te vamos a empujar a la compra si el alquiler te sirve más.',
+            },
+            {
+                title: 'La higiene del equipo',
+                content: 'Un CPAP bien cuidado dura años, y la rutina es simple.\n\nLa máscara se limpia con agua y jabón neutro, y conviene hacerlo seguido porque está en contacto con la piel. El humidificador se llena solo con agua destilada, nunca de la canilla, porque el sarro daña el equipo. La tubuladura se lava y se cuelga a secar.\n\nCuando te entregamos el equipo te mostramos todo esto en tu casa.',
+            },
         ],
         products: [
             { name: 'CPAP BMC G2S con humidificador', price: 'también en venta $499.000' },
@@ -46,6 +58,9 @@ export const localPages = [
             { q: '¿El alquiler incluye la máscara?', a: 'Sí. El alquiler incluye la máscara, el humidificador y la tubuladura, además del equipo.' },
             { q: '¿Entregan a domicilio?', a: 'Sí, hacemos entrega e instalación a domicilio en Córdoba Capital y alrededores, normalmente en 24 horas.' },
             { q: '¿Puedo comprar el equipo después de alquilarlo?', a: 'Sí. Vendemos equipos nuevos aprobados por ANMAT y te asesoramos para pasar del alquiler a la compra cuando quieras.' },
+            { q: '¿Necesito estudio del sueño para alquilar?', a: 'Sí, hace falta la indicación médica: el equipo se configura con la presión que definió tu médico a partir del estudio. Si todavía no lo hiciste, en Córdoba hacemos el [estudio del sueño a domicilio](/estudio-del-sueno-cordoba).' },
+            { q: '¿Qué pasa si me voy de viaje?', a: 'El equipo es transportable y podés llevarlo. Avisanos si vas a viajar para orientarte con el traslado.' },
+            { q: '¿Y si no me adapto al equipo?', a: 'Antes de entregártelo te asesoramos para elegir la máscara adecuada, que es donde está la mayoría de los problemas de adaptación. Si aun así necesitás cambiar de máscara, la nueva se cobra aparte, pero primero te ayudamos a ajustar la que tenés. Justamente para eso sirve alquilar antes de comprar.' },
         ],
         related: [
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
@@ -116,6 +131,18 @@ export const localPages = [
                 title: 'Garantía y respaldo',
                 content: 'Todos nuestros equipos son aparatología aprobada por ANMAT, con 2 años de garantía oficial. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.',
             },
+            {
+                title: 'Qué incluye el equipo cuando lo comprás',
+                content: 'Cuando comprás un CPAP con nosotros no te llevás solo el motor. El equipo viene completo: la unidad, el humidificador, la tubuladura, la fuente de alimentación, la tarjeta de memoria y el bolso de traslado.\n\nLa máscara la elegimos juntos, porque es la pieza que define si el tratamiento funciona o no. Es donde más pacientes abandonan, y casi siempre es por una máscara mal elegida, no por el equipo.\n\nAdemás te configuramos la presión que indicó tu médico y te explicamos cómo usarlo. No entregamos equipos en una caja para que los descubras solo.',
+            },
+            {
+                title: 'Cómo elegir la máscara',
+                content: 'Hay tres tipos y la diferencia es concreta.\n\nLa NASAL cubre solo la nariz. Es la más usada, la más liviana y la que mejor toleran la mayoría.\n\nLa NASOBUCAL cubre nariz y boca. Es la indicada si dormís con la boca abierta o si tenés la nariz congestionada seguido.\n\nLas ALMOHADILLAS NASALES apoyan directamente en las fosas nasales. Son las de menor contacto con la cara, ideales si te sentís encerrado con las otras o si usás anteojos para leer en la cama.\n\nEl talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y despierta. Contanos cómo dormís y te ayudamos a elegir el modelo y el talle correcto. Podés ver todas las opciones en [máscaras para CPAP y BiPAP](/mascaras-cpap).',
+            },
+            {
+                title: 'Qué gastos vas a tener después de la compra',
+                content: 'Te lo decimos de entrada para que no haya sorpresas.\n\nEl equipo en sí no requiere gastos: con la limpieza correcta dura años y tiene 2 años de garantía oficial.\n\nLo que sí se renueva son los consumibles. La máscara es lo que más se usa y con el tiempo el silicón pierde sello. Los filtros son baratos y se cambian periódicamente. La tubuladura dura bastante, pero si se raja hay que reemplazarla.\n\nTenemos los repuestos en Córdoba, así que no vas a tener que esperar un envío ni buscarlos por tu cuenta.',
+            },
         ],
         products: [
             { name: 'CPAP BMC G2S con humidificador', price: '$499.000' },
@@ -128,6 +155,9 @@ export const localPages = [
             { q: '¿Qué CPAP me conviene comprar?', a: 'Depende de tu indicación médica y tu presión de tratamiento. El CPAP fijo es la opción estándar y económica; el AutoCPAP da más confort. Te asesoramos sin cargo.' },
             { q: '¿Los equipos tienen garantía?', a: 'Sí, 2 años de garantía oficial y aparatología aprobada por ANMAT.' },
             { q: '¿Puedo alquilar en lugar de comprar?', a: 'Sí, ofrecemos alquiler de CPAP en Córdoba con entrega a domicilio, ideal para probar antes de comprar.' },
+            { q: '¿Puedo pagar el CPAP en cuotas?', a: 'Sí. Si sos cliente de Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes. El resto de la semana hay planes de 3, 6 y 9 cuotas, sujeto a las condiciones del banco.' },
+            { q: '¿Puedo probar el equipo antes de comprarlo?', a: 'Sí. En Córdoba podés [alquilarlo primero](/alquiler-cpap-cordoba), usarlo el tiempo que necesites y decidir después con la experiencia hecha.' },
+            { q: '¿Necesito llevar el estudio del sueño?', a: 'Sí, hace falta la indicación médica con la presión de tratamiento, porque con ese dato configuramos el equipo. Si todavía no lo hiciste, hacemos el [estudio del sueño a domicilio](/estudio-del-sueno-cordoba) en Córdoba.' },
         ],
         related: [
             { label: 'Alquiler de CPAP en Córdoba', href: '/alquiler-cpap-cordoba' },
@@ -255,6 +285,18 @@ export const localPages = [
             { title: '¿Para quién es un concentrador portátil?', content: 'Para quienes necesitan oxígeno pero no quieren quedar atados a un equipo fijo: personas activas, que salen, trabajan o viajan. Funciona con batería y se recarga en casa o en el auto.' },
             { title: 'Modelos disponibles', content: 'KINGON P2-S3: uno de los más livianos y económicos, ideal para uso diario. GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.\n\nTe ayudamos a elegir según el flujo que indicó tu médico.' },
             { title: 'Venta y alquiler', content: 'Ofrecemos los portátiles en venta y alquiler, con entrega a domicilio en Córdoba, capacitación de uso y soporte técnico. Aparatología aprobada por ANMAT.' },
+            {
+                title: 'Pulso o flujo continuo: la diferencia que más importa',
+                content: 'No todos los portátiles entregan el oxígeno de la misma manera, y esta es la confusión más frecuente.\n\nLos equipos de PULSO liberan una bocanada de oxígeno cada vez que la persona inhala. Son más chicos, más livianos y la batería dura más, pero no sirven si tu médico indicó flujo continuo, porque durante el sueño la respiración se vuelve más superficial y el equipo puede no detectarla.\n\nLos de FLUJO CONTINUO entregan oxígeno de forma constante, igual que un concentrador de casa, pero pesan más y consumen más batería.\n\nAntes de comprar, fijate en tu indicación médica: si dice litros por minuto continuos, necesitás un equipo de flujo continuo. Mandanos la indicación por WhatsApp y te confirmamos qué modelos sirven.',
+            },
+            {
+                title: 'Qué incluye el equipo',
+                content: 'Todos nuestros portátiles se entregan con batería, cargador de red y cargador para el auto, bolso o mochila de traslado, cánula nasal y manual en español. El GCE Zen-O viene con dos baterías, lo que le da más autonomía fuera de casa.\n\nAdemás, cuando lo comprás o alquilás en Córdoba, la entrega es a domicilio y te enseñamos a usarlo: cómo cargar la batería, cómo cambiar el filtro y cómo interpretar las alarmas.',
+            },
+            {
+                title: 'Antes de viajar en avión',
+                content: 'Si vas a volar, avisanos con tiempo. Las aerolíneas exigen que el equipo esté homologado y suelen pedir un certificado médico y aviso previo. También piden batería suficiente para más tiempo que la duración del vuelo.\n\nLa documentación de homologación la entrega el fabricante y viene con el equipo, para que la presentes en la aerolínea. Consultá igual con tu aerolínea, porque cada una tiene sus propios requisitos.',
+            },
         ],
         products: [
             { name: 'Concentrador portátil KINGON P2-S3 (el más liviano)', price: 'consultar' },
@@ -266,6 +308,9 @@ export const localPages = [
             { q: '¿Hay concentradores portátiles aptos para vuelos?', a: 'Sí, modelos como el GCE Zen-O y el Philips SimplyGo están homologados para volar. Consultanos antes de viajar.' },
             { q: '¿Cuánta autonomía tienen?', a: 'Varía según el modelo y la configuración de flujo; los modelos con doble batería ofrecen varias horas. Te asesoramos según tu uso.' },
             { q: '¿Se pueden alquilar?', a: 'Sí, ofrecemos venta y alquiler de concentradores portátiles con entrega a domicilio en Córdoba.' },
+            { q: '¿Puedo usar el portátil mientras duermo?', a: 'Solo si es de flujo continuo y tu médico lo autorizó. Los equipos de pulso dependen de detectar cada inspiración, y durante el sueño la respiración se vuelve más suave. Consultalo con tu neumonólogo antes de usarlo de noche.' },
+            { q: '¿Cuánta batería dura un concentrador portátil?', a: 'Depende del modelo y del flujo configurado: a mayor flujo, menos autonomía. Los modelos con doble batería, como el GCE Zen-O, dan varias horas de uso. Decinos cuántas horas necesitás fuera de casa y te recomendamos el que corresponde.' },
+            { q: '¿Hacen mucho ruido?', a: 'Bastante menos que un concentrador estacionario. Se pueden usar en una oficina o en una reunión sin molestar.' },
         ],
         related: [
             { label: 'Oxígeno a domicilio en Córdoba', href: '/oxigeno-a-domicilio-cordoba' },
@@ -341,17 +386,33 @@ export const localPages = [
                 title: 'Garantía y respaldo',
                 content: 'Aparatología aprobada por ANMAT, con garantía oficial. Acceso a repuestos y soporte técnico continuo en todo el país.',
             },
+            {
+                title: 'Qué concentrador necesitás según los litros que te indicaron',
+                content: 'El dato que define todo es el flujo que figura en tu indicación médica, expresado en litros por minuto.\n\nHasta 5 litros por minuto: el concentrador estacionario estándar cubre la mayoría de los casos de oxigenoterapia domiciliaria. El BMC de $999.000 entra en esta categoría e incluye control remoto y medidor de oxígeno.\n\nMás de 5 litros por minuto: necesitás un equipo de alto flujo. El [concentrador Yuwell de 10 litros](/concentrador-oxigeno-10-litros) llega al doble del estándar y es el que se usa en pacientes con alta demanda y en centros de rehabilitación pulmonar.\n\nPara salir de casa: los portátiles funcionan con batería, pero prestá atención a si tu indicación es de flujo continuo o si alcanza con pulsos.\n\nSi tenés dudas, mandanos la indicación médica por WhatsApp y te decimos qué equipo cumple.',
+            },
+            {
+                title: 'Cómo es comprar a distancia',
+                content: 'Estás comprando un equipo médico sin verlo, así que te contamos cómo trabajamos.\n\nPrimero nos escribís por WhatsApp con la indicación médica y desde qué provincia sos. Te pasamos las opciones que cumplen, con el precio final y el costo del envío, sin sorpresas después.\n\nCuando confirmás, coordinamos el envío. El equipo viaja embalado en su caja original y llega listo para enchufar y usar.\n\nCuando lo recibís, te acompañamos por WhatsApp en la puesta en marcha: cómo armarlo, cómo regular el flujo y cómo limpiar el filtro. No te quedás solo con el manual.',
+            },
+            {
+                title: 'Consumo y mantenimiento',
+                content: 'Los concentradores consumen poca electricidad, así que podés usarlo todas las horas que te indicaron sin que se note en la factura.\n\nEl mantenimiento es simple: limpiar el filtro externo con agua y dejarlo secar una vez por mes. Los filtros internos se cambian con menos frecuencia y te avisamos cuándo corresponde.',
+            },
         ],
         products: [
             { name: 'Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)', price: '$999.000' },
             { name: 'Concentrador portátil KINGON P2-S3 (apto vuelos)', price: 'consultar' },
             { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro)', price: 'consultar' },
+            { name: 'Concentrador YUWELL 10 litros (alto flujo)', price: '$2.800.000' },
         ],
         faq: [
             { q: '¿Envían concentradores de oxígeno a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina. Coordinamos el envío por WhatsApp.' },
             { q: '¿Conviene fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
             { q: '¿Hay concentradores aptos para vuelos?', a: 'Sí, modelos como el GCE Zen-O están homologados para volar. Consultanos antes de viajar.' },
             { q: '¿Necesito receta médica?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
+            { q: '¿Cuánto tarda en llegar a mi provincia?', a: 'Depende del destino y del transporte. Te confirmamos el plazo estimado por WhatsApp antes de que compres, junto con el costo del envío.' },
+            { q: '¿Los equipos tienen garantía?', a: 'Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía oficial.' },
+            { q: '¿Puedo pagar en cuotas?', a: 'Sí. Si sos cliente de Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes. El resto de la semana hay planes de 3, 6 y 9 cuotas, sujeto a las condiciones del banco.' },
         ],
         related: [
             { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },

@@ -179,7 +179,7 @@ const LocalPage = ({ slug }) => {
                     {data.faq.map((f, i) => (
                         <div key={i} style={c.faqItem}>
                             <h3 style={c.faqQ}>{f.q}</h3>
-                            <p style={{ ...c.p, margin: 0 }}>{f.a}</p>
+                            <p style={{ ...c.p, margin: 0 }}>{conEnlaces(f.a)}</p>
                         </div>
                     ))}
                 </section>
