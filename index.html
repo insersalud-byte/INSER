@@ -100,8 +100,7 @@
   <link rel="dns-prefetch" href="https://api.openai.com" />
 
   <!-- ══ Structured Data – LocalBusiness + MedicalBusiness ════════════════ -->
-  <script type="application/ld+json">
-{
+  <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": [
     "MedicalBusiness",
@@ -574,6 +573,33 @@
           "@type": "Product",
           "name": "Polígrafo BMC YH-600B PRO",
           "description": "Polígrafo para estudio del sueño (poligrafía respiratoria) domiciliario.",
+          "brand": {
+            "@type": "Brand",
+            "name": "BMC Medical"
+          },
+          "category": "Diagnóstico del sueño",
+          "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "1570",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "1794",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "areaServed": {
+          "@type": "City",
+          "name": "Córdoba"
+        },
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock",
+          "description": "Polígrafo respiratorio BMC YH-600B PRO con 30 cánulas Luer Lock incluidas. La cánula es el insumo descartable de cada estudio, así que esta opción permite empezar a hacer poligrafías sin comprar los insumos por separado. Aprobado por ANMAT, 2 años de garantía.",
           "brand": {
             "@type": "Brand",
             "name": "BMC Medical"
@@ -1400,8 +1426,7 @@
       }
     ]
   }
-}
-</script>
+}</script>
 
   <!-- ══ Structured Data – WebSite + Servicios ═══════════════════════════ -->
   <script type="application/ld+json">

@@ -679,17 +679,23 @@ export const localPages = [
                 title: '¿Buscás hacerte un estudio del sueño?',
                 content: 'Esta página es para profesionales que compran el equipo. Si sos paciente y querés hacerte una poligrafía en Córdoba, mirá nuestra página de estudio del sueño a domicilio, donde te explicamos cómo es el proceso y cómo seguir si el resultado da apnea.',
             },
+            {
+                title: 'Opción con 30 cánulas Luer Lock incluidas',
+                content: 'El polígrafo se puede comprar solo o con 30 cánulas Luer Lock incluidas.\n\nLa cánula es el insumo descartable que va en cada estudio: se cambia por paciente, así que si vas a empezar a hacer estudios de entrada, la opción con 30 unidades te evita tener que conseguirlas por separado en las primeras semanas.\n\nEl equipo solo cuesta U$S 1.570. La versión con las 30 cánulas Luer Lock incluidas cuesta U$S 1.794. Consultanos por WhatsApp y te confirmamos el valor en pesos del día.',
+            },
         ],
         products: [
             { name: 'Polígrafo BMC YH-600B PRO (4 canales + software)', price: 'U$S 1.570' },
             { name: 'CPAP BMC G2S (tratamiento post-diagnóstico)', price: '$499.000' },
             { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$799.000' },
+            { name: 'Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock', price: 'U$S 1.794' },
         ],
         faq: [
             { q: '¿Quién puede comprar y usar el polígrafo?', a: 'Está orientado a profesionales e instituciones de salud (neumonólogos, clínicas del sueño, kinesiólogos, centros de diagnóstico). La interpretación del estudio la realiza el médico.' },
             { q: '¿Qué registra el BMC YH-600B PRO?', a: 'Es un polígrafo respiratorio de 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca. Incluye software de descarga y análisis para el informe.' },
             { q: '¿Cuánto cuesta el polígrafo?', a: 'Precio de referencia U$S 1.570, aprobado por ANMAT y con garantía oficial. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.' },
             { q: '¿Incluye capacitación?', a: 'Sí: capacitación de uso del equipo y del software, presencial en Córdoba o guiada a distancia en el resto del país, más soporte técnico permanente.' },
+            { q: '¿El polígrafo viene con cánulas?', a: 'Hay dos opciones: el equipo solo, o el equipo con 30 cánulas Luer Lock incluidas por U$S 1.794. La cánula es descartable y se cambia en cada estudio, así que la versión con insumos sirve para arrancar sin depender de otra compra.' },
         ],
         related: [
             { label: 'Estudio del sueño a domicilio en Córdoba', href: '/estudio-del-sueno-cordoba' },

@@ -526,7 +526,7 @@ const tienda = [
     },
     // Diagnóstico
     {
-        name: 'POLÍGRAFO BMC YH-600B PRO (Estudio del Sueño)', slug: 'poligrafo-bmc-yh-600b-pro-', price: 'U$S 1.570', img: '/artifacts/products/1752508033704-poligrafobmc.jfif', badge: 'DIAGNÓSTICO', note: 'Poligrafía domiciliaria profesional.', category: 'Diagnóstico',
+        name: 'POLÍGRAFO BMC YH-600B PRO (Estudio del Sueño)', slug: 'poligrafo-bmc-yh-600b-pro-', price: 'U$S 1.570', img: '/artifacts/products/1752508033704-poligrafobmc.jfif', badge: 'DIAGNÓSTICO', note: 'Poligrafía domiciliaria profesional. Opción con 30 cánulas Luer Lock: U$S 1.794.', category: 'Diagnóstico',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Polígrafo respiratorio portátil'],

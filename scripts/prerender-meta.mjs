@@ -82,6 +82,7 @@ const PRODUCTS = [
     ['Máscara pediátrica Jirafa Philips', 'U$S 220', 'nasal pediátrica, diseño amigable'],
     ['Infant CPAP Kit neonatal', 'U$S 97', 'tallas 00 a 5'],
     ['Polígrafo BMC YH-600B PRO', 'U$S 1.570', 'estudio del sueño domiciliario'],
+    ['Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock', 'U$S 1.794', 'con insumos incluidos para arrancar'],
     ['Tubuladura para CPAP / BiPAP', '$36.000', 'repuesto universal'],
 ];
 
