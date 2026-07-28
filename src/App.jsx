@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect } from 'react';
-import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation, Outlet } from 'react-router-dom';
 import LandingPage from './features/landing/LandingPage';
 import PathologyPage from './features/pathologies/PathologyPage';
 import LocalPage from './features/seo/LocalPage';
@@ -15,6 +15,21 @@ const ChatAI = lazy(() => import('./features/inquiries/ChatAI'));
 const LoginPage = lazy(() => import('./features/auth/LoginPage'));
 const AdminPanel = lazy(() => import('./features/admin/AdminPanel'));
 const AdminLoginPage = lazy(() => import('./features/admin/AdminLoginPage'));
+
+// AuthProvider tambien en lazy: antes se importaba en main.jsx y arrastraba el cliente
+// de Supabase (172 KB) a TODAS las paginas publicas, que no usan sesion. Ahora solo lo
+// cargan las 4 rutas que realmente la necesitan (chat, login y admin).
+const AuthProvider = lazy(() =>
+  import('./features/auth/AuthContext.jsx').then((m) => ({ default: m.AuthProvider }))
+);
+// Un UNICO proveedor para las 4 rutas privadas, montado como ruta padre sin path: asi la
+// sesion sobrevive al pasar de /login-admin a /admin. Si cada ruta creara el suyo, el
+// provider se desmontaria en cada navegacion y se perderia el estado de sesion.
+const LayoutPrivado = () => (
+  <AuthProvider>
+    <Outlet />
+  </AuthProvider>
+);
 
 function App() {
   const location = useLocation();
@@ -74,13 +89,13 @@ function App() {
         <Route path="/atrofia-muscular-espinal" element={<Navigate to="/patologia/atrofia-muscular-espinal" replace />} />
         <Route path="/paralisis-cerebral" element={<Navigate to="/patologia/paralisis-cerebral" replace />} />
 
-        {/* Santi Chat AI */}
-        <Route path="/chat-ai" element={<ChatAI />} />
-
-        {/* Admin & Login (Hidden for public) */}
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/login-admin" element={<AdminLoginPage />} />
-        <Route path="/admin/*" element={<AdminPanel />} />
+        {/* Rutas privadas (chat, login y admin): comparten un unico AuthProvider */}
+        <Route element={<LayoutPrivado />}>
+          <Route path="/chat-ai" element={<ChatAI />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/login-admin" element={<AdminLoginPage />} />
+          <Route path="/admin/*" element={<AdminPanel />} />
+        </Route>
 
         {/* Fallback to Landing */}
         <Route path="*" element={<Navigate to="/" />} />

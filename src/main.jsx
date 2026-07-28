@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import './styles/global.css';
-import { AuthProvider } from './features/auth/AuthContext.jsx';
+// AuthProvider ya NO se importa aca: vive en App.jsx dentro de las rutas que usan sesion,
+// para que el cliente de Supabase no se descargue en las paginas publicas.
 
 console.log('App initialization started...');
 
@@ -16,9 +17,7 @@ if (!rootElement) {
     ReactDOM.createRoot(rootElement).render(
       <React.StrictMode>
         <BrowserRouter>
-          <AuthProvider>
-            <App />
-          </AuthProvider>
+          <App />
         </BrowserRouter>
       </React.StrictMode>
     );
