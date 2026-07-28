@@ -326,7 +326,7 @@
     {
       "source": "/favicon.ico",
       "destination": "/favicon-32.png",
-      "permanent": false
+      "permanent": true
     }
   ],
   "headers": [
