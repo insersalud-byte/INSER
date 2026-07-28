@@ -205,11 +205,11 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'CPAP RESMED AIRSENSE 10',
-                priceARS: null,
-                priceUSD: 'U$S 616',
+                priceARS: '$799.000',
+                priceUSD: null,
                 img: '/artifacts/cpap_airsense10.jpg',
-                badge: null,
-                desc: 'Con humidificador y conectividad.',
+                badge: 'OFERTA',
+                desc: 'Equipo completo con humidificador HumidAir, tubuladura, fuente, tarjeta SD y bolso.',
             },
             {
                 name: 'Máscara Nasal DreamWear (mínimo contacto)',

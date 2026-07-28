@@ -12,15 +12,25 @@ import ChatLogs from './ChatLogs';
 import SantiDashboard from './SantiDashboard';
 
 const AdminPanel = () => {
-    const { user, isAdmin } = useAuth();
+    const { user, loading, isAdmin } = useAuth();
     const [authorized, setAuthorized] = useState(null);
 
     React.useEffect(() => {
-        // Check if real admin
-        isAdmin().then(is => setAuthorized(is));
-    }, [user]);
+        // Esperamos a que AuthContext resuelva la sesion: si preguntamos antes, isAdmin()
+        // ve user=null y devuelve false, y se veria un "Acceso Denegado" fantasma al
+        // recargar /admin con sesion valida.
+        if (loading) return;
 
-    if (authorized === null) return <div>Verificando permisos...</div>;
+        let cancelled = false;
+        // Check if real admin
+        isAdmin().then(is => { if (!cancelled) setAuthorized(is); });
+        return () => { cancelled = true; };
+    }, [user, loading]);
+
+    if (loading || authorized === null) return <div>Verificando permisos...</div>;
+    // Sin sesion no hay nada que denegar: mandamos al login admin en vez de renderizar
+    // el panel (que leia user.email y tiraba TypeError con la pantalla en blanco).
+    if (authorized === false && !user) return <Navigate to="/login-admin" replace />;
     if (authorized === false) return <div className={css.error}>Acceso Denegado. No tenés permisos de administrador.</div>;
 
     return (
@@ -43,7 +53,7 @@ const AdminPanel = () => {
                 </nav>
                 <div className={css.user}>
                     <div style={{ marginBottom: '10px' }}>
-                        <small>{user.email}</small>
+                        <small>{user?.email ?? 'Modo Demo'}</small>
                     </div>
                     <button
                         onClick={() => {

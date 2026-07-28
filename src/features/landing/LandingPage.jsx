@@ -259,18 +259,7 @@ const tienda = [
             ['Garantía', '2 años'],
         ],
     },
-    {
-        name: 'CPAP RESMED AIRSENSE 10 con Humidificador', slug: 'cpap-resmed-airsense-10-con-humidificador-y-conectividad', price: 'U$S 616', img: '/artifacts/products/dc0862cf-0153-49d6-bd89-d570ceaa36a9.jpg', badge: null, note: 'Con conectividad.', category: 'CPAP',
-        specs: [
-            ['Fabricante', 'ResMed (Australia)'],
-            ['Tipo', 'CPAP fijo (AirSense 10)'],
-            ['Rango de presión', '4 – 20 cm H₂O'],
-            ['Humidificador', 'HumidAir calefactado'],
-            ['Conectividad', 'AirView + myAir app'],
-            ['Tubo', 'ClimateLineAir calefactado compatible'],
-            ['Garantía', '2 años'],
-        ],
-    },
+
     {
         name: 'AUTOCPAP RESMED AIRSENSE 10 con Conectividad', slug: 'autocpap-resmed-airsense-10-con-nube', price: 'U$S 907', img: '/artifacts/products/38e665d6-2c44-4e1b-8c1d-7578f26aea9d.jpg', badge: null, note: 'Con humidificador.', category: 'CPAP',
         specs: [
