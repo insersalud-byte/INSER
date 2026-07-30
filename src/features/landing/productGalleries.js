@@ -162,11 +162,6 @@ export const productGalleries = {
     "/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jfif",
     "/artifacts/products/dc2e554f-6180-4d3d-a5b6-8790f1c45e8a.jfif",
   ],
-  "nascara-nasal-pediatrica-neoq-infant-nasal-xs-s-m-l": [
-    "/artifacts/products/99c88077-5a40-405c-965d-addc3b99fe23.jfif",
-    "/artifacts/products/2c87d5cb-dc9c-4c38-8813-75cd8ee76378.jfif",
-    "/artifacts/products/22e1d227-f588-46c2-af64-d44589420ff8.jfif",
-  ],
   "nascara-nasal-peditrica-jirafa-philips-respironics": [
     "/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif",
     "/artifacts/products/91f0c9ea-4d98-4f86-9d05-af661f214e57.jfif",

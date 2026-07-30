@@ -1079,7 +1079,7 @@ Modalidades de ventilación disponibles:
 • BiPAP T: controlado (para casos muy avanzados)
 
 Máscaras para AME (pediátricas y adultos):
-• Nasales: DreamWear, BMC N4/N5a, NeoQ Infant (pediátrica)
+• Nasales: DreamWear, BMC N4/N5a, HSINER Cirri Mini (pediátrica)
 • Nasobucales: DreamWear Full Face, BMC F6, AirFit F30
 • Elección según la edad, talla y tolerancia del paciente
 
@@ -1119,7 +1119,7 @@ Precio referencia: U$S 9.084`,
 
 Máscaras pediátricas disponibles:
 
-👶 NeoQ Infant — Máscara nasal pediátrica
+👶 HSINER Cirri Mini — Máscara nasal pediátrica
 • Precio: U$S 144
 • Talles XS, S, M, L para niños desde recién nacidos
 • Diseño ergonómico adaptado al rostro pediátrico
@@ -1167,14 +1167,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contam
                 badge: null,
                 desc: 'Comodidad máxima para uso nocturno continuo.',
             },
-            {
-                name: 'Máscara Pediátrica NeoQ Infant (XS/S/M/L)',
-                priceARS: null,
-                priceUSD: 'U$S 144',
-                img: '/artifacts/mascara_neoq_infant.jpg',
-                badge: 'PEDIÁTRICO',
-                desc: 'Talles XS, S, M, L para niños con AME tipo 1.',
-            },
+
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
                 priceARS: '$229.000',
@@ -1291,7 +1284,7 @@ Principales problemas respiratorios en PC:
 • YUWELL YF02 — Opción económica — Consultá precio
 
 👶 Máscaras Pediátricas:
-• NeoQ Infant — Talles XS/S/M/L — U$S 144
+• HSINER Cirri Mini — Talles XS/S/M/L — U$S 105
 • Máscara Jirafa Philips Respironics — Diseño infantil — U$S 220
 
 💰 Opción económica:
@@ -1421,14 +1414,7 @@ Consultanos disponibilidad y opciones de financiación.`,
                 badge: 'OFERTA',
                 desc: 'La opción más accesible del mercado.',
             },
-            {
-                name: 'Máscara Pediátrica NeoQ Infant (XS/S/M/L)',
-                priceARS: null,
-                priceUSD: 'U$S 144',
-                img: '/artifacts/mascara_neoq_infant.jpg',
-                badge: 'PEDIÁTRICO',
-                desc: 'Para niños con parálisis cerebral que usan BiPAP.',
-            },
+
             {
                 name: 'Máscara Nasal Jirafa Philips (pediátrica)',
                 priceARS: null,

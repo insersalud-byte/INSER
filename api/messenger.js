@@ -107,7 +107,6 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 | Máscara BMC F5A sin apoya frente | U$S 52 | ~$79.040 | Sin apoya frente, buconasal |
 | AirFit F30 ResMed | U$S 212 | ~$322.240 | Buconasal contacto mínimo, bajo perfil |
 | AirFit F20 ResMed | U$S 189.50 | ~$288.040 | Buconasal premium, amplio sellado |
-| Máscara Pediátrica NeoQ Infant | U$S 144 | ~$218.880 | Para recién nacidos y lactantes |
 | Máscara Pediátrica HSINER Cirri Mini | U$S 105 | ~$159.600 | S, M, L, XS, pediátrica nasal |
 | Máscara Pediátrica Jirafa Philips | U$S 220 | ~$334.400 | Pediátrica nasal, diseño amigable |
 | Infant CPAP Kit | U$S 97 | ~$147.440 | Kit neonatal tallas 00 a 5 |

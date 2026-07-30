@@ -141,13 +141,6 @@ const SPECS = {
         ['Arnés', '4 puntos de fijación'],
         ['Compatibilidad', 'CPAP / BiPAP'],
     ],
-    'neoq infant': [
-        ['Fabricante', 'NeoQ'],
-        ['Tipo', 'Nasal pediátrica'],
-        ['Tallas', 'XS / S / M / L'],
-        ['Uso', 'Lactantes, niños con AME / PC'],
-        ['Material', 'Silicona médica suave'],
-    ],
     'bmc f6': [
         ['Fabricante', 'BMC Medical'],
         ['Tipo', 'Nasobucal con apoya frente'],

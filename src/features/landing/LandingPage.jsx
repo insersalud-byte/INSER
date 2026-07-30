@@ -414,16 +414,7 @@ const tienda = [
             ['Compatibilidad', 'CPAP / BiPAP'],
         ],
     },
-    {
-        name: 'Máscara Nasal Pediátrica NeoQ Infant (XS/S/M/L)', slug: 'nascara-nasal-pediatrica-neoq-infant-nasal-xs-s-m-l', price: 'U$S 144', img: '/artifacts/products/99c88077-5a40-405c-965d-addc3b99fe23.jfif', badge: 'PEDIÁTRICO', note: 'Para niños. AME, Parálisis Cerebral.', category: 'Máscara',
-        specs: [
-            ['Fabricante', 'NeoQ'],
-            ['Tipo', 'Nasal pediátrica'],
-            ['Tallas', 'XS / S / M / L'],
-            ['Uso', 'Lactantes, niños con AME / PC / displasia'],
-            ['Material', 'Silicona médica suave'],
-        ],
-    },
+
     // ── Máscaras Nasobucales ─────────────────────────────────────────────────
     {
         name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: '$229.000 · U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jfif', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
@@ -942,7 +933,7 @@ const ALL_TAG_INFO = {
             { icon: '👶', text: 'AME tipo 1: soporte ventilatorio y Cough Assist desde el diagnóstico' },
             { icon: '🧒', text: 'AME tipo 2: BiPAP nocturno y seguimiento de función pulmonar periódico' },
             { icon: '🦾', text: 'AME tipo 3: generalmente solo Cough Assist preventivo' },
-            { icon: '😷', text: 'Máscaras pediátricas especiales: NeoQ Infant, HSINER Cirri Mini, JIRAFA' },
+            { icon: '😷', text: 'Máscaras pediátricas especiales: HSINER Cirri Mini, JIRAFA e Infant CPAP Kit' },
         ],
         waMsg: 'Hola, tengo un hijo/familiar con AME y necesito equipos respiratorios pediátricos. ¿Me asesoran?',
     },
@@ -954,7 +945,7 @@ const ALL_TAG_INFO = {
         bullets: [
             { icon: '🍼', text: 'Infant CPAP Kit: tallas 00 al 5 para neonatos y lactantes' },
             { icon: '🦒', text: 'Máscara JIRAFA Philips: diseño ergonómico especial para niños' },
-            { icon: '🐣', text: 'NeoQ Infant y HSINER Cirri Mini: nasales pediátricas XS–L' },
+            { icon: '🐣', text: 'HSINER Cirri Mini: nasal pediátrica en talles XS–L' },
             { icon: '💬', text: 'Acompañamiento para familias: explicamos todo con paciencia y empatía' },
         ],
         waMsg: 'Hola, necesito equipos respiratorios pediátricos para un niño con AME/PC. ¿Qué tienen disponible?',

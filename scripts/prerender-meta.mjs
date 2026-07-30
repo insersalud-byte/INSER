@@ -77,7 +77,6 @@ const PRODUCTS = [
     ['Máscara buconasal BMC F5A', 'U$S 52', 'sin apoya frente'],
     ['Máscara buconasal BMC F2 codo azul (terapia intensiva)', '$68.000', 'SIN FUGA, para respiradores / VNI con válvula espiratoria'],
     ['Máscara nasobucal ResMed AirFit F20 / F30', 'U$S 189,50 / U$S 212', 'full face premium'],
-    ['Máscara pediátrica NeoQ Infant', 'U$S 144', 'para recién nacidos y lactantes'],
     ['Máscara pediátrica HSINER Cirri Mini', 'U$S 105', 'nasal pediátrica XS/S/M/L'],
     ['Máscara pediátrica Jirafa Philips', 'U$S 220', 'nasal pediátrica, diseño amigable'],
     ['Infant CPAP Kit neonatal', 'U$S 97', 'tallas 00 a 5'],

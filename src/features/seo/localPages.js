@@ -486,7 +486,7 @@ export const localPages = [
             },
             {
                 title: 'Máscaras pediátricas',
-                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: NeoQ Infant para recién nacidos y lactantes (U$S 144), HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Jirafa de Philips Respironics con diseño amigable (U$S 220) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, [parálisis cerebral](/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.',
+                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Jirafa de Philips Respironics con diseño amigable (U$S 220) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, [parálisis cerebral](/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.',
             },
             {
                 title: 'Cambio y reposición',
@@ -499,14 +499,14 @@ export const localPages = [
             { name: 'Máscara nasobucal BMC F6 multitalle (oferta)', price: '$198.000' },
             { name: 'Máscara nasobucal Philips DreamWear Full Face', price: '$229.000' },
             { name: 'Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva', price: '$68.000' },
-            { name: 'Máscaras pediátricas (NeoQ, Cirri Mini, Jirafa, Infant Kit)', price: 'desde U$S 97' },
+            { name: 'Máscaras pediátricas (Cirri Mini, Jirafa, Infant CPAP Kit)', price: 'desde U$S 97' },
         ],
         faq: [
             { q: '¿Qué máscara elijo si respiro por la boca?', a: 'Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face ($229.000), BMC F6 ($198.000) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.' },
             { q: '¿Cuánto cuesta una máscara para CPAP?', a: 'Desde $50.000 (nasal RESCOMF multitalle). La DreamWear de Philips está a $223.000 y las nasobucales desde U$S 52. Enviamos a todo el país.' },
             { q: '¿Son compatibles con cualquier equipo CPAP o BiPAP?', a: 'Sí. Todas usan la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP de cualquier marca (BMC, ResMed, Philips, Yuwell, etc.).' },
             { q: '¿Cada cuánto se cambia la máscara?', a: 'La almohadilla de silicona cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. Un sellado gastado genera fugas y resta eficacia al tratamiento.' },
-            { q: '¿Tienen máscaras para chicos?', a: 'Sí, línea pediátrica completa: NeoQ Infant (recién nacidos), HSINER Cirri Mini, máscara Jirafa de Philips e Infant CPAP Kit neonatal. Siempre con indicación médica.' },
+            { q: '¿Tienen máscaras para chicos?', a: 'Sí, línea pediátrica completa: HSINER Cirri Mini, máscara Jirafa de Philips e Infant CPAP Kit neonatal para recién nacidos. Siempre con indicación médica.' },
         ],
         related: [
             { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
