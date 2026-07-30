@@ -21,6 +21,22 @@ const getGallery = (p) => {
     return [p.img];
 };
 
+// Precio doble moneda ("$1.300.000 · U$S 907"): si va en una sola linea grande,
+// el navegador la corta donde cae y parte el simbolo del monto. Lo separamos a
+// proposito: pesos en grande, dolares abajo en chico, cada uno sin cortarse.
+const Precio = ({ valor, className }) => {
+    const partes = String(valor || '').split('·').map((s) => s.trim()).filter(Boolean);
+    if (partes.length < 2) return <div className={className}>{valor}</div>;
+    return (
+        <div className={className}>
+            <span style={{ whiteSpace: 'nowrap' }}>{partes[0]}</span>
+            <span style={{ display: 'block', fontSize: '0.62em', fontWeight: 600, opacity: 0.75, whiteSpace: 'nowrap' }}>
+                {partes[1]}
+            </span>
+        </div>
+    );
+};
+
 // ── Datos ──────────────────────────────────────────────────────────────────
 // OFERTAS = todos los productos con precio en pesos ARS (promo local)
 const ofertas = [
@@ -1227,7 +1243,7 @@ const SpecsModal = ({ product, onClose }) => {
                     <div>
                         {product.category && <span className={css.specsCategory}>{product.category}</span>}
                         <h3>{product.name}</h3>
-                        <div className={css.specsPrice}>{product.price}</div>
+                        <Precio valor={product.price} className={css.specsPrice} />
                         {product.note && <p className={css.specsNote}>{product.note}</p>}
                         {gallery.length > 1 && (
                             <p className={css.galleryHint}>
@@ -1774,7 +1790,7 @@ const LandingPage = () => {
                                     {gCount > 1 && <span className={css.galleryCountBadge}>📸 {gCount}</span>}
                                 </button>
                                 <h4>{p.name}</h4>
-                                <div className={css.priceTag}>{p.price}</div>
+                                <Precio valor={p.price} className={css.priceTag} />
                                 {p.note && <p className={css.productNote}>{p.note}</p>}
                                 <div className={css.productCardBtns}>
                                     <button
@@ -1835,7 +1851,7 @@ const LandingPage = () => {
                                                 {gCount > 1 && <span className={css.galleryCountBadge}>📸 {gCount}</span>}
                                             </button>
                                             <h4>{p.name}</h4>
-                                            <div className={css.priceTag}>{p.price}</div>
+                                            <Precio valor={p.price} className={css.priceTag} />
                                             {p.note && <p className={css.productNote}>{p.note}</p>}
                                             <div className={css.productCardBtns}>
                                                 <button
