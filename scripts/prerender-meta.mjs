@@ -85,6 +85,36 @@ const PRODUCTS = [
     ['Tubuladura para CPAP / BiPAP', '$36.000', 'repuesto universal'],
 ];
 
+
+// Guia de mascaras: mismo contenido que maskGuide de LandingPage.jsx (MANTENER SINCRONIZADOS)
+const MASK_GUIDE = [
+    ['Nasal',
+        'Cubre solo la nariz, con un arnés liviano. Es la más usada y la que mejor tolera la mayoría de los pacientes.',
+        'Para quienes respiran por la nariz durante el sueño: menos volumen sobre la cara, menos sensación de encierro y más libertad para moverse en la cama.',
+        'Si dormís con la boca abierta se escapa el aire y perdés presión. En ese caso conviene una nasobucal o sumar una mentonera.',
+        [['Máscara Nasal RESCOMF', '$50.000'], ['Máscara Nasal BMC N4 con apoya frente', 'U$S 36'], ['Máscara Nasal BMC N5a sin apoya frente', 'U$S 60'], ['Máscara Nasal AirFit mínimo contacto ResMed', 'U$S 157'], ['Mascarilla Nasal DreamWear Philips', '$223.000']]],
+    ['Nasobucal (full face)',
+        'Cubre nariz y boca a la vez, con un sellado más amplio sobre la cara.',
+        'Para quienes abren la boca al dormir, tienen la nariz congestionada seguido o necesitan presiones altas. También es la habitual en BiPAP.',
+        'Pesa y apoya más que la nasal, así que el talle correcto es clave: una nasobucal grande de más pierde aire y marca la cara.',
+        [['Máscara Nasobucal BMC F6 multitalle', '$198.000'], ['Mascarilla Nasobucal DreamWear Philips', '$229.000'], ['Buconasal BMC F5A sin apoya frente', 'U$S 52'], ['Buconasal Yuwell con apoya frente', 'U$S 52'], ['Nasobucal AirFit F30 ResMed', 'U$S 212']]],
+    ['Almohadillas nasales',
+        'No cubren la nariz: apoyan directamente en las fosas nasales con dos almohadillas de silicona.',
+        'Para quienes se sienten encerrados con las otras máscaras, usan anteojos para leer en la cama, tienen barba o duermen boca abajo.',
+        'Al ser el contacto más chico, en presiones altas puede molestar el chorro de aire directo en la nariz.',
+        [['Máscara Pillow nasal Yuwell YP-01', 'U$S 42']]],
+    ['Pediátricas',
+        'Diseñadas con medidas y materiales para bebés y chicos, no son máscaras de adulto en talle chico.',
+        'Lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y cuadros neuromusculares.',
+        'La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal.',
+        [['Máscara Nasal Pediátrica HSINER Cirri Mini', 'U$S 105'], ['Máscara Nasal Pediátrica Jirafa Philips', 'U$S 220'], ['Infant CPAP Kit neonatal (talles 00 a 5)', 'U$S 97']]],
+    ['Sin fuga (terapia intensiva)',
+        'Máscara NO ventilada: no tiene los orificios de fuga que sí traen las de uso domiciliario.',
+        'Para respiradores de terapia intensiva y ventilación no invasiva con circuito de doble rama o válvula espiratoria.',
+        'NO sirve para un CPAP o BiPAP domiciliario común: sin la fuga controlada se reinhala el aire exhalado. Es un producto de uso profesional.',
+        [['Máscara Buconasal BMC F2 codo azul', '$68.000']]],
+];
+
 // Links internos a las landing SEO locales (discovery + PageRank desde el home)
 const LOCAL_LINKS = [
     ['/comprar-cpap-cordoba', 'Comprar CPAP en Córdoba'],
@@ -269,6 +299,13 @@ function buildHomeBody(variant) {
 
     const defs = DEFINITIONS.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('\n');
 
+
+    const mascaras = `
+<h2>Guía de máscaras para CPAP y BiPAP: cuál te corresponde</h2>
+<p>La máscara es donde más pacientes abandonan el tratamiento, y casi siempre es por una máscara mal elegida, no por el equipo. Estos son los 5 tipos que vendemos, para quién es cada uno y a qué precio.</p>
+${MASK_GUIDE.map(([tipo, queEs, paraQuien, ojo, modelos]) => `<h3>Máscara ${esc(tipo)}</h3><p>${esc(queEs)}</p><p><strong>Para quién:</strong> ${esc(paraQuien)}</p><p><strong>A tener en cuenta:</strong> ${esc(ojo)}</p><ul>${modelos.map(([n, pr]) => `<li>${esc(n)} — ${esc(pr)}</li>`).join('')}</ul>`).join('\n')}
+<p>El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Ver todas en <a href="/mascaras-cpap">máscaras para CPAP y BiPAP</a>.</p>`;
+
     const compare = `
 <h2>CPAP vs AutoCPAP vs BiPAP</h2>
 <table>
@@ -334,6 +371,7 @@ ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></l
 <h2>Preguntas frecuentes</h2>
 ${defs}
 ${compare}
+${mascaras}
 ${prods}
 ${services}
 ${serviciosLocales}

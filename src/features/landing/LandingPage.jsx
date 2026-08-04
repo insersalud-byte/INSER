@@ -1177,6 +1177,77 @@ const guides = [
     },
 ];
 
+// ── Guía de máscaras para CPAP y BiPAP ─────────────────────────────────────
+// La máscara es donde más pacientes abandonan el tratamiento, y ningún competidor
+// local publica sus precios. Esta guía es contenido propio + diferencial de venta.
+const maskGuide = [
+    {
+        tipo: 'Nasal',
+        icon: '👃',
+        color: '#0ea5e9',
+        queEs: 'Cubre solo la nariz, con un arnés liviano. Es la más usada y la que mejor tolera la mayoría de los pacientes.',
+        paraQuien: 'Para quienes respiran por la nariz durante el sueño. Menos volumen sobre la cara, menos sensación de encierro y más libertad para moverse en la cama.',
+        ojo: 'Si dormís con la boca abierta, se escapa el aire y perdés presión. En ese caso conviene una nasobucal o sumar una mentonera.',
+        modelos: [
+            ['Máscara Nasal RESCOMF', '$50.000'],
+            ['Máscara Nasal BMC N4 con apoya frente', 'U$S 36'],
+            ['Máscara Nasal BMC N5a sin apoya frente', 'U$S 60'],
+            ['Máscara Nasal AirFit mínimo contacto ResMed', 'U$S 157'],
+            ['Mascarilla Nasal DreamWear Philips', '$223.000'],
+        ],
+    },
+    {
+        tipo: 'Nasobucal (full face)',
+        icon: '😮',
+        color: '#8b5cf6',
+        queEs: 'Cubre nariz y boca a la vez, con un sellado más amplio sobre la cara.',
+        paraQuien: 'Para quienes abren la boca al dormir, tienen la nariz congestionada seguido o necesitan presiones altas. También es la habitual en BiPAP.',
+        ojo: 'Pesa y apoya más que la nasal, así que el talle correcto es clave: una nasobucal grande de más pierde aire y marca la cara.',
+        modelos: [
+            ['Máscara Nasobucal BMC F6 multitalle', '$198.000'],
+            ['Mascarilla Nasobucal DreamWear Philips', '$229.000'],
+            ['Buconasal BMC F5A sin apoya frente', 'U$S 52'],
+            ['Buconasal Yuwell con apoya frente', 'U$S 52'],
+            ['Nasobucal AirFit F30 ResMed', 'U$S 212'],
+        ],
+    },
+    {
+        tipo: 'Almohadillas nasales',
+        icon: '💨',
+        color: '#10b981',
+        queEs: 'No cubren la nariz: apoyan directamente en las fosas nasales con dos almohadillas de silicona.',
+        paraQuien: 'Para quienes se sienten encerrados con las otras máscaras, usan anteojos para leer en la cama, tienen barba o duermen boca abajo.',
+        ojo: 'Al ser el contacto más chico, en presiones altas puede molestar el chorro de aire directo en la nariz.',
+        modelos: [
+            ['Máscara Pillow nasal Yuwell YP-01', 'U$S 42'],
+        ],
+    },
+    {
+        tipo: 'Pediátricas',
+        icon: '🧒',
+        color: '#f59e0b',
+        queEs: 'Diseñadas con medidas y materiales para bebés y chicos, no son máscaras de adulto en talle chico.',
+        paraQuien: 'Lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y cuadros neuromusculares.',
+        ojo: 'La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal.',
+        modelos: [
+            ['Máscara Nasal Pediátrica HSINER Cirri Mini', 'U$S 105'],
+            ['Máscara Nasal Pediátrica Jirafa Philips', 'U$S 220'],
+            ['Infant CPAP Kit neonatal (talles 00 a 5)', 'U$S 97'],
+        ],
+    },
+    {
+        tipo: 'Sin fuga (terapia intensiva)',
+        icon: '🏥',
+        color: '#ef4444',
+        queEs: 'Máscara NO ventilada: no tiene los orificios de fuga que sí traen las de uso domiciliario.',
+        paraQuien: 'Para respiradores de terapia intensiva y ventilación no invasiva con circuito de doble rama o válvula espiratoria.',
+        ojo: 'NO sirve para un CPAP o BiPAP domiciliario común: sin la fuga controlada se reinhala el aire exhalado. Es un producto de uso profesional.',
+        modelos: [
+            ['Máscara Buconasal BMC F2 codo azul', '$68.000'],
+        ],
+    },
+];
+
 // ── Comparativa CPAP vs AutoCPAP vs BiPAP ──────────────────────────────────
 const comparativeRows = [
     ['Tipo de presión', 'Fija, constante toda la noche', 'Variable, se ajusta automáticamente', 'Dos niveles: alta al inspirar / baja al exhalar'],
@@ -1361,6 +1432,7 @@ const LandingPage = () => {
                     <div className={css.navLinks}>
                         <button onClick={() => scrollTo('patologias')}>Patologías</button>
                         <button onClick={() => scrollTo('guia')}>Guía de equipos</button>
+                        <button onClick={() => scrollTo('mascaras')}>Guía de máscaras</button>
                         <button onClick={() => scrollTo('ofertas')}>Ofertas</button>
                         <button onClick={() => scrollTo('tienda')}>Tienda</button>
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
@@ -1390,6 +1462,7 @@ const LandingPage = () => {
                     <div className={css.mobileMenu}>
                         <button onClick={() => scrollTo('patologias')}>Patologías</button>
                         <button onClick={() => scrollTo('guia')}>Guía de equipos</button>
+                        <button onClick={() => scrollTo('mascaras')}>Guía de máscaras</button>
                         <button onClick={() => scrollTo('ofertas')}>Ofertas</button>
                         <button onClick={() => scrollTo('tienda')}>Tienda</button>
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
@@ -1752,6 +1825,72 @@ const LandingPage = () => {
                             </button>
                         </p>
                     </div>
+                </div>
+            </section>
+
+            {/* ── GUÍA DE MÁSCARAS ───────────────────────────────────── */}
+            <section id="mascaras" className={css.guiaSection}>
+                <div className={css.container}>
+                    <div className={css.sectionHeader}>
+                        <span className={css.sectionTag}>😷 Guía de máscaras</span>
+                        <h2>Máscaras para CPAP y BiPAP: cuál te corresponde</h2>
+                        <p>
+                            La máscara es donde más pacientes abandonan el tratamiento, y casi siempre es por
+                            una máscara mal elegida, no por el equipo. Acá están los 5 tipos que vendemos, para
+                            quién es cada uno y a qué precio.
+                        </p>
+                    </div>
+
+                    <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+                        {maskGuide.map((m, i) => (
+                            <article
+                                key={i}
+                                style={{
+                                    background: '#fff',
+                                    border: '1px solid #e8eef6',
+                                    borderTop: `4px solid ${m.color}`,
+                                    borderRadius: '0.9rem',
+                                    padding: '1.1rem 1.2rem',
+                                    boxShadow: '0 4px 18px rgba(30,64,175,0.06)',
+                                }}
+                            >
+                                <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.15rem', margin: '0 0 0.6rem', color: '#0f172a' }}>
+                                    <span aria-hidden="true">{m.icon}</span> {m.tipo}
+                                </h3>
+                                <p style={{ margin: '0 0 0.55rem', lineHeight: 1.6, color: '#334155', fontSize: '0.95rem' }}>{m.queEs}</p>
+                                <p style={{ margin: '0 0 0.55rem', lineHeight: 1.6, color: '#334155', fontSize: '0.95rem' }}>
+                                    <strong style={{ color: m.color }}>Para quién:</strong> {m.paraQuien}
+                                </p>
+                                <p style={{ margin: '0 0 0.8rem', lineHeight: 1.6, color: '#475569', fontSize: '0.9rem', background: '#f8fafc', borderLeft: `3px solid ${m.color}`, padding: '0.5rem 0.7rem', borderRadius: '0 0.4rem 0.4rem 0' }}>
+                                    <strong>A tener en cuenta:</strong> {m.ojo}
+                                </p>
+                                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'grid', gap: '0.35rem' }}>
+                                    {m.modelos.map(([nombre, precio], k) => (
+                                        <li key={k} style={{ display: 'flex', justifyContent: 'space-between', gap: '0.8rem', fontSize: '0.88rem', borderBottom: '1px dashed #e8eef6', paddingBottom: '0.3rem' }}>
+                                            <span style={{ color: '#475569' }}>{nombre}</span>
+                                            <strong style={{ color: '#0f172a', whiteSpace: 'nowrap' }}>{precio}</strong>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </article>
+                        ))}
+                    </div>
+
+                    <div style={{ textAlign: 'center', marginTop: '1.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.7rem', justifyContent: 'center' }}>
+                        <button
+                            className={css.guiaSantiBtn}
+                            onClick={() => openSanti('Hola Santi, no sé qué máscara me conviene para mi CPAP. ¿Me ayudás a elegir?')}
+                        >
+                            ¿Cuál me conviene? Preguntale a Santi
+                        </button>
+                        <Link to="/mascaras-cpap" className={css.guiaRentBtn} style={{ textDecoration: 'none' }}>
+                            Ver todas las máscaras y precios →
+                        </Link>
+                    </div>
+                    <p style={{ textAlign: 'center', marginTop: '0.9rem', fontSize: '0.88rem', color: '#64748b' }}>
+                        El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta.
+                        Contanos cómo dormís y te ayudamos a elegir el modelo y el talle correcto.
+                    </p>
                 </div>
             </section>
 
