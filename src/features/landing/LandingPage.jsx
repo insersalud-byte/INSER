@@ -1182,69 +1182,79 @@ const guides = [
 // local publica sus precios. Esta guía es contenido propio + diferencial de venta.
 const maskGuide = [
     {
-        tipo: 'Nasal',
-        icon: '👃',
+        icon: Wind,
+        title: 'Máscara Nasal',
+        question: '¿Cuándo conviene una máscara nasal?',
+        short: 'Cubre solo la nariz, con arnés liviano. Es la más usada y la que mejor tolera la mayoría de los pacientes.',
+        img: '/artifacts/products/1751037116992-1000306910.jpg',
+        long: [
+            'La máscara nasal apoya únicamente sobre la nariz. Al tener menos volumen sobre la cara, genera menos sensación de encierro y deja más libertad para moverse en la cama.',
+            'Es la primera opción para quienes respiran por la nariz durante el sueño, y la que mejor resultado da en la mayoría de los tratamientos con CPAP.',
+            'A tener en cuenta: si dormís con la boca abierta, el aire se escapa y perdés presión. En ese caso conviene pasar a una nasobucal o sumar una mentonera.',
+            'Modelos: RESCOMF $50.000 · BMC N4 con apoya frente U$S 36 · BMC N5a sin apoya frente U$S 60 · AirFit mínimo contacto ResMed U$S 157 · DreamWear Philips $223.000.',
+        ],
         color: '#0ea5e9',
-        queEs: 'Cubre solo la nariz, con un arnés liviano. Es la más usada y la que mejor tolera la mayoría de los pacientes.',
-        paraQuien: 'Para quienes respiran por la nariz durante el sueño. Menos volumen sobre la cara, menos sensación de encierro y más libertad para moverse en la cama.',
-        ojo: 'Si dormís con la boca abierta, se escapa el aire y perdés presión. En ese caso conviene una nasobucal o sumar una mentonera.',
-        modelos: [
-            ['Máscara Nasal RESCOMF', '$50.000'],
-            ['Máscara Nasal BMC N4 con apoya frente', 'U$S 36'],
-            ['Máscara Nasal BMC N5a sin apoya frente', 'U$S 60'],
-            ['Máscara Nasal AirFit mínimo contacto ResMed', 'U$S 157'],
-            ['Mascarilla Nasal DreamWear Philips', '$223.000'],
-        ],
+        priceFrom: 'Desde $50.000 · 5 modelos disponibles',
     },
     {
-        tipo: 'Nasobucal (full face)',
-        icon: '😮',
+        icon: Shield,
+        title: 'Máscara Nasobucal',
+        question: '¿Qué es una máscara nasobucal o full face?',
+        short: 'Cubre nariz y boca a la vez, con un sellado más amplio. Es la indicada si abrís la boca al dormir.',
+        img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jfif',
+        long: [
+            'La nasobucal (o full face) sella sobre la nariz y la boca al mismo tiempo, así que el aire sigue llegando aunque abras la boca mientras dormís.',
+            'Se indica cuando hay congestión nasal frecuente, respiración bucal o presiones de tratamiento altas. También es la máscara habitual en los equipos BiPAP.',
+            'A tener en cuenta: pesa y apoya más que la nasal, por eso el talle correcto es clave. Una nasobucal grande de más pierde aire y marca la cara.',
+            'Modelos: BMC F6 multitalle $198.000 · DreamWear nasobucal Philips $229.000 · BMC F5A sin apoya frente U$S 52 · Yuwell con apoya frente U$S 52 · AirFit F30 ResMed U$S 212.',
+        ],
         color: '#8b5cf6',
-        queEs: 'Cubre nariz y boca a la vez, con un sellado más amplio sobre la cara.',
-        paraQuien: 'Para quienes abren la boca al dormir, tienen la nariz congestionada seguido o necesitan presiones altas. También es la habitual en BiPAP.',
-        ojo: 'Pesa y apoya más que la nasal, así que el talle correcto es clave: una nasobucal grande de más pierde aire y marca la cara.',
-        modelos: [
-            ['Máscara Nasobucal BMC F6 multitalle', '$198.000'],
-            ['Mascarilla Nasobucal DreamWear Philips', '$229.000'],
-            ['Buconasal BMC F5A sin apoya frente', 'U$S 52'],
-            ['Buconasal Yuwell con apoya frente', 'U$S 52'],
-            ['Nasobucal AirFit F30 ResMed', 'U$S 212'],
-        ],
+        priceFrom: 'Desde U$S 52 · 5 modelos disponibles',
     },
     {
-        tipo: 'Almohadillas nasales',
-        icon: '💨',
+        icon: Droplet,
+        title: 'Almohadillas Nasales',
+        question: '¿Qué son las almohadillas nasales (pillow)?',
+        short: 'No cubren la nariz: apoyan directamente en las fosas nasales. Es el contacto más chico con la cara.',
+        img: '/artifacts/products/1752270243027-43fec688-2e01-4f0b-9f5f-76e8fa11db9d.jfif',
+        long: [
+            'En lugar de cubrir la nariz, dos almohadillas de silicona apoyan directamente en las fosas nasales. Es la interfaz de menor contacto facial que existe.',
+            'Es la mejor opción para quienes se sienten encerrados con las otras máscaras, usan anteojos para leer en la cama, tienen barba o duermen boca abajo.',
+            'A tener en cuenta: al ser el contacto más chico, en presiones altas puede molestar el chorro de aire directo dentro de la nariz.',
+            'Modelo disponible: Pillow nasal Yuwell YP-01 (talles L/M) a U$S 42.',
+        ],
         color: '#10b981',
-        queEs: 'No cubren la nariz: apoyan directamente en las fosas nasales con dos almohadillas de silicona.',
-        paraQuien: 'Para quienes se sienten encerrados con las otras máscaras, usan anteojos para leer en la cama, tienen barba o duermen boca abajo.',
-        ojo: 'Al ser el contacto más chico, en presiones altas puede molestar el chorro de aire directo en la nariz.',
-        modelos: [
-            ['Máscara Pillow nasal Yuwell YP-01', 'U$S 42'],
-        ],
+        priceFrom: 'U$S 42 · Yuwell YP-01',
     },
     {
-        tipo: 'Pediátricas',
-        icon: '🧒',
+        icon: Heart,
+        title: 'Máscaras Pediátricas',
+        question: '¿Hay máscaras para bebés y chicos?',
+        short: 'Sí. Línea pediátrica completa con talles desde neonatal, algo poco frecuente en el país.',
+        img: '/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jfif',
+        long: [
+            'Las máscaras pediátricas están diseñadas con medidas y materiales propios para bebés y chicos: no son máscaras de adulto en talle chico.',
+            'Se usan en lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y otros cuadros neuromusculares.',
+            'A tener en cuenta: la línea pediátrica es difícil de conseguir en Argentina. Tenemos tres opciones con talles desde neonatal, y te asesoramos según la edad y la anatomía del paciente.',
+            'Modelos: HSINER Cirri Mini nasal XS/S/M/L U$S 105 · Jirafa Philips Respironics U$S 220 · Infant CPAP Kit neonatal (talles 00 a 5) U$S 97.',
+        ],
         color: '#f59e0b',
-        queEs: 'Diseñadas con medidas y materiales para bebés y chicos, no son máscaras de adulto en talle chico.',
-        paraQuien: 'Lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y cuadros neuromusculares.',
-        ojo: 'La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal.',
-        modelos: [
-            ['Máscara Nasal Pediátrica HSINER Cirri Mini', 'U$S 105'],
-            ['Máscara Nasal Pediátrica Jirafa Philips', 'U$S 220'],
-            ['Infant CPAP Kit neonatal (talles 00 a 5)', 'U$S 97'],
-        ],
+        priceFrom: 'Desde U$S 97 · 3 modelos pediátricos',
     },
     {
-        tipo: 'Sin fuga (terapia intensiva)',
-        icon: '🏥',
-        color: '#ef4444',
-        queEs: 'Máscara NO ventilada: no tiene los orificios de fuga que sí traen las de uso domiciliario.',
-        paraQuien: 'Para respiradores de terapia intensiva y ventilación no invasiva con circuito de doble rama o válvula espiratoria.',
-        ojo: 'NO sirve para un CPAP o BiPAP domiciliario común: sin la fuga controlada se reinhala el aire exhalado. Es un producto de uso profesional.',
-        modelos: [
-            ['Máscara Buconasal BMC F2 codo azul', '$68.000'],
+        icon: Stethoscope,
+        title: 'Máscara Sin Fuga',
+        question: '¿Qué es una máscara no ventilada (terapia intensiva)?',
+        short: 'Máscara SIN FUGA para respiradores de terapia intensiva y ventilación no invasiva con válvula espiratoria.',
+        img: '/artifacts/products/bmc_f2_codo_azul_2.jpg',
+        long: [
+            'A diferencia de las máscaras de uso domiciliario, esta NO tiene los orificios de fuga controlada: es una máscara no ventilada, identificable por su codo azul.',
+            'Se usa con respiradores de terapia intensiva y en ventilación no invasiva con circuito de doble rama o válvula espiratoria, donde la exhalación se maneja por el circuito y no por la máscara.',
+            'IMPORTANTE: no sirve para un CPAP o BiPAP domiciliario común. Sin la fuga controlada se reinhala el aire exhalado. Es un producto de uso profesional, para instituciones y equipos con válvula.',
+            'Modelo disponible: Máscara Buconasal BMC F2 codo azul a $68.000.',
         ],
+        color: '#ef4444',
+        priceFrom: '$68.000 · BMC F2 codo azul',
     },
 ];
 
@@ -1391,6 +1401,7 @@ const LandingPage = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [specsProduct, setSpecsProduct] = useState(null);
     const [expandedGuide, setExpandedGuide] = useState(null);
+    const [expandedMask, setExpandedMask] = useState(null);
     const [expandedService, setExpandedService] = useState(null);
     const [activeTagKey, setActiveTagKey] = useState(null); // formato: "slug::tag"
     const [showEpworth, setShowEpworth] = useState(false);
@@ -1832,65 +1843,84 @@ const LandingPage = () => {
             <section id="mascaras" className={css.guiaSection}>
                 <div className={css.container}>
                     <div className={css.sectionHeader}>
-                        <span className={css.sectionTag}>😷 Guía de máscaras</span>
-                        <h2>Máscaras para CPAP y BiPAP: cuál te corresponde</h2>
+                        <span className={css.sectionTag}><BookOpen size={14} /> Guía de máscaras</span>
+                        <h2>Máscaras para CPAP y BiPAP: ¿cuál te corresponde?</h2>
+                        <p>La máscara es donde más pacientes abandonan el tratamiento, y casi siempre es por una máscara mal elegida, no por el equipo. Estos son los 5 tipos que vendemos, con precios a la vista.</p>
+                    </div>
+
+                    <div className={css.guiaGrid}>
+                        {maskGuide.map((m, i) => {
+                            const isOpen = expandedMask === i;
+                            return (
+                                <div
+                                    key={i}
+                                    className={`${css.guiaCard} ${isOpen ? css.guiaCardOpen : ''}`}
+                                    style={{ '--guia-color': m.color }}
+                                >
+                                    {m.img && (
+                                        <div className={css.guiaImgWrap}>
+                                            <img src={m.img} alt={m.title} className={css.guiaImg} loading="lazy" decoding="async" />
+                                            <div className={css.guiaImgOverlay} style={{ background: `linear-gradient(to bottom, transparent 40%, ${m.color}22 100%)` }} />
+                                        </div>
+                                    )}
+
+                                    <div className={css.guiaHeader}>
+                                        <div className={css.guiaIconBox}>
+                                            <m.icon size={26} />
+                                        </div>
+                                        <div className={css.guiaTitles}>
+                                            <span className={css.guiaTitle}>{m.title}</span>
+                                            <strong className={css.guiaQuestion}>{m.question}</strong>
+                                        </div>
+                                    </div>
+
+                                    <p className={css.guiaShort}>{m.short}</p>
+
+                                    {isOpen && (
+                                        <div className={css.guiaLong}>
+                                            {m.long.map((para, j) => (
+                                                <p key={j}>{para}</p>
+                                            ))}
+                                            <div className={css.guiaPrice}>{m.priceFrom}</div>
+                                        </div>
+                                    )}
+
+                                    <div className={css.guiaActions}>
+                                        <button
+                                            className={css.guiaExpandBtn}
+                                            onClick={() => setExpandedMask(isOpen ? null : i)}
+                                        >
+                                            {isOpen ? 'Mostrar menos' : 'Leer más'}
+                                            <ChevronDown size={16} className={isOpen ? css.chevronOpen : ''} />
+                                        </button>
+                                        <button
+                                            className={css.guiaSantiBtn}
+                                            onClick={() => openSanti(`Hola Santi, ¿me ayudás a saber si me conviene una ${m.title.toLowerCase()}?`)}
+                                        >
+                                            <MessageCircle size={14} /> Consultar
+                                        </button>
+                                    </div>
+
+                                    <a
+                                        className={css.guiaRentBtn}
+                                        href={`https://wa.me/5493512065320?text=${encodeURIComponent(`Hola, quisiera consultar por una ${m.title.toLowerCase()} para mi equipo. ¿Me asesoran para elegir el modelo y el talle?`)}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <Phone size={14} /> Consultar por WhatsApp
+                                    </a>
+                                </div>
+                            );
+                        })}
+                    </div>
+
+                    <div className={css.comparativeFoot}>
                         <p>
-                            La máscara es donde más pacientes abandonan el tratamiento, y casi siempre es por
-                            una máscara mal elegida, no por el equipo. Acá están los 5 tipos que vendemos, para
-                            quién es cada uno y a qué precio.
+                            El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta.
+                            Contanos cómo dormís y te ayudamos a elegir el modelo y el talle correcto.{' '}
+                            <Link to="/mascaras-cpap" className={css.comparativeLink}>Ver todas las máscaras y precios →</Link>
                         </p>
                     </div>
-
-                    <div style={{ display: 'grid', gap: '1rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
-                        {maskGuide.map((m, i) => (
-                            <article
-                                key={i}
-                                style={{
-                                    background: '#fff',
-                                    border: '1px solid #e8eef6',
-                                    borderTop: `4px solid ${m.color}`,
-                                    borderRadius: '0.9rem',
-                                    padding: '1.1rem 1.2rem',
-                                    boxShadow: '0 4px 18px rgba(30,64,175,0.06)',
-                                }}
-                            >
-                                <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.15rem', margin: '0 0 0.6rem', color: '#0f172a' }}>
-                                    <span aria-hidden="true">{m.icon}</span> {m.tipo}
-                                </h3>
-                                <p style={{ margin: '0 0 0.55rem', lineHeight: 1.6, color: '#334155', fontSize: '0.95rem' }}>{m.queEs}</p>
-                                <p style={{ margin: '0 0 0.55rem', lineHeight: 1.6, color: '#334155', fontSize: '0.95rem' }}>
-                                    <strong style={{ color: m.color }}>Para quién:</strong> {m.paraQuien}
-                                </p>
-                                <p style={{ margin: '0 0 0.8rem', lineHeight: 1.6, color: '#475569', fontSize: '0.9rem', background: '#f8fafc', borderLeft: `3px solid ${m.color}`, padding: '0.5rem 0.7rem', borderRadius: '0 0.4rem 0.4rem 0' }}>
-                                    <strong>A tener en cuenta:</strong> {m.ojo}
-                                </p>
-                                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'grid', gap: '0.35rem' }}>
-                                    {m.modelos.map(([nombre, precio], k) => (
-                                        <li key={k} style={{ display: 'flex', justifyContent: 'space-between', gap: '0.8rem', fontSize: '0.88rem', borderBottom: '1px dashed #e8eef6', paddingBottom: '0.3rem' }}>
-                                            <span style={{ color: '#475569' }}>{nombre}</span>
-                                            <strong style={{ color: '#0f172a', whiteSpace: 'nowrap' }}>{precio}</strong>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </article>
-                        ))}
-                    </div>
-
-                    <div style={{ textAlign: 'center', marginTop: '1.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.7rem', justifyContent: 'center' }}>
-                        <button
-                            className={css.guiaSantiBtn}
-                            onClick={() => openSanti('Hola Santi, no sé qué máscara me conviene para mi CPAP. ¿Me ayudás a elegir?')}
-                        >
-                            ¿Cuál me conviene? Preguntale a Santi
-                        </button>
-                        <Link to="/mascaras-cpap" className={css.guiaRentBtn} style={{ textDecoration: 'none' }}>
-                            Ver todas las máscaras y precios →
-                        </Link>
-                    </div>
-                    <p style={{ textAlign: 'center', marginTop: '0.9rem', fontSize: '0.88rem', color: '#64748b' }}>
-                        El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta.
-                        Contanos cómo dormís y te ayudamos a elegir el modelo y el talle correcto.
-                    </p>
                 </div>
             </section>
 
