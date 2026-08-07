@@ -9,8 +9,19 @@ const OpenAI = require('openai');
 const { createClient } = require('@supabase/supabase-js');
 const crypto = require('crypto');
 
-// ── OpenAI (same key as api/chat.js) ──────────────────────────────────────────
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+// ── Proveedor de IA: MISMA logica que api/chat.js (mantener sincronizados) ────
+// Soporta OpenRouter (claves sk-or-...) u OpenAI directo. Sin esto, si el proyecto
+// usa OpenRouter, Santi responde en la web pero queda mudo en Messenger/Instagram.
+const AI_API_KEY = process.env.OPENROUTER_API_KEY || process.env.OPENAI_API_KEY || '';
+const USE_OPENROUTER = !!process.env.OPENROUTER_API_KEY || AI_API_KEY.startsWith('sk-or-');
+const AI_MODEL = USE_OPENROUTER
+    ? (process.env.AI_MODEL || 'openai/gpt-4o-mini')
+    : (process.env.AI_MODEL || 'gpt-4o-mini');
+
+const openai = new OpenAI({
+    apiKey: AI_API_KEY,
+    ...(USE_OPENROUTER ? { baseURL: 'https://openrouter.ai/api/v1' } : {}),
+});
 
 // ── Supabase server-side client (service role — bypasses RLS) ─────────────────
 function getSupabase() {
@@ -188,7 +199,7 @@ function verifySignature(rawBody, signature) {
 
 async function callSanti(conversationMessages) {
     const response = await openai.chat.completions.create({
-        model: 'gpt-4o-mini',
+        model: AI_MODEL,
         messages: [
             { role: 'system', content: SYSTEM_PROMPT },
             ...conversationMessages,
