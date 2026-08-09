@@ -117,6 +117,7 @@ const MASK_GUIDE = [
 
 // Links internos a las landing SEO locales (discovery + PageRank desde el home)
 const LOCAL_LINKS = [
+    ['/alquiler-equipos-respiratorios-cordoba', 'Alquiler de equipos respiratorios en Córdoba'],
     ['/comprar-cpap-cordoba', 'Comprar CPAP en Córdoba'],
     ['/alquiler-cpap-cordoba', 'Alquiler de CPAP en Córdoba'],
     ['/bipap-cordoba', 'BiPAP en Córdoba'],

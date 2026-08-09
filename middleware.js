@@ -17,6 +17,7 @@ export const config = {
     matcher: [
         '/',
         '/patologia/:path*',
+        '/alquiler-equipos-respiratorios-cordoba',
         '/alquiler-cpap-cordoba',
         '/alquiler-concentrador-oxigeno-cordoba',
         '/comprar-cpap-cordoba',

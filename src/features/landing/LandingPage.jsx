@@ -1595,10 +1595,10 @@ const LandingPage = () => {
                 <div className={css.container}>
                     <h2 style={{ textAlign: 'center', color: '#0f172a', fontSize: 'clamp(1.3rem, 3vw, 1.7rem)', margin: '0 0 1.5rem' }}>¿Qué necesitás hoy?</h2>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', maxWidth: 980, margin: '0 auto' }}>
-                        <a href={`https://wa.me/5493512065320?text=${encodeURIComponent('Hola, necesito alquilar un equipo hoy en Córdoba.')}`} target="_blank" rel="noopener noreferrer" style={{ display: 'block', background: '#f0fdf4', border: '1.5px solid #bbf7d0', borderRadius: '1rem', padding: '1.25rem', textDecoration: 'none' }}>
+                        <Link to="/alquiler-equipos-respiratorios-cordoba" style={{ display: 'block', background: '#f0fdf4', border: '1.5px solid #bbf7d0', borderRadius: '1rem', padding: '1.25rem', textDecoration: 'none' }}>
                             <strong style={{ display: 'block', color: '#166534', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Necesito alquilar hoy</strong>
-                            <span style={{ color: '#334155', fontSize: '0.9rem' }}>Entrega e instalación a domicilio en Córdoba, en 24 hs. Escribinos y lo resolvemos.</span>
-                        </a>
+                            <span style={{ color: '#334155', fontSize: '0.9rem' }}>Elegí qué equipo te indicaron y te cotizamos el mismo día. Entrega e instalación a domicilio en Córdoba.</span>
+                        </Link>
                         <button onClick={() => scrollTo('ofertas')} style={{ textAlign: 'left', cursor: 'pointer', background: '#eff6ff', border: '1.5px solid #bfdbfe', borderRadius: '1rem', padding: '1.25rem', fontFamily: 'inherit' }}>
                             <strong style={{ display: 'block', color: '#1e40af', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Quiero comprar un equipo</strong>
                             <span style={{ color: '#334155', fontSize: '0.9rem' }}>Precios visibles, envío a todo el país y cuotas con Banco Galicia. Mirá las ofertas.</span>

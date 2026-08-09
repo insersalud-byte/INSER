@@ -143,6 +143,17 @@ const LocalPage = ({ slug }) => {
                     </section>
                 ))}
 
+                {/* Formulario con la foto real de cada equipo (solo en el hub de alquiler) */}
+                {data.formularioEquipos && (
+                    <section style={{ margin: '1.5rem 0' }}>
+                        <h2 style={c.h2}>Pedí tu cotización</h2>
+                        <p style={c.p}>Marcá qué te indicó tu médico. Te respondemos por WhatsApp el mismo día.</p>
+                        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
+                            <LeadForm contexto={data.h1} sinTitulo conImagenes />
+                        </div>
+                    </section>
+                )}
+
                 {data.products && data.products.length > 0 && (
                     <section>
                         <h2 style={c.h2}>Equipos relacionados</h2>

@@ -22,20 +22,21 @@ const FORM_ENDPOINT = 'https://formsubmit.co/ajax/inser.salud@gmail.com';
 
 // Equipos que REALMENTE vendemos/alquilamos. No agregar nada que no esté en el catálogo.
 // destino: a dónde se invita a la persona después de enviar la consulta.
+// img: foto real del producto del catálogo (no ilustraciones ni stock).
 const EQUIPOS = [
-    { id: 'concentrador', label: 'Concentrador de oxígeno (para casa)', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
-    { id: 'portatil', label: 'Concentrador de oxígeno portátil', destino: '/comprar-concentrador-oxigeno-portatil-argentina', destinoLabel: 'Ver los concentradores portátiles' },
-    { id: 'mochila', label: 'Mochila / tubo de oxígeno', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
-    { id: 'cpap', label: 'CPAP', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
-    { id: 'autocpap', label: 'AutoCPAP', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
-    { id: 'bipap', label: 'BiPAP / VNI', destino: '/bipap-cordoba', destinoLabel: 'Ver cómo funciona el BiPAP' },
-    { id: 'ventilador', label: 'Ventilador domiciliario', destino: '/ventilador-stellar-150', destinoLabel: 'Ver el ventilador STELLAR 150' },
-    { id: 'cough', label: 'Cough Assist (asistente de tos)', destino: '/cough-assist-asistente-de-tos', destinoLabel: 'Ver cómo funciona el asistente de tos' },
-    { id: 'mascara', label: 'Máscara o repuesto', destino: '/mascaras-cpap', destinoLabel: 'Ver la guía de máscaras' },
-    { id: 'nose', label: 'No estoy seguro / otro', destino: null, destinoLabel: 'Consultar con Santi' },
+    { id: 'concentrador', label: 'Concentrador de oxígeno (para casa)', img: '/artifacts/products/concentrador_bmc_1.jpg', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
+    { id: 'portatil', label: 'Concentrador de oxígeno portátil', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', destino: '/comprar-concentrador-oxigeno-portatil-argentina', destinoLabel: 'Ver los concentradores portátiles' },
+    { id: 'mochila', label: 'Mochila / tubo de oxígeno', img: '/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
+    { id: 'cpap', label: 'CPAP', img: '/artifacts/products/1752160942319-bmcg2.2.jfif', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
+    { id: 'autocpap', label: 'AutoCPAP', img: '/artifacts/products/fcd9a652-1366-4c5a-916d-e4321777fe9e.jpeg', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
+    { id: 'bipap', label: 'BiPAP / VNI', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', destino: '/bipap-cordoba', destinoLabel: 'Ver cómo funciona el BiPAP' },
+    { id: 'ventilador', label: 'Ventilador domiciliario', img: '/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg', destino: '/ventilador-stellar-150', destinoLabel: 'Ver el ventilador STELLAR 150' },
+    { id: 'cough', label: 'Cough Assist (asistente de tos)', img: '/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg', destino: '/cough-assist-asistente-de-tos', destinoLabel: 'Ver cómo funciona el asistente de tos' },
+    { id: 'mascara', label: 'Máscara o repuesto', img: '/artifacts/products/1751037116992-1000306910.jpg', destino: '/mascaras-cpap', destinoLabel: 'Ver la guía de máscaras' },
+    { id: 'nose', label: 'No estoy seguro / otro', img: null, destino: null, destinoLabel: 'Consultar con Santi' },
 ];
 
-export default function LeadForm({ contexto = 'Home', sinTitulo = false }) {
+export default function LeadForm({ contexto = 'Home', sinTitulo = false, conImagenes = false }) {
     const [form, setForm] = useState({ name: '', phone: '' });
     const [equipos, setEquipos] = useState([]);
     const [consent, setConsent] = useState(false);
@@ -172,6 +173,53 @@ export default function LeadForm({ contexto = 'Home', sinTitulo = false }) {
                 ¿Qué equipo te indicaron? <span style={{ fontWeight: 400, color: '#64748b' }}>(podés marcar más de uno)</span>
             </p>
 
+            {/* Modo con imágenes (página de alquiler): tarjetas con la foto real del equipo */}
+            {conImagenes ? (
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(128px, 1fr))', gap: '0.6rem', marginBottom: '0.9rem' }}>
+                    {EQUIPOS.map((eq) => {
+                        const marcado = equipos.includes(eq.id);
+                        return (
+                            <label
+                                key={eq.id}
+                                style={{
+                                    position: 'relative', cursor: 'pointer', display: 'block',
+                                    background: marcado ? '#eff6ff' : '#fff',
+                                    border: `2px solid ${marcado ? '#1e40af' : '#e8eef6'}`,
+                                    borderRadius: '0.7rem', overflow: 'hidden', textAlign: 'center',
+                                    transition: 'border-color .15s',
+                                }}
+                            >
+                                <input
+                                    type="checkbox"
+                                    checked={marcado}
+                                    onChange={() => toggleEquipo(eq.id)}
+                                    style={{ position: 'absolute', opacity: 0, pointerEvents: 'none' }}
+                                />
+                                {marcado && (
+                                    <span style={{ position: 'absolute', top: 5, right: 5, background: '#1e40af', color: '#fff', borderRadius: '50%', width: 21, height: 21, display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1 }}>
+                                        <CheckCircle size={14} />
+                                    </span>
+                                )}
+                                {eq.img ? (
+                                    <img
+                                        src={eq.img}
+                                        alt={eq.label}
+                                        loading="lazy"
+                                        decoding="async"
+                                        style={{ width: '100%', height: 92, objectFit: 'contain', background: '#f8fafc', padding: '0.4rem', boxSizing: 'border-box', display: 'block' }}
+                                    />
+                                ) : (
+                                    <div style={{ height: 92, display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f8fafc', fontSize: '1.8rem' }} aria-hidden="true">🤔</div>
+                                )}
+                                <span style={{ display: 'block', padding: '0.45rem 0.4rem 0.55rem', fontSize: '0.79rem', lineHeight: 1.3, color: marcado ? '#1e40af' : '#334155', fontWeight: marcado ? 700 : 500 }}>
+                                    {eq.label}
+                                </span>
+                            </label>
+                        );
+                    })}
+                </div>
+            ) : (
+            <>
             <button
                 type="button"
                 onClick={() => setListaAbierta((v) => !v)}
@@ -224,6 +272,8 @@ export default function LeadForm({ contexto = 'Home', sinTitulo = false }) {
                         );
                     })}
                 </div>
+            )}
+            </>
             )}
 
             <label style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', fontSize: '0.82rem', color: '#475569', marginBottom: '0.8rem', cursor: 'pointer' }}>

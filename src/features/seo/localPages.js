@@ -14,6 +14,58 @@
  */
 export const localPages = [
     {
+        slug: 'alquiler-equipos-respiratorios-cordoba',
+        formularioEquipos: true,
+        h1: 'Alquiler de equipos respiratorios en Córdoba',
+        metaTitle: 'Alquiler de Equipos Respiratorios en Córdoba | Entrega e Instalación | INSER SALUD',
+        metaTitleSalud: 'Alquiler de Equipos Respiratorios en Córdoba | INSER SALUD',
+        description: 'Alquilá oxígeno, CPAP, BiPAP, ventilador o asistente de tos en Córdoba, con entrega e instalación a domicilio. Decinos qué te indicó tu médico y te cotizamos el mismo día por WhatsApp.',
+        heroImg: '/artifacts/products/concentrador_bmc_1.jpg',
+        intro: 'Alquilamos equipos de terapia respiratoria en Córdoba con entrega e instalación a domicilio. Elegí abajo qué te indicó tu médico y te pasamos la cotización el mismo día por WhatsApp. No necesitás saber de marcas ni modelos: con la indicación alcanza.',
+        ctaSanti: 'Hola Santi, quiero alquilar un equipo respiratorio en Córdoba. ¿Cómo es el alquiler?',
+        sections: [
+            {
+                title: 'Qué equipos alquilamos',
+                content: 'Alquilamos toda la línea de terapia respiratoria domiciliaria: concentradores de oxígeno fijos y portátiles, mochilas y tubos de oxígeno, CPAP y AutoCPAP para apnea del sueño, BiPAP y ventilación no invasiva, ventiladores domiciliarios y asistente de tos (Cough Assist).\n\nTambién alquilamos los insumos que acompañan a cada equipo: máscaras, tubuladuras y repuestos.\n\nSi no sabés cuál te corresponde, marcá "No estoy seguro" y te orientamos.',
+            },
+            {
+                title: 'Cuándo conviene alquilar en lugar de comprar',
+                content: 'Alquilar conviene cuando el uso es por tiempo definido: después de una internación, en un post operatorio, o mientras se define el tratamiento definitivo.\n\nTambién es la mejor forma de probar un equipo antes de decidir la compra, sobre todo en apnea del sueño, donde la adaptación es lo que define si el tratamiento funciona.\n\nY si el tratamiento resulta ser de largo plazo, en algún momento la compra se vuelve más conveniente que seguir pagando el alquiler. Te lo decimos con honestidad cuando llegue ese punto.',
+            },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+            },
+            {
+                title: 'Cómo es el proceso',
+                content: 'Nos escribís por WhatsApp o completás el formulario de esta página con lo que te indicó tu médico. Te pasamos la cotización el mismo día, con el valor del alquiler y qué incluye.\n\nCuando confirmás, coordinamos la entrega en tu domicilio en Córdoba, normalmente dentro de las 24 hs. Ahí se instala el equipo, se configura y te enseñamos a usarlo.\n\nRecién al cerrar la operación te pedimos los datos para la entrega. Para cotizar no necesitás mandar DNI ni dirección.',
+            },
+            {
+                title: 'Probalo un mes antes de comprarlo',
+                content: 'Si alquilás un CPAP o un AutoCPAP y después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta.\n\nEs la forma de empezar el tratamiento sin la inversión completa de entrada, y sin perder lo que ya pagaste. Aplica a CPAP y AutoCPAP.',
+            },
+        ],
+        products: [
+            { name: 'Concentrador de oxígeno (fijo o portátil)', price: 'consultar alquiler' },
+            { name: 'CPAP y AutoCPAP', price: 'consultar alquiler' },
+            { name: 'BiPAP y ventilación no invasiva', price: 'consultar alquiler' },
+            { name: 'Ventilador domiciliario y asistente de tos', price: 'consultar alquiler' },
+        ],
+        faq: [
+            { q: '¿Qué equipos se pueden alquilar?', a: 'Concentradores de oxígeno fijos y portátiles, mochilas y tubos de oxígeno, CPAP, AutoCPAP, BiPAP, ventiladores domiciliarios y asistente de tos. También los insumos que acompañan a cada equipo.' },
+            { q: '¿Cuánto cuesta el alquiler?', a: 'Depende del equipo y del plazo. Completá el formulario de esta página o escribinos por WhatsApp y te pasamos la cotización el mismo día, sin compromiso.' },
+            { q: '¿En cuánto tiempo lo entregan?', a: 'En Córdoba coordinamos la entrega e instalación a domicilio, normalmente dentro de las 24 hs. La instalación la hace personal profesional especializado.' },
+            { q: '¿Necesito indicación médica para alquilar?', a: 'Sí. El equipo se configura con los valores que indicó tu médico (presión, flujo o modo), así que necesitamos esa indicación para entregártelo listo para usar.' },
+            { q: '¿Alquilan fuera de Córdoba?', a: 'El alquiler con entrega e instalación es en Córdoba. Al resto del país vendemos con envío: escribinos y te asesoramos sobre la mejor opción para tu caso.' },
+            { q: '¿Qué pasa si el equipo falla durante el alquiler?', a: 'El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos.' },
+        ],
+        related: [
+            { label: 'Alquiler de CPAP en Córdoba', href: '/alquiler-cpap-cordoba' },
+            { label: 'Alquiler de concentrador de oxígeno', href: '/alquiler-concentrador-oxigeno-cordoba' },
+            { label: 'Oxígeno a domicilio en Córdoba', href: '/oxigeno-a-domicilio-cordoba' },
+        ],
+    },
+    {
         slug: 'alquiler-cpap-cordoba',
         h1: 'Alquiler de CPAP en Córdoba',
         metaTitle: 'Alquiler de CPAP en Córdoba | Entrega a Domicilio 24hs | INSER SALUD',
