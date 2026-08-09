@@ -6,7 +6,7 @@ import {
     Lightbulb, Shield, Bell, RefreshCw,
     Phone, Mail, MapPin, Star, Menu, X, MessageCircle,
     Layers, Droplet, Waves, Stethoscope, ChevronDown, BookOpen,
-    Instagram, Facebook, Truck
+    Instagram, Facebook, Truck, Send
 } from 'lucide-react';
 import LeadForm from '../../components/LeadForm';
 import css from './LandingPage.module.css';
@@ -1562,6 +1562,34 @@ const LandingPage = () => {
                 ))}
             </div>
 
+            {/* ── CAPTACIÓN: ¿TE INDICARON UN EQUIPO? ────────────────── */}
+            {/* Va justo debajo del hero, sin taparlo: el hero es la parte del sitio
+                con mejor rendimiento medido, asi que el formulario acompaña, no desplaza. */}
+            <section id="cotizacion" style={{ padding: '2.5rem 1rem', background: 'linear-gradient(180deg,#f8fafc,#eff6ff)' }}>
+                <div className={css.container} style={{ display: 'grid', gap: '1.5rem', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', alignItems: 'start' }}>
+                    <div>
+                        <h2 style={{ fontSize: 'clamp(1.4rem, 3.5vw, 2rem)', margin: '0 0 0.7rem', color: '#0f172a' }}>
+                            ¿Te indicaron un equipo respiratorio?
+                        </h2>
+                        <p style={{ fontSize: '1.02rem', lineHeight: 1.65, color: '#334155', margin: '0 0 1rem' }}>
+                            Decinos qué te indicó tu médico y te pasamos la cotización por WhatsApp el mismo día.
+                            No necesitás saber de marcas ni modelos: con la indicación alcanza.
+                        </p>
+                        <div style={{ background: '#fff', border: '1px solid #dbeafe', borderLeft: '4px solid #1e40af', borderRadius: '0.7rem', padding: '1rem 1.1rem' }}>
+                            <strong style={{ display: 'block', color: '#1e40af', marginBottom: '0.35rem' }}>No te entregamos una caja</strong>
+                            <p style={{ margin: 0, fontSize: '0.93rem', lineHeight: 1.65, color: '#334155' }}>
+                                Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo),
+                                listo para usar desde la primera noche. La instalación la hace personal profesional
+                                especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días.
+                            </p>
+                        </div>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <LeadForm contexto="Home" />
+                    </div>
+                </div>
+            </section>
+
             {/* ── ¿QUÉ NECESITÁS HOY? (caminos de usuario) ───────────── */}
             <section style={{ padding: '2.5rem 1rem', background: '#fff' }}>
                 <div className={css.container}>
@@ -2222,8 +2250,22 @@ const LandingPage = () => {
                         <h2>Contacto Directo</h2>
                         <p>Respondemos todos los días. Para emergencias de equipos, tenemos atención prioritaria.</p>
                     </div>
-                    <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
-                        <LeadForm contexto="Home" />
+                    {/* El formulario completo vive arriba (#cotizacion). Aca solo un acceso,
+                        para no repetir el mismo formulario largo dos veces en la misma pagina. */}
+                    <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+                        <button
+                            onClick={() => scrollTo('cotizacion')}
+                            style={{
+                                background: 'linear-gradient(135deg,#1e40af,#3b82f6)', color: '#fff', border: 'none',
+                                fontWeight: 700, fontSize: '1rem', padding: '0.85rem 1.6rem', borderRadius: '0.7rem',
+                                cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
+                            }}
+                        >
+                            <Send size={17} /> Pedir cotización por WhatsApp
+                        </button>
+                        <p style={{ margin: '0.6rem 0 0', fontSize: '0.88rem', color: 'rgba(255,255,255,0.75)' }}>
+                            Decinos qué equipo te indicaron y te respondemos el mismo día.
+                        </p>
                     </div>
                     <div className={css.contactGrid}>
                         <a href={'https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20sitio%20de%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta.'} target="_blank" rel="noopener noreferrer" className={css.contactCardWa}>

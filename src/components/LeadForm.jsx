@@ -1,59 +1,97 @@
 import React, { useState } from 'react';
-import { Send, MessageCircle, CheckCircle } from 'lucide-react';
+import { Send, MessageCircle, CheckCircle, ArrowRight } from 'lucide-react';
 
 /**
- * LeadForm — formulario de captación de leads.
- * Captura al visitante que NO escribe por WhatsApp (de noche, con miedo a llamar,
- * comparando proveedores). Al enviar:
- *  - manda el lead por EMAIL al negocio (vía FormSubmit, sin backend propio), y
- *  - ofrece continuar por WhatsApp con los datos precargados.
- *  - registra el evento generate_lead en GA4.
+ * LeadForm — captación de consultas por indicación médica.
  *
- * Nota: la primera vez, FormSubmit envía un email de confirmación a
- * inser.salud@gmail.com que hay que aceptar una sola vez para activar el envío.
+ * Diseñado sobre un dato medido: la gente elige WhatsApp 31 a 0 contra el formulario.
+ * Por eso esto NO es un formulario tradicional, es un acelerador de WhatsApp que
+ * de paso deja el lead por email:
+ *   1. pide lo mínimo (nombre, WhatsApp y qué equipo le indicaron),
+ *   2. abre WhatsApp con el mensaje ya armado,
+ *   3. manda el lead por email al negocio (FormSubmit, sin backend propio),
+ *   4. muestra una confirmación que lleva a la página del tratamiento.
+ *
+ * NO se piden DNI, dirección, diagnóstico ni obra social: eso se conversa por
+ * WhatsApp cuando la operación se cierra. NO se muestran precios de alquiler.
+ *
+ * Nota: FormSubmit necesita una activación única por email (ya hecha en 2026-06).
  */
 const WA_NUMBER = '5493512065320';
 const FORM_ENDPOINT = 'https://formsubmit.co/ajax/inser.salud@gmail.com';
 
+// Equipos que REALMENTE vendemos/alquilamos. No agregar nada que no esté en el catálogo.
+// destino: a dónde se invita a la persona después de enviar la consulta.
+const EQUIPOS = [
+    { id: 'concentrador', label: 'Concentrador de oxígeno (para casa)', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
+    { id: 'portatil', label: 'Concentrador de oxígeno portátil', destino: '/comprar-concentrador-oxigeno-portatil-argentina', destinoLabel: 'Ver los concentradores portátiles' },
+    { id: 'mochila', label: 'Mochila / tubo de oxígeno', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
+    { id: 'cpap', label: 'CPAP', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
+    { id: 'autocpap', label: 'AutoCPAP', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
+    { id: 'bipap', label: 'BiPAP / VNI', destino: '/bipap-cordoba', destinoLabel: 'Ver cómo funciona el BiPAP' },
+    { id: 'ventilador', label: 'Ventilador domiciliario', destino: '/ventilador-stellar-150', destinoLabel: 'Ver el ventilador STELLAR 150' },
+    { id: 'cough', label: 'Cough Assist (asistente de tos)', destino: '/cough-assist-asistente-de-tos', destinoLabel: 'Ver cómo funciona el asistente de tos' },
+    { id: 'mascara', label: 'Máscara o repuesto', destino: '/mascaras-cpap', destinoLabel: 'Ver la guía de máscaras' },
+    { id: 'nose', label: 'No estoy seguro / otro', destino: null, destinoLabel: 'Consultar con Santi' },
+];
+
 export default function LeadForm({ contexto = 'Home' }) {
-    const [form, setForm] = useState({ name: '', phone: '', message: '' });
+    const [form, setForm] = useState({ name: '', phone: '' });
+    const [equipos, setEquipos] = useState([]);
+    const [consent, setConsent] = useState(false);
     const [status, setStatus] = useState('idle'); // idle | sending | done | error
     const upd = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
 
+    const toggleEquipo = (id) =>
+        setEquipos((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+
+    const elegidos = EQUIPOS.filter((e) => equipos.includes(e.id));
+    const textoEquipos = elegidos.map((e) => e.label).join(', ');
+    // El destino lo define el primer equipo tildado (el orden de la lista es el de prioridad)
+    const destino = elegidos.find((e) => e.destino) || null;
+
     const waLink = () => {
-        const txt = `Hola, soy ${form.name || ''} (tel: ${form.phone || ''}). ${form.message || 'Quiero hacer una consulta.'}${contexto && contexto !== 'Home' ? ` [${contexto}]` : ''}`;
+        const txt = `Hola INSER SALUD, soy ${form.name || ''}. Me indicaron ${textoEquipos || 'un equipo respiratorio'} y quiero la cotización.`;
         return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(txt.trim())}`;
     };
 
+    const listo = form.name.trim() && form.phone.trim() && equipos.length > 0 && consent;
+
     const submit = async (e) => {
         e.preventDefault();
-        if (!form.name.trim() || !form.phone.trim() || status === 'sending') return;
+        if (!listo || status === 'sending') return;
         setStatus('sending');
+
+        // WhatsApp se abre YA, dentro del click: si se abriera después del await,
+        // el navegador lo bloquea como popup. Si el email falla, el flujo no se corta.
+        window.open(waLink(), '_blank', 'noopener,noreferrer');
+
         try {
             const res = await fetch(FORM_ENDPOINT, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
                 body: JSON.stringify({
-                    _subject: `Nueva consulta web INSER SALUD${contexto && contexto !== 'Home' ? ` — ${contexto}` : ''}`,
+                    _subject: `Nueva consulta web INSER SALUD — ${textoEquipos}`,
                     _captcha: 'false',
                     Nombre: form.name,
-                    Telefono: form.phone,
-                    Mensaje: form.message || '(sin mensaje)',
+                    WhatsApp: form.phone,
+                    'Equipo indicado': textoEquipos,
                     Pagina: contexto,
+                    Consentimiento: 'Aceptó ser contactado por WhatsApp',
                 }),
             });
             if (!res.ok) throw new Error('FormSubmit ' + res.status);
-            // Eventos de conversion SOLO cuando el lead realmente se envio
+            // Eventos de conversión SOLO cuando el lead realmente se envió
             if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-                window.gtag('event', 'generate_lead', { context: contexto });
+                window.gtag('event', 'generate_lead', { context: contexto, equipo: textoEquipos });
             }
             if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
-                window.fbq('track', 'Lead', { content_name: contexto });
+                window.fbq('track', 'Lead', { content_name: textoEquipos });
             }
-            setStatus('done');
         } catch {
-            setStatus('error');
+            // El lead ya está en WhatsApp: no mostramos error, no se pierde la consulta.
         }
+        setStatus('done');
     };
 
     const card = {
@@ -77,11 +115,37 @@ export default function LeadForm({ contexto = 'Home' }) {
             <div style={card}>
                 <div style={{ textAlign: 'center', color: '#0f172a' }}>
                     <CheckCircle size={40} color="#10b981" style={{ marginBottom: '0.5rem' }} />
-                    <h3 style={{ margin: '0 0 0.4rem' }}>¡Gracias! Recibimos tu consulta</h3>
-                    <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.92rem' }}>Nuestro equipo te va a escribir en minutos desde el <strong>+54 9 351 206-5320</strong> (guardalo así nos reconocés). Si preferís, adelantate por WhatsApp:</p>
-                    <a href={waLink()} target="_blank" rel="noopener noreferrer" style={{ ...btn, textDecoration: 'none', background: '#25d366' }}>
-                        <MessageCircle size={18} /> Continuar por WhatsApp
-                    </a>
+                    <h3 style={{ margin: '0 0 0.4rem' }}>Recibimos tu consulta, {form.name.split(' ')[0]}</h3>
+                    <p style={{ margin: '0 0 0.9rem', color: '#475569', fontSize: '0.95rem' }}>
+                        Te escribimos <strong style={{ color: '#0f172a' }}>hoy mismo</strong> por WhatsApp con la cotización,
+                        de 8 a 20 hs, desde el <strong>+54 9 351 206-5320</strong>.
+                    </p>
+
+                    {/* Diferencial de servicio: aplica tanto a alquiler como a venta */}
+                    <div style={{ background: '#eff6ff', border: '1px solid #dbeafe', borderRadius: '0.7rem', padding: '0.85rem 1rem', textAlign: 'left', marginBottom: '1rem' }}>
+                        <strong style={{ display: 'block', color: '#1e40af', marginBottom: '0.3rem', fontSize: '0.95rem' }}>No te entregamos una caja</strong>
+                        <p style={{ margin: 0, fontSize: '0.87rem', lineHeight: 1.6, color: '#334155' }}>
+                            Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo),
+                            listo para usar desde la primera noche. La instalación la hace personal profesional
+                            especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días.
+                        </p>
+                    </div>
+
+                    <p style={{ margin: '0 0 0.6rem', color: '#475569', fontSize: '0.88rem' }}>
+                        Mientras tanto, mirá cómo funciona tu tratamiento:
+                    </p>
+                    {destino ? (
+                        <a href={destino.destino} style={{ ...btn, textDecoration: 'none' }}>
+                            {destino.destinoLabel} <ArrowRight size={17} />
+                        </a>
+                    ) : (
+                        <button
+                            style={btn}
+                            onClick={() => window.dispatchEvent(new CustomEvent('open-santi', { detail: { message: 'Hola Santi, no estoy seguro de qué equipo me indicaron. ¿Me ayudás?' } }))}
+                        >
+                            <MessageCircle size={17} /> Consultar con Santi
+                        </button>
+                    )}
                 </div>
             </div>
         );
@@ -89,21 +153,61 @@ export default function LeadForm({ contexto = 'Home' }) {
 
     return (
         <form style={card} onSubmit={submit}>
-            <h3 style={{ margin: '0 0 0.25rem', color: '#0f172a' }}>Dejanos tu consulta</h3>
-            <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.88rem' }}>Respondemos en minutos, todos los días. Sin compromiso. Si tenés obra social, te preparamos presupuesto formal y factura para el reintegro.</p>
+            <h3 style={{ margin: '0 0 0.25rem', color: '#0f172a', fontSize: '1.2rem' }}>¿Te indicaron un equipo respiratorio?</h3>
+            <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.88rem' }}>
+                Decinos qué te indicó tu médico y te pasamos la cotización por WhatsApp.
+            </p>
+
             <input style={input} type="text" placeholder="Tu nombre *" value={form.name} onChange={upd('name')} required />
-            <input style={input} type="tel" placeholder="Tu teléfono / WhatsApp *" value={form.phone} onChange={upd('phone')} required />
-            <textarea style={{ ...input, minHeight: 80, resize: 'vertical' }} placeholder="¿En qué te podemos ayudar? (equipo, patología, alquiler...)" value={form.message} onChange={upd('message')} />
-            <button style={btn} type="submit" disabled={status === 'sending'}>
-                <Send size={18} /> {status === 'sending' ? 'Enviando...' : 'Enviar consulta'}
+            <input style={input} type="tel" placeholder="Tu WhatsApp *" value={form.phone} onChange={upd('phone')} required />
+
+            <p style={{ margin: '0.5rem 0 0.5rem', fontSize: '0.9rem', fontWeight: 600, color: '#0f172a' }}>
+                ¿Qué equipo te indicaron? <span style={{ fontWeight: 400, color: '#64748b' }}>(podés marcar más de uno)</span>
+            </p>
+            <div style={{ display: 'grid', gap: '0.3rem', marginBottom: '0.8rem' }}>
+                {EQUIPOS.map((eq) => {
+                    const marcado = equipos.includes(eq.id);
+                    return (
+                        <label
+                            key={eq.id}
+                            style={{
+                                display: 'flex', alignItems: 'center', gap: '0.55rem', cursor: 'pointer',
+                                fontSize: '0.9rem', color: marcado ? '#1e40af' : '#334155',
+                                background: marcado ? '#eff6ff' : '#f8fafc',
+                                border: `1.5px solid ${marcado ? '#93c5fd' : '#e8eef6'}`,
+                                borderRadius: '0.5rem', padding: '0.5rem 0.7rem',
+                                fontWeight: marcado ? 600 : 400,
+                            }}
+                        >
+                            <input
+                                type="checkbox"
+                                checked={marcado}
+                                onChange={() => toggleEquipo(eq.id)}
+                                style={{ width: 17, height: 17, accentColor: '#1e40af', flexShrink: 0, margin: 0 }}
+                            />
+                            {eq.label}
+                        </label>
+                    );
+                })}
+            </div>
+
+            <label style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', fontSize: '0.82rem', color: '#475569', marginBottom: '0.8rem', cursor: 'pointer' }}>
+                <input
+                    type="checkbox"
+                    checked={consent}
+                    onChange={(e) => setConsent(e.target.checked)}
+                    style={{ width: 16, height: 16, accentColor: '#1e40af', marginTop: 2, flexShrink: 0 }}
+                    required
+                />
+                <span>Acepto que INSER SALUD me contacte por WhatsApp para responder esta consulta.</span>
+            </label>
+
+            <button style={{ ...btn, opacity: listo ? 1 : 0.55, cursor: listo ? 'pointer' : 'not-allowed' }} type="submit" disabled={!listo || status === 'sending'}>
+                <Send size={18} /> {status === 'sending' ? 'Enviando...' : 'Pedir cotización por WhatsApp'}
             </button>
-            {status === 'error' && (
-                <p style={{ color: '#ef4444', fontSize: '0.85rem', marginTop: '0.6rem', textAlign: 'center' }}>
-                    No se pudo enviar. Escribinos por <a href={waLink()} target="_blank" rel="noopener noreferrer">WhatsApp</a>.
-                </p>
-            )}
-            <p style={{ margin: '0.75rem 0 0', textAlign: 'center', fontSize: '0.82rem' }}>
-                o <a href={waLink()} target="_blank" rel="noopener noreferrer" style={{ color: '#1e40af', fontWeight: 600 }}>escribinos por WhatsApp</a>
+
+            <p style={{ margin: '0.7rem 0 0', textAlign: 'center', fontSize: '0.78rem', color: '#64748b' }}>
+                No pedimos DNI, dirección ni obra social para cotizar.
             </p>
         </form>
     );
