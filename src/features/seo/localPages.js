@@ -47,6 +47,14 @@ export const localPages = [
                 title: 'La higiene del equipo',
                 content: 'Un CPAP bien cuidado dura años, y la rutina es simple.\n\nLa máscara se limpia con agua y jabón neutro, y conviene hacerlo seguido porque está en contacto con la piel. El humidificador se llena solo con agua destilada, nunca de la canilla, porque el sarro daña el equipo. La tubuladura se lava y se cuelga a secar.\n\nCuando te entregamos el equipo te mostramos todo esto en tu casa.',
             },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+            },
+            {
+                title: 'Probalo un mes antes de comprarlo',
+                content: 'Si no estás seguro de cómo te vas a adaptar, alquilá el equipo y probalo en tu casa.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nEs la forma de empezar el tratamiento sin la inversión completa de entrada, y sin perder lo que ya pagaste.',
+            },
         ],
         products: [
             { name: 'CPAP BMC G2S con humidificador', price: 'también en venta $499.000' },
@@ -89,6 +97,10 @@ export const localPages = [
             {
                 title: '¿Para quién es la oxigenoterapia?',
                 content: 'La oxigenoterapia domiciliaria está indicada cuando la saturación de oxígeno en sangre es baja, situación frecuente en EPOC, fibrosis pulmonar, secuelas post-COVID y cuadros respiratorios crónicos. Siempre se usa según indicación médica.',
+            },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
             },
         ],
         products: [
@@ -142,6 +154,14 @@ export const localPages = [
             {
                 title: 'Qué gastos vas a tener después de la compra',
                 content: 'Te lo decimos de entrada para que no haya sorpresas.\n\nEl equipo en sí no requiere gastos: con la limpieza correcta dura años y tiene 2 años de garantía oficial.\n\nLo que sí se renueva son los consumibles. La máscara es lo que más se usa y con el tiempo el silicón pierde sello. Los filtros son baratos y se cambian periódicamente. La tubuladura dura bastante, pero si se raja hay que reemplazarla.\n\nTenemos los repuestos en Córdoba, así que no vas a tener que esperar un envío ni buscarlos por tu cuenta.',
+            },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+            },
+            {
+                title: 'Probalo un mes antes de comprarlo',
+                content: 'Si no estás seguro de cómo te vas a adaptar, alquilá el equipo y probalo en tu casa.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nEs la forma de empezar el tratamiento sin la inversión completa de entrada, y sin perder lo que ya pagaste.',
             },
         ],
         products: [
@@ -222,6 +242,10 @@ export const localPages = [
                 title: 'Evidencia científica: la ventilación no invasiva en EPOC y enfermedades neuromusculares',
                 content: 'La ventilación no invasiva (VNI) con dos niveles de presión es uno de los tratamientos con mayor respaldo en medicina respiratoria. En las exacerbaciones de EPOC con retención de dióxido de carbono, la VNI reduce la necesidad de intubación y la mortalidad, y es el estándar de cuidado recomendado por las guías internacionales (GOLD).\n\nEn EPOC estable con hipercapnia crónica, el ensayo de Köhnlein y colaboradores (2014) mostró que la VNI domiciliaria bien configurada mejora la sobrevida, y el ensayo HOT-HMV (Murphy y col., 2017) demostró que sumar VNI al oxígeno domiciliario tras una exacerbación prolonga el tiempo libre de reinternaciones.\n\nEn enfermedades neuromusculares como la ELA, el trabajo de Bourke y colaboradores (2006) demostró que la VNI mejora tanto la sobrevida como la calidad de vida, y las guías la recomiendan de forma temprana cuando aparecen signos de hipoventilación. Para estos pacientes es clave que el equipo cuente con frecuencia respiratoria de respaldo (modo S/T), como el BiPAP BMC G3.\n\nNota: la indicación de VNI, los modos y las presiones los define siempre el médico tratante. Esta reseña es informativa. Última revisión: julio 2026.',
             },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+            },
         ],
         products: [
             { name: 'BiPAP BMC G3 con frecuencia respiratoria y humidificador', price: '$1.300.000' },
@@ -253,6 +277,10 @@ export const localPages = [
             { title: '¿Qué es la oxigenoterapia domiciliaria?', content: 'Es el aporte de oxígeno suplementario en el hogar cuando la saturación de oxígeno en sangre es baja. Se indica en EPOC, [fibrosis pulmonar](/patologia/fibrosis-pulmonar), secuelas post-COVID y otros cuadros respiratorios crónicos, siempre según prescripción médica (flujo en litros por minuto).' },
             { title: 'Concentrador, tubo o mochila de oxígeno', content: 'El concentrador estacionario filtra el aire y entrega oxígeno de forma continua en el hogar, sin recargas. El concentrador portátil tiene batería para salir. También contamos con tubos y mochilas de oxígeno para traslados. Te ayudamos a elegir según tu necesidad.' },
             { title: 'Entrega e instalación a domicilio en 24 hs', content: 'Llevamos el equipo a tu casa en Córdoba, lo instalamos y te capacitamos en el uso seguro. Incluye soporte técnico. Disponible en venta y alquiler. Aparatología aprobada por ANMAT.' },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+            },
         ],
         products: [
             { name: 'Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)', price: '$999.000' },
@@ -296,6 +324,10 @@ export const localPages = [
             {
                 title: 'Antes de viajar en avión',
                 content: 'Si vas a volar, avisanos con tiempo. Las aerolíneas exigen que el equipo esté homologado y suelen pedir un certificado médico y aviso previo. También piden batería suficiente para más tiempo que la duración del vuelo.\n\nLa documentación de homologación la entrega el fabricante y viene con el equipo, para que la presentes en la aerolínea. Consultá igual con tu aerolínea, porque cada una tiene sus propios requisitos.',
+            },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
             },
         ],
         products: [
@@ -344,6 +376,14 @@ export const localPages = [
             {
                 title: 'Evidencia científica: por qué el CPAP es el tratamiento de referencia',
                 content: 'El CPAP es el tratamiento de primera línea para la apnea obstructiva del sueño moderada y severa según las guías de la Academia Americana de Medicina del Sueño (AASM), desde su descripción original por Sullivan y colaboradores en 1981.\n\nLa evidencia acumulada muestra que la apnea no tratada se asocia a hipertensión arterial (cohorte de Wisconsin, Peppard y col.) y a mayor riesgo de eventos cardiovasculares en los casos severos (Marin y col., 2005), además de somnolencia diurna que multiplica el riesgo de accidentes de tránsito y laborales.\n\nEl tratamiento con CPAP reduce la somnolencia diurna, mejora la calidad de vida y el descanso del acompañante, disminuye modestamente la presión arterial en pacientes hipertensos con apnea, y reduce el riesgo de accidentes. El beneficio depende de la constancia: se recomienda usarlo todas las noches, al menos 4 a 6 horas, para obtener resultados.\n\nNota: el diagnóstico (poligrafía o polisomnografía) y la indicación de presión los define el médico especialista en sueño. Esta reseña es informativa. Última revisión: julio 2026.',
+            },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+            },
+            {
+                title: 'Probalo un mes antes de comprarlo',
+                content: 'Si no estás seguro de cómo te vas a adaptar, alquilá el equipo y probalo en tu casa.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nEs la forma de empezar el tratamiento sin la inversión completa de entrada, y sin perder lo que ya pagaste.',
             },
         ],
         products: [
@@ -397,6 +437,10 @@ export const localPages = [
             {
                 title: 'Consumo y mantenimiento',
                 content: 'Los concentradores consumen poca electricidad, así que podés usarlo todas las horas que te indicaron sin que se note en la factura.\n\nEl mantenimiento es simple: limpiar el filtro externo con agua y dejarlo secar una vez por mes. Los filtros internos se cambian con menos frecuencia y te avisamos cuándo corresponde.',
+            },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
             },
         ],
         products: [

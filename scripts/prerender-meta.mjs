@@ -306,6 +306,14 @@ function buildHomeBody(variant) {
 ${MASK_GUIDE.map(([tipo, queEs, paraQuien, ojo, modelos]) => `<h3>Máscara ${esc(tipo)}</h3><p>${esc(queEs)}</p><p><strong>Para quién:</strong> ${esc(paraQuien)}</p><p><strong>A tener en cuenta:</strong> ${esc(ojo)}</p><ul>${modelos.map(([n, pr]) => `<li>${esc(n)} — ${esc(pr)}</li>`).join('')}</ul>`).join('\n')}
 <p>El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Ver todas en <a href="/mascaras-cpap">máscaras para CPAP y BiPAP</a>.</p>`;
 
+
+    const servicio = `
+<h2>No te entregamos una caja</h2>
+<p>Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.</p>
+<p>La instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.</p>
+<p>Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.</p>
+<p>Y si dudás entre alquilar y comprar: alquilá un CPAP o AutoCPAP, probalo en tu casa, y si después lo comprás te descontamos ese primer mes del precio de venta.</p>`;
+
     const compare = `
 <h2>CPAP vs AutoCPAP vs BiPAP</h2>
 <table>
@@ -369,6 +377,7 @@ ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></l
 <h1>${esc(h1)}</h1>
 <p>${esc(intro)}</p>
 <h2>Preguntas frecuentes</h2>
+${servicio}
 ${defs}
 ${compare}
 ${mascaras}
