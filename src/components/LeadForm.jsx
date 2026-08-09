@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, MessageCircle, CheckCircle, ArrowRight } from 'lucide-react';
+import { Send, MessageCircle, CheckCircle, ArrowRight, ChevronDown } from 'lucide-react';
 
 /**
  * LeadForm — captación de consultas por indicación médica.
@@ -35,11 +35,12 @@ const EQUIPOS = [
     { id: 'nose', label: 'No estoy seguro / otro', destino: null, destinoLabel: 'Consultar con Santi' },
 ];
 
-export default function LeadForm({ contexto = 'Home' }) {
+export default function LeadForm({ contexto = 'Home', sinTitulo = false }) {
     const [form, setForm] = useState({ name: '', phone: '' });
     const [equipos, setEquipos] = useState([]);
     const [consent, setConsent] = useState(false);
     const [status, setStatus] = useState('idle'); // idle | sending | done | error
+    const [listaAbierta, setListaAbierta] = useState(false);
     const upd = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
 
     const toggleEquipo = (id) =>
@@ -153,43 +154,77 @@ export default function LeadForm({ contexto = 'Home' }) {
 
     return (
         <form style={card} onSubmit={submit}>
-            <h3 style={{ margin: '0 0 0.25rem', color: '#0f172a', fontSize: '1.2rem' }}>¿Te indicaron un equipo respiratorio?</h3>
-            <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.88rem' }}>
-                Decinos qué te indicó tu médico y te pasamos la cotización por WhatsApp.
-            </p>
+            {!sinTitulo && (
+                <>
+                    <h3 style={{ margin: '0 0 0.25rem', color: '#0f172a', fontSize: '1.2rem' }}>¿Te indicaron un equipo respiratorio?</h3>
+                    <p style={{ margin: '0 0 1rem', color: '#475569', fontSize: '0.88rem' }}>
+                        Decinos qué te indicó tu médico y te pasamos la cotización por WhatsApp.
+                    </p>
+                </>
+            )}
 
             <input style={input} type="text" placeholder="Tu nombre *" value={form.name} onChange={upd('name')} required />
             <input style={input} type="tel" placeholder="Tu WhatsApp *" value={form.phone} onChange={upd('phone')} required />
 
-            <p style={{ margin: '0.5rem 0 0.5rem', fontSize: '0.9rem', fontWeight: 600, color: '#0f172a' }}>
+            {/* Selector desplegable: 10 casillas a la vista hacen el formulario muy largo
+                en celular. Cerrado muestra lo elegido; se abre de un toque. */}
+            <p style={{ margin: '0.5rem 0 0.4rem', fontSize: '0.9rem', fontWeight: 600, color: '#0f172a' }}>
                 ¿Qué equipo te indicaron? <span style={{ fontWeight: 400, color: '#64748b' }}>(podés marcar más de uno)</span>
             </p>
-            <div style={{ display: 'grid', gap: '0.3rem', marginBottom: '0.8rem' }}>
-                {EQUIPOS.map((eq) => {
-                    const marcado = equipos.includes(eq.id);
-                    return (
-                        <label
-                            key={eq.id}
-                            style={{
-                                display: 'flex', alignItems: 'center', gap: '0.55rem', cursor: 'pointer',
-                                fontSize: '0.9rem', color: marcado ? '#1e40af' : '#334155',
-                                background: marcado ? '#eff6ff' : '#f8fafc',
-                                border: `1.5px solid ${marcado ? '#93c5fd' : '#e8eef6'}`,
-                                borderRadius: '0.5rem', padding: '0.5rem 0.7rem',
-                                fontWeight: marcado ? 600 : 400,
-                            }}
-                        >
-                            <input
-                                type="checkbox"
-                                checked={marcado}
-                                onChange={() => toggleEquipo(eq.id)}
-                                style={{ width: 17, height: 17, accentColor: '#1e40af', flexShrink: 0, margin: 0 }}
-                            />
-                            {eq.label}
-                        </label>
-                    );
-                })}
-            </div>
+
+            <button
+                type="button"
+                onClick={() => setListaAbierta((v) => !v)}
+                aria-expanded={listaAbierta}
+                style={{
+                    width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                    gap: '0.5rem', padding: '0.7rem 0.9rem', fontSize: '0.95rem', fontFamily: 'inherit',
+                    textAlign: 'left', cursor: 'pointer',
+                    background: '#fff',
+                    color: equipos.length ? '#1e40af' : '#94a3b8',
+                    fontWeight: equipos.length ? 600 : 400,
+                    border: `1.5px solid ${equipos.length ? '#93c5fd' : '#e2e8f0'}`,
+                    borderRadius: '0.6rem',
+                    marginBottom: listaAbierta ? '0.4rem' : '0.8rem',
+                }}
+            >
+                <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                    {equipos.length ? textoEquipos : 'Elegí el equipo indicado'}
+                </span>
+                <ChevronDown
+                    size={18}
+                    style={{ flexShrink: 0, transition: 'transform .2s', transform: listaAbierta ? 'rotate(180deg)' : 'none' }}
+                />
+            </button>
+
+            {listaAbierta && (
+                <div style={{ display: 'grid', gap: '0.3rem', marginBottom: '0.8rem', maxHeight: 260, overflowY: 'auto', padding: '0.15rem' }}>
+                    {EQUIPOS.map((eq) => {
+                        const marcado = equipos.includes(eq.id);
+                        return (
+                            <label
+                                key={eq.id}
+                                style={{
+                                    display: 'flex', alignItems: 'center', gap: '0.55rem', cursor: 'pointer',
+                                    fontSize: '0.9rem', color: marcado ? '#1e40af' : '#334155',
+                                    background: marcado ? '#eff6ff' : '#f8fafc',
+                                    border: `1.5px solid ${marcado ? '#93c5fd' : '#e8eef6'}`,
+                                    borderRadius: '0.5rem', padding: '0.5rem 0.7rem',
+                                    fontWeight: marcado ? 600 : 400,
+                                }}
+                            >
+                                <input
+                                    type="checkbox"
+                                    checked={marcado}
+                                    onChange={() => toggleEquipo(eq.id)}
+                                    style={{ width: 17, height: 17, accentColor: '#1e40af', flexShrink: 0, margin: 0 }}
+                                />
+                                {eq.label}
+                            </label>
+                        );
+                    })}
+                </div>
+            )}
 
             <label style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', fontSize: '0.82rem', color: '#475569', marginBottom: '0.8rem', cursor: 'pointer' }}>
                 <input

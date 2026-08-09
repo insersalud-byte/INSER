@@ -1585,7 +1585,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <LeadForm contexto="Home" />
+                        <LeadForm contexto="Home" sinTitulo />
                     </div>
                 </div>
             </section>
