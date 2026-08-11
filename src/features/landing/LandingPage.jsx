@@ -2393,7 +2393,7 @@ const LandingPage = () => {
                             <Star size={16} /> Dejanos tu reseña en Google
                         </a>
                         <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
-                            <a href="https://www.instagram.com/inser.salud" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Inser Salud" title="Instagram"><Instagram size={20} /></a>
+                            <a href="https://www.instagram.com/insersalud" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Inser Salud" title="Instagram"><Instagram size={20} /></a>
                             <a href="https://www.facebook.com/insersalud" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Inser Salud" title="Facebook"><Facebook size={20} /></a>
                         </div>
                     </div>
