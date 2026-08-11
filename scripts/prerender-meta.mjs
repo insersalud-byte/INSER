@@ -308,6 +308,20 @@ ${MASK_GUIDE.map(([tipo, queEs, paraQuien, ojo, modelos]) => `<h3>Máscara ${esc
 <p>El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Ver todas en <a href="/mascaras-cpap">máscaras para CPAP y BiPAP</a>.</p>`;
 
 
+
+    const equipo = `
+<h2>Quiénes estamos detrás de INSER SALUD</h2>
+<h3>Lic. Sergio Giorda</h3>
+<p>Kinesiólogo y Fisioterapeuta · Matrícula Profesional 2123 · Director de INSER SALUD.</p>
+<ul>
+<li>Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson, con 25 años de trabajo en su Servicio de Terapia Intensiva.</li>
+<li>Director y docente del Curso de Postgrado en Terapia Intensiva y Rehabilitación Pulmonar del Colegio Profesional de Kinesiólogos de Córdoba junto al Hospital Rawson (2007-2018).</li>
+<li>Asesor en ventilación mecánica y ventilación no invasiva del Instituto de Rehabilitación Neurológica Rita Bianchi.</li>
+<li>Instructor docente en la Escuela de Kinesiología y Fisioterapia de la Universidad Nacional de Córdoba.</li>
+<li>Autor de trabajos sobre rehabilitación respiratoria en EPOC presentados en el Congreso Argentino de Medicina Respiratoria, y primer premio en las Jornadas Integrales de Kinesiología del Centro del País.</li>
+</ul>
+<p>Por eso cuando decimos que el equipo se entrega configurado según la indicación de tu médico, hay alguien que sabe leer esa indicación.</p>`;
+
     const servicio = `
 <h2>No te entregamos una caja</h2>
 <p>Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.</p>
@@ -379,6 +393,7 @@ ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></l
 <p>${esc(intro)}</p>
 <h2>Preguntas frecuentes</h2>
 ${servicio}
+${equipo}
 ${defs}
 ${compare}
 ${mascaras}

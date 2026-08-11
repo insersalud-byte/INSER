@@ -2207,6 +2207,47 @@ const LandingPage = () => {
                 </div>
             </section>
 
+            {/* ── QUIÉNES ESTAMOS DETRÁS ─────────────────────────────── */}
+            {/* E-E-A-T: contenido de salud sin autor identificable no genera confianza.
+                Todos los datos son verificables y fueron aprobados por el titular. */}
+            <section id="equipo" style={{ padding: '3rem 1rem', background: '#fff' }}>
+                <div className={css.container}>
+                    <div className={css.sectionHeader}>
+                        <span className={css.sectionTag}>Quiénes estamos detrás</span>
+                        <h2>Un kinesiólogo de terapia intensiva, no un vendedor de equipos</h2>
+                        <p>La información de este sitio y la configuración de cada equipo están respaldadas por alguien que trabaja con estos pacientes todos los días.</p>
+                    </div>
+
+                    <div style={{ maxWidth: 820, margin: '0 auto', background: '#f8fafc', border: '1px solid #e8eef6', borderLeft: '5px solid #1e40af', borderRadius: '1rem', padding: '1.6rem 1.7rem' }}>
+                        <h3 style={{ margin: '0 0 0.2rem', color: '#0f172a', fontSize: '1.3rem' }}>Lic. Sergio Giorda</h3>
+                        <p style={{ margin: '0 0 1rem', color: '#1e40af', fontWeight: 600, fontSize: '0.95rem' }}>
+                            Kinesiólogo y Fisioterapeuta · Matrícula Profesional 2123 · Director de INSER SALUD
+                        </p>
+
+                        <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 1.1rem', display: 'grid', gap: '0.6rem' }}>
+                            {[
+                                'Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson, con 25 años de trabajo en su Servicio de Terapia Intensiva.',
+                                'Director y docente del Curso de Postgrado en Terapia Intensiva y Rehabilitación Pulmonar del Colegio Profesional de Kinesiólogos de Córdoba junto al Hospital Rawson (2007-2018).',
+                                'Asesor en ventilación mecánica y ventilación no invasiva del Instituto de Rehabilitación Neurológica Rita Bianchi.',
+                                'Instructor docente en la Escuela de Kinesiología y Fisioterapia de la Universidad Nacional de Córdoba.',
+                                'Autor de trabajos sobre rehabilitación respiratoria en EPOC presentados en el Congreso Argentino de Medicina Respiratoria, y primer premio en las Jornadas Integrales de Kinesiología del Centro del País.',
+                            ].map((item, i) => (
+                                <li key={i} style={{ display: 'flex', gap: '0.6rem', alignItems: 'flex-start', fontSize: '0.95rem', lineHeight: 1.6, color: '#334155' }}>
+                                    <CheckCircle size={17} style={{ color: '#1e40af', flexShrink: 0, marginTop: 3 }} />
+                                    <span>{item}</span>
+                                </li>
+                            ))}
+                        </ul>
+
+                        <p style={{ margin: 0, fontSize: '0.93rem', lineHeight: 1.65, color: '#475569', borderTop: '1px solid #e8eef6', paddingTop: '1rem' }}>
+                            Por eso cuando decimos que el equipo se entrega configurado según la indicación de tu médico,
+                            hay alguien que sabe leer esa indicación. Y por eso las reseñas científicas de este sitio citan
+                            estudios reales y aclaran siempre que la indicación la define tu médico tratante.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
             {/* ── OBRA SOCIAL / REINTEGRO ────────────────────────────── */}
             <section id="obra-social" style={{ background: '#eff6ff', borderTop: '1px solid #dbeafe', borderBottom: '1px solid #dbeafe', padding: '3rem 1rem' }}>
                 <div className={css.container}>
