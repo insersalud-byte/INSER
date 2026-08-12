@@ -66,7 +66,17 @@ export default function LeadForm({ contexto = 'Home', sinTitulo = false, conImag
 
         // WhatsApp se abre YA, dentro del click: si se abriera después del await,
         // el navegador lo bloquea como popup. Si el email falla, el flujo no se corta.
-        window.open(waLink(), '_blank', 'noopener,noreferrer');
+        const wa = waLink();
+        window.open(wa, '_blank', 'noopener,noreferrer');
+
+        // El listener de App.jsx solo mide los <a href="wa.me">, asi que los
+        // WhatsApp que abre este formulario quedaban fuera de contact_whatsapp.
+        if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+            window.gtag('event', 'contact_whatsapp', { transport_type: 'beacon', link_url: wa, source: 'form' });
+        }
+        if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+            window.fbq('track', 'Contact', { method: 'whatsapp' });
+        }
 
         try {
             const res = await fetch(FORM_ENDPOINT, {

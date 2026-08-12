@@ -87,9 +87,11 @@ const AIFloat = () => {
         return () => window.removeEventListener('open-santi', handler);
     }, [messages]); // eslint-disable-line react-hooks/exhaustive-deps
 
+    // Va por el mismo CustomEvent que usan los botones de las paginas: es el
+    // listener de App.jsx el que mide open_santi. Abriendo el panel directo,
+    // las aperturas desde este boton flotante no se contaban.
     const handleOpen = () => {
-        setIsOpen(true);
-        setShowTooltip(false);
+        window.dispatchEvent(new CustomEvent('open-santi'));
     };
 
     const handleClose = () => {

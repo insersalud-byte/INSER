@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect } from 'react';
+import { lazy, Suspense, useEffect, useRef } from 'react';
 import { Routes, Route, Navigate, useLocation, Outlet } from 'react-router-dom';
 import LandingPage from './features/landing/LandingPage';
 import PathologyPage from './features/pathologies/PathologyPage';
@@ -33,6 +33,9 @@ const LayoutPrivado = () => (
 
 function App() {
   const location = useLocation();
+  // El snippet del Pixel en index.html ya manda el PageView de la carga inicial.
+  // Sin esta marca, la primera pagina de cada visita contaba PageView dos veces.
+  const pixelYaContoLaPrimera = useRef(false);
 
   // SPA page_view: GA4 solo dispara 1 page_view al cargar; aca lo enviamos en
   // cada cambio de ruta para medir bien patologias y landing locales.
@@ -44,7 +47,11 @@ function App() {
         page_title: document.title,
       });
     }
-    if (typeof window !== 'undefined' && typeof window.fbq === 'function') window.fbq('track', 'PageView');
+    if (!pixelYaContoLaPrimera.current) {
+      pixelYaContoLaPrimera.current = true;
+    } else if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+      window.fbq('track', 'PageView');
+    }
   }, [location.pathname, location.search]);
 
   // Eventos de conversión para GA4 (clicks de WhatsApp y apertura de Santi)
