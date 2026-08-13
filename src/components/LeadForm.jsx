@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Send, MessageCircle, CheckCircle, ArrowRight, ChevronDown } from 'lucide-react';
+import { adsConversion, ADS_CONTACTO } from '../adsConversions';
 
 /**
  * LeadForm — captación de consultas por indicación médica.
@@ -77,6 +78,7 @@ export default function LeadForm({ contexto = 'Home', sinTitulo = false, conImag
         if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
             window.fbq('track', 'Contact', { method: 'whatsapp' });
         }
+        adsConversion(ADS_CONTACTO); // lo que la campaña de Ads usa para pujar
 
         try {
             const res = await fetch(FORM_ENDPOINT, {

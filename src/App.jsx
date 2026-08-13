@@ -7,6 +7,7 @@ import { localPages } from './features/seo/localPages';
 import AIFloat from './components/AIFloat';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import ScrollToTop from './components/ScrollToTop';
+import { adsConversion, ADS_CONTACTO } from './adsConversions';
 
 // Rutas privadas/pesadas en lazy: sacan admin, login y chat (con Supabase y
 // dashboard) del bundle publico. Landing/patologias/locales quedan eager para
@@ -63,6 +64,7 @@ function App() {
       const href = a.getAttribute('href') || '';
       track(href.startsWith('tel:') ? 'contact_phone' : 'contact_whatsapp', { transport_type: 'beacon', link_url: href });
       if (typeof window.fbq === 'function') window.fbq('track', 'Contact', { method: href.startsWith('tel:') ? 'phone' : 'whatsapp' });
+      adsConversion(ADS_CONTACTO); // lo que la campaña de Ads usa para pujar
     };
     const onSanti = () => { track('open_santi'); if (typeof window !== 'undefined' && typeof window.fbq === 'function') window.fbq('trackCustom', 'OpenSanti'); };
     document.addEventListener('click', onClick, true);
