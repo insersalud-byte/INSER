@@ -570,7 +570,42 @@ try {
         count++;
     }
 
+    // SITEMAPS generados desde la MISMA fuente que las paginas (localPages.js y
+    // pathologyData.js). Antes eran dos archivos estaticos editados a mano y se
+    // desincronizaron: la misma URL declaraba dos lastmod distintos y ninguna
+    // pagina nueva entraba si te olvidabas de tocar los dos archivos.
+    //
+    // No se emite <lastmod> a proposito: Google ignora un lastmod en el que no
+    // confia, y uno que se contradice a si mismo es peor que no ponerlo. Como el
+    // build no puede saber cuando cambio de verdad cada pagina (en un clon limpio
+    // todas las fechas son la del checkout), omitirlo es la opcion honesta.
+    // <changefreq> tampoco va: Google declaro publicamente que lo ignora.
+    const buildSitemap = () => {
+        const u = (loc, priority) => `  <url>\n    <loc>${loc}</loc>\n    <priority>${priority}</priority>\n  </url>`;
+        const items = [
+            u(`${SALUD}/`, '1.0'),
+            ...localPages.map((p) => u(`${SALUD}/${p.slug}`, '0.9')),
+            ...pathologies.map((p) => u(`${SALUD}/patologia/${p.slug}`, '0.8')),
+            u(`${SALUD}/tarjeta`, '0.3'),
+        ];
+        return `<?xml version="1.0" encoding="UTF-8"?>\n`
+            + `<!-- Generado por scripts/prerender-meta.mjs. NO editar a mano: se reescribe en cada build. -->\n`
+            + `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${items.join('\n')}\n</urlset>\n`;
+    };
+    const sitemapXml = buildSitemap();
+    const nUrls = (sitemapXml.match(/<loc>/g) || []).length;
+    // Los dos nombres llevan el MISMO contenido: ambos estan enviados a Search
+    // Console y borrar uno romperia esa propiedad. Ahora no pueden divergir.
+    // Se escriben en dist/ (lo que se sirve) y en public/ (la copia del repo),
+    // para que el archivo commiteado sea siempre igual al publicado.
+    for (const dir of [DIST, resolve(__dirname, '..', 'public')]) {
+        for (const name of ['sitemap.xml', 'sitemap-insersalud.xml']) {
+            try { writeFileSync(resolve(dir, name), sitemapXml, 'utf8'); } catch { /* no romper el build */ }
+        }
+    }
+
     console.log(`[prerender] ${count} páginas con CONTENIDO en el body (inser.ar + insersalud.com)`);
+    console.log(`[prerender] sitemaps regenerados: ${nUrls} URLs`);
 } catch (err) {
     console.warn('[prerender] error no fatal, se omite:', err?.message);
 }
