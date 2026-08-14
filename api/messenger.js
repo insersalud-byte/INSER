@@ -119,7 +119,7 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 | AirFit F30 ResMed | U$S 212 | ~$322.240 | Buconasal contacto mínimo, bajo perfil |
 | AirFit F20 ResMed | U$S 189.50 | ~$288.040 | Buconasal premium, amplio sellado |
 | Máscara Pediátrica HSINER Cirri Mini | U$S 105 | ~$159.600 | S, M, L, XS, pediátrica nasal |
-| Máscara Pediátrica Jirafa Philips | U$S 227 | ~$345.040 | Pediátrica nasal, diseño amigable |
+| Máscara Pediátrica Philips Wisp (jirafa) | U$S 227 | ~$345.040 | Pediátrica nasal, diseño amigable |
 | Infant CPAP Kit | U$S 97 | ~$147.440 | Kit neonatal tallas 00 a 5 |
 | Polígrafo BMC YH-600B PRO | U$S 1.570 | ~$2.386.400 | Estudio del sueño domiciliario, 4 canales |
 | Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock | U$S 1.794 | ~$2.726.880 | El mismo polígrafo con 30 cánulas Luer Lock incluidas, para arrancar con estudios sin comprar insumos aparte |

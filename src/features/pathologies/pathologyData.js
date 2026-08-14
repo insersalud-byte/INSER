@@ -1125,7 +1125,7 @@ Máscaras pediátricas disponibles:
 • Diseño ergonómico adaptado al rostro pediátrico
 • Máxima comodidad para uso continuo
 
-🦒 Máscara Jirafa Philips Respironics (pediátrica)
+🦒 Máscara Philips Wisp pediátrica (jirafa)
 • Precio: U$S 227
 • Diseño lúdico para facilitar la aceptación en niños
 • Talles infantiles
@@ -1285,7 +1285,7 @@ Principales problemas respiratorios en PC:
 
 👶 Máscaras Pediátricas:
 • HSINER Cirri Mini — Talles XS/S/M/L — U$S 105
-• Máscara Jirafa Philips Respironics — Diseño infantil — U$S 227
+• Máscara Philips Wisp pediátrica (jirafa) — Diseño infantil — U$S 227
 
 💰 Opción económica:
 • Máscara Nasal RESCOMF — $50.000 · U$S 35
@@ -1416,12 +1416,12 @@ Consultanos disponibilidad y opciones de financiación.`,
             },
 
             {
-                name: 'Máscara Nasal Jirafa Philips (pediátrica)',
+                name: 'Máscara Nasal Philips Wisp pediátrica (jirafa)',
                 priceARS: null,
                 priceUSD: 'U$S 227',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
                 badge: 'PEDIÁTRICO',
-                desc: 'Diseño adaptado para niños. Jirafa Philips Respironics.',
+                desc: 'Diseño adaptado para niños. Philips Wisp, la de la jirafa.',
             },
             {
                 name: 'COUGH ASSIST — Asistente de Tos',

@@ -209,6 +209,17 @@ const ofertas = [
             ['Garantía', '1 año oficial'],
         ],
     },
+    {
+        name: 'Máscara Nasal Pediátrica Philips Wisp (jirafa)', slug: 'nascara-nasal-peditrica-jirafa-philips-respironics', price: 'U$S 227', img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif', badge: 'OFERTA', note: 'La pediátrica con diseño de jirafa.', category: 'Máscara',
+        review: 'La Philips Wisp pediátrica es la máscara nasal pensada para chicos, y se reconoce por su funda con estampado de jirafa. Ese detalle no es decorativo: en un nene, aceptar la máscara es la mitad del tratamiento, y una máscara que no asusta se tolera mucho mejor noche tras noche. El armazón es compacto y la almohadilla es de silicona hipoalergénica, apoyada solo sobre la nariz. Es compatible con equipos de CPAP y BiPAP. La línea pediátrica es difícil de conseguir en Argentina y esta es una de las pocas opciones disponibles. La elección del modelo y del talle no se hace por catálogo: te asesoramos según la edad, la anatomía del paciente y la indicación médica.',
+        specs: [
+            ['Fabricante', 'Philips Respironics'],
+            ['Modelo', 'Wisp pediátrica (diseño jirafa)'],
+            ['Tipo', 'Nasal pediátrica'],
+            ['Material', 'Silicona hipoalergénica'],
+            ['Compatibilidad', 'CPAP / BiPAP'],
+        ],
+    },
 ];
 
 // Catálogo completo de tienda (todos los productos)
@@ -632,16 +643,6 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasal Pediátrica JIRAFA Philips Respironics', slug: 'nascara-nasal-peditrica-jirafa-philips-respironics', price: 'U$S 227', img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif', badge: 'PEDIÁTRICO', note: 'Diseño ergonómico para niños.', category: 'Máscara',
-        specs: [
-            ['Fabricante', 'Philips Respironics'],
-            ['Modelo', 'JIRAFA'],
-            ['Tipo', 'Nasal pediátrica'],
-            ['Material', 'Silicona hipoalergénica'],
-            ['Compatibilidad', 'CPAP / BiPAP'],
-        ],
-    },
-    {
         name: 'Infant CPAP Kit Pediátrico (00, 0, 1, 2, 3, 4, 5)', slug: 'nascara-nasal-pediatrica-infant-cpap-kit-00-0-1-2-3-4-5', price: 'U$S 97', img: '/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jfif', badge: 'PEDIÁTRICO', note: 'Todas las tallas neonatales.', category: 'Máscara',
         specs: [
             ['Tipo', 'Kit de máscaras nasales pediátricas'],
@@ -949,7 +950,7 @@ const ALL_TAG_INFO = {
             { icon: '👶', text: 'AME tipo 1: soporte ventilatorio y Cough Assist desde el diagnóstico' },
             { icon: '🧒', text: 'AME tipo 2: BiPAP nocturno y seguimiento de función pulmonar periódico' },
             { icon: '🦾', text: 'AME tipo 3: generalmente solo Cough Assist preventivo' },
-            { icon: '😷', text: 'Máscaras pediátricas especiales: HSINER Cirri Mini, JIRAFA e Infant CPAP Kit' },
+            { icon: '😷', text: 'Máscaras pediátricas especiales: HSINER Cirri Mini, Philips Wisp e Infant CPAP Kit' },
         ],
         waMsg: 'Hola, tengo un hijo/familiar con AME y necesito equipos respiratorios pediátricos. ¿Me asesoran?',
     },
@@ -960,7 +961,7 @@ const ALL_TAG_INFO = {
         body: 'Los equipos estándar para adultos no son adecuados para niños. En Inser Salud contamos con máscaras e interfaces pediátricas certificadas, desde neonatos hasta adolescentes, y asesoramiento especializado para familias con niños con enfermedades respiratorias.',
         bullets: [
             { icon: '🍼', text: 'Infant CPAP Kit: tallas 00 al 5 para neonatos y lactantes' },
-            { icon: '🦒', text: 'Máscara JIRAFA Philips: diseño ergonómico especial para niños' },
+            { icon: '🦒', text: 'Máscara Philips Wisp (jirafa): pensada para que el chico la acepte' },
             { icon: '🐣', text: 'HSINER Cirri Mini: nasal pediátrica en talles XS–L' },
             { icon: '💬', text: 'Acompañamiento para familias: explicamos todo con paciencia y empatía' },
         ],
@@ -1236,7 +1237,8 @@ const maskGuide = [
             'Las máscaras pediátricas están diseñadas con medidas y materiales propios para bebés y chicos: no son máscaras de adulto en talle chico.',
             'Se usan en lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y otros cuadros neuromusculares.',
             'A tener en cuenta: la línea pediátrica es difícil de conseguir en Argentina. Tenemos tres opciones con talles desde neonatal, y te asesoramos según la edad y la anatomía del paciente.',
-            'Modelos: HSINER Cirri Mini nasal XS/S/M/L U$S 105 · Jirafa Philips Respironics U$S 227 · Infant CPAP Kit neonatal (talles 00 a 5) U$S 97.',
+            'La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa. Ese detalle no es decorativo: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene un armazón compacto y una almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, y es compatible con equipos de CPAP y BiPAP. El talle no se elige por catálogo: te asesoramos según la edad, la anatomía del paciente y lo que indicó el médico.',
+            'Modelos: HSINER Cirri Mini nasal XS/S/M/L U$S 105 · Philips Wisp pediátrica (jirafa) · Infant CPAP Kit neonatal (talles 00 a 5) U$S 97.',
         ],
         color: '#f59e0b',
         priceFrom: 'Desde U$S 97 · 3 modelos pediátricos',

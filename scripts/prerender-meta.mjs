@@ -78,7 +78,7 @@ const PRODUCTS = [
     ['Máscara buconasal BMC F2 codo azul (terapia intensiva)', '$68.000', 'SIN FUGA, para respiradores / VNI con válvula espiratoria'],
     ['Máscara nasobucal ResMed AirFit F20 / F30', 'U$S 189,50 / U$S 212', 'full face premium'],
     ['Máscara pediátrica HSINER Cirri Mini', 'U$S 105', 'nasal pediátrica XS/S/M/L'],
-    ['Máscara pediátrica Jirafa Philips', 'U$S 227', 'nasal pediátrica, diseño amigable'],
+    ['Máscara pediátrica Philips Wisp (jirafa)', 'U$S 227', 'nasal pediátrica, diseño amigable'],
     ['Infant CPAP Kit neonatal', 'U$S 97', 'tallas 00 a 5'],
     ['Polígrafo BMC YH-600B PRO', 'U$S 1.570', 'estudio del sueño domiciliario'],
     ['Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock', 'U$S 1.794', 'con insumos incluidos para arrancar'],
@@ -106,8 +106,8 @@ const MASK_GUIDE = [
     ['Pediátricas',
         'Diseñadas con medidas y materiales para bebés y chicos, no son máscaras de adulto en talle chico.',
         'Lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y cuadros neuromusculares.',
-        'La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal.',
-        [['Máscara Nasal Pediátrica HSINER Cirri Mini', 'U$S 105'], ['Máscara Nasal Pediátrica Jirafa Philips', 'U$S 227'], ['Infant CPAP Kit neonatal (talles 00 a 5)', 'U$S 97']]],
+        'La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal. La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene armazón compacto y almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, compatible con CPAP y BiPAP. El talle no se elige por catálogo: se asesora según la edad, la anatomía del paciente y la indicación médica.',
+        [['Máscara Nasal Pediátrica HSINER Cirri Mini', 'U$S 105'], ['Máscara Nasal Pediátrica Philips Wisp (jirafa)', ''], ['Infant CPAP Kit neonatal (talles 00 a 5)', 'U$S 97']]],
     ['Sin fuga (terapia intensiva)',
         'Máscara NO ventilada: no tiene los orificios de fuga que sí traen las de uso domiciliario.',
         'Para respiradores de terapia intensiva y ventilación no invasiva con circuito de doble rama o válvula espiratoria.',
@@ -304,7 +304,7 @@ function buildHomeBody(variant) {
     const mascaras = `
 <h2>Guía de máscaras para CPAP y BiPAP: cuál te corresponde</h2>
 <p>La máscara es donde más pacientes abandonan el tratamiento, y casi siempre es por una máscara mal elegida, no por el equipo. Estos son los 5 tipos que vendemos, para quién es cada uno y a qué precio.</p>
-${MASK_GUIDE.map(([tipo, queEs, paraQuien, ojo, modelos]) => `<h3>Máscara ${esc(tipo)}</h3><p>${esc(queEs)}</p><p><strong>Para quién:</strong> ${esc(paraQuien)}</p><p><strong>A tener en cuenta:</strong> ${esc(ojo)}</p><ul>${modelos.map(([n, pr]) => `<li>${esc(n)} — ${esc(pr)}</li>`).join('')}</ul>`).join('\n')}
+${MASK_GUIDE.map(([tipo, queEs, paraQuien, ojo, modelos]) => `<h3>Máscara ${esc(tipo)}</h3><p>${esc(queEs)}</p><p><strong>Para quién:</strong> ${esc(paraQuien)}</p><p><strong>A tener en cuenta:</strong> ${esc(ojo)}</p><ul>${modelos.map(([n, pr]) => `<li>${esc(n)}${pr ? ' — ' + esc(pr) : ''}</li>`).join('')}</ul>`).join('\n')}
 <p>El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Ver todas en <a href="/mascaras-cpap">máscaras para CPAP y BiPAP</a>.</p>`;
 
 
