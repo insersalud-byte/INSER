@@ -582,7 +582,7 @@ export const localPages = [
             },
             {
                 title: 'Máscaras pediátricas',
-                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Jirafa de Philips Respironics con diseño amigable (U$S 220) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, [parálisis cerebral](/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.',
+                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Jirafa de Philips Respironics con diseño amigable (U$S 227) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, [parálisis cerebral](/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.',
             },
             {
                 title: 'Cambio y reposición',

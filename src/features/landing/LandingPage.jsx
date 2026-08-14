@@ -632,7 +632,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasal Pediátrica JIRAFA Philips Respironics', slug: 'nascara-nasal-peditrica-jirafa-philips-respironics', price: 'U$S 220', img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif', badge: 'PEDIÁTRICO', note: 'Diseño ergonómico para niños.', category: 'Máscara',
+        name: 'Máscara Nasal Pediátrica JIRAFA Philips Respironics', slug: 'nascara-nasal-peditrica-jirafa-philips-respironics', price: 'U$S 227', img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif', badge: 'PEDIÁTRICO', note: 'Diseño ergonómico para niños.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Modelo', 'JIRAFA'],
@@ -1236,7 +1236,7 @@ const maskGuide = [
             'Las máscaras pediátricas están diseñadas con medidas y materiales propios para bebés y chicos: no son máscaras de adulto en talle chico.',
             'Se usan en lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y otros cuadros neuromusculares.',
             'A tener en cuenta: la línea pediátrica es difícil de conseguir en Argentina. Tenemos tres opciones con talles desde neonatal, y te asesoramos según la edad y la anatomía del paciente.',
-            'Modelos: HSINER Cirri Mini nasal XS/S/M/L U$S 105 · Jirafa Philips Respironics U$S 220 · Infant CPAP Kit neonatal (talles 00 a 5) U$S 97.',
+            'Modelos: HSINER Cirri Mini nasal XS/S/M/L U$S 105 · Jirafa Philips Respironics U$S 227 · Infant CPAP Kit neonatal (talles 00 a 5) U$S 97.',
         ],
         color: '#f59e0b',
         priceFrom: 'Desde U$S 97 · 3 modelos pediátricos',
