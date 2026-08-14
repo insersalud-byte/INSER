@@ -1231,13 +1231,15 @@ const maskGuide = [
         icon: Heart,
         title: 'Máscaras Pediátricas',
         question: '¿Hay máscaras para bebés y chicos?',
-        short: 'Sí. Línea pediátrica completa con talles desde neonatal, algo poco frecuente en el país.',
-        img: '/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jfif',
+        short: 'Sí. La Philips Wisp, la de la jirafa, es la que más eligen los padres. Línea pediátrica completa con talles desde neonatal.',
+        // La foto es la de la Wisp, no la de la Cirri Mini: es el modelo que
+        // encabeza la categoría y el que la gente reconoce.
+        img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif',
         long: [
             'Las máscaras pediátricas están diseñadas con medidas y materiales propios para bebés y chicos: no son máscaras de adulto en talle chico.',
             'Se usan en lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y otros cuadros neuromusculares.',
-            'A tener en cuenta: la línea pediátrica es difícil de conseguir en Argentina. Tenemos tres opciones con talles desde neonatal, y te asesoramos según la edad y la anatomía del paciente.',
-            'La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa. Ese detalle no es decorativo: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene un armazón compacto y una almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, y es compatible con equipos de CPAP y BiPAP. El talle no se elige por catálogo: te asesoramos según la edad, la anatomía del paciente y lo que indicó el médico.',
+            'La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa. Ese detalle no es decorativo: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene un armazón compacto y una almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, y es compatible con equipos de CPAP y BiPAP.',
+            'A tener en cuenta: la línea pediátrica es difícil de conseguir en Argentina. Tenemos tres opciones con talles desde neonatal, y el talle no se elige por catálogo: te asesoramos según la edad, la anatomía del paciente y lo que indicó el médico.',
             'Modelos: HSINER Cirri Mini nasal XS/S/M/L U$S 105 · Philips Wisp pediátrica (jirafa) · Infant CPAP Kit neonatal (talles 00 a 5) U$S 97.',
         ],
         color: '#f59e0b',
