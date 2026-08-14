@@ -129,7 +129,11 @@ const LocalPage = ({ slug }) => {
                 <div style={c.trustInner}>
                     <span style={c.trustItem}><ShieldCheck size={16} /> Aprobado por ANMAT</span>
                     <span style={c.trustItem}><Truck size={16} /> {data.national ? 'Envío a todo el país' : 'Entrega a domicilio 24 hs'}</span>
-                    <span style={c.trustItem}><Clock size={16} /> 2 años de garantía</span>
+                    {/* Las paginas que venden solo mascaras e insumos declaran
+                        'garantia' propia: ninguno de esos productos tiene 2 años
+                        declarados en el catalogo, y prometerlos seria un
+                        compromiso comercial que no podemos sostener. */}
+                    <span style={c.trustItem}><Clock size={16} /> {data.garantia || '2 años de garantía'}</span>
                     <span style={c.trustItem}><Star size={16} /> {data.national ? '+500 pacientes' : '+500 pacientes en Córdoba'}</span>
                 </div>
             </div>

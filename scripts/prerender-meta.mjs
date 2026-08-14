@@ -445,7 +445,7 @@ function buildLocalBody(p) {
 <nav><a href="/">Inicio</a> › <span>${esc(p.h1)}</span></nav>
 <h1>${esc(p.h1)}</h1>
 <p>${inlineLinks(esc(p.intro))}</p>
-<p>Aparatología aprobada por ANMAT · ${p.national ? 'Envío a todo el país' : 'Entrega a domicilio 24 hs en Córdoba'} · 2 años de garantía · +500 pacientes.</p>
+<p>Aparatología aprobada por ANMAT · ${p.national ? 'Envío a todo el país' : 'Entrega a domicilio 24 hs en Córdoba'} · ${esc(p.garantia || '2 años de garantía')} · +500 pacientes.</p>
 ${secs}
 ${prods}
 <h2>Preguntas frecuentes</h2>

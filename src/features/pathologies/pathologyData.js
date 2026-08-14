@@ -1419,7 +1419,9 @@ Consultanos disponibilidad y opciones de financiación.`,
                 name: 'Máscara Nasal Philips Wisp pediátrica (jirafa)',
                 priceARS: null,
                 priceUSD: 'U$S 227',
-                img: '/artifacts/mascara_nasal_dreamwear.jpg',
+                // La foto de la Wisp, no la de la DreamWear: esta es pediátrica
+                // y la DreamWear es de adulto. Es la misma que usa el catálogo.
+                img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif',
                 badge: 'PEDIÁTRICO',
                 desc: 'Diseño adaptado para niños. Philips Wisp, la de la jirafa.',
             },

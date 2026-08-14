@@ -563,6 +563,7 @@ export const localPages = [
     },
     {
         slug: 'mascaras-cpap',
+        garantia: 'Garantía oficial del fabricante',
         national: true,
         h1: 'Máscaras para CPAP y BiPAP: nasales, nasobucales y pediátricas',
         metaTitle: 'Máscaras para CPAP | Nasales, Nasobucales y Pediátricas | Precios | INSER SALUD',
@@ -613,6 +614,7 @@ export const localPages = [
     },
     {
         slug: 'mascaras-pediatricas',
+        garantia: 'Garantía oficial del fabricante',
         national: true,
         h1: 'Máscaras pediátricas para CPAP y BiPAP: los 3 modelos que tenemos',
         metaTitle: 'Máscaras Pediátricas para CPAP y BiPAP | Philips Wisp, Cirri Mini e Infant Kit | INSER SALUD',
