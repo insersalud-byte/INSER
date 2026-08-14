@@ -129,6 +129,7 @@ const LOCAL_LINKS = [
     ['/comprar-concentrador-oxigeno-argentina', 'Comprar concentrador de oxígeno en Argentina (envío)'],
     ['/concentrador-oxigeno-10-litros', 'Concentrador de oxígeno de 10 litros (alto flujo)'],
     ['/mascaras-cpap', 'Máscaras para CPAP y BiPAP (nasales, nasobucales y pediátricas)'],
+    ['/mascaras-pediatricas', 'Máscaras pediátricas para CPAP y BiPAP (Philips Wisp, Cirri Mini, Infant Kit)'],
     ['/equipamiento-rehabilitacion-pulmonar', 'Equipamiento para centros de rehabilitación pulmonar'],
     ['/comprar-concentrador-oxigeno-portatil-argentina', 'Comprar concentrador de oxígeno portátil (envío a todo el país)'],
     ['/ventilador-stellar-150', 'Ventilador ResMed STELLAR 150'],

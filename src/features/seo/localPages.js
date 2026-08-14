@@ -582,7 +582,7 @@ export const localPages = [
             },
             {
                 title: 'Máscaras pediátricas',
-                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Philips Wisp pediátrica con su diseño de jirafa (U$S 227) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, [parálisis cerebral](/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.',
+                content: 'Contamos con línea pediátrica completa, algo poco frecuente en el país: HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Philips Wisp pediátrica con su diseño de jirafa (U$S 227) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, [parálisis cerebral](/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.\n\nSi buscás específicamente para un chico, tenemos una página aparte con los tres modelos en detalle: [máscaras pediátricas para CPAP y BiPAP](/mascaras-pediatricas).',
             },
             {
                 title: 'Cambio y reposición',
@@ -605,9 +605,67 @@ export const localPages = [
             { q: '¿Tienen máscaras para chicos?', a: 'Sí, línea pediátrica completa: HSINER Cirri Mini, máscara Philips Wisp (jirafa) e Infant CPAP Kit neonatal para recién nacidos. Siempre con indicación médica.' },
         ],
         related: [
+            { label: 'Máscaras pediátricas', href: '/mascaras-pediatricas' },
             { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
+        ],
+    },
+    {
+        slug: 'mascaras-pediatricas',
+        national: true,
+        h1: 'Máscaras pediátricas para CPAP y BiPAP: los 3 modelos que tenemos',
+        metaTitle: 'Máscaras Pediátricas para CPAP y BiPAP | Philips Wisp, Cirri Mini e Infant Kit | INSER SALUD',
+        metaTitleSalud: 'Máscaras Pediátricas para CPAP y BiPAP | Precios y Envío Nacional | INSER SALUD',
+        description: 'Máscaras pediátricas para CPAP y BiPAP con precios a la vista: Philips Wisp (la de la jirafa) U$S 227, HSINER Cirri Mini U$S 105 e Infant CPAP Kit neonatal desde U$S 97. Talles desde neonatal, envío a todo el país. Te asesoramos según la edad y la indicación médica.',
+        heroImg: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif',
+        intro: 'La línea pediátrica es difícil de conseguir en Argentina. Nosotros tenemos las tres, con talles desde neonatal y precios publicados. Y algo que importa tanto como el precio: te ayudamos a elegir cuál y qué talle, porque en un chico una máscara incómoda muchas veces está detrás del abandono del tratamiento.',
+        ctaSanti: 'Hola Santi, necesito una máscara pediátrica para CPAP/BiPAP. ¿Me ayudás a elegir el modelo y el talle según la edad?',
+        sections: [
+            {
+                title: 'Una máscara pediátrica no es una de adulto en talle chico',
+                content: 'Es uno de los errores más frecuentes, y muchas veces está detrás del abandono del tratamiento. La cara de un chico no es una cara adulta a escala: cambian las proporciones y la piel es más delicada.\n\nUna máscara de adulto en el talle más chico apoya donde no debe. Puede generar fugas, marcar la cara y, sobre todo, incomodar. Y un nene incómodo se saca la máscara: no negocia, se la saca.\n\nLas máscaras pediátricas están diseñadas con medidas y materiales propios para bebés y chicos. No son máscaras de adulto en talle chico.',
+            },
+            {
+                title: 'Philips Wisp pediátrica (la de la jirafa)',
+                content: 'Es la que más eligen los padres, y se reconoce enseguida por su funda con estampado de jirafa.\n\nEse detalle no es decorativo, es la parte funcional del diseño: en un chico, que acepte la máscara es la mitad del tratamiento. Una máscara que parece un aparato médico se resiste; una que parece un juguete se tolera mucho mejor noche tras noche. Es la diferencia entre una familia que sostiene la terapia y una que la abandona a la semana.\n\nTiene armazón compacto y almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, y es compatible con equipos de CPAP, AutoCPAP y BiPAP.\n\nPrecio: U$S 227, con envío a todo el país.',
+            },
+            {
+                title: 'Los otros dos modelos, y cuándo conviene cada uno',
+                content: 'HSINER Cirri Mini — nasal pediátrica en cuatro talles (XS, S, M y L). U$S 105. Es la opción más accesible de la línea y la que da más margen para acertar el talle sin cambiar de modelo.\n\nInfant CPAP Kit neonatal — un kit con las tallas 00, 0, 1, 2, 3, 4 y 5, para neonatos, lactantes y niños. Desde U$S 97. Es la respuesta cuando el paciente es muy chico y ninguna máscara nasal común le sirve.\n\nLas tres son compatibles con equipos de CPAP, AutoCPAP y BiPAP. Antes de comprar te confirmamos por WhatsApp que la máscara le entre a tu equipo.',
+            },
+            {
+                title: 'El talle no se elige por catálogo',
+                content: 'Esta es la parte que no se resuelve mirando una foto. El talle correcto depende de la edad, del tamaño y la forma de la cara, de la presión indicada y de si el chico respira por la nariz o abre la boca al dormir.\n\nPor eso no te vendemos una máscara y listo: te asesoramos antes. Contanos la edad, qué equipo usa y qué indicó el médico, y te decimos cuál corresponde. Si hace falta, hablamos con quien lleva el tratamiento.\n\nNo te entregamos una caja. Con las máscaras el asesoramiento es parte de lo que comprás: te ayudamos a elegir modelo y talle antes de la compra, y quedamos disponibles por WhatsApp después. Si estás en Córdoba, además coordinamos la entrega a domicilio.',
+            },
+            {
+                title: 'En qué cuadros se usan',
+                content: 'La ventilación no invasiva pediátrica aparece habitualmente en enfermedades neuromusculares y cuadros respiratorios crónicos de la infancia.\n\nLos más frecuentes en nuestra experiencia son la [atrofia muscular espinal](/patologia/atrofia-muscular-espinal) y la [parálisis cerebral](/patologia/paralisis-cerebral). En AME tipo 1, por ejemplo, las máscaras nasales pediátricas suelen ser mejor toleradas que las que cubren nariz y boca.\n\nEn todos los casos el equipo y la máscara se usan con indicación médica: nosotros proveemos y asesoramos, no indicamos el tratamiento.',
+            },
+            {
+                title: 'Cada cuánto se cambia',
+                content: 'La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. La silicona pierde sellado con el tiempo y aparecen fugas que le restan eficacia al tratamiento.\n\nEn chicos hay un motivo extra para revisarla seguido: crecen. Un talle que sellaba perfecto hace seis meses puede haber quedado chico.\n\nEnviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos la compatibilidad con tu equipo antes de que compres.',
+            },
+        ],
+        products: [
+            { name: 'Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)', price: 'U$S 227' },
+            { name: 'Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)', price: 'U$S 105' },
+            { name: 'Infant CPAP Kit neonatal (tallas 00 a 5)', price: 'U$S 97' },
+            { name: 'Tubuladura para CPAP / BiPAP (repuesto universal)', price: '$36.000' },
+        ],
+        faq: [
+            { q: '¿Puedo usar una máscara de adulto en talle chico?', a: 'No es recomendable. La cara de un chico tiene proporciones distintas, no es una cara adulta a escala: una máscara de adulto apoya donde no debe, genera fugas hacia los ojos y marca la piel. El resultado más habitual es que el chico se la saque y se abandone el tratamiento.' },
+            { q: '¿Cuál es la máscara pediátrica más elegida?', a: 'La Philips Wisp, que viene con la funda estampada de jirafa (U$S 227). Ese diseño ayuda a que el chico la acepte, que es la mitad del tratamiento. También tenemos la HSINER Cirri Mini (U$S 105) y el Infant CPAP Kit neonatal (desde U$S 97).' },
+            { q: '¿Tienen máscaras para bebés y recién nacidos?', a: 'Sí. El Infant CPAP Kit incluye las tallas 00, 0, 1, 2, 3, 4 y 5, pensadas para neonatos y lactantes. Es la línea más difícil de conseguir en el país.' },
+            { q: '¿Cómo sé qué talle le corresponde?', a: 'No se elige por catálogo. Depende de la edad, del tamaño y la forma de la cara, de la presión indicada y de si respira por la nariz o abre la boca al dormir. Escribinos por WhatsApp con esos datos y te decimos cuál corresponde antes de que compres.' },
+            { q: '¿Son compatibles con mi equipo?', a: 'Las tres son compatibles con equipos de CPAP, AutoCPAP y BiPAP. Antes de comprar, pasanos por WhatsApp la marca y el modelo de tu equipo y te confirmamos la compatibilidad: preferimos chequearlo nosotros y no que te arriesgues, sobre todo en el kit neonatal.' },
+            { q: '¿Envían a todo el país?', a: 'Sí, enviamos las máscaras pediátricas a cualquier provincia. El alquiler de equipos es solo en Córdoba, pero la venta con envío es nacional.' },
+        ],
+        related: [
+            { label: 'Todas las máscaras para CPAP y BiPAP', href: '/mascaras-cpap' },
+            { label: 'Atrofia muscular espinal', href: '/patologia/atrofia-muscular-espinal' },
+            { label: 'Parálisis cerebral', href: '/patologia/paralisis-cerebral' },
+            { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
         ],
     },
     {
