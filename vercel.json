@@ -24,6 +24,11 @@
       "permanent": true
     },
     {
+      "source": "/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador",
+      "destination": "/bipap-cordoba",
+      "permanent": true
+    },
+    {
       "source": "/bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador",
       "destination": "/bipap-cordoba",
       "permanent": true
