@@ -105,4 +105,8 @@
     <loc>https://insersalud.com/tarjeta</loc>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://insersalud.com/politica-de-privacidad</loc>
+    <priority>0.2</priority>
+  </url>
 </urlset>

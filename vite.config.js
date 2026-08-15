@@ -35,7 +35,9 @@ export default defineConfig({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       workbox: {
         // /tarjeta es una página estática fuera de la SPA: sin esto el SW la tapa con el shell de React
-        navigateFallbackDenylist: [/^\/tarjeta/],
+        // Paginas fuera de la SPA: el service worker no debe devolverles el
+        // index.html de la app, tienen su propio HTML.
+        navigateFallbackDenylist: [/^\/tarjeta/, /^\/politica-de-privacidad/],
       },
       manifest: {
         name: 'Inser Salud App',

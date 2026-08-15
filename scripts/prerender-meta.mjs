@@ -374,7 +374,8 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <h2>Servicios en Córdoba</h2>
 <ul>
 ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`).join('\n')}
-</ul>`;
+</ul>
+<p><a href="/politica-de-privacidad">Política de privacidad</a></p>`;
 
     const proceso = `
 <h2>Cómo trabajamos</h2>
@@ -588,6 +589,7 @@ try {
             ...localPages.map((p) => u(`${SALUD}/${p.slug}`, '0.9')),
             ...pathologies.map((p) => u(`${SALUD}/patologia/${p.slug}`, '0.8')),
             u(`${SALUD}/tarjeta`, '0.3'),
+            u(`${SALUD}/politica-de-privacidad`, '0.2'),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`
             + `<!-- Generado por scripts/prerender-meta.mjs. NO editar a mano: se reescribe en cada build. -->\n`
