@@ -38,7 +38,7 @@ export const localPages = [
             },
             {
                 title: 'Cómo es el proceso',
-                content: 'Nos escribís por WhatsApp o completás el formulario de esta página con lo que te indicó tu médico. Te pasamos la cotización el mismo día, con el valor del alquiler y qué incluye.\n\nCuando confirmás, coordinamos la entrega en tu domicilio en Córdoba, normalmente dentro de las 24 hs. Ahí se instala el equipo, se configura y te enseñamos a usarlo.\n\nRecién al cerrar la operación te pedimos los datos para la entrega. Para cotizar no necesitás mandar DNI ni dirección.',
+                content: 'Nos escribís por WhatsApp o completás el formulario de esta página con lo que te indicó tu médico. Te pasamos la cotización el mismo día, con el valor del alquiler y qué incluye.\n\nCuando confirmás, coordinamos la entrega en tu domicilio en Córdoba, normalmente en el día. Ahí se instala el equipo, se configura y te enseñamos a usarlo.\n\nRecién al cerrar la operación te pedimos los datos para la entrega. Para cotizar no necesitás mandar DNI ni dirección.',
             },
             {
                 title: 'Probalo un mes antes de comprarlo',
@@ -54,7 +54,7 @@ export const localPages = [
         faq: [
             { q: '¿Qué equipos se pueden alquilar?', a: 'Concentradores de oxígeno fijos y portátiles, mochilas y tubos de oxígeno, CPAP, AutoCPAP, BiPAP, ventiladores domiciliarios y asistente de tos. También los insumos que acompañan a cada equipo.' },
             { q: '¿Cuánto cuesta el alquiler?', a: 'Depende del equipo y del plazo. Completá el formulario de esta página o escribinos por WhatsApp y te pasamos la cotización el mismo día, sin compromiso.' },
-            { q: '¿En cuánto tiempo lo entregan?', a: 'En Córdoba coordinamos la entrega e instalación a domicilio, normalmente dentro de las 24 hs. La instalación la hace personal profesional especializado.' },
+            { q: '¿En cuánto tiempo lo entregan?', a: 'En Córdoba coordinamos la entrega e instalación a domicilio, normalmente en el día. La instalación la hace personal profesional especializado.' },
             { q: '¿Necesito indicación médica para alquilar?', a: 'Sí. El equipo se configura con los valores que indicó tu médico (presión, flujo o modo), así que necesitamos esa indicación para entregártelo listo para usar.' },
             { q: '¿Alquilan fuera de Córdoba?', a: 'El alquiler con entrega e instalación es en Córdoba. Al resto del país vendemos con envío: escribinos y te asesoramos sobre la mejor opción para tu caso.' },
             { q: '¿Qué pasa si el equipo falla durante el alquiler?', a: 'El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos.' },
@@ -68,16 +68,16 @@ export const localPages = [
     {
         slug: 'alquiler-cpap-cordoba',
         h1: 'Alquiler de CPAP en Córdoba',
-        metaTitle: 'Alquiler de CPAP en Córdoba | Entrega a Domicilio 24hs | INSER SALUD',
+        metaTitle: 'Alquiler de CPAP en Córdoba | Entrega a Domicilio en el Día | INSER SALUD',
         metaTitleSalud: 'Alquiler de CPAP a Domicilio en Córdoba | INSER SALUD',
-        description: 'Alquilá un CPAP o AutoCPAP en Córdoba con entrega e instalación a domicilio en 24 hs. Equipos aprobados por ANMAT, con máscara y humidificador incluidos, sin depósito y con soporte técnico. Consultá por WhatsApp.',
+        description: 'Alquilá un CPAP o AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara y humidificador incluidos, sin depósito y con soporte técnico. Consultá por WhatsApp.',
         heroImg: '/artifacts/products/resmed_airsense10_1.jpg',
-        intro: '¿Necesitás un CPAP por un tiempo o querés probarlo antes de comprarlo? En INSER SALUD alquilamos CPAP y AutoCPAP en Córdoba con entrega e instalación a domicilio en 24 horas. Equipos aprobados por ANMAT, con máscara, humidificador y soporte técnico incluidos.',
+        intro: '¿Necesitás un CPAP por un tiempo o querés probarlo antes de comprarlo? En INSER SALUD alquilamos CPAP y AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara, humidificador y soporte técnico incluidos.',
         ctaSanti: 'Hola Santi, quiero alquilar un CPAP en Córdoba. ¿Cómo es el alquiler y cuánto cuesta por mes?',
         sections: [
             {
                 title: '¿Cómo funciona el alquiler de CPAP?',
-                content: 'Coordinamos la entrega del equipo en tu domicilio en Córdoba, normalmente dentro de las 24 horas. Te instalamos el CPAP, ajustamos la presión según tu indicación médica y te explicamos el uso y la limpieza.\n\nEl alquiler es por mes, sin depósito y con soporte técnico incluido durante todo el período. Si el equipo presenta alguna falla, lo reemplazamos.',
+                content: 'Coordinamos la entrega del equipo en tu domicilio en Córdoba, normalmente en el día. Te instalamos el CPAP, ajustamos la presión según tu indicación médica y te explicamos el uso y la limpieza.\n\nEl alquiler es por mes, sin depósito y con soporte técnico incluido durante todo el período. Si el equipo presenta alguna falla, lo reemplazamos.',
             },
             {
                 title: '¿Para quién es el alquiler?',
@@ -116,7 +116,7 @@ export const localPages = [
         faq: [
             { q: '¿Cuánto cuesta alquilar un CPAP en Córdoba?', a: 'El valor mensual depende del equipo y del plazo. Escribinos por WhatsApp y te pasamos el precio actualizado; incluye entrega, instalación y soporte técnico.' },
             { q: '¿El alquiler incluye la máscara?', a: 'Sí. El alquiler incluye la máscara, el humidificador y la tubuladura, además del equipo.' },
-            { q: '¿Entregan a domicilio?', a: 'Sí, hacemos entrega e instalación a domicilio en Córdoba Capital y alrededores, normalmente en 24 horas.' },
+            { q: '¿Entregan a domicilio?', a: 'Sí, hacemos entrega e instalación a domicilio en Córdoba Capital y alrededores, normalmente en el día.' },
             { q: '¿Puedo comprar el equipo después de alquilarlo?', a: 'Sí. Vendemos equipos nuevos aprobados por ANMAT y te asesoramos para pasar del alquiler a la compra cuando quieras.' },
             { q: '¿Necesito estudio del sueño para alquilar?', a: 'Sí, hace falta la indicación médica: el equipo se configura con la presión que definió tu médico a partir del estudio. Si todavía no lo hiciste, en Córdoba hacemos el [estudio del sueño a domicilio](/estudio-del-sueno-cordoba).' },
             { q: '¿Qué pasa si me voy de viaje?', a: 'El equipo es transportable y podés llevarlo. Avisanos si vas a viajar para orientarte con el traslado.' },
@@ -177,7 +177,7 @@ export const localPages = [
             { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro)', price: 'consultar' },
         ],
         faq: [
-            { q: '¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?', a: 'Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente dentro de las 24 hs.' },
+            { q: '¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?', a: 'Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.' },
             { q: '¿Cuánto cuesta alquilar un concentrador de oxígeno en Córdoba?', a: 'Depende de si es fijo o portátil y del plazo. Escribinos por WhatsApp y te damos el valor mensual actualizado, con entrega e instalación incluidas.' },
             { q: '¿Entregan e instalan a domicilio?', a: 'Sí, hacemos entrega, instalación y capacitación de uso a domicilio en Córdoba Capital y alrededores.' },
             { q: '¿Necesito receta médica?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo que indicó tu médico.' },
@@ -394,8 +394,8 @@ export const localPages = [
             { name: 'Mochila / tubo de oxígeno portátil', price: 'consultar' },
         ],
         faq: [
-            { q: '¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?', a: 'Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente dentro de las 24 hs.' },
-            { q: '¿Hacen entrega de oxígeno a domicilio en Córdoba?', a: 'Sí, entregamos e instalamos concentradores de oxígeno a domicilio en Córdoba Capital y alrededores, normalmente en 24 horas.' },
+            { q: '¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?', a: 'Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.' },
+            { q: '¿Hacen entrega de oxígeno a domicilio en Córdoba?', a: 'Sí, entregamos e instalamos concentradores de oxígeno a domicilio en Córdoba Capital y alrededores, normalmente en el día.' },
             { q: '¿Necesito receta médica para el oxígeno?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
             { q: '¿Conviene concentrador fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
             { q: '¿Venden o alquilan?', a: 'Las dos cosas. Tenés el concentrador BMC estacionario desde $999.000 y opciones de alquiler.' },

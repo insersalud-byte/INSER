@@ -128,7 +128,7 @@ const LocalPage = ({ slug }) => {
             <div style={c.trust}>
                 <div style={c.trustInner}>
                     <span style={c.trustItem}><ShieldCheck size={16} /> Aprobado por ANMAT</span>
-                    <span style={c.trustItem}><Truck size={16} /> {data.national ? 'Envío a todo el país' : 'Entrega a domicilio 24 hs'}</span>
+                    <span style={c.trustItem}><Truck size={16} /> {data.national ? 'Envío a todo el país' : 'Entrega a domicilio en el día'}</span>
                     {/* Las paginas que venden solo mascaras e insumos declaran
                         'garantia' propia: ninguno de esos productos tiene 2 años
                         declarados en el catalogo, y prometerlos seria un
@@ -179,7 +179,7 @@ const LocalPage = ({ slug }) => {
                 <section>
                     <h2 style={c.h2}>Cómo funciona</h2>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.75rem' }}>
-                        {[['1','Nos contactás','WhatsApp, teléfono o formulario. Respondemos en minutos.'],['2','Te asesoramos','Elegimos el equipo según tu prescripción médica.'],['3','Entregamos','En Córdoba con instalación en 24 hs; al país, envío con puesta en marcha guiada y seguimiento.']].map(([n,t,d]) => (
+                        {[['1','Nos contactás','WhatsApp, teléfono o formulario. Respondemos en minutos.'],['2','Te asesoramos','Elegimos el equipo según tu prescripción médica.'],['3','Entregamos','En Córdoba con instalación en el día; al país, envío con puesta en marcha guiada y seguimiento.']].map(([n,t,d]) => (
                             <div key={n} style={{ background: '#fff', border: '1px solid #e8eef6', borderRadius: '0.7rem', padding: '0.9rem 1rem' }}>
                                 <strong style={{ color: '#1e40af' }}>{n}. {t}</strong>
                                 <p style={{ ...c.p, margin: '0.3rem 0 0', fontSize: '0.88rem' }}>{d}</p>

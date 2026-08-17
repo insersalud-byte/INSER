@@ -1446,7 +1446,7 @@ Consultanos disponibilidad y opciones de financiación.`,
             'Si hay infecciones respiratorias frecuentes, consultá sobre el Asistente de Tos (Cough Assist).',
         ],
 
-        alertText: 'Tenemos la mayor variedad de máscaras BiPAP de Córdoba, incluyendo opciones pediátricas. Entrega inmediata.',
+        alertText: 'Tenemos la mayor variedad de máscaras BiPAP de Córdoba, incluyendo opciones pediátricas. Entrega inmediata en Córdoba.',
         alertCta: 'Ver máscaras disponibles →',
 
         testimonials: [

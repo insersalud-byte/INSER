@@ -1087,7 +1087,7 @@ const stats = [
     { value: '+500', label: 'Pacientes atendidos', icon: Users },
     { value: '+5', label: 'Años de experiencia', icon: Award },
     { value: 'ANMAT', label: 'Aparatología aprobada', icon: Shield },
-    { value: '24hs', label: 'Entrega en Córdoba', icon: Clock },
+    { value: 'En el día', label: 'Entrega en Córdoba', icon: Clock },
 ];
 
 // ── Guía educativa: ¿Qué son estos equipos? ────────────────────────────────
@@ -2198,7 +2198,7 @@ const LandingPage = () => {
                         {[
                             ['1', 'Nos contactás', 'Por WhatsApp, teléfono, formulario o con Santi. Respondemos en minutos, todos los días.'],
                             ['2', 'Te asesoramos', 'Elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.'],
-                            ['3', 'Entregamos e instalamos', 'En Córdoba, a domicilio en 24 hs con instalación. Al resto del país, envío con puesta en marcha guiada.'],
+                            ['3', 'Entregamos e instalamos', 'En Córdoba, a domicilio en el día con instalación. Al resto del país, envío con puesta en marcha guiada.'],
                             ['4', 'Te acompañamos', 'Adaptación, soporte técnico continuo, repuestos, y factura con presupuesto formal para el reintegro de tu obra social.'],
                         ].map(([n, t, d]) => (
                             <div key={n} style={{ background: '#f8fafc', border: '1px solid #e8eef6', borderRadius: '1rem', padding: '1.25rem' }}>
