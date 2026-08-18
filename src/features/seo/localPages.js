@@ -212,7 +212,7 @@ export const localPages = [
             },
             {
                 title: 'Garantía y respaldo',
-                content: 'Todos nuestros equipos son aparatología aprobada por ANMAT, con 2 años de garantía oficial. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.',
+                content: 'Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.',
             },
             {
                 title: 'Qué incluye el equipo cuando lo comprás',
@@ -244,7 +244,7 @@ export const localPages = [
         faq: [
             { q: '¿Cuánto cuesta un CPAP en Córdoba?', a: 'Desde $499.000 (CPAP BMC G2S con humidificador). El CPAP ResMed AirSense 10 está en oferta a $799.000. Confirmá el precio del día por WhatsApp.' },
             { q: '¿Qué CPAP me conviene comprar?', a: 'Depende de tu indicación médica y tu presión de tratamiento. El CPAP fijo es la opción estándar y económica; el AutoCPAP da más confort. Te asesoramos sin cargo.' },
-            { q: '¿Los equipos tienen garantía?', a: 'Sí, 2 años de garantía oficial y aparatología aprobada por ANMAT.' },
+            { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
             { q: '¿Puedo alquilar en lugar de comprar?', a: 'Sí, ofrecemos alquiler de CPAP en Córdoba con entrega a domicilio, ideal para probar antes de comprar.' },
             { q: '¿Puedo pagar el CPAP en cuotas?', a: 'Sí. Si sos cliente de Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes. El resto de la semana hay planes de 3, 6 y 9 cuotas, sujeto a las condiciones del banco.' },
             { q: '¿Puedo probar el equipo antes de comprarlo?', a: 'Sí. En Córdoba podés [alquilarlo primero](/alquiler-cpap-cordoba), usarlo el tiempo que necesites y decidir después con la experiencia hecha.' },
@@ -480,7 +480,7 @@ export const localPages = [
             },
             {
                 title: 'Garantía, ANMAT y respaldo',
-                content: 'Todos los equipos son aparatología aprobada por ANMAT, con 2 años de garantía oficial. Conseguís repuestos ([máscaras](/mascaras-cpap), filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.',
+                content: 'Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial. Conseguís repuestos ([máscaras](/mascaras-cpap), filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.',
             },
             {
                 title: 'Evidencia científica: por qué el CPAP es el tratamiento de referencia',
@@ -503,7 +503,7 @@ export const localPages = [
         faq: [
             { q: '¿Envían CPAP a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina (Buenos Aires, Rosario, Salta, etc.). Coordinamos el envío por WhatsApp.' },
             { q: '¿Cuánto cuesta un CPAP?', a: 'Desde $499.000 (CPAP BMC G2S). El AutoCPAP BMC está a $600.000 y el ResMed AirSense 10 a $799.000. Confirmá el precio del día por WhatsApp.' },
-            { q: '¿Los equipos tienen garantía?', a: 'Sí, 2 años de garantía oficial y aparatología aprobada por ANMAT, en todo el país.' },
+            { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
             { q: '¿Me ayudan a configurarlo si estoy en otra provincia?', a: 'Sí, te enviamos el equipo configurado y te guiamos a distancia en la puesta en marcha y la adaptación.' },
         ],
         related: [

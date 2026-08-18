@@ -973,7 +973,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
             { q: '¿Qué equipamiento respiratorio se usa en la AME?', a: 'Habitualmente ventilación no invasiva tipo BiPAP con frecuencia de respaldo y asistente de tos para el manejo de secreciones. En pacientes pediátricos se suman máscaras de tamaño adecuado. Todo el esquema lo define el equipo médico tratante.' },
             { q: '¿Tienen máscaras pediátricas?', a: 'Sí. Contamos con máscaras nasales pediátricas y kits neonatales de distintas tallas. La elección de la interfaz es clave para la tolerancia al tratamiento, así que te asesoramos según la edad y la anatomía del paciente.' },
             { q: '¿Hacen entrega e instalación a domicilio?', a: 'En Córdoba sí: llevamos el equipo, lo instalamos y capacitamos a la familia o al cuidador en el uso seguro. Al resto del país enviamos con instrucciones y soporte por WhatsApp.' },
-            { q: '¿Qué pasa si el equipo falla?', a: 'Todos los equipos son aparatología aprobada por ANMAT y tienen 2 años de garantía oficial. Ante cualquier problema podés escribirnos por WhatsApp; respondemos todos los días.' },
+            { q: '¿Qué pasa si el equipo falla?', a: 'Todos los equipos son aparatología aprobada por ANMAT. La garantía depende del modelo y figura en la ficha de cada equipo. Ante cualquier problema podés escribirnos por WhatsApp; respondemos todos los días.' },
         ],
         title: 'Atrofia Muscular Espinal',
         metaTitle: 'ATROFIA MUSCULAR ESPINAL | INSER SALUD',
