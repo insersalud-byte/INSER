@@ -1107,7 +1107,7 @@ const guides = [
             'La diferencia clave con el CPAP fijo: el CPAP da una sola presión toda la noche; el AutoCPAP la sube o baja según lo necesites.',
         ],
         color: '#0ea5e9',
-        priceFrom: 'Desde U$S 415',
+        priceFrom: 'Desde $600.000',
     },
     {
         icon: Layers,
@@ -1257,7 +1257,7 @@ const comparativeRows = [
     ['Indicación principal', 'Apnea obstructiva leve a moderada', 'Apnea con presiones variables (por postura, etapas del sueño)', 'EPOC, ENM, apnea compleja, hipoventilación'],
     ['Confort', 'Estándar', 'Mayor (se adapta al paciente)', 'Muy alto al exhalar'],
     ['Costo', 'Más económico', 'Medio', 'Más elevado'],
-    ['Desde', '$495.000 · U$S 330', 'U$S 415', '$1.300.000 · U$S 907'],
+    ['Desde', '$499.000', '$600.000', '$1.300.000'],
 ];
 
 // ── Helper ─────────────────────────────────────────────────────────────────

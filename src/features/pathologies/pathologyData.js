@@ -1246,7 +1246,7 @@ Principales problemas respiratorios en PC:
             },
             {
                 id: 'mascaras-bipap',
-                title: 'Máscaras para BiPAP — La Mayor Variedad de Córdoba',
+                title: 'Máscaras para BiPAP — Todos los tipos y talles',
                 content: `Trabajamos con máscaras para BiPAP y CPAP en todos los tipos y talles: nasales, nasobucales, de almohadillas y pediátricas. La elección correcta de la interfaz es fundamental: una máscara inadecuada puede arruinar el tratamiento aunque el equipo sea excelente.
 
 👃 Máscaras Nasales (cubren solo la nariz):
