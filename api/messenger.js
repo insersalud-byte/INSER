@@ -68,7 +68,7 @@ Cuando el cliente saluda por primera vez (hola, buenos días, etc.), responder S
 | Máscara Nasal DreamWear Philips | $223.000 | Contacto mínimo, tubo superior, compatible CPAP/BiPAP, varias tallas |
 | Máscara Nasobucal DreamWear Philips | $229.000 | Buconasal, contacto mínimo, tubo superior, compatible CPAP/BiPAP |
 | Concentrador GCE Zen-O | $5.451.885 | Portátil, 2 posiciones (continuo + pulso), 2,7 kg, batería incluida, aprobado para vuelos |
-| Concentrador KINGON P2-S3 | $2.735.400 | El más liviano del mercado, flujo pulso, batería larga duración, ideal paciente activo |
+| Concentrador KINGON P2-S3 | $2.735.400 | El más liviano de nuestro catálogo (2,3 kg con batería), flujo pulso, batería larga duración, ideal paciente activo |
 | Concentrador YUWELL 10 Litros (alto flujo) | $2.800.000 | Estacionario de alto flujo, hasta 10 L/min (el doble del estándar). Ideal alta demanda de oxígeno y centros de rehabilitación pulmonar. Uso continuo 24hs |
 | Máscara Nasal RESCOMF CPAP/BiPAP | $50.000 | Económica, multitalle, compatible todos los equipos |
 | Máscara Buconasal BMC F2 Codo Azul | $68.000 | SIN FUGA (no ventilada), para respiradores de terapia intensiva / VNI con válvula espiratoria. NO sirve para CPAP/BiPAP domiciliario estándar (esos usan máscara ventilada como F6 o DreamWear) |

@@ -172,7 +172,7 @@ Tipos de máscaras disponibles:
 • Máxima comodidad y libertad de movimiento
 • Ideales para claustrofóbicos
 
-Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en el puente de la nariz o intolerancia, podemos ayudarte a encontrar la indicada. Contamos con la mayor variedad de interfaces de Córdoba.`,
+Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en el puente de la nariz o intolerancia, podemos ayudarte a encontrar la indicada. Trabajamos con interfaces de todos los tipos y talles.`,
                 link: 'https://wa.me/5493512065320?text=Hola, necesito ayuda para elegir la máscara correcta para mi CPAP o BiPAP',
                 linkText: 'Consultá sobre máscaras →',
             },
@@ -233,7 +233,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
                 priceUSD: 'U$S 35',
                 img: '/artifacts/mascara_rescomf.jpg',
                 badge: 'OFERTA',
-                desc: 'La opción más económica del mercado.',
+                desc: 'La opción más económica de nuestro catálogo.',
             },
         ],
 
@@ -251,10 +251,6 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
         alertText: '¿Te despertás cansado? El diagnóstico con poligrafía es sencillo, no invasivo y se hace en tu casa.',
         alertCta: 'Consultá hoy →',
 
-        testimonials: [
-            { name: 'María G.', city: 'Córdoba', text: 'Los equipos de Inser Salud han mejorado mi calidad de vida. Mi sueño es mucho mejor y ya no me despierto cansada.', stars: 5 },
-            { name: 'Juan P.', city: 'Córdoba', text: 'Excelente atención y asesoramiento. Me ayudaron a adaptarme al CPAP con mucha paciencia. Los recomiendo totalmente.', stars: 5 },
-        ],
 
         relatedLinks: [],
 
@@ -449,7 +445,7 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
                 priceUSD: 'U$S 1.880',
                 img: '/artifacts/kingon_p2_s3.jpg',
                 badge: 'EL MÁS LIVIANO',
-                desc: 'El concentrador portátil más liviano y económico del mercado.',
+                desc: 'El concentrador portátil más liviano y económico de nuestro catálogo.',
             },
             {
                 name: 'Concentrador Portátil KINGON P2-TOC',
@@ -496,13 +492,9 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
             'Llevá siempre un oxímetro de pulso: es pequeño, económico y puede alertarte ante una crisis.',
         ],
 
-        alertText: 'La EPOC no tiene cura, pero con el tratamiento correcto podés recuperar tu calidad de vida. Entrega inmediata en Córdoba.',
+        alertText: 'La EPOC no tiene cura, pero con el tratamiento correcto podés recuperar tu calidad de vida. Entrega e instalación en el día en Córdoba.',
         alertCta: 'Consultá con Santi →',
 
-        testimonials: [
-            { name: 'Juan P.', city: 'Córdoba', text: 'Excelente atención y asesoramiento. Los concentradores son de alta calidad y me han ayudado muchísimo en el día a día.', stars: 5 },
-            { name: 'María G.', city: 'Córdoba', text: 'Gracias al concentrador portátil puedo salir de mi casa sin miedo. El equipo de Inser Salud me cambió la vida.', stars: 5 },
-        ],
 
         relatedLinks: [],
 
@@ -575,7 +567,7 @@ Ventajas del concentrador estacionario:
 ✅ No requiere almacenamiento de tubos
 ✅ Bajo costo operativo
 ✅ Silencioso y seguro para uso en dormitorio
-✅ Disponible en alquiler con entrega inmediata en Córdoba
+✅ Disponible en alquiler con entrega e instalación en el día en Córdoba
 
 Modelos disponibles:
 • YUWELL Estacionario 5L — U$S 713
@@ -583,7 +575,7 @@ Modelos disponibles:
 
 El concentrador estacionario es la opción ideal para usar durante la noche y en las horas en que el paciente está en el hogar. Para salir, se complementa con concentrador portátil o mochila.
 
-Alquiler disponible con entrega inmediata en Córdoba. Ideal para necesidades transitorias o como evaluación antes de la compra.`,
+Alquiler disponible con entrega e instalación en el día en Córdoba. Ideal para necesidades transitorias o como evaluación antes de la compra.`,
                 link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre concentrador de oxígeno estacionario para Fibrosis Pulmonar',
                 linkText: 'Consultá sobre alquiler →',
             },
@@ -594,9 +586,9 @@ Alquiler disponible con entrega inmediata en Córdoba. Ideal para necesidades tr
 
 Modelos disponibles en Inser Salud:
 
-🥇 KINGON P2-S3 — El más liviano y económico
+🥇 KINGON P2-S3 — El más liviano de nuestro catálogo
 • Precio: $2.735.400 · U$S 1.880
-• El más liviano del mercado
+• 2,3 kg con batería
 • Ideal para pacientes activos con necesidad de flujo bajo-moderado
 • Batería incluida para autonomía en desplazamientos
 
@@ -699,7 +691,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
                 priceUSD: 'U$S 1.880',
                 img: '/artifacts/kingon_p2_s3.jpg',
                 badge: 'MÁS LIVIANO',
-                desc: 'El más liviano y económico del mercado.',
+                desc: 'El más liviano y económico de nuestro catálogo.',
             },
             {
                 name: 'KINGON P2-TOC (Portátil)',
@@ -738,13 +730,9 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
             'Tomá los fármacos antifibróticos indicados: frena la progresión aunque no cure la enfermedad.',
         ],
 
-        alertText: 'La oxigenoterapia mejora la sobrevida y la calidad de vida en Fibrosis Pulmonar. Entrega inmediata en Córdoba.',
+        alertText: 'La oxigenoterapia mejora la sobrevida y la calidad de vida en Fibrosis Pulmonar. Entrega e instalación en el día en Córdoba.',
         alertCta: 'Consultá disponibilidad →',
 
-        testimonials: [
-            { name: 'María G.', city: 'Córdoba', text: 'El concentrador portátil de Inser Salud me permite salir y hacer mi vida normal. La calidad del equipo es excelente.', stars: 5 },
-            { name: 'Roberto A.', city: 'Villa Carlos Paz', text: 'El asesoramiento fue impecable. Me explicaron todo sobre el oxígeno líquido y ahora tengo mucha más autonomía.', stars: 5 },
-        ],
 
         relatedLinks: [],
 
@@ -968,10 +956,6 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
         alertText: 'En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con ELA y enfermedades neuromusculares.',
         alertCta: 'Solicitar evaluación →',
 
-        testimonials: [
-            { name: 'Familia de Carlos R.', city: 'Córdoba', text: 'El equipo de Inser Salud nos enseñó a usar el Cough Assist en casa. La tranquilidad que nos da es invaluable.', stars: 5 },
-            { name: 'Juan P.', city: 'Córdoba', text: 'Excelente atención. Los dispositivos son de alta calidad y el seguimiento fue clave para adaptarse al BiPAP.', stars: 5 },
-        ],
 
         relatedLinks: [],
 
@@ -1136,7 +1120,7 @@ Máscaras de adultos para AME tipo 2 y 3:
 😮 Nasobucales: DreamWear Full Face, BMC F6, RESMED AirFit F20/F30
 🌟 DreamWear (mínimo contacto nasal): U$S 153
 
-Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contamos con la mayor variedad de interfaces de Córdoba. El incumplimiento del tratamiento muchas veces se debe a una máscara inadecuada.`,
+Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabajamos con interfaces de todos los tipos y talles. El incumplimiento del tratamiento muchas veces se debe a una máscara inadecuada.`,
                 link: 'https://wa.me/5493512065320?text=Hola, necesito máscaras para BiPAP para AME. ¿Tienen opciones pediátricas?',
                 linkText: 'Consultá sobre máscaras →',
             },
@@ -1192,10 +1176,6 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contam
         alertText: 'En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con AME. Detectar a tiempo marca la diferencia.',
         alertCta: 'Solicitar evaluación →',
 
-        testimonials: [
-            { name: 'Familia de Sofía M.', city: 'Córdoba', text: 'La máscara pediátrica que nos recomendaron fue un cambio total. Sofía duerme mucho mejor y sin incomodidades.', stars: 5 },
-            { name: 'María G.', city: 'Villa María', text: 'El acompañamiento de Inser Salud fue excepcional. Nos enseñaron todo sobre el Cough Assist y el BiPAP con mucha paciencia.', stars: 5 },
-        ],
 
         relatedLinks: [],
 
@@ -1223,7 +1203,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Contam
         colorLight: '#fef3c7',
         heroImg: '/artifacts/hero_paralisis.jpg',
 
-        intro: 'Los pacientes con parálisis cerebral frecuentemente requieren soporte ventilatorio con BiPAP y el uso de máscaras especiales. La elección correcta de la interfaz es tan importante como el equipo en sí. En Inser Salud contamos con la mayor variedad de máscaras de Córdoba, incluyendo opciones pediátricas.',
+        intro: 'Los pacientes con parálisis cerebral frecuentemente requieren soporte ventilatorio con BiPAP y el uso de máscaras especiales. La elección correcta de la interfaz es tan importante como el equipo en sí. En Inser Salud trabajamos con máscaras en todos los tipos y talles, incluyendo opciones pediátricas.',
 
         description: 'Los pacientes con Parálisis Cerebral frecuentemente presentan compromiso de la musculatura respiratoria, tos ineficaz, alteraciones del sueño e hipoventilación. El soporte ventilatorio con BiPAP y las máscaras adecuadas mejoran significativamente su calidad de vida, la oxigenación nocturna y reducen el riesgo de complicaciones respiratorias.',
 
@@ -1267,7 +1247,7 @@ Principales problemas respiratorios en PC:
             {
                 id: 'mascaras-bipap',
                 title: 'Máscaras para BiPAP — La Mayor Variedad de Córdoba',
-                content: `Contamos con la mayor variedad de máscaras para BiPAP y CPAP de Córdoba. La elección correcta de la interfaz es fundamental: una máscara inadecuada puede arruinar el tratamiento aunque el equipo sea excelente.
+                content: `Trabajamos con máscaras para BiPAP y CPAP en todos los tipos y talles: nasales, nasobucales, de almohadillas y pediátricas. La elección correcta de la interfaz es fundamental: una máscara inadecuada puede arruinar el tratamiento aunque el equipo sea excelente.
 
 👃 Máscaras Nasales (cubren solo la nariz):
 • DreamWear Philips — Mínimo contacto — $223.000 · U$S 153
@@ -1412,7 +1392,7 @@ Consultanos disponibilidad y opciones de financiación.`,
                 priceUSD: 'U$S 35',
                 img: '/artifacts/mascara_rescomf.jpg',
                 badge: 'OFERTA',
-                desc: 'La opción más accesible del mercado.',
+                desc: 'La opción más accesible de nuestro catálogo.',
             },
 
             {
@@ -1436,7 +1416,7 @@ Consultanos disponibilidad y opciones de financiación.`,
         ],
 
         tips: [
-            'Probá diferentes modelos de máscara para encontrar la más cómoda: tenemos la mayor variedad de Córdoba.',
+            'Te asesoramos para elegir el modelo y el talle de máscara según tu anatomía y la indicación médica.',
             'Comenzá con sesiones cortas de BiPAP durante el día para familiarizarte antes de usarlo toda la noche.',
             'Mantené el equipo limpio y revisá el ajuste de las correas regularmente: ni muy floja ni muy apretada.',
             'Consultá ante cualquier signo de intolerancia: enrojecimiento, escapes excesivos o molestias en la piel.',
@@ -1446,13 +1426,9 @@ Consultanos disponibilidad y opciones de financiación.`,
             'Si hay infecciones respiratorias frecuentes, consultá sobre el Asistente de Tos (Cough Assist).',
         ],
 
-        alertText: 'Tenemos la mayor variedad de máscaras BiPAP de Córdoba, incluyendo opciones pediátricas. Entrega inmediata en Córdoba.',
+        alertText: 'Trabajamos con máscaras BiPAP en todos los tipos y talles, incluyendo opciones pediátricas. Entrega e instalación en el día en Córdoba.',
         alertCta: 'Ver máscaras disponibles →',
 
-        testimonials: [
-            { name: 'Familia de Lucía R.', city: 'Córdoba', text: 'El equipo de Inser Salud nos acompañó en todo el proceso con mucha dedicación y paciencia. La máscara pediátrica fue un cambio total.', stars: 5 },
-            { name: 'María G.', city: 'Córdoba', text: 'Inmenso el catálogo de máscaras. Encontramos la indicada para mi hijo después de probar varias opciones sin cargo.', stars: 5 },
-        ],
 
         relatedLinks: [],
 

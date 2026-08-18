@@ -798,7 +798,7 @@ export const localPages = [
         h1: 'Comprar concentrador de oxígeno portátil: envío a todo el país',
         metaTitle: 'Concentrador de Oxígeno Portátil desde $2.735.400 | INSER',
         metaTitleSalud: 'Concentrador de Oxígeno Portátil desde $2.735.400 | INSER',
-        description: 'KINGON P2-S3 $2.735.400, el más liviano del mercado, más la línea de flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país.',
+        description: 'KINGON P2-S3 $2.735.400, el más liviano de nuestro catálogo (2,3 kg con batería), más la línea de flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país.',
         heroImg: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg',
         intro: 'Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles de pulso y de flujo continuo con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.',
         ctaSanti: 'Hola Santi, quiero comprar un concentrador de oxígeno portátil. ¿Qué modelos tienen, precios y cuál me conviene según mi flujo?',

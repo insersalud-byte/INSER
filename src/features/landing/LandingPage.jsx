@@ -158,7 +158,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Máscara Nasal RESCOMF CPAP/BIPAP', slug: 'mascara-nasal-para-cpap-y-bipap', price: '$50.000 · U$S 35', img: '/artifacts/products/1751037583753-1000306949.jpg', badge: 'OFERTA', note: 'La más económica del mercado.', category: 'Máscara',
+        name: 'Máscara Nasal RESCOMF CPAP/BIPAP', slug: 'mascara-nasal-para-cpap-y-bipap', price: '$50.000 · U$S 35', img: '/artifacts/products/1751037583753-1000306949.jpg', badge: 'OFERTA', note: 'La más económica de nuestro catálogo.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Rescomf'],
             ['Tipo', 'Máscara nasal con apoya frente'],
@@ -432,7 +432,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasal RESCOMF CPAP/BIPAP', slug: 'mascara-nasal-para-cpap-y-bipap', price: '$50.000 · U$S 35', img: '/artifacts/products/1751037583753-1000306949.jpg', badge: 'OFERTA', note: 'La más económica del mercado.', category: 'Máscara',
+        name: 'Máscara Nasal RESCOMF CPAP/BIPAP', slug: 'mascara-nasal-para-cpap-y-bipap', price: '$50.000 · U$S 35', img: '/artifacts/products/1751037583753-1000306949.jpg', badge: 'OFERTA', note: 'La más económica de nuestro catálogo.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Rescomf'],
             ['Tipo', 'Nasal con apoya frente'],
@@ -581,7 +581,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Concentrador Portátil PHILIPS SIMPLYGO', slug: 'concentrador-de-oxigeno-portatil-simplygo', price: 'U$S 3.887', img: '/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jfif', badge: 'PREMIUM', note: 'Flujo continuo + pulso. Referencia del mercado.', category: 'Concentrador',
+        name: 'Concentrador Portátil PHILIPS SIMPLYGO', slug: 'concentrador-de-oxigeno-portatil-simplygo', price: 'U$S 3.887', img: '/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jfif', badge: 'PREMIUM', note: 'Flujo continuo + pulso.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Modelo', 'SimplyGo'],
@@ -723,8 +723,8 @@ const tienda = [
 ];
 
 const services = [
-    { title: 'Alquiler de Equipos', desc: 'CPAP, BiPAP y Concentradores con entrega inmediata en domicilio en Córdoba. Sin depósito, con soporte técnico incluido.', img: '/artifacts/cpap_real.png', link: 'https://wa.me/5493512065320', cta: 'Consultar alquiler' },
-    { title: 'Venta Directa', desc: 'Equipos nuevos con garantía oficial y el mejor asesoramiento técnico del mercado. Los precios más competitivos de Córdoba.', img: '/artifacts/venta_directa_ofertas.jpg', link: '#tienda', cta: 'Ver tienda', focusTop: true },
+    { title: 'Alquiler de Equipos', desc: 'CPAP, BiPAP y Concentradores con entrega e instalación en el día en Córdoba. Sin depósito, con soporte técnico incluido.', img: '/artifacts/cpap_real.png', link: 'https://wa.me/5493512065320', cta: 'Consultar alquiler' },
+    { title: 'Venta Directa', desc: 'Equipos nuevos con garantía oficial, precios publicados y asesoramiento técnico especializado antes de la compra.', img: '/artifacts/venta_directa_ofertas.jpg', link: '#tienda', cta: 'Ver tienda', focusTop: true },
     {
         title: 'Adaptación y Seguimiento',
         desc: 'Nuestro equipo de especialistas te acompaña día a día con cuidado, paciencia y respeto para que tu terapia sea un éxito.',
@@ -827,7 +827,7 @@ const ALL_TAG_INFO = {
     'Alquiler': {
         icon: '🔑',
         title: 'Alquiler de equipos respiratorios',
-        subtitle: 'Sin depósito · Entrega inmediata en Córdoba',
+        subtitle: 'Sin depósito · Entrega en el día en Córdoba',
         body: 'Antes de comprar podés alquilar tu equipo para probar la terapia con apoyo profesional. Ideal para evaluar el tratamiento o cubrir necesidades temporales.',
         bullets: [
             { icon: '📦', text: 'Entrega y retiro en domicilio en Córdoba capital y gran Córdoba' },
@@ -1038,7 +1038,7 @@ const pathologies = [
         icon: Activity,
         slug: 'fibrosis-pulmonar',
         name: 'Fibrosis Pulmonar',
-        subtitle: 'Oxígeno líquido · Concentradores · Soporte 24hs',
+        subtitle: 'Oxígeno líquido · Concentradores · Uso continuo',
         desc: 'La fibrosis pulmonar requiere oxigenoterapia continua. Ofrecemos concentradores de oxígeno estacionarios y portátiles, mochilas de oxígeno y oxígeno líquido para mantener la independencia y calidad de vida del paciente.',
         img: '/artifacts/hero_fibrosis.jpg',
         color: '#6366f1',
