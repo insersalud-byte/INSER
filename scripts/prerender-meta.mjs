@@ -40,7 +40,6 @@ const INSER_HOME = {
 const PRODUCTS = [
     ['CPAP BMC G2S con humidificador', '$499.000', 'CPAP fijo, el más vendido'],
     ['AutoCPAP BMC G2S con humidificador', '$600.000', 'presión automática, equipo completo con bolso'],
-    ['AutoCPAP BMC G2s', 'U$S 415', 'AutoCPAP económico'],
     ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, con almohadillas nasales'],
     ['CPAP Philips DreamStation', 'U$S 579', 'CPAP fijo con humidificador y conectividad'],
     ['AutoCPAP Philips DreamStation', 'U$S 758', 'con humidificador y conectividad'],

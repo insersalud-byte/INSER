@@ -487,17 +487,6 @@ const tienda = [
     // ── Agregados desde catálogo oficial insersalud.com ─────────────────
     // (El "CPAP BMC G2s (sin Mini)" era duplicado del primer CPAP BMC G2S — removido)
     {
-        name: 'AUTOCPAP BMC G2s', price: 'U$S 415', img: '/artifacts/cpap_bmc_g2s.jpg', badge: null, note: 'AutoCPAP estándar, ajuste automático.', category: 'CPAP',
-        specs: [
-            ['Fabricante', 'BMC Medical'],
-            ['Tipo', 'AutoCPAP'],
-            ['Rango de presión', '4 – 20 cm H₂O automático'],
-            ['Humidificador', 'Opcional'],
-            ['Tarjeta SD', 'Sí'],
-            ['Garantía', '2 años'],
-        ],
-    },
-    {
         name: 'CPAP YUWELL YH-360 con Humidificador', slug: 'cpap-yuwell-yh-360-con-humidificador', price: 'U$S 416', img: '/artifacts/products/1752269565561-269d4b6c-772c-4dcb-b8f1-0bcc3244be73.jfif', badge: null, note: 'Opción económica con humidificador.', category: 'CPAP',
         specs: [
             ['Fabricante', 'YUWELL'],
