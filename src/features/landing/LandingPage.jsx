@@ -131,6 +131,22 @@ const ofertas = [
         ],
     },
     {
+        name: 'Concentrador de Oxígeno YUWELL 7F-5B 5 Litros', slug: 'concentrador-de-oxigeno-yuwell-7f-5b', price: '$1.170.000', img: '/artifacts/products/concentrador_yuwell_5l.jpg', badge: 'OFERTA', note: '6 cuotas sin interés de $195.000. Envío gratis.', category: 'Concentrador',
+        review: 'El concentrador YUWELL 7F-5B entrega oxígeno continuo para uso domiciliario, con flujo regulable de 0,5 a 5 L/min. Trae humidificador incorporado, que ayuda a evitar la sequedad de nariz y garganta en los tratamientos prolongados, y funciona con bajo nivel de ruido, de modo que puede usarse en el dormitorio durante la noche. No se recarga como un tubo: se enchufa y produce oxígeno a partir del aire del ambiente, sin costo de reposición. Aparatología aprobada por ANMAT, con garantía oficial y servicio técnico. El flujo en litros por minuto y las horas de uso los indica tu médico según tu saturación. Esta oferta se entrega con envío sin cargo a todo el país y se financia en 6 cuotas sin interés de $195.000, hasta agotar stock.',
+        specs: [
+            ['Fabricante', 'YUWELL (China)'],
+            ['Modelo', '7F-5B'],
+            ['Tipo', 'Concentrador estacionario (domiciliario)'],
+            ['Flujo', '0,5 – 5 L/min (continuo)'],
+            ['Humidificador', 'Incorporado'],
+            ['Ruido', 'Bajo nivel de ruido'],
+            ['Financiación', '6 cuotas sin interés de $195.000'],
+            ['Envío', 'Sin cargo a todo el país'],
+            ['Stock', 'Oferta hasta agotar stock'],
+            ['Garantía', 'Oficial, con servicio técnico'],
+        ],
+    },
+    {
         name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: '$5.451.885 · U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'GCE Healthcare (Europa)'],

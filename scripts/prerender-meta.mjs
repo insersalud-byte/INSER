@@ -54,6 +54,7 @@ const PRODUCTS = [
     ['Concentrador de oxígeno BMC estacionario', '$999.000', 'con control remoto y medidor de O₂'],
     ['Concentrador de oxígeno YUWELL 10 litros (alto flujo)', '$2.800.000', 'hasta 10 L/min, para alta demanda de oxígeno y centros de rehabilitación pulmonar'],
     ['Concentrador estacionario Yuwell 5 L/min', 'U$S 713', 'para uso domiciliario continuo'],
+    ['Concentrador estacionario Yuwell 7F-5B de 5 litros', '$1.170.000', 'con humidificador incorporado, flujo continuo de 0,5 a 5 L/min — oferta puntual: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock'],
     ['Concentrador portátil KINGON P2-S3', '$2.735.400', 'el más liviano, apto para vuelos'],
     ['Concentrador portátil KINGON P2-TOC', 'U$S 3.458', '9,5 hs de autonomía, continuo + pulso'],
     ['Concentrador portátil KINGON P2-E7', 'U$S 3.099', 'alto flujo continuo, batería extendida'],
