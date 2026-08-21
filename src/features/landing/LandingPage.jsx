@@ -58,7 +58,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jfif', badge: 'OFERTA', note: 'El más vendido. CPAP fijo.', category: 'CPAP',
+        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo.', category: 'CPAP',
         specs: [
             ['Fabricante', 'BMC Medical (China)'],
             ['Tipo', 'CPAP fijo (presión constante)'],
@@ -187,7 +187,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: '$229.000 · U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jfif', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
+        name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: '$229.000 · U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Tipo', 'Máscara nasobucal (full face) de mínimo contacto'],
@@ -226,7 +226,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Máscara Nasal Pediátrica Philips Wisp (jirafa)', slug: 'nascara-nasal-peditrica-jirafa-philips-respironics', price: 'U$S 227', img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif', badge: 'OFERTA', note: 'La pediátrica con diseño de jirafa.', category: 'Máscara',
+        name: 'Máscara Nasal Pediátrica Philips Wisp (jirafa)', slug: 'nascara-nasal-peditrica-jirafa-philips-respironics', price: 'U$S 227', img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg', badge: 'OFERTA', note: 'La pediátrica con diseño de jirafa.', category: 'Máscara',
         review: 'La Philips Wisp pediátrica es la máscara nasal pensada para chicos, y se reconoce por su funda con estampado de jirafa. Ese detalle no es decorativo: en un nene, aceptar la máscara es la mitad del tratamiento, y una máscara que no asusta se tolera mucho mejor noche tras noche. El armazón es compacto y la almohadilla es de silicona hipoalergénica, apoyada solo sobre la nariz. Es compatible con equipos de CPAP y BiPAP. La línea pediátrica es difícil de conseguir en Argentina y esta es una de las pocas opciones disponibles. La elección del modelo y del talle no se hace por catálogo: te asesoramos según la edad, la anatomía del paciente y la indicación médica.',
         specs: [
             ['Fabricante', 'Philips Respironics'],
@@ -242,7 +242,7 @@ const ofertas = [
 const tienda = [
     // ── CPAP / AUTOCPAP ──────────────────────────────────────────────────────
     {
-        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jfif', badge: 'OFERTA', note: 'El más vendido. CPAP fijo.', category: 'CPAP',
+        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo.', category: 'CPAP',
         specs: [
             ['Fabricante', 'BMC Medical (China)'],
             ['Tipo', 'CPAP fijo'],
@@ -460,7 +460,7 @@ const tienda = [
 
     // ── Máscaras Nasobucales ─────────────────────────────────────────────────
     {
-        name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: '$229.000 · U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jfif', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
+        name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: '$229.000 · U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Tipo', 'Nasobucal de mínimo contacto'],
@@ -503,7 +503,7 @@ const tienda = [
     // ── Agregados desde catálogo oficial insersalud.com ─────────────────
     // (El "CPAP BMC G2s (sin Mini)" era duplicado del primer CPAP BMC G2S — removido)
     {
-        name: 'CPAP YUWELL YH-360 con Humidificador', slug: 'cpap-yuwell-yh-360-con-humidificador', price: 'U$S 416', img: '/artifacts/products/1752269565561-269d4b6c-772c-4dcb-b8f1-0bcc3244be73.jfif', badge: null, note: 'Opción económica con humidificador.', category: 'CPAP',
+        name: 'CPAP YUWELL YH-360 con Humidificador', slug: 'cpap-yuwell-yh-360-con-humidificador', price: 'U$S 416', img: '/artifacts/products/1752269565561-269d4b6c-772c-4dcb-b8f1-0bcc3244be73.jpg', badge: null, note: 'Opción económica con humidificador.', category: 'CPAP',
         specs: [
             ['Fabricante', 'YUWELL'],
             ['Modelo', 'YH-360'],
@@ -538,7 +538,7 @@ const tienda = [
     },
     // Diagnóstico
     {
-        name: 'POLÍGRAFO BMC YH-600B PRO (Estudio del Sueño)', slug: 'poligrafo-bmc-yh-600b-pro-', price: 'U$S 1.570', img: '/artifacts/products/1752508033704-poligrafobmc.jfif', badge: 'DIAGNÓSTICO', note: 'Poligrafía domiciliaria profesional. Opción con 30 cánulas Luer Lock: U$S 1.794.', category: 'Diagnóstico',
+        name: 'POLÍGRAFO BMC YH-600B PRO (Estudio del Sueño)', slug: 'poligrafo-bmc-yh-600b-pro-', price: 'U$S 1.570', img: '/artifacts/products/1752508033704-poligrafobmc.jpg', badge: 'DIAGNÓSTICO', note: 'Poligrafía domiciliaria profesional. Opción con 30 cánulas Luer Lock: U$S 1.794.', category: 'Diagnóstico',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Polígrafo respiratorio portátil'],
@@ -586,7 +586,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Concentrador Portátil PHILIPS SIMPLYGO', slug: 'concentrador-de-oxigeno-portatil-simplygo', price: 'U$S 3.887', img: '/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jfif', badge: 'PREMIUM', note: 'Flujo continuo + pulso.', category: 'Concentrador',
+        name: 'Concentrador Portátil PHILIPS SIMPLYGO', slug: 'concentrador-de-oxigeno-portatil-simplygo', price: 'U$S 3.887', img: '/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg', badge: 'PREMIUM', note: 'Flujo continuo + pulso.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Modelo', 'SimplyGo'],
@@ -638,7 +638,7 @@ const tienda = [
     // ("Tubo Portátil 0,5 m" era local — no existe en catálogo oficial. Removido.)
     // Máscaras adicionales
     {
-        name: 'Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)', slug: 'nascara-nasal-pediatrica-nasal-hsiner-cirri-mini-s-m-l-xs', price: 'U$S 105', img: '/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jfif', badge: 'PEDIÁTRICO', note: 'Para niños — AME, PC.', category: 'Máscara',
+        name: 'Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)', slug: 'nascara-nasal-pediatrica-nasal-hsiner-cirri-mini-s-m-l-xs', price: 'U$S 105', img: '/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg', badge: 'PEDIÁTRICO', note: 'Para niños — AME, PC.', category: 'Máscara',
         specs: [
             ['Fabricante', 'HSINER'],
             ['Modelo', 'Cirri Mini'],
@@ -648,7 +648,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Infant CPAP Kit Pediátrico (00, 0, 1, 2, 3, 4, 5)', slug: 'nascara-nasal-pediatrica-infant-cpap-kit-00-0-1-2-3-4-5', price: 'U$S 97', img: '/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jfif', badge: 'PEDIÁTRICO', note: 'Todas las tallas neonatales.', category: 'Máscara',
+        name: 'Infant CPAP Kit Pediátrico (00, 0, 1, 2, 3, 4, 5)', slug: 'nascara-nasal-pediatrica-infant-cpap-kit-00-0-1-2-3-4-5', price: 'U$S 97', img: '/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg', badge: 'PEDIÁTRICO', note: 'Todas las tallas neonatales.', category: 'Máscara',
         specs: [
             ['Tipo', 'Kit de máscaras nasales pediátricas'],
             ['Tallas incluidas', '00 / 0 / 1 / 2 / 3 / 4 / 5'],
@@ -657,7 +657,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasal BMC N5a sin Apoya Frente (SW/S/M)', slug: 'nascara-nasal-sin-apoya-frente-bmc-n5a-talles-swsm-', price: 'U$S 60', img: '/artifacts/products/7e6ce401-57fd-4b1c-81d6-2bebf2d3cd3d.jfif', badge: null, note: 'Mayor campo visual.', category: 'Máscara',
+        name: 'Máscara Nasal BMC N5a sin Apoya Frente (SW/S/M)', slug: 'nascara-nasal-sin-apoya-frente-bmc-n5a-talles-swsm-', price: 'U$S 60', img: '/artifacts/products/7e6ce401-57fd-4b1c-81d6-2bebf2d3cd3d.jpg', badge: null, note: 'Mayor campo visual.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Modelo', 'N5a'],
@@ -667,7 +667,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Buconasal BMC F5A sin Apoya Frente (S/M/L)', slug: 'buconasal-sin-apoya-frente-bmc-sml-f5a-cpapbpap', price: 'U$S 52', img: '/artifacts/products/a1504e31-1c48-4f61-b0d8-f7bb5bc03c78.jfif', badge: null, note: 'Nasobucal amplia visión.', category: 'Máscara',
+        name: 'Buconasal BMC F5A sin Apoya Frente (S/M/L)', slug: 'buconasal-sin-apoya-frente-bmc-sml-f5a-cpapbpap', price: 'U$S 52', img: '/artifacts/products/a1504e31-1c48-4f61-b0d8-f7bb5bc03c78.jpg', badge: null, note: 'Nasobucal amplia visión.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Modelo', 'F5A'],
@@ -677,7 +677,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasal AirFit Mínimo Contacto RESMED (SW/S/M)', slug: '-mascara-nasal-airfit-mimimo-contacto-talles-swsm-resmed', price: 'U$S 157', img: '/artifacts/products/d34cfe5d-2be4-4768-9901-57d4651d2380.jfif', badge: null, note: 'Máxima libertad facial.', category: 'Máscara',
+        name: 'Máscara Nasal AirFit Mínimo Contacto RESMED (SW/S/M)', slug: '-mascara-nasal-airfit-mimimo-contacto-talles-swsm-resmed', price: 'U$S 157', img: '/artifacts/products/d34cfe5d-2be4-4768-9901-57d4651d2380.jpg', badge: null, note: 'Máxima libertad facial.', category: 'Máscara',
         specs: [
             ['Fabricante', 'ResMed'],
             ['Modelo', 'AirFit (nasal mínimo contacto)'],
@@ -687,7 +687,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Nasobucal AirFit F30 RESMED CPAP/BiPAP', slug: 'mascarilla-nasobucal-airfit-f30-resmed-cpapbpap', price: 'U$S 212', img: '/artifacts/products/3b1f7377-109b-4572-a96c-9a2727df3d4f.jfif', badge: null, note: 'Apoya bajo la nariz.', category: 'Máscara',
+        name: 'Nasobucal AirFit F30 RESMED CPAP/BiPAP', slug: 'mascarilla-nasobucal-airfit-f30-resmed-cpapbpap', price: 'U$S 212', img: '/artifacts/products/3b1f7377-109b-4572-a96c-9a2727df3d4f.jpg', badge: null, note: 'Apoya bajo la nariz.', category: 'Máscara',
         specs: [
             ['Fabricante', 'ResMed'],
             ['Modelo', 'AirFit F30'],
@@ -716,7 +716,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasal Pillow YUWELL YP-01 (L/M)', slug: 'mascara-nasal-yuwell-pillow-l-o-m-yp-01-para-cpap-y-bipap', price: 'U$S 42', img: '/artifacts/products/1752270243027-43fec688-2e01-4f0b-9f5f-76e8fa11db9d.jfif', badge: 'ECONÓMICO', note: 'Almohadillas nasales directas.', category: 'Máscara',
+        name: 'Máscara Nasal Pillow YUWELL YP-01 (L/M)', slug: 'mascara-nasal-yuwell-pillow-l-o-m-yp-01-para-cpap-y-bipap', price: 'U$S 42', img: '/artifacts/products/1752270243027-43fec688-2e01-4f0b-9f5f-76e8fa11db9d.jpg', badge: 'ECONÓMICO', note: 'Almohadillas nasales directas.', category: 'Máscara',
         specs: [
             ['Fabricante', 'YUWELL'],
             ['Modelo', 'YP-01 Pillow'],
@@ -1102,7 +1102,7 @@ const guides = [
         title: 'CPAP',
         question: '¿Qué es un CPAP?',
         short: 'Equipo de presión positiva fija que mantiene las vías respiratorias abiertas durante el sueño.',
-        img: '/artifacts/products/1752160942319-bmcg2.2.jfif',
+        img: '/artifacts/products/1752160942319-bmcg2.2.jpg',
         long: [
             'El CPAP (Continuous Positive Airway Pressure) entrega aire a una presión constante a través de una máscara para evitar que la vía aérea se colapse mientras dormís.',
             'Es el tratamiento de primera línea para la apnea obstructiva del sueño (AOS) leve a moderada.',
@@ -1172,7 +1172,7 @@ const guides = [
         title: 'Poligrafía',
         question: '¿Qué es un estudio del sueño?',
         short: 'Estudio diagnóstico que se hace en casa para detectar apnea del sueño sin internación.',
-        img: '/artifacts/products/1752508033704-poligrafobmc.jfif',
+        img: '/artifacts/products/1752508033704-poligrafobmc.jpg',
         long: [
             'La poligrafía respiratoria mide flujo de aire nasal, oxígeno en sangre (SpO₂), ronquido, posición corporal y esfuerzo respiratorio durante una noche de sueño.',
             'Es la forma más práctica y económica de diagnosticar apnea obstructiva del sueño. Se entrega el polígrafo, dormís con él una noche en tu casa y se devuelve al día siguiente.',
@@ -1207,7 +1207,7 @@ const maskGuide = [
         title: 'Máscara Nasobucal',
         question: '¿Qué es una máscara nasobucal o full face?',
         short: 'Cubre nariz y boca a la vez, con un sellado más amplio. Es la indicada si abrís la boca al dormir.',
-        img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jfif',
+        img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg',
         long: [
             'La nasobucal (o full face) sella sobre la nariz y la boca al mismo tiempo, así que el aire sigue llegando aunque abras la boca mientras dormís.',
             'Se indica cuando hay congestión nasal frecuente, respiración bucal o presiones de tratamiento altas. También es la máscara habitual en los equipos BiPAP.',
@@ -1222,7 +1222,7 @@ const maskGuide = [
         title: 'Almohadillas Nasales',
         question: '¿Qué son las almohadillas nasales (pillow)?',
         short: 'No cubren la nariz: apoyan directamente en las fosas nasales. Es el contacto más chico con la cara.',
-        img: '/artifacts/products/1752270243027-43fec688-2e01-4f0b-9f5f-76e8fa11db9d.jfif',
+        img: '/artifacts/products/1752270243027-43fec688-2e01-4f0b-9f5f-76e8fa11db9d.jpg',
         long: [
             'En lugar de cubrir la nariz, dos almohadillas de silicona apoyan directamente en las fosas nasales. Es la interfaz de menor contacto facial que existe.',
             'Es la mejor opción para quienes se sienten encerrados con las otras máscaras, usan anteojos para leer en la cama, tienen barba o duermen boca abajo.',
@@ -1239,7 +1239,7 @@ const maskGuide = [
         short: 'Sí. La Philips Wisp, la de la jirafa, es la que más eligen los padres. Línea pediátrica completa con talles desde neonatal.',
         // La foto es la de la Wisp, no la de la Cirri Mini: es el modelo que
         // encabeza la categoría y el que la gente reconoce.
-        img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif',
+        img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg',
         long: [
             'Las máscaras pediátricas están diseñadas con medidas y materiales propios para bebés y chicos: no son máscaras de adulto en talle chico.',
             'Se usan en lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y otros cuadros neuromusculares.',

@@ -677,7 +677,7 @@ export const localPages = [
         metaTitle: 'Máscaras Pediátricas para CPAP y BiPAP | Philips Wisp, Cirri Mini e Infant Kit | INSER SALUD',
         metaTitleSalud: 'Máscaras Pediátricas para CPAP y BiPAP | Precios y Envío Nacional | INSER SALUD',
         description: 'Máscaras pediátricas para CPAP y BiPAP con precios a la vista: Philips Wisp (la de la jirafa) U$S 227, HSINER Cirri Mini U$S 105 e Infant CPAP Kit neonatal desde U$S 97. Talles desde neonatal, envío a todo el país. Te asesoramos según la edad y la indicación médica.',
-        heroImg: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif',
+        heroImg: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg',
         intro: 'La línea pediátrica es difícil de conseguir en Argentina. Nosotros tenemos las tres, con talles desde neonatal y precios publicados. Y algo que importa tanto como el precio: te ayudamos a elegir cuál y qué talle, porque en un chico una máscara incómoda muchas veces está detrás del abandono del tratamiento.',
         ctaSanti: 'Hola Santi, necesito una máscara pediátrica para CPAP/BiPAP. ¿Me ayudás a elegir el modelo y el talle según la edad?',
         sections: [
@@ -929,7 +929,7 @@ export const localPages = [
         metaTitle: 'Comprar Polígrafo Respiratorio | BMC YH-600B PRO | Estudios del Sueño | INSER SALUD',
         metaTitleSalud: 'Comprar Polígrafo Respiratorio para Estudios del Sueño | INSER SALUD',
         description: 'Venta del polígrafo respiratorio BMC YH-600B PRO para neumonólogos, clínicas del sueño y kinesiólogos: poligrafía domiciliaria de la apnea del sueño. U$S 1.570, aprobado por ANMAT, con envío a todo el país y capacitación. Consultá por WhatsApp.',
-        heroImg: '/artifacts/products/1752508033704-poligrafobmc.jfif',
+        heroImg: '/artifacts/products/1752508033704-poligrafobmc.jpg',
         intro: 'El polígrafo respiratorio permite estudiar la apnea del sueño en el domicilio del paciente, sin laboratorio. En INSER SALUD vendemos el BMC YH-600B PRO a profesionales de la salud (neumonólogos, clínicas del sueño, kinesiólogos y centros de diagnóstico) con envío a todo el país, capacitación de uso y soporte técnico.',
         ctaSanti: 'Hola Santi, soy profesional de la salud y me interesa comprar el polígrafo BMC YH-600B PRO. ¿Me pasás precio, qué incluye y disponibilidad?',
         sections: [

@@ -1401,7 +1401,7 @@ Consultanos disponibilidad y opciones de financiación.`,
                 priceUSD: 'U$S 227',
                 // La foto de la Wisp, no la de la DreamWear: esta es pediátrica
                 // y la DreamWear es de adulto. Es la misma que usa el catálogo.
-                img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jfif',
+                img: '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg',
                 badge: 'PEDIÁTRICO',
                 desc: 'Diseño adaptado para niños. Philips Wisp, la de la jirafa.',
             },

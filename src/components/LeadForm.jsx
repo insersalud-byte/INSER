@@ -28,7 +28,7 @@ const EQUIPOS = [
     { id: 'concentrador', label: 'Concentrador de oxígeno (para casa)', img: '/artifacts/products/concentrador_bmc_1.jpg', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
     { id: 'portatil', label: 'Concentrador de oxígeno portátil', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', destino: '/comprar-concentrador-oxigeno-portatil-argentina', destinoLabel: 'Ver los concentradores portátiles' },
     { id: 'mochila', label: 'Mochila / tubo de oxígeno', img: '/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
-    { id: 'cpap', label: 'CPAP', img: '/artifacts/products/1752160942319-bmcg2.2.jfif', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
+    { id: 'cpap', label: 'CPAP', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
     { id: 'autocpap', label: 'AutoCPAP', img: '/artifacts/products/fcd9a652-1366-4c5a-916d-e4321777fe9e.jpeg', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
     { id: 'bipap', label: 'BiPAP / VNI', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', destino: '/bipap-cordoba', destinoLabel: 'Ver cómo funciona el BiPAP' },
     { id: 'ventilador', label: 'Ventilador domiciliario', img: '/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg', destino: '/ventilador-stellar-150', destinoLabel: 'Ver el ventilador STELLAR 150' },
