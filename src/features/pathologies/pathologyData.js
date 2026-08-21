@@ -1104,7 +1104,7 @@ Precio referencia: U$S 9.084`,
 Máscaras pediátricas disponibles:
 
 👶 HSINER Cirri Mini — Máscara nasal pediátrica
-• Precio: U$S 144
+• Precio: U$S 105
 • Talles XS, S, M, L para niños desde recién nacidos
 • Diseño ergonómico adaptado al rostro pediátrico
 • Máxima comodidad para uso continuo

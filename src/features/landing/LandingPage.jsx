@@ -905,7 +905,7 @@ const ALL_TAG_INFO = {
         bullets: [
             { icon: '😌', text: 'Sin intubación: máscara nasal o nasobucal, mucho más confortable' },
             { icon: '🌙', text: 'Generalmente se usa durante el sueño o en reposo' },
-            { icon: '🏆', text: 'Equipos de referencia: BiPAP BMC G3, Stellar 150 ResMed, YUWELL BiPAP' },
+            { icon: '🏆', text: 'Equipos de referencia: BiPAP BMC G3 y ventilador STELLAR 150 ResMed' },
             { icon: '📈', text: 'Prolonga la vida y mejora la calidad de vida en ELA y AME' },
         ],
         waMsg: 'Hola, necesito asesoramiento sobre ventilación no invasiva para enfermedad neuromuscular.',

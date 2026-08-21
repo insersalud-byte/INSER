@@ -103,7 +103,7 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 | Concentrador KINGON P2-E6 portátil | U$S 2.695 | ~$4.096.400 | Flujo continuo, batería |
 | Concentrador KINGON P2-E portátil | U$S 2.379 | ~$3.616.080 | Entrada a portátiles de flujo continuo |
 | Concentrador Philips SimplyGo portátil | U$S 3.887 | ~$5.908.240 | Continuo + pulso, aprobado para vuelos, 4,3 kg |
-| Concentrador Yuwell estacionario | U$S 713 | ~$1.083.760 | 3 L/min, silencioso, para domicilio |
+| Concentrador Yuwell estacionario | U$S 713 | ~$1.083.760 | 0,5-5 L/min, silencioso, para domicilio |
 | Concentrador Yuwell 7F-5B 5 L (OFERTA PUNTUAL) | $1.170.000 (precio en pesos) | $1.170.000 | OTRO MODELO, no confundir con el Yuwell estacionario de arriba. 0,5-5 L/min continuo, humidificador incorporado. Oferta puntual SOLO de este equipo: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock |
 | Concentrador BMC estacionario | $999.000 (precio en pesos) | $999.000 | 5 L/min, control remoto y medidor de O₂, uso domiciliario continuo |
 | Máscara Nasal BMC N4 | U$S 36 | ~$54.720 | Liviana, gel suave |

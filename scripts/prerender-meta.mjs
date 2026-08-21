@@ -435,6 +435,11 @@ ${p.intro ? `<p>${inlineLinks(esc(p.intro))}</p>` : ''}
 ${p.description ? `<p>${esc(p.description)}</p>` : ''}
 ${secs}
 ${faqs}
+<section><h2>Revisión profesional</h2>
+<p>Contenido revisado por el <strong>Lic. Sergio Giorda</strong>, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.</p>
+<p>Última revisión: ${REVISION_CLINICA}.</p>
+<p>Esta información es orientativa y no reemplaza la consulta médica. El equipo y los parámetros de uso los indica tu médico tratante.</p>
+</section>
 <p>INSER SALUD — equipos y asesoramiento para ${esc(p.title)} en Córdoba. <a href="https://wa.me/5493512065320">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a>.</p>
 </main></div>`;
 }
