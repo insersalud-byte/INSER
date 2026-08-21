@@ -513,29 +513,6 @@ const tienda = [
             ['Garantía', '2 años'],
         ],
     },
-    {
-        name: 'CPAP YAMIND con Humidificador Activo', price: 'U$S 330', img: '/artifacts/cpap_bmc_g2s.jpg', badge: 'ECONÓMICO', note: 'El CPAP más accesible del catálogo.', category: 'CPAP',
-        specs: [
-            ['Fabricante', 'YAMIND'],
-            ['Tipo', 'CPAP fijo con humidificador'],
-            ['Rango de presión', '4 – 20 cm H₂O'],
-            ['Humidificador', 'Activo calefactado'],
-            ['Peso', 'Liviano para viajes'],
-            ['Garantía', '1 año'],
-        ],
-    },
-    {
-        name: 'BIPAP YUWELL con Frecuencia Respiratoria y Humidificador', price: 'U$S 1.014', img: '/artifacts/bipap_bmc_g3.jpg', badge: null, note: 'Alternativa accesible al BMC G3.', category: 'BiPAP',
-        specs: [
-            ['Fabricante', 'YUWELL'],
-            ['Tipo', 'BiPAP S/T con FR de respaldo'],
-            ['Modos', 'CPAP · S · T · S/T'],
-            ['Rango IPAP', '4 – 25 cm H₂O'],
-            ['Rango EPAP', '4 – 20 cm H₂O'],
-            ['Humidificador', 'Calefactado integrado'],
-            ['Garantía', '2 años'],
-        ],
-    },
     // Diagnóstico
     {
         name: 'POLÍGRAFO BMC YH-600B PRO (Estudio del Sueño)', slug: 'poligrafo-bmc-yh-600b-pro-', price: 'U$S 1.570', img: '/artifacts/products/1752508033704-poligrafobmc.jpg', badge: 'DIAGNÓSTICO', note: 'Poligrafía domiciliaria profesional. Opción con 30 cánulas Luer Lock: U$S 1.794.', category: 'Diagnóstico',
@@ -1109,7 +1086,7 @@ const guides = [
             'Se recomienda usarlo todas las noches durante al menos 4-6 horas para obtener sus beneficios: mejor descanso, menos somnolencia diurna y reducción del riesgo cardiovascular.',
         ],
         color: '#1e40af',
-        priceFrom: 'Desde $495.000 · U$S 330',
+        priceFrom: 'Desde $499.000 · CPAP BMC G2S',
     },
     {
         icon: Activity,

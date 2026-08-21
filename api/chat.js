@@ -98,8 +98,6 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 | STELLAR 150 ResMed | U$S 7.342 | ~$11.159.840 | Ventilador invasivo/no invasivo, EPOC severo, UCI domiciliaria |
 | AUTOCPAP BMC G2s M1 Mini + almohadillas | U$S 1.400 | ~$2.128.000 | El más compacto, almohadillas incluidas, humidificador p2H |
 | CPAP Yuwell YH-360 | U$S 416 | ~$632.320 | CPAP con humidificador, silencioso |
-| CPAP Yamind | U$S 330 | ~$501.600 | CPAP económico con humidificador activo |
-| BiPAP Yuwell con FR | U$S 1.014 | ~$1.541.280 | BiPAP S/T con frecuencia respiratoria de respaldo, humidificador |
 | Concentrador KINGON P2-S3 portátil | U$S 1.880 | ~$2.735.400 | Flujo pulso, liviano, batería larga |
 | Concentrador KINGON P2-TOC portátil | U$S 3.458 | ~$5.256.160 | Flujo continuo + pulso, alta concentración |
 | Concentrador KINGON P2-E7 portátil | U$S 3.099 | ~$4.710.480 | Alto flujo continuo, batería extendida |

@@ -339,7 +339,6 @@ export const localPages = [
         ],
         products: [
             { name: 'BiPAP BMC G3 con frecuencia respiratoria y humidificador', price: '$1.300.000' },
-            { name: 'BiPAP Yuwell con FR y humidificador', price: 'consultar' },
             { name: 'Ventilador STELLAR 150 ResMed (alta gama)', price: 'consultar' },
         ],
         faq: [

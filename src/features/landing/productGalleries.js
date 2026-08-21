@@ -36,9 +36,6 @@ export const productGalleries = {
     "/artifacts/products/d7d319c2-95ba-4615-be8e-7dc834f0cb12.jpg",
     "/artifacts/products/61d03a00-f82b-4f8d-9761-9324e632a1b0.jpg",
   ],
-  "concentrador-de-oxigeno-estacionario": [
-    "/artifacts/products/1752272456759-ae9c1d51-2e03-4ecb-9271-03f82ddcadf5.jpg",
-  ],
   "concentrador-de-oxigeno-estacionario1": [
     "/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg",
     "/artifacts/products/2a8114b7-8c86-49d7-ab6b-6e15a9c48fad.jpeg",
@@ -85,20 +82,10 @@ export const productGalleries = {
     "/artifacts/products/1752160942319-bmcg2.2.jpg",
     "/artifacts/products/1752160942320-bmcg2.jpg",
   ],
-  "cpap-bmc-g2s1": [
-    "/artifacts/products/1752161508314-bmcg2.2.jpg",
-    "/artifacts/products/1752161508313-bmcauto.jpg",
-    "/artifacts/products/1752161508314-bmcg2.jpg",
-  ],
   "cpap-philips-dreamstation-con-humidificador-y-conectividad-": [
     "/artifacts/products/64719ec9-c027-4d35-8280-ffa4ac3d291e.jpg",
     "/artifacts/products/b65f2a23-b2dc-47b2-8d63-fce4acb39d24.jpg",
     "/artifacts/products/b9e94ded-dd5a-4371-b4a7-45717f0a677c.jpg",
-  ],
-  "cpap-resmed-airsense-10-con-humidificador-y-conectividad": [
-    "/artifacts/products/dc0862cf-0153-49d6-bd89-d570ceaa36a9.jpg",
-    "/artifacts/products/1ab16582-68c8-453c-998a-f3aae4eb0ba7.jpg",
-    "/artifacts/products/c6824317-98b6-494e-9bbe-2987b0fe2fd7.jpg",
   ],
   "cpap-yuwell-yh-360-con-humidificador": [
     "/artifacts/products/1752269565561-269d4b6c-772c-4dcb-b8f1-0bcc3244be73.jpg",
@@ -108,11 +95,6 @@ export const productGalleries = {
     "/artifacts/products/08ff650a-7c35-466c-ab0c-216c15999d3f.jpg",
     "/artifacts/products/6274e898-137c-48f6-a354-4a52704ab235.jpg",
     "/artifacts/products/3fdc4b7d-b1be-4b64-8f4c-dcc38fac9f6d.jpg",
-  ],
-  "mascara-nasal-bmc-multitalle-para-cpap-y-bipap": [
-    "/artifacts/products/1752271357751-2ef748a6-b33f-49c3-8995-b61e60435185.jpg",
-    "/artifacts/products/1752271365875-22722f04-6917-404f-8ac2-cc113ec5c474.jpg",
-    "/artifacts/products/1752271376852-aebb48d6-c7f1-4c86-989c-f603caf88de51.jpg",
   ],
   "mascara-nasal-para-cpap-y-bipap": [
     "/artifacts/products/1751037583753-1000306949.jpg",
@@ -127,12 +109,6 @@ export const productGalleries = {
     "/artifacts/products/1751037116992-1000306910.jpg",
     "/artifacts/products/1751037116992-1000306912.jpg",
     "/artifacts/products/1751037116992-1000306914.jpg",
-  ],
-  "mascarilla-nasobucal-airfit-f20-resmed-cpapbpap": [
-    "/artifacts/products/f6d02efd-1251-4788-93ad-8b008846becb.jpg",
-    "/artifacts/products/2bf43b5b-f728-4684-807c-6282dc129600.jpg",
-    "/artifacts/products/35f3b1ac-bcdb-42e4-9cf8-c9c6072be10f.jpg",
-    "/artifacts/products/cbbfc01f-3b58-4eda-b360-654744887681.jpg",
   ],
   "mascarilla-nasobucal-airfit-f30-resmed-cpapbpap": [
     "/artifacts/products/3b1f7377-109b-4572-a96c-9a2727df3d4f.jpg",

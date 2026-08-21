@@ -44,11 +44,9 @@ CPAP y AutoCPAP:
 - CPAP ResMed AirSense 10 con conectividad (oferta, equipo completo: humidificador, tubuladura, fuente, tarjeta SD y bolso) — $799.000
 - AutoCPAP ResMed AirSense 10 con conectividad — U$S 907
 - CPAP Yuwell YH-360 con humidificador — U$S 416
-- CPAP Yamind con humidificador activo (el CPAP más económico) — U$S 330
 
 BiPAP y ventilación:
 - BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000 / U$S 907
-- BIPAP Yuwell con FR y humidificador — U$S 1.014
 - Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342
 - Cough Assist (asistente de tos) — U$S 9.084
 
