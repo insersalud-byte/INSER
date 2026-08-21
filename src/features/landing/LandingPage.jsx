@@ -707,7 +707,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasal BMC Multitalle CPAP/BiPAP', price: 'U$S 89,50', img: '/artifacts/mascara_bmc_n4.jpg', badge: null, note: 'Se adapta a distintas morfologías.', category: 'Máscara',
+        name: 'Máscara Nasal BMC Multitalle CPAP/BiPAP', price: 'U$S 89,50', img: '/artifacts/products/1752271357751-2ef748a6-b33f-49c3-8995-b61e60435185.jpg', images: ['/artifacts/products/1752271357751-2ef748a6-b33f-49c3-8995-b61e60435185.jpg', '/artifacts/products/1752271365875-22722f04-6917-404f-8ac2-cc113ec5c474.jpg', '/artifacts/products/1752271376852-aebb48d6-c7f1-4c86-989c-f603caf88de51.jpg'], badge: null, note: 'Se adapta a distintas morfologías.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Nasal multitalle'],
