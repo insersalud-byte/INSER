@@ -9,6 +9,11 @@
   ],
   "redirects": [
     {
+      "source": "/artifacts/:path*.jfif",
+      "destination": "/artifacts/:path*.jpg",
+      "permanent": true
+    },
+    {
       "source": "/cpap-resmed-airsense-10",
       "destination": "/comprar-cpap-argentina",
       "permanent": true
