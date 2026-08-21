@@ -185,6 +185,10 @@ function removeLdBlock(html, typeName) {
 }
 
 // JSON-LD MedicalWebPage + MedicalCondition + BreadcrumbList por patologia
+// Fecha de ultima revision clinica del contenido de patologias.
+// Actualizar cuando un profesional matriculado vuelva a revisar los textos.
+const REVISION_CLINICA = '2026-08-21';
+
 function buildPathologySchema(p, base) {
     const cfg = PATH_SCHEMA[p.slug] || { alt: [], tx: ['CPAP', 'BiPAP', 'Oxigenoterapia'], spec: 'PulmonaryMedicine' };
     const url = `${base}/patologia/${p.slug}`;
@@ -201,6 +205,11 @@ function buildPathologySchema(p, base) {
                 isPartOf: { '@id': 'https://insersalud.com/#website' },
                 about: { '@id': `${url}#condition` },
                 publisher: { '@id': 'https://insersalud.com/#organization' },
+                // E-E-A-T: la salud es YMYL y Google pide autor identificable.
+                // El Person con la matricula 2123 vive en index.html (#sergiogiorda).
+                author: { '@id': 'https://insersalud.com/#sergiogiorda' },
+                reviewedBy: { '@id': 'https://insersalud.com/#sergiogiorda' },
+                lastReviewed: REVISION_CLINICA,
             },
             {
                 '@type': 'MedicalCondition',
