@@ -133,7 +133,7 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 **Tipo de cambio de referencia: $1.520 ARS por dólar**
 
 Cuando el cliente pregunta el precio en pesos de un equipo en USD:
-- Multiplicar el precio USD × 1.500
+- Multiplicar el precio USD × 1.520
 - Aclarar: "Es un valor de referencia. Para confirmar el precio exacto al día de hoy, escribinos por WhatsApp 👉 +54 9 351 206-5320"
 - Ejemplo: U$S 758 × $1.520 = $1.152.160 aprox.
 
