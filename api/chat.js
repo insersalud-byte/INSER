@@ -64,7 +64,7 @@ Saludar SIEMPRE con un "Hola" cordial y respetuoso (ej: "¡Hola! 😊 Soy Santi,
 |---|---|---|
 | CPAP BMC G2S | $499.000 | CPAP fijo, humidificador calefactado incluido, LCD táctil, <30dB, tarjeta SD, 2 años garantía ANMAT |
 | CPAP ResMed AirSense 10 (equipo completo) | $799.000 | OFERTA: el estándar de oro en apnea. Incluye humidificador HumidAir, tubuladura, fuente, tarjeta SD y bolso. App myAir, 26 dB |
-| AutoCPAP BMC G2S | $600.000 | Presión automática, humidificador, equipo completo con bolso |
+| AutoCPAP BMC G2S | $630.000 | Presión automática, humidificador, equipo completo con bolso |
 | BiPAP BMC G3 | $1.300.000 | BiPAP S/T con FR de respaldo, humidificador incluido, IPAP 4-25 cmH₂O, EPAP 4-20 cmH₂O, ideal ELA/EPOC severo |
 | Máscara Nasal DreamWear Philips | $223.000 | Contacto mínimo, tubo superior, compatible CPAP/BiPAP, varias tallas |
 | Máscara Nasobucal DreamWear Philips | $229.000 | Buconasal, contacto mínimo, tubo superior, compatible CPAP/BiPAP |
@@ -154,7 +154,7 @@ Ejemplo de respuesta correcta ante "¿Tienen el ResMed AirSense 10?":
 "¡Sí, lo tenemos! 🎉 El CPAP ResMed AirSense 10 está en OFERTA en INSER SALUD.
 💰 Precio: $799.000 (equipo completo: humidificador HumidAir, tubuladura, fuente, tarjeta SD y bolso)
 ✨ Características: CPAP de presión fija, el estándar de oro en apnea del sueño, app myAir para seguimiento, muy silencioso (26 dB), aprobado por ANMAT.
-💡 También existe la versión AUTOCPAP AirSense 10 con conectividad WiFi+4G a U$S 907 (aprox. $1.378.640), y como opción más económica el AutoCPAP BMC G2S a $600.000.
+💡 También existe la versión AUTOCPAP AirSense 10 con conectividad WiFi+4G a U$S 907 (aprox. $1.378.640), y como opción más económica el AutoCPAP BMC G2S a $630.000.
 🔄 Y si preferís, este equipo también lo tenemos en alquiler.
 Para confirmar disponibilidad, escribinos por WhatsApp 👉 +54 9 351 206-5320"
 

@@ -266,7 +266,7 @@ const tienda = [
         ],
     },
     {
-        name: 'AUTOCPAP BMC G2S con Humidificador', slug: 'autocpap-bmc-g2s', price: '$600.000', img: '/artifacts/products/autocpap_bmc_g2_2.jpg', images: ['/artifacts/products/autocpap_bmc_g2_2.jpg', '/artifacts/products/autocpap_bmc_g2_1.jpg', '/artifacts/products/autocpap_bmc_g2_3.jpg'], badge: 'NUEVO', note: 'Presión automática. Equipo completo con bolso.', category: 'CPAP',
+        name: 'AUTOCPAP BMC G2S con Humidificador', slug: 'autocpap-bmc-g2s', price: '$630.000', img: '/artifacts/products/autocpap_bmc_g2_2.jpg', images: ['/artifacts/products/autocpap_bmc_g2_2.jpg', '/artifacts/products/autocpap_bmc_g2_1.jpg', '/artifacts/products/autocpap_bmc_g2_3.jpg'], badge: 'NUEVO', note: 'Presión automática. Equipo completo con bolso.', category: 'CPAP',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'AutoCPAP (presión automática)'],
@@ -1100,7 +1100,7 @@ const guides = [
             'La diferencia clave con el CPAP fijo: el CPAP da una sola presión toda la noche; el AutoCPAP la sube o baja según lo necesites.',
         ],
         color: '#0ea5e9',
-        priceFrom: 'Desde $600.000',
+        priceFrom: 'Desde $630.000',
     },
     {
         icon: Layers,
@@ -1250,7 +1250,7 @@ const comparativeRows = [
     ['Indicación principal', 'Apnea obstructiva leve a moderada', 'Apnea con presiones variables (por postura, etapas del sueño)', 'EPOC, ENM, apnea compleja, hipoventilación'],
     ['Confort', 'Estándar', 'Mayor (se adapta al paciente)', 'Muy alto al exhalar'],
     ['Costo', 'Más económico', 'Medio', 'Más elevado'],
-    ['Desde', '$499.000', '$600.000', '$1.300.000'],
+    ['Desde', '$499.000', '$630.000', '$1.300.000'],
 ];
 
 // ── Helper ─────────────────────────────────────────────────────────────────

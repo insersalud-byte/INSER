@@ -63,7 +63,7 @@ Cuando el cliente saluda por primera vez (hola, buenos días, etc.), responder S
 |---|---|---|
 | CPAP BMC G2S | $499.000 | CPAP fijo, humidificador calefactado incluido, LCD táctil, <30dB, tarjeta SD, 2 años garantía ANMAT |
 | CPAP ResMed AirSense 10 (equipo completo) | $799.000 | OFERTA: el estándar de oro en apnea. Incluye humidificador HumidAir, tubuladura, fuente, tarjeta SD y bolso. App myAir, 26 dB |
-| AutoCPAP BMC G2S | $600.000 | Presión automática, humidificador, equipo completo con bolso |
+| AutoCPAP BMC G2S | $630.000 | Presión automática, humidificador, equipo completo con bolso |
 | BiPAP BMC G3 | $1.300.000 | BiPAP S/T con FR de respaldo, humidificador incluido, IPAP 4-25 cmH₂O, EPAP 4-20 cmH₂O, ideal ELA/EPOC severo |
 | Máscara Nasal DreamWear Philips | $223.000 | Contacto mínimo, tubo superior, compatible CPAP/BiPAP, varias tallas |
 | Máscara Nasobucal DreamWear Philips | $229.000 | Buconasal, contacto mínimo, tubo superior, compatible CPAP/BiPAP |

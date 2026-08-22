@@ -30,14 +30,14 @@ INSER SALUD es una empresa cordobesa especializada en aparatología de terapia r
 ## CPAP vs AutoCPAP vs BiPAP
 
 - **CPAP**: presión fija. Para apnea del sueño estándar. El más económico (desde $499.000).
-- **AutoCPAP**: presión automática. Para apnea cuando se busca más confort o la presión necesaria varía. Desde $600.000.
+- **AutoCPAP**: presión automática. Para apnea cuando se busca más confort o la presión necesaria varía. Desde $630.000.
 - **BiPAP**: dos presiones (inhalación/exhalación). Para EPOC, enfermedades neuromusculares e hipoventilación, o apnea compleja que no responde al CPAP. Desde $1.300.000.
 
 ## Productos (precios de referencia)
 
 CPAP y AutoCPAP:
 - CPAP BMC G2S con humidificador — $499.000 (el más vendido, CPAP fijo)
-- AutoCPAP BMC G2S con humidificador — $600.000 (presión automática, más confort)
+- AutoCPAP BMC G2S con humidificador — $630.000 (presión automática, más confort)
 - AutoCPAP BMC G2S Mini con almohadillas nasales — U$S 1.400
 - CPAP Philips DreamStation con humidificador — U$S 579
 - AutoCPAP Philips DreamStation con humidificador — U$S 758
@@ -137,7 +137,7 @@ Accesorios:
 En INSER SALUD, aparatología aprobada por ANMAT. CPAP BMC G2S desde $499.000. WhatsApp: +54 9 351 206-5320. Web: https://insersalud.com
 
 **¿Cuánto cuesta un CPAP en Córdoba?**
-Desde $499.000 (CPAP fijo BMC G2S con humidificador). También tenemos en oferta el CPAP ResMed AirSense 10 (equipo completo) a $799.000. El AutoCPAP está disponible desde $600.000.
+Desde $499.000 (CPAP fijo BMC G2S con humidificador). También tenemos en oferta el CPAP ResMed AirSense 10 (equipo completo) a $799.000. El AutoCPAP está disponible desde $630.000.
 
 **¿Cuánto cuesta un concentrador de oxígeno?**
 Concentrador estacionario BMC desde $999.000. Concentradores portátiles desde U$S 1.880 (KINGON P2-S3).

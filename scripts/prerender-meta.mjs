@@ -39,7 +39,7 @@ const INSER_HOME = {
 // Catalogo curado (mismo dato que llms.txt) para el contenido estatico del home
 const PRODUCTS = [
     ['CPAP BMC G2S con humidificador', '$499.000', 'CPAP fijo, el más vendido'],
-    ['AutoCPAP BMC G2S con humidificador', '$600.000', 'presión automática, equipo completo con bolso'],
+    ['AutoCPAP BMC G2S con humidificador', '$630.000', 'presión automática, equipo completo con bolso'],
     ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, con almohadillas nasales'],
     ['CPAP Philips DreamStation', 'U$S 579', 'CPAP fijo con humidificador y conectividad'],
     ['AutoCPAP Philips DreamStation', 'U$S 758', 'con humidificador y conectividad'],
@@ -343,7 +343,7 @@ ${MASK_GUIDE.map(([tipo, queEs, paraQuien, ojo, modelos]) => `<h3>Máscara ${esc
 <thead><tr><th>Equipo</th><th>Cómo funciona</th><th>Para qué</th><th>Desde</th></tr></thead>
 <tbody>
 <tr><td>CPAP</td><td>Presión fija continua</td><td>Apnea del sueño estándar</td><td>$499.000</td></tr>
-<tr><td>AutoCPAP</td><td>Presión automática</td><td>Apnea, mayor confort</td><td>$600.000</td></tr>
+<tr><td>AutoCPAP</td><td>Presión automática</td><td>Apnea, mayor confort</td><td>$630.000</td></tr>
 <tr><td>BiPAP</td><td>Dos presiones (inhala/exhala)</td><td>EPOC, neuromusculares, apnea compleja</td><td>$1.300.000</td></tr>
 </tbody>
 </table>`;

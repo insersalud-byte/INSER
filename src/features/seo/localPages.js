@@ -204,7 +204,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Precios de CPAP en Córdoba (referencia)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $600.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro en apnea del sueño).\nBiPAP BMC G3 con frecuencia respiratoria: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro en apnea del sueño).\nBiPAP BMC G3 con frecuencia respiratoria: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
             },
             {
                 title: 'CPAP, AutoCPAP o BiPAP: ¿cuál te conviene?',
@@ -237,7 +237,7 @@ export const localPages = [
         ],
         products: [
             { name: 'CPAP BMC G2S con humidificador', price: '$499.000' },
-            { name: 'AutoCPAP BMC G2S con humidificador', price: '$600.000' },
+            { name: 'AutoCPAP BMC G2S con humidificador', price: '$630.000' },
             { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$799.000' },
             { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: '$1.300.000' },
         ],
@@ -292,7 +292,7 @@ export const localPages = [
             },
             {
                 title: 'Si el estudio da apnea: probá el equipo antes de comprarlo',
-                content: 'Si el informe confirma apnea, el tratamiento estándar es el CPAP o el AutoCPAP. En Córdoba podés [alquilar el equipo](/alquiler-cpap-cordoba) con entrega e instalación a domicilio y empezar el tratamiento sin la inversión completa de entrada.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nPrecios de referencia para comprar: CPAP BMC G2S con humidificador $499.000, AutoCPAP BMC G2S con humidificador $600.000 y CPAP ResMed AirSense 10 $799.000. Aparatología aprobada por ANMAT, con 2 años de garantía oficial. Los precios se actualizan: confirmá el valor del día por WhatsApp.\n\nEl orden importa: primero el estudio y la indicación médica, después el equipo. La presión con la que se configura sale de ahí. Podés ver todas las opciones en [comprar CPAP en Córdoba](/comprar-cpap-cordoba).',
+                content: 'Si el informe confirma apnea, el tratamiento estándar es el CPAP o el AutoCPAP. En Córdoba podés [alquilar el equipo](/alquiler-cpap-cordoba) con entrega e instalación a domicilio y empezar el tratamiento sin la inversión completa de entrada.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nPrecios de referencia para comprar: CPAP BMC G2S con humidificador $499.000, AutoCPAP BMC G2S con humidificador $630.000 y CPAP ResMed AirSense 10 $799.000. Aparatología aprobada por ANMAT, con 2 años de garantía oficial. Los precios se actualizan: confirmá el valor del día por WhatsApp.\n\nEl orden importa: primero el estudio y la indicación médica, después el equipo. La presión con la que se configura sale de ahí. Podés ver todas las opciones en [comprar CPAP en Córdoba](/comprar-cpap-cordoba).',
             },
         ],
         products: [
@@ -464,14 +464,14 @@ export const localPages = [
         h1: 'Comprar CPAP en Argentina: envío a todo el país',
         metaTitle: 'Comprar CPAP en Argentina: precios desde $499.000 | INSER',
         metaTitleSalud: 'Comprar CPAP en Argentina: precios desde $499.000 | INSER',
-        description: 'CPAP BMC G2S $499.000, AutoCPAP $600.000 y ResMed AirSense 10 $799.000. Precios publicados, ANMAT, garantía y envío a todo el país. Cuotas Banco Galicia.',
+        description: 'CPAP BMC G2S $499.000, AutoCPAP $630.000 y ResMed AirSense 10 $799.000. Precios publicados, ANMAT, garantía y envío a todo el país. Cuotas Banco Galicia.',
         heroImg: '/artifacts/products/resmed_airsense10_3.jpg',
         intro: 'En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Salta o donde sea, te enviamos tu equipo aprobado por ANMAT, con garantía, configuración y asesoramiento para que lo uses bien desde el primer día.',
         ctaSanti: 'Hola Santi, quiero comprar un CPAP y me lo envíen a mi provincia. ¿Cómo es el envío y qué modelos tienen?',
         sections: [
             {
                 title: 'Equipos y precios (envío a todo el país)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S: $600.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro).\nBiPAP BMC G3: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro).\nBiPAP BMC G3: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
             },
             {
                 title: 'Cómo comprar y recibir tu equipo',
@@ -496,12 +496,12 @@ export const localPages = [
         ],
         products: [
             { name: 'CPAP BMC G2S con humidificador', price: '$499.000' },
-            { name: 'AutoCPAP BMC G2S con humidificador', price: '$600.000' },
+            { name: 'AutoCPAP BMC G2S con humidificador', price: '$630.000' },
             { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$799.000' },
         ],
         faq: [
             { q: '¿Envían CPAP a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina (Buenos Aires, Rosario, Salta, etc.). Coordinamos el envío por WhatsApp.' },
-            { q: '¿Cuánto cuesta un CPAP?', a: 'Desde $499.000 (CPAP BMC G2S). El AutoCPAP BMC está a $600.000 y el ResMed AirSense 10 a $799.000. Confirmá el precio del día por WhatsApp.' },
+            { q: '¿Cuánto cuesta un CPAP?', a: 'Desde $499.000 (CPAP BMC G2S). El AutoCPAP BMC está a $630.000 y el ResMed AirSense 10 a $799.000. Confirmá el precio del día por WhatsApp.' },
             { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
             { q: '¿Me ayudan a configurarlo si estoy en otra provincia?', a: 'Sí, te enviamos el equipo configurado y te guiamos a distancia en la puesta en marcha y la adaptación.' },
         ],
