@@ -382,7 +382,7 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <ul>
 ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`).join('\n')}
 </ul>
-<p><a href="/politica-de-privacidad">Política de privacidad</a></p>`;
+<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/tarjeta">Tarjeta digital de contacto</a></p>`;
 
     const proceso = `
 <h2>Cómo trabajamos</h2>
