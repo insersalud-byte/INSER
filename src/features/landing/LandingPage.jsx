@@ -87,7 +87,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador', slug: 'bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador', price: '$1.300.000 · U$S 907', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', badge: 'OFERTA', note: 'Con FR de respaldo. Ideal ENM.', category: 'BiPAP',
+        name: 'BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador', slug: 'bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador', price: 'U$S 907', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', badge: 'OFERTA', note: 'Con FR de respaldo. Ideal ENM.', category: 'BiPAP',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'BiPAP S/T con frecuencia respiratoria de respaldo'],
@@ -102,7 +102,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: '$2.735.400 · U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico.', category: 'Concentrador',
+        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: 'U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'KINGON (China, ANMAT)'],
             ['Tipo', 'Concentrador portátil a pulso'],
@@ -147,7 +147,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: '$5.451.885 · U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
+        name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: 'U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'GCE Healthcare (Europa)'],
             ['Tipo', 'Concentrador portátil a pulso'],
@@ -161,7 +161,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Mascarilla Nasal DreamWear — Mínimo Contacto', slug: 'mascarilla-nasal-cpap', price: '$223.000 · U$S 153', img: '/artifacts/products/1751037116992-1000306910.jpg', badge: 'OFERTA', note: 'CPAP/BiPAP.', category: 'Máscara',
+        name: 'Mascarilla Nasal DreamWear — Mínimo Contacto', slug: 'mascarilla-nasal-cpap', price: 'U$S 153', img: '/artifacts/products/1751037116992-1000306910.jpg', badge: 'OFERTA', note: 'CPAP/BiPAP.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Tipo', 'Máscara nasal de mínimo contacto'],
@@ -174,7 +174,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Máscara Nasal RESCOMF CPAP/BIPAP', slug: 'mascara-nasal-para-cpap-y-bipap', price: '$50.000 · U$S 35', img: '/artifacts/products/1751037583753-1000306949.jpg', badge: 'OFERTA', note: 'La más económica de nuestro catálogo.', category: 'Máscara',
+        name: 'Máscara Nasal RESCOMF CPAP/BIPAP', slug: 'mascara-nasal-para-cpap-y-bipap', price: 'U$S 35', img: '/artifacts/products/1751037583753-1000306949.jpg', badge: 'OFERTA', note: 'La más económica de nuestro catálogo.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Rescomf'],
             ['Tipo', 'Máscara nasal con apoya frente'],
@@ -187,7 +187,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: '$229.000 · U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
+        name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: 'U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Tipo', 'Máscara nasobucal (full face) de mínimo contacto'],
@@ -200,7 +200,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'Máscara Nasobucal BMC F6 Multitalle', slug: 'mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-', price: '$198.000 · U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'OFERTA', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
+        name: 'Máscara Nasobucal BMC F6 Multitalle', slug: 'mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-', price: 'U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'OFERTA', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Nasobucal (full face) con apoya frente'],
@@ -317,7 +317,7 @@ const tienda = [
     },
     // ── BiPAP / Ventiladores ─────────────────────────────────────────────────
     {
-        name: 'BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador', slug: 'bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador', price: '$1.300.000 · U$S 907', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', badge: 'OFERTA', note: 'Con FR de respaldo. Ideal ENM.', category: 'BiPAP',
+        name: 'BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador', slug: 'bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador', price: 'U$S 907', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', badge: 'OFERTA', note: 'Con FR de respaldo. Ideal ENM.', category: 'BiPAP',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'BiPAP S/T con frecuencia de respaldo'],
@@ -361,7 +361,7 @@ const tienda = [
     },
     // ── Concentradores Portátiles ────────────────────────────────────────────
     {
-        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: '$2.735.400 · U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico.', category: 'Concentrador',
+        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: 'U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'KINGON'],
             ['Tipo', 'Concentrador portátil a pulso'],
@@ -386,7 +386,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: '$5.451.885 · U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
+        name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: 'U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'GCE Healthcare'],
             ['Tipo', 'Portátil a pulso premium'],
@@ -428,7 +428,7 @@ const tienda = [
     },
     // ── Máscaras Nasales ─────────────────────────────────────────────────────
     {
-        name: 'Mascarilla Nasal DreamWear — Mínimo Contacto', slug: 'mascarilla-nasal-cpap', price: '$223.000 · U$S 153', img: '/artifacts/products/1751037116992-1000306910.jpg', badge: 'OFERTA', note: 'CPAP/BiPAP.', category: 'Máscara',
+        name: 'Mascarilla Nasal DreamWear — Mínimo Contacto', slug: 'mascarilla-nasal-cpap', price: 'U$S 153', img: '/artifacts/products/1751037116992-1000306910.jpg', badge: 'OFERTA', note: 'CPAP/BiPAP.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Tipo', 'Nasal de mínimo contacto'],
@@ -448,7 +448,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasal RESCOMF CPAP/BIPAP', slug: 'mascara-nasal-para-cpap-y-bipap', price: '$50.000 · U$S 35', img: '/artifacts/products/1751037583753-1000306949.jpg', badge: 'OFERTA', note: 'La más económica de nuestro catálogo.', category: 'Máscara',
+        name: 'Máscara Nasal RESCOMF CPAP/BIPAP', slug: 'mascara-nasal-para-cpap-y-bipap', price: 'U$S 35', img: '/artifacts/products/1751037583753-1000306949.jpg', badge: 'OFERTA', note: 'La más económica de nuestro catálogo.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Rescomf'],
             ['Tipo', 'Nasal con apoya frente'],
@@ -460,7 +460,7 @@ const tienda = [
 
     // ── Máscaras Nasobucales ─────────────────────────────────────────────────
     {
-        name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: '$229.000 · U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
+        name: 'Mascarilla Nasobucal DreamWear Philips CPAP', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', price: 'U$S 157', img: '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg', badge: 'OFERTA', note: 'Mínimo contacto.', category: 'Máscara',
         specs: [
             ['Fabricante', 'Philips Respironics'],
             ['Tipo', 'Nasobucal de mínimo contacto'],
@@ -470,7 +470,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Máscara Nasobucal BMC F6 Multitalle', slug: 'mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-', price: '$198.000 · U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'OFERTA', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
+        name: 'Máscara Nasobucal BMC F6 Multitalle', slug: 'mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-', price: 'U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'OFERTA', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Nasobucal (full face) con apoya frente'],
@@ -1114,7 +1114,7 @@ const guides = [
             'Los equipos S/T agregan una frecuencia de respaldo: si dejás de respirar, el equipo te da un ciclo automáticamente.',
         ],
         color: '#6366f1',
-        priceFrom: 'Desde $1.300.000 · U$S 907',
+        priceFrom: 'Desde U$S 907',
     },
     {
         icon: Droplet,
@@ -1174,10 +1174,10 @@ const maskGuide = [
             'La máscara nasal apoya únicamente sobre la nariz. Al tener menos volumen sobre la cara, genera menos sensación de encierro y deja más libertad para moverse en la cama.',
             'Es la primera opción para quienes respiran por la nariz durante el sueño, y la que mejor resultado da en la mayoría de los tratamientos con CPAP.',
             'A tener en cuenta: si dormís con la boca abierta, el aire se escapa y perdés presión. En ese caso conviene pasar a una nasobucal o sumar una mentonera.',
-            'Modelos: RESCOMF $50.000 · BMC N4 con apoya frente U$S 36 · BMC N5a sin apoya frente U$S 60 · AirFit mínimo contacto ResMed U$S 157 · DreamWear Philips $223.000.',
+            'Modelos: RESCOMF U$S 35 · BMC N4 con apoya frente U$S 36 · BMC N5a sin apoya frente U$S 60 · AirFit mínimo contacto ResMed U$S 157 · DreamWear Philips U$S 153.',
         ],
         color: '#0ea5e9',
-        priceFrom: 'Desde $50.000 · 5 modelos disponibles',
+        priceFrom: 'Desde U$S 35 · 5 modelos disponibles',
     },
     {
         icon: Shield,
@@ -1189,7 +1189,7 @@ const maskGuide = [
             'La nasobucal (o full face) sella sobre la nariz y la boca al mismo tiempo, así que el aire sigue llegando aunque abras la boca mientras dormís.',
             'Se indica cuando hay congestión nasal frecuente, respiración bucal o presiones de tratamiento altas. También es la máscara habitual en los equipos BiPAP.',
             'A tener en cuenta: pesa y apoya más que la nasal, por eso el talle correcto es clave. Una nasobucal grande de más pierde aire y marca la cara.',
-            'Modelos: BMC F6 multitalle $198.000 · DreamWear nasobucal Philips $229.000 · BMC F5A sin apoya frente U$S 52 · Yuwell con apoya frente U$S 52 · AirFit F30 ResMed U$S 212.',
+            'Modelos: BMC F6 multitalle U$S 124 · DreamWear nasobucal Philips U$S 157 · BMC F5A sin apoya frente U$S 52 · Yuwell con apoya frente U$S 52 · AirFit F30 ResMed U$S 212.',
         ],
         color: '#8b5cf6',
         priceFrom: 'Desde U$S 52 · 5 modelos disponibles',
@@ -1250,7 +1250,7 @@ const comparativeRows = [
     ['Indicación principal', 'Apnea obstructiva leve a moderada', 'Apnea con presiones variables (por postura, etapas del sueño)', 'EPOC, ENM, apnea compleja, hipoventilación'],
     ['Confort', 'Estándar', 'Mayor (se adapta al paciente)', 'Muy alto al exhalar'],
     ['Costo', 'Más económico', 'Medio', 'Más elevado'],
-    ['Desde', '$499.000', '$630.000', '$1.300.000'],
+    ['Desde', '$499.000', '$630.000', 'U$S 907'],
 ];
 
 // ── Helper ─────────────────────────────────────────────────────────────────

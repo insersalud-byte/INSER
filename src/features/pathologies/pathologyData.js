@@ -23,7 +23,7 @@ export const pathologies = [
             { q: '¿Qué equipo se usa para tratar la apnea del sueño?', a: 'El tratamiento de referencia es el CPAP, que entrega una presión de aire fija durante la noche. También existe el AutoCPAP, que ajusta la presión solo. Cuál corresponde y con qué presión lo define tu médico a partir del estudio del sueño. En INSER SALUD tenemos CPAP BMC G2S a $499.000, AutoCPAP BMC G2S a $630.000 y CPAP ResMed AirSense 10 a $799.000, todos con humidificador incluido.' },
             { q: '¿Necesito un estudio del sueño antes de comprar el equipo?', a: 'Sí. El equipo y la presión se determinan a partir de una poligrafía respiratoria o polisomnografía indicada por tu médico. En Córdoba hacemos el estudio del sueño a domicilio: dormís en tu casa y el informe lo interpreta un profesional.' },
             { q: '¿Puedo alquilar un CPAP antes de comprarlo?', a: 'En Córdoba sí: alquilamos CPAP con entrega e instalación a domicilio, lo que permite probar el tratamiento antes de decidir la compra. Al resto del país enviamos equipos en venta, con garantía de 2 años.' },
-            { q: '¿Cada cuánto se cambia la máscara del CPAP?', a: 'La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos máscaras nasales desde $50.000 y nasobucales, con asesoramiento para elegir la talla correcta.' },
+            { q: '¿Cada cuánto se cambia la máscara del CPAP?', a: 'La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos máscaras nasales desde U$S 35 y nasobucales, con asesoramiento para elegir la talla correcta.' },
         ],
         title: 'Apnea del Sueño',
         metaTitle: 'APNEA DEL SUEÑO | INSER SALUD',
@@ -189,7 +189,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: '$1.300.000',
+                priceARS: null,
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
@@ -213,7 +213,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'Máscara Nasal DreamWear (mínimo contacto)',
-                priceARS: '$223.000',
+                priceARS: null,
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
                 badge: null,
@@ -221,7 +221,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
-                priceARS: '$229.000',
+                priceARS: null,
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
                 badge: null,
@@ -229,7 +229,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'Máscara Nasal RESCOMF CPAP/BIPAP',
-                priceARS: '$50.000',
+                priceARS: null,
                 priceUSD: 'U$S 35',
                 img: '/artifacts/mascara_rescomf.jpg',
                 badge: 'OFERTA',
@@ -441,7 +441,7 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
         products: [
             {
                 name: 'Concentrador Portátil KINGON P2-S3',
-                priceARS: '$2.735.400',
+                priceARS: null,
                 priceUSD: 'U$S 1.880',
                 img: '/artifacts/kingon_p2_s3.jpg',
                 badge: 'EL MÁS LIVIANO',
@@ -457,7 +457,7 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
             },
             {
                 name: 'GCE Zen-O (2 baterías + carro)',
-                priceARS: '$5.451.885',
+                priceARS: null,
                 priceUSD: 'U$S 3.747',
                 img: '/artifacts/gce_zeno.jpg',
                 badge: 'PREMIUM',
@@ -587,7 +587,7 @@ Alquiler disponible con entrega e instalación en el día en Córdoba. Ideal par
 Modelos disponibles en Inser Salud:
 
 🥇 KINGON P2-S3 — El más liviano de nuestro catálogo
-• Precio: $2.735.400 · U$S 1.880
+• Precio: U$S 1.880
 • 2,3 kg con batería
 • Ideal para pacientes activos con necesidad de flujo bajo-moderado
 • Batería incluida para autonomía en desplazamientos
@@ -598,7 +598,7 @@ Modelos disponibles en Inser Salud:
 • Ideal para viajes en avión o jornadas largas fuera del hogar
 
 👑 GCE Zen-O — Premium con carrito y 2 baterías
-• Precio: $5.451.885 · U$S 3.747
+• Precio: U$S 3.747
 • Incluye carrito y 2 baterías para máxima autonomía
 • Homologado para vuelos comerciales
 • La opción premium para el paciente más activo
@@ -679,7 +679,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
         products: [
             {
                 name: 'GCE Zen-O (2 baterías + carro)',
-                priceARS: '$5.451.885',
+                priceARS: null,
                 priceUSD: 'U$S 3.747',
                 img: '/artifacts/gce_zeno.jpg',
                 badge: 'PREMIUM',
@@ -687,7 +687,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
             },
             {
                 name: 'KINGON P2-S3 (Portátil)',
-                priceARS: '$2.735.400',
+                priceARS: null,
                 priceUSD: 'U$S 1.880',
                 img: '/artifacts/kingon_p2_s3.jpg',
                 badge: 'MÁS LIVIANO',
@@ -747,7 +747,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
     {
         slug: 'esclerosis-lateral-amiotrofica',
         faq: [
-            { q: '¿Qué equipos se usan en la ELA?', a: 'Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a $1.300.000), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.' },
+            { q: '¿Qué equipos se usan en la ELA?', a: 'Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a U$S 907), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.' },
             { q: '¿Para qué sirve el asistente de tos (Cough Assist)?', a: 'Cuando la musculatura respiratoria se debilita, la tos pierde fuerza y cuesta eliminar secreciones. El asistente de tos insufla aire y luego genera una salida rápida que imita el mecanismo de la tos, ayudando a despejar la vía aérea. Es un equipo de indicación médica.' },
             { q: '¿Se pueden alquilar estos equipos?', a: 'En Córdoba alquilamos equipos de ventilación con entrega e instalación a domicilio. Al resto del país vendemos con envío, garantía y asesoramiento para la puesta en marcha.' },
             { q: '¿Cómo funciona el reintegro por obra social?', a: 'Trabajamos de forma particular y te acompañamos en el trámite: preparamos el presupuesto formal con los datos del equipo indicado y emitimos factura oficial para que gestiones el reintegro con tu cobertura.' },
@@ -874,7 +874,7 @@ Equipo de elección para ELA:
 
 BiPAP con frecuencia respiratoria de respaldo (FR): esencial porque garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio.
 
-• BiPAP BMC G3 con FR y humidificador — $1.300.000 · U$S 907
+• BiPAP BMC G3 con FR y humidificador — U$S 907
 • STELLAR 150 RESMED con humidificador y batería — U$S 7.342 (etapas avanzadas)
 
 Adaptarse al BiPAP, paso a paso:
@@ -918,7 +918,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
             },
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: '$1.300.000',
+                priceARS: null,
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
@@ -934,7 +934,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
             },
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
-                priceARS: '$229.000',
+                priceARS: null,
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
                 badge: null,
@@ -1053,7 +1053,7 @@ En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes co
 Equipos disponibles en Inser Salud:
 
 BiPAP BMC G3 con frecuencia respiratoria y humidificador:
-• Precio: $1.300.000 · U$S 907
+• Precio: U$S 907
 • La frecuencia respiratoria de respaldo garantiza ventilación mínima aunque el paciente no inicie el ciclo
 • Fundamental para AME tipo 1 y 2
 
@@ -1129,7 +1129,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
         products: [
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: '$1.300.000',
+                priceARS: null,
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
@@ -1145,7 +1145,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
             },
             {
                 name: 'Máscara Nasal DreamWear (talles S/M/L)',
-                priceARS: '$223.000',
+                priceARS: null,
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
                 badge: null,
@@ -1154,7 +1154,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
 
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
-                priceARS: '$229.000',
+                priceARS: null,
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
                 badge: null,
@@ -1250,14 +1250,14 @@ Principales problemas respiratorios en PC:
                 content: `Trabajamos con máscaras para BiPAP y CPAP en todos los tipos y talles: nasales, nasobucales, de almohadillas y pediátricas. La elección correcta de la interfaz es fundamental: una máscara inadecuada puede arruinar el tratamiento aunque el equipo sea excelente.
 
 👃 Máscaras Nasales (cubren solo la nariz):
-• DreamWear Philips — Mínimo contacto — $223.000 · U$S 153
+• DreamWear Philips — Mínimo contacto — U$S 153
 • BMC N4 — Diseño ergonómico — Consultá precio
 • BMC N5a — Ultra-slim — Consultá precio
 • RESMED AirFit N20 — Sellado silicona suave — Consultá precio
 • YUWELL — Opción económica — Consultá precio
 
 😮 Máscaras Nasobucales / Full-Face (cubren nariz y boca):
-• DreamWear Full Face Philips — Mínimo contacto — $229.000 · U$S 157
+• DreamWear Full Face Philips — Mínimo contacto — U$S 157
 • BMC F6 — Amplia visibilidad — Consultá precio
 • RESMED AirFit F20 — Mayor sellado — Consultá precio
 • RESMED AirFit F30 — Mínimo contacto nasobucal — Consultá precio
@@ -1268,7 +1268,7 @@ Principales problemas respiratorios en PC:
 • Máscara Philips Wisp pediátrica (jirafa) — Diseño infantil — U$S 227
 
 💰 Opción económica:
-• Máscara Nasal RESCOMF — $50.000 · U$S 35
+• Máscara Nasal RESCOMF — U$S 35
 
 Si la máscara que tenés no te resulta cómoda, o presenta escapes, presión en la piel o intolerancia, tenemos alternativas para encontrar la indicada.`,
                 link: 'https://wa.me/5493512065320?text=Hola, necesito ayuda para elegir una máscara para BiPAP para parálisis cerebral. ¿Tienen opciones pediátricas?',
@@ -1293,7 +1293,7 @@ Los criterios son similares a otras enfermedades que afectan la función respira
 ✅ CVF < 50% del predicho en pacientes colaboradores
 
 Equipo disponible:
-• BiPAP BMC G3 con FR y humidificador — $1.300.000 · U$S 907
+• BiPAP BMC G3 con FR y humidificador — U$S 907
 • Con frecuencia respiratoria de respaldo para mayor seguridad
 
 Adaptarse al BiPAP, paso a paso:
@@ -1364,7 +1364,7 @@ Consultanos disponibilidad y opciones de financiación.`,
         products: [
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: '$1.300.000',
+                priceARS: null,
                 priceUSD: 'U$S 907',
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
@@ -1372,7 +1372,7 @@ Consultanos disponibilidad y opciones de financiación.`,
             },
             {
                 name: 'Máscara Nasal DreamWear (mínimo contacto)',
-                priceARS: '$223.000',
+                priceARS: null,
                 priceUSD: 'U$S 153',
                 img: '/artifacts/mascara_nasal_dreamwear.jpg',
                 badge: null,
@@ -1380,7 +1380,7 @@ Consultanos disponibilidad y opciones de financiación.`,
             },
             {
                 name: 'Máscara Nasobucal DreamWear Philips',
-                priceARS: '$229.000',
+                priceARS: null,
                 priceUSD: 'U$S 157',
                 img: '/artifacts/mascara_nasobucal_dreamwear.jpg',
                 badge: null,
@@ -1388,7 +1388,7 @@ Consultanos disponibilidad y opciones de financiación.`,
             },
             {
                 name: 'Máscara Nasal RESCOMF CPAP/BIPAP',
-                priceARS: '$50.000',
+                priceARS: null,
                 priceUSD: 'U$S 35',
                 img: '/artifacts/mascara_rescomf.jpg',
                 badge: 'OFERTA',

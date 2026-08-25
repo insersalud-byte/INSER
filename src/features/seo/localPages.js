@@ -204,7 +204,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Precios de CPAP en Córdoba (referencia)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro en apnea del sueño).\nBiPAP BMC G3 con frecuencia respiratoria: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro en apnea del sueño).\nBiPAP BMC G3 con frecuencia respiratoria: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
             },
             {
                 title: 'CPAP, AutoCPAP o BiPAP: ¿cuál te conviene?',
@@ -239,7 +239,7 @@ export const localPages = [
             { name: 'CPAP BMC G2S con humidificador', price: '$499.000' },
             { name: 'AutoCPAP BMC G2S con humidificador', price: '$630.000' },
             { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$799.000' },
-            { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: '$1.300.000' },
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: 'U$S 907' },
         ],
         faq: [
             { q: '¿Cuánto cuesta un CPAP en Córdoba?', a: 'Desde $499.000 (CPAP BMC G2S con humidificador). El CPAP ResMed AirSense 10 está en oferta a $799.000. Confirmá el precio del día por WhatsApp.' },
@@ -338,11 +338,11 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'BiPAP BMC G3 con frecuencia respiratoria y humidificador', price: '$1.300.000' },
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria y humidificador', price: 'U$S 907' },
             { name: 'Ventilador STELLAR 150 ResMed (alta gama)', price: 'consultar' },
         ],
         faq: [
-            { q: '¿Cuánto cuesta un BiPAP en Córdoba?', a: 'El BiPAP BMC G3 está en $1.300.000. También hay opciones de alta gama y alquiler. Confirmá el precio del día por WhatsApp.' },
+            { q: '¿Cuánto cuesta un BiPAP en Córdoba?', a: 'El BiPAP BMC G3 está en U$S 907. También hay opciones de alta gama y alquiler. Confirmá el precio del día por WhatsApp.' },
             { q: '¿Cuál es la diferencia entre BiPAP y CPAP?', a: 'El CPAP da una presión fija continua; el BiPAP da dos presiones (inhalación y exhalación) y se usa en EPOC, enfermedades neuromusculares e hipoventilación.' },
             { q: '¿Alquilan BiPAP?', a: 'Sí, ofrecemos venta y alquiler de BiPAP en Córdoba con entrega a domicilio y soporte técnico.' },
             { q: '¿Sirve para EPOC y ELA?', a: 'Sí. El BiPAP es uno de los tratamientos de referencia en EPOC, ELA y otras enfermedades neuromusculares, siempre según indicación médica.' },
@@ -471,7 +471,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Equipos y precios (envío a todo el país)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro).\nBiPAP BMC G3: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro).\nBiPAP BMC G3: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
             },
             {
                 title: 'Cómo comprar y recibir tu equipo',
@@ -624,7 +624,7 @@ export const localPages = [
         h1: 'Máscaras para CPAP y BiPAP: nasales, nasobucales y pediátricas',
         metaTitle: 'Máscaras para CPAP | Nasales, Nasobucales y Pediátricas | Precios | INSER SALUD',
         metaTitleSalud: 'Máscaras para CPAP y BiPAP | Precios y Envío Nacional | INSER SALUD',
-        description: 'Máscaras para CPAP y BiPAP con precios visibles y envío a todo el país: nasales desde $50.000, DreamWear $223.000, nasobucales (full face) y línea pediátrica completa. Aprobadas por ANMAT. Consultá por WhatsApp.',
+        description: 'Máscaras para CPAP y BiPAP con precios visibles y envío a todo el país: nasales desde U$S 35, DreamWear U$S 153, nasobucales (full face) y línea pediátrica completa. Aprobadas por ANMAT. Consultá por WhatsApp.',
         heroImg: '/artifacts/products/1751037116992-1000306910.jpg',
         intro: 'La máscara es la mitad del éxito del tratamiento con CPAP o BiPAP: una interfaz incómoda es la principal causa de abandono. En INSER SALUD tenés máscaras nasales, nasobucales (full face), almohadillas y línea pediátrica, con precios visibles y envío a todo el país. Te ayudamos a elegir el modelo y el talle correcto para tu equipo.',
         ctaSanti: 'Hola Santi, necesito una máscara para mi CPAP/BiPAP. ¿Me ayudás a elegir entre nasal y nasobucal, y me pasás precios?',
@@ -635,7 +635,7 @@ export const localPages = [
             },
             {
                 title: 'Precios de máscaras (referencia)',
-                content: 'Nasales: RESCOMF multitalle $50.000 (la más económica) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto $223.000 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.\n\nNasobucales (full face): BMC F6 multitalle $198.000 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face $229.000 · BMC F2 codo azul SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
+                content: 'Nasales: RESCOMF multitalle U$S 35 (la más económica) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto U$S 153 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.\n\nNasobucales (full face): BMC F6 multitalle U$S 124 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face U$S 157 · BMC F2 codo azul SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
             },
             {
                 title: 'Máscaras pediátricas',
@@ -647,16 +647,16 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'Máscara nasal RESCOMF multitalle (la más económica)', price: '$50.000' },
-            { name: 'Máscara nasal Philips DreamWear — mínimo contacto', price: '$223.000' },
-            { name: 'Máscara nasobucal BMC F6 multitalle (oferta)', price: '$198.000' },
-            { name: 'Máscara nasobucal Philips DreamWear Full Face', price: '$229.000' },
+            { name: 'Máscara nasal RESCOMF multitalle (la más económica)', price: 'U$S 35' },
+            { name: 'Máscara nasal Philips DreamWear — mínimo contacto', price: 'U$S 153' },
+            { name: 'Máscara nasobucal BMC F6 multitalle (oferta)', price: 'U$S 124' },
+            { name: 'Máscara nasobucal Philips DreamWear Full Face', price: 'U$S 157' },
             { name: 'Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva', price: '$68.000' },
             { name: 'Máscaras pediátricas (Cirri Mini, Philips Wisp, Infant CPAP Kit)', price: 'desde U$S 97' },
         ],
         faq: [
-            { q: '¿Qué máscara elijo si respiro por la boca?', a: 'Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face ($229.000), BMC F6 ($198.000) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.' },
-            { q: '¿Cuánto cuesta una máscara para CPAP?', a: 'Desde $50.000 (nasal RESCOMF multitalle). La DreamWear de Philips está a $223.000 y las nasobucales desde U$S 52. Enviamos a todo el país.' },
+            { q: '¿Qué máscara elijo si respiro por la boca?', a: 'Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face (U$S 157), BMC F6 (U$S 124) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.' },
+            { q: '¿Cuánto cuesta una máscara para CPAP?', a: 'Desde U$S 35 (nasal RESCOMF multitalle). La DreamWear de Philips está a U$S 153 y las nasobucales desde U$S 52. Enviamos a todo el país.' },
             { q: '¿Son compatibles con cualquier equipo CPAP o BiPAP?', a: 'Sí. Todas usan la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP de cualquier marca (BMC, ResMed, Philips, Yuwell, etc.).' },
             { q: '¿Cada cuánto se cambia la máscara?', a: 'La almohadilla de silicona cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. Un sellado gastado genera fugas y resta eficacia al tratamiento.' },
             { q: '¿Tienen máscaras para chicos?', a: 'Sí, línea pediátrica completa: HSINER Cirri Mini, máscara Philips Wisp (jirafa) e Infant CPAP Kit neonatal para recién nacidos. Siempre con indicación médica.' },
@@ -747,7 +747,7 @@ export const localPages = [
             },
             {
                 title: 'Complementos: ventilación, máscaras e insumos',
-                content: 'BiPAP BMC G3 con frecuencia respiratoria ($1.300.000) para ventilación no invasiva en sesiones y titulación.\nVentilador ResMed STELLAR 150 (U$S 7.342) para soporte ventilatorio invasivo/no invasivo de mayor complejidad.\nMáscaras nasales y nasobucales en todos los talles (desde $50.000), incluida línea pediátrica, e insumos de reposición: tubuladuras, filtros y cánulas.',
+                content: 'BiPAP BMC G3 con frecuencia respiratoria (U$S 907) para ventilación no invasiva en sesiones y titulación.\nVentilador ResMed STELLAR 150 (U$S 7.342) para soporte ventilatorio invasivo/no invasivo de mayor complejidad.\nMáscaras nasales y nasobucales en todos los talles (desde U$S 35), incluida línea pediátrica, e insumos de reposición: tubuladuras, filtros y cánulas.',
             },
             {
                 title: 'Compra institucional',
@@ -763,7 +763,7 @@ export const localPages = [
             },
             {
                 title: 'Los insumos son el gasto que se repite',
-                content: 'El equipo se compra una vez; las máscaras, las tubuladuras y los filtros se renuevan todo el tiempo. En un centro con rotación de pacientes, ese es el rubro que conviene tener resuelto de entrada.\n\nNasales desde $50.000 (RESCOMF multitalle) y nasobucales desde U$S 52 (Yuwell con apoya frente y BMC F5A); la BMC F6 multitalle está a $198.000. En pediátrico, la HSINER Cirri Mini en talles XS/S/M/L (U$S 105) y el Infant CPAP Kit con tallas 00 a 5 (U$S 97), una línea difícil de conseguir en el país. El listado completo con precios está en [máscaras para CPAP y BiPAP](/mascaras-cpap).\n\nComo referencia de recambio: la almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. En una institución eso es lo que define el volumen de reposición.\n\nUn caso que conviene no confundir: la BMC F2 codo azul ($68.000) es una buconasal SIN puertos de exhalación, la interfaz correcta para respiradores de terapia intensiva y para ventilación no invasiva con válvula espiratoria en el circuito. No corresponde usarla con un CPAP o BiPAP domiciliario estándar, que necesitan máscara ventilada.\n\nLa tubuladura de recambio para CPAP/BiPAP está a $36.000: 22 mm de diámetro estándar, 1,8 m aprox. de largo, PVC flexible de grado médico.',
+                content: 'El equipo se compra una vez; las máscaras, las tubuladuras y los filtros se renuevan todo el tiempo. En un centro con rotación de pacientes, ese es el rubro que conviene tener resuelto de entrada.\n\nNasales desde U$S 35 (RESCOMF multitalle) y nasobucales desde U$S 52 (Yuwell con apoya frente y BMC F5A); la BMC F6 multitalle está a U$S 124. En pediátrico, la HSINER Cirri Mini en talles XS/S/M/L (U$S 105) y el Infant CPAP Kit con tallas 00 a 5 (U$S 97), una línea difícil de conseguir en el país. El listado completo con precios está en [máscaras para CPAP y BiPAP](/mascaras-cpap).\n\nComo referencia de recambio: la almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. En una institución eso es lo que define el volumen de reposición.\n\nUn caso que conviene no confundir: la BMC F2 codo azul ($68.000) es una buconasal SIN puertos de exhalación, la interfaz correcta para respiradores de terapia intensiva y para ventilación no invasiva con válvula espiratoria en el circuito. No corresponde usarla con un CPAP o BiPAP domiciliario estándar, que necesitan máscara ventilada.\n\nLa tubuladura de recambio para CPAP/BiPAP está a $36.000: 22 mm de diámetro estándar, 1,8 m aprox. de largo, PVC flexible de grado médico.',
             },
             {
                 title: 'Sumar diagnóstico al centro: el polígrafo respiratorio',
@@ -772,9 +772,9 @@ export const localPages = [
         ],
         products: [
             { name: 'Concentrador YUWELL 10 litros — alto flujo (uso intensivo)', price: '$2.800.000' },
-            { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: '$1.300.000' },
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: 'U$S 907' },
             { name: 'Ventilador ResMed STELLAR 150', price: 'U$S 7.342' },
-            { name: 'Máscaras e insumos de reposición', price: 'desde $50.000' },
+            { name: 'Máscaras e insumos de reposición', price: 'desde U$S 35' },
         ],
         faq: [
             { q: '¿Sirve un concentrador domiciliario de 5 litros para un centro de rehabilitación?', a: 'Para uso intensivo o pacientes de alta demanda conviene el de 10 litros: duplica el flujo (hasta 10 L/min) y está pensado para funcionar de forma continua durante toda la jornada.' },
@@ -808,7 +808,7 @@ export const localPages = [
             },
             {
                 title: 'Modelos y precios',
-                content: 'KINGON P2-S3 — $2.735.400: el más liviano (2,3 kg con batería) y económico, pulso, apto vuelos (FAA).\nKINGON P2-E — U$S 2.379: entrada a los de flujo continuo.\nKINGON P2-E6 — U$S 2.695: flujo continuo con batería.\nKINGON P2-E7 — U$S 3.099: alto flujo continuo, batería extendida.\nKINGON P2-TOC — U$S 3.458: continuo + pulso con 9,5 hs de autonomía.\nGCE Zen-O — $5.451.885: premium europeo, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
+                content: 'KINGON P2-S3 — U$S 1.880: el más liviano (2,3 kg con batería) y económico, pulso, apto vuelos (FAA).\nKINGON P2-E — U$S 2.379: entrada a los de flujo continuo.\nKINGON P2-E6 — U$S 2.695: flujo continuo con batería.\nKINGON P2-E7 — U$S 3.099: alto flujo continuo, batería extendida.\nKINGON P2-TOC — U$S 3.458: continuo + pulso con 9,5 hs de autonomía.\nGCE Zen-O — U$S 3.747: premium europeo, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
             },
             {
                 title: 'Para viajar en avión',
@@ -836,13 +836,13 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'KINGON P2-S3 (el más liviano, apto vuelos)', price: '$2.735.400' },
+            { name: 'KINGON P2-S3 (el más liviano, apto vuelos)', price: 'U$S 1.880' },
             { name: 'KINGON P2-TOC (9,5 hs, continuo + pulso)', price: 'U$S 3.458' },
-            { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: '$5.451.885' },
+            { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: 'U$S 3.747' },
             { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887' },
         ],
         faq: [
-            { q: '¿Cuál es el concentrador portátil más liviano y económico?', a: 'El KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a $2.735.400.' },
+            { q: '¿Cuál es el concentrador portátil más liviano y económico?', a: 'El KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a U$S 1.880.' },
             { q: '¿Puedo viajar en avión con un concentrador portátil?', a: 'Sí, con los modelos aprobados FAA (KINGON P2-S3, GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.' },
             { q: '¿Pulso o flujo continuo?', a: 'Depende de tu indicación médica. Pulso: más liviano y autónomo, para actividad. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. Te ayudamos a elegir.' },
             { q: '¿Envían a todo el país?', a: 'Sí, enviamos a cualquier provincia con capacitación de uso guiada y garantía oficial. En Córdoba también hay alquiler para probar antes de comprar.' },
@@ -889,7 +889,7 @@ export const localPages = [
             },
             {
                 title: 'STELLAR 150 o BiPAP: cómo se decide',
-                content: 'Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](/bipap-cordoba) está en $1.300.000 y el STELLAR 150 en U$S 7.342.\n\nEn números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es de 24 horas continuas en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.\n\nLa diferencia de fondo no es solo de números. El BiPAP es un equipo de ventilación no invasiva; el STELLAR 150 soporta además ventilación invasiva por traqueostomía, con alarmas clínicas completas. Por eso lo describimos como el paso siguiente cuando un BiPAP ya no alcanza.\n\nEn ELA, por ejemplo, la ventilación no invasiva suele indicarse primero solo durante el sueño (8 a 10 horas) y, a medida que la enfermedad avanza, el médico puede indicar uso diurno parcial o continuo. Cuál de los dos equipos corresponde lo define tu médico tratante: pasanos la prescripción y te confirmamos cuál cubre los modos y las presiones indicadas antes de que gastes de más.',
+                content: 'Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](/bipap-cordoba) está en U$S 907 y el STELLAR 150 en U$S 7.342.\n\nEn números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es de 24 horas continuas en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.\n\nLa diferencia de fondo no es solo de números. El BiPAP es un equipo de ventilación no invasiva; el STELLAR 150 soporta además ventilación invasiva por traqueostomía, con alarmas clínicas completas. Por eso lo describimos como el paso siguiente cuando un BiPAP ya no alcanza.\n\nEn ELA, por ejemplo, la ventilación no invasiva suele indicarse primero solo durante el sueño (8 a 10 horas) y, a medida que la enfermedad avanza, el médico puede indicar uso diurno parcial o continuo. Cuál de los dos equipos corresponde lo define tu médico tratante: pasanos la prescripción y te confirmamos cuál cubre los modos y las presiones indicadas antes de que gastes de más.',
             },
             {
                 title: 'La batería: cuánto dura y para qué sirve',
@@ -897,14 +897,14 @@ export const localPages = [
             },
             {
                 title: 'Qué máscara corresponde: ventilada o sin fuga',
-                content: 'Con un ventilador la interfaz no es un detalle de confort, es parte del circuito. Hay dos familias de máscaras y no son intercambiables.\n\nLas máscaras ventiladas tienen orificios de fuga controlada (puertos de exhalación) y son las que corresponden a un CPAP o BiPAP domiciliario estándar: la BMC F6 multitalle a $198.000 o las DreamWear de Philips, entre otras.\n\nLas máscaras no ventiladas no tienen puertos de exhalación y se reconocen por el codo azul. Son la interfaz correcta para respiradores de terapia intensiva y para ventilación no invasiva con circuito de doble rama o válvula espiratoria, donde la exhalación se maneja por el circuito y no por la máscara. En nuestro catálogo es la BMC F2 codo azul, a $68.000, con conexión estándar de 22 mm.\n\nCuál de las dos corresponde depende del circuito con el que se configure el equipo, y eso lo define el equipo médico tratante. Mandanos la indicación y te decimos qué modelo y qué talle pedir: la máscara no se prueba, se asesora. Podés ver todos los modelos y talles en [máscaras para CPAP y BiPAP](/mascaras-cpap).',
+                content: 'Con un ventilador la interfaz no es un detalle de confort, es parte del circuito. Hay dos familias de máscaras y no son intercambiables.\n\nLas máscaras ventiladas tienen orificios de fuga controlada (puertos de exhalación) y son las que corresponden a un CPAP o BiPAP domiciliario estándar: la BMC F6 multitalle a U$S 124 o las DreamWear de Philips, entre otras.\n\nLas máscaras no ventiladas no tienen puertos de exhalación y se reconocen por el codo azul. Son la interfaz correcta para respiradores de terapia intensiva y para ventilación no invasiva con circuito de doble rama o válvula espiratoria, donde la exhalación se maneja por el circuito y no por la máscara. En nuestro catálogo es la BMC F2 codo azul, a $68.000, con conexión estándar de 22 mm.\n\nCuál de las dos corresponde depende del circuito con el que se configure el equipo, y eso lo define el equipo médico tratante. Mandanos la indicación y te decimos qué modelo y qué talle pedir: la máscara no se prueba, se asesora. Podés ver todos los modelos y talles en [máscaras para CPAP y BiPAP](/mascaras-cpap).',
             },
         ],
         products: [
             { name: 'Ventilador ResMed STELLAR 150 (humidificador + batería)', price: 'U$S 7.342' },
             { name: 'Cough Assist — asistente de tos (complemento ELA/AME)', price: 'U$S 9.084' },
-            { name: 'BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)', price: '$1.300.000' },
-            { name: 'Máscaras de ventilación no invasiva', price: 'desde $50.000' },
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)', price: 'U$S 907' },
+            { name: 'Máscaras de ventilación no invasiva', price: 'desde U$S 35' },
         ],
         faq: [
             { q: '¿El STELLAR 150 sirve para ventilación invasiva y no invasiva?', a: 'Sí, soporta ambas: por traqueostomía (invasiva) y por máscara (no invasiva), en pacientes adultos y pediátricos, con alarmas clínicas y batería interna.' },
@@ -997,7 +997,7 @@ export const localPages = [
             },
             {
                 title: 'El circuito completo para el paciente neuromuscular',
-                content: 'El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo ($1.300.000) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.',
+                content: 'El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo (U$S 907) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.',
             },
             {
                 title: 'Cuándo se indica: los valores que mira el equipo médico',
@@ -1014,9 +1014,9 @@ export const localPages = [
         ],
         products: [
             { name: 'Cough Assist — asistente de tos mecánico', price: 'U$S 9.084' },
-            { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: '$1.300.000' },
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria', price: 'U$S 907' },
             { name: 'Ventilador ResMed STELLAR 150', price: 'U$S 7.342' },
-            { name: 'Máscaras de ventilación (adultos y pediátricas)', price: 'desde $50.000' },
+            { name: 'Máscaras de ventilación (adultos y pediátricas)', price: 'desde U$S 35' },
         ],
         faq: [
             { q: '¿Qué hace exactamente un Cough Assist?', a: 'Reproduce una tos eficaz mediante insuflación-exuflación mecánica: llena los pulmones con presión positiva y de inmediato aplica presión negativa, generando el flujo que arrastra las secreciones. Es no invasivo.' },

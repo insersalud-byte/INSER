@@ -31,7 +31,7 @@ INSER SALUD es una empresa cordobesa especializada en aparatología de terapia r
 
 - **CPAP**: presión fija. Para apnea del sueño estándar. El más económico (desde $499.000).
 - **AutoCPAP**: presión automática. Para apnea cuando se busca más confort o la presión necesaria varía. Desde $630.000.
-- **BiPAP**: dos presiones (inhalación/exhalación). Para EPOC, enfermedades neuromusculares e hipoventilación, o apnea compleja que no responde al CPAP. Desde $1.300.000.
+- **BiPAP**: dos presiones (inhalación/exhalación). Para EPOC, enfermedades neuromusculares e hipoventilación, o apnea compleja que no responde al CPAP. Desde U$S 907.
 
 ## Productos (precios de referencia)
 
@@ -46,7 +46,7 @@ CPAP y AutoCPAP:
 - CPAP Yuwell YH-360 con humidificador — U$S 416
 
 BiPAP y ventilación:
-- BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000 / U$S 907
+- BiPAP BMC G3 con frecuencia respiratoria y humidificador — U$S 907
 - Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342
 - Cough Assist (asistente de tos) — U$S 9.084
 
@@ -55,25 +55,25 @@ Concentradores de oxígeno:
 - Concentrador YUWELL 10 litros / alto flujo (alta demanda de oxígeno y rehabilitación pulmonar) — $2.800.000 → https://insersalud.com/concentrador-oxigeno-10-litros
 - Concentrador estacionario Yuwell 5 L/min — U$S 713
 - Concentrador estacionario Yuwell 7F-5B de 5 litros, con humidificador incorporado (modelo distinto del anterior) — $1.170.000 — OFERTA PUNTUAL de este equipo: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock
-- Concentrador portátil KINGON P2-S3 (el más liviano) — $2.735.400 / U$S 1.880
+- Concentrador portátil KINGON P2-S3 (el más liviano) — U$S 1.880
 - Concentrador portátil KINGON P2-TOC (9,5 hs de autonomía, continuo + pulso) — U$S 3.458
 - Concentrador portátil KINGON P2-E7 (alto flujo continuo, batería extendida) — U$S 3.099
 - Concentrador portátil KINGON P2-E6 (flujo continuo) — U$S 2.695
 - Concentrador portátil KINGON P2-E (entrada a portátiles de flujo continuo) — U$S 2.379
-- Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos) — $5.451.885 / U$S 3.747
+- Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos) — U$S 3.747
 - Concentrador portátil Philips SimplyGo — U$S 3.887
 - Mochila de oxígeno (tubo 0,415 + regulador + bolso) — U$S 270
 
 Máscaras:
-- Máscara nasal DreamWear — $223.000
-- Máscara nasal RESCOMF (la más económica) — $50.000
+- Máscara nasal DreamWear — U$S 153
+- Máscara nasal RESCOMF (la más económica) — U$S 35
 - Máscara nasal BMC N4 con apoya frente — U$S 36
 - Máscara nasal BMC N5a sin apoya frente — U$S 60
 - Máscara nasal BMC multitalle — U$S 89,50
 - Máscara nasal AirFit mínimo contacto ResMed — U$S 157
 - Máscara almohadilla nasal (pillow) Yuwell YP-01 — U$S 42
-- Máscara nasobucal DreamWear Philips — $229.000
-- Máscara nasobucal BMC F6 multitalle — $198.000
+- Máscara nasobucal DreamWear Philips — U$S 157
+- Máscara nasobucal BMC F6 multitalle — U$S 124
 - Máscara buconasal Yuwell con apoya frente — U$S 52
 - Máscara buconasal Yuwell YF02 sin apoya frente — U$S 55
 - Máscara buconasal BMC F5A sin apoya frente — U$S 52
