@@ -14,6 +14,40 @@ const openSanti = (message) => {
     window.dispatchEvent(new CustomEvent('open-santi', { detail: { message } }));
 };
 
+/* ── Dimensiones intrínsecas reales de cada imagen (leídas del archivo) ──
+   Sirven para que el navegador reserve el espacio y no haya salto de layout (CLS).
+   El CSS sigue mandando sobre el tamaño final. Si una imagen no está en el mapa,
+   no se emite width/height (mejor nada que un dato falso). */
+const IMG_DIMS = {
+    '/artifacts/autocpap_dreamstation.jpg': [1174, 895],
+    '/artifacts/bipap_bmc_g3.jpg': [1200, 825],
+    '/artifacts/concentrador_yuwell.jpg': [1119, 1029],
+    '/artifacts/cough_assist.jpg': [1155, 1285],
+    '/artifacts/cpap_airsense10.jpg': [1203, 717],
+    '/artifacts/cpap_bmc_g2s.jpg': [993, 1024],
+    '/artifacts/gce_zeno.jpg': [1164, 774],
+    '/artifacts/hero_ame.jpg': [768, 1159],
+    '/artifacts/hero_apnea.jpg': [768, 474],
+    '/artifacts/hero_ela.jpg': [768, 893],
+    '/artifacts/hero_epoc.jpg': [900, 600],
+    '/artifacts/hero_fibrosis.jpg': [768, 1159],
+    '/artifacts/hero_paralisis.jpg': [768, 786],
+    '/artifacts/kingon_p2_s3.jpg': [1198, 921],
+    '/artifacts/kingon_p2_toc.jpg': [604, 1195],
+    '/artifacts/logo_insersalud.jpg': [400, 400],
+    '/artifacts/mascara_nasal_dreamwear.jpg': [1200, 1026],
+    '/artifacts/mascara_nasobucal_dreamwear.jpg': [1018, 1600],
+    '/artifacts/mascara_rescomf.jpg': [702, 686],
+    '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg': [900, 904],
+    '/artifacts/santi_real.jpg': [400, 601],
+    '/artifacts/stellar_150.jpg': [1196, 1027],
+};
+
+const imgDims = (src) => {
+    const d = IMG_DIMS[src];
+    return d ? { width: d[0], height: d[1] } : {};
+};
+
 /* ── Modal de especificaciones técnicas ─────────────────────────── */
 const SpecsModal = ({ product, onClose }) => {
     useEffect(() => {
@@ -39,7 +73,7 @@ const SpecsModal = ({ product, onClose }) => {
 
                 <div className={css.specsHead}>
                     <div className={css.specsHeadImg}>
-                        <img src={product.img} alt={product.name}
+                        <img src={product.img} alt={product.name} {...imgDims(product.img)}
                             onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                     </div>
                     <div className={css.specsHeadInfo}>
@@ -71,6 +105,8 @@ const SpecsModal = ({ product, onClose }) => {
                         <img
                             src="/artifacts/santi_real.jpg"
                             alt="Santi"
+                            width={400}
+                            height={601}
                             onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff'; }}
                         />
                         <div>
@@ -242,7 +278,7 @@ const PathologyPage = () => {
             <nav className={css.navbar}>
                 <div className={css.navInner}>
                     <Link to="/" className={css.navLogo}>
-                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud"
+                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" width={400} height={400}
                             onError={(e) => { e.target.style.display = 'none'; }} />
                     </Link>
                     <div className={css.navActions}>
@@ -279,7 +315,7 @@ const PathologyPage = () => {
                     </div>
                 </div>
                 <div className={css.heroImgWrap}>
-                    <img src={data.heroImg} alt={data.title} className={css.heroImg} />
+                    <img src={data.heroImg} alt={data.title} className={css.heroImg} {...imgDims(data.heroImg)} />
                     <div className={css.heroImgBadge}>
                         <Star size={14} fill="white" color="white" />
                         <span>Aparatología aprobada por ANMAT</span>
@@ -360,7 +396,7 @@ const PathologyPage = () => {
                             <div key={i} className={css.productCard}>
                                 {p.badge && <span className={css.productBadge}>{p.badge}</span>}
                                 <div className={css.productImg}>
-                                    <img src={p.img} alt={p.name} loading="lazy" decoding="async"
+                                    <img src={p.img} alt={p.name} loading="lazy" decoding="async" {...imgDims(p.img)}
                                         onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                                 </div>
                                 <h4>{p.name}</h4>
@@ -430,6 +466,8 @@ const PathologyPage = () => {
                             src="/artifacts/santi_real.jpg"
                             alt="Santi"
                             className={css.santiAvatar}
+                            width={400}
+                            height={601}
                             onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff&size=160'; }}
                         />
                         <div className={css.santiText}>
@@ -456,7 +494,7 @@ const PathologyPage = () => {
                         {others.map((o, i) => (
                             <Link key={i} to={`/patologia/${o.slug}`} className={css.otherCard} style={{ '--other-color': o.color }}>
                                 <div className={css.otherImg}>
-                                    <img src={o.heroImg} alt={o.title} loading="lazy" decoding="async"
+                                    <img src={o.heroImg} alt={o.title} loading="lazy" decoding="async" {...imgDims(o.heroImg)}
                                         onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                                 </div>
                                 <div className={css.otherBody}>

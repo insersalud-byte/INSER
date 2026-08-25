@@ -143,6 +143,8 @@ Iniciar el tratamiento con CPAP puede generar dudas, incomodidad o ansiedad. Por
 ✅ Hacemos seguimiento los primeros días para ayudarte a adaptarte
 ✅ Sin compromiso de compra: lo usás el tiempo que necesités
 
+El alquiler es en Córdoba, con entrega e instalación a domicilio en el día. Al resto del país vendemos con envío.
+
 El CPAP puede cambiar tu vida: mejorar tu descanso, tu energía, tu salud. Y nosotros estamos acá para acompañarte en ese proceso paso a paso, sin apuros.
 
 💬 Respirá mejor. Dormí mejor. Viví mejor.`,
@@ -367,9 +369,9 @@ Tipos de sistemas de oxígeno disponibles en Inser Salud:
 
 🎒 Concentrador portátil (para salir de casa):
 • Permite mantener la actividad diaria y la autonomía
-• KINGON P2-S3: el más liviano y económico (desde U$S 1.880)
+• KINGON P2-S3: el más liviano y económico de nuestro catálogo (desde $2.735.400 · U$S 1.880)
 • KINGON P2-TOC: 9,5 horas de autonomía (U$S 3.458)
-• GCE Zen-O: premium, con carrito y 2 baterías (desde U$S 3.747)
+• GCE Zen-O: premium, con carrito y 2 baterías (desde $5.451.885 · U$S 3.747)
 
 💧 Oxígeno líquido:
 • Mayor autonomía en menor peso
@@ -894,10 +896,10 @@ En Inser Salud ofrecemos:
 
 ✅ Evaluaciones respiratorias gratuitas para pacientes con ELA y enfermedades neuromusculares
 ✅ Asesoramiento personalizado para la elección del equipo correcto según la etapa de la enfermedad
-✅ Entrega e instalación del equipo en domicilio
+✅ Entrega e instalación del equipo a domicilio en Córdoba
 ✅ Capacitación al paciente y la familia en el uso del Cough Assist y BiPAP
 ✅ Seguimiento durante los primeros días de adaptación
-✅ Alquiler disponible (ideal para comenzar antes de decidir la compra)
+✅ Alquiler disponible en Córdoba (ideal para comenzar antes de decidir la compra)
 
 En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser determinante. La falta de aire muchas veces no se nota… hasta que es tarde.
 

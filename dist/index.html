@@ -30,7 +30,7 @@
   <meta property="og:title" content="INSER SALUD – Equipos Respiratorios CPAP, BiPAP y Oxígeno | Córdoba, Argentina" />
   <meta property="og:description" content="CPAP, AutoCPAP, BiPAP, máscaras nasales y nasobucales (DreamWear), oxigenoterapia y concentradores de oxígeno. Venta con envío a todo el país y alquiler en Córdoba. Cuotas con Banco Galicia." />
   <meta property="og:url" content="https://insersalud.com/" />
-  <meta property="og:image" content="https://insersalud.com/artifacts/logo_insersalud.jpg" />
+  <meta property="og:image" content="https://insersalud.com/og-insersalud.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="INSER SALUD - Equipos Respiratorios Córdoba" />
@@ -40,7 +40,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="INSER SALUD – Equipos Respiratorios en Córdoba" />
   <meta name="twitter:description" content="CPAP, AutoCPAP, BiPAP, máscaras nasales y nasobucales (DreamWear), oxigenoterapia y concentradores de oxígeno. Venta con envío a todo el país y alquiler en Córdoba. Cuotas con Banco Galicia." />
-  <meta name="twitter:image" content="https://insersalud.com/artifacts/logo_insersalud.jpg" />
+  <meta name="twitter:image" content="https://insersalud.com/og-insersalud.jpg" />
 
   <!-- SEO por host: inser.ar (venta de equipos) e insersalud.com (terapias domiciliarias
        y alquiler) se indexan por separado con titulo, descripcion y canonical propios -->
@@ -156,18 +156,32 @@
     "latitude": -31.4201,
     "longitude": -64.1888
   },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
-    "opens": "09:00",
-    "closes": "18:00"
-  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "name": "Horario comercial",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "name": "Consultas por WhatsApp",
+      "description": "Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. No hay guardia técnica ni atención de urgencias.",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+54-9-351-206-5320",
@@ -175,11 +189,10 @@
     "availableLanguage": "Spanish"
   },
   "sameAs": [
-    "https://insersalud.com",
     "https://share.google/QTMdrJZGqmyyNBHYh",
     "https://www.google.com/search?kgmid=/g/11zfs2vwmz",
     "https://www.instagram.com/insersalud",
-    "https://www.facebook.com/insersalud",
+    "https://www.facebook.com/people/Inser-Salud/61576746347333/",
     "https://wa.me/5493512065320"
   ],
   "hasOfferCatalog": {
@@ -190,6 +203,7 @@
         "@type": "Offer",
         "price": "799000",
         "priceCurrency": "ARS",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -198,6 +212,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "CPAP ResMed AirSense 10",
+          "url": "https://insersalud.com/comprar-cpap-argentina",
+          "sku": "cpap-resmed-airsense-10",
           "description": "CPAP ResMed AirSense 10 con humidificador HumidAir integrado, alivio espiratorio EPR, AutoRamp y app myAir. Equipo completo: humidificador, tubuladura, fuente, tarjeta SD y bolso. Aprobado por ANMAT, 2 años de garantía.",
           "brand": {
             "@type": "Brand",
@@ -209,6 +225,7 @@
             "@type": "Offer",
             "price": "799000",
             "priceCurrency": "ARS",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -217,6 +234,7 @@
         "@type": "Offer",
         "price": "499000",
         "priceCurrency": "ARS",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -225,6 +243,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "CPAP BMC G2S con Humidificador",
+          "url": "https://insersalud.com/comprar-cpap-argentina",
+          "sku": "cpap-bmc-g2s",
           "description": "CPAP fijo con humidificador calefactado, pantalla LCD táctil y tarjeta SD. Aprobado por ANMAT.",
           "brand": {
             "@type": "Brand",
@@ -236,6 +256,7 @@
             "@type": "Offer",
             "price": "499000",
             "priceCurrency": "ARS",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -244,6 +265,7 @@
         "@type": "Offer",
         "price": "630000",
         "priceCurrency": "ARS",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -252,6 +274,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "AutoCPAP BMC G2S con Humidificador",
+          "url": "https://insersalud.com/comprar-cpap-argentina",
+          "sku": "autocpap-bmc-g2s",
           "description": "AutoCPAP de presión automática con humidificador calefactado, rampa automática y tarjeta SD. Equipo completo con bolso. Aprobado por ANMAT.",
           "brand": {
             "@type": "Brand",
@@ -263,6 +287,7 @@
             "@type": "Offer",
             "price": "630000",
             "priceCurrency": "ARS",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -271,6 +296,7 @@
         "@type": "Offer",
         "price": "1400",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -279,6 +305,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "AutoCPAP BMC G2S Mini con Almohadillas Nasales",
+          "url": "https://insersalud.com/comprar-cpap-argentina",
+          "sku": "oferta-autocpap-bmc-g2s-m1-mini-con-almohadillas-nasales-con-humidificador-p2h-",
           "description": "AutoCPAP de presión automática con humidificador p2H y almohadillas nasales.",
           "brand": {
             "@type": "Brand",
@@ -290,6 +318,7 @@
             "@type": "Offer",
             "price": "1400",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -298,6 +327,7 @@
         "@type": "Offer",
         "price": "758",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -306,6 +336,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "AutoCPAP Philips DreamStation con Humidificador",
+          "url": "https://insersalud.com/comprar-cpap-argentina",
+          "sku": "autocpap-philips-dreamstation-con-humidificador-y-conectividad-",
           "description": "AutoCPAP con humidificador y conectividad.",
           "brand": {
             "@type": "Brand",
@@ -317,6 +349,7 @@
             "@type": "Offer",
             "price": "758",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -325,6 +358,7 @@
         "@type": "Offer",
         "price": "907",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -333,6 +367,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador",
+          "url": "https://insersalud.com/bipap-cordoba",
+          "sku": "bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador",
           "description": "BiPAP S/T con frecuencia respiratoria de respaldo. Ideal para EPOC, ELA y enfermedades neuromusculares.",
           "brand": {
             "@type": "Brand",
@@ -344,6 +380,7 @@
             "@type": "Offer",
             "price": "907",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -352,6 +389,7 @@
         "@type": "Offer",
         "price": "9084",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -360,6 +398,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Cough Assist (Asistente de Tos)",
+          "url": "https://insersalud.com/cough-assist-asistente-de-tos",
+          "sku": "cough-asisst-asistente-tos",
           "description": "Insuflación-exuflación mecánica para movilizar secreciones en pacientes con tos débil.",
           "category": "Asistente de tos",
           "image": "https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg",
@@ -367,6 +407,7 @@
             "@type": "Offer",
             "price": "9084",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -375,6 +416,7 @@
         "@type": "Offer",
         "price": "999000",
         "priceCurrency": "ARS",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -383,6 +425,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador de Oxígeno BMC Estacionario",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina",
+          "sku": "concentrador-de-oxigeno-bmc-estacionario",
           "description": "Concentrador de oxígeno fijo para el hogar, con control remoto y medidor de oxígeno integrado.",
           "brand": {
             "@type": "Brand",
@@ -394,6 +438,7 @@
             "@type": "Offer",
             "price": "999000",
             "priceCurrency": "ARS",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -402,6 +447,7 @@
         "@type": "Offer",
         "price": "2800000",
         "priceCurrency": "ARS",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -410,10 +456,12 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador de Oxígeno YUWELL 10 Litros (Alto Flujo)",
+          "url": "https://insersalud.com/concentrador-oxigeno-10-litros",
+          "sku": "concentrador-de-oxigeno-yuwell-10-litros",
           "description": "Concentrador estacionario de alto flujo, hasta 10 L/min (el doble del estándar). Para pacientes con alta demanda de oxígeno y centros de rehabilitación pulmonar. Aprobado por ANMAT.",
           "brand": {
             "@type": "Brand",
-            "name": "YUWELL"
+            "name": "Yuwell"
           },
           "category": "Concentrador de oxígeno estacionario",
           "image": "https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg",
@@ -421,6 +469,7 @@
             "@type": "Offer",
             "price": "2800000",
             "priceCurrency": "ARS",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -429,6 +478,7 @@
         "@type": "Offer",
         "price": "1880",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -437,7 +487,9 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador de Oxígeno Portátil KINGON P2-S3",
-          "description": "Concentrador portátil, el más liviano y económico, apto para vuelos.",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina",
+          "sku": "concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico",
+          "description": "Concentrador portátil, el más liviano de nuestro catálogo, apto para vuelos.",
           "brand": {
             "@type": "Brand",
             "name": "KINGON"
@@ -448,6 +500,7 @@
             "@type": "Offer",
             "price": "1880",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -456,6 +509,7 @@
         "@type": "Offer",
         "price": "3747",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -464,6 +518,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador de Oxígeno Portátil GCE Zen-O",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina",
+          "sku": "concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias",
           "description": "Concentrador portátil con 2 baterías y carro, homologado para vuelos.",
           "brand": {
             "@type": "Brand",
@@ -475,6 +531,7 @@
             "@type": "Offer",
             "price": "3747",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -483,6 +540,7 @@
         "@type": "Offer",
         "price": "153",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -491,6 +549,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Máscara Nasal DreamWear",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "mascarilla-nasal-cpap",
           "description": "Máscara nasal de mínimo contacto para CPAP y BiPAP.",
           "brand": {
             "@type": "Brand",
@@ -502,6 +562,7 @@
             "@type": "Offer",
             "price": "153",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -510,6 +571,7 @@
         "@type": "Offer",
         "price": "35",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -518,6 +580,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Nasal RESCOMF para CPAP y BiPAP",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "mascara-nasal-para-cpap-y-bipap",
           "description": "Mascara nasal RESCOMF compatible con CPAP, AutoCPAP y BiPAP. Opcion de entrada del catalogo de INSER SALUD.",
           "brand": {
             "@type": "Brand",
@@ -529,6 +593,7 @@
             "@type": "Offer",
             "price": "35",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -537,6 +602,7 @@
         "@type": "Offer",
         "price": "157",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -545,6 +611,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Máscara Nasobucal DreamWear Philips",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "mascarilla-nasobucal-dreamwear-philips-cpap",
           "description": "Máscara nasobucal (full face) que cubre nariz y boca, para CPAP y BiPAP.",
           "brand": {
             "@type": "Brand",
@@ -556,6 +624,7 @@
             "@type": "Offer",
             "price": "157",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -564,6 +633,7 @@
         "@type": "Offer",
         "price": "124",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -572,6 +642,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Máscara Nasobucal BMC F6 Multitalle",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-",
           "description": "Máscara nasobucal con apoya frente, tan cómoda como la DreamWear y más económica.",
           "brand": {
             "@type": "Brand",
@@ -583,6 +655,7 @@
             "@type": "Offer",
             "price": "124",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -591,6 +664,7 @@
         "@type": "Offer",
         "price": "1570",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -599,6 +673,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Polígrafo BMC YH-600B PRO",
+          "url": "https://insersalud.com/comprar-poligrafo-argentina",
+          "sku": "poligrafo-bmc-yh-600b-pro-",
           "description": "Polígrafo para estudio del sueño (poligrafía respiratoria) domiciliario.",
           "brand": {
             "@type": "Brand",
@@ -610,6 +686,7 @@
             "@type": "Offer",
             "price": "1570",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -618,6 +695,7 @@
         "@type": "Offer",
         "price": "1794",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -626,6 +704,7 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock",
+          "url": "https://insersalud.com/comprar-poligrafo-argentina",
           "description": "Polígrafo respiratorio BMC YH-600B PRO con 30 cánulas Luer Lock incluidas. La cánula es el insumo descartable de cada estudio, así que esta opción permite empezar a hacer poligrafías sin comprar los insumos por separado. Aprobado por ANMAT, 2 años de garantía.",
           "brand": {
             "@type": "Brand",
@@ -637,6 +716,7 @@
             "@type": "Offer",
             "price": "1794",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -645,6 +725,7 @@
         "@type": "Offer",
         "price": "579",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -653,6 +734,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "CPAP Philips DreamStation con Humidificador",
+          "url": "https://insersalud.com/comprar-cpap-argentina",
+          "sku": "cpap-philips-dreamstation-con-humidificador-y-conectividad-",
           "description": "CPAP fijo con humidificador y conectividad.",
           "image": "https://insersalud.com/artifacts/products/64719ec9-c027-4d35-8280-ffa4ac3d291e.jpg",
           "brand": {
@@ -664,6 +747,7 @@
             "@type": "Offer",
             "price": "579",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -672,6 +756,7 @@
         "@type": "Offer",
         "price": "907",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -680,6 +765,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "AutoCPAP ResMed AirSense 10 con Conectividad",
+          "url": "https://insersalud.com/comprar-cpap-argentina",
+          "sku": "autocpap-resmed-airsense-10-con-nube",
           "description": "AutoCPAP con ajuste automatico de presion, humidificador HumidAir y app myAir.",
           "image": "https://insersalud.com/artifacts/products/38e665d6-2c44-4e1b-8c1d-7578f26aea9d.jpg",
           "brand": {
@@ -691,6 +778,7 @@
             "@type": "Offer",
             "price": "907",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -699,6 +787,7 @@
         "@type": "Offer",
         "price": "416",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -707,6 +796,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "CPAP Yuwell YH-360 con Humidificador",
+          "url": "https://insersalud.com/comprar-cpap-argentina",
+          "sku": "cpap-yuwell-yh-360-con-humidificador",
           "description": "CPAP fijo con humidificador, silencioso.",
           "image": "https://insersalud.com/artifacts/products/1752269565561-269d4b6c-772c-4dcb-b8f1-0bcc3244be73.jpg",
           "brand": {
@@ -718,6 +809,7 @@
             "@type": "Offer",
             "price": "416",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -726,6 +818,7 @@
         "@type": "Offer",
         "price": "7342",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -734,6 +827,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Ventilador STELLAR 150 ResMed con Humidificador y Bateria",
+          "url": "https://insersalud.com/ventilador-stellar-150",
+          "sku": "stellar-50-resmed-con-humidificador-y-bateria",
           "description": "Ventilador invasivo/no invasivo de alta gama con humidificador y bateria.",
           "image": "https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg",
           "brand": {
@@ -745,6 +840,7 @@
             "@type": "Offer",
             "price": "7342",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -753,6 +849,7 @@
         "@type": "Offer",
         "price": "713",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -761,6 +858,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador de Oxigeno Yuwell Estacionario 5 L/min",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina",
+          "sku": "concentrador-de-oxigeno-estacionario1",
           "description": "Concentrador estacionario de 5 L/min para uso domiciliario continuo.",
           "image": "https://insersalud.com/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg",
           "brand": {
@@ -772,6 +871,7 @@
             "@type": "Offer",
             "price": "713",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -780,6 +880,7 @@
         "@type": "Offer",
         "price": "1170000",
         "priceCurrency": "ARS",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -788,6 +889,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador de Oxigeno Yuwell 7F-5B 5 Litros",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina",
+          "sku": "concentrador-de-oxigeno-yuwell-7f-5b",
           "description": "Concentrador de oxigeno estacionario Yuwell 7F-5B, flujo continuo de 0,5 a 5 L/min con humidificador incorporado, para uso domiciliario. Oferta puntual: 6 cuotas sin interes de $195.000 y envio sin cargo a todo el pais, hasta agotar stock.",
           "image": "https://insersalud.com/artifacts/products/concentrador_yuwell_5l.jpg",
           "brand": {
@@ -800,6 +903,7 @@
             "@type": "Offer",
             "price": "1170000",
             "priceCurrency": "ARS",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -808,6 +912,7 @@
         "@type": "Offer",
         "price": "3458",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -816,6 +921,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador Portatil KINGON P2-TOC",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina",
+          "sku": "concentrador-de-oxigeno-portatil-kingon-p2-toc",
           "description": "Concentrador portatil continuo + pulso con 9,5 hs de autonomia.",
           "image": "https://insersalud.com/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg",
           "brand": {
@@ -827,6 +934,7 @@
             "@type": "Offer",
             "price": "3458",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -835,6 +943,7 @@
         "@type": "Offer",
         "price": "3099",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -843,6 +952,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador Portatil KINGON P2-E7",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina",
+          "sku": "concentrador-de-oxigeno-portatil-kingon-p2-e7",
           "description": "Concentrador portatil de alto flujo continuo con bateria extendida.",
           "image": "https://insersalud.com/artifacts/products/1748964279808-p2-e7.jpg",
           "brand": {
@@ -854,6 +965,7 @@
             "@type": "Offer",
             "price": "3099",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -862,6 +974,7 @@
         "@type": "Offer",
         "price": "2695",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -870,6 +983,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador Portatil KINGON P2-E6",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina",
+          "sku": "concentrador-de-oxigeno-portatil-kingon-p2-e6",
           "description": "Concentrador portatil de flujo continuo con bateria.",
           "image": "https://insersalud.com/artifacts/products/1748963802989-kingonp2.png",
           "brand": {
@@ -881,6 +996,7 @@
             "@type": "Offer",
             "price": "2695",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -889,6 +1005,7 @@
         "@type": "Offer",
         "price": "2379",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -897,6 +1014,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador Portatil KINGON P2-E",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina",
+          "sku": "concentrador-de-oxigeno-portatil",
           "description": "Concentrador portatil de flujo continuo, linea de entrada.",
           "image": "https://insersalud.com/artifacts/products/880a332c-b080-4b38-9ab2-059aba2ea797.jpg",
           "brand": {
@@ -908,6 +1027,7 @@
             "@type": "Offer",
             "price": "2379",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -916,6 +1036,7 @@
         "@type": "Offer",
         "price": "3887",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -924,6 +1045,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Concentrador Portatil Philips SimplyGo",
+          "url": "https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina",
+          "sku": "concentrador-de-oxigeno-portatil-simplygo",
           "description": "Concentrador portatil continuo + pulso, apto para vuelos.",
           "image": "https://insersalud.com/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg",
           "brand": {
@@ -935,6 +1058,7 @@
             "@type": "Offer",
             "price": "3887",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -943,6 +1067,7 @@
         "@type": "Offer",
         "price": "270",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -951,17 +1076,16 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mochila de Oxigeno",
+          "url": "https://insersalud.com/oxigeno-a-domicilio-cordoba",
+          "sku": "mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga",
           "description": "Tubo de oxigeno 0,415 con regulador y bolso de transporte.",
           "image": "https://insersalud.com/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg",
-          "brand": {
-            "@type": "Brand",
-            "name": "INSER SALUD"
-          },
           "category": "Oxigenoterapia",
           "offers": {
             "@type": "Offer",
             "price": "270",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -970,6 +1094,7 @@
         "@type": "Offer",
         "price": "36",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -978,6 +1103,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Nasal BMC N4 con Apoya Frente",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "nascara-nasal-con-apoya-frente-bmc-n4-talle-m-l",
           "description": "Mascara nasal economica con gel suave, talles M/L.",
           "image": "https://insersalud.com/artifacts/products/231e89f7-3ea1-4155-84ba-d67de27ddf8d.jpg",
           "brand": {
@@ -989,6 +1116,7 @@
             "@type": "Offer",
             "price": "36",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -997,6 +1125,7 @@
         "@type": "Offer",
         "price": "60",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1005,6 +1134,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Nasal BMC N5a sin Apoya Frente",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "nascara-nasal-sin-apoya-frente-bmc-n5a-talles-swsm-",
           "description": "Mascara nasal sin apoya frente, amplio campo visual.",
           "image": "https://insersalud.com/artifacts/products/7e6ce401-57fd-4b1c-81d6-2bebf2d3cd3d.jpg",
           "brand": {
@@ -1016,6 +1147,7 @@
             "@type": "Offer",
             "price": "60",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1024,6 +1156,7 @@
         "@type": "Offer",
         "price": "89.50",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1032,6 +1165,7 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Nasal BMC Multitalle",
+          "url": "https://insersalud.com/mascaras-cpap",
           "description": "Mascara nasal multitalle compatible CPAP/BiPAP.",
           "image": "https://insersalud.com/artifacts/products/1752271357751-2ef748a6-b33f-49c3-8995-b61e60435185.jpg",
           "brand": {
@@ -1043,6 +1177,7 @@
             "@type": "Offer",
             "price": "89.50",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1051,6 +1186,7 @@
         "@type": "Offer",
         "price": "157",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1059,6 +1195,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Nasal AirFit Minimo Contacto ResMed",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "-mascara-nasal-airfit-mimimo-contacto-talles-swsm-resmed",
           "description": "Mascara nasal de minimo contacto sin apoya frente.",
           "image": "https://insersalud.com/artifacts/products/d34cfe5d-2be4-4768-9901-57d4651d2380.jpg",
           "brand": {
@@ -1070,6 +1208,7 @@
             "@type": "Offer",
             "price": "157",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1078,6 +1217,7 @@
         "@type": "Offer",
         "price": "42",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1086,6 +1226,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Almohadilla Nasal Pillow Yuwell YP-01",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "mascara-nasal-yuwell-pillow-l-o-m-yp-01-para-cpap-y-bipap",
           "description": "Almohadillas nasales de minima presencia facial.",
           "image": "https://insersalud.com/artifacts/products/1752270243027-43fec688-2e01-4f0b-9f5f-76e8fa11db9d.jpg",
           "brand": {
@@ -1097,6 +1239,7 @@
             "@type": "Offer",
             "price": "42",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1105,6 +1248,7 @@
         "@type": "Offer",
         "price": "52",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1113,6 +1257,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Buconasal Yuwell con Apoya Frente",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "buconasal-con-apoya-frente-yuwell-cpapbpap",
           "description": "Mascara buconasal (full face) estandar.",
           "image": "https://insersalud.com/artifacts/products/7c70e16b-1955-44ed-9297-3088a17005e5.jpg",
           "brand": {
@@ -1124,6 +1270,7 @@
             "@type": "Offer",
             "price": "52",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1132,6 +1279,7 @@
         "@type": "Offer",
         "price": "55",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1140,6 +1288,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Buconasal Yuwell YF02 sin Apoya Frente",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "buconasal-sin-apoya-frente-yuwell-yf02-cpapbpap",
           "description": "Mascara buconasal sin apoya frente, campo visual amplio.",
           "image": "https://insersalud.com/artifacts/products/bdaf0580-27be-4e1b-86d4-bc5216e7b94f.jpg",
           "brand": {
@@ -1151,6 +1301,7 @@
             "@type": "Offer",
             "price": "55",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1159,6 +1310,7 @@
         "@type": "Offer",
         "price": "52",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1167,6 +1319,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Buconasal BMC F5A sin Apoya Frente",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "buconasal-sin-apoya-frente-bmc-sml-f5a-cpapbpap",
           "description": "Mascara buconasal sin apoya frente.",
           "image": "https://insersalud.com/artifacts/products/a1504e31-1c48-4f61-b0d8-f7bb5bc03c78.jpg",
           "brand": {
@@ -1178,6 +1332,7 @@
             "@type": "Offer",
             "price": "52",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1186,6 +1341,7 @@
         "@type": "Offer",
         "price": "189.50",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1194,6 +1350,7 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Nasobucal ResMed AirFit F20",
+          "url": "https://insersalud.com/mascaras-cpap",
           "description": "Mascara buconasal premium de amplio sellado.",
           "image": "https://insersalud.com/artifacts/airfit_f20.jpg",
           "brand": {
@@ -1205,6 +1362,7 @@
             "@type": "Offer",
             "price": "189.50",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1213,6 +1371,7 @@
         "@type": "Offer",
         "price": "212",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1221,6 +1380,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Nasobucal ResMed AirFit F30",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "mascarilla-nasobucal-airfit-f30-resmed-cpapbpap",
           "description": "Mascara buconasal de contacto minimo y bajo perfil.",
           "image": "https://insersalud.com/artifacts/products/3b1f7377-109b-4572-a96c-9a2727df3d4f.jpg",
           "brand": {
@@ -1232,6 +1393,7 @@
             "@type": "Offer",
             "price": "212",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1240,6 +1402,7 @@
         "@type": "Offer",
         "price": "105",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1248,6 +1411,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Pediatrica HSINER Cirri Mini",
+          "url": "https://insersalud.com/mascaras-pediatricas",
+          "sku": "nascara-nasal-pediatrica-nasal-hsiner-cirri-mini-s-m-l-xs",
           "description": "Mascara nasal pediatrica, talles XS/S/M/L.",
           "image": "https://insersalud.com/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg",
           "brand": {
@@ -1259,6 +1424,7 @@
             "@type": "Offer",
             "price": "105",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1267,6 +1433,7 @@
         "@type": "Offer",
         "price": "227",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1275,6 +1442,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Mascara Pediatrica Philips Wisp (jirafa)",
+          "url": "https://insersalud.com/mascaras-pediatricas",
+          "sku": "nascara-nasal-peditrica-jirafa-philips-respironics",
           "description": "Mascara nasal pediatrica de diseño amigable.",
           "image": "https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg",
           "brand": {
@@ -1286,6 +1455,7 @@
             "@type": "Offer",
             "price": "227",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1294,6 +1464,7 @@
         "@type": "Offer",
         "price": "97",
         "priceCurrency": "USD",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1302,17 +1473,16 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Infant CPAP Kit Neonatal",
+          "url": "https://insersalud.com/mascaras-pediatricas",
+          "sku": "nascara-nasal-pediatrica-infant-cpap-kit-00-0-1-2-3-4-5",
           "description": "Kit CPAP neonatal, tallas 00 a 5.",
           "image": "https://insersalud.com/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg",
-          "brand": {
-            "@type": "Brand",
-            "name": "INSER SALUD"
-          },
           "category": "Máscara pediátrica",
           "offers": {
             "@type": "Offer",
             "price": "97",
             "priceCurrency": "USD",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1321,6 +1491,7 @@
         "@type": "Offer",
         "price": "36000",
         "priceCurrency": "ARS",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1329,17 +1500,16 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Tubuladura para CPAP / BiPAP",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "tubuladura-para-cpap-bipap",
           "description": "Tubuladura de repuesto universal para CPAP y BiPAP.",
           "image": "https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg",
-          "brand": {
-            "@type": "Brand",
-            "name": "INSER SALUD"
-          },
           "category": "Accesorio",
           "offers": {
             "@type": "Offer",
             "price": "36000",
             "priceCurrency": "ARS",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1348,6 +1518,7 @@
         "@type": "Offer",
         "price": "68000",
         "priceCurrency": "ARS",
+        "priceValidUntil": "2027-08-25",
         "availability": "https://schema.org/InStock",
         "areaServed": {
           "@type": "Country",
@@ -1356,6 +1527,8 @@
         "itemOffered": {
           "@type": "Product",
           "name": "Máscara Buconasal BMC F2 Codo Azul (Terapia Intensiva)",
+          "url": "https://insersalud.com/mascaras-cpap",
+          "sku": "mascara-buconasal-bmc-f2-codo-azul",
           "description": "Máscara buconasal (full face) no ventilada con codo azul, sin puertos de exhalación: para respiradores de terapia intensiva y VNI con válvula espiratoria. Silicona médica, conexión estándar de 22 mm. Aprobada por ANMAT.",
           "image": "https://insersalud.com/artifacts/products/bmc_f2_codo_azul_2.jpg",
           "brand": {
@@ -1367,6 +1540,7 @@
             "@type": "Offer",
             "price": "68000",
             "priceCurrency": "ARS",
+            "priceValidUntil": "2027-08-25",
             "availability": "https://schema.org/InStock"
           }
         }
@@ -1567,7 +1741,7 @@
   }
 }
   </script>
-  <script type="module" crossorigin src="/assets/index-BPahV6tZ.js"></script>
+  <script type="module" crossorigin src="/assets/index-Dq1_eURE.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/react-vendor-DEMrqijm.js">
   <link rel="modulepreload" crossorigin href="/assets/icons-Dl5iaD32.js">
   <link rel="stylesheet" crossorigin href="/assets/index-Do-B0xmx.css">
@@ -1582,6 +1756,7 @@
 <h2>No te entregamos una caja</h2>
 <p>Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.</p>
 <p>La instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.</p>
+<p>En Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.</p>
 <p>Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.</p>
 <p>Y si dudás entre alquilar y comprar: alquilá un CPAP o AutoCPAP, probalo en tu casa, y si después lo comprás te descontamos ese primer mes del precio de venta.</p>
 
@@ -1629,7 +1804,7 @@
 <li><strong>AutoCPAP BMC G2S Mini</strong> — U$S 1.400 — presión automática, con almohadillas nasales</li>
 <li><strong>CPAP Philips DreamStation</strong> — U$S 579 — CPAP fijo con humidificador y conectividad</li>
 <li><strong>AutoCPAP Philips DreamStation</strong> — U$S 758 — con humidificador y conectividad</li>
-<li><strong>CPAP ResMed AirSense 10</strong> — $799.000 — oferta, equipo completo, el estándar de oro en apnea del sueño</li>
+<li><strong>CPAP ResMed AirSense 10</strong> — $799.000 — oferta, equipo completo, el CPAP de gama alta de nuestro catálogo</li>
 <li><strong>AutoCPAP ResMed AirSense 10</strong> — U$S 907 — presión automática, app myAir</li>
 <li><strong>CPAP Yuwell YH-360</strong> — U$S 416 — con humidificador, silencioso</li>
 <li><strong>BiPAP BMC G3 con frecuencia respiratoria</strong> — U$S 907 — para EPOC y enfermedades neuromusculares</li>
@@ -1639,7 +1814,7 @@
 <li><strong>Concentrador de oxígeno YUWELL 10 litros (alto flujo)</strong> — $2.800.000 — hasta 10 L/min, para alta demanda de oxígeno y centros de rehabilitación pulmonar</li>
 <li><strong>Concentrador estacionario Yuwell 5 L/min</strong> — U$S 713 — para uso domiciliario continuo</li>
 <li><strong>Concentrador estacionario Yuwell 7F-5B de 5 litros</strong> — $1.170.000 — con humidificador incorporado, flujo continuo de 0,5 a 5 L/min — oferta puntual: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock</li>
-<li><strong>Concentrador portátil KINGON P2-S3</strong> — U$S 1.880 — el más liviano, apto para vuelos</li>
+<li><strong>Concentrador portátil KINGON P2-S3</strong> — U$S 1.880 — el más liviano de nuestro catálogo, apto para vuelos</li>
 <li><strong>Concentrador portátil KINGON P2-TOC</strong> — U$S 3.458 — 9,5 hs de autonomía, continuo + pulso</li>
 <li><strong>Concentrador portátil KINGON P2-E7</strong> — U$S 3.099 — alto flujo continuo, batería extendida</li>
 <li><strong>Concentrador portátil KINGON P2-E6</strong> — U$S 2.695 — flujo continuo con batería</li>
@@ -1648,7 +1823,7 @@
 <li><strong>Concentrador portátil Philips SimplyGo</strong> — U$S 3.887 — continuo + pulso, apto vuelos</li>
 <li><strong>Mochila de oxígeno</strong> — U$S 270 — tubo 0,415 + regulador + bolso, para traslados</li>
 <li><strong>Máscara nasal DreamWear</strong> — U$S 153 — mínimo contacto, CPAP/BiPAP</li>
-<li><strong>Máscara nasal RESCOMF</strong> — U$S 35 — la más económica, multitalle</li>
+<li><strong>Máscara nasal RESCOMF</strong> — U$S 35 — la más económica de nuestro catálogo, multitalle</li>
 <li><strong>Máscara nasal BMC N4</strong> — U$S 36 — con apoya frente, económica</li>
 <li><strong>Máscara nasal BMC N5a</strong> — U$S 60 — sin apoya frente, campo visual amplio</li>
 <li><strong>Máscara nasal BMC multitalle</strong> — U$S 89,50 — compatible CPAP/BiPAP</li>
@@ -1705,7 +1880,7 @@
 
 <h2>Cómo trabajamos</h2>
 <ol>
-<li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Respondemos en minutos.</li>
+<li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.</li>
 <li><strong>Te asesoramos</strong>: elegimos el equipo correcto según tu prescripción médica y tu presupuesto.</li>
 <li><strong>Entregamos e instalamos</strong>: en Córdoba a domicilio en el día; al resto del país, envío con puesta en marcha guiada.</li>
 <li><strong>Te acompañamos</strong>: adaptación, soporte técnico, repuestos y factura con presupuesto formal para el reintegro de tu obra social.</li>

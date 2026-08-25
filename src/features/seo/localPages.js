@@ -204,7 +204,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Precios de CPAP en Córdoba (referencia)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro en apnea del sueño).\nBiPAP BMC G3 con frecuencia respiratoria: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\nBiPAP BMC G3 con frecuencia respiratoria: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
             },
             {
                 title: 'CPAP, AutoCPAP o BiPAP: ¿cuál te conviene?',
@@ -439,7 +439,7 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'Concentrador portátil KINGON P2-S3 (el más liviano)', price: 'consultar' },
+            { name: 'Concentrador portátil KINGON P2-S3 (el más liviano de nuestro catálogo)', price: 'consultar' },
             { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos)', price: 'consultar' },
             { name: 'Concentrador portátil Philips SimplyGo', price: 'consultar' },
         ],
@@ -471,7 +471,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Equipos y precios (envío a todo el país)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el estándar de oro).\nBiPAP BMC G3: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\nBiPAP BMC G3: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
             },
             {
                 title: 'Cómo comprar y recibir tu equipo',
@@ -487,11 +487,11 @@ export const localPages = [
             },
             {
                 title: 'No te entregamos una caja',
-                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.\n\nEn Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.',
             },
             {
-                title: 'Probalo un mes antes de comprarlo',
-                content: 'Si no estás seguro de cómo te vas a adaptar, alquilá el equipo y probalo en tu casa.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nEs la forma de empezar el tratamiento sin la inversión completa de entrada, y sin perder lo que ya pagaste.',
+                title: 'Probalo un mes antes de comprarlo (alquiler en Córdoba)',
+                content: 'Si estás en Córdoba y no estás seguro de cómo te vas a adaptar, alquilá el equipo y probalo en tu casa.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nEs la forma de empezar el tratamiento sin la inversión completa de entrada, y sin perder lo que ya pagaste.\n\nEl alquiler es solo en Córdoba. Al resto del país vendemos con envío y te acompañamos en la puesta en marcha.',
             },
         ],
         products: [
@@ -548,7 +548,7 @@ export const localPages = [
             },
             {
                 title: 'No te entregamos una caja',
-                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.\n\nEn Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.',
             },
         ],
         products: [
@@ -635,7 +635,7 @@ export const localPages = [
             },
             {
                 title: 'Precios de máscaras (referencia)',
-                content: 'Nasales: RESCOMF multitalle U$S 35 (la más económica) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto U$S 153 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.\n\nNasobucales (full face): BMC F6 multitalle U$S 124 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face U$S 157 · BMC F2 codo azul SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
+                content: 'Nasales: RESCOMF multitalle U$S 35 (la más económica de nuestro catálogo) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto U$S 153 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.\n\nNasobucales (full face): BMC F6 multitalle U$S 124 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face U$S 157 · BMC F2 codo azul SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
             },
             {
                 title: 'Máscaras pediátricas',
@@ -647,7 +647,7 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'Máscara nasal RESCOMF multitalle (la más económica)', price: 'U$S 35' },
+            { name: 'Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)', price: 'U$S 35' },
             { name: 'Máscara nasal Philips DreamWear — mínimo contacto', price: 'U$S 153' },
             { name: 'Máscara nasobucal BMC F6 multitalle (oferta)', price: 'U$S 124' },
             { name: 'Máscara nasobucal Philips DreamWear Full Face', price: 'U$S 157' },
@@ -808,7 +808,7 @@ export const localPages = [
             },
             {
                 title: 'Modelos y precios',
-                content: 'KINGON P2-S3 — U$S 1.880: el más liviano (2,3 kg con batería) y económico, pulso, apto vuelos (FAA).\nKINGON P2-E — U$S 2.379: entrada a los de flujo continuo.\nKINGON P2-E6 — U$S 2.695: flujo continuo con batería.\nKINGON P2-E7 — U$S 3.099: alto flujo continuo, batería extendida.\nKINGON P2-TOC — U$S 3.458: continuo + pulso con 9,5 hs de autonomía.\nGCE Zen-O — U$S 3.747: premium europeo, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
+                content: 'KINGON P2-S3 — $2.735.400: el más liviano de nuestro catálogo (2,3 kg con batería), pulso, apto vuelos (FAA).\nKINGON P2-E — U$S 2.379: entrada a los de flujo continuo.\nKINGON P2-E6 — U$S 2.695: flujo continuo con batería.\nKINGON P2-E7 — U$S 3.099: alto flujo continuo, batería extendida.\nKINGON P2-TOC — U$S 3.458: continuo + pulso con 9,5 hs de autonomía.\nGCE Zen-O — U$S 3.747: premium europeo, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
             },
             {
                 title: 'Para viajar en avión',
@@ -836,13 +836,13 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'KINGON P2-S3 (el más liviano, apto vuelos)', price: 'U$S 1.880' },
+            { name: 'KINGON P2-S3 (el más liviano de nuestro catálogo, apto vuelos)', price: '$2.735.400' },
             { name: 'KINGON P2-TOC (9,5 hs, continuo + pulso)', price: 'U$S 3.458' },
             { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: 'U$S 3.747' },
             { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887' },
         ],
         faq: [
-            { q: '¿Cuál es el concentrador portátil más liviano y económico?', a: 'El KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a U$S 1.880.' },
+            { q: '¿Cuál es el concentrador portátil más liviano y económico?', a: 'El más liviano de nuestro catálogo es el KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a $2.735.400.' },
             { q: '¿Puedo viajar en avión con un concentrador portátil?', a: 'Sí, con los modelos aprobados FAA (KINGON P2-S3, GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.' },
             { q: '¿Pulso o flujo continuo?', a: 'Depende de tu indicación médica. Pulso: más liviano y autónomo, para actividad. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. Te ayudamos a elegir.' },
             { q: '¿Envían a todo el país?', a: 'Sí, enviamos a cualquier provincia con capacitación de uso guiada y garantía oficial. En Córdoba también hay alquiler para probar antes de comprar.' },

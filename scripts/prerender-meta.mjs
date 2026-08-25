@@ -43,7 +43,7 @@ const PRODUCTS = [
     ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, con almohadillas nasales'],
     ['CPAP Philips DreamStation', 'U$S 579', 'CPAP fijo con humidificador y conectividad'],
     ['AutoCPAP Philips DreamStation', 'U$S 758', 'con humidificador y conectividad'],
-    ['CPAP ResMed AirSense 10', '$799.000', 'oferta, equipo completo, el estándar de oro en apnea del sueño'],
+    ['CPAP ResMed AirSense 10', '$799.000', 'oferta, equipo completo, el CPAP de gama alta de nuestro catálogo'],
     ['AutoCPAP ResMed AirSense 10', 'U$S 907', 'presión automática, app myAir'],
     ['CPAP Yuwell YH-360', 'U$S 416', 'con humidificador, silencioso'],
     ['BiPAP BMC G3 con frecuencia respiratoria', 'U$S 907', 'para EPOC y enfermedades neuromusculares'],
@@ -53,7 +53,7 @@ const PRODUCTS = [
     ['Concentrador de oxígeno YUWELL 10 litros (alto flujo)', '$2.800.000', 'hasta 10 L/min, para alta demanda de oxígeno y centros de rehabilitación pulmonar'],
     ['Concentrador estacionario Yuwell 5 L/min', 'U$S 713', 'para uso domiciliario continuo'],
     ['Concentrador estacionario Yuwell 7F-5B de 5 litros', '$1.170.000', 'con humidificador incorporado, flujo continuo de 0,5 a 5 L/min — oferta puntual: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock'],
-    ['Concentrador portátil KINGON P2-S3', 'U$S 1.880', 'el más liviano, apto para vuelos'],
+    ['Concentrador portátil KINGON P2-S3', 'U$S 1.880', 'el más liviano de nuestro catálogo, apto para vuelos'],
     ['Concentrador portátil KINGON P2-TOC', 'U$S 3.458', '9,5 hs de autonomía, continuo + pulso'],
     ['Concentrador portátil KINGON P2-E7', 'U$S 3.099', 'alto flujo continuo, batería extendida'],
     ['Concentrador portátil KINGON P2-E6', 'U$S 2.695', 'flujo continuo con batería'],
@@ -62,7 +62,7 @@ const PRODUCTS = [
     ['Concentrador portátil Philips SimplyGo', 'U$S 3.887', 'continuo + pulso, apto vuelos'],
     ['Mochila de oxígeno', 'U$S 270', 'tubo 0,415 + regulador + bolso, para traslados'],
     ['Máscara nasal DreamWear', 'U$S 153', 'mínimo contacto, CPAP/BiPAP'],
-    ['Máscara nasal RESCOMF', 'U$S 35', 'la más económica, multitalle'],
+    ['Máscara nasal RESCOMF', 'U$S 35', 'la más económica de nuestro catálogo, multitalle'],
     ['Máscara nasal BMC N4', 'U$S 36', 'con apoya frente, económica'],
     ['Máscara nasal BMC N5a', 'U$S 60', 'sin apoya frente, campo visual amplio'],
     ['Máscara nasal BMC multitalle', 'U$S 89,50', 'compatible CPAP/BiPAP'],
@@ -157,6 +157,182 @@ const PATH_SCHEMA = {
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const attr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
 
+// ── Fotos reales de producto para las subpaginas ─────────────────────────────
+// Las landings (localPages.js) y las patologias (pathologyData.js) nombran cada
+// producto con un texto distinto. Este resolvedor lleva ese nombre a la MISMA
+// foto que declara el OfferCatalog del home en index.html, para que las 24
+// subpaginas dejen de servirse sin una sola <img> (antes la unica imagen de su
+// HTML era el logo del og:image).
+// Reglas ordenadas por especificidad: gana la primera cuyos tokens esten TODOS
+// en el nombre normalizado. Si ninguna matchea NO se emite imagen: preferimos
+// una pagina sin foto antes que una foto equivocada.
+const PRODUCT_IMAGES = [
+    [['infant cpap kit'], '/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg'],
+    [['cirri mini'], '/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg'],
+    [['wisp'], '/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg'],
+    [['codo azul'], '/artifacts/products/bmc_f2_codo_azul_2.jpg'],
+    [['f6'], '/artifacts/products/bmc_f2_1.jpg'],
+    [['dreamwear', 'nasobucal'], '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg'],
+    [['dreamwear', 'full face'], '/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg'],
+    [['dreamwear'], '/artifacts/products/1751037116992-1000306910.jpg'],
+    [['rescomf'], '/artifacts/products/1751037583753-1000306949.jpg'],
+    [['tubuladura'], '/artifacts/products/tubuladura_cpap_bipap.jpg'],
+    [['poligrafo'], '/artifacts/products/1752508033704-poligrafobmc.jpg'],
+    [['cough assist'], '/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg'],
+    [['asistente de tos'], '/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg'],
+    [['stellar'], '/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg'],
+    [['bipap', 'g3'], '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg'],
+    [['autocpap', 'g2s'], '/artifacts/products/autocpap_bmc_g2_2.jpg'],
+    [['airsense 10'], '/artifacts/products/resmed_airsense10_3.jpg'],
+    [['cpap', 'g2s'], '/artifacts/products/1752160942319-bmcg2.2.jpg'],
+    [['dreamstation'], '/artifacts/products/bbb738c4-8671-4228-b86d-6f1ffd179569.jpg'],
+    [['p2-s3'], '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg'],
+    [['p2-toc'], '/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg'],
+    [['zen-o'], '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg'],
+    [['simplygo'], '/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg'],
+    [['yuwell', '10 litros'], '/artifacts/products/concentrador_yuwell_10l_2.jpg'],
+    [['yuwell', '7f-5b'], '/artifacts/products/concentrador_yuwell_5l.jpg'],
+    [['yuwell', 'estacionario'], '/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg'],
+    [['bmc', 'estacionario'], '/artifacts/products/concentrador_bmc_1.jpg'],
+    [['mochila'], '/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg'],
+];
+
+const normalizarNombre = (s) => String(s || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+
+// Filas que son una CATEGORIA, no un producto concreto ("Máscaras e insumos de
+// reposición", "Ventilador domiciliario y asistente de tos"): no llevan foto,
+// porque cualquier foto seria la de uno solo de los equipos que agrupan.
+const NOMBRES_GENERICOS = ['mascaras ', 'ventilador domiciliario y asistente'];
+
+function resolveProductImage(nombre) {
+    const n = normalizarNombre(nombre);
+    if (!n) return '';
+    if (NOMBRES_GENERICOS.some((g) => n.startsWith(g) || n.includes(g))) return '';
+    for (const [tokens, img] of PRODUCT_IMAGES) {
+        if (tokens.every((t) => n.includes(t))) return img;
+    }
+    return '';
+}
+
+// Dimensiones reales del archivo (JPEG SOFn / PNG IHDR) para poder emitir
+// width/height y no provocar saltos de layout. Si no se puede leer, se omiten.
+const _dimCache = new Map();
+
+function leerDimensiones(buf) {
+    if (buf.length > 24 && buf.readUInt32BE(0) === 0x89504e47) {
+        return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
+    }
+    if (buf.length > 4 && buf[0] === 0xff && buf[1] === 0xd8) {
+        let i = 2;
+        while (i + 9 < buf.length) {
+            if (buf[i] !== 0xff) { i++; continue; }
+            const marker = buf[i + 1];
+            if (marker === 0xd8 || marker === 0x01 || (marker >= 0xd0 && marker <= 0xd7)) { i += 2; continue; }
+            const len = buf.readUInt16BE(i + 2);
+            if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
+                return { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+            }
+            if (len < 2) break;
+            i += 2 + len;
+        }
+    }
+    return null;
+}
+
+function imageSize(src) {
+    if (_dimCache.has(src)) return _dimCache.get(src);
+    let out = null;
+    for (const dir of [DIST, resolve(__dirname, '..', 'public')]) {
+        try {
+            const buf = readFileSync(resolve(dir, src.replace(/^\//, '')));
+            out = leerDimensiones(buf);
+            if (out) break;
+        } catch { /* probar el siguiente directorio */ }
+    }
+    _dimCache.set(src, out);
+    return out;
+}
+
+function imgTag(src, alt) {
+    if (!src) return '';
+    const d = imageSize(src);
+    const dim = d ? ` width="${d.w}" height="${d.h}"` : '';
+    return `<img src="${attr(src)}" alt="${attr(alt)}"${dim} loading="lazy" decoding="async">`;
+}
+
+// Convierte el precio VISIBLE de la pagina en price + priceCurrency.
+// Solo un precio limpio genera Offer: "consultar", "consultar alquiler",
+// "desde U$S 97" y cualquier rango devuelven null. Un precio en el schema que no
+// coincide con el que se ve en pantalla es peor que no declarar schema.
+function parsePrice(raw) {
+    const s = String(raw || '').trim();
+    const m = s.match(/^(?:también en venta\s+)?(?:U\$S\s*([\d.,]+)|\$\s*([\d.]+))$/i);
+    if (!m) return null;
+    if (m[1]) {
+        const n = m[1].replace(/\./g, '').replace(',', '.');
+        return /^\d+(\.\d+)?$/.test(n) ? { price: n, currency: 'USD' } : null;
+    }
+    const n = m[2].replace(/\./g, '');
+    return /^\d+$/.test(n) ? { price: n, currency: 'ARS' } : null;
+}
+
+// ItemList corto con SOLO los productos que la pagina muestra en pantalla.
+// NO es el OfferCatalog de 44 productos del home (ese se saco a proposito de las
+// subpaginas con stripOfferCatalog porque repetia ~38 KB identicos en cada URL).
+function buildProductItemList(items, pageUrl, listName) {
+    if (!items.length) return null;
+    return {
+        '@type': 'ItemList',
+        '@id': `${pageUrl}#equipos`,
+        name: listName,
+        numberOfItems: items.length,
+        itemListElement: items.map((it, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+                '@type': 'Product',
+                name: it.name,
+                image: SALUD + it.img,
+                url: `${pageUrl}#equipos`,
+                offers: {
+                    '@type': 'Offer',
+                    price: it.price,
+                    priceCurrency: it.currency,
+                    availability: 'https://schema.org/InStock',
+                    url: pageUrl,
+                    seller: { '@id': 'https://insersalud.com/#organization' },
+                },
+            },
+        })),
+    };
+}
+
+// Productos "declarables" de una landing: los que tienen precio limpio Y foto real.
+function productosLanding(p) {
+    return (p.products || []).map((x) => {
+        const pr = parsePrice(x.price);
+        if (!pr) return null;
+        const img = resolveProductImage(x.name);
+        if (!img) return null;
+        return { name: x.name, img, price: pr.price, currency: pr.currency };
+    }).filter(Boolean);
+}
+
+// Idem para patologias (pathologyData usa priceARS / priceUSD y trae su propio img).
+function productosPatologia(p) {
+    return (p.products || []).map((x) => {
+        const pr = parsePrice(x.priceARS || x.priceUSD);
+        if (!pr) return null;
+        // El resolvedor manda sobre x.img para no repetir fotos cruzadas del origen.
+        const img = resolveProductImage(x.name) || x.img || '';
+        if (!img) return null;
+        return { name: x.name, img, price: pr.price, currency: pr.currency };
+    }).filter(Boolean);
+}
+
 // Quita hasOfferCatalog (los 45 productos, ~38 KB) del bloque de negocio en las SUBPAGINAS.
 // El catalogo completo pertenece al home; repetirlo en las 23 URLs gastaba casi 1 MB del
 // presupuesto de rastreo de Google en contenido identico. Los datos del negocio (nombre,
@@ -240,6 +416,9 @@ function buildPathologySchema(p, base) {
             })),
         });
     }
+    // Product/Offer de los equipos que la patologia muestra, con su precio visible.
+    const lista = buildProductItemList(productosPatologia(p), url, `Equipos para ${p.title}`);
+    if (lista) graph['@graph'].push(lista);
     return `<script type="application/ld+json">\n${JSON.stringify(graph, null, 2)}\n</script>\n`;
 }
 
@@ -334,6 +513,7 @@ ${MASK_GUIDE.map(([tipo, queEs, paraQuien, ojo, modelos]) => `<h3>Máscara ${esc
 <h2>No te entregamos una caja</h2>
 <p>Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.</p>
 <p>La instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.</p>
+<p>En Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.</p>
 <p>Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.</p>
 <p>Y si dudás entre alquilar y comprar: alquilá un CPAP o AutoCPAP, probalo en tu casa, y si después lo comprás te descontamos ese primer mes del precio de venta.</p>`;
 
@@ -387,7 +567,7 @@ ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></l
     const proceso = `
 <h2>Cómo trabajamos</h2>
 <ol>
-<li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Respondemos en minutos.</li>
+<li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.</li>
 <li><strong>Te asesoramos</strong>: elegimos el equipo correcto según tu prescripción médica y tu presupuesto.</li>
 <li><strong>Entregamos e instalamos</strong>: en Córdoba a domicilio en el día; al resto del país, envío con puesta en marcha guiada.</li>
 <li><strong>Te acompañamos</strong>: adaptación, soporte técnico, repuestos y factura con presupuesto formal para el reintegro de tu obra social.</li>
@@ -426,6 +606,17 @@ function buildPathologyBody(p, isSalud) {
           p.faq.map(f => `<h3>${esc(f.q)}</h3><p>${inlineLinks(esc(f.a))}</p>`).join('\n') +
           `\n</section>`
         : '';
+    // Equipos con FOTO REAL y precio visible: hasta agosto de 2026 el HTML estatico
+    // de las patologias no traia ni una <img> ni un solo precio de producto.
+    const equipos = (p.products && p.products.length)
+        ? `<section><h2 id="equipos">Equipos para ${esc(p.title)}</h2>\n<ul>\n` +
+          p.products.map(x => {
+              const precio = x.priceARS || x.priceUSD || '';
+              const foto = resolveProductImage(x.name) || x.img || '';
+              return `<li>${foto ? imgTag(foto, x.name) + ' ' : ''}${esc(x.name)}${precio ? ' — ' + esc(precio) : ''}</li>`;
+          }).join('\n') +
+          `\n</ul>\n</section>`
+        : '';
     return `<div id="ssr-content"><main>
 <nav><a href="/">Inicio</a> › <a href="/patologia/${esc(p.slug)}">${esc(p.title)}</a></nav>
 <h1>${esc(p.title)}${esc(sufijo)}</h1>
@@ -434,6 +625,7 @@ ${p.subtitle ? `<p>${esc(p.subtitle)}</p>` : ''}
 ${p.intro ? `<p>${inlineLinks(esc(p.intro))}</p>` : ''}
 ${p.description ? `<p>${esc(p.description)}</p>` : ''}
 ${secs}
+${equipos}
 ${faqs}
 <section><h2>Revisión profesional</h2>
 <p>Contenido revisado por el <strong>Lic. Sergio Giorda</strong>, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.</p>
@@ -449,8 +641,13 @@ function buildLocalBody(p) {
     const secs = (p.sections || []).map(s =>
         `<section><h2>${esc(s.title)}</h2>${textToHtml(s.content)}</section>`
     ).join('\n');
+    // Foto real por producto. La imagen NO depende del precio: una landing cuyos
+    // equipos se cotizan ("consultar") igual tiene que mostrar el equipo.
     const prods = (p.products && p.products.length)
-        ? `<h2>Equipos relacionados</h2>\n<ul>\n${p.products.map(x => `<li>${esc(x.name)} — ${esc(x.price)}</li>`).join('\n')}\n</ul>`
+        ? `<h2 id="equipos">Equipos relacionados</h2>\n<ul>\n${p.products.map(x => {
+            const foto = resolveProductImage(x.name);
+            return `<li>${foto ? imgTag(foto, x.name) + ' ' : ''}${esc(x.name)} — ${esc(x.price)}</li>`;
+        }).join('\n')}\n</ul>`
         : '';
     const faq = (p.faq || []).map(f => `<h3>${esc(f.q)}</h3><p>${inlineLinks(esc(f.a))}</p>`).join('\n');
     const rel = (p.related || []).map(r => `<li><a href="${attr(r.href)}">${esc(r.label)}</a></li>`).join('\n');
@@ -505,6 +702,10 @@ function buildLocalSchema(p, base) {
             },
         ],
     };
+    // Product/Offer SOLO de los equipos que esta landing muestra en pantalla, con
+    // el precio EXACTO que se ve en el texto. Las landings no declaraban ninguno.
+    const lista = buildProductItemList(productosLanding(p), url, `Equipos en ${p.h1}`);
+    if (lista) graph['@graph'].push(lista);
     return `<script type="application/ld+json">\n${JSON.stringify(graph, null, 2)}\n</script>\n`;
 }
 

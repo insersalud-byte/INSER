@@ -30,7 +30,7 @@
   <meta property="og:title" content="Alquiler de Oxígeno a Domicilio en Córdoba | INSER SALUD" />
   <meta property="og:description" content="Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo 24 horas, con entrega e instalación. Respondemos por WhatsApp todos los días." />
   <meta property="og:url" content="https://insersalud.com/oxigeno-a-domicilio-cordoba" />
-  <meta property="og:image" content="https://insersalud.com/artifacts/logo_insersalud.jpg" />
+  <meta property="og:image" content="https://insersalud.com/og-insersalud.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="INSER SALUD - Equipos Respiratorios Córdoba" />
@@ -40,7 +40,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="INSER SALUD – Equipos Respiratorios en Córdoba" />
   <meta name="twitter:description" content="Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo 24 horas, con entrega e instalación. Respondemos por WhatsApp todos los días." />
-  <meta name="twitter:image" content="https://insersalud.com/artifacts/logo_insersalud.jpg" />
+  <meta name="twitter:image" content="https://insersalud.com/og-insersalud.jpg" />
 
   <!-- SEO por host: inser.ar (venta de equipos) e insersalud.com (terapias domiciliarias
        y alquiler) se indexan por separado con titulo, descripcion y canonical propios -->
@@ -157,18 +157,32 @@
     "latitude": -31.4201,
     "longitude": -64.1888
   },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
-    "opens": "09:00",
-    "closes": "18:00"
-  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "name": "Horario comercial",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "name": "Consultas por WhatsApp",
+      "description": "Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. No hay guardia técnica ni atención de urgencias.",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+54-9-351-206-5320",
@@ -176,11 +190,10 @@
     "availableLanguage": "Spanish"
   },
   "sameAs": [
-    "https://insersalud.com",
     "https://share.google/QTMdrJZGqmyyNBHYh",
     "https://www.google.com/search?kgmid=/g/11zfs2vwmz",
     "https://www.instagram.com/insersalud",
-    "https://www.facebook.com/insersalud",
+    "https://www.facebook.com/people/Inser-Salud/61576746347333/",
     "https://wa.me/5493512065320"
   ]
 }
@@ -263,7 +276,7 @@
   }
 }
   </script>
-  <script type="module" crossorigin src="/assets/index-BPahV6tZ.js"></script>
+  <script type="module" crossorigin src="/assets/index-Dq1_eURE.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/react-vendor-DEMrqijm.js">
   <link rel="modulepreload" crossorigin href="/assets/icons-Dl5iaD32.js">
   <link rel="stylesheet" crossorigin href="/assets/index-Do-B0xmx.css">
@@ -387,6 +400,34 @@
           }
         }
       ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://insersalud.com/oxigeno-a-domicilio-cordoba#equipos",
+      "name": "Equipos en Oxígeno a domicilio en Córdoba",
+      "numberOfItems": 1,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)",
+            "image": "https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg",
+            "url": "https://insersalud.com/oxigeno-a-domicilio-cordoba#equipos",
+            "offers": {
+              "@type": "Offer",
+              "price": "999000",
+              "priceCurrency": "ARS",
+              "availability": "https://schema.org/InStock",
+              "url": "https://insersalud.com/oxigeno-a-domicilio-cordoba",
+              "seller": {
+                "@id": "https://insersalud.com/#organization"
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }
@@ -422,11 +463,11 @@
 <p>Segundo, cuántas horas por día y si también es de noche. El estacionario entrega flujo continuo; los portátiles a pulso liberan oxígeno cuando detectan la inspiración, y durante el sueño la respiración se vuelve más suave, así que para la noche lo habitual es el estacionario en casa.</p>
 <p>Tercero, si necesitás salir. Ahí se define si sumás un portátil o una mochila para los traslados.</p>
 <p>Si no tenés la indicación a mano, mandanos una foto por WhatsApp y te decimos qué equipo cumple con lo que te prescribieron. Para cotizar no te pedimos DNI, dirección ni obra social: esos datos recién hacen falta al cerrar la operación.</p></section>
-<h2>Equipos relacionados</h2>
+<h2 id="equipos">Equipos relacionados</h2>
 <ul>
-<li>Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂) — $999.000</li>
-<li>Concentrador portátil KINGON P2-S3 — consultar</li>
-<li>Mochila / tubo de oxígeno portátil — consultar</li>
+<li><img src="/artifacts/products/concentrador_bmc_1.jpg" alt="Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)" width="900" height="771" loading="lazy" decoding="async"> Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂) — $999.000</li>
+<li><img src="/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg" alt="Concentrador portátil KINGON P2-S3" width="900" height="692" loading="lazy" decoding="async"> Concentrador portátil KINGON P2-S3 — consultar</li>
+<li><img src="/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg" alt="Mochila / tubo de oxígeno portátil" width="900" height="1187" loading="lazy" decoding="async"> Mochila / tubo de oxígeno portátil — consultar</li>
 </ul>
 <h2>Preguntas frecuentes</h2>
 <h3>¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?</h3><p>Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.</p>

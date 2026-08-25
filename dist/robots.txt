@@ -1,3 +1,23 @@
+# robots.txt — insersalud.com
+#
+# UN SOLO grupo de reglas para TODOS los rastreadores. Es a proposito.
+# Motivo (RFC 9309, seccion 2.2.1, y la documentacion de Google): un bot obedece
+# UNICAMENTE al grupo mas especifico que lo nombra e IGNORA por completo el grupo
+# "User-agent: *". Cuando cada bot tenia su propio grupo con una sola linea
+# "Allow: /", ninguno heredaba los Disallow de abajo: Googlebot, Bingbot y los
+# bots de IA quedaban habilitados a rastrear /admin, /login, /login-admin, /api/
+# y la variante dormida /insersalud.
+#
+# Con un unico grupo "*" el efecto es el mismo que se buscaba y sin la trampa:
+# TODOS los bots (incluidos GPTBot, ClaudeBot, anthropic-ai, PerplexityBot,
+# Perplexity-User, OAI-SearchBot, ChatGPT-User, CCBot, cohere-ai,
+# Google-Extended, Applebot, Applebot-Extended, DuckAssistBot, Amazonbot,
+# Meta-ExternalAgent, FacebookBot, Googlebot y Bingbot) tienen permitido TODO el
+# sitio publico —las 18 landings, las 6 patologias, el home, /tarjeta y
+# /politica-de-privacidad— y solo se les bloquean las 5 rutas privadas.
+# Que las IA puedan leer el sitio es un objetivo del negocio: por eso no se
+# bloquea nada de contenido y no hace falta listarlos uno por uno.
+
 User-agent: *
 Allow: /
 Disallow: /api/
@@ -10,67 +30,23 @@ Disallow: /insersalud
 Sitemap: https://insersalud.com/sitemap.xml
 Sitemap: https://insersalud.com/sitemap-insersalud.xml
 
-# Crawl-delay para bots agresivos
+# ── Crawl-delay para bots agresivos de auditoria SEO ──────────────────
+# OJO: al tener grupo propio NO heredan el grupo "*", asi que los Disallow
+# van repetidos aca adentro. Si se agrega otro grupo por bot, repetirlos.
 User-agent: AhrefsBot
 Crawl-delay: 10
+Allow: /
+Disallow: /api/
+Disallow: /admin
+Disallow: /login
+Disallow: /login-admin
+Disallow: /insersalud
 
 User-agent: SemrushBot
 Crawl-delay: 10
-
-# ── AI Crawlers bienvenidos ──────────────────────────────────────────
-# Entrenamiento / indexado IA
-User-agent: GPTBot
 Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: Amazonbot
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: cohere-ai
-Allow: /
-
-User-agent: Meta-ExternalAgent
-Allow: /
-
-User-agent: FacebookBot
-Allow: /
-
-# Los que generan CITAS en vivo (respuestas con fuente) — clave para GEO
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-User-agent: DuckAssistBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-# Indexadores de buscadores (Bing alimenta a Microsoft Copilot)
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
+Disallow: /api/
+Disallow: /admin
+Disallow: /login
+Disallow: /login-admin
+Disallow: /insersalud

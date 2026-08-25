@@ -30,7 +30,7 @@
   <meta property="og:title" content="Alquiler de Equipos Respiratorios en Córdoba | Entrega e Instalación | INSER SALUD" />
   <meta property="og:description" content="Alquilá oxígeno, CPAP, BiPAP, ventilador o asistente de tos en Córdoba, con entrega e instalación a domicilio. Decinos qué te indicó tu médico y te cotizamos el mismo día por WhatsApp." />
   <meta property="og:url" content="https://inser.ar/alquiler-equipos-respiratorios-cordoba" />
-  <meta property="og:image" content="https://insersalud.com/artifacts/logo_insersalud.jpg" />
+  <meta property="og:image" content="https://insersalud.com/og-insersalud.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="INSER SALUD - Equipos Respiratorios Córdoba" />
@@ -40,7 +40,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="INSER SALUD – Equipos Respiratorios en Córdoba" />
   <meta name="twitter:description" content="Alquilá oxígeno, CPAP, BiPAP, ventilador o asistente de tos en Córdoba, con entrega e instalación a domicilio. Decinos qué te indicó tu médico y te cotizamos el mismo día por WhatsApp." />
-  <meta name="twitter:image" content="https://insersalud.com/artifacts/logo_insersalud.jpg" />
+  <meta name="twitter:image" content="https://insersalud.com/og-insersalud.jpg" />
 
   <!-- SEO por host: inser.ar (venta de equipos) e insersalud.com (terapias domiciliarias
        y alquiler) se indexan por separado con titulo, descripcion y canonical propios -->
@@ -157,18 +157,32 @@
     "latitude": -31.4201,
     "longitude": -64.1888
   },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
-    ],
-    "opens": "09:00",
-    "closes": "18:00"
-  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "name": "Horario comercial",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "name": "Consultas por WhatsApp",
+      "description": "Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. No hay guardia técnica ni atención de urgencias.",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+54-9-351-206-5320",
@@ -176,11 +190,10 @@
     "availableLanguage": "Spanish"
   },
   "sameAs": [
-    "https://insersalud.com",
     "https://share.google/QTMdrJZGqmyyNBHYh",
     "https://www.google.com/search?kgmid=/g/11zfs2vwmz",
     "https://www.instagram.com/insersalud",
-    "https://www.facebook.com/insersalud",
+    "https://www.facebook.com/people/Inser-Salud/61576746347333/",
     "https://wa.me/5493512065320"
   ]
 }
@@ -263,7 +276,7 @@
   }
 }
   </script>
-  <script type="module" crossorigin src="/assets/index-BPahV6tZ.js"></script>
+  <script type="module" crossorigin src="/assets/index-Dq1_eURE.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/react-vendor-DEMrqijm.js">
   <link rel="modulepreload" crossorigin href="/assets/icons-Dl5iaD32.js">
   <link rel="stylesheet" crossorigin href="/assets/index-Do-B0xmx.css">
@@ -397,7 +410,7 @@
 <p>Recién al cerrar la operación te pedimos los datos para la entrega. Para cotizar no necesitás mandar DNI ni dirección.</p></section>
 <section><h2>Probalo un mes antes de comprarlo</h2><p>Si alquilás un CPAP o un AutoCPAP y después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta.</p>
 <p>Es la forma de empezar el tratamiento sin la inversión completa de entrada, y sin perder lo que ya pagaste. Aplica a CPAP y AutoCPAP.</p></section>
-<h2>Equipos relacionados</h2>
+<h2 id="equipos">Equipos relacionados</h2>
 <ul>
 <li>Concentrador de oxígeno (fijo o portátil) — consultar alquiler</li>
 <li>CPAP y AutoCPAP — consultar alquiler</li>

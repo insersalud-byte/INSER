@@ -41,8 +41,8 @@ const Precio = ({ valor, className }) => {
 // OFERTAS = todos los productos con precio en pesos ARS (promo local)
 const ofertas = [
     {
-        name: 'CPAP ResMed AirSense 10', slug: 'cpap-resmed-airsense-10', price: '$799.000', img: '/artifacts/products/resmed_airsense10_3.jpg', images: ['/artifacts/products/resmed_airsense10_3.jpg', '/artifacts/products/resmed_airsense10_4.jpg', '/artifacts/products/resmed_airsense10_2.jpg', '/artifacts/products/resmed_airsense10_5.jpg', '/artifacts/products/resmed_airsense10_1.jpg'], badge: 'OFERTA', note: 'El estándar de oro en apnea del sueño. Equipo completo.', category: 'CPAP',
-        review: 'El ResMed AirSense 10 es el estándar de oro en el tratamiento de la apnea del sueño y uno de los equipos más elegidos del mundo. Entrega una presión continua estable y confiable que mantiene tus vías respiratorias abiertas durante toda la noche. Incluye humidificador HumidAir integrado para evitar la sequedad de nariz y garganta, alivio en la exhalación (EPR) que hace más natural el momento de exhalar, y la función AutoRamp que arranca con presión suave y sube recién cuando ya estás dormido. Se conecta a la app myAir para que veas tu calidad de sueño cada mañana, y es notablemente silencioso (26 dB). Viene completo: humidificador, tubuladura, fuente, tarjeta SD y bolso de transporte. Aparatología aprobada por ANMAT, con 2 años de garantía oficial. Si preferís, también lo tenemos disponible en alquiler.',
+        name: 'CPAP ResMed AirSense 10', slug: 'cpap-resmed-airsense-10', price: '$799.000', img: '/artifacts/products/resmed_airsense10_3.jpg', images: ['/artifacts/products/resmed_airsense10_3.jpg', '/artifacts/products/resmed_airsense10_4.jpg', '/artifacts/products/resmed_airsense10_2.jpg', '/artifacts/products/resmed_airsense10_5.jpg', '/artifacts/products/resmed_airsense10_1.jpg'], badge: 'OFERTA', note: 'El CPAP de gama alta de nuestro catálogo. Equipo completo.', category: 'CPAP',
+        review: 'El ResMed AirSense 10 es el CPAP de gama alta de nuestro catálogo. El tratamiento con CPAP es la primera línea en la apnea obstructiva del sueño según las guías de la American Academy of Sleep Medicine (AASM). Entrega una presión continua estable y confiable que mantiene tus vías respiratorias abiertas durante toda la noche. Incluye humidificador HumidAir integrado para evitar la sequedad de nariz y garganta, alivio en la exhalación (EPR) que hace más natural el momento de exhalar, y la función AutoRamp que arranca con presión suave y sube recién cuando ya estás dormido. Se conecta a la app myAir para que veas tu calidad de sueño cada mañana, y es notablemente silencioso (26 dB). Viene completo: humidificador, tubuladura, fuente, tarjeta SD y bolso de transporte. Aparatología aprobada por ANMAT, con 2 años de garantía oficial. Si preferís, también lo tenemos disponible en alquiler.',
         specs: [
             ['Fabricante', 'ResMed (Australia)'],
             ['Tipo', 'CPAP — presión continua fija'],
@@ -80,7 +80,7 @@ const ofertas = [
             ['Rango de presión', '4 – 20 cm H₂O autoajustable'],
             ['Humidificador', 'p2H calefactado incluido'],
             ['Accesorios', 'Almohadillas nasales incluidas'],
-            ['Peso', '0,9 kg (el más liviano de su gama)'],
+            ['Peso', '0,9 kg'],
             ['Alimentación', '100–240 V AC / 24 V DC'],
             ['Conectividad', 'Tarjeta SD'],
             ['Garantía', '2 años oficiales'],
@@ -102,12 +102,12 @@ const ofertas = [
         ],
     },
     {
-        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: 'U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico.', category: 'Concentrador',
+        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: 'U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico de nuestro catálogo.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'KINGON (China, ANMAT)'],
             ['Tipo', 'Concentrador portátil a pulso'],
             ['Flujo', '5 settings de pulso (1 – 5)'],
-            ['Peso', '2,3 kg con batería (el más liviano)'],
+            ['Peso', '2,3 kg con batería (el más liviano de nuestro catálogo)'],
             ['Autonomía', '≈ 4 – 5 hs con batería estándar'],
             ['Alimentación', 'AC 100–240V / DC 12V / batería'],
             ['Ruido', '< 43 dB'],
@@ -361,7 +361,7 @@ const tienda = [
     },
     // ── Concentradores Portátiles ────────────────────────────────────────────
     {
-        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: 'U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico.', category: 'Concentrador',
+        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: 'U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico de nuestro catálogo.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'KINGON'],
             ['Tipo', 'Concentrador portátil a pulso'],
@@ -705,7 +705,7 @@ const tienda = [
 ];
 
 const services = [
-    { title: 'Alquiler de Equipos', desc: 'CPAP, BiPAP y Concentradores con entrega e instalación en el día en Córdoba. Sin depósito, con soporte técnico incluido.', img: '/artifacts/cpap_real.png', link: 'https://wa.me/5493512065320', cta: 'Consultar alquiler' },
+    { title: 'Alquiler de Equipos', desc: 'CPAP, BiPAP y Concentradores con entrega e instalación en el día en Córdoba. Sin depósito, con soporte técnico incluido.', img: '/artifacts/cpap_real.jpg', link: 'https://wa.me/5493512065320', cta: 'Consultar alquiler' },
     { title: 'Venta Directa', desc: 'Equipos nuevos con garantía oficial, precios publicados y asesoramiento técnico especializado antes de la compra.', img: '/artifacts/venta_directa_ofertas.jpg', link: '#tienda', cta: 'Ver tienda', focusTop: true },
     {
         title: 'Adaptación y Seguimiento',
@@ -853,7 +853,7 @@ const ALL_TAG_INFO = {
         bullets: [
             { icon: '✈️', text: 'Homologados para vuelos comerciales (aprobación FAA)' },
             { icon: '🔋', text: 'Autonomía de batería: entre 4 y 9,5 horas según modelo' },
-            { icon: '⚖️', text: 'Desde 2,3 kg con batería (KINGON P2-S3, el más liviano)' },
+            { icon: '⚖️', text: 'Desde 2,3 kg con batería (KINGON P2-S3, el más liviano de nuestro catálogo)' },
             { icon: '🔌', text: 'Carga en 220V, 12V auto o batería intercambiable' },
         ],
         waMsg: 'Hola, necesito un concentrador de oxígeno portátil. ¿Qué modelos tienen y cuáles son los precios?',
@@ -965,7 +965,7 @@ const ALL_TAG_INFO = {
     'Seguimiento': {
         icon: '📋',
         title: 'Seguimiento profesional continuo',
-        subtitle: 'Inser Salud siempre disponible',
+        subtitle: 'Acompañamiento durante todo el tratamiento',
         body: 'El seguimiento es parte central del servicio de Inser Salud. No entregamos el equipo y desaparecemos: estamos presentes durante todo el tratamiento para asegurarnos de que la terapia funcione y el paciente esté bien.',
         bullets: [
             { icon: '📱', text: 'Canal de WhatsApp directo con el equipo técnico: +54 9 351 206-5320' },
@@ -1128,7 +1128,7 @@ const guides = [
             'No se recarga como un tubo: enchufás el equipo y produce oxígeno a partir del aire ambiente. Los portátiles usan batería para salidas.',
         ],
         color: '#10b981',
-        priceFrom: 'Desde U$S 713 · Portátiles desde U$S 1.880',
+        priceFrom: 'Desde $999.000 · Portátiles desde U$S 1.880',
     },
     {
         icon: Waves,
@@ -1350,6 +1350,10 @@ const SpecsModal = ({ product, onClose }) => {
                             src="/artifacts/santi_real.jpg"
                             alt="Santi"
                             className={css.specsSantiAvatar}
+                            width="400"
+                            height="601"
+                            loading="lazy"
+                            decoding="async"
                             onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff'; }}
                         />
                         <div>
@@ -1422,7 +1426,7 @@ const LandingPage = () => {
             <nav className={css.navbar}>
                 <div className={css.navContent}>
                     <div className={css.logo}>
-                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" className={css.logoImg} />
+                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" className={css.logoImg} width="400" height="400" />
                     </div>
 
                     {/* Desktop links */}
@@ -1522,7 +1526,7 @@ const LandingPage = () => {
 
                 <div className={css.heroImageContainer}>
                     <div className={css.heroFloatCard}>
-                        <img src="/artifacts/santi_real.jpg" alt="Santi" className={css.santiMini}
+                        <img src="/artifacts/santi_real.jpg" alt="Santi" className={css.santiMini} width="400" height="601"
                             onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff'; }} />
                         <div>
                             <strong>Santi está en línea</strong>
@@ -1530,7 +1534,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                     <div className={css.heroImgWrapper}>
-                        <img src="/artifacts/cpap_real.png" alt="Inser Salud" className={css.heroImg} />
+                        <img src="/artifacts/cpap_real.jpg" alt="Inser Salud" className={css.heroImg} width="1024" height="1024" />
                     </div>
                 </div>
             </header>
@@ -1565,8 +1569,10 @@ const LandingPage = () => {
                             <strong style={{ display: 'block', color: '#1e40af', marginBottom: '0.35rem' }}>No te entregamos una caja</strong>
                             <p style={{ margin: 0, fontSize: '0.93rem', lineHeight: 1.65, color: '#334155' }}>
                                 Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo),
-                                listo para usar desde la primera noche. La instalación la hace personal profesional
-                                especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días.
+                                listo para usar desde la primera noche. En Córdoba la instalación la hace personal
+                                profesional especializado en tu domicilio, que te explica cómo usarlo, cómo limpiarlo
+                                y qué esperar los primeros días. Al resto del país el equipo llega ya configurado y
+                                te guiamos la puesta en marcha por WhatsApp.
                             </p>
                         </div>
                     </div>
@@ -2158,6 +2164,10 @@ const LandingPage = () => {
                             src="/artifacts/santi_real.jpg"
                             alt="Santi"
                             className={css.santiLarge}
+                            width="400"
+                            height="601"
+                            loading="lazy"
+                            decoding="async"
                             onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff&size=180'; }}
                         />
                         <div className={css.santiText}>
@@ -2178,7 +2188,7 @@ const LandingPage = () => {
                     <p style={{ textAlign: 'center', color: '#475569', margin: '0 0 1.75rem', fontSize: '0.95rem' }}>Del primer mensaje al seguimiento: así es comprar o alquilar con INSER SALUD.</p>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem', maxWidth: 1050, margin: '0 auto' }}>
                         {[
-                            ['1', 'Nos contactás', 'Por WhatsApp, teléfono, formulario o con Santi. Respondemos en minutos, todos los días.'],
+                            ['1', 'Nos contactás', 'Por WhatsApp, teléfono, formulario o con Santi. Respondemos todos los días, también fines de semana. Santi atiende las 24 hs.'],
                             ['2', 'Te asesoramos', 'Elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.'],
                             ['3', 'Entregamos e instalamos', 'En Córdoba, a domicilio en el día con instalación. Al resto del país, envío con puesta en marcha guiada.'],
                             ['4', 'Te acompañamos', 'Adaptación, soporte técnico continuo, repuestos, y factura con presupuesto formal para el reintegro de tu obra social.'],
@@ -2275,7 +2285,7 @@ const LandingPage = () => {
                     <div className={css.sectionHeader}>
                         <span className={css.sectionTag}>Estamos para vos</span>
                         <h2>Contacto Directo</h2>
-                        <p>Respondemos todos los días. Para emergencias de equipos, tenemos atención prioritaria.</p>
+                        <p>Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.</p>
                     </div>
                     {/* El formulario completo vive arriba (#cotizacion). Aca solo un acceso,
                         para no repetir el mismo formulario largo dos veces en la misma pagina. */}
@@ -2300,7 +2310,7 @@ const LandingPage = () => {
                             <div>
                                 <strong>WhatsApp Ventas</strong>
                                 <span>+54 9 351 206-5320</span>
-                                <small>Respondemos en minutos</small>
+                                <small>Respondemos todos los días, también fines de semana</small>
                             </div>
                         </a>
                         <a href="https://wa.me/5493515575258" target="_blank" rel="noopener noreferrer" className={css.contactCardWa2}>
@@ -2342,7 +2352,7 @@ const LandingPage = () => {
             <footer className={css.footer}>
                 <div className={css.footerInner}>
                     <div className={css.footerBrand}>
-                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" className={css.footerLogo} loading="lazy" decoding="async"
+                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" className={css.footerLogo} width="400" height="400" loading="lazy" decoding="async"
                             onError={(e) => { e.target.style.display = 'none'; }} />
                         <p>Especialistas en terapias respiratorias domiciliarias. Córdoba, Argentina.</p>
                     </div>
@@ -2380,7 +2390,7 @@ const LandingPage = () => {
                         </a>
                         <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.5rem' }}>
                             <a href="https://www.instagram.com/insersalud" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Inser Salud" title="Instagram"><Instagram size={20} /></a>
-                            <a href="https://www.facebook.com/insersalud" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Inser Salud" title="Facebook"><Facebook size={20} /></a>
+                            <a href="https://www.facebook.com/people/Inser-Salud/61576746347333/" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Inser Salud" title="Facebook"><Facebook size={20} /></a>
                         </div>
                     </div>
                 </div>

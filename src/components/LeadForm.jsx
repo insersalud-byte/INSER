@@ -24,17 +24,20 @@ const FORM_ENDPOINT = 'https://formsubmit.co/ajax/inser.salud@gmail.com';
 // Equipos que REALMENTE vendemos/alquilamos. No agregar nada que no esté en el catálogo.
 // destino: a dónde se invita a la persona después de enviar la consulta.
 // img: foto real del producto del catálogo (no ilustraciones ni stock).
+// w / h: dimensiones INTRÍNSECAS reales del archivo en public/artifacts/products.
+//        Van al <img> para que el navegador reserve el espacio (CLS). Si se
+//        reemplaza una foto, volver a medir el archivo y actualizarlas.
 const EQUIPOS = [
-    { id: 'concentrador', label: 'Concentrador de oxígeno (para casa)', img: '/artifacts/products/concentrador_bmc_1.jpg', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
-    { id: 'portatil', label: 'Concentrador de oxígeno portátil', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', destino: '/comprar-concentrador-oxigeno-portatil-argentina', destinoLabel: 'Ver los concentradores portátiles' },
-    { id: 'mochila', label: 'Mochila / tubo de oxígeno', img: '/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg', destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
-    { id: 'cpap', label: 'CPAP', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
-    { id: 'autocpap', label: 'AutoCPAP', img: '/artifacts/products/fcd9a652-1366-4c5a-916d-e4321777fe9e.jpeg', destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
-    { id: 'bipap', label: 'BiPAP / VNI', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', destino: '/bipap-cordoba', destinoLabel: 'Ver cómo funciona el BiPAP' },
-    { id: 'ventilador', label: 'Ventilador domiciliario', img: '/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg', destino: '/ventilador-stellar-150', destinoLabel: 'Ver el ventilador STELLAR 150' },
-    { id: 'cough', label: 'Cough Assist (asistente de tos)', img: '/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg', destino: '/cough-assist-asistente-de-tos', destinoLabel: 'Ver cómo funciona el asistente de tos' },
-    { id: 'mascara', label: 'Máscara o repuesto', img: '/artifacts/products/1751037116992-1000306910.jpg', destino: '/mascaras-cpap', destinoLabel: 'Ver la guía de máscaras' },
-    { id: 'nose', label: 'No estoy seguro / otro', img: null, destino: null, destinoLabel: 'Consultar con Santi' },
+    { id: 'concentrador', label: 'Concentrador de oxígeno (para casa)', img: '/artifacts/products/concentrador_bmc_1.jpg', w: 900, h: 771, destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
+    { id: 'portatil', label: 'Concentrador de oxígeno portátil', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', w: 900, h: 692, destino: '/comprar-concentrador-oxigeno-portatil-argentina', destinoLabel: 'Ver los concentradores portátiles' },
+    { id: 'mochila', label: 'Mochila / tubo de oxígeno', img: '/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg', w: 900, h: 1187, destino: '/oxigeno-a-domicilio-cordoba', destinoLabel: 'Ver cómo funciona la oxigenoterapia' },
+    { id: 'cpap', label: 'CPAP', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', w: 900, h: 927, destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
+    { id: 'autocpap', label: 'AutoCPAP', img: '/artifacts/products/fcd9a652-1366-4c5a-916d-e4321777fe9e.jpeg', w: 900, h: 928, destino: '/patologia/apnea-del-sueno', destinoLabel: 'Ver cómo se trata la apnea del sueño' },
+    { id: 'bipap', label: 'BiPAP / VNI', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', w: 900, h: 619, destino: '/bipap-cordoba', destinoLabel: 'Ver cómo funciona el BiPAP' },
+    { id: 'ventilador', label: 'Ventilador domiciliario', img: '/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg', w: 900, h: 773, destino: '/ventilador-stellar-150', destinoLabel: 'Ver el ventilador STELLAR 150' },
+    { id: 'cough', label: 'Cough Assist (asistente de tos)', img: '/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg', w: 900, h: 1001, destino: '/cough-assist-asistente-de-tos', destinoLabel: 'Ver cómo funciona el asistente de tos' },
+    { id: 'mascara', label: 'Máscara o repuesto', img: '/artifacts/products/1751037116992-1000306910.jpg', w: 900, h: 769, destino: '/mascaras-cpap', destinoLabel: 'Ver la guía de máscaras' },
+    { id: 'nose', label: 'No estoy seguro / otro', img: null, w: null, h: null, destino: null, destinoLabel: 'Consultar con Santi' },
 ];
 
 export default function LeadForm({ contexto = 'Home', sinTitulo = false, conImagenes = false }) {
@@ -132,7 +135,7 @@ export default function LeadForm({ contexto = 'Home', sinTitulo = false, conImag
                     <h3 style={{ margin: '0 0 0.4rem' }}>Recibimos tu consulta, {form.name.split(' ')[0]}</h3>
                     <p style={{ margin: '0 0 0.9rem', color: '#475569', fontSize: '0.95rem' }}>
                         Te escribimos <strong style={{ color: '#0f172a' }}>hoy mismo</strong> por WhatsApp con la cotización,
-                        de 8 a 20 hs, desde el <strong>+54 9 351 206-5320</strong>.
+                        desde el <strong>+54 9 351 206-5320</strong>.
                     </p>
 
                     {/* Diferencial de servicio: aplica tanto a alquiler como a venta */}
@@ -216,6 +219,8 @@ export default function LeadForm({ contexto = 'Home', sinTitulo = false, conImag
                                     <img
                                         src={eq.img}
                                         alt={eq.label}
+                                        width={eq.w}
+                                        height={eq.h}
                                         loading="lazy"
                                         decoding="async"
                                         style={{ width: '100%', height: 92, objectFit: 'contain', background: '#f8fafc', padding: '0.4rem', boxSizing: 'border-box', display: 'block' }}

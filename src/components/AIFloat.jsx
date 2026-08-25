@@ -125,6 +125,11 @@ const AIFloat = () => {
             const data = await response.json();
             if (!response.ok) throw new Error(data.error || 'Error de comunicación');
 
+            // Si un asesor tomo la conversacion, la API responde 200 con
+            // { message: null, paused: true }. Sin esta guarda se pusheaba una
+            // burbuja vacia de Santi y parecia que el chat se rompio.
+            if (data.paused || !data.message) return;
+
             setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: data.message }]);
         } catch (err) {
             setMessages(prev => [...prev, {
@@ -165,6 +170,8 @@ const AIFloat = () => {
                                 <img
                                     src="/artifacts/santi_real.jpg"
                                     alt="Santi"
+                                    width={400}
+                                    height={601}
                                     onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff'; }}
                                 />
                                 <span className={css.onlineDotHeader}></span>
@@ -200,6 +207,8 @@ const AIFloat = () => {
                                         src="/artifacts/santi_real.jpg"
                                         className={css.botAvatar}
                                         alt="Santi"
+                                        width={400}
+                                        height={601}
                                         onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=S&background=1e40af&color=fff'; }}
                                     />
                                 )}
@@ -208,7 +217,7 @@ const AIFloat = () => {
                         ))}
                         {isTyping && (
                             <div className={`${css.message} ${css.bot}`}>
-                                <img src="/artifacts/santi_real.jpg" className={css.botAvatar} alt="Santi" onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=S&background=1e40af&color=fff'; }} />
+                                <img src="/artifacts/santi_real.jpg" className={css.botAvatar} alt="Santi" width={400} height={601} onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=S&background=1e40af&color=fff'; }} />
                                 <div className={`${css.bubble} ${css.typingBubble}`}>
                                     <span></span><span></span><span></span>
                                 </div>
@@ -268,6 +277,8 @@ const AIFloat = () => {
                     <img
                         src="/artifacts/santi_real.jpg"
                         alt="Santi IA"
+                        width={400}
+                        height={601}
                         onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi+IA&background=1e40af&color=fff'; }}
                     />
                 </div>

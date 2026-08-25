@@ -118,7 +118,7 @@ const LocalPage = ({ slug }) => {
                         <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
                         <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
                     </div>
-                    <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0.6rem 0 0' }}>Respondemos en minutos, todos los días. Santi atiende 24 hs.</p>
+                    <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0.6rem 0 0' }}>Respondemos todos los días, también fines de semana. Santi atiende las 24 hs.</p>
                 </div>
                 <img src={data.heroImg} alt={data.h1} style={c.heroImg}
                     onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
@@ -128,7 +128,7 @@ const LocalPage = ({ slug }) => {
             <div style={c.trust}>
                 <div style={c.trustInner}>
                     <span style={c.trustItem}><ShieldCheck size={16} /> Aprobado por ANMAT</span>
-                    <span style={c.trustItem}><Truck size={16} /> {data.national ? 'Envío a todo el país' : 'Entrega a domicilio en el día'}</span>
+                    <span style={c.trustItem}><Truck size={16} /> {data.national ? 'Envío a todo el país' : 'Entrega a domicilio en el día en Córdoba'}</span>
                     {/* La garantia se muestra SOLO si la landing la declara. No hay
                         default: prometer "2 años" en paginas cuyos productos no lo
                         declaran seria un compromiso comercial que no podemos sostener.
@@ -179,7 +179,7 @@ const LocalPage = ({ slug }) => {
                 <section>
                     <h2 style={c.h2}>Cómo funciona</h2>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.75rem' }}>
-                        {[['1','Nos contactás','WhatsApp, teléfono o formulario. Respondemos en minutos.'],['2','Te asesoramos','Elegimos el equipo según tu prescripción médica.'],['3','Entregamos','En Córdoba con instalación en el día; al país, envío con puesta en marcha guiada y seguimiento.']].map(([n,t,d]) => (
+                        {[['1','Nos contactás','WhatsApp, teléfono o formulario. Respondemos todos los días, también fines de semana.'],['2','Te asesoramos','Elegimos el equipo según tu prescripción médica.'],['3','Entregamos','En Córdoba con instalación en el día; al país, envío con puesta en marcha guiada y seguimiento.']].map(([n,t,d]) => (
                             <div key={n} style={{ background: '#fff', border: '1px solid #e8eef6', borderRadius: '0.7rem', padding: '0.9rem 1rem' }}>
                                 <strong style={{ color: '#1e40af' }}>{n}. {t}</strong>
                                 <p style={{ ...c.p, margin: '0.3rem 0 0', fontSize: '0.88rem' }}>{d}</p>

@@ -197,7 +197,7 @@ const OnboardingWizard = () => {
                 {currentStepType === 'apnea' && (
                     <div className={css.stepContent}>
                         <div className={css.stepHero}>
-                            <img src="/artifacts/cpap_real.png" alt="Equipo CPAP" className={css.stepImg} />
+                            <img src="/artifacts/cpap_real.jpg" alt="Equipo CPAP" className={css.stepImg} />
                         </div>
                         <h2>Configuración de Apnea del Sueño</h2>
 

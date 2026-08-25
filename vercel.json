@@ -30,6 +30,11 @@
       "permanent": true
     },
     {
+      "source": "/artifacts/cpap_real.png",
+      "destination": "/artifacts/cpap_real.jpg",
+      "permanent": true
+    },
+    {
       "source": "/cpap-resmed-airsense-10",
       "destination": "/comprar-cpap-argentina",
       "permanent": true
@@ -367,6 +372,51 @@
     },
     {
       "source": "/consultorio/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/chat-ai",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/login",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/login-admin",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/admin",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/admin/:path*",
       "headers": [
         {
           "key": "X-Robots-Tag",

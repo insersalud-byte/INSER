@@ -71,6 +71,11 @@ const ChatAI = () => {
 
             if (!response.ok) throw new Error(data.error || 'Error de comunicación');
 
+            // Si un asesor tomo la conversacion, la API responde 200 con
+            // { message: null, paused: true }. Sin esta guarda se pusheaba una
+            // burbuja vacia de Santi y parecia que el chat se rompio.
+            if (data.paused || !data.message) return;
+
             const botResponse = data.message;
 
             setMessages(prev => [...prev, { id: Date.now() + 1, type: 'bot', text: botResponse }]);
@@ -100,7 +105,7 @@ const ChatAI = () => {
             <Navigation />
             <header className={css.chatHeader}>
                 <div className={css.avatarContainer}>
-                    <img src="/artifacts/santi_real.jpg" alt="Santi" className={css.avatar} onError={(e) => e.target.src = 'https://ui-avatars.com/api/?name=Santi+IA&background=0ea5e9&color=fff'} />
+                    <img src="/artifacts/santi_real.jpg" alt="Santi" className={css.avatar} width={400} height={601} onError={(e) => e.target.src = 'https://ui-avatars.com/api/?name=Santi+IA&background=0ea5e9&color=fff'} />
                     <div className={css.onlineStatus}></div>
                 </div>
                 <div className={css.headerInfo}>
