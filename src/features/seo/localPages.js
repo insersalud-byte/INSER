@@ -576,9 +576,9 @@ export const localPages = [
         slug: 'concentrador-oxigeno-10-litros',
         national: true,
         h1: 'Concentrador de oxígeno de 10 litros (alto flujo)',
-        metaTitle: 'Concentrador de Oxígeno 10 Litros Yuwell $2.800.000 | INSER',
-        metaTitleSalud: 'Concentrador de Oxígeno 10 Litros Yuwell $2.800.000 | INSER',
-        description: 'Concentrador de alto flujo hasta 10 L/min, el doble del estándar, para alta demanda de oxígeno y rehabilitación pulmonar. $2.800.000, ANMAT y envío a todo el país.',
+        metaTitle: 'Concentrador de Oxígeno de Alto Flujo 10 Litros | INSER SALUD',
+        metaTitleSalud: 'Concentrador de Oxígeno 10 Litros Alto Flujo | INSER SALUD',
+        description: 'Concentrador de alto flujo: hasta 10 L/min sostenidos, el doble del estándar domiciliario de 5 L/min. Para alta demanda de oxígeno y centros de rehabilitación pulmonar. ANMAT y envío a todo el país.',
         heroImg: '/artifacts/products/concentrador_yuwell_10l_2.jpg',
         intro: 'El concentrador de oxígeno YUWELL de 10 litros entrega alto flujo (hasta 10 L/min, el doble del concentrador estándar de 5 L). Está pensado para pacientes con alta demanda de oxígeno y para [centros de rehabilitación pulmonar](/equipamiento-rehabilitacion-pulmonar). Se vende con envío a todo el país; $2.800.000, aprobado por ANMAT.',
         ctaSanti: 'Hola Santi, me interesa el concentrador de oxígeno de 10 litros (alto flujo). ¿Me das más información y disponibilidad?',
@@ -586,6 +586,10 @@ export const localPages = [
             {
                 title: '¿Por qué un concentrador de 10 litros?',
                 content: 'La mayoría de los concentradores domiciliarios entregan hasta 5 L/min. El de 10 litros duplica ese flujo, lo que lo hace apto para quienes necesitan altas concentraciones de oxígeno de forma sostenida y para uso intensivo en instituciones.\n\nEs un equipo estacionario de uso continuo (24 hs), con ruedas para trasladarlo dentro del hogar o el centro.',
+            },
+            {
+                title: '5 L/min o 10 L/min: cómo se define cuál corresponde',
+                content: 'El dato que lo define está en la indicación médica: el flujo, expresado en litros por minuto.\n\nEl concentrador domiciliario estándar entrega hasta 5 L/min. Cubre la mayoría de los tratamientos de oxigenoterapia en casa y es el equipo que corresponde cuando la indicación queda dentro de ese rango.\n\nEste YUWELL trabaja entre 1 y 10 L/min, es decir el doble del estándar, y sostiene ese flujo en uso continuo las 24 horas. Ese margen es lo que lo hace apto para dos situaciones concretas.\n\nLa primera es la alta demanda de oxígeno: cuando la indicación supera los 5 L/min, o cuando el paciente desatura al esfuerzo y necesita subir el flujo durante la actividad para sostener la saturación. Un equipo de 5 L/min ya está en su tope y no deja margen; uno de 10 L/min sí.\n\nLa segunda es el uso institucional. En un centro de [rehabilitación pulmonar](/equipamiento-rehabilitacion-pulmonar) o de kinesiología respiratoria el equipo trabaja muchas horas por día, con pacientes distintos y con un flujo distinto en cada sesión. Un solo concentrador de alto flujo cubre todo ese rango, en lugar de depender de un equipo por nivel de requerimiento.\n\nAl comparar equipos, el número a mirar es el flujo máximo en litros por minuto que declara la ficha técnica, y compararlo contra el que figura en la indicación médica. Si tenés dudas, mandanos la indicación por WhatsApp y te decimos si te corresponde el estándar de 5 L o este de alto flujo.',
             },
             {
                 title: 'Ideal para alta demanda y rehabilitación pulmonar',
@@ -1044,7 +1048,7 @@ const FAQ_OBRA_SOCIAL = {
 // FAQ compartida: financiacion Banco Galicia (flyer jul 2026).
 const FAQ_CUOTAS = {
     q: '¿Se puede pagar en cuotas?',
-    a: 'Sí. Con Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes en todos los equipos (sujeto a condiciones del banco). También hay planes de 3 cuotas (+15%), 6 cuotas (+24%) y 9 cuotas (+39%). Además aceptamos efectivo, transferencia y tarjeta.',
+    a: 'Sí. Con Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes en todos los equipos (sujeto a condiciones del banco). También hay planes de 3 cuotas (+15%), 6 cuotas (+24%) y 9 cuotas (+39%). Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; ese beneficio es solo de ese equipo. Además aceptamos efectivo, transferencia y tarjeta.',
 };
 for (const p of localPages) p.faq.push(FAQ_OBRA_SOCIAL, FAQ_CUOTAS);
 

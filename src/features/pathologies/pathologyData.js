@@ -792,9 +792,9 @@ El seguimiento periódico, los estudios funcionales en domicilio, la educación 
 
 🧠 En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede hacer la diferencia. La falta de aire muchas veces no se nota… hasta que es tarde.
 
-En Inser Salud realizamos evaluaciones respiratorias gratuitas para detectar a tiempo cuándo es necesario comenzar con asistencia ventilatoria.`,
-                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre evaluación respiratoria gratuita para ELA o enfermedades neuromusculares',
-                linkText: 'Consultá la evaluación gratuita →',
+En Córdoba Capital, Inser Salud realiza evaluaciones respiratorias sin cargo para pacientes con enfermedades neuromusculares, para detectar a tiempo cuándo es necesario comenzar con asistencia ventilatoria. Cuando la tos pierde fuerza las secreciones quedan retenidas, y ahí es donde aparecen las infecciones respiratorias: llegar antes cambia el pronóstico.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre la evaluación respiratoria sin cargo en Córdoba Capital para ELA o enfermedades neuromusculares',
+                linkText: 'Consultá la evaluación sin cargo en Córdoba Capital →',
             },
             {
                 id: 'evaluacion',
@@ -819,9 +819,9 @@ Refleja la capacidad de eliminar secreciones.
 🌙 4. Capnografía y oximetría nocturna
 Detectan acumulación de dióxido de carbono y desaturaciones durante el sueño, incluso sin síntomas. Son fundamentales para saber cuándo iniciar la ventilación no invasiva (VNI) nocturna.
 
-En Inser Salud realizamos evaluaciones respiratorias gratuitas para detectar a tiempo cuándo es necesario comenzar con asistencia ventilatoria.`,
-                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre evaluación respiratoria gratuita para ELA o enfermedades neuromusculares',
-                linkText: '📲 Solicitar evaluación gratuita →',
+En Córdoba Capital, Inser Salud realiza evaluaciones respiratorias sin cargo para pacientes con enfermedades neuromusculares, para detectar a tiempo cuándo es necesario comenzar con asistencia ventilatoria. Cuando la tos pierde fuerza las secreciones quedan retenidas, y ahí es donde aparecen las infecciones respiratorias: llegar antes cambia el pronóstico.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre la evaluación respiratoria sin cargo en Córdoba Capital para ELA o enfermedades neuromusculares',
+                linkText: '📲 Solicitar evaluación sin cargo en Córdoba Capital →',
             },
             {
                 id: 'cough-assist',
@@ -894,7 +894,7 @@ Sabemos que usar un BiPAP al principio puede generar incomodidad, miedo o rechaz
 
 En Inser Salud ofrecemos:
 
-✅ Evaluaciones respiratorias gratuitas para pacientes con ELA y enfermedades neuromusculares
+✅ Evaluaciones respiratorias sin cargo en Córdoba Capital para pacientes con ELA y otras enfermedades neuromusculares
 ✅ Asesoramiento personalizado para la elección del equipo correcto según la etapa de la enfermedad
 ✅ Entrega e instalación del equipo a domicilio en Córdoba
 ✅ Capacitación al paciente y la familia en el uso del Cough Assist y BiPAP
@@ -952,10 +952,10 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
             'Informá a la familia sobre el uso del Cough Assist: pueden ayudar de forma segura en domicilio.',
             'Iniciá la VNI lo antes que indique tu médico: no esperés la crisis respiratoria.',
             'El BiPAP con frecuencia respiratoria de respaldo es el equipo de elección para ELA: no cualquier BiPAP sirve.',
-            'Consultá en Inser Salud: hacemos evaluaciones respiratorias gratuitas para pacientes con ELA.',
+            'Consultá en Inser Salud: en Córdoba Capital hacemos evaluaciones respiratorias sin cargo para pacientes con ELA.',
         ],
 
-        alertText: 'En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con ELA y enfermedades neuromusculares.',
+        alertText: 'En Inser Salud realizamos evaluaciones respiratorias sin cargo en Córdoba Capital para pacientes con ELA y otras enfermedades neuromusculares.',
         alertCta: 'Solicitar evaluación →',
 
 
@@ -1038,9 +1038,9 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
 🌙 Oximetría nocturna:
 • Desaturaciones SpO₂ < 90% más del 5% del tiempo de sueño → indicación de VNI nocturna
 
-En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con AME y sus familias. Detectar la debilidad a tiempo permite iniciar el soporte antes de la crisis.`,
-                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre evaluación respiratoria gratuita para AME',
-                linkText: 'Solicitar evaluación gratuita →',
+En Córdoba Capital, Inser Salud realiza evaluaciones respiratorias sin cargo para pacientes con AME y sus familias. Una tos débil deja secreciones retenidas, que es por donde entran las infecciones respiratorias: detectar la debilidad a tiempo permite iniciar el soporte antes de la crisis.`,
+                link: 'https://wa.me/5493512065320?text=Hola, quisiera información sobre la evaluación respiratoria sin cargo en Córdoba Capital para AME',
+                linkText: 'Solicitar evaluación sin cargo en Córdoba Capital →',
             },
             {
                 id: 'vni-ame',
@@ -1172,10 +1172,10 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
             'Informá a la familia sobre el uso del Cough Assist y el BiPAP: el entrenamiento es fundamental.',
             'Llevá el equipo documentado al médico en cada control: los datos de la máquina son valiosos para ajustar parámetros.',
             'Revisá periódicamente el estado de las correas y el sellado de la máscara: los escapes reducen la eficacia.',
-            'Consultá en Inser Salud: hacemos evaluaciones respiratorias gratuitas para pacientes con AME.',
+            'Consultá en Inser Salud: en Córdoba Capital hacemos evaluaciones respiratorias sin cargo para pacientes con AME.',
         ],
 
-        alertText: 'En Inser Salud realizamos evaluaciones respiratorias gratuitas para pacientes con AME. Detectar a tiempo marca la diferencia.',
+        alertText: 'En Inser Salud realizamos evaluaciones respiratorias sin cargo en Córdoba Capital para pacientes con AME. Detectar a tiempo marca la diferencia.',
         alertCta: 'Solicitar evaluación →',
 
 

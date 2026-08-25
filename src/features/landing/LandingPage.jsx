@@ -1960,6 +1960,9 @@ const LandingPage = () => {
                         <div style={{ fontSize: '0.9rem', opacity: 0.95 }}>
                             Clientes Galicia, miércoles y viernes, en todos los equipos. Otras opciones: 3 cuotas +15% · 6 cuotas +24% · 9 cuotas +39%.
                         </div>
+                        <div style={{ fontSize: '0.86rem', opacity: 0.95, marginTop: '0.4rem' }}>
+                            Excepción: el Concentrador de Oxígeno YUWELL 7F-5B 5 Litros tiene una oferta propia de 6 cuotas sin interés de $195.000, con envío sin cargo, hasta agotar stock.
+                        </div>
                         <div style={{ fontSize: '0.78rem', opacity: 0.8, marginTop: '0.3rem' }}>
                             Promoción sujeta a condiciones del banco. Consultanos por tu equipo.
                         </div>
