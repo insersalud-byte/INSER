@@ -1,0 +1,8 @@
+Estos archivos son de IndexNow, el protocolo de envio instantaneo de URLs
+que honran Bing, Yandex, Seznam y Naver (Google no participa).
+
+indexnow-key.txt  -> respaldo de la clave, para no perderla entre deploys.
+9e946e611df8524b3c4f7a5102a37f49.txt -> el archivo que verifican los buscadores. NO BORRAR NI CAMBIAR:
+si cambia la clave, todos los envios se rechazan hasta republicarla.
+
+Script de envio: scratchpad/indexnow.cjs

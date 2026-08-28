@@ -796,17 +796,32 @@ try {
     // todas las fechas son la del checkout), omitirlo es la opcion honesta.
     // <changefreq> tampoco va: Google declaro publicamente que lo ignora.
     const buildSitemap = () => {
-        const u = (loc, priority) => `  <url>\n    <loc>${loc}</loc>\n    <priority>${priority}</priority>\n  </url>`;
+        // Cada <url> declara ademas SUS imagenes con la extension de Google.
+        // Sin esto Google Images no puede asociar las fotos de producto con la
+        // pagina donde estan, y las busquedas por imagen de equipos no nos
+        // encuentran. Solo se declaran fotos que la pagina REALMENTE muestra
+        // (las mismas que emite imgTag): una imagen de sitemap que no esta en
+        // la pagina, Google la ignora.
+        // El home va sin imagenes a proposito: su HTML estatico no tiene <img>.
+        const escXml = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        const imgs = (lista) => lista.slice(0, 20).map((it) =>
+            `    <image:image>\n      <image:loc>${escXml(SALUD + it.img)}</image:loc>\n      <image:title>${escXml(it.name)}</image:title>\n    </image:image>`
+        ).join('\n');
+        const u = (loc, priority, lista) => {
+            const bloque = (lista && lista.length) ? '\n' + imgs(lista) : '';
+            return `  <url>\n    <loc>${loc}</loc>\n    <priority>${priority}</priority>${bloque}\n  </url>`;
+        };
         const items = [
             u(`${SALUD}/`, '1.0'),
-            ...localPages.map((p) => u(`${SALUD}/${p.slug}`, '0.9')),
-            ...pathologies.map((p) => u(`${SALUD}/patologia/${p.slug}`, '0.8')),
+            ...localPages.map((p) => u(`${SALUD}/${p.slug}`, '0.9', productosLanding(p))),
+            ...pathologies.map((p) => u(`${SALUD}/patologia/${p.slug}`, '0.8', productosPatologia(p))),
             u(`${SALUD}/tarjeta`, '0.3'),
             u(`${SALUD}/politica-de-privacidad`, '0.2'),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`
             + `<!-- Generado por scripts/prerender-meta.mjs. NO editar a mano: se reescribe en cada build. -->\n`
-            + `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${items.join('\n')}\n</urlset>\n`;
+            + `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${items.join('\n')}\n</urlset>\n`;
     };
     const sitemapXml = buildSitemap();
     const nUrls = (sitemapXml.match(/<loc>/g) || []).length;

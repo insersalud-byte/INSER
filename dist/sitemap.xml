@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generado por scripts/prerender-meta.mjs. NO editar a mano: se reescribe en cada build. -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://insersalud.com/</loc>
     <priority>1.0</priority>
@@ -12,26 +12,70 @@
   <url>
     <loc>https://insersalud.com/alquiler-cpap-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
+      <image:title>CPAP BMC G2S con humidificador</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
+      <image:title>CPAP ResMed AirSense 10</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/alquiler-concentrador-oxigeno-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
+      <image:title>Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/comprar-cpap-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
+      <image:title>CPAP BMC G2S con humidificador</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/autocpap_bmc_g2_2.jpg</image:loc>
+      <image:title>AutoCPAP BMC G2S con humidificador</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
+      <image:title>CPAP ResMed AirSense 10 (equipo completo)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 con frecuencia respiratoria</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/estudio-del-sueno-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
+      <image:title>CPAP BMC G2S (tratamiento de la apnea)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
+      <image:title>CPAP ResMed AirSense 10</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/bipap-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 con frecuencia respiratoria y humidificador</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/oxigeno-a-domicilio-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
+      <image:title>Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/concentrador-oxigeno-portatil-cordoba</loc>
@@ -40,66 +84,322 @@
   <url>
     <loc>https://insersalud.com/comprar-cpap-argentina</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
+      <image:title>CPAP BMC G2S con humidificador</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/autocpap_bmc_g2_2.jpg</image:loc>
+      <image:title>AutoCPAP BMC G2S con humidificador</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
+      <image:title>CPAP ResMed AirSense 10 (equipo completo)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/comprar-concentrador-oxigeno-argentina</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
+      <image:title>Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg</image:loc>
+      <image:title>Concentrador YUWELL 10 litros (alto flujo)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/concentrador-oxigeno-10-litros</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg</image:loc>
+      <image:title>Concentrador de oxígeno YUWELL 10 litros (alto flujo)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
+      <image:title>Concentrador de oxígeno BMC estacionario 5 L/min</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/mascaras-cpap</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg</image:loc>
+      <image:title>Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg</image:loc>
+      <image:title>Máscara nasal Philips DreamWear — mínimo contacto</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/bmc_f2_1.jpg</image:loc>
+      <image:title>Máscara nasobucal BMC F6 multitalle (oferta)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg</image:loc>
+      <image:title>Máscara nasobucal Philips DreamWear Full Face</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/bmc_f2_codo_azul_2.jpg</image:loc>
+      <image:title>Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/mascaras-pediatricas</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg</image:loc>
+      <image:title>Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg</image:loc>
+      <image:title>Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg</image:loc>
+      <image:title>Infant CPAP Kit neonatal (tallas 00 a 5)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg</image:loc>
+      <image:title>Tubuladura para CPAP / BiPAP (repuesto universal)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/equipamiento-rehabilitacion-pulmonar</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg</image:loc>
+      <image:title>Concentrador YUWELL 10 litros — alto flujo (uso intensivo)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 con frecuencia respiratoria</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg</image:loc>
+      <image:title>Ventilador ResMed STELLAR 150</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg</image:loc>
+      <image:title>KINGON P2-S3 (el más liviano de nuestro catálogo, apto vuelos)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg</image:loc>
+      <image:title>KINGON P2-TOC (9,5 hs, continuo + pulso)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg</image:loc>
+      <image:title>GCE Zen-O (2 baterías + carro, apto vuelos)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg</image:loc>
+      <image:title>Philips SimplyGo (continuo + pulso)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/ventilador-stellar-150</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg</image:loc>
+      <image:title>Ventilador ResMed STELLAR 150 (humidificador + batería)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg</image:loc>
+      <image:title>Cough Assist — asistente de tos (complemento ELA/AME)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/comprar-poligrafo-argentina</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg</image:loc>
+      <image:title>Polígrafo BMC YH-600B PRO (4 canales + software)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
+      <image:title>CPAP BMC G2S (tratamiento post-diagnóstico)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
+      <image:title>CPAP ResMed AirSense 10 (equipo completo)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg</image:loc>
+      <image:title>Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/cough-assist-asistente-de-tos</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg</image:loc>
+      <image:title>Cough Assist — asistente de tos mecánico</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 con frecuencia respiratoria</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg</image:loc>
+      <image:title>Ventilador ResMed STELLAR 150</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/patologia/apnea-del-sueno</loc>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
+      <image:title>CPAP BMC G2S</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 (con FR y humidificador)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/bbb738c4-8671-4228-b86d-6f1ffd179569.jpg</image:loc>
+      <image:title>AUTOCPAP PHILIPS DREAMSTATION</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
+      <image:title>CPAP RESMED AIRSENSE 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg</image:loc>
+      <image:title>Máscara Nasal DreamWear (mínimo contacto)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg</image:loc>
+      <image:title>Máscara Nasobucal DreamWear Philips</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg</image:loc>
+      <image:title>Máscara Nasal RESCOMF CPAP/BIPAP</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/patologia/epoc</loc>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg</image:loc>
+      <image:title>Concentrador Portátil KINGON P2-S3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg</image:loc>
+      <image:title>Concentrador Portátil KINGON P2-TOC</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg</image:loc>
+      <image:title>GCE Zen-O (2 baterías + carro)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg</image:loc>
+      <image:title>Concentrador de Oxígeno YUWELL Estacionario</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg</image:loc>
+      <image:title>Mochila de Oxígeno Portátil</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/patologia/fibrosis-pulmonar</loc>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg</image:loc>
+      <image:title>GCE Zen-O (2 baterías + carro)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg</image:loc>
+      <image:title>KINGON P2-S3 (Portátil)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg</image:loc>
+      <image:title>KINGON P2-TOC (Portátil)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg</image:loc>
+      <image:title>Concentrador YUWELL Estacionario</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg</image:loc>
+      <image:title>Mochila de Oxígeno Portátil</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/patologia/esclerosis-lateral-amiotrofica</loc>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg</image:loc>
+      <image:title>COUGH ASSIST — Asistente de Tos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 (con FR y humidificador)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg</image:loc>
+      <image:title>STELLAR 150 RESMED (con humidificador y batería)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg</image:loc>
+      <image:title>Máscara Nasobucal DreamWear Philips</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/patologia/atrofia-muscular-espinal</loc>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 (con FR y humidificador)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg</image:loc>
+      <image:title>COUGH ASSIST — Asistente de Tos</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg</image:loc>
+      <image:title>Máscara Nasal DreamWear (talles S/M/L)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg</image:loc>
+      <image:title>Máscara Nasobucal DreamWear Philips</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/patologia/paralisis-cerebral</loc>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
+      <image:title>BiPAP BMC G3 (con FR y humidificador)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg</image:loc>
+      <image:title>Máscara Nasal DreamWear (mínimo contacto)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg</image:loc>
+      <image:title>Máscara Nasobucal DreamWear Philips</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg</image:loc>
+      <image:title>Máscara Nasal RESCOMF CPAP/BIPAP</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg</image:loc>
+      <image:title>Máscara Nasal Philips Wisp pediátrica (jirafa)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg</image:loc>
+      <image:title>COUGH ASSIST — Asistente de Tos</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/tarjeta</loc>
