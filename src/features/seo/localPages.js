@@ -67,9 +67,9 @@ export const localPages = [
     },
     {
         slug: 'alquiler-cpap-cordoba',
-        h1: 'Alquiler de CPAP en Córdoba',
+        h1: 'Alquiler de CPAP y AutoCPAP en Córdoba',
         metaTitle: 'Alquiler de CPAP en Córdoba | Entrega a Domicilio en el Día | INSER SALUD',
-        metaTitleSalud: 'Alquiler de CPAP a Domicilio en Córdoba | INSER SALUD',
+        metaTitleSalud: 'Alquiler de CPAP y AutoCPAP a Domicilio en Córdoba | INSER',
         description: 'Alquilá un CPAP o AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara y humidificador incluidos, sin depósito y con soporte técnico. Consultá por WhatsApp.',
         heroImg: '/artifacts/products/resmed_airsense10_1.jpg',
         intro: '¿Necesitás un CPAP por un tiempo o querés probarlo antes de comprarlo? En INSER SALUD alquilamos CPAP y AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara, humidificador y soporte técnico incluidos.',
@@ -461,9 +461,9 @@ export const localPages = [
     {
         slug: 'comprar-cpap-argentina',
         national: true,
-        h1: 'Comprar CPAP en Argentina: envío a todo el país',
-        metaTitle: 'Comprar CPAP en Argentina: precios desde $499.000 | INSER',
-        metaTitleSalud: 'Comprar CPAP en Argentina: precios desde $499.000 | INSER',
+        h1: 'Comprar CPAP y AutoCPAP en Argentina: envío a todo el país',
+        metaTitle: 'Comprar CPAP y AutoCPAP en Argentina: desde $499.000 | INSER',
+        metaTitleSalud: 'Comprar CPAP y AutoCPAP en Argentina: desde $499.000 | INSER',
         description: 'CPAP BMC G2S $499.000, AutoCPAP $630.000 y ResMed AirSense 10 $799.000. Precios publicados, ANMAT, garantía y envío a todo el país. Cuotas Banco Galicia.',
         heroImg: '/artifacts/products/resmed_airsense10_3.jpg',
         intro: 'En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Salta o donde sea, te enviamos tu equipo aprobado por ANMAT, con garantía, configuración y asesoramiento para que lo uses bien desde el primer día.',
@@ -476,6 +476,10 @@ export const localPages = [
             {
                 title: 'Cómo comprar y recibir tu equipo',
                 content: 'Nos escribís por WhatsApp, te asesoramos sobre el equipo según tu indicación médica y coordinamos el envío a tu domicilio en cualquier provincia de Argentina. Te llega configurado y con instrucciones; si necesitás ayuda con la puesta en marcha, te guiamos a distancia.',
+            },
+            {
+                title: '¿CPAP o AutoCPAP? La diferencia, en criollo',
+                content: 'Un CPAP fijo entrega toda la noche la misma presión: la que indicó tu médico a partir de tu estudio de sueño. Un AutoCPAP trabaja dentro de un rango, mide tu respiración y sube o baja la presión según lo que vas necesitando en cada momento de la noche.\n\nNinguno es mejor que el otro en abstracto: cuál te corresponde lo define tu médico. En la práctica el AutoCPAP se suele indicar cuando la presión que necesitás varía según la posición o la etapa del sueño, o cuando cuesta adaptarse a una presión fija.\n\nSi tu indicación dice AutoCPAP o dice APAP, es el mismo tipo de equipo con dos nombres. En nuestro catálogo el CPAP BMC G2S sale $499.000 y el AutoCPAP BMC G2S $630.000, los dos con humidificador y con envío a todo el país.',
             },
             {
                 title: 'Garantía, ANMAT y respaldo',
@@ -500,6 +504,14 @@ export const localPages = [
             { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$799.000' },
         ],
         faq: [
+            {
+                q: '¿Qué diferencia hay entre un CPAP y un AutoCPAP?',
+                a: 'El CPAP entrega una presión fija durante toda la noche, la que indicó tu médico. El AutoCPAP la ajusta solo, dentro de un rango, según lo que vas necesitando. Cuál corresponde lo define tu médico a partir de tu estudio de sueño. En nuestro catálogo el CPAP BMC G2S sale $499.000 y el AutoCPAP BMC G2S $630.000.',
+            },
+            {
+                q: '¿Cuánto sale un AutoCPAP?',
+                a: 'El AutoCPAP BMC G2S con humidificador sale $630.000, con envío a todo el país y 2 años de garantía oficial. También tenemos el AutoCPAP ResMed AirSense 10 con conectividad. Escribinos por WhatsApp y te pasamos disponibilidad y formas de pago.',
+            },
             { q: '¿Envían CPAP a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina (Buenos Aires, Rosario, Salta, etc.). Coordinamos el envío por WhatsApp.' },
             { q: '¿Cuánto cuesta un CPAP?', a: 'Desde $499.000 (CPAP BMC G2S). El AutoCPAP BMC está a $630.000 y el ResMed AirSense 10 a $799.000. Confirmá el precio del día por WhatsApp.' },
             { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },

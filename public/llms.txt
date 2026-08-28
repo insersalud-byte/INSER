@@ -115,9 +115,9 @@ Accesorios:
 
 ## Páginas de compra y alquiler (con precios)
 
-- Comprar CPAP (envío a todo el país) → https://insersalud.com/comprar-cpap-argentina
+- Comprar CPAP y AutoCPAP (envío a todo el país) → https://insersalud.com/comprar-cpap-argentina
 - Comprar CPAP en Córdoba → https://insersalud.com/comprar-cpap-cordoba
-- Alquiler de CPAP en Córdoba → https://insersalud.com/alquiler-cpap-cordoba
+- Alquiler de CPAP y AutoCPAP en Córdoba → https://insersalud.com/alquiler-cpap-cordoba
 - Máscaras para CPAP y BiPAP (nasales, nasobucales, pediátricas) → https://insersalud.com/mascaras-cpap
 - Máscaras pediátricas para CPAP y BiPAP (Philips Wisp, HSINER Cirri Mini, Infant CPAP Kit neonatal) → https://insersalud.com/mascaras-pediatricas
 - BiPAP en Córdoba → https://insersalud.com/bipap-cordoba
