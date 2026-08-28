@@ -16,9 +16,9 @@ export const localPages = [
     {
         slug: 'alquiler-equipos-respiratorios-cordoba',
         formularioEquipos: true,
-        h1: 'Alquiler de equipos respiratorios en Córdoba',
+        h1: 'Alquiler de respiradores y equipos respiratorios en Córdoba',
         metaTitle: 'Alquiler de Equipos Respiratorios en Córdoba | Entrega e Instalación | INSER SALUD',
-        metaTitleSalud: 'Alquiler de Equipos Respiratorios en Córdoba | INSER SALUD',
+        metaTitleSalud: 'Alquiler de Respiradores y Equipos Respiratorios en Córdoba | INSER',
         description: 'Alquilá oxígeno, CPAP, BiPAP, ventilador o asistente de tos en Córdoba, con entrega e instalación a domicilio. Decinos qué te indicó tu médico y te cotizamos el mismo día por WhatsApp.',
         heroImg: '/artifacts/products/concentrador_bmc_1.jpg',
         intro: 'Alquilamos equipos de terapia respiratoria en Córdoba con entrega e instalación a domicilio. Elegí abajo qué te indicó tu médico y te pasamos la cotización el mismo día por WhatsApp. No necesitás saber de marcas ni modelos: con la indicación alcanza.',
@@ -27,6 +27,10 @@ export const localPages = [
             {
                 title: 'Qué equipos alquilamos',
                 content: 'Alquilamos toda la línea de terapia respiratoria domiciliaria: concentradores de oxígeno fijos y portátiles, mochilas y tubos de oxígeno, CPAP y AutoCPAP para apnea del sueño, BiPAP y ventilación no invasiva, ventiladores domiciliarios y asistente de tos (Cough Assist).\n\nTambién alquilamos los insumos que acompañan a cada equipo: máscaras, tubuladuras y repuestos.\n\nSi no sabés cuál te corresponde, marcá "No estoy seguro" y te orientamos.',
+            },
+            {
+                title: 'Alquiler de respirador: el ResMed STELLAR 150',
+                content: 'Si tu médico indicó un respirador —también lo vas a ver escrito como ventilador mecánico— el equipo que alquilamos en Córdoba es el ResMed STELLAR 150.\n\nEs un equipo de gama alta con batería interna, lo que permite seguir usándolo durante un corte de luz o al trasladar al paciente dentro de la casa. Se entrega configurado según los parámetros que indicó tu médico, y lo instala personal profesional que además le explica el uso a la familia.\n\nQué equipo corresponde en cada caso lo define tu médico. El alquiler se cotiza por WhatsApp según el tiempo de uso. Si después preferís comprarlo, podés ver [precio y especificaciones del ResMed STELLAR 150](/ventilador-stellar-150).',
             },
             {
                 title: 'Cuándo conviene alquilar en lugar de comprar',
