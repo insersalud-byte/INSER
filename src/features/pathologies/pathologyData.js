@@ -369,9 +369,9 @@ Tipos de sistemas de oxígeno disponibles en Inser Salud:
 
 🎒 Concentrador portátil (para salir de casa):
 • Permite mantener la actividad diaria y la autonomía
-• KINGON P2-S3: el más liviano y económico de nuestro catálogo (desde $2.735.400 · U$S 1.880)
+• KINGON P2-S3: el más liviano y económico de nuestro catálogo (U$S 1.880)
 • KINGON P2-TOC: 9,5 horas de autonomía (U$S 3.458)
-• GCE Zen-O: premium, con carrito y 2 baterías (desde $5.451.885 · U$S 3.747)
+• GCE Zen-O: premium, con carrito y 2 baterías (U$S 3.747)
 
 💧 Oxígeno líquido:
 • Mayor autonomía en menor peso

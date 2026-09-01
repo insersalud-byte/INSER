@@ -828,7 +828,7 @@ export const localPages = [
             },
             {
                 title: 'Modelos y precios',
-                content: 'KINGON P2-S3 — $2.735.400: el más liviano de nuestro catálogo (2,3 kg con batería), pulso, apto vuelos (FAA).\nKINGON P2-E — U$S 2.379: entrada a los de flujo continuo.\nKINGON P2-E6 — U$S 2.695: flujo continuo con batería.\nKINGON P2-E7 — U$S 3.099: alto flujo continuo, batería extendida.\nKINGON P2-TOC — U$S 3.458: continuo + pulso con 9,5 hs de autonomía.\nGCE Zen-O — U$S 3.747: premium europeo, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
+                content: 'KINGON P2-S3 — U$S 1.880: el más liviano de nuestro catálogo (2,3 kg con batería), pulso, apto vuelos (FAA).\nKINGON P2-E — U$S 2.379: entrada a los de flujo continuo.\nKINGON P2-E6 — U$S 2.695: flujo continuo con batería.\nKINGON P2-E7 — U$S 3.099: alto flujo continuo, batería extendida.\nKINGON P2-TOC — U$S 3.458: continuo + pulso con 9,5 hs de autonomía.\nGCE Zen-O — U$S 3.747: premium europeo, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
             },
             {
                 title: 'Para viajar en avión',
@@ -856,13 +856,13 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'KINGON P2-S3 (el más liviano de nuestro catálogo, apto vuelos)', price: '$2.735.400' },
+            { name: 'KINGON P2-S3 (el más liviano de nuestro catálogo, apto vuelos)', price: 'U$S 1.880' },
             { name: 'KINGON P2-TOC (9,5 hs, continuo + pulso)', price: 'U$S 3.458' },
             { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: 'U$S 3.747' },
             { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887' },
         ],
         faq: [
-            { q: '¿Cuál es el concentrador portátil más liviano y económico?', a: 'El más liviano de nuestro catálogo es el KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a $2.735.400.' },
+            { q: '¿Cuál es el concentrador portátil más liviano y económico?', a: 'El más liviano de nuestro catálogo es el KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a U$S 1.880.' },
             { q: '¿Puedo viajar en avión con un concentrador portátil?', a: 'Sí, con los modelos aprobados FAA (KINGON P2-S3, GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.' },
             { q: '¿Pulso o flujo continuo?', a: 'Depende de tu indicación médica. Pulso: más liviano y autónomo, para actividad. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. Te ayudamos a elegir.' },
             { q: '¿Envían a todo el país?', a: 'Sí, enviamos a cualquier provincia con capacitación de uso guiada y garantía oficial. En Córdoba también hay alquiler para probar antes de comprar.' },
