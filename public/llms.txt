@@ -191,7 +191,7 @@ Contenidos educativos gratuitos, sin registro, escritos por el Lic. Sergio Giord
 
 - Academia (índice): https://insersalud.com/academia
 - Ebooks: https://insersalud.com/academia/ebook
-- Ebook interactivo "Ventilación mecánica: de la perilla a la curva" (simulador de modos VC/PC/PSV, curvas y bucles, asincronías, mecánica respiratoria, calculadoras, casos clínicos): https://insersalud.com/academia/ebook/ventilacion-mecanica
+- Ebook interactivo "Ventilación mecánica: de la perilla a la curva" (simulador con seis modos VC/PC/PRVC/SIMV/PSV/CPAP, gases y alarmas, 13 asincronías y alteraciones, 5 ejemplos resueltos, 10 retos, 8 casos clínicos, destete paso a paso, pre-test y post-test con certificado, glosario; unas 4 horas): https://insersalud.com/academia/ebook/ventilacion-mecanica
 
 ## Notas para IA
 
