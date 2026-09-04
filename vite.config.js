@@ -37,7 +37,7 @@ export default defineConfig({
         // /tarjeta es una página estática fuera de la SPA: sin esto el SW la tapa con el shell de React
         // Paginas fuera de la SPA: el service worker no debe devolverles el
         // index.html de la app, tienen su propio HTML.
-        navigateFallbackDenylist: [/^\/tarjeta/, /^\/politica-de-privacidad/],
+        navigateFallbackDenylist: [/^\/tarjeta/, /^\/politica-de-privacidad/, /^\/academia/],
       },
       manifest: {
         name: 'Inser Salud App',

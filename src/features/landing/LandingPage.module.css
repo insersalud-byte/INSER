@@ -51,7 +51,9 @@
     justify-content: center;
 }
 
-.navLinks button {
+.navLinks button,
+.navLinks .navPage {
+    text-decoration: none;
     background: none;
     border: none;
     color: var(--color-text-main);
@@ -63,7 +65,8 @@
     transition: all 0.2s;
 }
 
-.navLinks button:hover {
+.navLinks button:hover,
+.navLinks .navPage:hover {
     color: var(--color-primary);
     background: rgba(30, 64, 175, 0.06);
 }
@@ -120,7 +123,9 @@
     animation: slideDown 0.2s ease-out;
 }
 
-.mobileMenu button {
+.mobileMenu button,
+.mobileMenu .navPage {
+    text-decoration: none;
     background: none;
     border: none;
     text-align: left;
@@ -133,7 +138,8 @@
     transition: all 0.2s;
 }
 
-.mobileMenu button:hover {
+.mobileMenu button:hover,
+.mobileMenu .navPage:hover {
     color: var(--color-primary);
     background: rgba(30, 64, 175, 0.05);
 }
@@ -1736,7 +1742,9 @@
     margin-bottom: 0.5rem;
 }
 
-.footerLinks button {
+.footerLinks button,
+.footerLinks .navPage {
+    text-decoration: none;
     background: none;
     border: none;
     color: rgba(255, 255, 255, 0.75);
@@ -1747,7 +1755,8 @@
     transition: color 0.2s;
 }
 
-.footerLinks button:hover { color: white; }
+.footerLinks button:hover,
+.footerLinks .navPage:hover { color: white; }
 
 .footerContact a {
     color: rgba(255, 255, 255, 0.75);
@@ -1825,7 +1834,7 @@
         scrollbar-width: none;
     }
     .navLinks::-webkit-scrollbar { display: none; }
-    .navLinks button { white-space: nowrap; font-size: 0.82rem; padding: 0.4rem 0.65rem; }
+    .navLinks button, .navLinks .navPage { white-space: nowrap; font-size: 0.82rem; padding: 0.4rem 0.65rem; }
     .hamburger { display: none; }
 
     /* La barra ahora ocupa 2 filas: el hero arranca mas abajo para no quedar tapado */

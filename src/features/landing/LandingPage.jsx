@@ -1439,6 +1439,7 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
+                        <a href="/academia" className={css.navPage}>Academia</a>
                     </div>
 
                     <div className={css.navRight}>
@@ -1469,6 +1470,7 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
+                        <a href="/academia" className={css.navPage}>Academia</a>
                         <a href="tel:+5493512065320" className={css.mobileWa} style={{ background: '#1e40af' }}>
                             <Phone size={16} /> Llamar al +54 9 351 206-5320
                         </a>
@@ -2367,6 +2369,7 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
+                        <a href="/academia" className={css.navPage}>Academia (ebooks gratuitos)</a>
                     </div>
                     {/* Enlaces internos reales (<a href>) para crawlers: guias/landing y patologias */}
                     <div className={css.footerContact}>
@@ -2398,7 +2401,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className={css.footerBottom}>
-                    <p>&copy; 2026 Inser Salud · Aparatología aprobada por ANMAT · Córdoba, Argentina · <a href="/politica-de-privacidad" style={{ color: 'inherit' }}>Política de privacidad</a> · <a href="/tarjeta" style={{ color: 'inherit' }}>Tarjeta digital</a></p>
+                    <p>&copy; 2026 Inser Salud · Aparatología aprobada por ANMAT · Córdoba, Argentina · <a href="/politica-de-privacidad" style={{ color: 'inherit' }}>Política de privacidad</a> · <a href="/tarjeta" style={{ color: 'inherit' }}>Tarjeta digital</a> · <a href="/academia" style={{ color: 'inherit' }}>Academia</a></p>
                 </div>
             </footer>
 

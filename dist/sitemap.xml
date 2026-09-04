@@ -409,4 +409,20 @@
     <loc>https://insersalud.com/politica-de-privacidad</loc>
     <priority>0.2</priority>
   </url>
+  <url>
+    <loc>https://insersalud.com/academia</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://insersalud.com/academia/ebook</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://insersalud.com/academia/ebook/ventilacion-mecanica</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/academia/ebook/ventilacion-mecanica/images/hero-evaluacion.webp</image:loc>
+      <image:title>Ebook interactivo de ventilación mecánica - Academia INSER SALUD</image:title>
+    </image:image>
+  </url>
 </urlset>
