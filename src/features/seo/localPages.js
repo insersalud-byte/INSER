@@ -355,6 +355,7 @@ export const localPages = [
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'ELA (Esclerosis Lateral Amiotrófica)', href: '/patologia/esclerosis-lateral-amiotrofica' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
+            { label: 'Ebook gratuito: Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
     },
     {
@@ -809,6 +810,8 @@ export const localPages = [
             { label: 'Concentrador de oxígeno de 10 litros', href: '/concentrador-oxigeno-10-litros' },
             { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
             { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
+            { label: 'Ebook gratuito: Ventilación mecánica, de la perilla a la curva', href: '/academia/ebook/ventilacion-mecanica' },
+            { label: 'Ebook gratuito: Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
     },
     {
@@ -939,6 +942,7 @@ export const localPages = [
             { label: 'ELA (Esclerosis Lateral Amiotrófica)', href: '/patologia/esclerosis-lateral-amiotrofica' },
             { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
             { label: 'Equipamiento para centros de rehabilitación', href: '/equipamiento-rehabilitacion-pulmonar' },
+            { label: 'Ebook gratuito: Ventilación mecánica, de la perilla a la curva', href: '/academia/ebook/ventilacion-mecanica' },
         ],
     },
     {
@@ -1051,6 +1055,7 @@ export const localPages = [
             { label: 'ELA (Esclerosis Lateral Amiotrófica)', href: '/patologia/esclerosis-lateral-amiotrofica' },
             { label: 'Atrofia Muscular Espinal (AME)', href: '/patologia/atrofia-muscular-espinal' },
             { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
+            { label: 'Ebook gratuito: Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
     },
 ];

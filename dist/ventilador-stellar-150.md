@@ -131,6 +131,8 @@ Sí. Con Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes en 
 
 - [Equipamiento para centros de rehabilitación](https://insersalud.com/equipamiento-rehabilitacion-pulmonar)
 
+- [Ebook gratuito: Ventilación mecánica, de la perilla a la curva](https://insersalud.com/academia/ebook/ventilacion-mecanica)
+
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
