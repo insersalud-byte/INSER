@@ -931,6 +931,9 @@ try {
             u(`${SALUD}/academia/ebook/ventilacion-no-invasiva`, '0.7', [
                 { img: '/academia/ebook/ventilacion-no-invasiva/images/vni-hfnc.webp', name: 'Ebook interactivo de ventilación no invasiva (CPAP y BiPAP) - Academia INSER SALUD' },
             ]),
+            u(`${SALUD}/academia/ebook/alto-flujo`, '0.7', [
+                { img: '/academia/ebook/alto-flujo/images/01-portada-alto-flujo.webp', name: 'Ebook interactivo de oxigenoterapia nasal de alto flujo (CNAF) - Academia INSER SALUD' },
+            ]),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`
             + `<!-- Generado por scripts/prerender-meta.mjs. NO editar a mano: se reescribe en cada build. -->\n`
