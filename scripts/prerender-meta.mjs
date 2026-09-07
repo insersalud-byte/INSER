@@ -928,6 +928,9 @@ try {
             u(`${SALUD}/academia/ebook/ventilacion-mecanica`, '0.7', [
                 { img: '/academia/ebook/ventilacion-mecanica/images/hero-evaluacion.webp', name: 'Ebook interactivo de ventilación mecánica - Academia INSER SALUD' },
             ]),
+            u(`${SALUD}/academia/ebook/ventilacion-no-invasiva`, '0.7', [
+                { img: '/academia/ebook/ventilacion-no-invasiva/images/vni-hfnc.webp', name: 'Ebook interactivo de ventilación no invasiva (CPAP y BiPAP) - Academia INSER SALUD' },
+            ]),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`
             + `<!-- Generado por scripts/prerender-meta.mjs. NO editar a mano: se reescribe en cada build. -->\n`

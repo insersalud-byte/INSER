@@ -199,6 +199,7 @@ Contenidos educativos gratuitos, sin registro, escritos por el Lic. Sergio Giord
 
 - Academia (índice): https://insersalud.com/academia
 - Ebooks: https://insersalud.com/academia/ebook
+- Ebook interactivo "Ventilación no invasiva: de la máscara al paciente" (CPAP y BiPAP, IPAP/EPAP, interfaces y fugas, simulador de VNI, programación en EPOC, edema agudo de pulmón, obesidad-hipoventilación y ELA, monitoreo con HACOR y ROX, criterios de intubación, VNI domiciliaria, 8 retos, 6 casos, autoevaluación con certificado, glosario; unas 4 horas): https://insersalud.com/academia/ebook/ventilacion-no-invasiva
 - Ebook interactivo "Ventilación mecánica: de la perilla a la curva" (simulador con seis modos VC/PC/PRVC/SIMV/PSV/CPAP, gases y alarmas, 13 asincronías y alteraciones, 5 ejemplos resueltos, 10 retos, 8 casos clínicos, destete paso a paso, pre-test y post-test con certificado, glosario; unas 4 horas): https://insersalud.com/academia/ebook/ventilacion-mecanica
 
 ## Versiones en texto plano (para agentes y modelos)

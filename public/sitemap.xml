@@ -425,4 +425,12 @@
       <image:title>Ebook interactivo de ventilación mecánica - Academia INSER SALUD</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://insersalud.com/academia/ebook/ventilacion-no-invasiva</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/academia/ebook/ventilacion-no-invasiva/images/vni-hfnc.webp</image:loc>
+      <image:title>Ebook interactivo de ventilación no invasiva (CPAP y BiPAP) - Academia INSER SALUD</image:title>
+    </image:image>
+  </url>
 </urlset>
