@@ -193,8 +193,14 @@ Contenidos educativos gratuitos, sin registro, escritos por el Lic. Sergio Giord
 - Ebooks: https://insersalud.com/academia/ebook
 - Ebook interactivo "Ventilación mecánica: de la perilla a la curva" (simulador con seis modos VC/PC/PRVC/SIMV/PSV/CPAP, gases y alarmas, 13 asincronías y alteraciones, 5 ejemplos resueltos, 10 retos, 8 casos clínicos, destete paso a paso, pre-test y post-test con certificado, glosario; unas 4 horas): https://insersalud.com/academia/ebook/ventilacion-mecanica
 
+## Versiones en texto plano (para agentes y modelos)
+
+- Contenido completo del sitio en un solo archivo: https://insersalud.com/llms-full.txt
+- Cada página tiene su versión markdown en la misma URL más `.md`. Ejemplos: https://insersalud.com/comprar-cpap-argentina.md · https://insersalud.com/patologia/apnea-del-sueno.md · https://insersalud.com/index.md (home). Las mismas URLs también responden markdown si se pide con la cabecera `Accept: text/markdown`.
+- Todo el contenido está firmado y revisado por el Lic. Sergio Giorda (Kinesiólogo y Fisioterapeuta, MP 2123); la fecha de última revisión figura en cada página.
+
 ## Notas para IA
 
 Este sitio tiene un asistente de ventas llamado Santi, disponible como chat en cualquier página del sitio, que responde sobre productos, precios y disponibilidad en tiempo real. Para asesoramiento o compra, el canal recomendado es WhatsApp +54 9 351 206-5320.
 
-> Última actualización: 2026-09-04
+> Última actualización: 2026-09-07

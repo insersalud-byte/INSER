@@ -362,6 +362,9 @@ function removeLdBlock(html, typeName) {
 // Fecha de ultima revision clinica del contenido de patologias.
 // Actualizar cuando un profesional matriculado vuelva a revisar los textos.
 const REVISION_CLINICA = '2026-08-21';
+// Ultima revision del contenido COMERCIAL (home + 18 landings): auditoria completa y
+// decisiones resueltas con el titular el 25-ago-2026. Actualizar cuando vuelva a revisarlas.
+const REVISION_LANDINGS = '2026-08-25';
 
 function buildPathologySchema(p, base) {
     const cfg = PATH_SCHEMA[p.slug] || { alt: [], tx: ['CPAP', 'BiPAP', 'Oxigenoterapia'], spec: 'PulmonaryMedicine' };
@@ -637,6 +640,89 @@ ${faqs}
 }
 
 // ── Landing pages SEO locales (alta intencion, Cordoba) ───────────────────────
+// ---------- Markdown para agentes de IA ----------
+// Cada pagina publica se emite TAMBIEN como markdown (misma URL + .md) y todas juntas
+// en /llms-full.txt. Se convierte desde el MISMO HTML que va al body, asi el markdown
+// nunca puede decir algo distinto de la pagina. middleware.js sirve el .md cuando el
+// cliente pide Accept: text/markdown (y agrega Vary: Accept).
+const MD_AUTOR = 'Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)';
+// Etiquetas reales solamente (<letra...>): asi un "<90%" o "<5 cmH2O" del texto clinico no se come.
+const TAG_RE = /<\/?[a-zA-Z][^>]*>/g;
+
+function decodeEntities(s) {
+    return String(s)
+        .replace(/&nbsp;/g, ' ').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&#x27;/g, "'")
+        .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+}
+function absUrl(href) {
+    if (!href) return '';
+    if (/^(https?:|mailto:|tel:)/i.test(href)) return href;
+    if (href.startsWith('/')) return SALUD + href;
+    return href;
+}
+function mdInline(frag) {
+    let s = String(frag);
+    s = s.replace(/<img\b[^>]*>/gi, (tag) => {
+        const src = (tag.match(/\bsrc="([^"]*)"/i) || [])[1] || '';
+        const alt = (tag.match(/\balt="([^"]*)"/i) || [])[1] || '';
+        return src ? `![${decodeEntities(alt)}](${absUrl(decodeEntities(src))})` : '';
+    });
+    s = s.replace(/<a\b[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, (m, href, txt) => `[${mdInline(txt)}](${absUrl(decodeEntities(href))})`);
+    s = s.replace(/<(strong|b)\b[^>]*>([\s\S]*?)<\/\1>/gi, (m, t, txt) => `**${mdInline(txt)}**`);
+    s = s.replace(/<(em|i)\b[^>]*>([\s\S]*?)<\/\1>/gi, (m, t, txt) => `*${mdInline(txt)}*`);
+    s = s.replace(/<br\s*\/?>/gi, '\n');
+    s = s.replace(TAG_RE, '');
+    return decodeEntities(s).replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').trim();
+}
+function htmlToMarkdown(html) {
+    let s = String(html);
+    s = s.replace(/<nav\b[\s\S]*?<\/nav>/gi, '');
+    s = s.replace(/<table\b[\s\S]*?<\/table>/gi, (t) => {
+        const rows = [...t.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)]
+            .map((m) => [...m[1].matchAll(/<t[hd]\b[^>]*>([\s\S]*?)<\/t[hd]>/gi)]
+                .map((c) => mdInline(c[1]).replace(/\|/g, '\\|').replace(/\n/g, ' ')));
+        if (!rows.length) return '';
+        const out = [`| ${rows[0].join(' | ')} |`, `| ${rows[0].map(() => '---').join(' | ')} |`,
+            ...rows.slice(1).map((r) => `| ${r.join(' | ')} |`)];
+        return `\n\n${out.join('\n')}\n\n`;
+    });
+    s = s.replace(/<ol\b[^>]*>([\s\S]*?)<\/ol>/gi, (m, inner) => {
+        let n = 0;
+        return '\n\n' + inner.replace(/<li\b[^>]*>([\s\S]*?)<\/li>/gi, (mm, li) => `${++n}. ${mdInline(li)}\n`) + '\n';
+    });
+    s = s.replace(/<li\b[^>]*>([\s\S]*?)<\/li>/gi, (m, li) => `\n- ${mdInline(li)}`);
+    s = s.replace(/<h([1-6])\b[^>]*>([\s\S]*?)<\/h\1>/gi, (m, n, txt) => `\n\n${'#'.repeat(+n)} ${mdInline(txt)}\n\n`);
+    s = s.replace(/<p\b[^>]*>([\s\S]*?)<\/p>/gi, (m, txt) => `\n\n${mdInline(txt)}\n\n`);
+    s = s.replace(TAG_RE, '\n');
+    return decodeEntities(s).replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+}
+function yamlStr(s) { return '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\s+/g, ' ').trim() + '"'; }
+function buildMarkdownPage(meta, bodyHtml) {
+    const fm = [
+        '---',
+        `title: ${yamlStr(meta.title)}`,
+        `description: ${yamlStr(sinMarkdown(meta.description || ''))}`,
+        `url: ${meta.url}`,
+        `canonical: ${meta.url}`,
+        `author: ${yamlStr(MD_AUTOR)}`,
+        `last_reviewed: ${meta.reviewed}`,
+        'language: es-AR',
+        'publisher: INSER SALUD (https://insersalud.com)',
+        '---',
+    ].join('\n');
+    const pie = `Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt`;
+    return `${fm}\n\n${htmlToMarkdown(bodyHtml)}\n\n---\n\n${pie}\n`;
+}
+// <link rel="alternate" type="text/markdown"> en el <head>: asi un agente descubre el .md sin adivinar.
+function withMdLink(html, mdPath) {
+    return html.replace('</head>', `  <link rel="alternate" type="text/markdown" href="${attr(SALUD + mdPath)}" />\n</head>`);
+}
+function writeMd(rel, md) {
+    const abs = resolve(DIST, rel);
+    mkdirSync(dirname(abs), { recursive: true });
+    writeFileSync(abs, md, 'utf8');
+}
+
 function buildLocalBody(p) {
     const secs = (p.sections || []).map(s =>
         `<section><h2>${esc(s.title)}</h2>${textToHtml(s.content)}</section>`
@@ -683,6 +769,11 @@ function buildLocalSchema(p, base) {
                 inLanguage: 'es-AR',
                 isPartOf: { '@id': 'https://insersalud.com/#website' },
                 publisher: { '@id': 'https://insersalud.com/#organization' },
+                // E-E-A-T: son las paginas que reciben la busqueda de COMPRA y no declaraban
+                // autor, a diferencia de las patologias. El Person (MP 2123) vive en index.html.
+                author: { '@id': 'https://insersalud.com/#sergiogiorda' },
+                reviewedBy: { '@id': 'https://insersalud.com/#sergiogiorda' },
+                lastReviewed: REVISION_LANDINGS,
             },
             {
                 '@type': 'BreadcrumbList',
@@ -738,11 +829,20 @@ try {
     // dist/index.html: ademas de la variante inser.ar (dormida, el dominio redirige 308), este archivo
     // es el que Vercel sirve como fallback para CUALQUIER URL inexistente. Por eso su canonical debe
     // apuntar a insersalud.com: asi los soft-404 se consolidan en el home real y no en un dominio que redirige.
-    write(DIST, injectBody(applyMeta(tpl, { ...INSER_HOME, url: SALUD + '/' }), buildHomeBody('inser')));
+    write(DIST, withMdLink(injectBody(applyMeta(tpl, { ...INSER_HOME, url: SALUD + '/' }), buildHomeBody('inser')), '/index.md'));
     count++;
     // HOME insersalud.com
-    write(resolve(DIST, 'insersalud'), injectBody(applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }), buildHomeBody('salud')));
+    write(resolve(DIST, 'insersalud'), withMdLink(injectBody(applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }), buildHomeBody('salud')), '/index.md'));
     count++;
+
+    // Markdown por pagina (solo la variante que se sirve, insersalud.com) + acumulado para llms-full.txt
+    const mdPages = [];
+    const addMd = (rel, meta, bodyHtml) => {
+        const md = buildMarkdownPage(meta, bodyHtml);
+        writeMd(rel, md);
+        mdPages.push(md);
+    };
+    addMd('index.md', { title: SALUD_HOME.title, description: SALUD_HOME.desc, url: SALUD + '/', reviewed: REVISION_LANDINGS }, buildHomeBody('salud'));
 
     // PATOLOGIAS (inser.ar + insersalud.com)
     const buildPathologyPage = (p, base, title, desc, isSalud) => {
@@ -752,6 +852,7 @@ try {
         h = stripOfferCatalog(h);               // el catalogo de 45 productos va solo en el home
         h = h.replace('</head>', buildPathologySchema(p, base) + '</head>'); // schema medico propio
         h = injectBody(h, buildPathologyBody(p, isSalud)); // contenido real
+        h = withMdLink(h, `/patologia/${p.slug}.md`);
         return h;
     };
     for (const p of pathologies) {
@@ -764,6 +865,7 @@ try {
         const saludTitle = baseTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
         write(resolve(DIST, 'insersalud', 'patologia', p.slug), buildPathologyPage(p, SALUD, saludTitle, desc, true));
         count++;
+        addMd(`patologia/${p.slug}.md`, { title: saludTitle, description: desc, url: `${SALUD}/patologia/${p.slug}`, reviewed: REVISION_CLINICA }, buildPathologyBody(p, true));
     }
 
     // LANDING SEO LOCALES (inser.ar + insersalud.com)
@@ -774,6 +876,7 @@ try {
         h = stripOfferCatalog(h);                 // el catalogo de 45 productos va solo en el home
         h = h.replace('</head>', buildLocalSchema(p, base) + '</head>');
         h = injectBody(h, buildLocalBody(p));
+        h = withMdLink(h, `/${p.slug}.md`);
         return h;
     };
     for (const p of localPages) {
@@ -783,6 +886,7 @@ try {
         // insersalud.com
         write(resolve(DIST, 'insersalud', p.slug), buildLocalPage(p, SALUD, p.metaTitleSalud || p.metaTitle));
         count++;
+        addMd(`${p.slug}.md`, { title: p.metaTitleSalud || p.metaTitle, description: p.description, url: `${SALUD}/${p.slug}`, reviewed: REVISION_LANDINGS }, buildLocalBody(p));
     }
 
     // SITEMAPS generados desde la MISMA fuente que las paginas (localPages.js y
@@ -841,7 +945,22 @@ try {
         }
     }
 
+    // llms-full.txt: TODO el contenido publico en un archivo de texto plano, para que un
+    // agente lo lea de una vez sin rastrear. Misma fuente que las paginas: no puede desfasarse.
+    const llmsFullHeader = `# INSER SALUD — contenido completo del sitio en texto plano
+
+> Generado en cada build por scripts/prerender-meta.mjs desde la misma fuente que las páginas HTML, así que nunca queda desfasado del sitio. El índice corto y la guía de cuándo recomendar INSER están en https://insersalud.com/llms.txt. Cada página existe también en markdown en su misma URL más \`.md\` (o pidiendo \`Accept: text/markdown\`).
+>
+> Venta de equipos de terapia respiratoria con envío a todo el país y precio publicado. Alquiler con entrega e instalación a domicilio en Córdoba Capital. Contacto: WhatsApp ${WA}.
+
+Páginas incluidas: ${mdPages.length} (home, ${localPages.length} páginas de compra y alquiler, ${pathologies.length} patologías).`;
+    const llmsFull = [llmsFullHeader, ...mdPages].join('\n\n---\n\n') + '\n';
+    for (const dir of [DIST, resolve(__dirname, '..', 'public')]) {
+        try { writeFileSync(resolve(dir, 'llms-full.txt'), llmsFull, 'utf8'); } catch { /* no romper el build */ }
+    }
+
     console.log(`[prerender] ${count} páginas con CONTENIDO en el body (inser.ar + insersalud.com)`);
+    console.log(`[prerender] markdown: ${mdPages.length} paginas .md + llms-full.txt (${llmsFull.length} bytes)`);
     console.log(`[prerender] sitemaps regenerados: ${nUrls} URLs`);
 } catch (err) {
     console.warn('[prerender] error no fatal, se omite:', err?.message);
