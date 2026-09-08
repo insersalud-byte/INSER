@@ -103,7 +103,7 @@ Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía o
 
 ### ¿Puedo pagar en cuotas?
 
-Sí. Si sos cliente de Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes. El resto de la semana hay planes de 3, 6 y 9 cuotas, sujeto a las condiciones del banco.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a las condiciones del banco. Consultanos por WhatsApp y te pasamos el valor exacto de la cuota de tu equipo.
 
 ### ¿Trabajan con obras sociales o prepagas?
 
@@ -111,7 +111,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes en todos los equipos (sujeto a condiciones del banco). También hay planes de 3 cuotas (+15%), 6 cuotas (+24%) y 9 cuotas (+39%). Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; ese beneficio es solo de ese equipo. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; ese beneficio es solo de ese equipo. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 

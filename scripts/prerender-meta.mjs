@@ -546,7 +546,7 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <li>Adaptación y seguimiento de equipos con profesionales</li>
 <li>Servicio técnico de equipos respiratorios</li>
 <li>Presupuesto formal y factura oficial para gestionar el reintegro con tu obra social o prepaga (venta particular)</li>
-<li>Financiación: 3 cuotas sin interés con Banco Galicia (miércoles y viernes) y planes de 3, 6 y 9 cuotas</li>
+<li>Financiación: cuotas fijas con Banco Galicia en todos los equipos (3 cuotas +15%, 6 cuotas +24%, 9 cuotas +39%, recargo incluido en la cuota)</li>
 </ul>`;
 
     const paths = `

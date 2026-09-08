@@ -250,7 +250,7 @@ export const localPages = [
             { q: '¿Qué CPAP me conviene comprar?', a: 'Depende de tu indicación médica y tu presión de tratamiento. El CPAP fijo es la opción estándar y económica; el AutoCPAP da más confort. Te asesoramos sin cargo.' },
             { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
             { q: '¿Puedo alquilar en lugar de comprar?', a: 'Sí, ofrecemos alquiler de CPAP en Córdoba con entrega a domicilio, ideal para probar antes de comprar.' },
-            { q: '¿Puedo pagar el CPAP en cuotas?', a: 'Sí. Si sos cliente de Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes. El resto de la semana hay planes de 3, 6 y 9 cuotas, sujeto a las condiciones del banco.' },
+            { q: '¿Puedo pagar el CPAP en cuotas?', a: 'Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a las condiciones del banco. Consultanos por WhatsApp y te pasamos el valor exacto de la cuota de tu equipo.' },
             { q: '¿Puedo probar el equipo antes de comprarlo?', a: 'Sí. En Córdoba podés [alquilarlo primero](/alquiler-cpap-cordoba), usarlo el tiempo que necesites y decidir después con la experiencia hecha.' },
             { q: '¿Necesito llevar el estudio del sueño?', a: 'Sí, hace falta la indicación médica con la presión de tratamiento, porque con ese dato configuramos el equipo. Si todavía no lo hiciste, hacemos el [estudio del sueño a domicilio](/estudio-del-sueno-cordoba) en Córdoba.' },
         ],
@@ -581,7 +581,7 @@ export const localPages = [
             { q: '¿Necesito receta médica?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
             { q: '¿Cuánto tarda en llegar a mi provincia?', a: 'Depende del destino y del transporte. Te confirmamos el plazo estimado por WhatsApp antes de que compres, junto con el costo del envío.' },
             { q: '¿Los equipos tienen garantía?', a: 'Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía oficial.' },
-            { q: '¿Puedo pagar en cuotas?', a: 'Sí. Si sos cliente de Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes. El resto de la semana hay planes de 3, 6 y 9 cuotas, sujeto a las condiciones del banco.' },
+            { q: '¿Puedo pagar en cuotas?', a: 'Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a las condiciones del banco. Consultanos por WhatsApp y te pasamos el valor exacto de la cuota de tu equipo.' },
         ],
         related: [
             { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
@@ -1069,7 +1069,7 @@ const FAQ_OBRA_SOCIAL = {
 // FAQ compartida: financiacion Banco Galicia (flyer jul 2026).
 const FAQ_CUOTAS = {
     q: '¿Se puede pagar en cuotas?',
-    a: 'Sí. Con Banco Galicia tenés 3 cuotas sin interés los miércoles y viernes en todos los equipos (sujeto a condiciones del banco). También hay planes de 3 cuotas (+15%), 6 cuotas (+24%) y 9 cuotas (+39%). Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; ese beneficio es solo de ese equipo. Además aceptamos efectivo, transferencia y tarjeta.',
+    a: 'Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; ese beneficio es solo de ese equipo. Además aceptamos efectivo, transferencia y tarjeta.',
 };
 for (const p of localPages) p.faq.push(FAQ_OBRA_SOCIAL, FAQ_CUOTAS);
 

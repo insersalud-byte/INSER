@@ -1492,7 +1492,7 @@ const LandingPage = () => {
                             <Truck size={14} /> Venta con envío a todo el país · Alquiler en Córdoba
                         </span>
                         <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#fefce8', color: '#a16207', border: '1px solid #fde68a', borderRadius: '999px', padding: '0.35rem 0.85rem', fontWeight: 700, fontSize: '0.83rem' }}>
-                            💳 3 cuotas sin interés con Banco Galicia
+                            💳 Cuotas fijas con Banco Galicia
                         </span>
                     </div>
                     {isInsersalud ? (
@@ -1957,10 +1957,10 @@ const LandingPage = () => {
                     {/* Financiación Banco Galicia */}
                     <div style={{ maxWidth: 720, margin: '0 auto 2rem', background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.35)', borderRadius: '0.9rem', padding: '1rem 1.25rem', textAlign: 'center', color: '#fff' }}>
                         <div style={{ fontWeight: 800, fontSize: '1.05rem', marginBottom: '0.25rem' }}>
-                            💳 3 CUOTAS SIN INTERÉS con Banco Galicia
+                            💳 CUOTAS FIJAS con Banco Galicia
                         </div>
                         <div style={{ fontSize: '0.9rem', opacity: 0.95 }}>
-                            Clientes Galicia, miércoles y viernes, en todos los equipos. Otras opciones: 3 cuotas +15% · 6 cuotas +24% · 9 cuotas +39%.
+                            En todos los equipos: 3 cuotas +15% · 6 cuotas +24% · 9 cuotas +39%. El recargo ya va incluido en la cuota.
                         </div>
                         <div style={{ fontSize: '0.86rem', opacity: 0.95, marginTop: '0.4rem' }}>
                             Excepción: el Concentrador de Oxígeno YUWELL 7F-5B 5 Litros tiene una oferta propia de 6 cuotas sin interés de $195.000, con envío sin cargo, hasta agotar stock.

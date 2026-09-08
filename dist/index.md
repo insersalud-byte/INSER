@@ -245,7 +245,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - Presupuesto formal y factura oficial para gestionar el reintegro con tu obra social o prepaga (venta particular)
 
-- Financiación: 3 cuotas sin interés con Banco Galicia (miércoles y viernes) y planes de 3, 6 y 9 cuotas
+- Financiación: cuotas fijas con Banco Galicia en todos los equipos (3 cuotas +15%, 6 cuotas +24%, 9 cuotas +39%, recargo incluido en la cuota)
 
 ## Servicios en Córdoba
 
