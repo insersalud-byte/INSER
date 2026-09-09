@@ -3,44 +3,28 @@ const $$ = (s, root = document) => [...root.querySelectorAll(s)];
 
 const sections = $$('.chapter');
 const tocLinks = $$('#toc a');
-const updateProgress = () => {
-  const max = document.documentElement.scrollHeight - innerHeight;
-  $('#progressBar').style.width = `${max ? (scrollY / max) * 100 : 0}%`;
+
+/* Progreso: capítulos vistos en este navegador, como en los ebooks de VM y VNI. */
+const seen = new Set(JSON.parse(localStorage.getItem('hf-progress') || '[]'));
+const paintProgress = () => {
+  const percent = Math.round(seen.size / sections.length * 100);
+  $('#progressBar').style.width = `${percent}%`;
+  $('#progressPercent').textContent = `${percent} %`;
 };
-addEventListener('scroll', updateProgress, { passive: true });
-updateProgress();
+paintProgress();
 
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (!entry.isIntersecting) return;
     tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === `#${entry.target.id}`));
+    if (!seen.has(entry.target.id)) {
+      seen.add(entry.target.id);
+      localStorage.setItem('hf-progress', JSON.stringify([...seen]));
+      paintProgress();
+    }
   });
 }, { rootMargin: '-20% 0px -68% 0px' });
 sections.forEach(s => observer.observe(s));
-
-const sidebar = $('#sidebar');
-$('#menuButton').addEventListener('click', () => sidebar.classList.add('open'));
-$('#closeMenu').addEventListener('click', () => sidebar.classList.remove('open'));
-tocLinks.forEach(a => a.addEventListener('click', () => sidebar.classList.remove('open')));
-
-const savedTheme = localStorage.getItem('hf-theme');
-if (savedTheme === 'night') document.body.classList.add('night');
-$('#themeButton').addEventListener('click', () => {
-  document.body.classList.toggle('night');
-  localStorage.setItem('hf-theme', document.body.classList.contains('night') ? 'night' : 'day');
-});
-
-const search = $('#searchInput');
-const results = $('#searchResults');
-search.addEventListener('input', () => {
-  const q = search.value.trim().toLocaleLowerCase('es');
-  if (q.length < 2) { results.hidden = true; return; }
-  const matches = sections.filter(s => `${s.dataset.title} ${s.innerText}`.toLocaleLowerCase('es').includes(q)).slice(0, 8);
-  results.innerHTML = matches.length ? matches.map(s => `<a href="#${s.id}"><strong>${$('h1,h2', s)?.innerText || s.dataset.title}</strong><small>${s.dataset.title}</small></a>`).join('') : '<a>Sin resultados</a>';
-  results.hidden = false;
-});
-results.addEventListener('click', () => { results.hidden = true; search.value = ''; });
-document.addEventListener('click', e => { if (!e.target.closest('.search') && !e.target.closest('.search-results')) results.hidden = true; });
 
 const flow = $('#flow'), fio2 = $('#fio2'), temp = $('#temp');
 function updateSimulator() {

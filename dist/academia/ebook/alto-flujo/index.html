@@ -35,61 +35,48 @@
   <link rel="stylesheet" href="simulator.css" />
 </head>
 <body>
-  <div class="reading-progress" aria-hidden="true"><span id="progressBar"></span></div>
-  <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">HF</span><span>Alto Flujo</span></a>
-    <div class="top-actions">
-      <a class="site-pill" href="https://insersalud.com" target="_blank" rel="noreferrer">insersalud.com</a>
-      <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar en el ebook…" aria-label="Buscar en el ebook" /></label>
-      <button id="themeButton" class="icon-button" type="button" aria-label="Cambiar tema">◐</button>
-      <button id="menuButton" class="icon-button mobile-only" type="button" aria-label="Abrir índice">☰</button>
+  <header class="ebook-topbar">
+    <span class="ebook-context">MANUAL INTERACTIVO · ALTO FLUJO (CNAF)</span>
+    <a class="ebook-brand" href="https://insersalud.com" target="_blank" rel="noreferrer" aria-label="Ir a insersalud.com"><span>INSER</span><strong>SALUD.COM</strong></a>
+    <nav id="toc" aria-label="Ir a un capítulo">
+      <a href="#inicio">Inicio</a><a href="#fundamentos">Fundamentos</a><a href="#fisiologia">Fisiología</a><a href="#equipo">Equipo</a><a href="#indicaciones">Indicaciones</a><a href="#inicio-terapia">Titulación</a><a href="#monitorizacion">Monitoreo</a><a href="#prono">Prono</a><a href="#simulador-tecme">Simulador</a><a href="#rox">ROX</a><a href="#fracaso">Fracaso</a><a href="#cuidados">Cuidados</a><a href="#destete">Destete</a><a href="#casos">Casos</a><a href="#referencias">Evidencia</a><a href="#contacto">Contacto</a>
+    </nav>
+    <a class="site-link" href="/academia/ebook" rel="noreferrer">← Academia</a>
+    <div class="ebook-progress" id="ebookProgress" aria-label="Progreso del ebook" title="Capítulos vistos en este navegador">
+      <div class="ebook-progress-track"><i id="progressBar"></i></div>
+      <span id="progressPercent">0 %</span>
     </div>
   </header>
 
-  <aside id="sidebar" class="sidebar" aria-label="Índice del ebook">
-    <div class="sidebar-head"><span>GUÍA CLÍNICA · ADULTOS</span><button id="closeMenu" class="mobile-only" aria-label="Cerrar índice">×</button></div>
-    <a class="academia-link" href="/academia/ebook">← Academia INSER SALUD</a>
-    <nav id="toc">
-      <a href="#inicio"><b>00</b> Portada</a>
-      <a href="#fundamentos"><b>01</b> Qué es el alto flujo</a>
-      <a href="#fisiologia"><b>02</b> Fisiología aplicada</a>
-      <a href="#equipo"><b>03</b> Equipo y montaje</a>
-      <a href="#indicaciones"><b>04</b> Indicaciones y límites</a>
-      <a href="#inicio-terapia"><b>05</b> Inicio y titulación</a>
-      <a href="#monitorizacion"><b>06</b> Monitorización</a>
-      <a href="#prono"><b>06B</b> Prono despierto</a>
-      <a href="#simulador-tecme"><b>06C</b> Simulador TECME</a>
-      <a href="#rox"><b>07</b> Índice ROX</a>
-      <a href="#fracaso"><b>08</b> Fracaso y escalamiento</a>
-      <a href="#cuidados"><b>09</b> Cuidados de enfermería</a>
-      <a href="#destete"><b>10</b> Destete y movilización</a>
-      <a href="#casos"><b>11</b> Casos y evaluación</a>
-      <a href="#referencias"><b>12</b> Evidencia</a>
-      <a href="#contacto"><b>13</b> Contacto</a>
-    </nav>
-    <div class="sidebar-note"><strong>Uso educativo</strong><span>Aplicar prescripción, protocolo institucional y valoración clínica.</span></div>
-  </aside>
-
   <main>
-    <section id="inicio" class="hero chapter" data-title="Portada alto flujo cánula nasal">
-      <img src="/academia/ebook/alto-flujo/images/01-portada-alto-flujo.webp" alt="Paciente adulto con cánula nasal de alto flujo evaluado por una profesional" />
-      <div class="hero-overlay"></div>
-      <div class="hero-copy">
-        <span class="eyebrow">EBOOK CLÍNICO INTERACTIVO · 2026</span>
-        <h1>Oxigenoterapia<br /><em>nasal de alto flujo</em></h1>
-        <p>Del principio fisiológico a la vigilancia al pie de cama. Una guía visual para comprender, iniciar y reevaluar la terapia con seguridad.</p>
-        <div class="hero-actions"><a class="button primary" href="#fundamentos">Comenzar lectura</a><button class="button glass" onclick="window.print()">Imprimir / PDF</button></div>
+    <section id="inicio" class="ebook-intro chapter" data-title="Portada alto flujo canula nasal CNAF">
+      <div>
+        <span class="audience-pill">Para kinesiólogos, médicos y enfermeros que titulan y vigilan el alto flujo</span>
+        <h1>Oxigenoterapia<br /><em>nasal de alto flujo.</em></h1>
+        <p>Del principio fisiológico a la vigilancia al pie de cama: montaje, indicaciones, titulación de flujo y FiO₂, monitorización, prono despierto, índice ROX y reconocimiento del fracaso. Con un simulador del modo OAF, calculadora, checklist y casos.</p>
+        <div class="intro-actions">
+          <a class="primary-action" href="#fundamentos">Comenzar la lectura</a>
+          <a class="ghost-action" href="#simulador-tecme">Ir directo al simulador</a>
+          <span class="intro-time">14 capítulos · unas 2 horas de lectura y práctica · progreso guardado en este navegador · Ebooks hermanos: <a href="/academia/ebook/ventilacion-mecanica">Ventilación mecánica</a> y <a href="/academia/ebook/ventilacion-no-invasiva">Ventilación no invasiva</a></span>
+        </div>
       </div>
-      <div class="hero-stat"><span>14</span><small>capítulos prácticos</small></div>
-    </section>
-
-    <section class="safety-strip" aria-label="Advertencia">
-      <strong>Antes de empezar</strong>
-      <p>Material para formación de profesionales. No reemplaza evaluación médica, indicación, manual del fabricante ni protocolos locales. El deterioro clínico exige respuesta inmediata: una cifra aislada nunca debe retrasar el escalamiento.</p>
+      <aside class="intro-aside">
+        <figure>
+          <img src="/academia/ebook/alto-flujo/images/01-portada-alto-flujo.webp" alt="Paciente adulto con cánula nasal de alto flujo evaluado por una profesional" width="1600" height="900" />
+          <figcaption>Imagen contextual generada por IA · el simulador del capítulo 06C está recreado en HTML.</figcaption>
+        </figure>
+        <div class="safety-note">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="M12 16v-5M12 8h.01" stroke-linecap="round" /></svg>
+          <div>
+            <strong>Material educativo</strong>
+            <span>No reemplaza evaluación médica, indicación, manual del fabricante ni protocolos locales. El deterioro clínico exige respuesta inmediata: una cifra aislada nunca debe retrasar el escalamiento.</span>
+          </div>
+        </div>
+      </aside>
     </section>
 
     <section id="fundamentos" class="chapter content" data-title="Qué es alto flujo definición componentes">
-      <header class="chapter-title"><span>01 · FUNDAMENTOS</span><h2>Más que “mucho oxígeno”</h2><p>El alto flujo entrega una mezcla de aire y oxígeno calentada y humidificada, con flujo capaz de aproximarse o superar la demanda inspiratoria del paciente.</p></header>
+      <header class="chapter-heading"><span class="section-number">01</span><div><span class="eyebrow">FUNDAMENTOS</span><h2>Más que “mucho oxígeno”</h2><p>El alto flujo entrega una mezcla de aire y oxígeno calentada y humidificada, con flujo capaz de aproximarse o superar la demanda inspiratoria del paciente.</p></div></header>
       <div class="concept-grid">
         <article class="concept"><span class="num">01</span><h3>Flujo</h3><p>Modifica el soporte ventilatorio percibido, el lavado del espacio muerto y la concordancia con la demanda inspiratoria.</p></article>
         <article class="concept"><span class="num">02</span><h3>FiO₂</h3><p>Se titula para alcanzar el objetivo de oxigenación prescripto, evitando tanto hipoxemia como exposición innecesaria a oxígeno.</p></article>
@@ -98,8 +85,8 @@
       <div class="key-message"><span>Idea clave</span><p><strong>Flujo y FiO₂ no son lo mismo.</strong> Primero asegure una oxigenación adecuada; después ajuste el flujo según trabajo respiratorio, frecuencia, confort y respuesta global.</p></div>
     </section>
 
-    <section id="fisiologia" class="chapter content tint" data-title="Fisiología mecanismos espacio muerto PEEP trabajo respiratorio humidificación">
-      <header class="chapter-title"><span>02 · FISIOLOGÍA APLICADA</span><h2>Cuatro mecanismos que trabajan juntos</h2></header>
+    <section id="fisiologia" class="chapter content" data-title="Fisiología mecanismos espacio muerto PEEP trabajo respiratorio humidificación">
+      <header class="chapter-heading"><span class="section-number">02</span><div><span class="eyebrow">FISIOLOGÍA APLICADA</span><h2>Cuatro mecanismos que trabajan juntos</h2></div></header>
       <div class="mechanism-map">
         <article><div class="pulse">O₂</div><h3>FiO₂ más predecible</h3><p>Cuando el flujo aportado se acerca a la demanda inspiratoria, disminuye la entrada de aire ambiente y la dilución de la mezcla.</p></article>
         <article><div class="pulse">↗</div><h3>Menor trabajo respiratorio</h3><p>La entrega de flujo y el acondicionamiento del gas pueden reducir esfuerzo y mejorar la sincronía entre demanda y aporte.</p></article>
@@ -110,7 +97,7 @@
     </section>
 
     <section id="equipo" class="chapter content" data-title="Equipo circuito humidificador agua cánula montaje">
-      <header class="chapter-title"><span>03 · EQUIPO Y MONTAJE</span><h2>Un circuito, cinco verificaciones</h2></header>
+      <header class="chapter-heading"><span class="section-number">03</span><div><span class="eyebrow">EQUIPO Y MONTAJE</span><h2>Un circuito, cinco verificaciones</h2></div></header>
       <figure class="photo"><img src="/academia/ebook/alto-flujo/images/02-montaje-equipo.webp" alt="Profesional preparando humidificador y circuito de alto flujo" loading="lazy" /><figcaption>Montaje genérico ilustrativo. Seguir siempre el manual específico del dispositivo y la política de control de infecciones.</figcaption></figure>
       <div class="timeline">
         <article><b>1</b><div><h3>Fuente y mezclador</h3><p>Confirme suministro suficiente de oxígeno/aire, conexión segura y disponibilidad de respaldo.</p></div></article>
@@ -123,7 +110,7 @@
     </section>
 
     <section id="indicaciones" class="chapter content" data-title="Indicaciones hipoxemia postextubación preoxigenación contraindicaciones límites">
-      <header class="chapter-title"><span>04 · INDICACIONES Y LÍMITES</span><h2>Elegir al paciente correcto</h2><p>La evidencia más sólida se concentra en insuficiencia respiratoria aguda hipoxémica. La causa, gravedad y trayectoria importan tanto como la saturación.</p></header>
+      <header class="chapter-heading"><span class="section-number">04</span><div><span class="eyebrow">INDICACIONES Y LÍMITES</span><h2>Elegir al paciente correcto</h2><p>La evidencia más sólida se concentra en insuficiencia respiratoria aguda hipoxémica. La causa, gravedad y trayectoria importan tanto como la saturación.</p></div></header>
       <div class="compare">
         <div class="panel good"><h3>Puede considerarse</h3><ul><li>Hipoxemia aguda con respiración espontánea y vía aérea protegida.</li><li>Soporte posextubación en pacientes seleccionados.</li><li>Intervalos de descanso de VNI en situaciones definidas por protocolo.</li><li>Preoxigenación o procedimientos seleccionados con equipo entrenado.</li><li>Necesidad de oxígeno con beneficio esperado de humidificación y confort.</li></ul></div>
         <div class="panel bad"><h3>No debe demorar otra estrategia</h3><ul><li>Paro o agotamiento respiratorio, apnea o incapacidad para proteger vía aérea.</li><li>Hipoxemia persistente o deterioro pese a optimización inicial.</li><li>Shock no controlado, alteración progresiva del sensorio o acidosis grave.</li><li>Obstrucción de vía aérea superior o imposibilidad anatómica para la interfaz.</li><li>Indicación clara de ventilación no invasiva o invasiva según el fenotipo.</li></ul></div>
@@ -131,8 +118,8 @@
       <p class="fineprint">En insuficiencia hipercápnica, exacerbación de EPOC o edema cardiogénico, la estrategia debe individualizarse: el alto flujo no reemplaza automáticamente a la VNI cuando ésta está indicada.</p>
     </section>
 
-    <section id="inicio-terapia" class="chapter content dark-section" data-title="Inicio ajustes flujo FiO2 temperatura titulación saturación">
-      <header class="chapter-title"><span>05 · INICIO Y TITULACIÓN</span><h2>Tres perillas, una respuesta clínica</h2></header>
+    <section id="inicio-terapia" class="chapter content" data-title="Inicio ajustes flujo FiO2 temperatura titulación saturación">
+      <header class="chapter-heading"><span class="section-number">05</span><div><span class="eyebrow">INICIO Y TITULACIÓN</span><h2>Tres perillas, una respuesta clínica</h2></div></header>
       <div class="simulator">
         <div class="controls">
           <label>Flujo <output id="flowOut">40 L/min</output><input id="flow" type="range" min="20" max="60" step="5" value="40" /></label>
@@ -150,7 +137,7 @@
     </section>
 
     <section id="monitorizacion" class="chapter content" data-title="Monitorización respuesta frecuencia respiratoria SpO2 trabajo respiratorio hemodinamia gasometría">
-      <header class="chapter-title"><span>06 · MONITORIZACIÓN</span><h2>Mirar la tendencia, no una fotografía</h2></header>
+      <header class="chapter-heading"><span class="section-number">06</span><div><span class="eyebrow">MONITORIZACIÓN</span><h2>Mirar la tendencia, no una fotografía</h2></div></header>
       <figure class="photo split-photo"><img src="/academia/ebook/alto-flujo/images/04-monitorizacion.webp" alt="Equipo asistencial monitorizando a paciente con alto flujo" loading="lazy" /><figcaption>La reevaluación integra signos, números y evolución temporal.</figcaption></figure>
       <div class="monitor-grid">
         <article><strong>Oxigenación</strong><span>SpO₂, FiO₂ requerida, gasometría cuando corresponda</span></article>
@@ -164,8 +151,8 @@
       <p class="fineprint">Los intervalos son una guía didáctica. Un paciente inestable requiere observación continua y reevaluación más frecuente.</p>
     </section>
 
-    <section id="prono" class="chapter content tint" data-title="Prono despierto decúbito prono alto flujo oxigenación posicionamiento">
-      <header class="chapter-title"><span>06B · PRONO DESPIERTO</span><h2>Una posición complementaria, no un rescate tardío</h2><p>En pacientes no intubados, conscientes y cooperadores, el decúbito prono despierto puede mejorar la relación ventilación/perfusión y la oxigenación mientras continúa la cánula nasal de alto flujo.</p></header>
+    <section id="prono" class="chapter content" data-title="Prono despierto decúbito prono alto flujo oxigenación posicionamiento">
+      <header class="chapter-heading"><span class="section-number">06B</span><div><span class="eyebrow">PRONO DESPIERTO</span><h2>Una posición complementaria, no un rescate tardío</h2><p>En pacientes no intubados, conscientes y cooperadores, el decúbito prono despierto puede mejorar la relación ventilación/perfusión y la oxigenación mientras continúa la cánula nasal de alto flujo.</p></div></header>
       <figure class="photo"><img src="/academia/ebook/alto-flujo/images/07-prono-despierto.webp" alt="Paciente consciente en decúbito prono con cánula nasal de alto flujo, acompañado por el equipo asistencial" loading="lazy" /><figcaption>Prono despierto con alto flujo: circuito libre, apoyos cómodos, monitorización y capacidad de volver rápidamente a otra posición.</figcaption></figure>
       <div class="prone-guide">
         <article><span>01</span><h3>Seleccionar</h3><p>Paciente despierto, colaborador, con vía aérea protegida, estabilidad suficiente y posibilidad de monitorización. La indicación debe ser individual.</p></article>
@@ -182,7 +169,7 @@
     </section>
 
     <section id="simulador-tecme" class="chapter content" data-title="Simulador TECME Neumovent Advance OAF alto flujo controles curvas alarmas escenarios">
-      <header class="chapter-title"><span>06C · SIMULADOR TECME</span><h2>Oxigenoterapia de alto flujo en una pantalla clínica</h2><p>Recreación educativa inspirada en el modo OAF del respirador TECME Neumovent Advance. Integra parámetros, tendencias, respuesta simulada y alarmas para practicar la reevaluación.</p></header>
+      <header class="chapter-heading"><span class="section-number">06C</span><div><span class="eyebrow">SIMULADOR TECME</span><h2>Oxigenoterapia de alto flujo en una pantalla clínica</h2><p>Recreación educativa inspirada en el modo OAF del respirador TECME Neumovent Advance. Integra parámetros, tendencias, respuesta simulada y alarmas para practicar la reevaluación.</p></div></header>
       <div class="hf-reference"><p><strong>Referencia del fabricante.</strong> Neumovent Advance integra OAF; TECME describe flujos de hasta 80 L/min, FiO₂ controlada y humidificación. Los rangos de temperatura y alarmas se complementaron con la ficha oficial Humidoflo.</p><a href="https://tecmeglobal.com/ventiladores-mecanicos-neumovent/" target="_blank" rel="noreferrer">Ver fuente TECME ↗</a></div>
       <div id="tecmeSimulator" class="hf-device" data-alarm="ok">
         <div class="hf-bezel">
@@ -228,8 +215,8 @@
       <p class="hf-disclaimer"><strong>Importante:</strong> los valores monitorizados son una respuesta matemática didáctica, no una predicción clínica ni un modelo validado. La presión es una estimación cualitativa dependiente de flujo, fugas, anatomía y apertura bucal. No usar para indicar o modificar tratamiento.</p>
     </section>
 
-    <section id="rox" class="chapter content tint" data-title="Índice ROX calculadora fórmula SpO2 FiO2 frecuencia respiratoria">
-      <header class="chapter-title"><span>07 · ÍNDICE ROX</span><h2>Una ayuda para ordenar la reevaluación</h2><p>Validado originalmente en neumonía con insuficiencia respiratoria hipoxémica. Debe interpretarse en serie y dentro del contexto clínico.</p></header>
+    <section id="rox" class="chapter content" data-title="Índice ROX calculadora fórmula SpO2 FiO2 frecuencia respiratoria">
+      <header class="chapter-heading"><span class="section-number">07</span><div><span class="eyebrow">ÍNDICE ROX</span><h2>Una ayuda para ordenar la reevaluación</h2><p>Validado originalmente en neumonía con insuficiencia respiratoria hipoxémica. Debe interpretarse en serie y dentro del contexto clínico.</p></div></header>
       <div class="rox-layout">
         <form id="roxForm" class="rox-card">
           <label>SpO₂ (%)<input id="roxSpo2" type="number" min="50" max="100" value="94" required /></label>
@@ -244,7 +231,7 @@
     </section>
 
     <section id="fracaso" class="chapter content" data-title="Fracaso escalamiento intubación deterioro alarmas">
-      <header class="chapter-title"><span>08 · RECONOCER EL FRACASO</span><h2>El tiempo también es una variable</h2></header>
+      <header class="chapter-heading"><span class="section-number">08</span><div><span class="eyebrow">RECONOCER EL FRACASO</span><h2>El tiempo también es una variable</h2></div></header>
       <figure class="photo"><img src="/academia/ebook/alto-flujo/images/06-reconocer-fracaso.webp" alt="Equipo de terapia intensiva reevaluando a paciente con mayor trabajo respiratorio" loading="lazy" /><figcaption>Una respuesta organizada evita que el soporte confortable oculte una trayectoria desfavorable.</figcaption></figure>
       <div class="red-flags">
         <h3>Escalamiento inmediato según evaluación experta</h3>
@@ -256,8 +243,8 @@
       <div class="danger"><strong>No esperar al ROX</strong><p>Si el paciente se deteriora, active ayuda y prepare la estrategia de rescate indicada. La calculadora complementa; nunca reemplaza el juicio clínico.</p></div>
     </section>
 
-    <section id="cuidados" class="chapter content tint" data-title="Cuidados enfermería piel secreciones cánula condensado confort comunicación">
-      <header class="chapter-title"><span>09 · CUIDADOS DE ENFERMERÍA</span><h2>La terapia funciona mejor cuando el paciente la tolera</h2></header>
+    <section id="cuidados" class="chapter content" data-title="Cuidados enfermería piel secreciones cánula condensado confort comunicación">
+      <header class="chapter-heading"><span class="section-number">09</span><div><span class="eyebrow">CUIDADOS DE ENFERMERÍA</span><h2>La terapia funciona mejor cuando el paciente la tolera</h2></div></header>
       <figure class="photo split-photo"><img src="/academia/ebook/alto-flujo/images/03-interfaz-cuidados.webp" alt="Control de ajuste de cánula nasal y puntos de presión" loading="lazy" /><figcaption>La cánula debe quedar estable, cómoda y con espacio alrededor de las narinas.</figcaption></figure>
       <div class="checklist" id="careChecklist">
         <label><input type="checkbox" /><span><b>Posición</b> Cabecera elevada y alineación que favorezca ventilación.</span></label>
@@ -271,7 +258,7 @@
     </section>
 
     <section id="destete" class="chapter content" data-title="Destete movilización recuperación reducir FiO2 flujo">
-      <header class="chapter-title"><span>10 · DESTETE Y MOVILIZACIÓN</span><h2>Retirar soporte sin perder estabilidad</h2></header>
+      <header class="chapter-heading"><span class="section-number">10</span><div><span class="eyebrow">DESTETE Y MOVILIZACIÓN</span><h2>Retirar soporte sin perder estabilidad</h2></div></header>
       <figure class="photo"><img src="/academia/ebook/alto-flujo/images/05-movilizacion.webp" alt="Paciente estable con alto flujo realizando movilización asistida" loading="lazy" /><figcaption>Movilización y comunicación pueden sostenerse si el circuito, la monitorización y el equipo lo permiten.</figcaption></figure>
       <div class="wean-flow">
         <article><span>1</span><h3>Confirmar mejoría</h3><p>Causa tratada, menor esfuerzo, estabilidad hemodinámica y oxigenación sostenida.</p></article>
@@ -282,8 +269,8 @@
       <p class="fineprint">No existe una secuencia universal. Siga el protocolo institucional y considere el motivo por el que se inició la terapia.</p>
     </section>
 
-    <section id="casos" class="chapter content dark-section" data-title="Casos clínicos evaluación preguntas quiz">
-      <header class="chapter-title"><span>11 · CASOS Y EVALUACIÓN</span><h2>Decidir, reevaluar, escalar</h2></header>
+    <section id="casos" class="chapter content" data-title="Casos clínicos evaluación preguntas quiz">
+      <header class="chapter-heading"><span class="section-number">11</span><div><span class="eyebrow">CASOS Y EVALUACIÓN</span><h2>Decidir, reevaluar, escalar</h2></div></header>
       <div class="case-card"><span>CASO 01</span><h3>Treinta minutos después del inicio</h3><p>Paciente con neumonía. SpO₂ 94% con FiO₂ 0,55; FR baja de 34 a 27/min, menor uso de accesorios, PA estable y más confortable.</p><div class="choices" data-answer="b"><button data-choice="a">A. Suspender de inmediato</button><button data-choice="b">B. Continuar y reevaluar tendencia</button><button data-choice="c">C. Decidir sólo por la SpO₂</button></div><p class="feedback"></p></div>
       <div class="case-card"><span>CASO 02</span><h3>Trayectoria desfavorable</h3><p>Tras optimizar soporte: FiO₂ 0,90, SpO₂ 88%, FR 38/min, somnolencia nueva e hipotensión.</p><div class="choices" data-answer="c"><button data-choice="a">A. Esperar el ROX de 12 h</button><button data-choice="b">B. Bajar el flujo por confort</button><button data-choice="c">C. Activar escalamiento inmediato</button></div><p class="feedback"></p></div>
       <div class="case-card"><span>CASO 03</span><h3>Problema de interfaz</h3><p>La oxigenación está estable, pero el paciente refiere dolor en orejas y la cánula ocupa casi toda la narina.</p><div class="choices" data-answer="a"><button data-choice="a">A. Revisar tamaño, fijación y piel</button><button data-choice="b">B. Aumentar FiO₂</button><button data-choice="c">C. Ignorar: es esperable</button></div><p class="feedback"></p></div>
@@ -291,7 +278,7 @@
     </section>
 
     <section id="referencias" class="chapter content" data-title="Referencias evidencia guías ERS AARC ROX FLORALI WHO">
-      <header class="chapter-title"><span>12 · EVIDENCIA</span><h2>Lecturas fundamentales</h2><p>Selección de guías y estudios primarios. Enlaces disponibles cuando el equipo tenga conexión.</p></header>
+      <header class="chapter-heading"><span class="section-number">12</span><div><span class="eyebrow">EVIDENCIA</span><h2>Lecturas fundamentales</h2><p>Selección de guías y estudios primarios. Enlaces disponibles cuando el equipo tenga conexión.</p></div></header>
       <ol class="references">
         <li><span>01</span><div><a href="https://publications.ersnet.org/lookup/pmid/34649974" target="_blank" rel="noreferrer">ERS clinical practice guidelines: high-flow nasal cannula in acute respiratory failure</a><p>Eur Respir J. 2022;59:2101574. DOI: 10.1183/13993003.01574-2021.</p></div></li>
         <li><span>02</span><div><a href="https://www.aarc.org/wp-content/uploads/2022/10/cpg-clinical-mangement-adult-o2-acute-settings.pdf" target="_blank" rel="noreferrer">AARC Clinical Practice Guideline: Management of Adult Patients With Oxygen in the Acute Care Setting</a><p>Respir Care. 2022;67(1):115–128. DOI: 10.4187/respcare.09294.</p></div></li>
@@ -307,8 +294,8 @@
       <div class="method-note"><strong>Cómo se construyó este ebook</strong><p>Contenido sintetizado con fines educativos a partir de fuentes primarias. Las imágenes son recreaciones hiperrealistas generadas para esta obra; no muestran marcas ni pacientes reales conocidos. Revisión editorial: septiembre de 2026. Autoría: <strong>Lic. Sergio Giorda</strong>, kinesiólogo intensivista, director de INSER SALUD.</p></div>
     </section>
 
-    <section id="contacto" class="chapter content dark-section" data-title="Contacto Inser Salud tarjeta digital equipos respiratorios">
-      <header class="chapter-title"><span>13 · CONTACTO</span><h2>Tarjeta digital de INSER SALUD</h2><p>Equipos de terapia respiratoria: venta con envío a todo el país y alquiler en Córdoba. Guardá el contacto o compartí la tarjeta.</p></header>
+    <section id="contacto" class="chapter content" data-title="Contacto Inser Salud tarjeta digital equipos respiratorios">
+      <header class="chapter-heading"><span class="section-number">13</span><div><span class="eyebrow">CONTACTO</span><h2>Tarjeta digital de INSER SALUD</h2><p>Equipos de terapia respiratoria: venta con envío a todo el país y alquiler en Córdoba. Guardá el contacto o compartí la tarjeta.</p></div></header>
       <div class="inser-stage">
         <article class="inser-card">
           <div class="inser-pulso" aria-hidden="true">
@@ -371,8 +358,11 @@
     </section>
   </main>
 
-  <footer><span>ALTO FLUJO · EBOOK INTERACTIVO</span><p>Formación clínica basada en fisiología, vigilancia y reevaluación.</p><a href="#inicio">Volver arriba ↑</a></footer>
-  <div id="searchResults" class="search-results" hidden></div>
+  <footer class="ebook-footer">
+    <div><span>Autoría</span><strong>Lic. Sergio Giorda</strong></div>
+    <p>Ebook interactivo de oxigenoterapia de alto flujo · Revisión 2026 · <button type="button" class="print-button" onclick="window.print()">Imprimir o guardar en PDF</button></p>
+    <a href="https://insersalud.com" target="_blank" rel="noreferrer">insersalud.com</a>
+  </footer>
   <script src="app.js"></script>
   <script src="high-flow-model.js"></script>
   <script src="simulator-ui.js"></script>

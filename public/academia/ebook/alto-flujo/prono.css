@@ -8,23 +8,25 @@
 .prone-guide article {
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 18px;
-  padding: 24px;
+  border-top: 4px solid var(--vm-ink);
+  box-shadow: var(--shadow);
+  padding: 22px;
 }
 
 .prone-guide span {
-  color: var(--teal2);
-  font: 32px Georgia, serif;
+  color: var(--teal);
+  font: 800 .7rem ui-monospace, monospace;
+  letter-spacing: .08em;
 }
 
 .prone-guide h3 {
-  font: 25px Georgia, serif;
-  margin: 18px 0 8px;
+  font-size: 1.15rem;
+  margin: 6px 0 2px;
 }
 
 .prone-guide p {
   color: var(--muted);
-  font-size: 14px;
+  font-size: .88rem;
   margin: 0;
 }
 
@@ -39,10 +41,6 @@
 }
 
 /* ── Tarjeta digital de INSER (cierre del ebook), con la paleta propia (teal/lime) ── */
-.site-pill{display:inline-flex;align-items:center;padding:7px 14px;border:1px solid var(--line);border-radius:99px;color:var(--ink);text-decoration:none;font-size:12px;font-weight:800;background:#fff;white-space:nowrap}
-.site-pill:hover{border-color:var(--teal);color:var(--teal)}
-.academia-link{display:block;margin:0 10px 16px;color:#9fc3bf;font-size:11px;font-weight:800;letter-spacing:.04em;text-decoration:none}
-.academia-link:hover{color:#fff}
 .inser-stage{display:flex;justify-content:center;padding:10px 0 30px}
 .inser-card{width:100%;max-width:420px;position:relative;overflow:hidden;text-align:center;color:#fff;background:linear-gradient(165deg,#17393b 0%,#0c292b 45%);border:1px solid #365356;border-radius:28px;padding:clamp(28px,6vw,40px) clamp(22px,5vw,34px) clamp(24px,5vw,32px)}
 .inser-pulso{position:absolute;top:0;left:0;right:0;height:64px;opacity:.55;pointer-events:none}
@@ -54,7 +52,7 @@
 .inser-halo2{animation-delay:2s;border-color:var(--lime)}
 @keyframes inser-respirar{0%,100%{transform:scale(1);opacity:.5}50%{transform:scale(1.22);opacity:0}}
 .inser-avatar{position:absolute;inset:8px;width:calc(100% - 16px);height:calc(100% - 16px);border-radius:50%;object-fit:cover;display:block;background:#fff;border:2px solid rgba(255,255,255,.12)}
-.inser-card h3{margin:18px 0 0;font:800 clamp(26px,7vw,32px)/1.1 Georgia,serif;letter-spacing:-.02em;color:#fff}
+.inser-card h3{margin:18px 0 0;font:800 clamp(26px,7vw,32px)/1.1 inherit;letter-spacing:-.02em;color:#fff}
 .inser-card h3 em{font-style:normal;color:var(--lime)}
 .inser-rol{color:#bdd1cf;font-size:15px;margin:6px 0 0;line-height:1.5}
 .inser-rol strong{color:#fff;font-weight:700}
@@ -91,6 +89,5 @@
 .inser-qr-panel svg{width:100%;height:auto;display:block}
 .inser-qr-panel p{color:#132a2c;font-weight:700;font-size:15px;margin:10px 0 0}
 .inser-qr-panel small{color:#5e7374;font-size:12.5px;display:block;margin-top:2px}
-body.night .inser-btn{background:rgba(255,255,255,.05)}
-@media(max-width:900px){.site-pill{display:none}}
+@media(max-width:900px){}
 @media(prefers-reduced-motion:reduce){.inser-card *{animation:none!important}}
