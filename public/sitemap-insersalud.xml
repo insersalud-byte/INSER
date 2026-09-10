@@ -441,4 +441,12 @@
       <image:title>Ebook interactivo de oxigenoterapia nasal de alto flujo (CNAF) - Academia INSER SALUD</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion/images/prueba-ventilacion-espontanea.webp</image:loc>
+      <image:title>Guia interactiva de extubacion, decanulacion y deglucion en adultos - Academia INSER SALUD</image:title>
+    </image:image>
+  </url>
 </urlset>

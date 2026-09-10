@@ -1,5 +1,5 @@
-(function initTecmeHighFlowSimulator() {
-  const root = document.getElementById('tecmeSimulator');
+(function initHighFlowSimulator() {
+  const root = document.getElementById('highFlowSimulator');
   if (!root || !window.HighFlowModel) return;
 
   const byId = id => document.getElementById(id);
