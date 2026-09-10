@@ -425,17 +425,41 @@ details p { margin: 10px 0 0; color: var(--vm-muted); font-size: .92rem; }
 @media (max-width: 640px) {
   .ebook-context { display: none; }
   .ebook-topbar { grid-template-columns: auto 1fr; grid-template-areas: "brand site" "nav nav"; }
-  .ebook-intro { padding: 34px 0 26px; }
-  .chapter { margin-bottom: 64px; }
-  .chapter-heading { grid-template-columns: 34px 1fr; }
-  .chapter-heading h2 { font-size: 2.1rem; }
+
+  /* Portada: el título respira y los botones ocupan el ancho, como se toca en un celular. */
+  .ebook-intro { padding: 28px 0 22px; gap: 26px; }
+  .ebook-intro h1 { line-height: .95; letter-spacing: -.05em; }
+  .ebook-intro > div > p { font-size: 1rem; line-height: 1.55; }
+  .audience-pill { padding: 8px 0 8px 11px; font-size: .72rem; }
+  .intro-actions .primary-action, .intro-actions .ghost-action { flex: 1 1 100%; justify-content: center; padding: 15px 17px; }
+  .intro-aside img { aspect-ratio: 4 / 3; }
+
+  /* Encabezado de capítulo: el número va arriba, así el título usa todo el ancho
+     y no queda partido en tres líneas pegadas. */
+  .chapter { margin-bottom: 48px; }
+  .chapter-heading { grid-template-columns: 1fr; gap: 6px; padding: 22px 0 22px; }
+  .chapter-heading h2 { font-size: 1.95rem; line-height: 1.06; letter-spacing: -.04em; }
+  .chapter-heading p { font-size: .95rem; }
+  .section-number { font-size: .8rem; }
+
+  /* Tarjetas y listas: texto un punto más grande y menos aire perdido. */
   .concept-grid, .protocol-grid, .mechanism-map, .monitor-grid, .wean-flow, .prone-guide, .checklist, .choices { grid-template-columns: 1fr; }
+  .concept, .protocol-grid article, .wean-flow article, .monitor-grid article, .mechanism-map article, .panel, .case-card, .rox-card, .rox-result { padding: 18px; }
+  .concept p, .protocol-grid p, .wean-flow p, .monitor-grid span, .mechanism-map p, .panel li, .timeline p { font-size: .92rem; }
   .rox-card { grid-template-columns: 1fr; }
-  .key-message, .danger, .evidence-note, .method-note { grid-template-columns: 1fr; gap: 8px; }
+  .rox-card button { padding: 15px 17px; justify-content: center; }
+  .rox-result > strong { font-size: 3.4rem; }
+  .key-message, .danger, .evidence-note, .method-note { grid-template-columns: 1fr; gap: 8px; padding: 16px 18px; }
   .reassess { justify-content: flex-start; }
   .check-progress { grid-template-columns: 1fr; }
+  .checklist label { padding: 14px 16px; font-size: .95rem; }
+  .choices button { padding: 15px 16px; font-size: .95rem; }
   .timeline article, .red-flags div, .references li { grid-template-columns: 34px 1fr; }
+  .timeline article { padding: 14px 16px; }
+  .photo img { max-height: 300px; }
+  .formula { flex-wrap: wrap; gap: 10px; font-size: 1rem; }
 }
+
 
 @media print {
   .ebook-topbar, .search-results, .intro-actions, .print-button { display: none !important; }
