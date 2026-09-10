@@ -935,7 +935,7 @@ try {
                 { img: '/academia/ebook/alto-flujo/images/01-portada-alto-flujo.webp', name: 'Ebook interactivo de oxigenoterapia nasal de alto flujo (CNAF) - Academia INSER SALUD' },
             ]),
             u(`${SALUD}/academia/ebook/extubacion-decanulacion-deglucion`, '0.7', [
-                { img: '/academia/ebook/extubacion-decanulacion-deglucion/images/prueba-ventilacion-espontanea.webp', name: 'Guía interactiva de extubación, decanulación y deglución en adultos - Academia INSER SALUD' },
+                { img: '/academia/ebook/extubacion-decanulacion-deglucion/images/soporte-destete.webp', name: 'Guía interactiva de extubación, decanulación y deglución en adultos - Academia INSER SALUD' },
             ]),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`
