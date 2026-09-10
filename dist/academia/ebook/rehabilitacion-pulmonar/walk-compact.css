@@ -1,0 +1,25 @@
+.walk-instructions{margin:1.5rem 0}.walk-instructions li{margin:.6rem 0}
+#walkLab{padding:1rem}#walkLab>.lab-head{margin-bottom:.5rem}#walkLab>.lab-head .eyebrow,#walkLab>.lab-head .mode-pill{display:none}
+#walkLab>.lab-head h3{margin:0;font-size:1.1rem}
+#walkPatientFold{margin:.5rem 0}#walkPatientFold>summary{padding:.7rem;font-weight:700}
+#walkPatientFold .patient-card{padding:.8rem;margin:.4rem 0}#walkPatientFold h3{font-size:1rem;margin:0 0 .5rem}
+#walkReady{width:100%;min-height:46px;background:#11766b;color:#fff;font-weight:700;margin:.5rem 0}
+#walkLab .lab-grid{display:block;margin:0}#walkConsole{padding:.7rem;scroll-margin-top:0}
+#walkClock{font-size:2.6rem;line-height:1.05}#walkStatus{font-size:.85rem;margin:.3rem 0}#restStatus{font-size:.8rem;margin:.3rem 0}
+#walkQuickActions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.45rem;margin:.6rem 0}
+#walkQuickActions button{min-height:46px;padding:.4rem;font-size:.85rem;margin:0;width:100%}
+#walkExit{padding:.35rem;font-size:.75rem;min-height:32px;margin:.3rem 0 0}
+#walkMonitor{margin:.6rem 0;padding-top:.5rem}#walkMonitor h3{font-size:1rem;margin:.4rem 0}
+#walkMonitor>details{font-size:.85rem;margin:.3rem 0}#monitorAlarm{padding:.45rem;margin:.4rem 0;font-size:.8rem}
+#monitorAlarm:not(.active){display:none}#monitorPrompt,#monitorRecovery{padding:.4rem;margin:.3rem 0;font-size:.8rem}
+#walkMonitor>.button-row{gap:.4rem;margin:.4rem 0}#walkMonitor>.button-row button{padding:.4rem;min-height:40px;font-size:.8rem}
+.walk-moment-label{display:flex;gap:.5rem;align-items:center;font-size:.9rem}.walk-moment-label select{min-height:42px;flex:1}
+#walkMonitor .table-wrap{overflow:visible}#walkMonitor table{min-width:0;width:100%}#walkMonitor thead{display:none}
+#walkMonitor tbody,#walkMonitor tr{display:block}#walkMonitor tr[hidden]{display:none!important}
+#walkMonitor tbody tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem;padding:.4rem 0}
+#walkMonitor tbody th{display:none}#walkMonitor tbody td{display:block;border:0;padding:0;background:transparent}
+#walkMonitor tbody td::before{content:attr(data-label);display:block;font-size:.72rem;margin-bottom:.2rem}
+#walkMonitor tbody td:last-child{grid-column:1/-1;font-size:.72rem}#walkMonitor tbody td:last-child::before{display:inline;margin-right:.4rem}
+#walkMonitor tbody td.not-applicable{display:none}#walkMonitor table input{width:100%;min-height:42px;padding:.4rem;font-size:16px;box-sizing:border-box}
+#walkMonitor.show-all tbody th{display:block;grid-column:1/-1}#walkMonitor.show-all tbody tr{border-bottom:1px solid #60818e}
+@media(max-width:850px){body.walk-practical>.ebook-topbar{display:none}#walkLab{padding:.6rem}#walkConsole{padding:.5rem}#walkPatientFold .patient-fields{gap:.5rem}#walkPatientFold input,#walkPatientFold select{font-size:16px;min-height:42px}#walkLab details>summary{min-height:36px}#walkQuickActions button{font-size:.8rem}}

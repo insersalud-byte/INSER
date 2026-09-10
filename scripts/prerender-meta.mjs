@@ -937,6 +937,9 @@ try {
             u(`${SALUD}/academia/ebook/extubacion-decanulacion-deglucion`, '0.7', [
                 { img: '/academia/ebook/extubacion-decanulacion-deglucion/images/soporte-destete.webp', name: 'Guía interactiva de extubación, decanulación y deglución en adultos - Academia INSER SALUD' },
             ]),
+            u(`${SALUD}/academia/ebook/rehabilitacion-pulmonar`, '0.7', [
+                { img: '/academia/ebook/rehabilitacion-pulmonar/images/portada.webp', name: 'Ebook interactivo de rehabilitación pulmonar para adultos - Academia INSER SALUD' },
+            ]),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`
             + `<!-- Generado por scripts/prerender-meta.mjs. NO editar a mano: se reescribe en cada build. -->\n`

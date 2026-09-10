@@ -1,0 +1,20 @@
+.patient-card{padding:1.25rem;background:#143542;border:1px solid #547987;border-radius:.6rem;margin:1rem 0 1.5rem}
+#walkPrintReport .report-chart{margin:14px 0;padding:10px;border:1px solid #c5d5d9;break-inside:avoid}
+#walkPrintReport .report-chart figcaption{font-weight:700;font-size:14px;color:#152b35;margin-bottom:5px}
+#walkPrintReport .report-chart svg{width:100%;height:auto;display:block}
+#walkPrintReport .chart-comparison{font-size:12px;margin:6px 0 0}
+@media print{#walkPrintReport .report-graphs{break-before:page}#walkPrintReport .report-chart{break-inside:avoid}}
+.patient-fields{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:1rem}.patient-fields label{min-width:0}
+.patient-fields input,.patient-fields select{width:100%;box-sizing:border-box}
+#walkLab .lab-grid{grid-template-columns:1fr 1.5fr 1fr;align-items:start}
+#walkNotes{width:100%;box-sizing:border-box;resize:vertical;background:#102c38;color:#fff;border:1px solid #698d9a;border-radius:.4rem;padding:.7rem;font:inherit}
+#walkRest{background:#006b65;color:white;border:2px solid #43e2c5;font-weight:700}#walkStop{border:2px solid #ff8989}
+.walk-results{margin:1.5rem 0;padding:1.25rem;border:1px solid #698d9a;border-radius:.5rem}
+#walkPercent,#walkPrediction{font-size:1.1rem;font-weight:700}#walkPdf{background:#11766b;color:white;font-weight:700}
+#walkPrintReport{display:none;background:white;color:#152b35;font:15px/1.5 Arial,sans-serif;padding:2rem;box-sizing:border-box;overflow-wrap:anywhere}
+body.show-walk-report{overflow:hidden}body.show-walk-report #walkPrintReport{display:block;position:fixed;inset:0;z-index:9999;overflow:auto}
+#walkPrintReport h1{font-size:26px}#walkPrintReport h2{font-size:18px;margin-top:1.3rem}#walkPrintReport p{white-space:pre-wrap}
+#walkPrintReport table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:12px}#walkPrintReport td,#walkPrintReport th{padding:7px;border:1px solid #b4c6cd;color:#152b35;background:white}
+#walkPrintReport th{background:#e3efed}.report-actions{display:flex;gap:1rem;margin-bottom:1.5rem}.report-actions button{padding:.75rem;background:#164e57;color:white;border:0;border-radius:.4rem}
+@media(max-width:850px){.patient-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.patient-fields label:first-child{grid-column:1/-1}#walkLab .lab-grid{grid-template-columns:1fr}#walkPrintReport{padding:1rem}}
+@media print{@page{size:A4;margin:14mm}body.show-walk-report{overflow:visible!important}body.show-walk-report>*:not(#walkPrintReport){display:none!important}body.show-walk-report #walkPrintReport{display:block!important;position:static!important;overflow:visible!important;padding:0!important;font-size:10pt}#walkPrintReport .report-actions{display:none!important}#walkPrintReport h2{break-after:avoid}#walkPrintReport tr{break-inside:avoid}#walkPrintReport thead{display:table-header-group}}
