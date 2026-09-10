@@ -38,6 +38,10 @@ export default defineConfig({
         // Paginas fuera de la SPA: el service worker no debe devolverles el
         // index.html de la app, tienen su propio HTML.
         navigateFallbackDenylist: [/^\/tarjeta/, /^\/politica-de-privacidad/, /^\/academia/, /\.md$/, /\.txt$/, /\.xml$/],
+        // Los ebooks de /academia/ no van al precache: son sitios estaticos aparte,
+        // pesan varios MB (se descargaban en cada visita a la home) y, al servirse
+        // cache-first, una version vieja quedaba pegada hasta que el SW se actualizaba.
+        globIgnores: ['**/academia/**'],
       },
       manifest: {
         name: 'Inser Salud App',
