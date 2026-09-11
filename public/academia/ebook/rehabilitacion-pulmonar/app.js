@@ -38,39 +38,7 @@ document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click'
  document.querySelectorAll('[data-filter]').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b));});
  document.querySelectorAll('.exercise-card').forEach(c=>c.hidden=b.dataset.filter!=='todos'&&c.dataset.type!==b.dataset.filter);
 }));
-// Clock uses elapsed time; rest is an event and never pauses time.
-let walk={started:null,elapsed:0,running:false,complete:false,rests:0,resting:false,events:[]};
-function walkInputs() {
- const length=numeric('walkLength',1,100,true),laps=numeric('walkLaps',0,100,true),extra=numeric('walkExtra',0,100);
- const ok=length!==null&&laps!==null&&extra!==null&&extra<length;
- $('walkValidation').textContent=ok?(length<30?'Recorrido menor a 30 m: no comparable con el procedimiento estándar.':''):'Revisá los datos: tramos enteros y metros finales menores que la longitud del tramo.';
- $('walkExtra').max=length===null?99:Math.max(0,length-.1);
- $('walkDistance').textContent=ok?fmt(length*laps+extra,1)+' m':'—';
- return ok?{length,laps,extra,distance:length*laps+extra}:null;
-}
-function elapsed(){return walk.running?Math.min(360,(Date.now()-walk.started)/1000):walk.elapsed;}
-function renderWalk(){
- const t=elapsed();
- if(walk.running&&t>=360){walk.elapsed=360;walk.running=false;walk.complete=true;walk.resting=false;walk.events.push({seconds:360,event:'Fin de seis minutos'});window.walkMonitor?.finish(walk.started+360000);}
- const left=Math.max(0,360-Math.floor(t));
- $('walkClock').textContent=String(Math.floor(left/60)).padStart(2,'0')+':'+String(left%60).padStart(2,'0');
- $('walkStatus').textContent=walk.running?(walk.resting?'Descanso registrado · el reloj continúa':'Prueba en curso'):walk.complete?'Seis minutos completados':walk.elapsed>0?'Finalizada antes de 6 minutos · resultado incompleto':'Preparado';
- $('walkStart').disabled=walk.running||walk.elapsed>0||walk.complete;
- $('walkRest').disabled=!walk.running;$('walkStop').disabled=!walk.running;
- $('walkLength').disabled=walk.running||walk.elapsed>0||walk.complete;
- $('walkRest').textContent=walk.resting?'Reanudar marcha':'Detención / descanso';
- $('restStatus').textContent='Detenciones: '+walk.rests;
- window.walkReport?.update();
-}
-['walkLength','walkLaps','walkExtra'].forEach(id=>$(id).addEventListener('input',walkInputs));
-$('lapAdd').onclick=()=>{const n=numeric('walkLaps',0,100,true);if(n!==null&&n<100){$('walkLaps').value=n+1;walkInputs();}};
-$('lapUndo').onclick=()=>{const n=numeric('walkLaps',0,100,true);if(n!==null){$('walkLaps').value=Math.max(0,n-1);walkInputs();}};
-$('walkStart').onclick=()=>{if(!walkInputs()||window.walkMonitor?.start()===false)return;walk.started=Date.now();walk.running=true;renderWalk();};
-$('walkRest').onclick=()=>{if(!walk.running)return;walk.resting=!walk.resting;if(walk.resting)walk.rests++;walk.events.push({seconds:Math.round(elapsed()),event:walk.resting?'Inicio de descanso':'Reanudación'});renderWalk();};
-$('walkStop').onclick=()=>{if(!walk.running)return;walk.elapsed=elapsed();walk.running=false;walk.resting=false;walk.events.push({seconds:Math.round(walk.elapsed),event:'Finalización anticipada'});window.walkMonitor?.finish(Date.now());renderWalk();};
-$('walkReset').onclick=()=>{if((walk.running||walk.elapsed>0)&&!confirm('¿Reiniciar el registro de marcha actual?'))return;walk={started:null,elapsed:0,running:false,complete:false,rests:0,resting:false,events:[]};['walkLaps','walkExtra'].forEach(id=>$(id).value=0);$('walkNotes').value='';window.walkReport?.reset();window.walkMonitor?.reset();walkInputs();renderWalk();};
-$('walkExport').onclick=()=>{const report=window.walkReport?.text();if(report)download('registro-marcha.txt',report);};
-setInterval(renderWalk,200);walkInputs();renderWalk();
+// El test de marcha vive en walk-test.js.
 const scenarios={estable:{label:'EPOC estable',hr:78,sat:96,capacity:3.2,loss:1.2},fragil:{label:'Desacondicionamiento',hr:86,sat:96,capacity:2.1,loss:.5},intersticial:{label:'Limitación de oxigenación',hr:82,sat:94,capacity:2.8,loss:3.1}};
 let scenario='estable';
 function simulate(p,speed,minutes,mode,recovery) {
