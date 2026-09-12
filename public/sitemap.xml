@@ -449,4 +449,12 @@
       <image:title>Guía interactiva de extubación, decanulación y deglución en adultos - Academia INSER SALUD</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://insersalud.com/academia/ebook/rehabilitacion-pulmonar</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/academia/ebook/rehabilitacion-pulmonar/images/portada.webp</image:loc>
+      <image:title>Ebook interactivo de rehabilitación pulmonar para adultos - Academia INSER SALUD</image:title>
+    </image:image>
+  </url>
 </urlset>

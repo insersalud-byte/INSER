@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Academia INSER SALUD | Formación gratuita en terapia respiratoria</title>
-<meta name="description" content="Academia INSER SALUD: contenidos de formación gratuitos en terapia respiratoria y ventilación mecánica, escritos por el Lic. Sergio Giorda. Ebooks interactivos para kinesiólogos y profesionales de la salud." />
+<title>Academia: formación gratuita para profesionales de la terapia respiratoria | INSER SALUD</title>
+<meta name="description" content="Academia INSER SALUD: formación gratuita para profesionales de la salud (kinesiólogos, médicos, enfermeros y estudiantes). Cinco ebooks interactivos del Lic. Sergio Giorda (MP 2123): ventilación mecánica, ventilación no invasiva (CPAP y BiPAP), oxigenoterapia de alto flujo, extubación, decanulación y deglución, y rehabilitación pulmonar. Sin costo y sin registro." />
 <link rel="canonical" href="https://insersalud.com/academia" />
 <meta name="robots" content="index, follow" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
@@ -12,8 +12,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="INSER SALUD" />
 <meta property="og:locale" content="es_AR" />
-<meta property="og:title" content="Academia INSER SALUD | Formación gratuita en terapia respiratoria" />
-<meta property="og:description" content="Ebooks interactivos y contenidos de formación gratuitos en terapia respiratoria, por el Lic. Sergio Giorda." />
+<meta property="og:title" content="Academia: formación gratuita para profesionales | INSER SALUD" />
+<meta property="og:description" content="Cinco ebooks interactivos y gratuitos de terapia respiratoria para kinesiólogos, médicos, enfermeros y estudiantes: ventilación mecánica, VNI, alto flujo, extubación y decanulación, rehabilitación pulmonar. Por el Lic. Sergio Giorda." />
 <meta property="og:url" content="https://insersalud.com/academia" />
 <meta property="og:image" content="https://insersalud.com/og-insersalud.jpg" />
 <meta property="og:image:width" content="1200" />
@@ -25,18 +25,132 @@
   "@type": "CollectionPage",
   "@id": "https://insersalud.com/academia#webpage",
   "url": "https://insersalud.com/academia",
-  "name": "Academia INSER SALUD",
-  "description": "Contenidos de formación gratuitos en terapia respiratoria y ventilación mecánica para kinesiólogos y profesionales de la salud.",
+  "name": "Academia: formación gratuita para profesionales",
+  "alternateName": "Academia INSER SALUD",
+  "description": "Formación gratuita en terapia respiratoria para profesionales de la salud: cinco ebooks interactivos de ventilación mecánica, ventilación no invasiva, oxigenoterapia de alto flujo, extubación, decanulación y deglución, y rehabilitación pulmonar. Sin costo y sin registro.",
   "inLanguage": "es-AR",
+  "isAccessibleForFree": true,
   "isPartOf": { "@id": "https://insersalud.com/#website" },
   "about": { "@id": "https://insersalud.com/#organization" },
   "publisher": { "@id": "https://insersalud.com/#organization" },
-  "author": { "@type": "Person", "name": "Lic. Sergio Giorda", "jobTitle": "Licenciado en Kinesiología y Fisioterapia, MP 2123" },
+  "author": { "@id": "https://insersalud.com/#sergiogiorda", "@type": "Person", "name": "Lic. Sergio Giorda", "jobTitle": "Licenciado en Kinesiología y Fisioterapia, MP 2123", "worksFor": { "@id": "https://insersalud.com/#organization" } },
+  "audience": {
+    "@type": "EducationalAudience",
+    "audienceType": "Kinesiólogos respiratorios, médicos, enfermeros y estudiantes de ciencias de la salud",
+    "educationalRole": "Profesional de la salud"
+  },
   "hasPart": {
     "@type": "CollectionPage",
     "@id": "https://insersalud.com/academia/ebook#webpage",
     "url": "https://insersalud.com/academia/ebook",
     "name": "Ebooks · Academia INSER SALUD"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Ebooks gratuitos de la Academia INSER SALUD",
+    "numberOfItems": 5,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "LearningResource",
+          "@id": "https://insersalud.com/academia/ebook/ventilacion-mecanica#learningresource",
+          "url": "https://insersalud.com/academia/ebook/ventilacion-mecanica",
+          "name": "Ventilación mecánica: de la perilla a la curva",
+          "description": "Ebook interactivo de ventilación mecánica para kinesiólogos respiratorios: simulador paciente-ventilador con seis modos (VC, PC, PRVC, SIMV, PSV y CPAP/VNI), curvas y bucles, gases estimados, alarmas, trece asincronías y alteraciones, cinco ejemplos resueltos, diez retos verificados por el simulador, ocho casos clínicos, destete paso a paso, pre-test y post-test con certificado y glosario de 42 términos.",
+          "learningResourceType": "Ebook interactivo",
+          "educationalLevel": "Profesional",
+          "timeRequired": "PT4H",
+          "isAccessibleForFree": true,
+          "inLanguage": "es-AR",
+          "image": "https://insersalud.com/academia/ebook/ventilacion-mecanica/images/hero-evaluacion.webp",
+          "author": { "@type": "Person", "name": "Lic. Sergio Giorda", "jobTitle": "Licenciado en Kinesiología y Fisioterapia, MP 2123" },
+          "provider": { "@id": "https://insersalud.com/#organization" },
+          "audience": { "@type": "EducationalAudience", "audienceType": "Kinesiólogos respiratorios, médicos intensivistas, enfermeros de terapia intensiva y estudiantes" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "LearningResource",
+          "@id": "https://insersalud.com/academia/ebook/ventilacion-no-invasiva#learningresource",
+          "url": "https://insersalud.com/academia/ebook/ventilacion-no-invasiva",
+          "name": "Ventilación no invasiva: de la máscara al paciente",
+          "description": "Ebook interactivo de ventilación no invasiva (CPAP y BiPAP): IPAP y EPAP, interfaces, fugas y cuidado de la piel, simulador de VNI con once patrones, programación paso a paso en EPOC, edema agudo de pulmón, obesidad-hipoventilación y ELA, reevaluación de la primera hora con score HACOR e índice ROX, criterios de intubación, VNI domiciliaria, ocho retos, seis casos clínicos y autoevaluación con certificado.",
+          "learningResourceType": "Ebook interactivo",
+          "educationalLevel": "Profesional",
+          "timeRequired": "PT4H",
+          "isAccessibleForFree": true,
+          "inLanguage": "es-AR",
+          "image": "https://insersalud.com/academia/ebook/ventilacion-no-invasiva/images/vni-hfnc.webp",
+          "author": { "@type": "Person", "name": "Lic. Sergio Giorda", "jobTitle": "Licenciado en Kinesiología y Fisioterapia, MP 2123" },
+          "provider": { "@id": "https://insersalud.com/#organization" },
+          "audience": { "@type": "EducationalAudience", "audienceType": "Kinesiólogos respiratorios, médicos, enfermeros y estudiantes" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "LearningResource",
+          "@id": "https://insersalud.com/academia/ebook/alto-flujo#learningresource",
+          "url": "https://insersalud.com/academia/ebook/alto-flujo",
+          "name": "Oxigenoterapia nasal de alto flujo",
+          "description": "Ebook interactivo de cánula nasal de alto flujo (CNAF): fisiología, equipo y montaje, indicaciones y límites, titulación separada de flujo, FiO2 y temperatura con simulador, monitorización y reconocimiento del fracaso, prono despierto con su evidencia, calculadora del índice ROX, checklist de cuidados de enfermería, destete y tres casos clínicos con corrección inmediata.",
+          "learningResourceType": "Ebook interactivo",
+          "educationalLevel": "Profesional",
+          "timeRequired": "PT2H",
+          "isAccessibleForFree": true,
+          "inLanguage": "es-AR",
+          "image": "https://insersalud.com/academia/ebook/alto-flujo/images/01-portada-alto-flujo.webp",
+          "author": { "@type": "Person", "name": "Lic. Sergio Giorda", "jobTitle": "Licenciado en Kinesiología y Fisioterapia, MP 2123" },
+          "provider": { "@id": "https://insersalud.com/#organization" },
+          "audience": { "@type": "EducationalAudience", "audienceType": "Kinesiólogos respiratorios, médicos, enfermeros y estudiantes" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "LearningResource",
+          "@id": "https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion#learningresource",
+          "url": "https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion",
+          "name": "Extubación, decanulación y deglución: guía interactiva",
+          "description": "Guía interactiva para pacientes adultos de terapia intensiva: screening de readiness y prueba de respiración espontánea (SBT), RSBI de Yang-Tobin, cuff leak test y edema laríngeo; criterios de decanulación de traqueostomía (pico flujo tosido, aspiraciones, tolerancia al tapado, válvula de fonación, escala de penetración-aspiración); tamizaje de disfagia post-extubación GUSS-ICU con las consistencias IDDSI. Cada guía calcula el veredicto, guarda las evaluaciones en el navegador y cita su bibliografía.",
+          "learningResourceType": "Guía interactiva",
+          "educationalLevel": "Profesional",
+          "timeRequired": "PT2H",
+          "isAccessibleForFree": true,
+          "inLanguage": "es-AR",
+          "image": "https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion/images/soporte-destete.webp",
+          "author": { "@type": "Person", "name": "Lic. Sergio Giorda", "jobTitle": "Licenciado en Kinesiología y Fisioterapia, MP 2123" },
+          "provider": { "@id": "https://insersalud.com/#organization" },
+          "audience": { "@type": "EducationalAudience", "audienceType": "Kinesiólogos, médicos intensivistas, fonoaudiólogos y enfermeros de terapia intensiva" }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "LearningResource",
+          "@id": "https://insersalud.com/academia/ebook/rehabilitacion-pulmonar#learningresource",
+          "url": "https://insersalud.com/academia/ebook/rehabilitacion-pulmonar",
+          "name": "Rehabilitación pulmonar",
+          "description": "Ebook interactivo de rehabilitación pulmonar para pacientes adultos: evaluación inicial y criterios de seguridad, prescripción de entrenamiento aeróbico y de fuerza, diez ejercicios paso a paso con dosis, adaptaciones y errores frecuentes, manejo de la disnea, test de marcha de seis minutos con cronómetro, valores predichos e informe imprimible, simulador de ejercicio con tres escenarios, seguimiento con el cuestionario St. George, nutrición y sarcopenia, COVID persistente, programa domiciliario y cuatro casos clínicos.",
+          "learningResourceType": "Ebook interactivo",
+          "educationalLevel": "Profesional",
+          "timeRequired": "PT2H",
+          "isAccessibleForFree": true,
+          "inLanguage": "es-AR",
+          "image": "https://insersalud.com/academia/ebook/rehabilitacion-pulmonar/images/portada.webp",
+          "author": { "@type": "Person", "name": "Lic. Sergio Giorda", "jobTitle": "Licenciado en Kinesiología y Fisioterapia, MP 2123" },
+          "provider": { "@id": "https://insersalud.com/#organization" },
+          "audience": { "@type": "EducationalAudience", "audienceType": "Kinesiólogos, médicos, enfermeros y equipos de centros de rehabilitación pulmonar" }
+        }
+      }
+    ]
   },
   "breadcrumb": {
     "@type": "BreadcrumbList",
@@ -60,17 +174,29 @@
   .hero .int { max-width:960px; margin:0 auto; }
   .etiqueta { display:inline-block; font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:#7fa8cc; margin:0 0 .75rem; }
   h1 { font-size:clamp(2rem,5vw,3rem); line-height:1.15; margin:0 0 1rem; color:#fff; }
-  .hero p { font-size:1.1rem; color:#a9cbe8; max-width:680px; margin:0; }
+  .hero p { font-size:1.1rem; color:#a9cbe8; max-width:720px; margin:0; }
+  .hero .sellos { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1.25rem; }
+  .hero .sellos span { font-size:.82rem; padding:.3rem .7rem; border-radius:999px; background:rgba(63,191,174,.16); color:#bfeee6; border:1px solid rgba(63,191,174,.35); }
   main { max-width:960px; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
   h2 { font-size:1.5rem; margin:0 0 1rem; }
+  .intro { color:var(--suave); margin:0 0 1.5rem; max-width:760px; }
   .grilla { display:grid; gap:1.25rem; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); margin:0 0 3rem; }
-  .tarjeta { display:block; background:#fff; border:1px solid var(--linea); border-radius:1rem; padding:1.5rem; text-decoration:none; color:inherit; box-shadow:0 1px 2px rgba(15,23,42,.04); transition:transform .15s ease, box-shadow .15s ease; }
-  .tarjeta:hover { transform:translateY(-3px); box-shadow:0 12px 30px rgba(15,23,42,.08); }
-  .tarjeta .icono { width:48px; height:48px; border-radius:12px; background:rgba(3,105,161,.1); color:var(--acento); display:flex; align-items:center; justify-content:center; margin-bottom:1rem; }
-  .tarjeta .icono svg { width:26px; height:26px; }
-  .tarjeta h3 { margin:0 0 .4rem; font-size:1.2rem; }
-  .tarjeta p { margin:0 0 .75rem; color:var(--suave); }
-  .tarjeta .cta { font-weight:700; color:var(--acento); }
+  .ebook { display:flex; flex-direction:column; background:#fff; border:1px solid var(--linea); border-radius:1rem; overflow:hidden; box-shadow:0 1px 2px rgba(15,23,42,.04); transition:transform .15s ease, box-shadow .15s ease; }
+  .ebook:hover { transform:translateY(-3px); box-shadow:0 12px 30px rgba(15,23,42,.08); }
+  .ebook img { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; background:#0b2038; }
+  .ebook .cuerpo { padding:1.25rem 1.5rem 1.5rem; display:flex; flex-direction:column; gap:.6rem; flex:1; }
+  .ebook .tags { display:flex; flex-wrap:wrap; gap:.4rem; }
+  .ebook .tags span { font-size:.74rem; letter-spacing:.04em; text-transform:uppercase; padding:.2rem .55rem; border-radius:999px; background:rgba(3,105,161,.08); color:var(--acento); font-weight:600; }
+  .ebook h3 { margin:0; font-size:1.2rem; line-height:1.3; }
+  .ebook h3 a { color:inherit; text-decoration:none; }
+  .ebook h3 a:hover { color:var(--acento); }
+  .ebook p { margin:0; color:var(--suave); font-size:.97rem; }
+  .ebook ul { margin:0; padding-left:1.1rem; color:#1e293b; font-size:.94rem; }
+  .ebook ul li { margin:.15rem 0; }
+  .ebook .cta { margin-top:auto; padding-top:.5rem; font-weight:700; color:var(--acento); text-decoration:none; }
+  .paraquien { background:#fff; border:1px solid var(--linea); border-radius:1rem; padding:1.5rem; margin:0 0 2rem; }
+  .paraquien ul { margin:.5rem 0 0; padding-left:1.2rem; columns:2; column-gap:2rem; }
+  .paraquien li { margin:.2rem 0; break-inside:avoid; }
   .autor { background:#fff; border:1px solid var(--linea); border-radius:1rem; padding:1.5rem; display:grid; gap:1.25rem; grid-template-columns:auto 1fr; align-items:start; }
   .autor img { width:88px; height:88px; border-radius:50%; object-fit:cover; }
   .autor h2 { font-size:1.2rem; margin:0 0 .25rem; }
@@ -79,7 +205,7 @@
   .contacto { margin-top:2.5rem; padding:1.5rem; border-radius:1rem; background:rgba(63,191,174,.1); border:1px solid rgba(63,191,174,.35); }
   .contacto p { margin:0 0 .5rem; }
   footer { border-top:1px solid var(--linea); margin-top:3rem; padding-top:1.5rem; color:var(--suave); font-size:.9rem; }
-  @media (max-width:600px){ .autor { grid-template-columns:1fr; } .barra nav a { margin-left:.6rem; } main{padding:1.75rem 1.1rem 3rem;} }
+  @media (max-width:600px){ .autor { grid-template-columns:1fr; } .barra nav a { margin-left:.6rem; } main{padding:1.75rem 1.1rem 3rem;} .paraquien ul { columns:1; } }
 </style>
 <!-- Google Analytics 4: mismo ID que el resto del sitio. Pagina estatica, manda su page_view sola. -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV"></script>
@@ -99,21 +225,108 @@
 <header class="hero">
   <div class="int">
     <p class="etiqueta">Academia INSER SALUD</p>
-    <h1>Formación gratuita en terapia respiratoria</h1>
-    <p>Contenidos escritos por el Lic. Sergio Giorda para kinesiólogos, médicos, enfermeros y estudiantes que trabajan con pacientes ventilados o con soporte respiratorio en casa. Sin costo y sin registro.</p>
+    <h1>Academia: formación gratuita para profesionales</h1>
+    <p>Cinco ebooks interactivos de terapia respiratoria escritos por el Lic. Sergio Giorda para kinesiólogos, médicos, enfermeros y estudiantes que trabajan con pacientes ventilados, en terapia intensiva o con soporte respiratorio en casa. Se leen en el navegador, en computadora o celular. Sin costo, sin registro y sin descarga.</p>
+    <div class="sellos" aria-label="Características">
+      <span>Gratuito</span><span>Sin registro</span><span>Interactivo</span><span>Con simuladores y casos clínicos</span><span>Autoevaluación con certificado</span>
+    </div>
   </div>
 </header>
 
 <main>
-  <h2>Contenidos</h2>
+  <h2 id="ebooks">Los cinco ebooks</h2>
+  <p class="intro">Cada material se lee de corrido o se usa como manual de consulta al pie de la cama. Los simuladores, calculadoras y guías funcionan dentro de la misma página; el progreso y las evaluaciones quedan guardados en tu navegador. Ordenados de la ventilación invasiva a la rehabilitación.</p>
+
   <div class="grilla">
-    <a class="tarjeta" href="/academia/ebook">
-      <span class="icono" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
-      <h3>Ebooks</h3>
-      <p>Manuales interactivos para leer en el navegador: simuladores, curvas, calculadoras, guías de cabecera y casos clínicos. Son cinco: <strong>Ventilación mecánica</strong>, <strong>Ventilación no invasiva</strong>, <strong>Alto flujo</strong>, la <strong>guía de extubación, decanulación y deglución</strong> y <strong>Rehabilitación pulmonar</strong>.</p>
-      <span class="cta">Ver los ebooks →</span>
-    </a>
+    <article class="ebook">
+      <a href="/academia/ebook/ventilacion-mecanica"><img src="/academia/ebook/ventilacion-mecanica/images/hero-evaluacion.webp" alt="Ebook interactivo de ventilación mecánica: simulador paciente-ventilador con curvas" width="1400" height="788" loading="lazy" decoding="async" /></a>
+      <div class="cuerpo">
+        <div class="tags"><span>Ebook interactivo</span><span>Unas 4 horas</span><span>Con certificado</span></div>
+        <h3><a href="/academia/ebook/ventilacion-mecanica">Ventilación mecánica: de la perilla a la curva</a></h3>
+        <p>Simulador paciente-ventilador con seis modos (VC, PC, PRVC, SIMV, PSV y CPAP/VNI), curvas y bucles, gases estimados, alarmas y trece alteraciones para provocar y reconocer, desde secreciones y auto-PEEP hasta autodisparo y disparo reverso.</p>
+        <ul>
+          <li>Cinco ejemplos resueltos con los números y diez retos que el simulador verifica solo.</li>
+          <li>Ocho casos clínicos completos y destete paso a paso con prueba de ventilación espontánea.</li>
+          <li>Pre-test, post-test, certificado descargable y glosario de 42 términos.</li>
+        </ul>
+        <a class="cta" href="/academia/ebook/ventilacion-mecanica">Leer el ebook →</a>
+      </div>
+    </article>
+
+    <article class="ebook">
+      <a href="/academia/ebook/ventilacion-no-invasiva"><img src="/academia/ebook/ventilacion-no-invasiva/images/vni-hfnc.webp" alt="Ebook interactivo de ventilación no invasiva: CPAP y BiPAP con máscara" width="1400" height="788" loading="lazy" decoding="async" /></a>
+      <div class="cuerpo">
+        <div class="tags"><span>Ebook interactivo</span><span>Unas 4 horas</span><span>Con certificado</span></div>
+        <h3><a href="/academia/ebook/ventilacion-no-invasiva">Ventilación no invasiva: de la máscara al paciente</a></h3>
+        <p>CPAP y BiPAP explicados desde la presión de soporte: simulador de VNI con IPAP, EPAP, rampa, ciclado, Ti máximo, disparo y fuga de la máscara, y once patrones para reconocer con la fuga como protagonista.</p>
+        <ul>
+          <li>Interfaces: cuál elegir, cómo ajustar, cómo proteger la piel y humidificar.</li>
+          <li>Programaciones paso a paso en EPOC, edema de pulmón, obesidad-hipoventilación y ELA; ocho retos.</li>
+          <li>Seis casos clínicos, score HACOR e índice ROX, cuándo intubar y VNI domiciliaria.</li>
+        </ul>
+        <a class="cta" href="/academia/ebook/ventilacion-no-invasiva">Leer el ebook →</a>
+      </div>
+    </article>
+
+    <article class="ebook">
+      <a href="/academia/ebook/alto-flujo"><img src="/academia/ebook/alto-flujo/images/01-portada-alto-flujo.webp" alt="Ebook interactivo de oxigenoterapia nasal de alto flujo (CNAF)" width="1600" height="900" loading="lazy" decoding="async" /></a>
+      <div class="cuerpo">
+        <div class="tags"><span>Ebook interactivo</span><span>Unas 2 horas</span><span>Con casos y ROX</span></div>
+        <h3><a href="/academia/ebook/alto-flujo">Oxigenoterapia nasal de alto flujo</a></h3>
+        <p>Del principio fisiológico a la vigilancia al pie de cama: flujo, FiO₂ y temperatura no son lo mismo y cada uno se titula por separado según la respuesta del paciente.</p>
+        <ul>
+          <li>Simulador de flujo, FiO₂ y temperatura, y calculadora del índice ROX con sus límites.</li>
+          <li>Equipo y montaje, indicaciones y límites, monitorización y reconocimiento del fracaso.</li>
+          <li>Prono despierto con la evidencia, checklist de enfermería y tres casos clínicos.</li>
+        </ul>
+        <a class="cta" href="/academia/ebook/alto-flujo">Leer el ebook →</a>
+      </div>
+    </article>
+
+    <article class="ebook">
+      <a href="/academia/ebook/extubacion-decanulacion-deglucion"><img src="/academia/ebook/extubacion-decanulacion-deglucion/images/soporte-destete.webp" alt="Guía interactiva de extubación, decanulación y deglución en terapia intensiva de adultos" width="1400" height="788" loading="lazy" decoding="async" /></a>
+      <div class="cuerpo">
+        <div class="tags"><span>Guía interactiva</span><span>Unas 2 horas</span><span>Pacientes adultos</span></div>
+        <h3><a href="/academia/ebook/extubacion-decanulacion-deglucion">Extubación, decanulación y deglución</a></h3>
+        <p>Las tres decisiones que le devuelven la vía aérea al paciente adulto de terapia intensiva, con los protocolos explicados y las mismas guías de cabecera de la unidad, aplicadas a una cama para poder completarlas.</p>
+        <ul>
+          <li>Extubación: screening de readiness, prueba de respiración espontánea, RSBI y test de fuga del cuff.</li>
+          <li>Decanulación: pico flujo tosido, aspiraciones, tolerancia al tapado y válvula de fonación.</li>
+          <li>Deglución: tamizaje GUSS-ICU con las consistencias IDDSI. Cada guía calcula sola el veredicto.</li>
+        </ul>
+        <a class="cta" href="/academia/ebook/extubacion-decanulacion-deglucion">Leer la guía →</a>
+      </div>
+    </article>
+
+    <article class="ebook">
+      <a href="/academia/ebook/rehabilitacion-pulmonar"><img src="/academia/ebook/rehabilitacion-pulmonar/images/portada.webp" alt="Ebook interactivo de rehabilitación pulmonar para adultos" width="1536" height="1024" loading="lazy" decoding="async" /></a>
+      <div class="cuerpo">
+        <div class="tags"><span>Ebook interactivo</span><span>Unas 2 horas</span><span>Con test de marcha</span></div>
+        <h3><a href="/academia/ebook/rehabilitacion-pulmonar">Rehabilitación pulmonar</a></h3>
+        <p>Para pacientes adultos, de la primera entrevista al mantenimiento: evaluar, prescribir ejercicio y seguir resultados, con diez ejercicios explicados paso a paso y un laboratorio para practicar.</p>
+        <ul>
+          <li>Test de marcha de seis minutos con cronómetro, valor predicho e informe imprimible.</li>
+          <li>Entrenamiento aeróbico y de fuerza, manejo de la disnea, nutrición y sarcopenia, COVID persistente.</li>
+          <li>Simulador de ejercicio, seguimiento con St. George, armador de sesión y cuatro casos.</li>
+        </ul>
+        <a class="cta" href="/academia/ebook/rehabilitacion-pulmonar">Leer el ebook →</a>
+      </div>
+    </article>
   </div>
+
+  <section class="paraquien" aria-labelledby="paraquien-titulo">
+    <h2 id="paraquien-titulo">Para quién es esta formación</h2>
+    <p class="intro" style="margin:0">Material pensado para el trabajo real al lado del paciente, en la unidad o en el domicilio:</p>
+    <ul>
+      <li>Kinesiólogos respiratorios e intensivistas.</li>
+      <li>Médicos de terapia intensiva, clínica y neumonología.</li>
+      <li>Enfermería de terapia intensiva y de internación.</li>
+      <li>Fonoaudiólogos que evalúan deglución post-extubación.</li>
+      <li>Equipos de centros de rehabilitación pulmonar.</li>
+      <li>Estudiantes y residentes de ciencias de la salud.</li>
+    </ul>
+    <p style="margin:.75rem 0 0"><a href="/academia/ebook">Ver el listado completo de ebooks →</a></p>
+  </section>
 
   <section class="autor" aria-labelledby="autor-titulo">
     <img src="/artifacts/logo_insersalud.jpg" alt="INSER SALUD" width="88" height="88" loading="lazy" decoding="async" />
