@@ -1439,7 +1439,7 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
-                        <a href="/academia" className={css.navPage} title="Academia: formación gratuita para profesionales">Academia gratuita</a>
+                        <a href="/academia" className={css.navPage} title="Academia: formación gratuita para profesionales">Academia&nbsp;para profesionales</a>
                     </div>
 
                     <div className={css.navRight}>
