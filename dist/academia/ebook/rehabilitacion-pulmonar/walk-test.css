@@ -126,3 +126,53 @@ body.show-walk-report #walkPrintReport { display: block; position: fixed; inset:
   #walkPrintReport tr { break-inside: avoid; }
   #walkPrintReport thead { display: table-header-group; }
 }
+
+/* escala de Borg antes del test */
+.borg-block { margin: 1.5rem 0; padding: 1rem 1.1rem; background: #fff; border: 1px solid var(--vm-line); }
+.borg-block h3 { margin: 0 0 .4rem; font-size: 1.15rem; }
+.borg-block h4 { margin: .2rem 0 .4rem; font-size: 1rem; }
+.borg-block ol { margin: 0; padding-left: 1.2rem; }
+.borg-block li { margin: .3rem 0; font-size: .92rem; }
+.borg-layout { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: .6rem; }
+.borg-table { width: 100%; border-collapse: collapse; font-size: .95rem; margin: 0; }
+.borg-table caption { text-align: left; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--teal); padding: 0 0 .3rem; }
+.borg-table th { padding: .4rem .5rem; font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; }
+.borg-table td { padding: .35rem .5rem; border-bottom: 1px solid var(--vm-line); }
+.borg-table td:first-child { width: 4.2rem; font-size: 1.25rem; font-weight: 800; text-align: center; color: var(--vm-ink); background: var(--vm-teal-soft); }
+.borg-table tr:nth-child(4) td:first-child, .borg-table tr:nth-child(5) td:first-child { background: #eef8d9; }
+.borg-table tr:nth-child(6) td:first-child, .borg-table tr:nth-child(7) td:first-child { background: #fff3cd; }
+.borg-table tr:nth-child(8) td:first-child, .borg-table tr:nth-child(9) td:first-child, .borg-table tr:nth-child(10) td:first-child { background: #ffe0c2; }
+.borg-table tr:nth-child(11) td:first-child, .borg-table tr:nth-child(12) td:first-child { background: #ffcdcd; }
+.borg-print { display: block; width: 100%; margin: .8rem 0 .3rem; min-height: 48px; padding: .6rem 1rem; font: inherit; font-size: .95rem; font-weight: 800; color: #fff; background: var(--vm-teal-dark); border: 0; border-radius: .45rem; cursor: pointer; }
+.borg-print:hover { background: #0b7568; }
+@media (min-width: 760px) { .borg-layout { grid-template-columns: minmax(260px, .9fr) 1.1fr; align-items: start; } }
+
+/* hoja imprimible */
+#borgSheet { display: none; background: #fff; color: #111; font: 16px/1.4 Arial, sans-serif; padding: 1.5rem; box-sizing: border-box; }
+body.show-borg-sheet { overflow: hidden; }
+body.show-borg-sheet #borgSheet { display: block; position: fixed; inset: 0; z-index: 9999; overflow: auto; }
+.borg-sheet { max-width: 720px; margin: 0 auto; }
+.borg-sheet h1 { margin: 0 0 .3rem; font-size: 1.9rem; letter-spacing: -.01em; }
+.borg-sheet-q { margin: .2rem 0 .8rem; font-size: 1.25rem; font-weight: 700; }
+.borg-sheet-q span { font-weight: 400; }
+.borg-sheet-q.small { font-size: 1rem; margin: .8rem 0 .4rem; }
+.borg-sheet table { width: 100%; border-collapse: collapse; }
+.borg-sheet td { padding: .45rem .8rem; border: 2px solid #333; font-size: 1.35rem; }
+.borg-sheet td:first-child { width: 5.5rem; text-align: center; font-size: 2.1rem; font-weight: 800; }
+.borg-sheet-record { display: grid; grid-template-columns: 1fr; gap: .5rem; margin: 1rem 0; font-size: 1rem; }
+.borg-sheet-foot { margin: .6rem 0 0; font-size: .78rem; color: #444; }
+@media (min-width: 600px) { .borg-sheet-record { grid-template-columns: 1fr 1fr; } }
+@media print {
+  body.show-borg-sheet { overflow: visible !important; }
+  body.show-borg-sheet > *:not(#borgSheet) { display: none !important; }
+  body.show-borg-sheet #borgSheet { display: block !important; position: static !important; overflow: visible !important; padding: 0 !important; }
+  #borgSheet .report-actions { display: none !important; }
+  .borg-sheet { max-width: none; }
+  .borg-sheet h1 { font-size: 22pt; }
+  .borg-sheet-q { font-size: 15pt; }
+  .borg-sheet td { padding: 5pt 10pt; font-size: 15pt; border-color: #000; }
+  .borg-sheet td:first-child { font-size: 24pt; }
+  .borg-sheet-record { font-size: 11pt; grid-template-columns: 1fr 1fr; }
+  .borg-sheet-foot { font-size: 8pt; }
+  .borg-sheet tr { break-inside: avoid; }
+}

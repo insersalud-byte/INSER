@@ -277,6 +277,17 @@
  $('walkPdf').onclick = () => { if (walk.running || walk.started === null) { setText('walkReportStatus', 'Finalizá la prueba antes de preparar el informe.'); return; } const r = gather(); if (r) preview(r); };
  $('walkExport').onclick = () => { const r = gather(); if (r) download('registro-marcha.txt', textReport(r)); };
 
+ /* ---------- hoja imprimible de la escala de Borg ---------- */
+ const sheet = $('borgSheet');
+ if (sheet && $('borgPrint')) {
+  const open = () => { document.body.classList.add('show-borg-sheet'); sheet.scrollTop = 0; $('borgSheetClose').focus(); };
+  const close = () => document.body.classList.remove('show-borg-sheet');
+  $('borgPrint').onclick = open;
+  $('borgSheetClose').onclick = close;
+  $('borgSheetPrint').onclick = () => window.print();
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.body.classList.contains('show-borg-sheet')) close(); });
+ }
+
  validate(); alarms(); tick();
  setInterval(tick, 250);
 })();
