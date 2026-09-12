@@ -1439,7 +1439,7 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
-                        <a href="/academia" className={css.navPage} title="Academia: formación gratuita para profesionales">Academia (formación gratuita)</a>
+                        <a href="/academia" className={css.navPage} title="Academia: formación gratuita para profesionales">Academia gratuita</a>
                     </div>
 
                     <div className={css.navRight}>
@@ -1470,7 +1470,7 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
-                        <a href="/academia" className={css.navPage} title="Academia: formación gratuita para profesionales">Academia (formación gratuita)</a>
+                        <a href="/academia" className={css.navPage}>Academia: formación gratuita para profesionales</a>
                         <a href="tel:+5493512065320" className={css.mobileWa} style={{ background: '#1e40af' }}>
                             <Phone size={16} /> Llamar al +54 9 351 206-5320
                         </a>
