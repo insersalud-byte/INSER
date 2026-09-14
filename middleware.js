@@ -63,6 +63,16 @@ export default function middleware(request) {
         // reescribir (si no, /patologia/x.md caeria en /insersalud/... y daria 404).
         if (url.pathname.endsWith('.md')) return next();
 
+        // Barra final: la URL canonica de todo el sitio va SIN barra. Se redirige
+        // aca, antes del rewrite, para que el redirect global de Vercel
+        // (trailingSlash: false) nunca vea la ruta interna /insersalud/... y la
+        // filtre en un Location. Vale para cualquier host.
+        if (url.pathname.length > 1 && url.pathname.endsWith('/')) {
+            const canon = new URL(url);
+            canon.pathname = url.pathname.replace(/\/+$/, '');
+            return Response.redirect(canon.toString(), 308);
+        }
+
         const host = (request.headers.get('host') || '').toLowerCase();
         if (!host.includes('insersalud.com')) return next();
         if (url.pathname.startsWith('/insersalud')) return next();
@@ -78,7 +88,7 @@ export default function middleware(request) {
         }
 
         const target = new URL(url);
-        target.pathname = '/insersalud' + (url.pathname === '/' ? '' : url.pathname);
+        target.pathname = '/insersalud' + (url.pathname === '/' ? '' : url.pathname.replace(/\/+$/, ''));
         return rewrite(target, vary);
     } catch {
         return next();
