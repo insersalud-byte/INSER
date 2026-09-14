@@ -457,4 +457,12 @@
       <image:title>Ebook interactivo de rehabilitación pulmonar para adultos - Academia INSER SALUD</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://insersalud.com/academia/ebook/oxigenoterapia</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/academia/ebook/oxigenoterapia/images/portada.webp</image:loc>
+      <image:title>Ebook ilustrado de oxigenoterapia en adultos y niños, de la guardia a casa - Academia INSER SALUD</image:title>
+    </image:image>
+  </url>
 </urlset>

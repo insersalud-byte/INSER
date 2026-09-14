@@ -194,6 +194,7 @@ export const localPages = [
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'Fibrosis pulmonar', href: '/patologia/fibrosis-pulmonar' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
+            { label: 'Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
     },
     {
@@ -411,6 +412,7 @@ export const localPages = [
             { label: 'Alquiler de concentrador de oxígeno', href: '/alquiler-concentrador-oxigeno-cordoba' },
             { label: 'Concentrador de oxígeno portátil', href: '/concentrador-oxigeno-portatil-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
+            { label: 'Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
     },
     {
@@ -587,6 +589,7 @@ export const localPages = [
             { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
             { label: 'Concentrador de oxígeno portátil en Córdoba', href: '/concentrador-oxigeno-portatil-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
+            { label: 'Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
     },
     {
@@ -636,6 +639,7 @@ export const localPages = [
             { label: 'Comprar concentrador de oxígeno (envío nacional)', href: '/comprar-concentrador-oxigeno-argentina' },
             { label: 'Oxígeno a domicilio en Córdoba', href: '/oxigeno-a-domicilio-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
+            { label: 'Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
     },
     {
@@ -812,6 +816,7 @@ export const localPages = [
             { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
             { label: 'Ebook gratuito: Ventilación mecánica, de la perilla a la curva', href: '/academia/ebook/ventilacion-mecanica' },
             { label: 'Ebook gratuito: Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
+            { label: 'Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
     },
     {
@@ -877,6 +882,7 @@ export const localPages = [
             { label: 'Concentrador portátil en Córdoba (venta y alquiler)', href: '/concentrador-oxigeno-portatil-cordoba' },
             { label: 'Comprar concentrador de oxígeno (envío nacional)', href: '/comprar-concentrador-oxigeno-argentina' },
             { label: 'EPOC', href: '/patologia/epoc' },
+            { label: 'Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
     },
     {

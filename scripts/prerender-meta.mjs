@@ -565,7 +565,7 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <ul>
 ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`).join('\n')}
 </ul>
-<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (5 ebooks de terapia respiratoria)</a></p>`;
+<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (6 ebooks de terapia respiratoria)</a></p>`;
 
     const proceso = `
 <h2>Cómo trabajamos</h2>
@@ -939,6 +939,9 @@ try {
             ]),
             u(`${SALUD}/academia/ebook/rehabilitacion-pulmonar`, '0.7', [
                 { img: '/academia/ebook/rehabilitacion-pulmonar/images/portada.webp', name: 'Ebook interactivo de rehabilitación pulmonar para adultos - Academia INSER SALUD' },
+            ]),
+            u(`${SALUD}/academia/ebook/oxigenoterapia`, '0.7', [
+                { img: '/academia/ebook/oxigenoterapia/images/portada.webp', name: 'Ebook ilustrado de oxigenoterapia en adultos y niños, de la guardia a casa - Academia INSER SALUD' },
             ]),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`
