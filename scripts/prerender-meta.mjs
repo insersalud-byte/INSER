@@ -943,6 +943,9 @@ try {
             u(`${SALUD}/academia/ebook/oxigenoterapia`, '0.7', [
                 { img: '/academia/ebook/oxigenoterapia/images/portada.webp', name: 'Ebook ilustrado de oxigenoterapia en adultos y niños, de la guardia a casa - Academia INSER SALUD' },
             ]),
+            u(`${SALUD}/academia/ebook/ventilacion-neuromuscular`, '0.7', [
+                { img: '/academia/ebook/ventilacion-neuromuscular/assets/evaluacion-respiratoria-neuromuscular.webp', name: 'Ebook interactivo de ventilación en enfermedades neuromusculares - Academia INSER SALUD' },
+            ]),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`
             + `<!-- Generado por scripts/prerender-meta.mjs. NO editar a mano: se reescribe en cada build. -->\n`
