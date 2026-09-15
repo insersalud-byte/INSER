@@ -209,7 +209,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Precios de CPAP en Córdoba (referencia)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\nBiPAP BMC G3 con frecuencia respiratoria: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nOferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\nBiPAP BMC G3 con frecuencia respiratoria: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.',
             },
             {
                 title: 'CPAP, AutoCPAP o BiPAP: ¿cuál te conviene?',
@@ -478,7 +478,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Equipos y precios (envío a todo el país)',
-                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S: $630.000 (presión automática, más confort).\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\nBiPAP BMC G3: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
+                content: 'CPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nOferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.\nCPAP ResMed AirSense 10: $799.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\nBiPAP BMC G3: U$S 907 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
             },
             {
                 title: 'Cómo comprar y recibir tu equipo',
@@ -517,10 +517,11 @@ export const localPages = [
             },
             {
                 q: '¿Cuánto sale un AutoCPAP?',
-                a: 'El AutoCPAP BMC G2S con humidificador sale $630.000, con envío a todo el país y 2 años de garantía oficial. También tenemos el AutoCPAP ResMed AirSense 10 con conectividad. Escribinos por WhatsApp y te pasamos disponibilidad y formas de pago.',
+                a: 'El AutoCPAP BMC G2S con humidificador sale $630.000, con envío sin cargo a todo el país (oferta vigente) y 2 años de garantía oficial. También tenemos el AutoCPAP ResMed AirSense 10 con conectividad. Escribinos por WhatsApp y te pasamos disponibilidad y formas de pago.',
             },
             { q: '¿Envían CPAP a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina (Buenos Aires, Rosario, Salta, etc.). Coordinamos el envío por WhatsApp.' },
             { q: '¿Cuánto cuesta un CPAP?', a: 'Desde $499.000 (CPAP BMC G2S). El AutoCPAP BMC está a $630.000 y el ResMed AirSense 10 a $799.000. Confirmá el precio del día por WhatsApp.' },
+            { q: '¿El envío del CPAP tiene costo?', a: 'Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Para los demás equipos el costo de envío depende del destino: te lo confirmamos por WhatsApp.' },
             { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
             { q: '¿Me ayudan a configurarlo si estoy en otra provincia?', a: 'Sí, te enviamos el equipo configurado y te guiamos a distancia en la puesta en marcha y la adaptación.' },
         ],
@@ -1075,7 +1076,7 @@ const FAQ_OBRA_SOCIAL = {
 // FAQ compartida: financiacion Banco Galicia (flyer jul 2026).
 const FAQ_CUOTAS = {
     q: '¿Se puede pagar en cuotas?',
-    a: 'Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; ese beneficio es solo de ese equipo. Además aceptamos efectivo, transferencia y tarjeta.',
+    a: 'Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.',
 };
 for (const p of localPages) p.faq.push(FAQ_OBRA_SOCIAL, FAQ_CUOTAS);
 

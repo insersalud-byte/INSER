@@ -65,8 +65,8 @@ How to call: WhatsApp +54 9 351 206-5320, or the on-site assistant "Santi" on an
 ## Productos (precios de referencia)
 
 CPAP y AutoCPAP:
-- CPAP BMC G2S con humidificador — $499.000 (el más vendido, CPAP fijo)
-- AutoCPAP BMC G2S con humidificador — $630.000 (presión automática, más confort)
+- CPAP BMC G2S con humidificador — $499.000 (el más vendido, CPAP fijo) — OFERTA VIGENTE: envío sin cargo a todo el país
+- AutoCPAP BMC G2S con humidificador — $630.000 (presión automática, más confort) — OFERTA VIGENTE: envío sin cargo a todo el país
 - AutoCPAP BMC G2S Mini con almohadillas nasales — U$S 1.400
 - CPAP Philips DreamStation con humidificador — U$S 579
 - AutoCPAP Philips DreamStation con humidificador — U$S 758
@@ -130,7 +130,7 @@ Accesorios:
 - Servicio técnico de equipos respiratorios
 - Evaluaciones respiratorias: disponibles ÚNICAMENTE en Córdoba Capital y SIN CARGO para pacientes con enfermedades neuromusculares (ELA, AME y similares). No reemplazan la consulta con el médico tratante; se coordinan por WhatsApp
 - Presupuesto formal y factura oficial para gestionar el reintegro con tu obra social o prepaga (venta particular, sin facturación directa a la obra social)
-- Financiación: cuotas fijas con Banco Galicia en todos los equipos: 3 cuotas +15%, 6 cuotas +24% o 9 cuotas +39%, con el recargo incluido en la cuota (sujeto a condiciones del banco). Ejemplo con el CPAP BMC G2S de $499.000: 3 cuotas de $191.283 (total $573.850) · 6 cuotas de $103.127 (total $618.760) · 9 cuotas de $77.068 (total $693.610). Única excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual propia de 6 cuotas SIN interés de $195.000 con envío sin cargo, hasta agotar stock; ese beneficio es solo de ese equipo.
+- Financiación: cuotas fijas con Banco Galicia en todos los equipos: 3 cuotas +15%, 6 cuotas +24% o 9 cuotas +39%, con el recargo incluido en la cuota (sujeto a condiciones del banco). Ejemplo con el CPAP BMC G2S de $499.000: 3 cuotas de $191.283 (total $573.850) · 6 cuotas de $103.127 (total $618.760) · 9 cuotas de $77.068 (total $693.610). Única excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual propia de 6 cuotas SIN interés de $195.000 con envío sin cargo, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país.
 - Asesoramiento por WhatsApp y chat con el agente Santi (IA)
 
 ## Patologías que tratamos (páginas con info)
@@ -177,13 +177,13 @@ Concentrador estacionario BMC desde $999.000. Concentradores portátiles desde U
 Sí. INSER SALUD ofrece alquiler de CPAP, BiPAP y concentradores de oxígeno con entrega e instalación a domicilio en Córdoba.
 
 **¿Hacen envíos a todo el país?**
-Sí. La venta de equipos se realiza con envío a toda Argentina (Buenos Aires y cualquier provincia). El alquiler está disponible en Córdoba.
+Sí. La venta de equipos se realiza con envío a toda Argentina (Buenos Aires y cualquier provincia). Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país; en el resto del catálogo el costo de envío se confirma por WhatsApp según el destino. El alquiler está disponible en Córdoba.
 
 **¿Trabajan con obras sociales o prepagas?**
 Trabajamos de forma particular y ayudamos con el reintegro: entregamos presupuesto formal y factura oficial para que el paciente gestione el reembolso ante su obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico.
 
 **¿Se puede pagar en cuotas?**
-Sí. Con Banco Galicia hay cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Única excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual propia de 6 cuotas SIN interés de $195.000 con envío sin cargo, hasta agotar stock; ese beneficio es solo de ese equipo. Se acepta efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia hay cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Única excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual propia de 6 cuotas SIN interés de $195.000 con envío sin cargo, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Se acepta efectivo, transferencia y tarjeta.
 
 **¿Qué diferencia hay entre un CPAP y un AutoCPAP?**
 El CPAP da una presión fija; el AutoCPAP la ajusta automáticamente según la respiración de cada noche, ofreciendo más comodidad.
@@ -218,4 +218,4 @@ Formación gratuita en terapia respiratoria para profesionales de la salud: kine
 
 Este sitio tiene un asistente de ventas llamado Santi, disponible como chat en cualquier página del sitio, que responde sobre productos, precios y disponibilidad en tiempo real. Para asesoramiento o compra, el canal recomendado es WhatsApp +54 9 351 206-5320.
 
-> Última actualización: 2026-09-14
+> Última actualización: 2026-09-15

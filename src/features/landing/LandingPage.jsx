@@ -58,7 +58,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo.', category: 'CPAP',
+        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo. Envío sin cargo a todo el país (oferta vigente).', category: 'CPAP',
         specs: [
             ['Fabricante', 'BMC Medical (China)'],
             ['Tipo', 'CPAP fijo (presión constante)'],
@@ -242,7 +242,7 @@ const ofertas = [
 const tienda = [
     // ── CPAP / AUTOCPAP ──────────────────────────────────────────────────────
     {
-        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo.', category: 'CPAP',
+        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo. Envío sin cargo a todo el país (oferta vigente).', category: 'CPAP',
         specs: [
             ['Fabricante', 'BMC Medical (China)'],
             ['Tipo', 'CPAP fijo'],
@@ -266,7 +266,7 @@ const tienda = [
         ],
     },
     {
-        name: 'AUTOCPAP BMC G2S con Humidificador', slug: 'autocpap-bmc-g2s', price: '$630.000', img: '/artifacts/products/autocpap_bmc_g2_2.jpg', images: ['/artifacts/products/autocpap_bmc_g2_2.jpg', '/artifacts/products/autocpap_bmc_g2_1.jpg', '/artifacts/products/autocpap_bmc_g2_3.jpg'], badge: 'NUEVO', note: 'Presión automática. Equipo completo con bolso.', category: 'CPAP',
+        name: 'AUTOCPAP BMC G2S con Humidificador', slug: 'autocpap-bmc-g2s', price: '$630.000', img: '/artifacts/products/autocpap_bmc_g2_2.jpg', images: ['/artifacts/products/autocpap_bmc_g2_2.jpg', '/artifacts/products/autocpap_bmc_g2_1.jpg', '/artifacts/products/autocpap_bmc_g2_3.jpg'], badge: 'NUEVO', note: 'Presión automática. Equipo completo con bolso. Envío sin cargo a todo el país (oferta vigente).', category: 'CPAP',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'AutoCPAP (presión automática)'],
@@ -1963,7 +1963,7 @@ const LandingPage = () => {
                             En todos los equipos: 3 cuotas +15% · 6 cuotas +24% · 9 cuotas +39%. El recargo ya va incluido en la cuota.
                         </div>
                         <div style={{ fontSize: '0.86rem', opacity: 0.95, marginTop: '0.4rem' }}>
-                            Excepción: el Concentrador de Oxígeno YUWELL 7F-5B 5 Litros tiene una oferta propia de 6 cuotas sin interés de $195.000, con envío sin cargo, hasta agotar stock.
+                            Excepción: el Concentrador de Oxígeno YUWELL 7F-5B 5 Litros tiene una oferta propia de 6 cuotas sin interés de $195.000, con envío sin cargo, hasta agotar stock. Y por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país.
                         </div>
                         <div style={{ fontSize: '0.78rem', opacity: 0.8, marginTop: '0.3rem' }}>
                             Promoción sujeta a condiciones del banco. Consultanos por tu equipo.

@@ -19,6 +19,7 @@ Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba �
 
 CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).
 AutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).
+Oferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.
 CPAP ResMed AirSense 10: $799.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).
 BiPAP BMC G3 con frecuencia respiratoria: U$S 907 (para EPOC y enfermedades neuromusculares).
 
@@ -126,7 +127,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; ese beneficio es solo de ese equipo. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 

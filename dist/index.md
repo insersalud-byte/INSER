@@ -145,9 +145,9 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 ## Productos destacados (precios de referencia)
 
-- **CPAP BMC G2S con humidificador** — $499.000 — CPAP fijo, el más vendido
+- **CPAP BMC G2S con humidificador** — $499.000 — CPAP fijo, el más vendido; oferta vigente: envío sin cargo a todo el país
 
-- **AutoCPAP BMC G2S con humidificador** — $630.000 — presión automática, equipo completo con bolso
+- **AutoCPAP BMC G2S con humidificador** — $630.000 — presión automática, equipo completo con bolso; oferta vigente: envío sin cargo a todo el país
 
 - **AutoCPAP BMC G2S Mini** — U$S 1.400 — presión automática, con almohadillas nasales
 

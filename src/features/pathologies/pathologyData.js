@@ -187,7 +187,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
                 priceUSD: null,
                 img: '/artifacts/cpap_bmc_g2s.jpg',
                 badge: null,
-                desc: 'CPAP fijo con humidificador. El más vendido.',
+                desc: 'CPAP fijo con humidificador. El más vendido. Envío sin cargo a todo el país (oferta vigente).',
             },
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
