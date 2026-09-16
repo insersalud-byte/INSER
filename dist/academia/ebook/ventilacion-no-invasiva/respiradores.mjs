@@ -23,7 +23,7 @@ function createSection(device) {
       <h2 id="${device.id}-heading">Simulador ${device.name}</h2>
       <p>${device.description}</p><p>${device.exercise}</p>
       <div class="respirator-links"><a href="/academia/ebook/ventilacion-no-invasiva/${device.id}/#descripcion" target="_blank" rel="noopener">Descripción completa del aparato ↗</a><a href="/academia/ebook/ventilacion-no-invasiva/${device.id}/#laboratorio" target="_blank" rel="noopener">Abrir en pantalla completa ↗</a></div>
-    </div><figure><img src="${device.image}" alt="Fotografía oficial del ResMed ${device.name}" width="220" height="170" loading="lazy"><figcaption>Imagen oficial de ResMed</figcaption></figure></div>
+    </div><figure><img src="/academia/ebook/ventilacion-no-invasiva/${device.image}" alt="Fotografía oficial del ResMed ${device.name}" width="220" height="170" loading="lazy"></figure></div>
     <details><summary>Usar ${device.name} aquí, dentro del ebook <small>Abrir / cerrar el laboratorio interactivo</small></summary><div class="respirator-slot"></div></details>
     <p class="respirator-independence">Simulación educativa. Cada laboratorio conserva su propio paciente y sus ajustes; no modifica el simulador de VNI ni transfiere una prescripción a un equipo real.</p>`;
   const entry = {section,device,details:section.querySelector('details'),frame:null,inView:true};
