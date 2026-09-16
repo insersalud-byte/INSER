@@ -2,7 +2,7 @@ import {MODES,LEVELS,TRIGGER,CYCLE,defaults,patientDefaults,scenarios,preset,nor
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const lung=new Lung(),programs=[defaults(),defaults()],patient=patientDefaults();
 const options={dual:false,psNames:false,confirmStop:true,brightness:70};
-let program=0,clinical=false,regional=true,menu='monitor',page=0,selected=0,paused=false,speed=1,procedureBusy=false,editSpec=null,editKey=null,lastPaint=0,lastAlarm='',soundTime=0;
+let program=0,clinical=false,regional=true,menu='monitor',page=0,selected=0,paused=false,speed=1,procedureBusy=false,editSpec=null,editKey=null,editValue=null,lastPaint=0,lastAlarm='',soundTime=0;
 const settings=()=>programs[program];
 const eventLog=[];
 function log(message){eventLog.unshift({time:Math.round(lung.t),message});eventLog.splice(30);}
@@ -54,11 +54,12 @@ function currentKeys(){const s=settings();if(menu!=='setup')return [];if(page===
 function getValue(key){const s=settings();if(key.startsWith('alarm:'))return s.alarms[key.slice(6)];if(key in options)return options[key];if(key==='ipap'&&options.psNames)return +(s.ipap-s.epap).toFixed(1);return s[key];}
 function specFor(key){return key.startsWith('alarm:')?alarmSpecs[key.slice(6)]:specs()[key];}
 function displayValue(key){if(actions[key])return actions[key][1]();const spec=specFor(key),v=getValue(key);if(key.startsWith('alarm:')&&v===0)return 'Off';if(spec.names)return spec.names(v);return (typeof v==='number'?Number(v.toFixed(1)):v)+(spec.unit?' '+spec.unit:'');}
+function displayEditValue(){const spec=editSpec,v=editValue;if(editKey.startsWith('alarm:')&&v===0)return 'Off';if(spec.names)return spec.names(v);return (typeof v==='number'?Number(v.toFixed(1)):v)+(spec.unit?' '+spec.unit:'');}
 function renderScreen(){const s=settings();$('#lcd-program').textContent=`Prog ${program+1} · ${s.mode}`;$('#lock-icon').textContent=clinical?'🔓':'🔒';$('#lcd').style.filter=`brightness(${.55+options.brightness/160})`;
  $$('.menu-keys button').forEach(b=>b.classList.toggle('active',b.dataset.menu===menu));
  const names=menu==='setup'?['Clinical Settings','Advanced Settings','Alarm Settings','Options','Configuration']:menu==='monitor'?['Tratamiento','Resumen','Presión / Flujo']:['Información','Eventos','Circuito y accesorios'];
  $('#screen-title').textContent=names[page];$('#page-number').textContent=`${page+1}/${names.length}`;
- if(menu==='setup'){const keys=currentKeys();selected=clamp(selected,0,Math.max(0,keys.length-1));$('#screen-content').innerHTML='<div class="tiles">'+keys.map((key,i)=>`<button class="tile ${i===selected?'selected':''}" data-setting="${key}"><small>${actions[key]?.[0]??specFor(key).label}</small><strong>${displayValue(key)}</strong></button>`).join('')+'</div>';}
+ if(menu==='setup'){const keys=currentKeys();selected=clamp(selected,0,Math.max(0,keys.length-1));$('#screen-content').innerHTML='<div class="tiles">'+keys.map((key,i)=>{const editing=key===editKey;return `<button class="tile ${i===selected&&!editing?'selected':''} ${editing?'editing':''}" data-setting="${key}"><small>${actions[key]?.[0]??specFor(key).label}</small><strong>${editing?displayEditValue():displayValue(key)}</strong></button>`;}).join('')+'</div>'+(editKey?`<p class="hint">${editSpec.help} ${editSpec.choices?'':`(${editSpec.min}–${editSpec.max} ${editSpec.unit} · paso ${editSpec.step})`} Pulsá de nuevo la perilla para confirmar.</p>`:'');}
  else if(menu==='monitor'&&page===0){$('#screen-content').innerHTML=`<div class="standby"><div class="clock">${lung.running?'Ventilando':'En espera'}</div><p>Programa ${program+1} · ${s.mode}</p><p>${s.mode==='CPAP'?`CPAP ${s.cpap}`:s.mode==='iVAPS'?`Target Va ${s.targetVa} L/min`:`IPAP ${s.ipap} / EPAP ${s.epap}`}</p><button data-action="ramp">Rampa ${s.ramp} min</button>${options.dual?`<button data-action="program">Prog ${program+1}</button>`:''}<p>${s.learned?'✓ Circuito reconocido':'Circuito: reconocimiento pendiente'}</p></div>`;}
  else if(menu==='monitor'&&page===1){$('#screen-content').innerHTML='<div class="screen-stats" id="screen-stats"></div>';}
  else if(menu==='monitor'){ $('#screen-content').innerHTML='<canvas class="screen-spark" id="lcd-chart" width="420" height="230" aria-label="Presión y flujo en pantalla Stellar"></canvas>';}
@@ -67,7 +68,7 @@ function renderScreen(){const s=settings();$('#lcd-program').textContent=`Prog $
  else{$('#screen-content').innerHTML=`<div class="screen-text"><p>Mask: <strong>${s.mask}</strong></p><p>Una rama · fuga intencional.<br>${s.mask==='Trach'?'Uso invasivo: ResMed Leak Valve.':'Interfaz no invasiva compatible.'}</p><p>Circuito: ${s.learned?'reconocido en esta simulación':'pendiente'}</p><p>SpO₂: ${patient.oximeter?'sensor simulado':'no conectado'}<br>FiO₂: ${patient.oxygenSensor?'sensor simulado':'no conectado'}</p></div>`;}
  updateReadouts();
 }
-function navigate(m){page=m===menu?(page+1)%(m==='setup'?5:3):0;menu=m;selected=0;renderScreen();}
+function navigate(m){if(editKey!==null)confirmEdit();page=m===menu?(page+1)%(m==='setup'?5:3):0;menu=m;selected=0;renderScreen();}
 function setValue(key,value){const s=settings();if(key.startsWith('alarm:'))s.alarms[key.slice(6)]=value;else if(key in options)options[key]=value;else if(key==='ipap'&&options.psNames)s.ipap=s.epap+value;else s[key]=value;
  if(key==='mode'&&value==='CPAP')lung.insp=false;
  if(key==='mask'){s.learned=false;if(['Trach','Full Face'].includes(value))s.alarms.nonVented=1;}
@@ -79,20 +80,28 @@ function setValue(key,value){const s=settings();if(key.startsWith('alarm:'))s.al
 function edit(key){if(actions[key])return action(key);if(!clinical){toast('Modo paciente: abrí Acceso clínico para modificar parámetros.');return;}
  if(key==='autoEpap'&&settings().mask==='Trach'){toast('AutoEPAP está contraindicada para uso invasivo. Cambiá la interfaz solo si corresponde al escenario no invasivo.');return;}
  if(key==='alarm:nonVented'&&settings().mask==='Trach'){toast('Non-Vented Mask debe permanecer On con Trach.');return;}
- editKey=key;editSpec=specFor(key);const v=getValue(key);$('#edit-title').textContent=editSpec.label;$('#edit-help').textContent=editSpec.help;
- const alarm=key.startsWith('alarm:')&&!editSpec.choices;
- $('#edit-control').innerHTML=editSpec.choices?`<select id="edit-value" aria-label="${editSpec.label}">${editSpec.choices.map((x,i)=>`<option value="${i}" ${x===v?'selected':''}>${editSpec.names?editSpec.names(x):x}</option>`).join('')}</select>`:`${alarm?`<label><input id="alarm-enabled" type="checkbox" ${v>0?'checked':''}> Activar alarma</label>`:''}<input id="edit-value" type="number" min="${editSpec.min}" max="${editSpec.max}" step="${editSpec.step}" value="${Math.max(editSpec.min,v)}" aria-label="${editSpec.label}">`;
- $('#edit-range').textContent=editSpec.choices?'Seleccioná y confirmá. Cancelar conserva el valor anterior.':`${editSpec.min}–${editSpec.max} ${editSpec.unit} · paso ${editSpec.step}.`;
- $('#editor').showModal();$('#edit-value').focus();
+ editKey=key;editSpec=specFor(key);editValue=getValue(key);
+ toast(`${editSpec.label}: girá la perilla (↶ / ↷ o las flechas) para elegir y volvé a pulsarla para confirmar.`);
+ renderScreen();
 }
-$('#confirm-edit').addEventListener('click',e=>{e.preventDefault();const input=$('#edit-value');if(!input.reportValidity())return;let v=editSpec.choices?editSpec.choices[Number(input.value)]:Number(input.value);if($('#alarm-enabled')&&!$('#alarm-enabled').checked)v=0;if(typeof v==='number'&&!Number.isFinite(v))return;setValue(editKey,v);$('#editor').close();});
-function rotate(direction){if($('#editor').open){const input=$('#edit-value');if(input.tagName==='SELECT')input.selectedIndex=clamp(input.selectedIndex+direction,0,input.options.length-1);else{input.value=clamp(+(Number(input.value)+direction*editSpec.step).toFixed(3),editSpec.min,editSpec.max);}return;}const keys=currentKeys();if(keys.length){selected=(selected+direction+keys.length)%keys.length;renderScreen();$(`[data-setting="${keys[selected]}"]`)?.scrollIntoView({block:'nearest'});}else{page=(page+direction+3)%3;renderScreen();}}
-function pressDial(){if($('#editor').open){$('#confirm-edit').click();return;}if(menu==='setup')edit(currentKeys()[selected]);else toast('Pulsá Setup para seleccionar un parámetro. Monitor e Info recorren sus respectivas pantallas.');}
+function confirmEdit(){if(editKey===null)return;const key=editKey,value=editValue;editKey=null;editSpec=null;editValue=null;setValue(key,value);}
+function rotate(direction){
+ if(editKey!==null){
+  const spec=editSpec;
+  if(spec.choices){const idx=clamp(spec.choices.indexOf(editValue)+direction,0,spec.choices.length-1);editValue=spec.choices[idx];}
+  else{const alarmOff=editKey.startsWith('alarm:');
+   if(alarmOff&&editValue===0){if(direction>0)editValue=spec.min;}
+   else{const next=+(Number(editValue)+direction*spec.step).toFixed(3);editValue=alarmOff&&next<spec.min?0:clamp(next,spec.min,spec.max);}}
+  renderScreen();return;
+ }
+ const keys=currentKeys();if(keys.length){selected=(selected+direction+keys.length)%keys.length;renderScreen();$(`[data-setting="${keys[selected]}"]`)?.scrollIntoView({block:'nearest'});}else{page=(page+direction+3)%3;renderScreen();}
+}
+function pressDial(){if(editKey!==null){confirmEdit();return;}if(menu==='setup')edit(currentKeys()[selected]);else toast('Pulsá Setup para seleccionar un parámetro. Monitor e Info recorren sus respectivas pantallas.');}
 $('#dial-minus').onclick=()=>rotate(-1);$('#dial-plus').onclick=()=>rotate(1);$('#dial').onclick=pressDial;
 $('#dial').addEventListener('wheel',e=>{e.preventDefault();rotate(e.deltaY>0?1:-1);},{passive:false});
-document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.id==='edit-value'){e.preventDefault();pressDial();return;}if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||$('#procedure').open)return;if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();rotate(1);}if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();rotate(-1);}if(e.key==='Enter'&&!['BUTTON','A','SUMMARY'].includes(e.target.tagName)){e.preventDefault();pressDial();}});
+document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||$('#procedure').open)return;if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();rotate(1);}if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();rotate(-1);}if(e.key==='Enter'&&!['BUTTON','A','SUMMARY'].includes(e.target.tagName)){e.preventDefault();pressDial();}});
 $$('[data-menu]').forEach(b=>b.onclick=()=>navigate(b.dataset.menu));
-$('#screen-content').onclick=e=>{const b=e.target.closest('[data-setting],[data-action]');if(!b)return;const key=b.dataset.setting??b.dataset.action;selected=Math.max(0,currentKeys().indexOf(key));edit(key);};
+$('#screen-content').onclick=e=>{const b=e.target.closest('[data-setting],[data-action]');if(!b)return;const key=b.dataset.setting??b.dataset.action;if(editKey!==null){const wasEditing=key===editKey;confirmEdit();if(wasEditing)return;}selected=Math.max(0,currentKeys().indexOf(key));edit(key);};
 $('#unlock').onclick=()=>{clinical=!clinical;$('#unlock').textContent=clinical?'🔒 Volver a modo paciente':'🔓 Acceso clínico';toast(clinical?'Modo clínico educativo abierto. En el dispositivo real: Setup + perilla ≥3 s; solo personal autorizado.':'Modo paciente: ajustes clínicos bloqueados.');renderScreen();};
 function showProcedure(html,setup){$('#procedure-content').innerHTML=html;$('#procedure').showModal();setup?.();}
 $('#close-procedure').onclick=()=>{if(procedureBusy){toast('Esperá a que termine la secuencia simulada.');return;}$('#procedure').close();};
@@ -132,7 +141,7 @@ for(const k of ['spo2','fio2'])$('#'+k).oninput=e=>{if(e.target.checkValidity()&
 $('#speed').onchange=e=>{speed=Number(e.target.value);};$('#pause').onclick=()=>{paused=!paused;$('#pause').textContent=paused?'Reanudar':'Pausar curvas';$('#pause').setAttribute('aria-pressed',String(paused));toast(paused?'Simulación completa pausada: curvas, paciente y reloj de alarmas.':'Simulación reanudada.');};
 $('#advance').onclick=()=>{if(!lung.running){toast('Iniciá la ventilación antes de avanzar el reloj.');return;}for(let i=0;i<1500;i++)lung.step(settings(),patient);updateReadouts();draw();log('Avance didáctico de 30 s');};
 $('#reset').onclick=()=>{showProcedure('<h2>Reiniciar laboratorio</h2><p>Se perderán los ajustes de ambos programas y los eventos de esta sesión simulada. No se modifica ningún equipo ni el ebook.</p><button id="confirm-reset" class="primary">Reiniciar</button>',()=>{$('#confirm-reset').onclick=()=>location.reload();});};
-$$('[data-practice]').forEach(b=>b.onclick=()=>{const key=b.dataset.practice,scenario=key==='ivaps'?'weak':key;Object.assign(patient,scenarios[scenario]);patient.disconnected=false;patient.blockedVent=false;programs[program]=defaults();const s=settings();if(key==='apnea'){s.mode='S';s.alarms.apnea=10;}if(key==='obstructive'){s.mode='ST';s.rate=22;s.ipap=16;s.epap=5;s.tiMax=1.8;}if(key==='ivaps'){s.mode='iVAPS';s.targetVa=5.2;}if(key==='leak'){s.alarms.leak=40;}clinical=true;$('#unlock').textContent='🔒 Volver a modo paciente';$('#scenario').value=scenario;normalize(s,regional);syncPatient();lung.reset();start();menu='setup';page=0;renderScreen();$('#laboratorio').scrollIntoView({behavior:'smooth'});toast('Práctica cargada: se reinició el programa seleccionado y se inició el paciente virtual.');});
+$$('[data-practice]').forEach(b=>b.onclick=()=>{editKey=null;editSpec=null;editValue=null;const key=b.dataset.practice,scenario=key==='ivaps'?'weak':key;Object.assign(patient,scenarios[scenario]);patient.disconnected=false;patient.blockedVent=false;programs[program]=defaults();const s=settings();if(key==='apnea'){s.mode='S';s.alarms.apnea=10;}if(key==='obstructive'){s.mode='ST';s.rate=22;s.ipap=16;s.epap=5;s.tiMax=1.8;}if(key==='ivaps'){s.mode='iVAPS';s.targetVa=5.2;}if(key==='leak'){s.alarms.leak=40;}clinical=true;$('#unlock').textContent='🔒 Volver a modo paciente';$('#scenario').value=scenario;normalize(s,regional);syncPatient();lung.reset();start();menu='setup';page=0;renderScreen();$('#laboratorio').scrollIntoView({behavior:'smooth'});toast('Práctica cargada: se reinició el programa seleccionado y se inició el paciente virtual.');});
 function beep(){if(!$('#audio').checked)return;try{const audio=new (window.AudioContext||window.webkitAudioContext)(),o=audio.createOscillator(),g=audio.createGain();o.connect(g);g.connect(audio.destination);o.frequency.value=600;g.gain.value=.035;o.start();o.stop(audio.currentTime+.16);o.onended=()=>audio.close();}catch{}}
 function updateReadouts(){const s=settings(),active=lung.running;const fmt=(v,d=0)=>active&&Number.isFinite(v)?v.toFixed(d):'—';
  $('#session-status').textContent=!active?'En espera':paused?'Pausa didáctica':lung.fitRemaining?`Mask-fit · ${Math.ceil(lung.fitRemaining)} s`:`Ventilando · ${s.mode} · ${Math.floor(lung.elapsed)} s`;
