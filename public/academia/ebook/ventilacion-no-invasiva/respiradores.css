@@ -1,0 +1,21 @@
+#simulador-astral,#simulador-stellar{scroll-margin-top:100px}
+.respirator-section{margin:40px 0;border:1px solid #c8d8d5;border-radius:12px;background:#f4f7f4;overflow:hidden;color:#183d4b}
+.respirator-intro{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:32px;align-items:center;padding:32px}
+.respirator-kicker{font-size:11px;font-weight:750;letter-spacing:.12em;text-transform:uppercase;color:#236e6c;margin:0 0 12px}
+.respirator-section h2{font-size:clamp(26px,3vw,38px);line-height:1.15;letter-spacing:-.025em;margin:0 0 16px;color:#183d4b}
+.respirator-section p:not(.respirator-kicker){font-size:14px;line-height:1.75;max-width:950px}
+.respirator-section figure{margin:0;padding:12px;background:#fff;border-radius:8px}
+.respirator-section img{width:100%;height:170px;object-fit:contain;display:block}
+.respirator-section figcaption{font-size:10px;color:#576e73;text-align:center;margin-top:8px}
+.respirator-section .respirator-links{display:flex;gap:20px;flex-wrap:wrap;margin-top:16px;font-size:13px}
+.respirator-section a{color:#16696b;text-underline-offset:4px}
+.respirator-section a:focus-visible,.respirator-section summary:focus-visible{outline:3px solid #d4a348;outline-offset:4px}
+.respirator-section details{border-top:1px solid #bfd2ca}
+.respirator-section summary{cursor:pointer;background:#143f51;color:#fff;padding:18px 32px;font-size:15px;font-weight:700;list-style-position:inside}
+.respirator-section summary:hover{background:#1b5364}
+.respirator-section summary small{font-weight:400;font-size:11px;margin-left:16px;color:#d4e7e2}
+.respirator-frame{display:block;width:100%;border:0;min-height:900px;background:#f4f6f3}
+.respirator-loading{padding:20px 32px;font-size:13px;color:#48626a}
+.respirator-section .respirator-independence{margin:0;padding:12px 32px;background:#e7eee8;font-size:11px;line-height:1.6}
+@media(max-width:650px){.respirator-intro{grid-template-columns:1fr;gap:20px;padding:24px 16px}.respirator-section figure{max-width:230px}.respirator-section summary{padding:16px}.respirator-section summary small{display:block;margin:8px 0 0}.respirator-section .respirator-independence{padding:12px 16px}.respirator-section{margin:24px 0}}
+@media print{.respirator-section details{display:none}.respirator-section{break-inside:avoid}}
