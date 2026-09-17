@@ -1,4 +1,4 @@
-import {CIRCUITS,defaults,modesFor,schema,alarmSchema,validate,isVolume,displayedMode,hasManual,hasSigh,hasSafety,pressureBase,Lung,clamp} from './model.mjs';
+import {CIRCUITS,defaults,modesFor,schema,alarmSchema,validate,isVolume,displayedMode,hasManual,hasSigh,hasSafety,pressureBase,Lung,clamp} from './model.mjs?v=cea61b12';
 const $=id=>document.getElementById(id),clone=x=>structuredClone(x),esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const names=['Nocturno','Diurno','Movilidad','Práctica'];
 const banks={100:Array.from({length:2},()=>defaults()),150:Array.from({length:4},()=>defaults())};

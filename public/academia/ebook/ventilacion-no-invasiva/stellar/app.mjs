@@ -1,4 +1,4 @@
-import {MODES,LEVELS,TRIGGER,CYCLE,defaults,patientDefaults,scenarios,preset,normalize,canStart,deadspace,Lung,clamp} from './model.mjs';
+import {MODES,LEVELS,TRIGGER,CYCLE,defaults,patientDefaults,scenarios,preset,normalize,canStart,deadspace,Lung,clamp} from './model.mjs?v=c2e457fb';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const lung=new Lung(),programs=[defaults(),defaults()],patient=patientDefaults();
 const options={dual:false,psNames:false,confirmStop:true,brightness:70};
