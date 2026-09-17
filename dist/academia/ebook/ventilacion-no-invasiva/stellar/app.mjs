@@ -2,7 +2,7 @@ import {MODES,LEVELS,TRIGGER,CYCLE,defaults,patientDefaults,scenarios,preset,nor
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const lung=new Lung(),programs=[defaults(),defaults()],patient=patientDefaults();
 const options={dual:false,psNames:false,confirmStop:true,brightness:70};
-let program=0,clinical=false,regional=true,menu='monitor',page=0,selected=0,paused=false,speed=1,procedureBusy=false,editSpec=null,editKey=null,editValue=null,lastPaint=0,lastAlarm='',soundTime=0;
+let program=0,clinical=true,regional=true,menu='monitor',page=0,selected=0,paused=false,speed=1,procedureBusy=false,editSpec=null,editKey=null,editValue=null,lcdNotice='',lastPaint=0,lastAlarm='',soundTime=0;
 const settings=()=>programs[program];
 const eventLog=[];
 function log(message){eventLog.unshift({time:Math.round(lung.t),message});eventLog.splice(30);}
@@ -59,7 +59,7 @@ function renderScreen(){const s=settings();$('#lcd-program').textContent=`Prog $
  $$('.menu-keys button').forEach(b=>b.classList.toggle('active',b.dataset.menu===menu));
  const names=menu==='setup'?['Clinical Settings','Advanced Settings','Alarm Settings','Options','Configuration']:menu==='monitor'?['Tratamiento','Resumen','Presión / Flujo']:['Información','Eventos','Circuito y accesorios'];
  $('#screen-title').textContent=names[page];$('#page-number').textContent=`${page+1}/${names.length}`;
- if(menu==='setup'){const keys=currentKeys();selected=clamp(selected,0,Math.max(0,keys.length-1));$('#screen-content').innerHTML='<div class="tiles">'+keys.map((key,i)=>{const editing=key===editKey;return `<button class="tile ${i===selected&&!editing?'selected':''} ${editing?'editing':''}" data-setting="${key}"><small>${actions[key]?.[0]??specFor(key).label}</small><strong>${editing?displayEditValue():displayValue(key)}</strong></button>`;}).join('')+'</div>'+(editKey?`<p class="hint">${editSpec.help} ${editSpec.choices?'':`(${editSpec.min}–${editSpec.max} ${editSpec.unit} · paso ${editSpec.step})`} Pulsá de nuevo la perilla para confirmar.</p>`:'');}
+ if(menu==='setup'){const keys=currentKeys();selected=clamp(selected,0,Math.max(0,keys.length-1));$('#screen-content').innerHTML='<div class="tiles">'+keys.map((key,i)=>{const editing=key===editKey;return `<button class="tile ${i===selected&&!editing?'selected':''} ${editing?'editing':''}" data-setting="${key}"><small>${actions[key]?.[0]??specFor(key).label}</small><strong>${editing?displayEditValue():displayValue(key)}</strong></button>`;}).join('')+'</div>'+(editKey?`<p class="hint">${editSpec.help} ${editSpec.choices?'':`(${editSpec.min}–${editSpec.max} ${editSpec.unit} · paso ${editSpec.step})`} Pulsá de nuevo la perilla para confirmar.</p>`:lcdNotice?`<p class="hint">${lcdNotice}</p>`:'');}
  else if(menu==='monitor'&&page===0){$('#screen-content').innerHTML=`<div class="standby"><div class="clock">${lung.running?'Ventilando':'En espera'}</div><p>Programa ${program+1} · ${s.mode}</p><p>${s.mode==='CPAP'?`CPAP ${s.cpap}`:s.mode==='iVAPS'?`Target Va ${s.targetVa} L/min`:`IPAP ${s.ipap} / EPAP ${s.epap}`}</p><button data-action="ramp">Rampa ${s.ramp} min</button>${options.dual?`<button data-action="program">Prog ${program+1}</button>`:''}<p>${s.learned?'✓ Circuito reconocido':'Circuito: reconocimiento pendiente'}</p></div>`;}
  else if(menu==='monitor'&&page===1){$('#screen-content').innerHTML='<div class="screen-stats" id="screen-stats"></div>';}
  else if(menu==='monitor'){ $('#screen-content').innerHTML='<canvas class="screen-spark" id="lcd-chart" width="420" height="230" aria-label="Presión y flujo en pantalla Stellar"></canvas>';}
@@ -68,7 +68,7 @@ function renderScreen(){const s=settings();$('#lcd-program').textContent=`Prog $
  else{$('#screen-content').innerHTML=`<div class="screen-text"><p>Mask: <strong>${s.mask}</strong></p><p>Una rama · fuga intencional.<br>${s.mask==='Trach'?'Uso invasivo: ResMed Leak Valve.':'Interfaz no invasiva compatible.'}</p><p>Circuito: ${s.learned?'reconocido en esta simulación':'pendiente'}</p><p>SpO₂: ${patient.oximeter?'sensor simulado':'no conectado'}<br>FiO₂: ${patient.oxygenSensor?'sensor simulado':'no conectado'}</p></div>`;}
  updateReadouts();
 }
-function navigate(m){if(editKey!==null)confirmEdit();page=m===menu?(page+1)%(m==='setup'?5:3):0;menu=m;selected=0;renderScreen();}
+function navigate(m){if(editKey!==null)confirmEdit();lcdNotice='';page=m===menu?(page+1)%(m==='setup'?5:3):0;menu=m;selected=0;renderScreen();}
 function setValue(key,value){const s=settings();if(key.startsWith('alarm:'))s.alarms[key.slice(6)]=value;else if(key in options)options[key]=value;else if(key==='ipap'&&options.psNames)s.ipap=s.epap+value;else s[key]=value;
  if(key==='mode'&&value==='CPAP')lung.insp=false;
  if(key==='mask'){s.learned=false;if(['Trach','Full Face'].includes(value))s.alarms.nonVented=1;}
@@ -77,7 +77,7 @@ function setValue(key,value){const s=settings();if(key.startsWith('alarm:'))s.al
  if(key==='mode'&&lung.running)lung.start(settings());
  log(`${specFor(key)?.label??key}: ${displayValue(key)}`);toast(`Confirmado: ${specFor(key)?.label??key} → ${displayValue(key)}. Los límites relacionados se mantienen compatibles.`);renderScreen();
 }
-function edit(key){if(actions[key])return action(key);if(!clinical){toast('Modo paciente: abrí Acceso clínico para modificar parámetros.');return;}
+function edit(key){if(actions[key])return action(key);if(!clinical){lcdNotice='Modo paciente: los ajustes están bloqueados. Pulsá «Acceso clínico» (debajo del equipo) para modificarlos.';toast('Modo paciente: abrí Acceso clínico para modificar parámetros.');renderScreen();return;}lcdNotice='';
  if(key==='autoEpap'&&settings().mask==='Trach'){toast('AutoEPAP está contraindicada para uso invasivo. Cambiá la interfaz solo si corresponde al escenario no invasivo.');return;}
  if(key==='alarm:nonVented'&&settings().mask==='Trach'){toast('Non-Vented Mask debe permanecer On con Trach.');return;}
  editKey=key;editSpec=specFor(key);editValue=getValue(key);
@@ -102,7 +102,7 @@ $('#dial').addEventListener('wheel',e=>{e.preventDefault();rotate(e.deltaY>0?1:-
 document.addEventListener('keydown',e=>{if(['INPUT','SELECT','TEXTAREA'].includes(e.target.tagName)||$('#procedure').open)return;if(e.key==='ArrowRight'||e.key==='ArrowDown'){e.preventDefault();rotate(1);}if(e.key==='ArrowLeft'||e.key==='ArrowUp'){e.preventDefault();rotate(-1);}if(e.key==='Enter'&&!['BUTTON','A','SUMMARY'].includes(e.target.tagName)){e.preventDefault();pressDial();}});
 $$('[data-menu]').forEach(b=>b.onclick=()=>navigate(b.dataset.menu));
 $('#screen-content').onclick=e=>{const b=e.target.closest('[data-setting],[data-action]');if(!b)return;const key=b.dataset.setting??b.dataset.action;if(editKey!==null){const wasEditing=key===editKey;confirmEdit();if(wasEditing)return;}selected=Math.max(0,currentKeys().indexOf(key));edit(key);};
-$('#unlock').onclick=()=>{clinical=!clinical;$('#unlock').textContent=clinical?'🔒 Volver a modo paciente':'🔓 Acceso clínico';toast(clinical?'Modo clínico educativo abierto. En el dispositivo real: Setup + perilla ≥3 s; solo personal autorizado.':'Modo paciente: ajustes clínicos bloqueados.');renderScreen();};
+$('#unlock').onclick=()=>{clinical=!clinical;lcdNotice='';$('#unlock').textContent=clinical?'🔒 Volver a modo paciente':'🔓 Acceso clínico';toast(clinical?'Modo clínico educativo abierto. En el dispositivo real: Setup + perilla ≥3 s; solo personal autorizado.':'Modo paciente: ajustes clínicos bloqueados.');renderScreen();};
 function showProcedure(html,setup){$('#procedure-content').innerHTML=html;$('#procedure').showModal();setup?.();}
 $('#close-procedure').onclick=()=>{if(procedureBusy){toast('Esperá a que termine la secuencia simulada.');return;}$('#procedure').close();};
 $('#procedure').addEventListener('cancel',e=>{if(procedureBusy)e.preventDefault();});
