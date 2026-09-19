@@ -2369,7 +2369,7 @@ const LandingPage = () => {
                         <button onClick={() => scrollTo('servicios')}>Servicios</button>
                         <button onClick={() => scrollTo('consejos')}>Consejos</button>
                         <button onClick={() => scrollTo('contacto')}>Contacto</button>
-                        <a href="/academia" className={css.navPage}>Academia: formación gratuita para profesionales (7 ebooks)</a>
+                        <a href="/academia" className={css.navPage}>Academia: formación gratuita para profesionales (7 cursos, ebooks interactivos)</a>
                     </div>
                     {/* Enlaces internos reales (<a href>) para crawlers: guias/landing y patologias */}
                     <div className={css.footerContact}>
