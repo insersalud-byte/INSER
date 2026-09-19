@@ -178,6 +178,12 @@ En Córdoba sí: alquilamos CPAP con entrega e instalación a domicilio, lo que 
 
 La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos máscaras nasales desde U$S 35 y nasobucales, con asesoramiento para elegir la talla correcta.
 
+## Para profesionales: formación gratuita sobre Apnea del Sueño
+
+Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
+
+- [Ventilación no invasiva (CPAP y BiPAP): ebook gratuito con simulador](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
+
 ## Revisión profesional
 
 Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.

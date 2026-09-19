@@ -93,7 +93,7 @@ Sí, hacemos entrega e instalación a domicilio en Córdoba Capital y alrededore
 
 ### ¿Puedo comprar el equipo después de alquilarlo?
 
-Sí. Vendemos equipos nuevos aprobados por ANMAT y te asesoramos para pasar del alquiler a la compra cuando quieras.
+Sí. Vendemos equipos nuevos aprobados por ANMAT y te asesoramos para pasar del alquiler a la compra cuando quieras. Si alquilaste un CPAP o AutoCPAP, el primer mes de alquiler se descuenta del precio de venta.
 
 ### ¿Necesito estudio del sueño para alquilar?
 

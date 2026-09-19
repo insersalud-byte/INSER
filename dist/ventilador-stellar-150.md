@@ -133,6 +133,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Ebook gratuito: Ventilación mecánica, de la perilla a la curva](https://insersalud.com/academia/ebook/ventilacion-mecanica)
 
+- [Guía gratuita: Extubación, decanulación y deglución](https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion)
+
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---

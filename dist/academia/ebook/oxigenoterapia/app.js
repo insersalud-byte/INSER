@@ -177,7 +177,7 @@ inserSaveButton?.addEventListener("click", () => {
 inserShareButton?.addEventListener("click", async () => {
   const shareData = {
     title: "INSER SALUD · Equipos respiratorios",
-    text: "CPAP, BiPAP, oxígeno, máscaras y accesorios. Venta y alquiler.",
+    text: "CPAP, BiPAP, oxígeno, máscaras y accesorios. Venta con envío a todo el país y alquiler en Córdoba.",
     url: "https://insersalud.com/tarjeta",
   };
 
@@ -199,3 +199,16 @@ inserShareButton?.addEventListener("click", async () => {
     showInserFeedback("Compartí: insersalud.com/tarjeta");
   }
 });
+
+// Medicion GA4 de la tarjeta y de los enlaces a equipos: los clics se atribuyen al ebook (source academia-oxigenoterapia).
+(function () {
+  var src = "academia-oxigenoterapia";
+  function medir(ev, p) { if (typeof window.gtag === "function") { p.source = src; window.gtag("event", ev, p); } }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest(".inser-card a[href], .inser-equipos a[href]");
+    if (!a) return;
+    var h = a.getAttribute("href") || "";
+    if (h.indexOf("wa.me") > -1) { medir("contact_whatsapp", {}); medir("academia_whatsapp", {}); }
+    else if (h.indexOf("insersalud.com") > -1) { medir("academia_link_landing", { destino: h, etiqueta: (a.textContent || "").trim().slice(0, 40) }); }
+  }, true);
+})();

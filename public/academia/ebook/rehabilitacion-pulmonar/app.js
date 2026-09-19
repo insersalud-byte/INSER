@@ -193,7 +193,7 @@ if (inserGuardar) {
 const inserCompartir = document.getElementById('inserCompartir');
 if (inserCompartir) {
   inserCompartir.addEventListener('click', async () => {
-    const datos = { title: 'Inser Salud — Equipos Respiratorios', text: 'CPAP · BiPAP · Oxígeno · Accesorios. Venta y alquiler en toda Argentina.', url: 'https://insersalud.com/tarjeta' };
+    const datos = { title: 'Inser Salud — Equipos Respiratorios', text: 'CPAP · BiPAP · Oxígeno · Accesorios. Venta con envío a todo el país y alquiler en Córdoba.', url: 'https://insersalud.com/tarjeta' };
     if (navigator.share) { try { await navigator.share(datos); } catch (e) {} }
     else { try { await navigator.clipboard.writeText(datos.url); } catch (e) {} }
   });

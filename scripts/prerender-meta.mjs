@@ -565,7 +565,7 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <ul>
 ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`).join('\n')}
 </ul>
-<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (6 ebooks de terapia respiratoria)</a></p>`;
+<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (7 ebooks de terapia respiratoria)</a></p>`;
 
     const proceso = `
 <h2>Cómo trabajamos</h2>
@@ -620,6 +620,12 @@ function buildPathologyBody(p, isSalud) {
           }).join('\n') +
           `\n</ul>\n</section>`
         : '';
+    // Material gratuito de la Academia para el profesional que trata la patologia (relatedLinks de pathologyData).
+    const profesionales = (p.relatedLinks && p.relatedLinks.length)
+        ? `<section><h2>Para profesionales: formación gratuita sobre ${esc(p.title)}</h2>\n<p>Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):</p>\n<ul>\n` +
+          p.relatedLinks.map(l => `<li><a href="${esc(l.href)}">${esc(l.label)}</a></li>`).join('\n') +
+          `\n</ul>\n</section>`
+        : '';
     return `<div id="ssr-content"><main>
 <nav><a href="/">Inicio</a> › <a href="/patologia/${esc(p.slug)}">${esc(p.title)}</a></nav>
 <h1>${esc(p.title)}${esc(sufijo)}</h1>
@@ -630,6 +636,7 @@ ${p.description ? `<p>${esc(p.description)}</p>` : ''}
 ${secs}
 ${equipos}
 ${faqs}
+${profesionales}
 <section><h2>Revisión profesional</h2>
 <p>Contenido revisado por el <strong>Lic. Sergio Giorda</strong>, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.</p>
 <p>Última revisión: ${REVISION_CLINICA}.</p>

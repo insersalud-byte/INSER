@@ -630,7 +630,9 @@ tbody td {
   gap: 7px;
   margin: 18px 0 4px;
 }
-.inser-chips span {
+.inser-chips span,
+.inser-chips a {
+  text-decoration: none;
   padding: 5px 11px;
   border: 1px solid #527174;
   border-radius: 999px;
@@ -638,6 +640,28 @@ tbody td {
   background: #79e1cf0d;
   font-size: 0.69rem;
   font-weight: 700;
+}
+.inser-chips a:hover {
+  border-color: #b8f1e4;
+  background: #79e1cf26;
+}
+.inser-equipos h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+.inser-equipos-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 0;
+}
+.inser-equipos-links a {
+  padding: 6px 12px;
+  border: 1px solid var(--teal);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
 }
 .inser-actions {
   display: grid;

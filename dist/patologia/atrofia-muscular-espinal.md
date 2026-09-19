@@ -168,6 +168,14 @@ En Córdoba sí: llevamos el equipo, lo instalamos y capacitamos a la familia o 
 
 Todos los equipos son aparatología aprobada por ANMAT. La garantía depende del modelo y figura en la ficha de cada equipo. Ante cualquier problema podés escribirnos por WhatsApp; respondemos todos los días.
 
+## Para profesionales: formación gratuita sobre Atrofia Muscular Espinal
+
+Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
+
+- [Ventilación en enfermedades neuromusculares: ebook gratuito con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
+
+- [Ventilación no invasiva (CPAP y BiPAP): ebook gratuito con simulador](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
+
 ## Revisión profesional
 
 Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.

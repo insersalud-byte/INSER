@@ -121,7 +121,7 @@ export const localPages = [
             { q: '¿Cuánto cuesta alquilar un CPAP en Córdoba?', a: 'El valor mensual depende del equipo y del plazo. Escribinos por WhatsApp y te pasamos el precio actualizado; incluye entrega, instalación y soporte técnico.' },
             { q: '¿El alquiler incluye la máscara?', a: 'Sí. El alquiler incluye la máscara, el humidificador y la tubuladura, además del equipo.' },
             { q: '¿Entregan a domicilio?', a: 'Sí, hacemos entrega e instalación a domicilio en Córdoba Capital y alrededores, normalmente en el día.' },
-            { q: '¿Puedo comprar el equipo después de alquilarlo?', a: 'Sí. Vendemos equipos nuevos aprobados por ANMAT y te asesoramos para pasar del alquiler a la compra cuando quieras.' },
+            { q: '¿Puedo comprar el equipo después de alquilarlo?', a: 'Sí. Vendemos equipos nuevos aprobados por ANMAT y te asesoramos para pasar del alquiler a la compra cuando quieras. Si alquilaste un CPAP o AutoCPAP, el primer mes de alquiler se descuenta del precio de venta.' },
             { q: '¿Necesito estudio del sueño para alquilar?', a: 'Sí, hace falta la indicación médica: el equipo se configura con la presión que definió tu médico a partir del estudio. Si todavía no lo hiciste, en Córdoba hacemos el [estudio del sueño a domicilio](/estudio-del-sueno-cordoba).' },
             { q: '¿Qué pasa si me voy de viaje?', a: 'El equipo es transportable y podés llevarlo. Avisanos si vas a viajar para orientarte con el traslado.' },
             { q: '¿Y si no me adapto al equipo?', a: 'Antes de entregártelo te asesoramos para elegir la máscara adecuada, que es donde está la mayoría de los problemas de adaptación. Si aun así necesitás cambiar de máscara, la nueva se cobra aparte, pero primero te ayudamos a ajustar la que tenés. Justamente para eso sirve alquilar antes de comprar.' },
@@ -641,6 +641,7 @@ export const localPages = [
             { label: 'Oxígeno a domicilio en Córdoba', href: '/oxigeno-a-domicilio-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
+            { label: 'Ebook gratuito: Alto flujo (CNAF), con simulador y casos', href: '/academia/ebook/alto-flujo' },
         ],
     },
     {
@@ -817,6 +818,8 @@ export const localPages = [
             { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
             { label: 'Ebook gratuito: Ventilación mecánica, de la perilla a la curva', href: '/academia/ebook/ventilacion-mecanica' },
             { label: 'Ebook gratuito: Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
+            { label: 'Ebook gratuito: Rehabilitación pulmonar, con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
+            { label: 'Ebook gratuito: Alto flujo (CNAF), con simulador y casos', href: '/academia/ebook/alto-flujo' },
             { label: 'Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
     },
@@ -950,6 +953,7 @@ export const localPages = [
             { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
             { label: 'Equipamiento para centros de rehabilitación', href: '/equipamiento-rehabilitacion-pulmonar' },
             { label: 'Ebook gratuito: Ventilación mecánica, de la perilla a la curva', href: '/academia/ebook/ventilacion-mecanica' },
+            { label: 'Guía gratuita: Extubación, decanulación y deglución', href: '/academia/ebook/extubacion-decanulacion-deglucion' },
         ],
     },
     {
@@ -1063,6 +1067,7 @@ export const localPages = [
             { label: 'Atrofia Muscular Espinal (AME)', href: '/patologia/atrofia-muscular-espinal' },
             { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
             { label: 'Ebook gratuito: Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
+            { label: 'Ebook gratuito: Ventilación en enfermedades neuromusculares, con simulador', href: '/academia/ebook/ventilacion-neuromuscular' },
         ],
     },
 ];

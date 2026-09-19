@@ -187,6 +187,12 @@ Sí, alquilamos equipos de ventilación y oxígeno con entrega e instalación a 
 
 Sí. Trabajamos de forma particular y preparamos el presupuesto formal y la factura oficial para que puedas gestionar el reintegro con tu obra social o prepaga.
 
+## Para profesionales: formación gratuita sobre Parálisis Cerebral
+
+Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
+
+- [Ventilación en enfermedades neuromusculares: ebook gratuito con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
+
 ## Revisión profesional
 
 Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.

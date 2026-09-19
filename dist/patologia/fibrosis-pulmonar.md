@@ -178,6 +178,14 @@ Sí. Alquilamos concentradores fijos y portátiles con entrega e instalación a 
 
 Vendemos de forma particular y te ayudamos con el reintegro: te damos un presupuesto formal para presentar en tu obra social o prepaga y la factura oficial para gestionar el recupero según tu plan.
 
+## Para profesionales: formación gratuita sobre Fibrosis Pulmonar
+
+Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
+
+- [Rehabilitación pulmonar: ebook gratuito con test de marcha y casos](https://insersalud.com/academia/ebook/rehabilitacion-pulmonar)
+
+- [Oxigenoterapia, de la guardia a casa: ebook gratuito](https://insersalud.com/academia/ebook/oxigenoterapia)
+
 ## Revisión profesional
 
 Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.

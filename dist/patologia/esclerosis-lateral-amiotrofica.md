@@ -172,6 +172,14 @@ En Córdoba alquilamos equipos de ventilación con entrega e instalación a domi
 
 Trabajamos de forma particular y te acompañamos en el trámite: preparamos el presupuesto formal con los datos del equipo indicado y emitimos factura oficial para que gestiones el reintegro con tu cobertura.
 
+## Para profesionales: formación gratuita sobre Esclerosis Lateral Amiotrófica
+
+Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
+
+- [Ventilación en enfermedades neuromusculares: ebook gratuito con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
+
+- [Ventilación no invasiva (CPAP y BiPAP): ebook gratuito con simulador](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
+
 ## Revisión profesional
 
 Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.

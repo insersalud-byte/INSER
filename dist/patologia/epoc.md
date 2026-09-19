@@ -187,6 +187,14 @@ En Córdoba sí, con entrega e instalación a domicilio y capacitación en el us
 
 Sí, siempre que respete el tipo de flujo que te indicaron. Hay portátiles de flujo continuo y otros que entregan oxígeno solo por pulsos: si tu indicación es de flujo continuo, un equipo de pulsos no lo reemplaza. Te ayudamos a verificar la compatibilidad antes de comprar.
 
+## Para profesionales: formación gratuita sobre EPOC
+
+Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
+
+- [Rehabilitación pulmonar: ebook gratuito con test de marcha y casos](https://insersalud.com/academia/ebook/rehabilitacion-pulmonar)
+
+- [Oxigenoterapia, de la guardia a casa: ebook gratuito](https://insersalud.com/academia/ebook/oxigenoterapia)
+
 ## Revisión profesional
 
 Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.

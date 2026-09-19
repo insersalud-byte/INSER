@@ -458,6 +458,25 @@ const PathologyPage = () => {
                 </section>
             )}
 
+            {/* ── PARA PROFESIONALES: ebooks gratuitos de la Academia (relatedLinks de pathologyData) ── */}
+            {data.relatedLinks && data.relatedLinks.length > 0 && (
+                <section className={css.tipsSection}>
+                    <div className={css.container}>
+                        <h2 className={css.sectionTitle}>Para profesionales: formación gratuita sobre {data.title}</h2>
+                        <p style={{ textAlign: 'center', color: '#334155', margin: '0 auto 1rem', maxWidth: 760 }}>
+                            Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
+                        </p>
+                        <ul style={{ listStyle: 'none', padding: 0, margin: '0 auto', maxWidth: 760, display: 'grid', gap: '0.6rem' }}>
+                            {data.relatedLinks.map((l, i) => (
+                                <li key={i} style={{ background: '#fff', border: '1px solid #e8eef6', borderRadius: '0.7rem', padding: '0.8rem 1.2rem' }}>
+                                    <a href={l.href} style={{ color: '#0F2A5C', fontWeight: 600, textDecoration: 'none' }}>{l.label} →</a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </section>
+            )}
+
             {/* ── SANTI CTA ──────────────────────────────────────── */}
             <section className={css.santiSection}>
                 <div className={css.container}>
