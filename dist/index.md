@@ -155,7 +155,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - **AutoCPAP Philips DreamStation** — U$S 758 — con humidificador y conectividad
 
-- **CPAP ResMed AirSense 10** — $799.000 — oferta, equipo completo, el CPAP de gama alta de nuestro catálogo
+- **CPAP ResMed AirSense 10** — $974.000 — oferta, equipo completo, el CPAP de gama alta de nuestro catálogo
 
 - **AutoCPAP ResMed AirSense 10** — U$S 907 — presión automática, app myAir
 

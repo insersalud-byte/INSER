@@ -152,7 +152,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
 
 - ![AUTOCPAP PHILIPS DREAMSTATION](https://insersalud.com/artifacts/products/bbb738c4-8671-4228-b86d-6f1ffd179569.jpg) AUTOCPAP PHILIPS DREAMSTATION — U$S 758
 
-- ![CPAP RESMED AIRSENSE 10](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP RESMED AIRSENSE 10 — $799.000
+- ![CPAP RESMED AIRSENSE 10](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP RESMED AIRSENSE 10 — $974.000
 
 - ![Máscara Nasal DreamWear (mínimo contacto)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (mínimo contacto) — U$S 153
 
@@ -164,7 +164,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
 
 ### ¿Qué equipo se usa para tratar la apnea del sueño?
 
-El tratamiento de referencia es el CPAP, que entrega una presión de aire fija durante la noche. También existe el AutoCPAP, que ajusta la presión solo. Cuál corresponde y con qué presión lo define tu médico a partir del estudio del sueño. En INSER SALUD tenemos CPAP BMC G2S a $499.000, AutoCPAP BMC G2S a $630.000 y CPAP ResMed AirSense 10 a $799.000, todos con humidificador incluido.
+El tratamiento de referencia es el CPAP, que entrega una presión de aire fija durante la noche. También existe el AutoCPAP, que ajusta la presión solo. Cuál corresponde y con qué presión lo define tu médico a partir del estudio del sueño. En INSER SALUD tenemos CPAP BMC G2S a $499.000, AutoCPAP BMC G2S a $630.000 y CPAP ResMed AirSense 10 a $974.000, todos con humidificador incluido.
 
 ### ¿Necesito un estudio del sueño antes de comprar el equipo?
 

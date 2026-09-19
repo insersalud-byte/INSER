@@ -73,7 +73,7 @@ Es la forma de empezar el tratamiento sin la inversión completa de entrada, y s
 
 - ![CPAP BMC G2S con humidificador](https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg) CPAP BMC G2S con humidificador — también en venta $499.000
 
-- ![CPAP ResMed AirSense 10](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 — también en venta $799.000
+- ![CPAP ResMed AirSense 10](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 — también en venta $974.000
 
 - AutoCPAP (presión automática) — consultar alquiler
 

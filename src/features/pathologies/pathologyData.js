@@ -20,7 +20,7 @@ export const pathologies = [
     {
         slug: 'apnea-del-sueno',
         faq: [
-            { q: '¿Qué equipo se usa para tratar la apnea del sueño?', a: 'El tratamiento de referencia es el CPAP, que entrega una presión de aire fija durante la noche. También existe el AutoCPAP, que ajusta la presión solo. Cuál corresponde y con qué presión lo define tu médico a partir del estudio del sueño. En INSER SALUD tenemos CPAP BMC G2S a $499.000, AutoCPAP BMC G2S a $630.000 y CPAP ResMed AirSense 10 a $799.000, todos con humidificador incluido.' },
+            { q: '¿Qué equipo se usa para tratar la apnea del sueño?', a: 'El tratamiento de referencia es el CPAP, que entrega una presión de aire fija durante la noche. También existe el AutoCPAP, que ajusta la presión solo. Cuál corresponde y con qué presión lo define tu médico a partir del estudio del sueño. En INSER SALUD tenemos CPAP BMC G2S a $499.000, AutoCPAP BMC G2S a $630.000 y CPAP ResMed AirSense 10 a $974.000, todos con humidificador incluido.' },
             { q: '¿Necesito un estudio del sueño antes de comprar el equipo?', a: 'Sí. El equipo y la presión se determinan a partir de una poligrafía respiratoria o polisomnografía indicada por tu médico. En Córdoba hacemos el estudio del sueño a domicilio: dormís en tu casa y el informe lo interpreta un profesional.' },
             { q: '¿Puedo alquilar un CPAP antes de comprarlo?', a: 'En Córdoba sí: alquilamos CPAP con entrega e instalación a domicilio, lo que permite probar el tratamiento antes de decidir la compra. Al resto del país enviamos equipos en venta, con garantía de 2 años.' },
             { q: '¿Cada cuánto se cambia la máscara del CPAP?', a: 'La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos máscaras nasales desde U$S 35 y nasobucales, con asesoramiento para elegir la talla correcta.' },
@@ -207,7 +207,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'CPAP RESMED AIRSENSE 10',
-                priceARS: '$799.000',
+                priceARS: '$974.000',
                 priceUSD: null,
                 img: '/artifacts/cpap_airsense10.jpg',
                 badge: 'OFERTA',

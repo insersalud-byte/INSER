@@ -43,7 +43,7 @@ const PRODUCTS = [
     ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, con almohadillas nasales'],
     ['CPAP Philips DreamStation', 'U$S 579', 'CPAP fijo con humidificador y conectividad'],
     ['AutoCPAP Philips DreamStation', 'U$S 758', 'con humidificador y conectividad'],
-    ['CPAP ResMed AirSense 10', '$799.000', 'oferta, equipo completo, el CPAP de gama alta de nuestro catálogo'],
+    ['CPAP ResMed AirSense 10', '$974.000', 'oferta, equipo completo, el CPAP de gama alta de nuestro catálogo'],
     ['AutoCPAP ResMed AirSense 10', 'U$S 907', 'presión automática, app myAir'],
     ['CPAP Yuwell YH-360', 'U$S 416', 'con humidificador, silencioso'],
     ['BiPAP BMC G3 con frecuencia respiratoria', 'U$S 907', 'para EPOC y enfermedades neuromusculares'],

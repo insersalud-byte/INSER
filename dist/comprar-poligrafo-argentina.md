@@ -51,7 +51,7 @@ El equipo solo cuesta U$S 1.570. La versión con las 30 cánulas Luer Lock inclu
 
 - ![CPAP BMC G2S (tratamiento post-diagnóstico)](https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg) CPAP BMC G2S (tratamiento post-diagnóstico) — $499.000
 
-- ![CPAP ResMed AirSense 10 (equipo completo)](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 (equipo completo) — $799.000
+- ![CPAP ResMed AirSense 10 (equipo completo)](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 (equipo completo) — $974.000
 
 - ![Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock](https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg) Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock — U$S 1.794
 
