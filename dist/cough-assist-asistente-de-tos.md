@@ -123,9 +123,9 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Ventilador STELLAR 150](https://insersalud.com/ventilador-stellar-150)
 
-- [Ebook gratuito: Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
+- [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
-- [Ebook gratuito: Ventilación en enfermedades neuromusculares, con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
+- [Curso gratuito (ebook): Ventilación en enfermedades neuromusculares, con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
 
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 

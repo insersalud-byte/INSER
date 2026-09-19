@@ -182,9 +182,9 @@ Vendemos de forma particular y te ayudamos con el reintegro: te damos un presupu
 
 Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
 
-- [Rehabilitación pulmonar: ebook gratuito con test de marcha y casos](https://insersalud.com/academia/ebook/rehabilitacion-pulmonar)
+- [Rehabilitación pulmonar: curso gratuito (ebook) con test de marcha y casos](https://insersalud.com/academia/ebook/rehabilitacion-pulmonar)
 
-- [Oxigenoterapia, de la guardia a casa: ebook gratuito](https://insersalud.com/academia/ebook/oxigenoterapia)
+- [Oxigenoterapia, de la guardia a casa: curso gratuito (ebook)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
 ## Revisión profesional
 

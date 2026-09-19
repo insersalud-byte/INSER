@@ -256,7 +256,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
 
         // Material gratuito de la Academia para el profesional que trata esta patologia (se renderiza en React y en el prerender)
         relatedLinks: [
-            { label: 'Ventilación no invasiva (CPAP y BiPAP): ebook gratuito con simulador', href: '/academia/ebook/ventilacion-no-invasiva' },
+            { label: 'Ventilación no invasiva (CPAP y BiPAP): curso gratuito (ebook) con simulador', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
 
         santiMessage: 'Hola Santi, creo que tengo apnea del sueño. ¿Qué equipos CPAP o BiPAP tenés disponibles y cuáles son los precios? ¿También hacen alquiler para adaptación?',
@@ -503,8 +503,8 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
 
         // Material gratuito de la Academia para el profesional que trata esta patologia (se renderiza en React y en el prerender)
         relatedLinks: [
-            { label: 'Rehabilitación pulmonar: ebook gratuito con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
-            { label: 'Oxigenoterapia, de la guardia a casa: ebook gratuito', href: '/academia/ebook/oxigenoterapia' },
+            { label: 'Rehabilitación pulmonar: curso gratuito (ebook) con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
+            { label: 'Oxigenoterapia, de la guardia a casa: curso gratuito (ebook)', href: '/academia/ebook/oxigenoterapia' },
         ],
 
         santiMessage: 'Hola Santi, soy paciente con EPOC y necesito información sobre concentradores de oxígeno. ¿Cuáles son los modelos disponibles, portátiles y estacionarios, y sus precios?',
@@ -745,8 +745,8 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
 
         // Material gratuito de la Academia para el profesional que trata esta patologia (se renderiza en React y en el prerender)
         relatedLinks: [
-            { label: 'Rehabilitación pulmonar: ebook gratuito con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
-            { label: 'Oxigenoterapia, de la guardia a casa: ebook gratuito', href: '/academia/ebook/oxigenoterapia' },
+            { label: 'Rehabilitación pulmonar: curso gratuito (ebook) con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
+            { label: 'Oxigenoterapia, de la guardia a casa: curso gratuito (ebook)', href: '/academia/ebook/oxigenoterapia' },
         ],
 
         santiMessage: 'Hola Santi, tengo Fibrosis Pulmonar y necesito oxigenoterapia domiciliaria. ¿Qué concentradores tienen disponibles, tanto estacionarios como portátiles? ¿También tienen oxígeno líquido?',
@@ -972,8 +972,8 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
 
         // Material gratuito de la Academia para el profesional que trata esta patologia (se renderiza en React y en el prerender)
         relatedLinks: [
-            { label: 'Ventilación en enfermedades neuromusculares: ebook gratuito con simulador', href: '/academia/ebook/ventilacion-neuromuscular' },
-            { label: 'Ventilación no invasiva (CPAP y BiPAP): ebook gratuito con simulador', href: '/academia/ebook/ventilacion-no-invasiva' },
+            { label: 'Ventilación en enfermedades neuromusculares: curso gratuito (ebook) con simulador', href: '/academia/ebook/ventilacion-neuromuscular' },
+            { label: 'Ventilación no invasiva (CPAP y BiPAP): curso gratuito (ebook) con simulador', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
 
         santiMessage: 'Hola Santi, tengo ELA y necesito información sobre el Asistente de Tos (Cough Assist) y BiPAP con frecuencia respiratoria para enfermedades neuromusculares. ¿Qué equipos tienen y cuáles son los precios?',
@@ -1196,8 +1196,8 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
 
         // Material gratuito de la Academia para el profesional que trata esta patologia (se renderiza en React y en el prerender)
         relatedLinks: [
-            { label: 'Ventilación en enfermedades neuromusculares: ebook gratuito con simulador', href: '/academia/ebook/ventilacion-neuromuscular' },
-            { label: 'Ventilación no invasiva (CPAP y BiPAP): ebook gratuito con simulador', href: '/academia/ebook/ventilacion-no-invasiva' },
+            { label: 'Ventilación en enfermedades neuromusculares: curso gratuito (ebook) con simulador', href: '/academia/ebook/ventilacion-neuromuscular' },
+            { label: 'Ventilación no invasiva (CPAP y BiPAP): curso gratuito (ebook) con simulador', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
 
         santiMessage: 'Hola Santi, necesito equipos para Atrofia Muscular Espinal (AME). ¿Qué BiPAP, máscaras y Cough Assist tienen disponibles? ¿Trabajan con pediátrico también?',
@@ -1453,7 +1453,7 @@ Consultanos disponibilidad y opciones de financiación.`,
 
         // Material gratuito de la Academia para el profesional que trata esta patologia (se renderiza en React y en el prerender)
         relatedLinks: [
-            { label: 'Ventilación en enfermedades neuromusculares: ebook gratuito con simulador', href: '/academia/ebook/ventilacion-neuromuscular' },
+            { label: 'Ventilación en enfermedades neuromusculares: curso gratuito (ebook) con simulador', href: '/academia/ebook/ventilacion-neuromuscular' },
         ],
 
         santiMessage: 'Hola Santi, necesito información sobre BiPAP y máscaras para parálisis cerebral. ¿Qué opciones tienen disponibles, incluyendo pediátricas? ¿Cuáles son los precios?',

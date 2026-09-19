@@ -137,15 +137,15 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [BiPAP en Córdoba](https://insersalud.com/bipap-cordoba)
 
-- [Ebook gratuito: Ventilación mecánica, de la perilla a la curva](https://insersalud.com/academia/ebook/ventilacion-mecanica)
+- [Curso gratuito (ebook): Ventilación mecánica, de la perilla a la curva](https://insersalud.com/academia/ebook/ventilacion-mecanica)
 
-- [Ebook gratuito: Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
+- [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
-- [Ebook gratuito: Rehabilitación pulmonar, con test de marcha y casos](https://insersalud.com/academia/ebook/rehabilitacion-pulmonar)
+- [Curso gratuito (ebook): Rehabilitación pulmonar, con test de marcha y casos](https://insersalud.com/academia/ebook/rehabilitacion-pulmonar)
 
-- [Ebook gratuito: Alto flujo (CNAF), con simulador y casos](https://insersalud.com/academia/ebook/alto-flujo)
+- [Curso gratuito (ebook): Alto flujo (CNAF), con simulador y casos](https://insersalud.com/academia/ebook/alto-flujo)
 
-- [Ebook gratuito: Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
+- [Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 

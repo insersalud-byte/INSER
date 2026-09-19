@@ -191,7 +191,7 @@ Sí. Trabajamos de forma particular y preparamos el presupuesto formal y la fact
 
 Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
 
-- [Ventilación en enfermedades neuromusculares: ebook gratuito con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
+- [Ventilación en enfermedades neuromusculares: curso gratuito (ebook) con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
 
 ## Revisión profesional
 
