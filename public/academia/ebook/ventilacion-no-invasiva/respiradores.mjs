@@ -82,7 +82,10 @@ function mount() {
   }
   return true;
 }
-if (!mount()) {
-  const pending=new MutationObserver(()=>{if(mount())pending.disconnect();});
-  pending.observe(document.getElementById('root')??document.body,{childList:true,subtree:true});
-}
+// El HTML llega prerenderizado: si montamos antes de que React hidrate, la hidratacion
+// descarta las secciones insertadas. Por eso el observador queda vivo y vuelve a montar
+// cada vez que las secciones desaparecen (sin bucle: mount() no hace nada si ya existen).
+function ensure(){ if (!document.getElementById('simulador-astral')) mount(); }
+new MutationObserver(ensure).observe(document.getElementById('root')??document.body,{childList:true,subtree:true});
+window.addEventListener('load',ensure);
+ensure();
