@@ -18,7 +18,7 @@ const SPECS = {
         ['Humidificador', 'Calefactado integrado'],
         ['Peso', '1,3 kg con humidificador'],
         ['Pantalla', 'LCD color táctil'],
-        ['Garantía', '2 años oficiales ANMAT'],
+        ['Garantía', '2 años oficiales'],
     ],
     'bmc g3': [
         ['Fabricante', 'BMC Medical'],
@@ -29,7 +29,7 @@ const SPECS = {
         ['FR respaldo', '4 – 40 rpm'],
         ['Humidificador', 'Calefactado integrado'],
         ['Indicación', 'EPOC, ENM, hipoventilación'],
-        ['Garantía', '2 años ANMAT'],
+        ['Garantía', '2 años'],
     ],
     'autocpap philips dreamstation': [
         ['Fabricante', 'Philips Respironics'],

@@ -54,7 +54,7 @@ const ofertas = [
             ['Nivel sonoro', '26 dBA (ultra silencioso)'],
             ['Pantalla', 'LCD color'],
             ['Incluye', 'Humidificador, tubuladura, fuente, tarjeta SD y bolso'],
-            ['Garantía', '2 años oficiales ANMAT'],
+            ['Garantía', '2 años oficiales'],
         ],
     },
     {
@@ -69,7 +69,7 @@ const ofertas = [
             ['Pantalla', 'LCD color táctil'],
             ['Peso', '1,3 kg con humidificador'],
             ['Tarjeta SD', 'Sí, para registro de uso'],
-            ['Garantía', '2 años oficiales ANMAT'],
+            ['Garantía', '2 años oficiales'],
         ],
     },
     {
@@ -98,7 +98,7 @@ const ofertas = [
             ['Humidificador', 'Calefactado integrado'],
             ['Indicación', 'EPOC, ENM, hipoventilación, AOS compleja'],
             ['Pantalla', 'LCD color'],
-            ['Garantía', '2 años oficiales ANMAT'],
+            ['Garantía', '2 años oficiales'],
         ],
     },
     {
@@ -250,7 +250,7 @@ const tienda = [
             ['Humidificador', 'Calefactado integrado'],
             ['Peso', '1,3 kg con humidificador'],
             ['Pantalla', 'LCD color táctil'],
-            ['Garantía', '2 años oficiales ANMAT'],
+            ['Garantía', '2 años oficiales'],
         ],
     },
     {
@@ -276,7 +276,7 @@ const tienda = [
             ['Pantalla', 'LCD color'],
             ['Incluye', 'Equipo, humidificador, tubuladura, fuente y bolso de transporte'],
             ['Tarjeta SD', 'Sí, registro de uso'],
-            ['Garantía', '2 años oficiales ANMAT'],
+            ['Garantía', '2 años oficiales'],
         ],
     },
     {
@@ -327,7 +327,7 @@ const tienda = [
             ['FR respaldo', '4 – 40 rpm'],
             ['Humidificador', 'Calefactado integrado'],
             ['Indicación', 'EPOC, ENM, hipoventilación'],
-            ['Garantía', '2 años ANMAT'],
+            ['Garantía', '2 años'],
         ],
     },
     {

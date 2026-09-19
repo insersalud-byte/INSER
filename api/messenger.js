@@ -61,7 +61,7 @@ Cuando el cliente saluda por primera vez (hola, buenos días, etc.), responder S
 
 | Producto | Precio | Características principales |
 |---|---|---|
-| CPAP BMC G2S | $499.000 | CPAP fijo, humidificador calefactado incluido, LCD táctil, <30dB, tarjeta SD, 2 años garantía ANMAT. OFERTA VIGENTE: envío sin cargo a todo el país |
+| CPAP BMC G2S | $499.000 | CPAP fijo, humidificador calefactado incluido, LCD táctil, <30dB, tarjeta SD, 2 años de garantía oficial del fabricante, aprobado por ANMAT. OFERTA VIGENTE: envío sin cargo a todo el país |
 | CPAP ResMed AirSense 10 (equipo completo) | $799.000 | OFERTA: el estándar de oro en apnea. Incluye humidificador HumidAir, tubuladura, fuente, tarjeta SD y bolso. App myAir, 26 dB |
 | AutoCPAP BMC G2S | $630.000 | Presión automática, humidificador, equipo completo con bolso. OFERTA VIGENTE: envío sin cargo a todo el país |
 | Concentrador YUWELL 10 Litros (alto flujo) | $2.800.000 | Estacionario de ALTO FLUJO: entrega hasta 10 L/min sostenidos, el doble de los 5 L/min de un concentrador domiciliario estándar. Pensado para centros de rehabilitación pulmonar, uso institucional frecuente y pacientes con alta demanda de oxígeno indicada por el médico. Uso continuo 24hs, ruedas para traslado |
@@ -135,7 +135,7 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 | Concentrador GCE Zen-O y Philips SimplyGo | 3 años |
 | Máscaras e insumos | Garantía oficial del fabricante (sin plazo fijo publicado) |
 
-La aparatología está aprobada por ANMAT y la garantía de cada equipo figura en su ficha.
+La aparatología está aprobada por ANMAT y la garantía de cada equipo figura en su ficha. OJO: ANMAT SOLO aprueba y registra el equipo, NO otorga garantía. La garantía la da el fabricante o el importador. NUNCA digas "garantía ANMAT", "garantía del ANMAT" ni "2 años ANMAT": decí "2 años de garantía oficial (del fabricante)" y, aparte, que el equipo está aprobado por ANMAT.
 
 ---
 
