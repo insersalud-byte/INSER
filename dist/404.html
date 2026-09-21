@@ -9,6 +9,19 @@
   <meta name="robots" content="noindex, follow" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <!-- Google Analytics 4: mismo ID que el sitio. Mide cuantas veces se llega a una URL inexistente
+       (page_view con titulo "Pagina no encontrada"), para detectar enlaces rotos. -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    // Trafico interno: ?sinstats=1 apaga GA4 en este navegador; ?constats=1 lo reactiva.
+    try{var q=location.search;if(/[?&]sinstats=1/.test(q))localStorage.setItem('inser-sin-stats','1');if(/[?&]constats=1/.test(q))localStorage.removeItem('inser-sin-stats');if(localStorage.getItem('inser-sin-stats')==='1')window['ga-disable-G-XD586V0PLV']=true;}catch(e){}
+    // Solo mide en produccion: previews de Vercel (*.vercel.app) y localhost no mandan datos a GA4.
+    if(!/(^|\.)(insersalud\.com|inser\.ar)$/.test(location.hostname))window['ga-disable-G-XD586V0PLV']=true;
+    gtag('js', new Date());
+    gtag('config', 'G-XD586V0PLV');
+  </script>
   <style>
     *, *::before, *::after { box-sizing: border-box; }
     body {
