@@ -38,13 +38,14 @@
   <link rel="stylesheet" href="/academia/ebook/alto-flujo/styles.css" />
   <link rel="stylesheet" href="/academia/ebook/alto-flujo/prono.css" />
   <link rel="stylesheet" href="/academia/ebook/alto-flujo/simulator.css" />
+  <link rel="stylesheet" href="/academia/ebook/alto-flujo/tecme-oaf.css" />
 </head>
 <body>
   <header class="ebook-topbar">
     <span class="ebook-context">CURSO GRATUITO · MANUAL INTERACTIVO · ALTO FLUJO (CNAF)</span>
     <a class="ebook-brand" href="https://insersalud.com" target="_blank" rel="noreferrer" aria-label="Ir a insersalud.com"><span>INSER</span><strong>SALUD.COM</strong></a>
     <nav id="toc" aria-label="Ir a un capítulo">
-      <a href="#inicio">Inicio</a><a href="#fundamentos">Fundamentos</a><a href="#fisiologia">Fisiología</a><a href="#equipo">Equipo</a><a href="#indicaciones">Indicaciones</a><a href="#inicio-terapia">Titulación</a><a href="#monitorizacion">Monitoreo</a><a href="#prono">Prono</a><a href="#simulador">Simulador</a><a href="#rox">ROX</a><a href="#fracaso">Fracaso</a><a href="#cuidados">Cuidados</a><a href="#destete">Destete</a><a href="#casos">Casos</a><a href="#referencias">Evidencia</a><a href="#contacto">Contacto</a>
+      <a href="#inicio">Inicio</a><a href="#fundamentos">Fundamentos</a><a href="#fisiologia">Fisiología</a><a href="#equipo">Equipo</a><a href="#indicaciones">Indicaciones</a><a href="#inicio-terapia">Titulación</a><a href="#monitorizacion">Monitoreo</a><a href="#prono">Prono</a><a href="#simulador">Simulador</a><a href="#simulador-tecme">TECME OAF</a><a href="#rox">ROX</a><a href="#fracaso">Fracaso</a><a href="#cuidados">Cuidados</a><a href="#destete">Destete</a><a href="#casos">Casos</a><a href="#referencias">Evidencia</a><a href="#contacto">Contacto</a>
     </nav>
     <a class="site-link" href="/academia/ebook" rel="noreferrer">← Academia</a>
     <div class="ebook-progress" id="ebookProgress" aria-label="Progreso del ebook" title="Capítulos vistos en este navegador">
@@ -219,6 +220,11 @@
       <p class="hf-disclaimer"><strong>Importante:</strong> los valores monitorizados son una respuesta matemática didáctica, no una predicción clínica ni un modelo validado. La presión es una estimación cualitativa dependiente de flujo, fugas, anatomía y apertura bucal. No usar para indicar o modificar tratamiento.</p>
     </section>
 
+    <section id="simulador-tecme" class="chapter content" data-title="Simulador inspirado en TECME Neumovent OAF alto flujo manual perilla circuito humidificador">
+      <div id="tecmeOafLab"></div>
+      <p><a class="ghost-action" href="/academia/ebook/alto-flujo/tecme/">Abrir simulador inspirado en TECME en página completa ↗</a></p>
+    </section>
+
     <section id="rox" class="chapter content" data-title="Índice ROX calculadora fórmula SpO2 FiO2 frecuencia respiratoria">
       <header class="chapter-heading"><span class="section-number">07</span><div><span class="eyebrow">ÍNDICE ROX</span><h2>Una ayuda para ordenar la reevaluación</h2><p>Validado originalmente en neumonía con insuficiencia respiratoria hipoxémica. Debe interpretarse en serie y dentro del contexto clínico.</p></div></header>
       <div class="rox-layout">
@@ -367,6 +373,8 @@
   <script src="/academia/ebook/alto-flujo/app.js"></script>
   <script src="/academia/ebook/alto-flujo/high-flow-model.js"></script>
   <script src="/academia/ebook/alto-flujo/simulator-ui.js"></script>
+  <script src="/academia/ebook/alto-flujo/tecme-oaf-model.js"></script>
+  <script src="/academia/ebook/alto-flujo/tecme-oaf.js?v=20260921-inspirado"></script>
 
 <script>
   // Medicion de la tarjeta INSER: los clics se atribuyen al ebook (source academia-alto-flujo).
