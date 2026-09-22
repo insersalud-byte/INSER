@@ -473,4 +473,12 @@
       <image:title>Ebook interactivo de ventilación en enfermedades neuromusculares - Academia INSER SALUD</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://insersalud.com/academia/ebook/apnea-del-sueno</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/academia/ebook/apnea-del-sueno/images/01-portada.webp</image:loc>
+      <image:title>Ebook interactivo de apnea del sueño en adultos: STOP-Bang, Epworth, CPAP/APAP y máscaras - Academia INSER SALUD</image:title>
+    </image:image>
+  </url>
 </urlset>
