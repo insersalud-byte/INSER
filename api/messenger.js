@@ -64,6 +64,7 @@ Cuando el cliente saluda por primera vez (hola, buenos días, etc.), responder S
 | CPAP BMC G2S | $499.000 | CPAP fijo, humidificador calefactado incluido, LCD táctil, <30dB, tarjeta SD, 2 años de garantía oficial del fabricante, aprobado por ANMAT. OFERTA VIGENTE: envío sin cargo a todo el país |
 | CPAP ResMed AirSense 10 (equipo completo) | $974.000 | OFERTA: el estándar de oro en apnea. Incluye humidificador HumidAir, tubuladura, fuente, tarjeta SD y bolso. App myAir, 26 dB |
 | AutoCPAP BMC G2S | $630.000 | Presión automática, humidificador, equipo completo con bolso. OFERTA VIGENTE: envío sin cargo a todo el país |
+| BiPAP BMC G3 (con FR y humidificador) | $1.300.000 | BiPAP S/T con frecuencia respiratoria de respaldo y humidificador. Para EPOC, enfermedades neuromusculares e hipoventilación. 2 años de garantía oficial del fabricante |
 | Concentrador YUWELL 10 Litros (alto flujo) | $2.800.000 | Estacionario de ALTO FLUJO: entrega hasta 10 L/min sostenidos, el doble de los 5 L/min de un concentrador domiciliario estándar. Pensado para centros de rehabilitación pulmonar, uso institucional frecuente y pacientes con alta demanda de oxígeno indicada por el médico. Uso continuo 24hs, ruedas para traslado |
 | Máscara Buconasal BMC F2 Codo Azul | $68.000 | SIN FUGA (no ventilada), para respiradores de terapia intensiva / VNI con válvula espiratoria. NO sirve para CPAP/BiPAP domiciliario estándar (esos usan máscara ventilada como F6 o DreamWear) |
 | Tubuladura para CPAP / BiPAP | $36.000 | Repuesto universal (recambio del tubo de paciente), 22 mm estándar, 1,8 m aprox., PVC flexible de grado médico, compatible con CPAP/AutoCPAP/BiPAP |
@@ -89,7 +90,6 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 | AUTOCPAP Philips DreamStation | U$S 758 | ~$1.159.740 | AutoCPAP inteligente, humidificador integrado, app MyDreamMapper |
 | CPAP Philips DreamStation | U$S 579 | ~$885.870 | CPAP fijo, humidificador, app conectada |
 | AUTOCPAP ResMed AirSense 10 con Conectividad (WiFi+4G) | U$S 907 | ~$1.387.710 | AutoCPAP AutoSet con myAir, HumidAir, clima automático. OJO: es OTRO producto, distinto del CPAP AirSense 10 fijo de $974.000 |
-| BiPAP BMC G3 | U$S 907 | ~$1.387.710 | BiPAP S/T con FR de respaldo, humidificador |
 | STELLAR 150 ResMed | U$S 7.342 | ~$11.233.260 | Ventilador invasivo/no invasivo, EPOC severo, UCI domiciliaria |
 | AUTOCPAP BMC G2s M1 Mini + almohadillas | U$S 1.400 | ~$2.142.000 | El más compacto, almohadillas incluidas, humidificador p2H |
 | CPAP Yuwell YH-360 | U$S 416 | ~$636.480 | CPAP con humidificador, silencioso |
@@ -203,7 +203,7 @@ Estructura OBLIGATORIA:
   · Concentrador BMC 5 L estacionario ($999.000): 3 cuotas de $382.950 (total $1.148.850) · 6 cuotas de $206.460 (total $1.238.760) · 9 cuotas de $154.290 (total $1.388.610).
   · Concentrador Yuwell 10 litros ($2.800.000): 3 cuotas de $1.073.333 (total $3.220.000) · 6 cuotas de $578.667 (total $3.472.000) · 9 cuotas de $432.444 (total $3.892.000).
   · Concentrador Yuwell 7F-5B 5 L ($1.170.000): 6 cuotas SIN interés de $195.000 (total $1.170.000, oferta propia de este equipo). Si piden 3 o 9 cuotas aplican los recargos generales: 3 cuotas de $448.500 (total $1.345.500) · 9 cuotas de $180.700 (total $1.626.300).
-  · Ejemplo de equipo en dólares, BiPAP BMC G3 (U$S 907 ≈ $1.387.710): 3 cuotas de $531.955 (total $1.595.866) · 6 cuotas de $286.793 (total $1.720.760) · 9 cuotas de $214.324 (total $1.928.917).
+  · BiPAP BMC G3 con FR y humidificador ($1.300.000): 3 cuotas de $498.333 (total $1.495.000) · 6 cuotas de $268.667 (total $1.612.000) · 9 cuotas de $200.778 (total $1.807.000).
 - Ante objeción de precio: ofrecer alternativa más económica del catálogo
 - ❌ No diagnosticar | ❌ No recomendar sitios externos
 - ✅ La aparatología está aprobada por ANMAT y tiene garantía
