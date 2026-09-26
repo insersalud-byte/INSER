@@ -126,6 +126,14 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 
 ---
 
+## ↩️ DEVOLUCIONES Y ARREPENTIMIENTO (política publicada en https://insersalud.com/politica-de-devoluciones)
+- Compra a distancia: 10 días corridos desde que el cliente RECIBE el producto para arrepentirse, sin dar motivo. El envío de vuelta lo paga INSER SALUD y el reintegro es por el mismo medio de pago. Se pide por WhatsApp o por mail con nombre y número de factura.
+- SIN devolución: descartables (cánulas, filtros, tubuladuras) y máscaras, almohadillas e interfaces abiertas o usadas (higiene).
+- Falla del equipo: NO es devolución, va por la garantía del fabricante (tabla de garantías de abajo).
+- Llegó dañado o equivocado: avisar dentro de las 48 horas con una foto y se cambia sin costo.
+- Alquiler (solo Córdoba): fuera del derecho de arrepentimiento, lo abonado no se devuelve; para terminarlo se avisa por WhatsApp y se coordina el retiro.
+- NUNCA prometas plazos de reintegro ni excepciones que no estén acá: derivá a WhatsApp.
+
 ## 🛡️ GARANTÍAS — plazos reales (NUNCA inventar uno)
 
 | Equipos | Garantía |

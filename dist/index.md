@@ -285,7 +285,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - [Cough Assist — asistente de tos mecánico](https://insersalud.com/cough-assist-asistente-de-tos)
 
-[Política de privacidad](https://insersalud.com/politica-de-privacidad) · [Tarjeta digital de contacto](https://insersalud.com/tarjeta) · [Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)](https://insersalud.com/academia)
+[Política de privacidad](https://insersalud.com/politica-de-privacidad) · [Política de devoluciones](https://insersalud.com/politica-de-devoluciones) · [Botón de arrepentimiento](https://insersalud.com/politica-de-devoluciones#arrepentimiento) · [Tarjeta digital de contacto](https://insersalud.com/tarjeta) · [Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)](https://insersalud.com/academia)
 
 ## Cómo trabajamos
 

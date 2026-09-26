@@ -37,7 +37,7 @@ export default defineConfig({
         // /tarjeta es una página estática fuera de la SPA: sin esto el SW la tapa con el shell de React
         // Paginas fuera de la SPA: el service worker no debe devolverles el
         // index.html de la app, tienen su propio HTML.
-        navigateFallbackDenylist: [/^\/tarjeta/, /^\/politica-de-privacidad/, /^\/academia/, /\.md$/, /\.txt$/, /\.xml$/],
+        navigateFallbackDenylist: [/^\/tarjeta/, /^\/politica-de-privacidad/, /^\/politica-de-devoluciones/, /^\/academia/, /\.md$/, /\.txt$/, /\.xml$/],
         // Los ebooks de /academia/ no van al precache: son sitios estaticos aparte,
         // pesan varios MB (se descargaban en cada visita a la home) y, al servirse
         // cache-first, una version vieja quedaba pegada hasta que el SW se actualizaba.

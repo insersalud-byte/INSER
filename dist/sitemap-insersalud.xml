@@ -410,6 +410,10 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://insersalud.com/politica-de-devoluciones</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://insersalud.com/academia</loc>
     <priority>0.6</priority>
   </url>

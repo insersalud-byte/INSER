@@ -2401,7 +2401,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className={css.footerBottom}>
-                    <p>&copy; 2026 Inser Salud · Aparatología aprobada por ANMAT · Córdoba, Argentina · <a href="/politica-de-privacidad" style={{ color: 'inherit' }}>Política de privacidad</a> · <a href="/tarjeta" style={{ color: 'inherit' }}>Tarjeta digital</a> · <a href="/academia" style={{ color: 'inherit' }}>Academia</a></p>
+                    <p>&copy; 2026 Inser Salud · Aparatología aprobada por ANMAT · Córdoba, Argentina · <a href="/politica-de-privacidad" style={{ color: 'inherit' }}>Política de privacidad</a> · <a href="/politica-de-devoluciones" style={{ color: 'inherit' }}>Devoluciones</a> · <a href="/politica-de-devoluciones#arrepentimiento" style={{ color: 'inherit' }}>Botón de arrepentimiento</a> · <a href="/tarjeta" style={{ color: 'inherit' }}>Tarjeta digital</a> · <a href="/academia" style={{ color: 'inherit' }}>Academia</a></p>
                 </div>
             </footer>
 

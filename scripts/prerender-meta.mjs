@@ -565,7 +565,7 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <ul>
 ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`).join('\n')}
 </ul>
-<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)</a></p>`;
+<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/politica-de-devoluciones">Política de devoluciones</a> · <a href="/politica-de-devoluciones#arrepentimiento">Botón de arrepentimiento</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)</a></p>`;
 
     const proceso = `
 <h2>Cómo trabajamos</h2>
@@ -929,6 +929,7 @@ try {
             ...pathologies.map((p) => u(`${SALUD}/patologia/${p.slug}`, '0.8', productosPatologia(p))),
             u(`${SALUD}/tarjeta`, '0.3'),
             u(`${SALUD}/politica-de-privacidad`, '0.2'),
+            u(`${SALUD}/politica-de-devoluciones`, '0.3'),
             // Academia: paginas estaticas en public/academia (fuera de la SPA, como /tarjeta)
             u(`${SALUD}/academia`, '0.6'),
             u(`${SALUD}/academia/ebook`, '0.6'),
