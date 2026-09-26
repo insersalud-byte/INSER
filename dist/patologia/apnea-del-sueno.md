@@ -148,7 +148,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
 
 - ![CPAP BMC G2S](https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg) CPAP BMC G2S — $499.000
 
-- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — U$S 907
+- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
 - ![AUTOCPAP PHILIPS DREAMSTATION](https://insersalud.com/artifacts/products/bbb738c4-8671-4228-b86d-6f1ffd179569.jpg) AUTOCPAP PHILIPS DREAMSTATION — U$S 758
 

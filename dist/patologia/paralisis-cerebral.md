@@ -97,7 +97,7 @@ Los criterios son similares a otras enfermedades que afectan la función respira
 ✅ CVF < 50% del predicho en pacientes colaboradores
 
 Equipo disponible:
-• BiPAP BMC G3 con FR y humidificador — U$S 907
+• BiPAP BMC G3 con FR y humidificador — $1.300.000
 • Con frecuencia respiratoria de respaldo para mayor seguridad
 
 Adaptarse al BiPAP, paso a paso:
@@ -157,7 +157,7 @@ Consultanos disponibilidad y opciones de financiación.
 
 ## Equipos para Parálisis Cerebral
 
-- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — U$S 907
+- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
 - ![Máscara Nasal DreamWear (mínimo contacto)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (mínimo contacto) — U$S 153
 

@@ -46,7 +46,7 @@ const PRODUCTS = [
     ['CPAP ResMed AirSense 10', '$974.000', 'oferta, equipo completo, el CPAP de gama alta de nuestro catálogo'],
     ['AutoCPAP ResMed AirSense 10', 'U$S 907', 'presión automática, app myAir'],
     ['CPAP Yuwell YH-360', 'U$S 416', 'con humidificador, silencioso'],
-    ['BiPAP BMC G3 con frecuencia respiratoria', 'U$S 907', 'para EPOC y enfermedades neuromusculares'],
+    ['BiPAP BMC G3 con frecuencia respiratoria', '$1.300.000', 'para EPOC y enfermedades neuromusculares'],
     ['Ventilador STELLAR 150 ResMed', 'U$S 7.342', 'ventilación de alta gama con batería'],
     ['Cough Assist (asistente de tos)', 'U$S 9.084', 'insuflación-exuflación para tos débil'],
     ['Concentrador de oxígeno BMC estacionario', '$999.000', 'con control remoto y medidor de O₂'],
@@ -527,7 +527,7 @@ ${MASK_GUIDE.map(([tipo, queEs, paraQuien, ojo, modelos]) => `<h3>Máscara ${esc
 <tbody>
 <tr><td>CPAP</td><td>Presión fija continua</td><td>Apnea del sueño estándar</td><td>$499.000</td></tr>
 <tr><td>AutoCPAP</td><td>Presión automática</td><td>Apnea, mayor confort</td><td>$630.000</td></tr>
-<tr><td>BiPAP</td><td>Dos presiones (inhala/exhala)</td><td>EPOC, neuromusculares, apnea compleja</td><td>U$S 907</td></tr>
+<tr><td>BiPAP</td><td>Dos presiones (inhala/exhala)</td><td>EPOC, neuromusculares, apnea compleja</td><td>$1.300.000</td></tr>
 </tbody>
 </table>`;
 

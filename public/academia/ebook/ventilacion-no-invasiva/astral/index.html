@@ -6,9 +6,22 @@
  <title>Astral 100 / 150 · Laboratorio de ventilación</title>
  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23133d50'/%3E%3Cpath d='M4 24h9l3-14 5 22 4-15 3 7h8' fill='none' stroke='%2397d7d0' stroke-width='3'/%3E%3C/svg%3E">
  <link rel="stylesheet" href="/academia/ebook/ventilacion-no-invasiva/astral/styles.css?v=041c11b7">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      // Trafico interno: ?sinstats=1 apaga GA4 en este navegador; ?constats=1 lo reactiva.
+      try{var q=location.search;if(/[?&]sinstats=1/.test(q))localStorage.setItem('inser-sin-stats','1');if(/[?&]constats=1/.test(q))localStorage.removeItem('inser-sin-stats');if(localStorage.getItem('inser-sin-stats')==='1')window['ga-disable-G-XD586V0PLV']=true;}catch(e){}
+    // Solo mide en produccion: previews de Vercel (*.vercel.app) y localhost no mandan datos a GA4.
+    if(!/(^|\.)(insersalud\.com|inser\.ar)$/.test(location.hostname))window['ga-disable-G-XD586V0PLV']=true;
+      // Embebido en el ebook (iframe ?embed=ebook): no se mide aca, ya lo mide el ebook.
+      if(/[?&]embed=/.test(location.search)||window.top!==window)window['ga-disable-G-XD586V0PLV']=true;
+      gtag('js', new Date());
+      gtag('config', 'G-XD586V0PLV');
+    </script>
 </head>
 <body>
- <header class="site-header"><a class="back" href="/academia/ebook/ventilacion-no-invasiva/#simulador">← Ebook de VNI</a><span>LABORATORIO RESPIRATORIO</span><nav aria-label="Secciones"><a href="#descripcion">El equipo</a><a href="#laboratorio">Simulador</a><a href="#investigacion">Investigación</a><a href="#fuentes">Manuales</a></nav></header>
+ <header class="site-header"><a class="back" href="/academia/ebook/ventilacion-no-invasiva#simulador">← Ebook de VNI</a><span>LABORATORIO RESPIRATORIO</span><nav aria-label="Secciones"><a href="#descripcion">El equipo</a><a href="#laboratorio">Simulador</a><a href="#investigacion">Investigación</a><a href="#fuentes">Manuales</a></nav></header>
  <main>
   <section class="intro"><div><p class="eyebrow">ENTRENAMIENTO INTERACTIVO · RESMED ASTRAL</p><h1>Conocé el equipo.<br><em>Entendé cada cambio.</em></h1><p>Explorá Astral 100 y 150, practicá la configuración y observá la respuesta de un pulmón virtual en tiempo real.</p></div><figure class="product"><img src="/academia/ebook/ventilacion-no-invasiva/astral/astral-official.jpg" alt="Fotografía oficial del respirador ResMed Astral 150, vista frontal" width="420" height="320"><figcaption>Equipo real · imagen de ResMed <a href="https://www.resmed.com/en-us/products/ventilation/astral/" target="_blank" rel="noopener">↗</a></figcaption></figure></section>
   <p class="education-note"><strong>Simulador educativo.</strong> Este laboratorio permite practicar con un paciente virtual; no prescribe tratamientos ni valida ajustes para una persona real.</p>
@@ -61,12 +74,12 @@
   </section>
   <section id="fuentes" class="sources"><h2>Manuales y fuentes oficiales</h2><ol><li><a href="https://document.resmed.com/en-us/documents/uk/COVID_Ventilators_PDFs/278579_astral-100-150_clinical-guide_row_eng.pdf" target="_blank" rel="noopener">ResMed · Astral 100/150, Clinical guide 278579/1 (2018)</a><small>Referencia principal de modos, interfaz y rangos.</small></li><li><a href="https://document.resmed.com/documents/products/machine/astral-series/fact-sheet/1019228_astral_confident_care_fs_amer_eng.pdf" target="_blank" rel="noopener">ResMed · Astral specifications, iVAPS with optional AutoEPAP (2018)</a><small>Comparación de modelos y tecnologías adaptativas.</small></li><li><a href="https://document.resmed.com/documents/products/machine/astral-series/user-guide/astral-100-150_user-guide_amer_mul.pdf" target="_blank" rel="noopener">ResMed · Manual del usuario AMER, multilingüe</a><small>Consulta complementaria; usar la edición de su equipo.</small></li><li><a href="https://www.resmed.com/en-us/products/ventilation/astral/" target="_blank" rel="noopener">ResMed · Página oficial Astral</a><small>Referencia visual y fotografía del producto.</small></li></ol><p>Investigación: 15 de septiembre de 2026. ResMed y Astral son marcas de sus respectivos titulares. Desarrollo educativo independiente para acompañar el ebook.</p></section>
  </main>
- <footer><a href="/academia/ebook/ventilacion-no-invasiva/#simulador">← Volver a «Controlá a tu paciente»</a><span>Ventilación en enfermedades neuromusculares · Laboratorio Astral</span></footer>
+ <footer><a href="/academia/ebook/ventilacion-no-invasiva#simulador">← Volver a «Controlá a tu paciente»</a><span>Ventilación en enfermedades neuromusculares · Laboratorio Astral</span></footer>
  <dialog id="modal"><div id="modal-content"></div><button id="modal-close">Cerrar</button></dialog>
  <script type="module" src="/academia/ebook/ventilacion-no-invasiva/astral/app.mjs?v=76d5a63e"></script>
  <script type="module" src="/academia/ebook/ventilacion-no-invasiva/embedded-lab.mjs"></script>
  <script type="module">
-  for (const a of document.querySelectorAll('a[href="/academia/ebook/ventilacion-no-invasiva/#simulador"]')) { a.textContent='← Volver al ebook de VNI'; a.target='_top'; }
+  for (const a of document.querySelectorAll('a[href="/academia/ebook/ventilacion-no-invasiva#simulador"]')) { a.textContent='← Volver al ebook de VNI'; a.target='_top'; }
   document.querySelector('footer span').textContent='Ventilación no invasiva · Laboratorio Astral';
   if(new URLSearchParams(location.search).get('embed')==='vni'&&window.parent!==window){
    document.documentElement.classList.add('vni-embedded');

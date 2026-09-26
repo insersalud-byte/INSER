@@ -21,7 +21,7 @@ const getGallery = (p) => {
     return [p.img];
 };
 
-// Precio doble moneda ("$1.300.000 · U$S 907"): si va en una sola linea grande,
+// Precio doble moneda ("$ARS · U$S USD"): si va en una sola linea grande,
 // el navegador la corta donde cae y parte el simbolo del monto. Lo separamos a
 // proposito: pesos en grande, dolares abajo en chico, cada uno sin cortarse.
 const Precio = ({ valor, className }) => {
@@ -87,7 +87,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador', slug: 'bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador', price: 'U$S 907', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', badge: 'OFERTA', note: 'Con FR de respaldo. Ideal ENM.', category: 'BiPAP',
+        name: 'BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador', slug: 'bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador', price: '$1.300.000', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', badge: 'OFERTA', note: 'Con FR de respaldo. Ideal ENM.', category: 'BiPAP',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'BiPAP S/T con frecuencia respiratoria de respaldo'],
@@ -317,7 +317,7 @@ const tienda = [
     },
     // ── BiPAP / Ventiladores ─────────────────────────────────────────────────
     {
-        name: 'BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador', slug: 'bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador', price: 'U$S 907', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', badge: 'OFERTA', note: 'Con FR de respaldo. Ideal ENM.', category: 'BiPAP',
+        name: 'BiPAP BMC G3 con Frecuencia Respiratoria y Humidificador', slug: 'bipap-bmc-g2-con-frecuencia-respiratoria-y-humidificador', price: '$1.300.000', img: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg', badge: 'OFERTA', note: 'Con FR de respaldo. Ideal ENM.', category: 'BiPAP',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'BiPAP S/T con frecuencia de respaldo'],
@@ -1114,7 +1114,7 @@ const guides = [
             'Los equipos S/T agregan una frecuencia de respaldo: si dejás de respirar, el equipo te da un ciclo automáticamente.',
         ],
         color: '#6366f1',
-        priceFrom: 'Desde U$S 907',
+        priceFrom: 'Desde $1.300.000',
     },
     {
         icon: Droplet,
@@ -1250,7 +1250,7 @@ const comparativeRows = [
     ['Indicación principal', 'Apnea obstructiva leve a moderada', 'Apnea con presiones variables (por postura, etapas del sueño)', 'EPOC, ENM, apnea compleja, hipoventilación'],
     ['Confort', 'Estándar', 'Mayor (se adapta al paciente)', 'Muy alto al exhalar'],
     ['Costo', 'Más económico', 'Medio', 'Más elevado'],
-    ['Desde', '$499.000', '$630.000', 'U$S 907'],
+    ['Desde', '$499.000', '$630.000', '$1.300.000'],
 ];
 
 // ── Helper ─────────────────────────────────────────────────────────────────

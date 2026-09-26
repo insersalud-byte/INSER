@@ -75,7 +75,7 @@ La máscara nasal cubre solo la nariz (cómoda y liviana, para quienes respiran 
 | --- | --- | --- | --- |
 | CPAP | Presión fija continua | Apnea del sueño estándar | $499.000 |
 | AutoCPAP | Presión automática | Apnea, mayor confort | $630.000 |
-| BiPAP | Dos presiones (inhala/exhala) | EPOC, neuromusculares, apnea compleja | U$S 907 |
+| BiPAP | Dos presiones (inhala/exhala) | EPOC, neuromusculares, apnea compleja | $1.300.000 |
 
 ## Guía de máscaras para CPAP y BiPAP: cuál te corresponde
 
@@ -161,7 +161,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - **CPAP Yuwell YH-360** — U$S 416 — con humidificador, silencioso
 
-- **BiPAP BMC G3 con frecuencia respiratoria** — U$S 907 — para EPOC y enfermedades neuromusculares
+- **BiPAP BMC G3 con frecuencia respiratoria** — $1.300.000 — para EPOC y enfermedades neuromusculares
 
 - **Ventilador STELLAR 150 ResMed** — U$S 7.342 — ventilación de alta gama con batería
 

@@ -191,8 +191,8 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
             },
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: null,
-                priceUSD: 'U$S 907',
+                priceARS: '$1.300.000',
+                priceUSD: null,
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
                 desc: 'BiPAP con frecuencia respiratoria de respaldo.',
@@ -763,7 +763,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
     {
         slug: 'esclerosis-lateral-amiotrofica',
         faq: [
-            { q: '¿Qué equipos se usan en la ELA?', a: 'Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a U$S 907), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.' },
+            { q: '¿Qué equipos se usan en la ELA?', a: 'Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a $1.300.000), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.' },
             { q: '¿Para qué sirve el asistente de tos (Cough Assist)?', a: 'Cuando la musculatura respiratoria se debilita, la tos pierde fuerza y cuesta eliminar secreciones. El asistente de tos insufla aire y luego genera una salida rápida que imita el mecanismo de la tos, ayudando a despejar la vía aérea. Es un equipo de indicación médica.' },
             { q: '¿Se pueden alquilar estos equipos?', a: 'En Córdoba alquilamos equipos de ventilación con entrega e instalación a domicilio. Al resto del país vendemos con envío, garantía y asesoramiento para la puesta en marcha.' },
             { q: '¿Cómo funciona el reintegro por obra social?', a: 'Trabajamos de forma particular y te acompañamos en el trámite: preparamos el presupuesto formal con los datos del equipo indicado y emitimos factura oficial para que gestiones el reintegro con tu cobertura.' },
@@ -890,7 +890,7 @@ Equipo de elección para ELA:
 
 BiPAP con frecuencia respiratoria de respaldo (FR): esencial porque garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio.
 
-• BiPAP BMC G3 con FR y humidificador — U$S 907
+• BiPAP BMC G3 con FR y humidificador — $1.300.000
 • STELLAR 150 RESMED con humidificador y batería — U$S 7.342 (etapas avanzadas)
 
 Adaptarse al BiPAP, paso a paso:
@@ -934,8 +934,8 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
             },
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: null,
-                priceUSD: 'U$S 907',
+                priceARS: '$1.300.000',
+                priceUSD: null,
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
                 desc: 'Con frecuencia respiratoria de respaldo. Equipo de elección para ELA.',
@@ -1073,7 +1073,7 @@ En Córdoba Capital, Inser Salud realiza evaluaciones respiratorias sin cargo pa
 Equipos disponibles en Inser Salud:
 
 BiPAP BMC G3 con frecuencia respiratoria y humidificador:
-• Precio: U$S 907
+• Precio: $1.300.000
 • La frecuencia respiratoria de respaldo garantiza ventilación mínima aunque el paciente no inicie el ciclo
 • Fundamental para AME tipo 1 y 2
 
@@ -1149,8 +1149,8 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
         products: [
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: null,
-                priceUSD: 'U$S 907',
+                priceARS: '$1.300.000',
+                priceUSD: null,
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
                 desc: 'Con frecuencia respiratoria de respaldo. Ideal para AME tipos 1 y 2.',
@@ -1317,7 +1317,7 @@ Los criterios son similares a otras enfermedades que afectan la función respira
 ✅ CVF < 50% del predicho en pacientes colaboradores
 
 Equipo disponible:
-• BiPAP BMC G3 con FR y humidificador — U$S 907
+• BiPAP BMC G3 con FR y humidificador — $1.300.000
 • Con frecuencia respiratoria de respaldo para mayor seguridad
 
 Adaptarse al BiPAP, paso a paso:
@@ -1388,8 +1388,8 @@ Consultanos disponibilidad y opciones de financiación.`,
         products: [
             {
                 name: 'BiPAP BMC G3 (con FR y humidificador)',
-                priceARS: null,
-                priceUSD: 'U$S 907',
+                priceARS: '$1.300.000',
+                priceUSD: null,
                 img: '/artifacts/bipap_bmc_g3.jpg',
                 badge: null,
                 desc: 'Con frecuencia respiratoria de respaldo y humidificador.',

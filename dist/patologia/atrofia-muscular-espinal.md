@@ -77,7 +77,7 @@ El BiPAP es el principal soporte ventilatorio en AME. Asiste la respiración dur
 Equipos disponibles en Inser Salud:
 
 BiPAP BMC G3 con frecuencia respiratoria y humidificador:
-• Precio: U$S 907
+• Precio: $1.300.000
 • La frecuencia respiratoria de respaldo garantiza ventilación mínima aunque el paciente no inicie el ciclo
 • Fundamental para AME tipo 1 y 2
 
@@ -142,7 +142,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
 
 ## Equipos para Atrofia Muscular Espinal
 
-- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — U$S 907
+- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
 - ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084
 

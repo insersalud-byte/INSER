@@ -49,7 +49,7 @@ Los modos, las presiones y las horas de uso los define el médico tratante, siem
 
 ## STELLAR 150 o BiPAP: cómo se decide
 
-Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](https://insersalud.com/bipap-cordoba) está en U$S 907 y el STELLAR 150 en U$S 7.342.
+Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](https://insersalud.com/bipap-cordoba) está en $1.300.000 y el STELLAR 150 en U$S 7.342.
 
 En números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es de 24 horas continuas en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.
 
@@ -81,7 +81,7 @@ Cuál de las dos corresponde depende del circuito con el que se configure el equ
 
 - ![Cough Assist — asistente de tos (complemento ELA/AME)](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) Cough Assist — asistente de tos (complemento ELA/AME) — U$S 9.084
 
-- ![BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva) — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva) — $1.300.000
 
 - Máscaras de ventilación no invasiva — desde U$S 35
 

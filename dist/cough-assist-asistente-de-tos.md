@@ -35,7 +35,7 @@ Enviamos a todo el país y capacitamos a la familia y a los cuidadores en el uso
 
 ## El circuito completo para el paciente neuromuscular
 
-El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo (U$S 907) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.
+El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo ($1.300.000) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.
 
 ## Cuándo se indica: los valores que mira el equipo médico
 
@@ -71,7 +71,7 @@ Es habitual que el asistente de tos se combine con ventilación no invasiva. Si 
 
 - ![Cough Assist — asistente de tos mecánico](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) Cough Assist — asistente de tos mecánico — U$S 9.084
 
-- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — $1.300.000
 
 - ![Ventilador ResMed STELLAR 150](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 — U$S 7.342
 

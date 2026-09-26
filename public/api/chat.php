@@ -85,7 +85,7 @@ Si el cliente pregunta por:
 - COUGH ASSIST ASISTENTE DE TOS – U$S 9.084  
 - CPAP RESMED AIRSENSE 10 – U$S 616  
 - Concentrador portátil KINGON P2-S3 – U$S 1.880  
-- BIPAP BMC G3 – U$S 907  
+- BIPAP BMC G3 – $1.300.000  
 - ... y todos los demás equipos del catálogo oficial.
 
 ---

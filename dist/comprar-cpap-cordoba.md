@@ -21,7 +21,7 @@ CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).
 AutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).
 Oferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.
 CPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).
-BiPAP BMC G3 con frecuencia respiratoria: U$S 907 (para EPOC y enfermedades neuromusculares).
+BiPAP BMC G3 con frecuencia respiratoria: $1.300.000 (para EPOC y enfermedades neuromusculares).
 
 Los precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.
 
@@ -89,7 +89,7 @@ Es la forma de empezar el tratamiento sin la inversión completa de entrada, y s
 
 - ![CPAP ResMed AirSense 10 (equipo completo)](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 (equipo completo) — $974.000
 
-- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — $1.300.000
 
 ## Preguntas frecuentes
 

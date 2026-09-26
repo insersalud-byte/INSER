@@ -118,7 +118,7 @@ Equipo de elección para ELA:
 
 BiPAP con frecuencia respiratoria de respaldo (FR): esencial porque garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio.
 
-• BiPAP BMC G3 con FR y humidificador — U$S 907
+• BiPAP BMC G3 con FR y humidificador — $1.300.000
 • STELLAR 150 RESMED con humidificador y batería — U$S 7.342 (etapas avanzadas)
 
 Adaptarse al BiPAP, paso a paso:
@@ -148,7 +148,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
 
 - ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084
 
-- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — U$S 907
+- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
 - ![STELLAR 150 RESMED (con humidificador y batería)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) STELLAR 150 RESMED (con humidificador y batería) — U$S 7.342
 
@@ -158,7 +158,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
 
 ### ¿Qué equipos se usan en la ELA?
 
-Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a U$S 907), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.
+Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a $1.300.000), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.
 
 ### ¿Para qué sirve el asistente de tos (Cough Assist)?
 

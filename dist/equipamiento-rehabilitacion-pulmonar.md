@@ -29,7 +29,7 @@ Para demanda muy alta, se pueden combinar dos equipos o complementar con tubos d
 
 ## Complementos: ventilación, máscaras e insumos
 
-BiPAP BMC G3 con frecuencia respiratoria (U$S 907) para ventilación no invasiva en sesiones y titulación.
+BiPAP BMC G3 con frecuencia respiratoria ($1.300.000) para ventilación no invasiva en sesiones y titulación.
 Ventilador ResMed STELLAR 150 (U$S 7.342) para soporte ventilatorio invasivo/no invasivo de mayor complejidad.
 Máscaras nasales y nasobucales en todos los talles (desde U$S 35), incluida línea pediátrica, e insumos de reposición: tubuladuras, filtros y cánulas.
 
@@ -85,7 +85,7 @@ La capacitación de uso del equipo y del software está incluida (presencial en 
 
 - ![Concentrador YUWELL 10 litros — alto flujo (uso intensivo)](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg) Concentrador YUWELL 10 litros — alto flujo (uso intensivo) — $2.800.000
 
-- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — $1.300.000
 
 - ![Ventilador ResMed STELLAR 150](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 — U$S 7.342
 

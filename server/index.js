@@ -115,7 +115,7 @@ Frase guía:
     - Concentrador portátil KINGON P2 - S3 – U$S 1.880
     - Concentrador portátil KINGON P2 - TOC – U$S 3.458
     - AUTOCPAP RESMED AIRSENSE 10 – U$S 907
-    - BIPAP BMC G3 – U$S 907
+    - BIPAP BMC G3 – $1.300.000
     - Máscara buconasal YUWELL – U$S 52
     - Máscara nasobucal BMC F6 – $180.000 / U$S 124
     - Concentrador YUWELL estacionario – U$S 713

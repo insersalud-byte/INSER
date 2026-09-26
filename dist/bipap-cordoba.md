@@ -51,7 +51,7 @@ Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un
 
 ## Equipos relacionados
 
-- ![BiPAP BMC G3 con frecuencia respiratoria y humidificador](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria y humidificador — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria y humidificador](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000
 
 - ![Ventilador STELLAR 150 ResMed (alta gama)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador STELLAR 150 ResMed (alta gama) — consultar
 
@@ -59,7 +59,7 @@ Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un
 
 ### ¿Cuánto cuesta un BiPAP en Córdoba?
 
-El BiPAP BMC G3 está en U$S 907. También hay opciones de alta gama y alquiler. Confirmá el precio del día por WhatsApp.
+El BiPAP BMC G3 está en $1.300.000. También hay opciones de alta gama y alquiler. Confirmá el precio del día por WhatsApp.
 
 ### ¿Cuál es la diferencia entre BiPAP y CPAP?
 

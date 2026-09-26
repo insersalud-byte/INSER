@@ -85,7 +85,7 @@ La máscara nasal cubre solo la nariz (cómoda y liviana, para quienes respiran 
 | --- | --- | --- | --- |
 | CPAP | Presión fija continua | Apnea del sueño estándar | $499.000 |
 | AutoCPAP | Presión automática | Apnea, mayor confort | $630.000 |
-| BiPAP | Dos presiones (inhala/exhala) | EPOC, neuromusculares, apnea compleja | U$S 907 |
+| BiPAP | Dos presiones (inhala/exhala) | EPOC, neuromusculares, apnea compleja | $1.300.000 |
 
 ## Guía de máscaras para CPAP y BiPAP: cuál te corresponde
 
@@ -171,7 +171,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - **CPAP Yuwell YH-360** — U$S 416 — con humidificador, silencioso
 
-- **BiPAP BMC G3 con frecuencia respiratoria** — U$S 907 — para EPOC y enfermedades neuromusculares
+- **BiPAP BMC G3 con frecuencia respiratoria** — $1.300.000 — para EPOC y enfermedades neuromusculares
 
 - **Ventilador STELLAR 150 ResMed** — U$S 7.342 — ventilación de alta gama con batería
 
@@ -484,7 +484,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
 
 - ![CPAP BMC G2S](https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg) CPAP BMC G2S — $499.000
 
-- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — U$S 907
+- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
 - ![AUTOCPAP PHILIPS DREAMSTATION](https://insersalud.com/artifacts/products/bbb738c4-8671-4228-b86d-6f1ffd179569.jpg) AUTOCPAP PHILIPS DREAMSTATION — U$S 758
 
@@ -1082,7 +1082,7 @@ Equipo de elección para ELA:
 
 BiPAP con frecuencia respiratoria de respaldo (FR): esencial porque garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio.
 
-• BiPAP BMC G3 con FR y humidificador — U$S 907
+• BiPAP BMC G3 con FR y humidificador — $1.300.000
 • STELLAR 150 RESMED con humidificador y batería — U$S 7.342 (etapas avanzadas)
 
 Adaptarse al BiPAP, paso a paso:
@@ -1112,7 +1112,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
 
 - ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084
 
-- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — U$S 907
+- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
 - ![STELLAR 150 RESMED (con humidificador y batería)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) STELLAR 150 RESMED (con humidificador y batería) — U$S 7.342
 
@@ -1122,7 +1122,7 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
 
 ### ¿Qué equipos se usan en la ELA?
 
-Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a U$S 907), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.
+Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a $1.300.000), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.
 
 ### ¿Para qué sirve el asistente de tos (Cough Assist)?
 
@@ -1240,7 +1240,7 @@ El BiPAP es el principal soporte ventilatorio en AME. Asiste la respiración dur
 Equipos disponibles en Inser Salud:
 
 BiPAP BMC G3 con frecuencia respiratoria y humidificador:
-• Precio: U$S 907
+• Precio: $1.300.000
 • La frecuencia respiratoria de respaldo garantiza ventilación mínima aunque el paciente no inicie el ciclo
 • Fundamental para AME tipo 1 y 2
 
@@ -1305,7 +1305,7 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
 
 ## Equipos para Atrofia Muscular Espinal
 
-- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — U$S 907
+- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
 - ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084
 
@@ -1455,7 +1455,7 @@ Los criterios son similares a otras enfermedades que afectan la función respira
 ✅ CVF < 50% del predicho en pacientes colaboradores
 
 Equipo disponible:
-• BiPAP BMC G3 con FR y humidificador — U$S 907
+• BiPAP BMC G3 con FR y humidificador — $1.300.000
 • Con frecuencia respiratoria de respaldo para mayor seguridad
 
 Adaptarse al BiPAP, paso a paso:
@@ -1515,7 +1515,7 @@ Consultanos disponibilidad y opciones de financiación.
 
 ## Equipos para Parálisis Cerebral
 
-- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — U$S 907
+- ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
 - ![Máscara Nasal DreamWear (mínimo contacto)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (mínimo contacto) — U$S 153
 
@@ -2001,7 +2001,7 @@ CPAP BMC G2S con humidificador: $499.000 (el más vendido, presión fija).
 AutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).
 Oferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.
 CPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).
-BiPAP BMC G3 con frecuencia respiratoria: U$S 907 (para EPOC y enfermedades neuromusculares).
+BiPAP BMC G3 con frecuencia respiratoria: $1.300.000 (para EPOC y enfermedades neuromusculares).
 
 Los precios se actualizan; confirmá el valor del día por WhatsApp. También ofrecemos alquiler.
 
@@ -2069,7 +2069,7 @@ Es la forma de empezar el tratamiento sin la inversión completa de entrada, y s
 
 - ![CPAP ResMed AirSense 10 (equipo completo)](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 (equipo completo) — $974.000
 
-- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — $1.300.000
 
 ## Preguntas frecuentes
 
@@ -2321,7 +2321,7 @@ Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un
 
 ## Equipos relacionados
 
-- ![BiPAP BMC G3 con frecuencia respiratoria y humidificador](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria y humidificador — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria y humidificador](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000
 
 - ![Ventilador STELLAR 150 ResMed (alta gama)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador STELLAR 150 ResMed (alta gama) — consultar
 
@@ -2329,7 +2329,7 @@ Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un
 
 ### ¿Cuánto cuesta un BiPAP en Córdoba?
 
-El BiPAP BMC G3 está en U$S 907. También hay opciones de alta gama y alquiler. Confirmá el precio del día por WhatsApp.
+El BiPAP BMC G3 está en $1.300.000. También hay opciones de alta gama y alquiler. Confirmá el precio del día por WhatsApp.
 
 ### ¿Cuál es la diferencia entre BiPAP y CPAP?
 
@@ -2665,7 +2665,7 @@ CPAP BMC G2S con humidificador: $499.000 (el más vendido).
 AutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).
 Oferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.
 CPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).
-BiPAP BMC G3: U$S 907 (para EPOC y enfermedades neuromusculares).
+BiPAP BMC G3: $1.300.000 (para EPOC y enfermedades neuromusculares).
 
 Los precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.
 
@@ -3295,7 +3295,7 @@ Para demanda muy alta, se pueden combinar dos equipos o complementar con tubos d
 
 ## Complementos: ventilación, máscaras e insumos
 
-BiPAP BMC G3 con frecuencia respiratoria (U$S 907) para ventilación no invasiva en sesiones y titulación.
+BiPAP BMC G3 con frecuencia respiratoria ($1.300.000) para ventilación no invasiva en sesiones y titulación.
 Ventilador ResMed STELLAR 150 (U$S 7.342) para soporte ventilatorio invasivo/no invasivo de mayor complejidad.
 Máscaras nasales y nasobucales en todos los talles (desde U$S 35), incluida línea pediátrica, e insumos de reposición: tubuladuras, filtros y cánulas.
 
@@ -3351,7 +3351,7 @@ La capacitación de uso del equipo y del software está incluida (presencial en 
 
 - ![Concentrador YUWELL 10 litros — alto flujo (uso intensivo)](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg) Concentrador YUWELL 10 litros — alto flujo (uso intensivo) — $2.800.000
 
-- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — $1.300.000
 
 - ![Ventilador ResMed STELLAR 150](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 — U$S 7.342
 
@@ -3627,7 +3627,7 @@ Los modos, las presiones y las horas de uso los define el médico tratante, siem
 
 ## STELLAR 150 o BiPAP: cómo se decide
 
-Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](https://insersalud.com/bipap-cordoba) está en U$S 907 y el STELLAR 150 en U$S 7.342.
+Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](https://insersalud.com/bipap-cordoba) está en $1.300.000 y el STELLAR 150 en U$S 7.342.
 
 En números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es de 24 horas continuas en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.
 
@@ -3659,7 +3659,7 @@ Cuál de las dos corresponde depende del circuito con el que se configure el equ
 
 - ![Cough Assist — asistente de tos (complemento ELA/AME)](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) Cough Assist — asistente de tos (complemento ELA/AME) — U$S 9.084
 
-- ![BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva) — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva) — $1.300.000
 
 - Máscaras de ventilación no invasiva — desde U$S 35
 
@@ -3865,7 +3865,7 @@ Enviamos a todo el país y capacitamos a la familia y a los cuidadores en el uso
 
 ## El circuito completo para el paciente neuromuscular
 
-El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo (U$S 907) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.
+El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo ($1.300.000) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.
 
 ## Cuándo se indica: los valores que mira el equipo médico
 
@@ -3901,7 +3901,7 @@ Es habitual que el asistente de tos se combine con ventilación no invasiva. Si 
 
 - ![Cough Assist — asistente de tos mecánico](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) Cough Assist — asistente de tos mecánico — U$S 9.084
 
-- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — U$S 907
+- ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — $1.300.000
 
 - ![Ventilador ResMed STELLAR 150](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 — U$S 7.342
 
