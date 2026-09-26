@@ -481,4 +481,12 @@
       <image:title>Ebook interactivo de apnea del sueño en adultos: STOP-Bang, Epworth, CPAP/APAP y máscaras - Academia INSER SALUD</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://insersalud.com/academia/ebook/imagenes-respiratorias</loc>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/academia/ebook/imagenes-respiratorias/images/rx-normal.jpg</image:loc>
+      <image:title>Ebook interactivo de diagnóstico por imágenes respiratorias: RX, TC y ecografía - Academia INSER SALUD</image:title>
+    </image:image>
+  </url>
 </urlset>

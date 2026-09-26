@@ -256,6 +256,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
 
         // Material gratuito de la Academia para el profesional que trata esta patologia (se renderiza en React y en el prerender)
         relatedLinks: [
+            { label: 'Apnea del sueño, de la sospecha al CPAP: curso gratuito (ebook) con STOP-Bang y Epworth', href: '/academia/ebook/apnea-del-sueno' },
             { label: 'Ventilación no invasiva (CPAP y BiPAP): curso gratuito (ebook) con simulador', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
 
@@ -505,6 +506,7 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
         relatedLinks: [
             { label: 'Rehabilitación pulmonar: curso gratuito (ebook) con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
             { label: 'Oxigenoterapia, de la guardia a casa: curso gratuito (ebook)', href: '/academia/ebook/oxigenoterapia' },
+            { label: 'Diagnóstico por imágenes respiratorias (RX, TC y ecografía): curso gratuito (ebook) con simuladores', href: '/academia/ebook/imagenes-respiratorias' },
         ],
 
         santiMessage: 'Hola Santi, soy paciente con EPOC y necesito información sobre concentradores de oxígeno. ¿Cuáles son los modelos disponibles, portátiles y estacionarios, y sus precios?',
@@ -747,6 +749,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
         relatedLinks: [
             { label: 'Rehabilitación pulmonar: curso gratuito (ebook) con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
             { label: 'Oxigenoterapia, de la guardia a casa: curso gratuito (ebook)', href: '/academia/ebook/oxigenoterapia' },
+            { label: 'Diagnóstico por imágenes respiratorias (RX, TC y ecografía): curso gratuito (ebook) con simuladores', href: '/academia/ebook/imagenes-respiratorias' },
         ],
 
         santiMessage: 'Hola Santi, tengo Fibrosis Pulmonar y necesito oxigenoterapia domiciliaria. ¿Qué concentradores tienen disponibles, tanto estacionarios como portátiles? ¿También tienen oxígeno líquido?',

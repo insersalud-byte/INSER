@@ -295,7 +295,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - [Cough Assist — asistente de tos mecánico](https://insersalud.com/cough-assist-asistente-de-tos)
 
-[Política de privacidad](https://insersalud.com/politica-de-privacidad) · [Tarjeta digital de contacto](https://insersalud.com/tarjeta) · [Academia: formación gratuita para profesionales (7 cursos gratuitos de terapia respiratoria, ebooks interactivos)](https://insersalud.com/academia)
+[Política de privacidad](https://insersalud.com/politica-de-privacidad) · [Tarjeta digital de contacto](https://insersalud.com/tarjeta) · [Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)](https://insersalud.com/academia)
 
 ## Cómo trabajamos
 
@@ -518,6 +518,8 @@ La máscara es el consumible que más se recambia y su duración depende del uso
 
 Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
 
+- [Apnea del sueño, de la sospecha al CPAP: curso gratuito (ebook) con STOP-Bang y Epworth](https://insersalud.com/academia/ebook/apnea-del-sueno)
+
 - [Ventilación no invasiva (CPAP y BiPAP): curso gratuito (ebook) con simulador](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
 ## Revisión profesional
@@ -734,6 +736,8 @@ Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Ac
 
 - [Oxigenoterapia, de la guardia a casa: curso gratuito (ebook)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
+- [Diagnóstico por imágenes respiratorias (RX, TC y ecografía): curso gratuito (ebook) con simuladores](https://insersalud.com/academia/ebook/imagenes-respiratorias)
+
 ## Revisión profesional
 
 Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.
@@ -938,6 +942,8 @@ Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Ac
 - [Rehabilitación pulmonar: curso gratuito (ebook) con test de marcha y casos](https://insersalud.com/academia/ebook/rehabilitacion-pulmonar)
 
 - [Oxigenoterapia, de la guardia a casa: curso gratuito (ebook)](https://insersalud.com/academia/ebook/oxigenoterapia)
+
+- [Diagnóstico por imágenes respiratorias (RX, TC y ecografía): curso gratuito (ebook) con simuladores](https://insersalud.com/academia/ebook/imagenes-respiratorias)
 
 ## Revisión profesional
 
@@ -2251,6 +2257,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Alquiler de CPAP en Córdoba](https://insersalud.com/alquiler-cpap-cordoba)
 
+- [Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP](https://insersalud.com/academia/ebook/apnea-del-sueno)
+
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
@@ -3405,6 +3413,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
+- [Curso gratuito (ebook): Diagnóstico por imágenes respiratorias (RX, TC y ecografía)](https://insersalud.com/academia/ebook/imagenes-respiratorias)
+
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
@@ -3807,6 +3817,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
 
+- [Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP](https://insersalud.com/academia/ebook/apnea-del-sueno)
+
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
@@ -3944,7 +3956,6 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 - [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
 - [Curso gratuito (ebook): Ventilación en enfermedades neuromusculares, con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
-- [Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP, con calculadoras de STOP-Bang, Epworth e IAH/REI](https://insersalud.com/academia/ebook/apnea-del-sueno)
 
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 

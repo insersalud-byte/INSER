@@ -318,6 +318,7 @@ export const localPages = [
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
             { label: 'Alquiler de CPAP en Córdoba', href: '/alquiler-cpap-cordoba' },
+            { label: 'Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP', href: '/academia/ebook/apnea-del-sueno' },
         ],
     },
     {
@@ -821,6 +822,7 @@ export const localPages = [
             { label: 'Curso gratuito (ebook): Rehabilitación pulmonar, con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
             { label: 'Curso gratuito (ebook): Alto flujo (CNAF), con simulador y casos', href: '/academia/ebook/alto-flujo' },
             { label: 'Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
+            { label: 'Curso gratuito (ebook): Diagnóstico por imágenes respiratorias (RX, TC y ecografía)', href: '/academia/ebook/imagenes-respiratorias' },
         ],
     },
     {
@@ -1005,6 +1007,7 @@ export const localPages = [
             { label: 'Estudio del sueño a domicilio en Córdoba', href: '/estudio-del-sueno-cordoba' },
             { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
+            { label: 'Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP', href: '/academia/ebook/apnea-del-sueno' },
         ],
     },
     {

@@ -147,6 +147,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
+- [Curso gratuito (ebook): Diagnóstico por imágenes respiratorias (RX, TC y ecografía)](https://insersalud.com/academia/ebook/imagenes-respiratorias)
+
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---

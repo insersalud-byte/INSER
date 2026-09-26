@@ -195,6 +195,8 @@ Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Ac
 
 - [Oxigenoterapia, de la guardia a casa: curso gratuito (ebook)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
+- [Diagnóstico por imágenes respiratorias (RX, TC y ecografía): curso gratuito (ebook) con simuladores](https://insersalud.com/academia/ebook/imagenes-respiratorias)
+
 ## Revisión profesional
 
 Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta, Matrícula Profesional 2123, director de INSER SALUD y Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson.

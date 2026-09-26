@@ -182,6 +182,8 @@ La máscara es el consumible que más se recambia y su duración depende del uso
 
 Si sos kinesiólogo, médico o parte del equipo que trata esta patología, la Academia INSER SALUD tiene material gratuito, sin registro, escrito por el Lic. Sergio Giorda (MP 2123):
 
+- [Apnea del sueño, de la sospecha al CPAP: curso gratuito (ebook) con STOP-Bang y Epworth](https://insersalud.com/academia/ebook/apnea-del-sueno)
+
 - [Ventilación no invasiva (CPAP y BiPAP): curso gratuito (ebook) con simulador](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
 ## Revisión profesional

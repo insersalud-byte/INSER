@@ -565,7 +565,7 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <ul>
 ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`).join('\n')}
 </ul>
-<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (7 cursos gratuitos de terapia respiratoria, ebooks interactivos)</a></p>`;
+<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)</a></p>`;
 
     const proceso = `
 <h2>Cómo trabajamos</h2>
@@ -952,6 +952,12 @@ try {
             ]),
             u(`${SALUD}/academia/ebook/ventilacion-neuromuscular`, '0.7', [
                 { img: '/academia/ebook/ventilacion-neuromuscular/assets/evaluacion-respiratoria-neuromuscular.webp', name: 'Ebook interactivo de ventilación en enfermedades neuromusculares - Academia INSER SALUD' },
+            ]),
+            u(`${SALUD}/academia/ebook/apnea-del-sueno`, '0.7', [
+                { img: '/academia/ebook/apnea-del-sueno/images/01-portada.webp', name: 'Ebook interactivo de apnea del sueño en adultos: STOP-Bang, Epworth, CPAP/APAP y máscaras - Academia INSER SALUD' },
+            ]),
+            u(`${SALUD}/academia/ebook/imagenes-respiratorias`, '0.7', [
+                { img: '/academia/ebook/imagenes-respiratorias/images/rx-normal.jpg', name: 'Ebook interactivo de diagnóstico por imágenes respiratorias: RX, TC y ecografía - Academia INSER SALUD' },
             ]),
         ];
         return `<?xml version="1.0" encoding="UTF-8"?>\n`

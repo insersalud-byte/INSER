@@ -129,6 +129,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Alquiler de CPAP en Córdoba](https://insersalud.com/alquiler-cpap-cordoba)
 
+- [Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP](https://insersalud.com/academia/ebook/apnea-del-sueno)
+
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
