@@ -1,8 +1,8 @@
 (function () {
   'use strict';
   const bank = window.ImagingCases, model = window.ImagingModel, draw = window.ImagingRender.render;
-  const names = { rx: 'Radiografía', ct: 'Tomografía y angio-TC', us: 'Ecografía pulmonar', dia: 'Ecografía diafragmática', vq: 'Ventilación / perfusión', mr: 'Resonancia torácica', pet: 'PET-TC' };
-  const refs = { rx: 'ref-glosario', ct: 'ref-glosario', us: 'ref-lus', dia: 'ref-musculos', vq: 'ref-vq', mr: 'ref-rm', pet: 'ref-pet' };
+  const names = { rx: 'Radiografía', lat: 'Radiografía lateral', ct: 'Tomografía y angio-TC', us: 'Ecografía pulmonar', dia: 'Ecografía diafragmática', vq: 'Ventilación / perfusión', mr: 'Resonancia torácica', pet: 'PET-TC' };
+  const refs = { rx: 'ref-glosario', lat: 'ref-lateral', ct: 'ref-glosario', us: 'ref-lus', dia: 'ref-musculos', vq: 'ref-vq', mr: 'ref-rm', pet: 'ref-pet' };
   const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const controllers = new Map();
 
@@ -14,6 +14,7 @@
   });
 
   for (const [modality, selector, position] of [
+    ['lat', '#lateral-normal-mount', 'afterend'],
     ['rx', '#rx-normal .chapter-head', 'afterend'], ['ct', '#tc-normal .split', 'afterend'],
     ['us', '#eco-normal .split', 'afterend'], ['dia', '[data-lab="dia"]', 'beforebegin'],
     ['vq', '[data-lab="vq"]', 'beforebegin'], ['mr', '[data-lab="mr"]', 'beforebegin'], ['pet', '[data-lab="pet"]', 'beforebegin']
@@ -206,7 +207,7 @@
     quizArea.append(form);
   });
 
-  const chapters = [...document.querySelectorAll('.chapter')].filter(el => el.id !== 'bibliografia');
+  const chapters = [...document.querySelectorAll('.chapter')].filter(el => !['bibliografia', 'contacto'].includes(el.id));
   const storageKey = 'inser-imagenes-respiratorias-read-v1';
   let read = new Set();
   try { const saved = JSON.parse(localStorage.getItem(storageKey) || '[]'); if (Array.isArray(saved)) read = new Set(saved.filter(id => chapters.some(chapter => chapter.id === id))); } catch { /* El ebook funciona sin almacenamiento. */ }
@@ -218,7 +219,8 @@
   }
   chapters.forEach((chapter, index) => {
     const footer = document.createElement('div'); footer.className = 'chapter-footer';
-    footer.innerHTML = `<button type="button" data-read="${chapter.id}" aria-pressed="false">Marcar como leído</button><a href="#${chapters[index + 1]?.id || 'bibliografia'}">${index === 12 ? 'Consultar bibliografía' : 'Siguiente capítulo'} →</a>`;
+    const nextChapter = chapter.id === 'rx-normal' ? 'rx-lateral' : chapters[index + 1]?.id || 'bibliografia';
+    footer.innerHTML = `<button type="button" data-read="${chapter.id}" aria-pressed="false">Marcar como leído</button><a href="#${nextChapter}">${index === 12 ? 'Consultar bibliografía' : 'Siguiente capítulo'} →</a>`;
     footer.querySelector('button').addEventListener('click', () => { read.has(chapter.id) ? read.delete(chapter.id) : read.add(chapter.id); updateProgress(); });
     chapter.append(footer);
   });
