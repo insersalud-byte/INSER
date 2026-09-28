@@ -194,5 +194,37 @@
     "modifications": "Miniatura oficial de Wikimedia, ancho máximo 960 px; sin recortes ni edición local",
     "reviewed": true,
     "reviewNote": "Inspección visual de la miniatura y correspondencia con su ficha. Conserva orientación, paneles y anotaciones originales."
+  },
+  {
+    "id": "rx-lateral-normal",
+    "file": "rx-lateral-normal.jpg",
+    "title": "File:Normal lateral chest radiograph (X-ray).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Normal_lateral_chest_radiograph_(X-ray).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Normal_lateral_chest_radiograph_(X-ray).jpg/960px-Normal_lateral_chest_radiograph_(X-ray).jpg",
+    "author": "Mikael Häggström",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "description": "Lateral del estudio publicado como normal, sin lesión torácica. Hay superposición de brazos en el tórax superior.",
+    "width": 960,
+    "height": 1331,
+    "modifications": "Miniatura oficial de Wikimedia; sin edición local. Marcas educativas superpuestas en la interfaz, no en el archivo.",
+    "reviewed": true,
+    "reviewNote": "Imagen inspeccionada visualmente y comparada con la ficha de origen. Sin validación clínica independiente."
+  },
+  {
+    "id": "rx-pa-pareada",
+    "file": "rx-pa-pareada.jpg",
+    "title": "File:Normal posteroanterior (PA) chest radiograph (X-ray).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Normal_posteroanterior_(PA)_chest_radiograph_(X-ray).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Normal_posteroanterior_(PA)_chest_radiograph_(X-ray).jpg/960px-Normal_posteroanterior_(PA)_chest_radiograph_(X-ray).jpg",
+    "author": "Mikael Häggström",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "description": "Proyección PA del mismo estudio publicado junto con la lateral normal.",
+    "width": 960,
+    "height": 1098,
+    "modifications": "Miniatura oficial de Wikimedia; sin edición local. Marcas educativas superpuestas en la interfaz, no en el archivo.",
+    "reviewed": true,
+    "reviewNote": "Imagen inspeccionada visualmente y comparada con la ficha de origen. Sin validación clínica independiente."
   }
 ]
