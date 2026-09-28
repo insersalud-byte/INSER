@@ -77,7 +77,8 @@
     "height": 325,
     "kind": "image",
     "modifications": "Miniatura o transcodificación oficial de Wikimedia, sin edición local; anotaciones educativas separadas del archivo.",
-    "reviewed": false
+    "reviewed": false,
+    "usageNote": "Conservado para trazabilidad; sustituido como ejemplo principal por real-ct-vidrio-hp el 28/09/2026 por predominio de patrón mixto quístico."
   },
   {
     "id": "real-ct-consolidacion",
@@ -122,5 +123,22 @@
     "kind": "image",
     "modifications": "Archivo original sin recortes ni edición local; superposición didáctica independiente.",
     "reviewed": false
+  },
+  {
+    "id": "real-ct-vidrio-hp",
+    "file": "real-ct-vidrio-hp.jpg",
+    "title": "File:Neumonitis por hipersensibilidad 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Neumonitis_por_hipersensibilidad_2.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Neumonitis_por_hipersensibilidad_2.jpg",
+    "author": "Mluisamtz11",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "TC de alta resolución con áreas de vidrio esmerilado; caso descrito por el autor como neumonitis por hipersensibilidad.",
+    "width": 512,
+    "height": 384,
+    "kind": "image",
+    "modifications": "Original intacto, sin edición local; superposición educativa separada.",
+    "reviewed": false,
+    "reviewNote": "Inspección documental y visual automatizada del 28/09/2026; no equivale a validación clínica independiente."
   }
 ]

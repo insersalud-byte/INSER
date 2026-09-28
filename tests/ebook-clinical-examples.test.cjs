@@ -16,6 +16,15 @@ test('every RX, CT and ultrasound scenario has a real clinical example with sign
 test('atelectasis separates demonstrated volume loss from signs not resolved in the plate',()=>{
   const e=ctx.ImagingClinicalExamples['rx-atelectasia'];assert.match(JSON.stringify(e),/tráquea/i);assert.match(JSON.stringify(e),/volumen/i);assert.ok(e.notShown.length>=2);
 });
+test('documentary review preserves corrected landmarks and separates uncertain findings',()=>{
+  const normal=ctx.ImagingClinicalExamples['rx-normal'];
+  assert.equal(normal.signs.find(s=>s.label==='Hemidiafragma derecho').y,61);
+  const glass=ctx.ImagingClinicalExamples['ct-vidrio'];
+  assert.equal(glass.asset,'real-ct-vidrio-hp');
+  assert.match(glass.limit,/espiratori/);
+  assert.match(ctx.ImagingClinicalExamples['us-derrame'].signs[1].label,/Tejido adyacente/);
+  assert.match(ctx.ImagingClinicalExamples['rx-atelectasia'].signs[2].detail,/no permite atribuir/);
+});
 test('all 24 examples resolve to local licensed images, posters and sources',()=>{
   const assets=['recursos.json','atlas-media.json','clinical-media.json'].flatMap(f=>JSON.parse(fs.readFileSync(path.join(dir,f),'utf8')));
   assert.equal(Object.keys(ctx.ImagingClinicalExamples).length,24);
