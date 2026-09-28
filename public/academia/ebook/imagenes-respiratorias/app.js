@@ -53,6 +53,8 @@
     sidebar.className = 'case-sidebar';
     sidebar.innerHTML = '<h4>Elegí qué querés ver</h4><div class="case-buttons"></div><div class="pattern-detail" aria-live="polite"></div>';
     workspace.append(sidebar);
+    const clinicalHost = document.createElement('div');
+    workspace.after(clinicalHost);
     find('.case-buttons').innerHTML = cases.map(item => `<button type="button" data-action="case" data-case-id="${item.id}" aria-pressed="false">${escape(item.title)}</button>`).join('');
     function paint() {
       const options = { hints: state.hints, level: state.frame, view: state.view, phase: state.phase || 0 };
@@ -77,6 +79,7 @@
     }
     function refresh() {
       const item = selectCase(), index = cases.indexOf(item);
+      window.ImagingClinicalUI?.update(clinicalHost, item.id, state);
       control('case').innerHTML = cases.map((entry, i) => `<option value="${entry.id}">${state.practice ? `Caso ${String(i + 1).padStart(2, '0')}` : escape(entry.title)}</option>`).join('');
       control('case').value = item.id;
       control('zoom').value = state.zoom;
