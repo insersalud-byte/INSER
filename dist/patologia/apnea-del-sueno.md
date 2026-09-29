@@ -168,7 +168,7 @@ El tratamiento de referencia es el CPAP, que entrega una presión de aire fija d
 
 ### ¿Necesito un estudio del sueño antes de comprar el equipo?
 
-Sí. El equipo y la presión se determinan a partir de una poligrafía respiratoria o polisomnografía indicada por tu médico. En Córdoba hacemos el estudio del sueño a domicilio: dormís en tu casa y el informe lo interpreta un profesional.
+Sí. El equipo y la presión se determinan a partir de una poligrafía respiratoria o polisomnografía indicada por tu médico. En Córdoba hacemos la [poligrafía respiratoria domiciliaria](https://insersalud.com/estudio-del-sueno-cordoba): dormís en tu casa y el informe lo interpreta tu médico.
 
 ### ¿Puedo alquilar un CPAP antes de comprarlo?
 

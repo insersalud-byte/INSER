@@ -122,14 +122,14 @@ export const localPages = [
             { q: '¿El alquiler incluye la máscara?', a: 'Sí. El alquiler incluye la máscara, el humidificador y la tubuladura, además del equipo.' },
             { q: '¿Entregan a domicilio?', a: 'Sí, hacemos entrega e instalación a domicilio en Córdoba Capital y alrededores, normalmente en el día.' },
             { q: '¿Puedo comprar el equipo después de alquilarlo?', a: 'Sí. Vendemos equipos nuevos aprobados por ANMAT y te asesoramos para pasar del alquiler a la compra cuando quieras. Si alquilaste un CPAP o AutoCPAP, el primer mes de alquiler se descuenta del precio de venta.' },
-            { q: '¿Necesito estudio del sueño para alquilar?', a: 'Sí, hace falta la indicación médica: el equipo se configura con la presión que definió tu médico a partir del estudio. Si todavía no lo hiciste, en Córdoba hacemos el [estudio del sueño a domicilio](/estudio-del-sueno-cordoba).' },
+            { q: '¿Necesito estudio del sueño para alquilar?', a: 'Sí, hace falta la indicación médica: el equipo se configura con la presión que definió tu médico a partir del estudio. Si todavía no lo hiciste, en Córdoba hacemos la [poligrafía respiratoria domiciliaria](/estudio-del-sueno-cordoba), el estudio del sueño en tu casa.' },
             { q: '¿Qué pasa si me voy de viaje?', a: 'El equipo es transportable y podés llevarlo. Avisanos si vas a viajar para orientarte con el traslado.' },
             { q: '¿Y si no me adapto al equipo?', a: 'Antes de entregártelo te asesoramos para elegir la máscara adecuada, que es donde está la mayoría de los problemas de adaptación. Si aun así necesitás cambiar de máscara, la nueva se cobra aparte, pero primero te ayudamos a ajustar la que tenés. Justamente para eso sirve alquilar antes de comprar.' },
         ],
         related: [
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
-            { label: 'Estudio del sueño a domicilio', href: '/estudio-del-sueno-cordoba' },
+            { label: 'Poligrafía respiratoria domiciliaria (estudio del sueño)', href: '/estudio-del-sueno-cordoba' },
         ],
     },
     {
@@ -253,12 +253,12 @@ export const localPages = [
             { q: '¿Puedo alquilar en lugar de comprar?', a: 'Sí, ofrecemos alquiler de CPAP en Córdoba con entrega a domicilio, ideal para probar antes de comprar.' },
             { q: '¿Puedo pagar el CPAP en cuotas?', a: 'Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a las condiciones del banco. Consultanos por WhatsApp y te pasamos el valor exacto de la cuota de tu equipo.' },
             { q: '¿Puedo probar el equipo antes de comprarlo?', a: 'Sí. En Córdoba podés [alquilarlo primero](/alquiler-cpap-cordoba), usarlo el tiempo que necesites y decidir después con la experiencia hecha.' },
-            { q: '¿Necesito llevar el estudio del sueño?', a: 'Sí, hace falta la indicación médica con la presión de tratamiento, porque con ese dato configuramos el equipo. Si todavía no lo hiciste, hacemos el [estudio del sueño a domicilio](/estudio-del-sueno-cordoba) en Córdoba.' },
+            { q: '¿Necesito llevar el estudio del sueño?', a: 'Sí, hace falta la indicación médica con la presión de tratamiento, porque con ese dato configuramos el equipo. Si todavía no lo hiciste, en Córdoba hacemos la [poligrafía respiratoria domiciliaria](/estudio-del-sueno-cordoba), el estudio del sueño en tu casa.' },
         ],
         related: [
             { label: 'Alquiler de CPAP en Córdoba', href: '/alquiler-cpap-cordoba' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
-            { label: 'Estudio del sueño a domicilio', href: '/estudio-del-sueno-cordoba' },
+            { label: 'Poligrafía respiratoria domiciliaria (estudio del sueño)', href: '/estudio-del-sueno-cordoba' },
         ],
     },
     {
@@ -266,9 +266,9 @@ export const localPages = [
         h1: 'Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa',
         metaTitle: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER',
         metaTitleSalud: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER',
-        description: 'Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño se hace en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Consultá por WhatsApp.',
+        description: 'Hacemos la poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Coordiná por WhatsApp.',
         heroImg: '/artifacts/products/resmed_airsense10_1.jpg',
-        intro: '¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD, en Córdoba, te acompañamos en el estudio y, si da apnea, en el tratamiento.',
+        intro: '¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba y, si da apnea, te acompañamos en el tratamiento.',
         ctaSanti: 'Hola Santi, quiero hacerme un estudio del sueño a domicilio en Córdoba. ¿Cómo es y qué necesito?',
         sections: [
             {
@@ -276,8 +276,8 @@ export const localPages = [
                 content: 'Es un estudio del sueño que se realiza en tu propia casa con un equipo ([polígrafo respiratorio](/comprar-poligrafo-argentina)) que registra durante la noche tu respiración, el flujo de aire, los ronquidos, el oxígeno en sangre y las pausas respiratorias.\n\nEs cómodo, no invasivo y permite detectar la apnea obstructiva del sueño sin tener que dormir en un laboratorio.',
             },
             {
-                title: '¿Cuánto cuesta la poligrafía respiratoria domiciliaria?',
-                content: 'El valor del estudio te lo pasamos por WhatsApp. Trabajamos en forma particular: te damos factura para que gestiones el reintegro ante tu obra social o prepaga.\n\nSi el estudio da apnea, los equipos para el tratamiento tienen precio publicado: [CPAP y AutoCPAP](/comprar-cpap-cordoba) desde $499.000, y en Córdoba también se pueden [alquilar](/alquiler-cpap-cordoba).',
+                title: 'Hacemos la poligrafía respiratoria domiciliaria en Córdoba',
+                content: 'En INSER SALUD hacemos el estudio del sueño en tu casa, en Córdoba. Se entrega el polígrafo, dormís una noche con él y se devuelve al día siguiente. Del registro sale el informe con el índice de apnea-hipopnea (IAH), que es el que evalúa tu médico.\n\nLo coordinamos por WhatsApp. Trabajamos en forma particular y te damos factura para que gestiones el reintegro ante tu obra social o prepaga.\n\nSi el estudio da apnea, en Córdoba podés [alquilar](/alquiler-cpap-cordoba) o [comprar](/comprar-cpap-cordoba) el CPAP con entrega e instalación en el día.',
             },
             {
                 title: 'Poligrafía o polisomnografía: cuál es la diferencia',
@@ -301,7 +301,7 @@ export const localPages = [
             },
             {
                 title: 'Qué dice el informe: el índice de apnea-hipopnea (IAH)',
-                content: 'El polígrafo incluye software de descarga y análisis, que genera el informe con el Índice de Apnea-Hipopnea (IAH o AHI): la cantidad de apneas e hipopneas por hora de sueño. Es el índice que indica la severidad.\n\nLas referencias son: menos de 5 se considera normal, entre 5 y 15 apnea leve, entre 15 y 30 moderada y más de 30 severa.\n\nEl estudio además registra la saturación de oxígeno durante el sueño, el flujo aéreo y el ronquido.\n\nLa interpretación del estudio la hace el médico: es quien define el diagnóstico y el tratamiento a partir del informe. Nosotros vendemos y asesoramos sobre el equipamiento.',
+                content: 'El polígrafo incluye software de descarga y análisis, que genera el informe con el Índice de Apnea-Hipopnea (IAH o AHI): la cantidad de apneas e hipopneas por hora de sueño. Es el índice que indica la severidad.\n\nLas referencias son: menos de 5 se considera normal, entre 5 y 15 apnea leve, entre 15 y 30 moderada y más de 30 severa.\n\nEl estudio además registra la saturación de oxígeno durante el sueño, el flujo aéreo y el ronquido.\n\nLa interpretación del estudio la hace el médico: es quien define el diagnóstico y el tratamiento a partir del informe. Nosotros hacemos el estudio y te acompañamos con el equipamiento.',
             },
             {
                 title: 'Qué conviene preguntar antes de hacerte el estudio',
@@ -313,13 +313,12 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'Poligrafía respiratoria domiciliaria en Córdoba (con polígrafo BMC YH-600B PRO)', price: 'consultar' },
             { name: 'CPAP BMC G2S (tratamiento de la apnea)', price: '$499.000' },
             { name: 'CPAP ResMed AirSense 10', price: '$974.000' },
         ],
         faq: [
-            { q: '¿Se puede hacer el estudio del sueño en casa?', a: 'Sí. La poligrafía respiratoria domiciliaria se hace en tu propia casa: dormís una noche con el polígrafo, que registra la respiración, el oxígeno en sangre y el ronquido. En Córdoba lo coordinamos por WhatsApp.' },
-            { q: '¿Cuánto cuesta una poligrafía respiratoria domiciliaria?', a: 'El valor del estudio te lo pasamos por WhatsApp. Trabajamos en forma particular y te damos factura para que gestiones el reintegro ante tu obra social o prepaga.' },
+            { q: '¿Se puede hacer el estudio del sueño en casa?', a: 'Sí. La poligrafía respiratoria domiciliaria se hace en tu propia casa: dormís una noche con el polígrafo, que registra la respiración, el oxígeno en sangre y el ronquido. En Córdoba lo hacemos nosotros: coordinalo por WhatsApp.' },
+            { q: '¿Hacen la poligrafía respiratoria domiciliaria?', a: 'Sí. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba: dormís una noche en tu casa con el polígrafo y del registro sale el informe con el IAH para tu médico. Lo coordinamos por WhatsApp.' },
             { q: '¿Qué diferencia hay entre poligrafía y polisomnografía?', a: 'La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo respiratorio, el oxígeno en sangre y el ronquido, y se hace en tu casa. La polisomnografía agrega la actividad del cerebro para conocer las etapas del sueño y habitualmente se hace en un laboratorio. Cuál te corresponde lo decide tu médico.' },
             { q: '¿Qué pasa si el estudio da apnea del sueño?', a: 'El tratamiento estándar es el CPAP o AutoCPAP. Te ayudamos a elegir el equipo según tu indicación médica y te acompañamos en la adaptación.' },
             { q: '¿Cómo sé si tengo apnea del sueño?', a: 'Los signos más comunes son ronquidos fuertes, pausas al respirar mientras dormís, somnolencia diurna y cansancio. El estudio del sueño lo confirma.' },
@@ -1000,7 +999,7 @@ export const localPages = [
             },
             {
                 title: '¿Buscás hacerte un estudio del sueño?',
-                content: 'Esta página es para profesionales que compran el equipo. Si sos paciente y querés hacerte una poligrafía en Córdoba, mirá nuestra página de estudio del sueño a domicilio, donde te explicamos cómo es el proceso y cómo seguir si el resultado da apnea.',
+                content: 'Esta página es para profesionales que compran el equipo. Si sos paciente y querés hacerte una poligrafía en Córdoba, la hacemos nosotros: mirá [poligrafía respiratoria domiciliaria en Córdoba](/estudio-del-sueno-cordoba), donde te explicamos cómo es el estudio y cómo seguir si el resultado da apnea.',
             },
             {
                 title: 'Opción con 30 cánulas Luer Lock incluidas',
@@ -1016,13 +1015,13 @@ export const localPages = [
         faq: [
             { q: '¿Quién puede comprar y usar el polígrafo?', a: 'Está orientado a profesionales e instituciones de salud (neumonólogos, clínicas del sueño, kinesiólogos, centros de diagnóstico). La interpretación del estudio la realiza el médico.' },
             { q: '¿Qué registra el BMC YH-600B PRO?', a: 'Es un polígrafo respiratorio de 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca. Incluye software de descarga y análisis para el informe.' },
-            { q: '¿Cuánto cuesta una poligrafía respiratoria?', a: 'En esta página vendemos el equipo, el polígrafo BMC YH-600B PRO, a U$S 1.570, para profesionales y centros que hacen el estudio. Si lo que buscás es hacerte el estudio del sueño, mirá [estudio del sueño en Córdoba](/estudio-del-sueno-cordoba) y escribinos por WhatsApp.' },
+            { q: '¿Busco hacerme la poligrafía, no comprar el equipo?', a: 'En esta página vendemos el equipo, para profesionales y centros. Si lo que buscás es hacerte el estudio del sueño, en Córdoba lo hacemos nosotros: mirá [poligrafía respiratoria domiciliaria en Córdoba](/estudio-del-sueno-cordoba) y escribinos por WhatsApp.' },
             { q: '¿Cuánto cuesta el polígrafo?', a: 'Precio de referencia U$S 1.570, aprobado por ANMAT y con garantía oficial. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.' },
             { q: '¿Incluye capacitación?', a: 'Sí: capacitación de uso del equipo y del software, presencial en Córdoba o guiada a distancia en el resto del país, más soporte técnico permanente.' },
             { q: '¿El polígrafo viene con cánulas?', a: 'Hay dos opciones: el equipo solo, o el equipo con 30 cánulas Luer Lock incluidas por U$S 1.794. La cánula es descartable y se cambia en cada estudio, así que la versión con insumos sirve para arrancar sin depender de otra compra.' },
         ],
         related: [
-            { label: 'Estudio del sueño a domicilio en Córdoba', href: '/estudio-del-sueno-cordoba' },
+            { label: 'Poligrafía respiratoria domiciliaria en Córdoba', href: '/estudio-del-sueno-cordoba' },
             { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
             { label: 'Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP', href: '/academia/ebook/apnea-del-sueno' },

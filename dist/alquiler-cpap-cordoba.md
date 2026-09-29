@@ -97,7 +97,7 @@ Sí. Vendemos equipos nuevos aprobados por ANMAT y te asesoramos para pasar del 
 
 ### ¿Necesito estudio del sueño para alquilar?
 
-Sí, hace falta la indicación médica: el equipo se configura con la presión que definió tu médico a partir del estudio. Si todavía no lo hiciste, en Córdoba hacemos el [estudio del sueño a domicilio](https://insersalud.com/estudio-del-sueno-cordoba).
+Sí, hace falta la indicación médica: el equipo se configura con la presión que definió tu médico a partir del estudio. Si todavía no lo hiciste, en Córdoba hacemos la [poligrafía respiratoria domiciliaria](https://insersalud.com/estudio-del-sueno-cordoba), el estudio del sueño en tu casa.
 
 ### ¿Qué pasa si me voy de viaje?
 
@@ -121,7 +121,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
 
-- [Estudio del sueño a domicilio](https://insersalud.com/estudio-del-sueno-cordoba)
+- [Poligrafía respiratoria domiciliaria (estudio del sueño)](https://insersalud.com/estudio-del-sueno-cordoba)
 
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 

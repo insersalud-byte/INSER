@@ -119,7 +119,7 @@ Sí. En Córdoba podés [alquilarlo primero](https://insersalud.com/alquiler-cpa
 
 ### ¿Necesito llevar el estudio del sueño?
 
-Sí, hace falta la indicación médica con la presión de tratamiento, porque con ese dato configuramos el equipo. Si todavía no lo hiciste, hacemos el [estudio del sueño a domicilio](https://insersalud.com/estudio-del-sueno-cordoba) en Córdoba.
+Sí, hace falta la indicación médica con la presión de tratamiento, porque con ese dato configuramos el equipo. Si todavía no lo hiciste, en Córdoba hacemos la [poligrafía respiratoria domiciliaria](https://insersalud.com/estudio-del-sueno-cordoba), el estudio del sueño en tu casa.
 
 ### ¿Trabajan con obras sociales o prepagas?
 
@@ -135,7 +135,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
 
-- [Estudio del sueño a domicilio](https://insersalud.com/estudio-del-sueno-cordoba)
+- [Poligrafía respiratoria domiciliaria (estudio del sueño)](https://insersalud.com/estudio-del-sueno-cordoba)
 
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 

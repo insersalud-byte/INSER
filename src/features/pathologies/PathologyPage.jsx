@@ -10,6 +10,26 @@ import { useSEO } from '../../hooks/useSEO';
 import LeadForm from '../../components/LeadForm';
 import css from './PathologyPage.module.css';
 
+// Enlaces internos escritos como [texto](/ruta) en las respuestas de las FAQ. Misma sintaxis que LocalPage.jsx y que
+// inlineLinks() del prerender: MANTENER LOS TRES SINCRONIZADOS.
+const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+const conEnlaces = (texto) => {
+    if (!texto || !texto.includes('](/')) return texto;
+    const partes = [];
+    let ultimo = 0;
+    for (const m of String(texto).matchAll(LINK_RE)) {
+        if (m.index > ultimo) partes.push(texto.slice(ultimo, m.index));
+        partes.push(
+            <Link key={m.index} to={m[2]} style={{ color: '#1e40af', textDecoration: 'underline' }}>
+                {m[1]}
+            </Link>
+        );
+        ultimo = m.index + m[0].length;
+    }
+    if (ultimo < texto.length) partes.push(texto.slice(ultimo));
+    return partes;
+};
+
 const openSanti = (message) => {
     window.dispatchEvent(new CustomEvent('open-santi', { detail: { message } }));
 };
@@ -450,7 +470,7 @@ const PathologyPage = () => {
                             {data.faq.map((f, i) => (
                                 <div key={i} style={{ background: '#fff', border: '1px solid #e8eef6', borderRadius: '0.7rem', padding: '1rem 1.2rem' }}>
                                     <h3 style={{ margin: '0 0 0.4rem', fontSize: '1.02rem', color: '#0f172a' }}>{f.q}</h3>
-                                    <p style={{ margin: 0, lineHeight: 1.65, color: '#334155' }}>{f.a}</p>
+                                    <p style={{ margin: 0, lineHeight: 1.65, color: '#334155' }}>{conEnlaces(f.a)}</p>
                                 </div>
                             ))}
                         </div>

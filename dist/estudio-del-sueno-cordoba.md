@@ -1,6 +1,6 @@
 ---
 title: "Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER"
-description: "Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño se hace en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Consultá por WhatsApp."
+description: "Hacemos la poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Coordiná por WhatsApp."
 url: https://insersalud.com/estudio-del-sueno-cordoba
 canonical: https://insersalud.com/estudio-del-sueno-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -11,7 +11,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa
 
-¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD, en Córdoba, te acompañamos en el estudio y, si da apnea, en el tratamiento.
+¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba y, si da apnea, te acompañamos en el tratamiento.
 
 Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
 
@@ -21,11 +21,13 @@ Es un estudio del sueño que se realiza en tu propia casa con un equipo ([políg
 
 Es cómodo, no invasivo y permite detectar la apnea obstructiva del sueño sin tener que dormir en un laboratorio.
 
-## ¿Cuánto cuesta la poligrafía respiratoria domiciliaria?
+## Hacemos la poligrafía respiratoria domiciliaria en Córdoba
 
-El valor del estudio te lo pasamos por WhatsApp. Trabajamos en forma particular: te damos factura para que gestiones el reintegro ante tu obra social o prepaga.
+En INSER SALUD hacemos el estudio del sueño en tu casa, en Córdoba. Se entrega el polígrafo, dormís una noche con él y se devuelve al día siguiente. Del registro sale el informe con el índice de apnea-hipopnea (IAH), que es el que evalúa tu médico.
 
-Si el estudio da apnea, los equipos para el tratamiento tienen precio publicado: [CPAP y AutoCPAP](https://insersalud.com/comprar-cpap-cordoba) desde $499.000, y en Córdoba también se pueden [alquilar](https://insersalud.com/alquiler-cpap-cordoba).
+Lo coordinamos por WhatsApp. Trabajamos en forma particular y te damos factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+Si el estudio da apnea, en Córdoba podés [alquilar](https://insersalud.com/alquiler-cpap-cordoba) o [comprar](https://insersalud.com/comprar-cpap-cordoba) el CPAP con entrega e instalación en el día.
 
 ## Poligrafía o polisomnografía: cuál es la diferencia
 
@@ -69,7 +71,7 @@ Las referencias son: menos de 5 se considera normal, entre 5 y 15 apnea leve, en
 
 El estudio además registra la saturación de oxígeno durante el sueño, el flujo aéreo y el ronquido.
 
-La interpretación del estudio la hace el médico: es quien define el diagnóstico y el tratamiento a partir del informe. Nosotros vendemos y asesoramos sobre el equipamiento.
+La interpretación del estudio la hace el médico: es quien define el diagnóstico y el tratamiento a partir del informe. Nosotros hacemos el estudio y te acompañamos con el equipamiento.
 
 ## Qué conviene preguntar antes de hacerte el estudio
 
@@ -97,8 +99,6 @@ El orden importa: primero el estudio y la indicación médica, después el equip
 
 ## Equipos relacionados
 
-- ![Poligrafía respiratoria domiciliaria en Córdoba (con polígrafo BMC YH-600B PRO)](https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg) Poligrafía respiratoria domiciliaria en Córdoba (con polígrafo BMC YH-600B PRO) — consultar
-
 - ![CPAP BMC G2S (tratamiento de la apnea)](https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg) CPAP BMC G2S (tratamiento de la apnea) — $499.000
 
 - ![CPAP ResMed AirSense 10](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 — $974.000
@@ -107,11 +107,11 @@ El orden importa: primero el estudio y la indicación médica, después el equip
 
 ### ¿Se puede hacer el estudio del sueño en casa?
 
-Sí. La poligrafía respiratoria domiciliaria se hace en tu propia casa: dormís una noche con el polígrafo, que registra la respiración, el oxígeno en sangre y el ronquido. En Córdoba lo coordinamos por WhatsApp.
+Sí. La poligrafía respiratoria domiciliaria se hace en tu propia casa: dormís una noche con el polígrafo, que registra la respiración, el oxígeno en sangre y el ronquido. En Córdoba lo hacemos nosotros: coordinalo por WhatsApp.
 
-### ¿Cuánto cuesta una poligrafía respiratoria domiciliaria?
+### ¿Hacen la poligrafía respiratoria domiciliaria?
 
-El valor del estudio te lo pasamos por WhatsApp. Trabajamos en forma particular y te damos factura para que gestiones el reintegro ante tu obra social o prepaga.
+Sí. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba: dormís una noche en tu casa con el polígrafo y del registro sale el informe con el IAH para tu médico. Lo coordinamos por WhatsApp.
 
 ### ¿Qué diferencia hay entre poligrafía y polisomnografía?
 

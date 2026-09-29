@@ -35,7 +35,7 @@ Enviamos a todo el país, con capacitación de uso y del software incluida (pres
 
 ## ¿Buscás hacerte un estudio del sueño?
 
-Esta página es para profesionales que compran el equipo. Si sos paciente y querés hacerte una poligrafía en Córdoba, mirá nuestra página de estudio del sueño a domicilio, donde te explicamos cómo es el proceso y cómo seguir si el resultado da apnea.
+Esta página es para profesionales que compran el equipo. Si sos paciente y querés hacerte una poligrafía en Córdoba, la hacemos nosotros: mirá [poligrafía respiratoria domiciliaria en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba), donde te explicamos cómo es el estudio y cómo seguir si el resultado da apnea.
 
 ## Opción con 30 cánulas Luer Lock incluidas
 
@@ -65,9 +65,9 @@ Está orientado a profesionales e instituciones de salud (neumonólogos, clínic
 
 Es un polígrafo respiratorio de 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca. Incluye software de descarga y análisis para el informe.
 
-### ¿Cuánto cuesta una poligrafía respiratoria?
+### ¿Busco hacerme la poligrafía, no comprar el equipo?
 
-En esta página vendemos el equipo, el polígrafo BMC YH-600B PRO, a U$S 1.570, para profesionales y centros que hacen el estudio. Si lo que buscás es hacerte el estudio del sueño, mirá [estudio del sueño en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba) y escribinos por WhatsApp.
+En esta página vendemos el equipo, para profesionales y centros. Si lo que buscás es hacerte el estudio del sueño, en Córdoba lo hacemos nosotros: mirá [poligrafía respiratoria domiciliaria en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba) y escribinos por WhatsApp.
 
 ### ¿Cuánto cuesta el polígrafo?
 
@@ -91,7 +91,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 ## También te puede servir
 
-- [Estudio del sueño a domicilio en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba)
+- [Poligrafía respiratoria domiciliaria en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba)
 
 - [Comprar CPAP (envío nacional)](https://insersalud.com/comprar-cpap-argentina)
 
