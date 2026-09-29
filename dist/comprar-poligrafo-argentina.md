@@ -1,6 +1,6 @@
 ---
-title: "Comprar Polígrafo Respiratorio para Estudios del Sueño | INSER SALUD"
-description: "Venta del polígrafo respiratorio BMC YH-600B PRO para neumonólogos, clínicas del sueño y kinesiólogos: poligrafía domiciliaria de la apnea del sueño. U$S 1.570, aprobado por ANMAT, con envío a todo el país y capacitación. Consultá por WhatsApp."
+title: "Polígrafo para Poligrafía Respiratoria: precio U$S 1.570 | INSER"
+description: "Precio del polígrafo respiratorio BMC YH-600B PRO: U$S 1.570. Venta para neumonólogos, clínicas del sueño y kinesiólogos: poligrafía domiciliaria de la apnea del sueño. Aprobado por ANMAT, con envío a todo el país y capacitación. Consultá por WhatsApp."
 url: https://insersalud.com/comprar-poligrafo-argentina
 canonical: https://insersalud.com/comprar-poligrafo-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -9,7 +9,7 @@ language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---
 
-# Comprar polígrafo respiratorio para estudios del sueño
+# Polígrafo respiratorio para poligrafía del sueño: precio y venta en Argentina
 
 El polígrafo respiratorio permite estudiar la apnea del sueño en el domicilio del paciente, sin laboratorio. En INSER SALUD vendemos el BMC YH-600B PRO a profesionales de la salud (neumonólogos, clínicas del sueño, kinesiólogos y centros de diagnóstico) con envío a todo el país, capacitación de uso y soporte técnico.
 
@@ -64,6 +64,10 @@ Está orientado a profesionales e instituciones de salud (neumonólogos, clínic
 ### ¿Qué registra el BMC YH-600B PRO?
 
 Es un polígrafo respiratorio de 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca. Incluye software de descarga y análisis para el informe.
+
+### ¿Cuánto cuesta una poligrafía respiratoria?
+
+En esta página vendemos el equipo, el polígrafo BMC YH-600B PRO, a U$S 1.570, para profesionales y centros que hacen el estudio. Si lo que buscás es hacerte el estudio del sueño, mirá [estudio del sueño en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba) y escribinos por WhatsApp.
 
 ### ¿Cuánto cuesta el polígrafo?
 

@@ -1,6 +1,6 @@
 ---
-title: "Cough Assist | Asistente de Tos Mecánico | Venta en Argentina | INSER SALUD"
-description: "Venta de Cough Assist (asistente de tos mecánico, insuflación-exuflación) para ELA, AME y enfermedades neuromusculares con tos débil. U$S 9.084, aprobado por ANMAT, envío a todo el país y capacitación familiar. Consultá por WhatsApp."
+title: "Cough Assist (asistente de tos): precio U$S 9.084 | INSER"
+description: "Precio del Cough Assist en Argentina: U$S 9.084. Asistente de tos mecánico (insuflación-exuflación) para ELA, AME y enfermedades neuromusculares con tos débil. Aprobado por ANMAT, envío a todo el país y capacitación familiar. Consultá por WhatsApp."
 url: https://insersalud.com/cough-assist-asistente-de-tos
 canonical: https://insersalud.com/cough-assist-asistente-de-tos
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -9,7 +9,7 @@ language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---
 
-# Cough Assist (asistente de tos mecánico): venta en Argentina
+# Cough Assist (asistente de tos mecánico): precio y venta en Argentina
 
 El Cough Assist es un asistente de tos mecánico: mediante insuflación-exuflación reproduce una tos eficaz en pacientes que perdieron la fuerza para toser, ayudando a eliminar secreciones y prevenir infecciones respiratorias. Es un equipo clave en ELA, AME y otras enfermedades neuromusculares. Lo vendemos con envío a todo el país y capacitación para la familia.
 

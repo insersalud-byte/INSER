@@ -1,5 +1,5 @@
 ---
-title: "Máscaras para CPAP y BiPAP | Precios y Envío Nacional | INSER SALUD"
+title: "Máscaras CPAP y BiPAP nasales y nasobucales: precios | INSER"
 description: "Máscaras para CPAP y BiPAP con precios visibles y envío a todo el país: nasales desde U$S 35, DreamWear U$S 153, nasobucales (full face) y línea pediátrica completa. Aprobadas por ANMAT. Consultá por WhatsApp."
 url: https://insersalud.com/mascaras-cpap
 canonical: https://insersalud.com/mascaras-cpap
@@ -64,6 +64,10 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos co
 ### ¿Qué máscara elijo si respiro por la boca?
 
 Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face (U$S 157), BMC F6 (U$S 124) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.
+
+### ¿Cuánto cuesta una máscara nasobucal?
+
+La nasobucal BMC F6 multitalle está en oferta a U$S 124 y la Philips DreamWear Full Face sale U$S 157, con envío a todo el país. La BMC F2 codo azul ($68.000) es sin fuga, para respiradores de terapia intensiva: no sirve para un CPAP o BiPAP domiciliario. Cuál te corresponde depende de tu equipo y de si respirás por la boca: te asesoramos por WhatsApp.
 
 ### ¿Cuánto cuesta una máscara para CPAP?
 
