@@ -642,6 +642,8 @@
     if(!/(^|\.)(insersalud\.com|inser\.ar)$/.test(location.hostname))window['ga-disable-G-XD586V0PLV']=true;
   gtag('js', new Date());
   gtag('config', 'G-XD586V0PLV');
+  // WhatsApp sin medir (guia rapida, catalogo, autor): cuenta como contact_whatsapp. La tarjeta y los enlaces con onclick ya miden solos.
+  document.addEventListener('click',function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href*="wa.me/"]');if(!a||a.hasAttribute('onclick')||a.closest('.inser-card'))return;var s=location.pathname.split('/').filter(Boolean).pop();gtag('event','contact_whatsapp',{source:s&&s!=='academia'?'academia-'+s:'academia',ubicacion:'enlace-suelto'});});
 </script>
 </head>
 <body>
