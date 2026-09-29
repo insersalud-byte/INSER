@@ -1,5 +1,5 @@
 ---
-title: "Polígrafo para Poligrafía Respiratoria: precio U$S 1.570 | INSER"
+title: "Polígrafo respiratorio: precio U$S 1.570 y venta a profesionales | INSER"
 description: "Precio del polígrafo respiratorio BMC YH-600B PRO: U$S 1.570. Venta para neumonólogos, clínicas del sueño y kinesiólogos: poligrafía domiciliaria de la apnea del sueño. Aprobado por ANMAT, con envío a todo el país y capacitación. Consultá por WhatsApp."
 url: https://insersalud.com/comprar-poligrafo-argentina
 canonical: https://insersalud.com/comprar-poligrafo-argentina
@@ -9,7 +9,7 @@ language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---
 
-# Polígrafo respiratorio para poligrafía del sueño: precio y venta en Argentina
+# Polígrafo respiratorio BMC YH-600B PRO: precio y venta a profesionales
 
 El polígrafo respiratorio permite estudiar la apnea del sueño en el domicilio del paciente, sin laboratorio. En INSER SALUD vendemos el BMC YH-600B PRO a profesionales de la salud (neumonólogos, clínicas del sueño, kinesiólogos y centros de diagnóstico) con envío a todo el país, capacitación de uso y soporte técnico.
 

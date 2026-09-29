@@ -263,17 +263,29 @@ export const localPages = [
     },
     {
         slug: 'estudio-del-sueno-cordoba',
-        h1: 'Estudio del sueño a domicilio en Córdoba (poligrafía respiratoria)',
-        metaTitle: 'Estudio del Sueño a Domicilio en Córdoba | Poligrafía Respiratoria | INSER SALUD',
-        metaTitleSalud: 'Estudio del Sueño a Domicilio en Córdoba | INSER SALUD',
-        description: '¿Roncás o te dijeron que dejás de respirar al dormir? Te asesoramos sobre el estudio del sueño domiciliario (poligrafía respiratoria) y el tratamiento de la apnea con CPAP en Córdoba. Aprobado por ANMAT. Consultá por WhatsApp.',
+        h1: 'Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa',
+        metaTitle: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER',
+        metaTitleSalud: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER',
+        description: 'Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño se hace en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Consultá por WhatsApp.',
         heroImg: '/artifacts/products/resmed_airsense10_1.jpg',
-        intro: '¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria permite estudiar la apnea del sueño desde tu casa, sin internación. En INSER SALUD te asesoramos sobre el estudio del sueño y el tratamiento.',
+        intro: '¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD, en Córdoba, te acompañamos en el estudio y, si da apnea, en el tratamiento.',
         ctaSanti: 'Hola Santi, quiero hacerme un estudio del sueño a domicilio en Córdoba. ¿Cómo es y qué necesito?',
         sections: [
             {
                 title: '¿Qué es la poligrafía respiratoria?',
                 content: 'Es un estudio del sueño que se realiza en tu propia casa con un equipo ([polígrafo respiratorio](/comprar-poligrafo-argentina)) que registra durante la noche tu respiración, el flujo de aire, los ronquidos, el oxígeno en sangre y las pausas respiratorias.\n\nEs cómodo, no invasivo y permite detectar la apnea obstructiva del sueño sin tener que dormir en un laboratorio.',
+            },
+            {
+                title: '¿Cuánto cuesta la poligrafía respiratoria domiciliaria?',
+                content: 'El valor del estudio te lo pasamos por WhatsApp. Trabajamos en forma particular: te damos factura para que gestiones el reintegro ante tu obra social o prepaga.\n\nSi el estudio da apnea, los equipos para el tratamiento tienen precio publicado: [CPAP y AutoCPAP](/comprar-cpap-cordoba) desde $499.000, y en Córdoba también se pueden [alquilar](/alquiler-cpap-cordoba).',
+            },
+            {
+                title: 'Poligrafía o polisomnografía: cuál es la diferencia',
+                content: 'Las dos son estudios del sueño. La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo del tórax y el abdomen, el oxígeno en sangre y el ronquido. Es la que se hace en tu casa.\n\nLa polisomnografía suma la actividad del cerebro, de los ojos y de los músculos para conocer las etapas del sueño, y habitualmente se hace en un laboratorio.\n\nCuál te corresponde lo decide tu médico.',
+            },
+            {
+                title: 'Roncar no siempre es apnea: el estudio lo define',
+                content: 'Mucha gente consulta para dejar de roncar. El ronquido puede ser solo ronquido, o puede venir con pausas en la respiración, que es la apnea del sueño. Desde afuera no se puede saber: la poligrafía lo mide durante una noche entera.\n\nSi el estudio confirma apnea, el tratamiento estándar es el CPAP. Si no la confirma, tu médico te va a indicar qué hacer con el ronquido.',
             },
             {
                 title: 'Señales de que podrías tener apnea del sueño',
@@ -301,12 +313,14 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'Polígrafo BMC YH-600B PRO (estudio del sueño domiciliario)', price: 'consultar' },
+            { name: 'Poligrafía respiratoria domiciliaria en Córdoba (con polígrafo BMC YH-600B PRO)', price: 'consultar' },
             { name: 'CPAP BMC G2S (tratamiento de la apnea)', price: '$499.000' },
             { name: 'CPAP ResMed AirSense 10', price: '$974.000' },
         ],
         faq: [
-            { q: '¿Se puede hacer el estudio del sueño en casa?', a: 'Sí. La poligrafía respiratoria domiciliaria se hace en tu propia casa con un equipo que registra la respiración durante la noche. Te asesoramos sobre cómo realizarlo en Córdoba.' },
+            { q: '¿Se puede hacer el estudio del sueño en casa?', a: 'Sí. La poligrafía respiratoria domiciliaria se hace en tu propia casa: dormís una noche con el polígrafo, que registra la respiración, el oxígeno en sangre y el ronquido. En Córdoba lo coordinamos por WhatsApp.' },
+            { q: '¿Cuánto cuesta una poligrafía respiratoria domiciliaria?', a: 'El valor del estudio te lo pasamos por WhatsApp. Trabajamos en forma particular y te damos factura para que gestiones el reintegro ante tu obra social o prepaga.' },
+            { q: '¿Qué diferencia hay entre poligrafía y polisomnografía?', a: 'La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo respiratorio, el oxígeno en sangre y el ronquido, y se hace en tu casa. La polisomnografía agrega la actividad del cerebro para conocer las etapas del sueño y habitualmente se hace en un laboratorio. Cuál te corresponde lo decide tu médico.' },
             { q: '¿Qué pasa si el estudio da apnea del sueño?', a: 'El tratamiento estándar es el CPAP o AutoCPAP. Te ayudamos a elegir el equipo según tu indicación médica y te acompañamos en la adaptación.' },
             { q: '¿Cómo sé si tengo apnea del sueño?', a: 'Los signos más comunes son ronquidos fuertes, pausas al respirar mientras dormís, somnolencia diurna y cansancio. El estudio del sueño lo confirma.' },
             { q: '¿Atienden en Córdoba?', a: 'Sí, somos de Córdoba y trabajamos a domicilio en Córdoba Capital y alrededores. Consultanos por WhatsApp.' },
@@ -964,9 +978,9 @@ export const localPages = [
     {
         slug: 'comprar-poligrafo-argentina',
         national: true,
-        h1: 'Polígrafo respiratorio para poligrafía del sueño: precio y venta en Argentina',
-        metaTitle: 'Polígrafo para Poligrafía Respiratoria: precio U$S 1.570 | INSER',
-        metaTitleSalud: 'Polígrafo para Poligrafía Respiratoria: precio U$S 1.570 | INSER',
+        h1: 'Polígrafo respiratorio BMC YH-600B PRO: precio y venta a profesionales',
+        metaTitle: 'Polígrafo respiratorio: precio U$S 1.570 y venta a profesionales | INSER',
+        metaTitleSalud: 'Polígrafo respiratorio: precio U$S 1.570 y venta a profesionales | INSER',
         description: 'Precio del polígrafo respiratorio BMC YH-600B PRO: U$S 1.570. Venta para neumonólogos, clínicas del sueño y kinesiólogos: poligrafía domiciliaria de la apnea del sueño. Aprobado por ANMAT, con envío a todo el país y capacitación. Consultá por WhatsApp.',
         heroImg: '/artifacts/products/1752508033704-poligrafobmc.jpg',
         intro: 'El polígrafo respiratorio permite estudiar la apnea del sueño en el domicilio del paciente, sin laboratorio. En INSER SALUD vendemos el BMC YH-600B PRO a profesionales de la salud (neumonólogos, clínicas del sueño, kinesiólogos y centros de diagnóstico) con envío a todo el país, capacitación de uso y soporte técnico.',
