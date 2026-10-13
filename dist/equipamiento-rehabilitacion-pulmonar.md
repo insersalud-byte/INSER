@@ -137,6 +137,10 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [BiPAP en Córdoba](https://insersalud.com/bipap-cordoba)
 
+- [Cough Assist (asistente de tos)](https://insersalud.com/cough-assist-asistente-de-tos)
+
+- [Polígrafo respiratorio](https://insersalud.com/comprar-poligrafo-argentina)
+
 - [Curso gratuito (ebook): Ventilación mecánica, de la perilla a la curva](https://insersalud.com/academia/ebook/ventilacion-mecanica)
 
 - [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)

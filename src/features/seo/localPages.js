@@ -127,7 +127,9 @@ export const localPages = [
             { q: '¿Y si no me adapto al equipo?', a: 'Antes de entregártelo te asesoramos para elegir la máscara adecuada, que es donde está la mayoría de los problemas de adaptación. Si aun así necesitás cambiar de máscara, la nueva se cobra aparte, pero primero te ayudamos a ajustar la que tenés. Justamente para eso sirve alquilar antes de comprar.' },
         ],
         related: [
+            { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
+            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
             { label: 'Poligrafía respiratoria domiciliaria (estudio del sueño)', href: '/estudio-del-sueno-cordoba' },
         ],
@@ -137,7 +139,7 @@ export const localPages = [
         h1: 'Alquiler de concentrador de oxígeno en Córdoba',
         metaTitle: 'Alquiler de Concentrador de Oxígeno en Córdoba | INSER',
         metaTitleSalud: 'Alquiler de Concentrador de Oxígeno en Córdoba | INSER',
-        description: 'Alquilá un concentrador de oxígeno fijo o portátil en Córdoba, para uso continuo 24 horas, con entrega e instalación. Respondemos por WhatsApp todos los días.',
+        description: 'Alquilá un concentrador de oxígeno fijo o portátil en Córdoba, para uso continuo las 24 horas. Entrega e instalación en el día en Córdoba Capital; respondemos por WhatsApp todos los días.',
         heroImg: '/artifacts/products/concentrador_bmc_1.jpg',
         intro: 'Si necesitás oxígeno en casa, en INSER SALUD alquilamos concentradores de oxígeno (fijos y portátiles) en Córdoba con entrega e instalación a domicilio. Ideal para oxigenoterapia continua en EPOC, fibrosis pulmonar, post-internación y otras indicaciones médicas.',
         ctaSanti: 'Hola Santi, necesito alquilar un concentrador de oxígeno en Córdoba. ¿Tienen fijo y portátil? ¿Cómo es la entrega?',
@@ -191,9 +193,11 @@ export const localPages = [
             { q: '¿Qué pasa si el equipo falla durante el alquiler?', a: 'El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos: escribinos por WhatsApp y coordinamos el cambio. Respondemos consultas todos los días, también fines de semana y fuera del horario comercial.' },
         ],
         related: [
+            { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'Fibrosis pulmonar', href: '/patologia/fibrosis-pulmonar' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
+            { label: 'Comprar concentrador de oxígeno portátil (envío nacional)', href: '/comprar-concentrador-oxigeno-portatil-argentina' },
             { label: 'Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
     },
@@ -204,7 +208,7 @@ export const localPages = [
         metaTitleSalud: 'Comprar CPAP en Córdoba | Precios y Asesoramiento | INSER SALUD',
         description: 'Comprá tu CPAP, AutoCPAP o BiPAP en Córdoba. Equipos aprobados por ANMAT, con garantía y asesoramiento. CPAP desde $499.000. Mirá precios y elegí el equipo correcto con ayuda de nuestro equipo. Consultá por WhatsApp.',
         heroImg: '/artifacts/products/resmed_airsense10_3.jpg',
-        intro: 'En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP en Córdoba, aprobados por ANMAT, con garantía oficial y asesoramiento personalizado. Mirá los precios de referencia y elegí el equipo correcto según tu indicación médica.',
+        intro: 'En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP en Córdoba, aprobados por ANMAT, con garantía oficial del fabricante y asesoramiento personalizado. Mirá los precios de referencia y elegí el equipo correcto según tu indicación médica.',
         ctaSanti: 'Hola Santi, quiero comprar un CPAP en Córdoba. ¿Qué modelos tienen y a qué precio? ¿Cuál me conviene?',
         sections: [
             {
@@ -217,7 +221,7 @@ export const localPages = [
             },
             {
                 title: 'Garantía y respaldo',
-                content: 'Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.',
+                content: 'Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial del fabricante. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.',
             },
             {
                 title: 'Qué incluye el equipo cuando lo comprás',
@@ -249,7 +253,7 @@ export const localPages = [
         faq: [
             { q: '¿Cuánto cuesta un CPAP en Córdoba?', a: 'Desde $499.000 (CPAP BMC G2S con humidificador). El CPAP ResMed AirSense 10 está en oferta a $974.000. Confirmá el precio del día por WhatsApp.' },
             { q: '¿Qué CPAP me conviene comprar?', a: 'Depende de tu indicación médica y tu presión de tratamiento. El CPAP fijo es la opción estándar y económica; el AutoCPAP da más confort. Te asesoramos sin cargo.' },
-            { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
+            { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial del fabricante y son aparatología aprobada por ANMAT. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
             { q: '¿Puedo alquilar en lugar de comprar?', a: 'Sí, ofrecemos alquiler de CPAP en Córdoba con entrega a domicilio, ideal para probar antes de comprar.' },
             { q: '¿Puedo pagar el CPAP en cuotas?', a: 'Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a las condiciones del banco. Consultanos por WhatsApp y te pasamos el valor exacto de la cuota de tu equipo.' },
             { q: '¿Puedo probar el equipo antes de comprarlo?', a: 'Sí. En Córdoba podés [alquilarlo primero](/alquiler-cpap-cordoba), usarlo el tiempo que necesites y decidir después con la experiencia hecha.' },
@@ -257,6 +261,7 @@ export const localPages = [
         ],
         related: [
             { label: 'Alquiler de CPAP en Córdoba', href: '/alquiler-cpap-cordoba' },
+            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
             { label: 'Poligrafía respiratoria domiciliaria (estudio del sueño)', href: '/estudio-del-sueno-cordoba' },
         ],
@@ -309,7 +314,7 @@ export const localPages = [
             },
             {
                 title: 'Si el estudio da apnea: probá el equipo antes de comprarlo',
-                content: 'Si el informe confirma apnea, el tratamiento estándar es el CPAP o el AutoCPAP. En Córdoba podés [alquilar el equipo](/alquiler-cpap-cordoba) con entrega e instalación a domicilio y empezar el tratamiento sin la inversión completa de entrada.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nPrecios de referencia para comprar: CPAP BMC G2S con humidificador $499.000, AutoCPAP BMC G2S con humidificador $630.000 y CPAP ResMed AirSense 10 $974.000. Aparatología aprobada por ANMAT, con 2 años de garantía oficial. Los precios se actualizan: confirmá el valor del día por WhatsApp.\n\nEl orden importa: primero el estudio y la indicación médica, después el equipo. La presión con la que se configura sale de ahí. Podés ver todas las opciones en [comprar CPAP en Córdoba](/comprar-cpap-cordoba).',
+                content: 'Si el informe confirma apnea, el tratamiento estándar es el CPAP o el AutoCPAP. En Córdoba podés [alquilar el equipo](/alquiler-cpap-cordoba) con entrega e instalación a domicilio y empezar el tratamiento sin la inversión completa de entrada.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nPrecios de referencia para comprar: CPAP BMC G2S con humidificador $499.000, AutoCPAP BMC G2S con humidificador $630.000 y CPAP ResMed AirSense 10 $974.000. Aparatología aprobada por ANMAT, con 2 años de garantía oficial del fabricante. Los precios se actualizan: confirmá el valor del día por WhatsApp.\n\nEl orden importa: primero el estudio y la indicación médica, después el equipo. La presión con la que se configura sale de ahí. Podés ver todas las opciones en [comprar CPAP en Córdoba](/comprar-cpap-cordoba).',
             },
         ],
         products: [
@@ -346,7 +351,7 @@ export const localPages = [
         sections: [
             { title: '¿Qué es un BiPAP y cuándo se usa?', content: 'El BiPAP (o BPAP) entrega dos niveles de presión: uno mayor al inhalar (IPAP) y otro menor al exhalar (EPAP), lo que facilita la respiración. Puede incluir frecuencia respiratoria de respaldo (modo S/T).\n\nSe indica en EPOC, enfermedades neuromusculares (ELA, AME), síndrome de hipoventilación y en apnea del sueño compleja que no responde al CPAP.' },
             { title: 'BiPAP o CPAP: ¿cuál necesito?', content: 'El CPAP entrega una sola presión continua y es el tratamiento estándar de la apnea del sueño. El BiPAP entrega dos presiones y se usa cuando hace falta asistir tanto la inhalación como la exhalación, o cuando se necesitan presiones altas que con CPAP serían incómodas.\n\nLa indicación la define tu médico; nosotros te ayudamos a elegir el equipo correcto.' },
-            { title: 'Venta y alquiler con soporte', content: 'Vendemos y alquilamos BiPAP en Córdoba con entrega e instalación a domicilio, configuración según tu prescripción, [máscara adecuada](/mascaras-cpap) y soporte técnico continuo. Aparatología aprobada por ANMAT con garantía.' },
+            { title: 'Venta y alquiler con soporte', content: 'Vendemos y alquilamos BiPAP en Córdoba con entrega e instalación a domicilio, configuración según tu prescripción, [máscara adecuada](/mascaras-cpap) y soporte técnico continuo. Aparatología aprobada por ANMAT con garantía. Si estás fuera de Córdoba, [comprá tu BiPAP con envío a todo el país](/comprar-bipap-argentina).' },
             {
                 title: 'Evidencia científica: la ventilación no invasiva en EPOC y enfermedades neuromusculares',
                 content: 'La ventilación no invasiva (VNI) con dos niveles de presión es uno de los tratamientos con mayor respaldo en medicina respiratoria. En las exacerbaciones de EPOC con retención de dióxido de carbono, la VNI reduce la necesidad de intubación y la mortalidad, y es el estándar de cuidado recomendado por las guías internacionales (GOLD).\n\nEn EPOC estable con hipercapnia crónica, el ensayo de Köhnlein y colaboradores (2014) mostró que la VNI domiciliaria bien configurada mejora la sobrevida, y el ensayo HOT-HMV (Murphy y col., 2017) demostró que sumar VNI al oxígeno domiciliario tras una exacerbación prolonga el tiempo libre de reinternaciones.\n\nEn enfermedades neuromusculares como la ELA, el trabajo de Bourke y colaboradores (2006) demostró que la VNI mejora tanto la sobrevida como la calidad de vida, y las guías la recomiendan de forma temprana cuando aparecen signos de hipoventilación. Para estos pacientes es clave que el equipo cuente con frecuencia respiratoria de respaldo (modo S/T), como el BiPAP BMC G3.\n\nNota: la indicación de VNI, los modos y las presiones los define siempre el médico tratante. Esta reseña es informativa. Revisada por el Lic. Sergio Giorda (MP 2123), kinesiólogo con 25 años en terapia intensiva y director de INSER SALUD. Última revisión: agosto 2026.',
@@ -358,7 +363,7 @@ export const localPages = [
         ],
         products: [
             { name: 'BiPAP BMC G3 con frecuencia respiratoria y humidificador', price: '$1.300.000' },
-            { name: 'Ventilador STELLAR 150 ResMed (alta gama)', price: 'consultar' },
+            { name: 'Ventilador STELLAR 150 ResMed con humidificador y batería', price: 'U$S 7.342' },
         ],
         faq: [
             { q: '¿Cuánto cuesta un BiPAP en Córdoba?', a: 'El BiPAP BMC G3 está en $1.300.000. También hay opciones de alta gama y alquiler. Confirmá el precio del día por WhatsApp.' },
@@ -367,9 +372,13 @@ export const localPages = [
             { q: '¿Sirve para EPOC y ELA?', a: 'Sí. El BiPAP es uno de los tratamientos de referencia en EPOC, ELA y otras enfermedades neuromusculares, siempre según indicación médica.' },
         ],
         related: [
+            { label: 'Precio de BiPAP y compra con envío a todo el país', href: '/comprar-bipap-argentina' },
+            { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'ELA (Esclerosis Lateral Amiotrófica)', href: '/patologia/esclerosis-lateral-amiotrofica' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
+            { label: 'Cough Assist (asistente de tos)', href: '/cough-assist-asistente-de-tos' },
+            { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
             { label: 'Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
     },
@@ -378,14 +387,14 @@ export const localPages = [
         h1: 'Oxígeno a domicilio en Córdoba',
         metaTitle: 'Alquiler de Oxígeno a Domicilio en Córdoba | INSER SALUD',
         metaTitleSalud: 'Alquiler de Oxígeno a Domicilio en Córdoba | INSER SALUD',
-        description: 'Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo 24 horas, con entrega e instalación. Respondemos por WhatsApp todos los días.',
+        description: 'Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo las 24 horas. Entrega e instalación en el día en Córdoba Capital; respondemos por WhatsApp todos los días.',
         heroImg: '/artifacts/products/concentrador_bmc_1.jpg',
         intro: 'En INSER SALUD llevamos el oxígeno a tu casa en Córdoba. Ofrecemos oxigenoterapia domiciliaria con concentradores de oxígeno fijos y portátiles, en venta y alquiler, con entrega, instalación y capacitación de uso.',
         ctaSanti: 'Hola Santi, necesito oxígeno a domicilio en Córdoba. ¿Qué opciones tienen y cómo es la entrega?',
         sections: [
             { title: '¿Qué es la oxigenoterapia domiciliaria?', content: 'Es el aporte de oxígeno suplementario en el hogar cuando la saturación de oxígeno en sangre es baja. Se indica en EPOC, [fibrosis pulmonar](/patologia/fibrosis-pulmonar), secuelas post-COVID y otros cuadros respiratorios crónicos, siempre según prescripción médica (flujo en litros por minuto).' },
             { title: 'Concentrador, tubo o mochila de oxígeno', content: 'El concentrador estacionario filtra el aire y entrega oxígeno de forma continua en el hogar, sin recargas. El concentrador portátil tiene batería para salir. También contamos con tubos y mochilas de oxígeno para traslados. Te ayudamos a elegir según tu necesidad.' },
-            { title: 'Entrega e instalación a domicilio en 24 hs', content: 'Llevamos el equipo a tu casa en Córdoba, lo instalamos y te capacitamos en el uso seguro. Incluye soporte técnico. Disponible en venta y alquiler. Aparatología aprobada por ANMAT.' },
+            { title: 'Entrega e instalación a domicilio en el día', content: 'Llevamos el equipo a tu casa en Córdoba Capital y alrededores, normalmente en el día, lo instalamos y te capacitamos en el uso seguro. Incluye soporte técnico. Disponible en venta y alquiler. Aparatología aprobada por ANMAT.' },
             {
                 title: 'No te entregamos una caja',
                 content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
@@ -423,8 +432,10 @@ export const localPages = [
             { q: '¿Qué pasa si se corta la luz?', a: 'El concentrador necesita estar enchufado para funcionar. Para esos casos está la mochila de oxígeno, que es un tubo con regulador y bolso, no depende de electricidad ni de batería y rinde entre 1 y 3 horas según el flujo indicado. Si querés tener ese respaldo, decínoslo cuando cotizamos y lo incluimos en el presupuesto. Qué respaldo corresponde en tu caso conviene consultarlo con tu médico.' },
         ],
         related: [
+            { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
             { label: 'Alquiler de concentrador de oxígeno', href: '/alquiler-concentrador-oxigeno-cordoba' },
             { label: 'Concentrador de oxígeno portátil', href: '/concentrador-oxigeno-portatil-cordoba' },
+            { label: 'Comprar concentrador de oxígeno portátil (envío nacional)', href: '/comprar-concentrador-oxigeno-portatil-argentina' },
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
         ],
@@ -474,6 +485,7 @@ export const localPages = [
             { q: '¿Hacen mucho ruido?', a: 'Bastante menos que un concentrador estacionario. Se pueden usar en una oficina o en una reunión sin molestar.' },
         ],
         related: [
+            { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
             { label: 'Oxígeno a domicilio en Córdoba', href: '/oxigeno-a-domicilio-cordoba' },
             { label: 'Alquiler de concentrador de oxígeno', href: '/alquiler-concentrador-oxigeno-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
@@ -492,7 +504,7 @@ export const localPages = [
         sections: [
             {
                 title: '¿Cuánto cuesta un CPAP en Argentina? Precios publicados',
-                content: 'Estos son los precios de los CPAP y AutoCPAP de nuestro catálogo, con envío a todo el país. Te los mostramos antes de que preguntes, sin "consultar precio".\nCPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nOferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.\nCPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\nBiPAP BMC G3: $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
+                content: 'Estos son los precios de los CPAP y AutoCPAP de nuestro catálogo, con envío a todo el país. Te los mostramos antes de que preguntes, sin "consultar precio".\nCPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nOferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.\nCPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\n[BiPAP BMC G3](/comprar-bipap-argentina): $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
             },
             {
                 title: 'Cómo comprar y recibir tu equipo',
@@ -504,7 +516,7 @@ export const localPages = [
             },
             {
                 title: 'Garantía, ANMAT y respaldo',
-                content: 'Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial. Conseguís repuestos ([máscaras](/mascaras-cpap), filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.',
+                content: 'Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial del fabricante. Conseguís repuestos ([máscaras](/mascaras-cpap), filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.',
             },
             {
                 title: 'Evidencia científica: por qué el CPAP es el tratamiento de referencia',
@@ -512,7 +524,7 @@ export const localPages = [
             },
             {
                 title: 'No te entregamos una caja',
-                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.\n\nEn Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nTe explicamos cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual. Es la diferencia entre recibir un aparato y empezar un tratamiento.\n\nEn Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.',
             },
             {
                 title: 'Probalo un mes antes de comprarlo (alquiler en Córdoba)',
@@ -538,22 +550,93 @@ export const localPages = [
             { q: '¿Cuánto sale un CPAP para la apnea del sueño?', a: 'El equipo que se usa para tratar la apnea del sueño es el CPAP o el AutoCPAP: en nuestro catálogo van de $499.000 (CPAP BMC G2S) a $974.000 (ResMed AirSense 10), y el AutoCPAP BMC G2S sale $630.000. Cuál te corresponde y con qué presión lo define tu médico a partir de tu estudio de sueño; nosotros te lo entregamos configurado según esa indicación.' },
             { q: '¿Cuánto sale alquilar un CPAP?', a: 'El alquiler es solo en Córdoba, con entrega e instalación en el día, y se cotiza por WhatsApp. Si después decidís comprarlo, el primer mes de alquiler se descuenta del precio. Más información en [alquiler de CPAP en Córdoba](/alquiler-cpap-cordoba).' },
             { q: '¿El envío del CPAP tiene costo?', a: 'Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Para los demás equipos el costo de envío depende del destino: te lo confirmamos por WhatsApp.' },
-            { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
+            { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial del fabricante y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
             { q: '¿Me ayudan a configurarlo si estoy en otra provincia?', a: 'Sí, te enviamos el equipo configurado y te guiamos a distancia en la puesta en marcha y la adaptación.' },
         ],
         related: [
             { label: 'Comprar concentrador de oxígeno (envío nacional)', href: '/comprar-concentrador-oxigeno-argentina' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
+            { label: 'Máscaras para CPAP y BiPAP', href: '/mascaras-cpap' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
+            { label: 'Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP', href: '/academia/ebook/apnea-del-sueno' },
+            { label: 'Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
+        ],
+    },
+    {
+        slug: 'comprar-bipap-argentina',
+        national: true,
+        h1: 'Precio de BiPAP en Argentina: comprá con envío a todo el país',
+        metaTitle: 'BiPAP: precio $1.300.000 y venta con envío a todo el país | INSER',
+        metaTitleSalud: 'BiPAP: precio $1.300.000 y venta con envío a todo el país | INSER',
+        description: 'Precio de BiPAP en Argentina: BMC G3 S/T con frecuencia de respaldo y humidificador $1.300.000. Aprobado por ANMAT, 2 años de garantía oficial del fabricante, cuotas fijas Banco Galicia y envío a todo el país.',
+        heroImg: '/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg',
+        intro: 'En INSER SALUD vendemos BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Mendoza o donde sea, te enviamos tu equipo aprobado por ANMAT, configurado según la indicación de tu médico. El BiPAP se usa en EPOC con hipercapnia, en enfermedades neuromusculares como la ELA y la AME, en hipoventilación y en apnea del sueño compleja que no responde al CPAP; la indicación, el modo y las presiones los define siempre tu médico. Si estás en Córdoba Capital y alrededores, también podés alquilarlo: mirá [BiPAP en Córdoba](/bipap-cordoba).',
+        ctaSanti: 'Hola Santi, quiero comprar un BiPAP y que me lo envíen a mi provincia. ¿Cuánto sale el envío y qué necesito para comprarlo?',
+        sections: [
+            {
+                title: '¿Cuánto cuesta un BiPAP en Argentina? Precio publicado',
+                content: 'Este es el precio del BiPAP de nuestro catálogo, con venta y envío a todo el país. Te lo mostramos antes de que preguntes.\nBiPAP BMC G3 con frecuencia respiratoria y humidificador: $1.300.000. Es un BiPAP S/T con modos CPAP, S, T y S/T, IPAP de 4 a 25 cm H₂O, EPAP de 4 a 20 cm H₂O, frecuencia respiratoria de respaldo de 4 a 40 rpm y humidificador calefactado integrado.\nVentilador ResMed STELLAR 150 con humidificador y batería: U$S 7.342 (precio de referencia). Es un ventilador de alta gama para dependencia ventilatoria de mayor complejidad, cuando lo indica el médico tratante: mirá el detalle en [ventilador ResMed STELLAR 150](/ventilador-stellar-150).\n\nFinanciación: cuotas fijas con Banco Galicia en 3 (+15%), 6 (+24%) o 9 (+39%), con el recargo incluido en la cuota y sujeto a condiciones del banco.\n\nEl envío no está incluido en el precio: su costo depende del destino y te lo confirmamos por WhatsApp junto con el valor del día, antes de que compres. Los precios se actualizan.',
+            },
+            {
+                title: 'Qué es un BiPAP y en qué se diferencia del CPAP',
+                content: 'El BiPAP (también llamado BPAP o binivel) entrega dos niveles de presión: uno más alto cuando inhalás, la IPAP, y otro más bajo cuando exhalás, la EPAP. La diferencia entre las dos presiones es la que ayuda a que entre el aire en cada respiración, y la EPAP mantiene abierta la vía aérea al exhalar.\n\nEl CPAP, en cambio, entrega una sola presión continua y es el tratamiento estándar de la apnea obstructiva del sueño. El BiPAP se usa cuando además hace falta asistir la ventilación, o cuando se necesitan presiones altas que con CPAP serían incómodas.\n\nNo es un CPAP mejor ni peor: cuál corresponde lo define tu médico. Si lo que te indicaron es un CPAP o un AutoCPAP, mirá los precios en [CPAP y AutoCPAP](/comprar-cpap-argentina).',
+            },
+            {
+                title: 'BiPAP S/T: por qué importa la frecuencia respiratoria de respaldo',
+                content: 'En el modo S (espontáneo) el BiPAP acompaña cada respiración que inicia el paciente. El modo S/T suma una frecuencia respiratoria de respaldo: si el paciente no inicia una respiración dentro del tiempo programado, el equipo la entrega igual. Así se garantiza un número mínimo de respiraciones por minuto.\n\nEsa función es la que pesa en las enfermedades neuromusculares, donde los músculos respiratorios están débiles y el esfuerzo para iniciar cada respiración puede no alcanzar, sobre todo durante el sueño. El BiPAP BMC G3 de nuestro catálogo es S/T, con frecuencia de respaldo programable de 4 a 40 respiraciones por minuto.\n\nQué modo usar, con qué presiones y con qué frecuencia de respaldo lo define siempre tu médico tratante. Lo que hacemos nosotros es leer tu indicación antes de la compra y confirmarte que el equipo cubre lo indicado.',
+            },
+            {
+                title: 'Para quién se indica',
+                content: 'El BiPAP se usa cuando no alcanza con mantener abierta la vía aérea y hace falta asistir la ventilación. Las indicaciones más habituales son:\n[EPOC](/patologia/epoc) con hipercapnia, es decir, con retención de dióxido de carbono en sangre.\nEnfermedades neuromusculares como la [ELA](/patologia/esclerosis-lateral-amiotrofica) y la [AME](/patologia/atrofia-muscular-espinal), en las que se debilitan los músculos respiratorios.\nSíndromes de hipoventilación, entre ellos el de obesidad-hipoventilación.\nApnea del sueño compleja que no responde al CPAP.\n\nEn el paciente neuromuscular, además de ventilar hace falta poder toser. Cuando la tos se vuelve débil, el médico puede sumar un [asistente de tos (Cough Assist)](/cough-assist-asistente-de-tos) para el manejo de las secreciones.\n\nLa indicación, el modo y las presiones los define siempre tu médico tratante a partir de tu evaluación.',
+            },
+            {
+                title: 'Máscara: la mitad del tratamiento',
+                content: 'Con un BiPAP la máscara no es un accesorio. Si la máscara pierde aire, las fugas restan eficacia al tratamiento y lo vuelven incómodo: una interfaz incómoda es la principal causa de abandono.\n\nEn ventilación no invasiva es habitual la máscara nasobucal (full face), que cubre nariz y boca y evita que el aire se escape por la boca. La nasal también se usa cuando el paciente respira por la nariz y la tolera bien. La máscara no se prueba: se asesora según la indicación, cómo respira el paciente y la forma de su cara, y el talle importa tanto como el modelo.\n\nPara un BiPAP domiciliario corresponde una máscara ventilada, con orificios de exhalación. Mirá modelos, talles y precios en [máscaras para CPAP y BiPAP](/mascaras-cpap).',
+            },
+            {
+                title: 'Cómo es la compra y el envío',
+                content: 'Nos escribís por WhatsApp con la indicación de tu médico y desde qué provincia sos. Te confirmamos que el BiPAP cubre el modo y las presiones indicadas, y te pasamos el precio del día, el costo del envío a tu destino y el plazo estimado antes de que compres.\n\nCuando confirmás, te enviamos el equipo a cualquier provincia de Argentina, configurado según tu indicación médica. Al recibirlo te guiamos a distancia por WhatsApp en la puesta en marcha: cómo armarlo, cómo colocar la máscara y cómo limpiarlo.\n\nSi estás en Córdoba Capital y alrededores, la entrega es a domicilio, normalmente en el día, y la instalación la hace personal profesional.\n\nTrabajamos de forma particular: te entregamos presupuesto formal y factura oficial para que gestiones el reintegro ante tu obra social o prepaga.',
+            },
+            {
+                title: 'Evidencia científica: la ventilación no invasiva en EPOC y enfermedades neuromusculares',
+                content: 'La ventilación no invasiva (VNI) con dos niveles de presión es uno de los tratamientos con mayor respaldo en medicina respiratoria. En las exacerbaciones de EPOC con retención de dióxido de carbono, la VNI reduce la necesidad de intubación y la mortalidad, y es el estándar de cuidado recomendado por las guías internacionales (GOLD).\n\nEn EPOC estable con hipercapnia crónica, el ensayo de Köhnlein y colaboradores (2014) mostró que la VNI domiciliaria bien configurada mejora la sobrevida, y el ensayo HOT-HMV (Murphy y col., 2017) demostró que sumar VNI al oxígeno domiciliario tras una exacerbación prolonga el tiempo libre de reinternaciones.\n\nEn enfermedades neuromusculares como la ELA, el trabajo de Bourke y colaboradores (2006) demostró que la VNI mejora tanto la sobrevida como la calidad de vida, y las guías la recomiendan de forma temprana cuando aparecen signos de hipoventilación.\n\nNota: la indicación de VNI, los modos y las presiones los define siempre el médico tratante. Esta reseña es informativa. Revisada por el Lic. Sergio Giorda (MP 2123), kinesiólogo con 25 años en terapia intensiva y director de INSER SALUD. Última revisión: agosto 2026.',
+            },
+            {
+                title: 'No te entregamos una caja',
+                content: 'Tu BiPAP llega configurado según la indicación de tu médico (modo, presiones y, si corresponde, frecuencia de respaldo), listo para usar desde el primer día. No tenés que aprender a programarlo ni adivinar valores.\n\nTe explicamos cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual. Es la diferencia entre recibir un aparato y empezar un tratamiento.\n\nEn Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.',
+            },
+        ],
+        products: [
+            { name: 'BiPAP BMC G3 con frecuencia respiratoria y humidificador', price: '$1.300.000' },
+            { name: 'Ventilador STELLAR 150 ResMed con humidificador y batería', price: 'U$S 7.342' },
+        ],
+        faq: [
+            { q: '¿Cuánto cuesta un BiPAP en Argentina?', a: 'En nuestro catálogo el BiPAP BMC G3 con frecuencia respiratoria y humidificador sale $1.300.000, con venta y envío a todo el país. Si el médico indicó un ventilador de mayor complejidad, el [ResMed STELLAR 150](/ventilador-stellar-150) tiene un precio de referencia de U$S 7.342. El costo del envío depende del destino. Los precios se actualizan: confirmá el valor del día por WhatsApp.' },
+            { q: '¿El envío del BiPAP tiene costo?', a: 'Sí. El envío del BiPAP no está incluido en el precio: el costo depende del destino y te lo confirmamos por WhatsApp, junto con el plazo estimado, antes de que compres.' },
+            { q: '¿Necesito receta para comprar un BiPAP?', a: 'Sí, hace falta la indicación médica: el BiPAP, el modo y las presiones los define tu médico. Mandanos la indicación por WhatsApp y te confirmamos que el equipo cubre lo indicado antes de que compres.' },
+            { q: '¿BiPAP o CPAP: cuál necesito?', a: 'Lo define tu médico según tu diagnóstico. El CPAP entrega una sola presión y es el tratamiento estándar de la apnea obstructiva del sueño; el BiPAP entrega dos presiones y se usa en EPOC con hipercapnia, enfermedades neuromusculares, hipoventilación y apnea compleja que no responde al CPAP. Si te indicaron CPAP, mirá los [precios de CPAP y AutoCPAP](/comprar-cpap-argentina).' },
+            { q: '¿Qué garantía tiene?', a: 'El BiPAP BMC G3 tiene 2 años de garantía oficial del fabricante y es aparatología aprobada por ANMAT. El ventilador STELLAR 150 también tiene 2 años de garantía oficial del fabricante. Conseguís repuestos y soporte técnico continuo, sin importar en qué provincia estés.' },
+            { q: '¿Se puede alquilar un BiPAP?', a: 'Sí, pero solo en Córdoba Capital y alrededores, con entrega e instalación a domicilio. El alquiler se cotiza por WhatsApp: más información en [BiPAP en Córdoba](/bipap-cordoba). Al resto del país vendemos con envío.' },
+            { q: '¿Lo configuran antes de enviarlo?', a: 'Sí. El BiPAP sale configurado con el modo, las presiones y, si corresponde, la frecuencia de respaldo que indicó tu médico. Cuando lo recibís te guiamos a distancia en la puesta en marcha y la adaptación; en Córdoba, la instalación la hace personal profesional en tu domicilio.' },
+        ],
+        related: [
+            { label: 'Alquiler de BiPAP en Córdoba', href: '/bipap-cordoba' },
+            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Máscaras para CPAP y BiPAP', href: '/mascaras-cpap' },
+            { label: 'Cough Assist (asistente de tos)', href: '/cough-assist-asistente-de-tos' },
+            { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
+            { label: 'EPOC', href: '/patologia/epoc' },
+            { label: 'ELA (Esclerosis Lateral Amiotrófica)', href: '/patologia/esclerosis-lateral-amiotrofica' },
+            { label: 'Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
         ],
     },
     {
         slug: 'comprar-concentrador-oxigeno-argentina',
         national: true,
-        h1: 'Comprar concentrador de oxígeno en Argentina: envío a todo el país',
-        metaTitle: 'Comprar Concentrador de Oxígeno en Argentina | Envío Nacional | INSER SALUD',
-        metaTitleSalud: 'Comprar Concentrador de Oxígeno en Argentina | Envío Nacional | INSER SALUD',
-        description: 'Comprá un concentrador de oxígeno (fijo o portátil) en Argentina con envío a todo el país. Para oxigenoterapia en EPOC y fibrosis pulmonar. Aprobado por ANMAT, con garantía. Consultá por WhatsApp.',
+        h1: 'Precio de concentradores de oxígeno en Argentina: comprá con envío a todo el país',
+        metaTitle: 'Concentrador de oxígeno: precio desde $999.000 y envío a todo el país | INSER',
+        metaTitleSalud: 'Concentrador de oxígeno: precio desde $999.000 y envío a todo el país | INSER',
+        description: 'Precio de concentrador de oxígeno en Argentina: BMC estacionario hasta 5 L/min $999.000. Fijos, portátiles y de alto flujo, aprobados por ANMAT, cuotas fijas Banco Galicia y envío a todo el país.',
         heroImg: '/artifacts/products/concentrador_bmc_1.jpg',
         intro: 'En INSER SALUD vendemos concentradores de oxígeno fijos y portátiles con envío a todo el país. Para oxigenoterapia domiciliaria en EPOC, fibrosis pulmonar y otras indicaciones, te enviamos el equipo aprobado por ANMAT a cualquier provincia.',
         ctaSanti: 'Hola Santi, quiero comprar un concentrador de oxígeno con envío a mi provincia. ¿Qué modelos tienen?',
@@ -564,15 +647,15 @@ export const localPages = [
             },
             {
                 title: 'Envío a todo el país',
-                content: 'Coordinamos el envío del concentrador a tu domicilio en cualquier provincia de Argentina. Te llega listo para usar, con instrucciones y soporte técnico a distancia. Consultá costo y plazo de envío por WhatsApp.',
+                content: 'Coordinamos el envío del concentrador a tu domicilio en cualquier provincia de Argentina. Te llega listo para usar, con instrucciones y soporte técnico a distancia. Consultá costo y plazo de envío por WhatsApp (el YUWELL 7F-5B, por la oferta vigente, va sin cargo a todo el país).',
             },
             {
                 title: 'Garantía y respaldo',
-                content: 'Aparatología aprobada por ANMAT, con garantía oficial. Acceso a repuestos y soporte técnico continuo en todo el país.',
+                content: 'Aparatología aprobada por ANMAT, con garantía oficial del fabricante. Acceso a repuestos y soporte técnico continuo en todo el país.',
             },
             {
                 title: 'Qué concentrador necesitás según los litros que te indicaron',
-                content: 'El dato que define todo es el flujo que figura en tu indicación médica, expresado en litros por minuto.\n\nHasta 5 litros por minuto: el concentrador estacionario estándar cubre la mayoría de los casos de oxigenoterapia domiciliaria. El BMC de $999.000 entra en esta categoría e incluye control remoto y medidor de oxígeno.\n\nMás de 5 litros por minuto: necesitás un equipo de alto flujo. El [concentrador Yuwell de 10 litros](/concentrador-oxigeno-10-litros) llega al doble del estándar y es el que se usa en pacientes con alta demanda y en centros de rehabilitación pulmonar.\n\nPara salir de casa: los portátiles funcionan con batería, pero prestá atención a si tu indicación es de flujo continuo o si alcanza con pulsos.\n\nSi tenés dudas, mandanos la indicación médica por WhatsApp y te decimos qué equipo cumple.',
+                content: 'El dato que define todo es el flujo que figura en tu indicación médica, expresado en litros por minuto.\n\nHasta 5 litros por minuto: el concentrador estacionario estándar cubre la mayoría de los casos de oxigenoterapia domiciliaria. El BMC de $999.000 entra en esta categoría e incluye control remoto y medidor de oxígeno. También el Concentrador de Oxígeno YUWELL 7F-5B 5 Litros ($1.170.000), con flujo continuo de 0,5 a 5 L/min y humidificador incorporado: tiene una oferta puntual de 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock.\n\nMás de 5 litros por minuto: necesitás un equipo de alto flujo. El [concentrador Yuwell de 10 litros](/concentrador-oxigeno-10-litros) llega al doble del estándar y es el que se usa en pacientes con alta demanda y en centros de rehabilitación pulmonar.\n\nPara salir de casa: los portátiles funcionan con batería, pero prestá atención a si tu indicación es de flujo continuo o si alcanza con pulsos.\n\nSi tenés dudas, mandanos la indicación médica por WhatsApp y te decimos qué equipo cumple.',
             },
             {
                 title: 'Cómo es comprar a distancia',
@@ -584,26 +667,28 @@ export const localPages = [
             },
             {
                 title: 'No te entregamos una caja',
-                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.\n\nEn Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.',
+                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nTe explicamos cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual. Es la diferencia entre recibir un aparato y empezar un tratamiento.\n\nEn Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.\n\nEl alquiler es solo en Córdoba Capital y alrededores: mirá [alquiler de concentrador de oxígeno en Córdoba](/alquiler-concentrador-oxigeno-cordoba). Al resto del país vendemos con envío y te acompañamos en la puesta en marcha.',
             },
         ],
         products: [
             { name: 'Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)', price: '$999.000' },
+            { name: 'Concentrador de Oxígeno YUWELL 7F-5B 5 Litros', price: '$1.170.000' },
             { name: 'Concentrador portátil KINGON P2-S3 (apto vuelos)', price: 'consultar' },
             { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro)', price: 'consultar' },
             { name: 'Concentrador YUWELL 10 litros (alto flujo)', price: '$2.800.000' },
         ],
         faq: [
+            { q: '¿Cuánto cuesta un concentrador de oxígeno en Argentina?', a: 'En INSER el concentrador estacionario arranca en $999.000: es el BMC, de hasta 5 L/min, con control remoto y medidor de oxígeno. El Concentrador de Oxígeno YUWELL 7F-5B 5 Litros, también de hasta 5 L/min y con humidificador incorporado, sale $1.170.000, con una oferta puntual de 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock. El YUWELL de 10 litros, de alto flujo, sale $2.800.000. Los tres se venden con envío a todo el país; en el BMC y en el YUWELL de 10 litros el costo del envío te lo confirmamos por WhatsApp. Si necesitás un equipo a batería para salir o viajar, mirá los [concentradores portátiles](/comprar-concentrador-oxigeno-portatil-argentina). El alquiler es solo en Córdoba y se cotiza por WhatsApp: más información en [alquiler en Córdoba](/alquiler-concentrador-oxigeno-cordoba). Los precios se actualizan; confirmá el valor del día por WhatsApp.' },
             { q: '¿Envían concentradores de oxígeno a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina. Coordinamos el envío por WhatsApp.' },
             { q: '¿Conviene fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
             { q: '¿Hay concentradores aptos para vuelos?', a: 'Sí, modelos como el GCE Zen-O están homologados para volar. Consultanos antes de viajar.' },
             { q: '¿Necesito receta médica?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
             { q: '¿Cuánto tarda en llegar a mi provincia?', a: 'Depende del destino y del transporte. Te confirmamos el plazo estimado por WhatsApp antes de que compres, junto con el costo del envío.' },
-            { q: '¿Los equipos tienen garantía?', a: 'Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía oficial.' },
-            { q: '¿Puedo pagar en cuotas?', a: 'Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a las condiciones del banco. Consultanos por WhatsApp y te pasamos el valor exacto de la cuota de tu equipo.' },
+            { q: '¿Los equipos tienen garantía?', a: 'Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía oficial del fabricante.' },
         ],
         related: [
             { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Comprar concentrador de oxígeno portátil (envío nacional)', href: '/comprar-concentrador-oxigeno-portatil-argentina' },
             { label: 'Concentrador de oxígeno portátil en Córdoba', href: '/concentrador-oxigeno-portatil-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
@@ -654,6 +739,7 @@ export const localPages = [
         ],
         related: [
             { label: 'Comprar concentrador de oxígeno (envío nacional)', href: '/comprar-concentrador-oxigeno-argentina' },
+            { label: 'Comprar concentrador de oxígeno portátil (envío nacional)', href: '/comprar-concentrador-oxigeno-portatil-argentina' },
             { label: 'Oxígeno a domicilio en Córdoba', href: '/oxigeno-a-domicilio-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)', href: '/academia/ebook/oxigenoterapia' },
@@ -686,7 +772,7 @@ export const localPages = [
             },
             {
                 title: 'Cambio y reposición',
-                content: 'La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas que restan eficacia al tratamiento.\n\nEnviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos compatibilidad con tu equipo antes de comprar.',
+                content: 'La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas que restan eficacia al tratamiento.\n\nEnviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos compatibilidad con tu equipo antes de comprar. Si lo que necesitás reponer es el tubo, tenemos la Tubuladura para CPAP / BiPAP ($36.000), un repuesto universal de 22 mm estándar.',
             },
         ],
         products: [
@@ -696,6 +782,7 @@ export const localPages = [
             { name: 'Máscara nasobucal Philips DreamWear Full Face', price: 'U$S 157' },
             { name: 'Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva', price: '$68.000' },
             { name: 'Máscaras pediátricas (Cirri Mini, Philips Wisp, Infant CPAP Kit)', price: 'desde U$S 97' },
+            { name: 'Tubuladura para CPAP / BiPAP', price: '$36.000' },
         ],
         faq: [
             { q: '¿Qué máscara elijo si respiro por la boca?', a: 'Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face (U$S 157), BMC F6 (U$S 124) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.' },
@@ -833,6 +920,8 @@ export const localPages = [
             { label: 'Concentrador de oxígeno de 10 litros', href: '/concentrador-oxigeno-10-litros' },
             { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
             { label: 'BiPAP en Córdoba', href: '/bipap-cordoba' },
+            { label: 'Cough Assist (asistente de tos)', href: '/cough-assist-asistente-de-tos' },
+            { label: 'Polígrafo respiratorio', href: '/comprar-poligrafo-argentina' },
             { label: 'Curso gratuito (ebook): Ventilación mecánica, de la perilla a la curva', href: '/academia/ebook/ventilacion-mecanica' },
             { label: 'Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)', href: '/academia/ebook/ventilacion-no-invasiva' },
             { label: 'Curso gratuito (ebook): Rehabilitación pulmonar, con test de marcha y casos', href: '/academia/ebook/rehabilitacion-pulmonar' },
@@ -866,7 +955,7 @@ export const localPages = [
             },
             {
                 title: 'Compra con respaldo',
-                content: 'Aparatología aprobada por ANMAT con garantía oficial. Envío a todo el país, capacitación de uso, servicio técnico y provisión de baterías y accesorios. Si estás en Córdoba, también ofrecemos alquiler para probar antes de comprar.',
+                content: 'Aparatología aprobada por ANMAT, con garantía oficial del fabricante. Envío a todo el país, capacitación de uso, servicio técnico y provisión de baterías y accesorios. Si estás en Córdoba, también ofrecemos alquiler para probar antes de comprar.',
             },
             {
                 title: 'Peso y autonomía: los dos datos que definen el modelo',
@@ -928,7 +1017,7 @@ export const localPages = [
             },
             {
                 title: 'Precio y qué incluye',
-                content: 'Precio de referencia: U$S 7.342 (consultá la cotización del día por WhatsApp). Incluye humidificador y batería interna. Aprobado por ANMAT, con garantía oficial y acceso a servicio técnico y repuestos.\n\nComplementos habituales: Cough Assist (asistente de tos, U$S 9.084) para el manejo de secreciones en ELA/AME, y máscaras de ventilación no invasiva en todos los talles.',
+                content: 'Precio de referencia: U$S 7.342 (consultá la cotización del día por WhatsApp). Incluye humidificador y batería interna. Aprobado por ANMAT, con garantía oficial del fabricante y acceso a servicio técnico y repuestos.\n\nComplementos habituales: Cough Assist (asistente de tos, U$S 9.084) para el manejo de secreciones en ELA/AME, y máscaras de ventilación no invasiva en todos los talles.',
             },
             {
                 title: 'Compra con acompañamiento',
@@ -959,7 +1048,7 @@ export const localPages = [
         ],
         faq: [
             { q: '¿El STELLAR 150 sirve para ventilación invasiva y no invasiva?', a: 'Sí, soporta ambas: por traqueostomía (invasiva) y por máscara (no invasiva), en pacientes adultos y pediátricos, con alarmas clínicas y batería interna.' },
-            { q: '¿Cuánto cuesta el STELLAR 150 en Argentina?', a: 'Precio de referencia U$S 7.342, con humidificador y batería interna incluidos. Confirmá la cotización del día por WhatsApp. Aprobado por ANMAT con garantía oficial.' },
+            { q: '¿Cuánto cuesta el STELLAR 150 en Argentina?', a: 'Precio de referencia U$S 7.342, con humidificador y batería interna incluidos. Confirmá la cotización del día por WhatsApp. Aprobado por ANMAT, con garantía oficial del fabricante.' },
             { q: '¿Necesito prescripción médica?', a: 'Sí. Es un equipo de soporte vital: la indicación y la configuración las define el médico tratante. Nosotros proveemos el equipo y el soporte técnico.' },
             { q: '¿Qué diferencia hay con un BiPAP?', a: 'El BiPAP es para ventilación no invasiva de soporte. El STELLAR 150 agrega ventilación invasiva, más modos ventilatorios, alarmas clínicas completas y batería interna: es para dependencia ventilatoria de mayor complejidad.' },
             { q: '¿Cuánta autonomía tiene la batería del STELLAR 150?', a: 'La batería interna da hasta 2 horas de autonomía y viene incluida con el equipo, junto con el humidificador. Con la batería externa Power Station II la ficha declara hasta 8 horas: consultanos por WhatsApp disponibilidad y precio de esa batería externa antes de contar con ella. Las 2 horas de la interna son una autonomía de contingencia para cortes de luz y traslados, no un respaldo para un corte largo.' },
@@ -995,7 +1084,7 @@ export const localPages = [
             },
             {
                 title: 'Precio y compra',
-                content: 'Precio de referencia: U$S 1.570 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial.\n\nEnviamos a todo el país, con capacitación de uso y del software incluida (presencial en Córdoba, guiada a distancia en el resto del país), y quedamos como soporte técnico permanente. Emitimos factura y presupuesto formal para instituciones.',
+                content: 'Precio de referencia: U$S 1.570 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial del fabricante.\n\nEnviamos a todo el país, con capacitación de uso y del software incluida (presencial en Córdoba, guiada a distancia en el resto del país), y quedamos como soporte técnico permanente. Emitimos factura y presupuesto formal para instituciones.',
             },
             {
                 title: '¿Buscás hacerte un estudio del sueño?',
@@ -1016,7 +1105,7 @@ export const localPages = [
             { q: '¿Quién puede comprar y usar el polígrafo?', a: 'Está orientado a profesionales e instituciones de salud (neumonólogos, clínicas del sueño, kinesiólogos, centros de diagnóstico). La interpretación del estudio la realiza el médico.' },
             { q: '¿Qué registra el BMC YH-600B PRO?', a: 'Es un polígrafo respiratorio de 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca. Incluye software de descarga y análisis para el informe.' },
             { q: '¿Busco hacerme la poligrafía, no comprar el equipo?', a: 'En esta página vendemos el equipo, para profesionales y centros. Si lo que buscás es hacerte el estudio del sueño, en Córdoba lo hacemos nosotros: mirá [poligrafía respiratoria domiciliaria en Córdoba](/estudio-del-sueno-cordoba) y escribinos por WhatsApp.' },
-            { q: '¿Cuánto cuesta el polígrafo?', a: 'Precio de referencia U$S 1.570, aprobado por ANMAT y con garantía oficial. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.' },
+            { q: '¿Cuánto cuesta el polígrafo?', a: 'Precio de referencia U$S 1.570, aprobado por ANMAT y con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.' },
             { q: '¿Incluye capacitación?', a: 'Sí: capacitación de uso del equipo y del software, presencial en Córdoba o guiada a distancia en el resto del país, más soporte técnico permanente.' },
             { q: '¿El polígrafo viene con cánulas?', a: 'Hay dos opciones: el equipo solo, o el equipo con 30 cánulas Luer Lock incluidas por U$S 1.794. La cánula es descartable y se cambia en cada estudio, así que la versión con insumos sirve para arrancar sin depender de otra compra.' },
         ],
@@ -1048,7 +1137,7 @@ export const localPages = [
             },
             {
                 title: 'Precio y compra',
-                content: 'Precio de referencia: U$S 9.084 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial.\n\nEnviamos a todo el país y capacitamos a la familia y a los cuidadores en el uso seguro del equipo (presencial en Córdoba, guiada a distancia en el resto del país). Entregamos presupuesto formal y factura para gestionar el reintegro o la cobertura con la obra social.',
+                content: 'Precio de referencia: U$S 9.084 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial del fabricante.\n\nEnviamos a todo el país y capacitamos a la familia y a los cuidadores en el uso seguro del equipo (presencial en Córdoba, guiada a distancia en el resto del país). Entregamos presupuesto formal y factura para gestionar el reintegro o la cobertura con la obra social.',
             },
             {
                 title: 'El circuito completo para el paciente neuromuscular',
@@ -1076,7 +1165,7 @@ export const localPages = [
         faq: [
             { q: '¿Qué hace exactamente un Cough Assist?', a: 'Reproduce una tos eficaz mediante insuflación-exuflación mecánica: llena los pulmones con presión positiva y de inmediato aplica presión negativa, generando el flujo que arrastra las secreciones. Es no invasivo.' },
             { q: '¿Para qué pacientes está indicado?', a: 'Para tos débil o ineficaz por enfermedades neuromusculares: ELA, AME, distrofias musculares y lesiones medulares, entre otras. La indicación la define el equipo médico tratante.' },
-            { q: '¿Cuánto cuesta el Cough Assist en Argentina?', a: 'Precio de referencia U$S 9.084, aprobado por ANMAT con garantía oficial. Confirmá la cotización del día por WhatsApp. Entregamos presupuesto y factura para el reintegro de la obra social.' },
+            { q: '¿Cuánto cuesta el Cough Assist en Argentina?', a: 'Precio de referencia U$S 9.084, aprobado por ANMAT, con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Entregamos presupuesto y factura para el reintegro de la obra social.' },
             { q: '¿La familia puede aprender a usarlo?', a: 'Sí, es parte de la entrega: capacitamos a familiares y cuidadores en el uso seguro (presencial en Córdoba, a distancia en el resto del país) y quedamos como soporte permanente.' },
             { q: '¿Cuántas veces por día se usa el Cough Assist?', a: 'Se usa en sesiones, no de forma continua. La pauta habitual es de 2 a 3 sesiones por día de alrededor de 5 ciclos cada una, y durante una infección respiratoria el médico puede indicar aumentar la frecuencia. La pauta definitiva sale de la indicación médica o kinésica de cada paciente.' },
             { q: '¿Sirve para un paciente pediátrico?', a: 'Sí: está previsto para uso adulto y pediátrico, con interfaces específicas según el caso. Entre sus indicaciones declaradas están la AME, la distrofia de Duchenne y la parálisis cerebral. Contanos la edad del paciente y qué indicó el médico y te pasamos precio, disponibilidad y el envío a tu provincia.' },

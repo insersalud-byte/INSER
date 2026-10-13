@@ -124,6 +124,7 @@ const LOCAL_LINKS = [
     ['/concentrador-oxigeno-portatil-cordoba', 'Concentrador de oxígeno portátil en Córdoba'],
     ['/estudio-del-sueno-cordoba', 'Estudio del sueño a domicilio en Córdoba'],
     ['/comprar-cpap-argentina', 'Comprar CPAP en Argentina (envío a todo el país)'],
+    ['/comprar-bipap-argentina', 'Precio de BiPAP y compra con envío a todo el país'],
     ['/comprar-concentrador-oxigeno-argentina', 'Comprar concentrador de oxígeno en Argentina (envío)'],
     ['/concentrador-oxigeno-10-litros', 'Concentrador de oxígeno de 10 litros (alto flujo)'],
     ['/mascaras-cpap', 'Máscaras para CPAP y BiPAP (nasales, nasobucales y pediátricas)'],
@@ -133,6 +134,22 @@ const LOCAL_LINKS = [
     ['/ventilador-stellar-150', 'Ventilador ResMed STELLAR 150'],
     ['/comprar-poligrafo-argentina', 'Comprar polígrafo respiratorio (estudios del sueño)'],
     ['/cough-assist-asistente-de-tos', 'Cough Assist — asistente de tos mecánico'],
+];
+
+// Cursos PUBLICADOS de la Academia (paginas estaticas en public/academia/ebook/<slug>), con la
+// etiqueta corta del pie del home. Enlaces directos desde el home: los cursos nuevos recibian casi
+// ningun enlace interno. MANTENER SINCRONIZADO con academiaCursos de LandingPage.jsx (footer React)
+// y con las URLs /academia/ebook/<slug> del sitemap (buildSitemap, mas abajo).
+const ACADEMIA_CURSOS = [
+    ['ventilacion-mecanica', 'Ventilación mecánica'],
+    ['ventilacion-no-invasiva', 'VNI'],
+    ['alto-flujo', 'Alto flujo'],
+    ['oxigenoterapia', 'Oxigenoterapia'],
+    ['extubacion-decanulacion-deglucion', 'Extubación y deglución'],
+    ['rehabilitacion-pulmonar', 'Rehabilitación pulmonar'],
+    ['ventilacion-neuromuscular', 'Ventilación neuromuscular'],
+    ['apnea-del-sueno', 'Apnea del sueño'],
+    ['imagenes-respiratorias', 'Imágenes respiratorias'],
 ];
 
 const DEFINITIONS = [
@@ -565,13 +582,14 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <ul>
 ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`).join('\n')}
 </ul>
-<p><a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/politica-de-devoluciones">Política de devoluciones</a> · <a href="/politica-de-devoluciones#arrepentimiento">Botón de arrepentimiento</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)</a></p>`;
+<p><a href="/sobre-nosotros">Quiénes somos</a> · <a href="/contacto">Contacto</a> · <a href="/politica-de-privacidad">Política de privacidad</a> · <a href="/politica-de-devoluciones">Política de devoluciones</a> · <a href="/politica-de-devoluciones#arrepentimiento">Botón de arrepentimiento</a> · <a href="/tarjeta">Tarjeta digital de contacto</a> · <a href="/academia">Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)</a></p>
+<p>Cursos gratuitos de la Academia: ${ACADEMIA_CURSOS.map(([slug, label]) => `<a href="/academia/ebook/${slug}">${esc(label)}</a>`).join(' · ')}</p>`;
 
     const proceso = `
 <h2>Cómo trabajamos</h2>
 <ol>
 <li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.</li>
-<li><strong>Te asesoramos</strong>: elegimos el equipo correcto según tu prescripción médica y tu presupuesto.</li>
+<li><strong>Te asesoramos</strong>: elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.</li>
 <li><strong>Entregamos e instalamos</strong>: en Córdoba a domicilio en el día; al resto del país, envío con puesta en marcha guiada.</li>
 <li><strong>Te acompañamos</strong>: adaptación, soporte técnico, repuestos y factura con presupuesto formal para el reintegro de tu obra social.</li>
 </ol>`;
@@ -704,21 +722,24 @@ function htmlToMarkdown(html) {
     return decodeEntities(s).replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 function yamlStr(s) { return '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\s+/g, ' ').trim() + '"'; }
-function buildMarkdownPage(meta, bodyHtml) {
+// meta.author: undefined = MD_AUTOR (paginas propias del sitio); null = no se declara (politicas,
+// tarjeta). meta.reviewed vacio = no se declara: mejor sin fecha que con una inventada.
+// cuerpoMd: markdown ya convertido (paginas estaticas de public/); si falta, se convierte bodyHtml.
+function buildMarkdownPage(meta, bodyHtml, cuerpoMd) {
     const fm = [
         '---',
         `title: ${yamlStr(meta.title)}`,
         `description: ${yamlStr(sinMarkdown(meta.description || ''))}`,
         `url: ${meta.url}`,
-        `canonical: ${meta.url}`,
-        `author: ${yamlStr(MD_AUTOR)}`,
-        `last_reviewed: ${meta.reviewed}`,
+        `canonical: ${meta.canonical || meta.url}`,
+        ...(meta.author === null ? [] : [`author: ${yamlStr(meta.author || MD_AUTOR)}`]),
+        ...(meta.reviewed ? [`last_reviewed: ${meta.reviewed}`] : []),
         'language: es-AR',
         'publisher: INSER SALUD (https://insersalud.com)',
         '---',
     ].join('\n');
     const pie = `Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt`;
-    return `${fm}\n\n${htmlToMarkdown(bodyHtml)}\n\n---\n\n${pie}\n`;
+    return `${fm}\n\n${cuerpoMd ?? htmlToMarkdown(bodyHtml)}\n\n---\n\n${pie}\n`;
 }
 // <link rel="alternate" type="text/markdown"> en el <head>: asi un agente descubre el .md sin adivinar.
 function withMdLink(html, mdPath) {
@@ -728,6 +749,141 @@ function writeMd(rel, md) {
     const abs = resolve(DIST, rel);
     mkdirSync(dirname(abs), { recursive: true });
     writeFileSync(abs, md, 'utf8');
+}
+
+// ---------- Markdown de las paginas ESTATICAS (Academia y sus cursos, politicas, tarjeta) ----------
+// Estas no salen de un .js como las landings: son HTML escritos a mano o el build de cada ebook, que
+// Vite copia de public/ a dist/. El markdown se saca del MISMO HTML que se sirve, quedandose con el
+// texto de lectura y quitando lo que no lo es: scripts, estilos, SVG, los controles de los simuladores
+// (button/select/input/output), los dialogos, lo oculto (hidden, aria-hidden, regiones aria-live/
+// role=status que llena el JS) y las hojas imprimibles (aria-label "...imprimible..."), que en
+// pantalla no se ven.
+const VOID_TAGS = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr']);
+const STATIC_DROP_TAGS = new Set(['script', 'style', 'svg', 'template', 'noscript', 'canvas', 'dialog', 'iframe', 'object', 'video', 'audio', 'button', 'select', 'textarea', 'output', 'meter', 'progress', 'datalist']);
+
+function esElementoNoLeible(tag, attrs) {
+    // El atributo hidden se busca en la lista de atributos SIN los valores entre comillas:
+    // si no, la palabra "hidden" dentro de un class="... hidden" contaba como atributo.
+    const sinValores = attrs.replace(/"[^"]*"|'[^']*'/g, '');
+    return STATIC_DROP_TAGS.has(tag)
+        || /\shidden(?=[\s=/]|$)/i.test(sinValores)
+        || /\saria-hidden="true"/i.test(attrs)
+        || /\saria-live="/i.test(attrs)
+        || /\srole="(dialog|alertdialog|status|alert)"/i.test(attrs)
+        || /\saria-label="[^"]*imprimible/i.test(attrs);
+}
+
+// Quita cada elemento (con todo su contenido) cuya etiqueta de apertura cumple debeIrse.
+// Cuenta la anidacion de la MISMA etiqueta para cerrar en el lugar correcto; si no encuentra el
+// cierre, quita solo la etiqueta de apertura (nunca se come el resto de la pagina).
+function dropElements(html, debeIrse) {
+    const openRe = /<([a-zA-Z][a-zA-Z0-9-]*)\b((?:[^>"']|"[^"]*"|'[^']*')*)>/g;
+    let out = '';
+    let i = 0;
+    for (;;) {
+        openRe.lastIndex = i;
+        let m;
+        let hit = null;
+        while ((m = openRe.exec(html))) {
+            if (debeIrse(m[1].toLowerCase(), m[2])) { hit = m; break; }
+        }
+        if (!hit) { out += html.slice(i); break; }
+        out += html.slice(i, hit.index);
+        const tag = hit[1].toLowerCase();
+        const finApertura = hit.index + hit[0].length;
+        let end = finApertura;
+        if (!VOID_TAGS.has(tag) && !/\/\s*$/.test(hit[2])) {
+            const re = new RegExp(`<(/?)${tag}\\b(?:[^>"']|"[^"]*"|'[^']*')*>`, 'gi');
+            re.lastIndex = finApertura;
+            let depth = 1;
+            let t;
+            while (depth && (t = re.exec(html))) {
+                if (t[1]) depth--;
+                else if (!/\/\s*>$/.test(t[0])) depth++;
+                end = t.index + t[0].length;
+            }
+            if (depth) end = finApertura;
+        }
+        i = end;
+    }
+    return out;
+}
+
+// <body> de una pagina estatica -> HTML simple que htmlToMarkdown sabe convertir.
+function staticBodyToHtml(html, pageUrl) {
+    let body = (String(html).match(/<body\b[^>]*>([\s\S]*)<\/body>/i) || [])[1] || '';
+    body = body.replace(/<!--[\s\S]*?-->/g, '');
+    body = body.replace(/<(script|style|template|noscript)\b[\s\S]*?<\/\1\s*>/gi, '');
+    // En HTML un salto de linea del fuente es un espacio: la estructura la dan solo las etiquetas.
+    // (Tambien normaliza "</a\n>", que algunos ebooks traen y el conversor no reconoceria.)
+    body = body.replace(/\s+/g, ' ').replace(/<\/([a-zA-Z][a-zA-Z0-9-]*) >/g, '</$1>');
+    body = dropElements(body, esElementoNoLeible);
+    body = body.replace(/<(input|option)\b[^>]*>/gi, '');
+    body = body.replace(/<a\b[^>]*class="skip[^"]*"[^>]*>[\s\S]*?<\/a>/gi, ''); // "Saltar al contenido"
+    // Imagenes: fuera las decorativas (alt="") y las incrustadas en base64 (data:), que pesan KB de basura.
+    body = body.replace(/<img\b[^>]*>/gi, (tag) => (/\ssrc="(data:|")/i.test(tag) || !/\ssrc="/i.test(tag) || /\salt=""/i.test(tag) ? '' : tag));
+    // Anclas internas (#seccion) -> URL absoluta de la pagina: el .md no tiene esos anclajes.
+    body = body.replace(/\shref="#([^"]*)"/gi, (m, h) => ` href="${pageUrl}${h ? '#' + h : ''}"`);
+    // Piezas inline que en pantalla van en lineas distintas ("Ventilación mecánica" + "de la perilla"): con espacio.
+    body = body.replace(/<(span|small)\b/gi, ' <$1');
+    // Un <br> dentro de un titulo partiria el encabezado markdown en dos lineas.
+    body = body.replace(/<(h[1-6])\b([^>]*)>([\s\S]*?)<\/\1>/gi, (m, t, a, txt) => `<${t}${a}>${txt.replace(/<br\s*\/?>/gi, ' ')}</${t}>`);
+    // Los <nav> se vuelven listas de enlaces (htmlToMarkdown los borraria): en la tarjeta digital los
+    // enlaces de contacto SON el contenido, y en los ebooks el nav es el indice de capitulos.
+    body = body.replace(/<nav\b[^>]*>([\s\S]*?)<\/nav>/gi, (m, inner) => {
+        const links = [...inner.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/gi)].map((x) => `<li>${x[0]}</li>`);
+        return links.length ? `<ul>${links.join('')}</ul>` : '';
+    });
+    body = body.replace(/<(figcaption|summary|dt|dd|blockquote|caption)\b[^>]*>([\s\S]*?)<\/\1>/gi, (m, t, txt) => `<p>${txt}</p>`);
+    return body;
+}
+
+// Los simuladores dejan en el HTML su pantalla inicial (rotulos, unidades, valores: "SpO₂", "98",
+// "%", ...). En markdown eso es una tira de bloques cortos sin sentido: se quitan las rachas de 6 o
+// mas bloques cortos seguidos, y despues los titulos que quedaron sin contenido debajo.
+function limpiarRelleno(md) {
+    const bloques = md.replace(/^[ \t]+/gm, '').split(/\n{2,}/).map((b) => b.trim()).filter(Boolean);
+    const corto = (b) => b.length <= 40 && !/^(#|- |\d+\. |\|)/.test(b);
+    let res = [];
+    for (let i = 0; i < bloques.length;) {
+        if (!corto(bloques[i])) { res.push(bloques[i]); i++; continue; }
+        let j = i;
+        while (j < bloques.length && corto(bloques[j])) j++;
+        if (j - i < 6) res.push(...bloques.slice(i, j));
+        i = j;
+    }
+    for (let cambio = true; cambio;) {
+        cambio = false;
+        const sigue = [];
+        for (let k = 0; k < res.length; k++) {
+            const h = res[k].match(/^(#{1,6}) /);
+            const hs = res[k + 1] && res[k + 1].match(/^(#{1,6}) /);
+            if (h && (!res[k + 1] || (hs && hs[1].length <= h[1].length))) { cambio = true; continue; }
+            sigue.push(res[k]);
+        }
+        res = sigue;
+    }
+    return res.join('\n\n');
+}
+
+// Front matter de una pagina estatica, leido de su propio <head>.
+function staticPageMeta(html, path) {
+    const url = SALUD + path;
+    const leer = (re) => decodeEntities((String(html).match(re) || [])[1] || '').replace(/\s+/g, ' ').trim();
+    const autor = leer(/<meta\s+name="author"\s+content="([^"]*)"/i);
+    const esAcademia = path === '/academia' || path.startsWith('/academia/');
+    // Fecha declarada por la propia pagina en su JSON-LD (lastReviewed manda sobre dateModified).
+    const fecha = (String(html).match(/"lastReviewed"\s*:\s*"(\d{4}-\d{2}-\d{2})/)
+        || String(html).match(/"dateModified"\s*:\s*"(\d{4}-\d{2}-\d{2})/) || [])[1] || '';
+    return {
+        title: leer(/<title>([\s\S]*?)<\/title>/i),
+        description: leer(/<meta\s+name="description"\s+content="([^"]*)"/i),
+        url,
+        canonical: leer(/<link\s+rel="canonical"\s+href="([^"]*)"/i) || url,
+        // La Academia la escribe el Lic. Giorda; politicas y tarjeta son de la empresa (publisher).
+        author: (esAcademia || /Giorda/i.test(autor)) ? MD_AUTOR : null,
+        reviewed: fecha,
+    };
 }
 
 function buildLocalBody(p) {
@@ -780,7 +936,7 @@ function buildLocalSchema(p, base) {
                 // autor, a diferencia de las patologias. El Person (MP 2123) vive en index.html.
                 author: { '@id': 'https://insersalud.com/#sergiogiorda' },
                 reviewedBy: { '@id': 'https://insersalud.com/#sergiogiorda' },
-                lastReviewed: REVISION_LANDINGS,
+                lastReviewed: p.reviewed || REVISION_LANDINGS,
             },
             {
                 '@type': 'BreadcrumbList',
@@ -844,10 +1000,12 @@ try {
 
     // Markdown por pagina (solo la variante que se sirve, insersalud.com) + acumulado para llms-full.txt
     const mdPages = [];
-    const addMd = (rel, meta, bodyHtml) => {
-        const md = buildMarkdownPage(meta, bodyHtml);
+    const mdUrls = new Set(); // URLs que ya tienen .md: el sitemap se recorre despues para cubrir el resto
+    const addMd = (rel, meta, bodyHtml, cuerpoMd) => {
+        const md = buildMarkdownPage(meta, bodyHtml, cuerpoMd);
         writeMd(rel, md);
         mdPages.push(md);
+        mdUrls.add(meta.url);
     };
     addMd('index.md', { title: SALUD_HOME.title, description: SALUD_HOME.desc, url: SALUD + '/', reviewed: REVISION_LANDINGS }, buildHomeBody('salud'));
 
@@ -893,7 +1051,7 @@ try {
         // insersalud.com
         write(resolve(DIST, 'insersalud', p.slug), buildLocalPage(p, SALUD, p.metaTitleSalud || p.metaTitle));
         count++;
-        addMd(`${p.slug}.md`, { title: p.metaTitleSalud || p.metaTitle, description: p.description, url: `${SALUD}/${p.slug}`, reviewed: REVISION_LANDINGS }, buildLocalBody(p));
+        addMd(`${p.slug}.md`, { title: p.metaTitleSalud || p.metaTitle, description: p.description, url: `${SALUD}/${p.slug}`, reviewed: p.reviewed || REVISION_LANDINGS }, buildLocalBody(p));
     }
 
     // SITEMAPS generados desde la MISMA fuente que las paginas (localPages.js y
@@ -930,6 +1088,9 @@ try {
             u(`${SALUD}/tarjeta`, '0.3'),
             u(`${SALUD}/politica-de-privacidad`, '0.2'),
             u(`${SALUD}/politica-de-devoluciones`, '0.3'),
+            // Paginas de confianza (quienes somos y contacto): HTML estatico en public/, fuera de la SPA
+            u(`${SALUD}/sobre-nosotros`, '0.5'),
+            u(`${SALUD}/contacto`, '0.5'),
             // Academia: paginas estaticas en public/academia (fuera de la SPA, como /tarjeta)
             u(`${SALUD}/academia`, '0.6'),
             u(`${SALUD}/academia/ebook`, '0.6'),
@@ -977,22 +1138,63 @@ try {
         }
     }
 
+    // Markdown de las paginas ESTATICAS del sitemap (Academia y sus cursos, politicas, tarjeta).
+    // Se recorre el sitemap recien generado: toda URL publicada que todavia no tiene .md lo recibe,
+    // asi ninguna URL del sitemap da 404 al pedir su .md. Solo entran los cursos PUBLICADOS (los del
+    // sitemap): un borrador que este en public/academia/ebook/ sin estar en el sitemap no se publica.
+    const estaticas = [];
+    for (const [, loc] of sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+        if (mdUrls.has(loc) || !loc.startsWith(SALUD + '/')) continue;
+        const path = loc.slice(SALUD.length);
+        let html = '';
+        for (const dir of [DIST, resolve(__dirname, '..', 'public')]) {
+            try { html = readFileSync(resolve(dir, path.slice(1), 'index.html'), 'utf8'); break; } catch { /* probar el siguiente */ }
+        }
+        if (!html) { console.warn(`[prerender] sin HTML para generar ${path}.md`); continue; }
+        estaticas.push({ path, html });
+    }
+    // La Academia primero (es lo que un agente viene a buscar); despues politicas y tarjeta.
+    estaticas.sort((a, b) => Number(!a.path.startsWith('/academia')) - Number(!b.path.startsWith('/academia')));
+    const mdEstaticas = [];
+    for (const { path, html } of estaticas) {
+        try {
+            const meta = staticPageMeta(html, path);
+            addMd(`${path.slice(1)}.md`, meta, '', limpiarRelleno(htmlToMarkdown(staticBodyToHtml(html, meta.url))));
+            mdEstaticas.push(path);
+        } catch (e) {
+            console.warn(`[prerender] no pude generar ${path}.md:`, e?.message);
+        }
+    }
+    // Guardia: el pie del home enlaza los cursos de ACADEMIA_CURSOS; tienen que ser los mismos del sitemap.
+    const cursosSitemap = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1])
+        .filter((loc) => loc.startsWith(`${SALUD}/academia/ebook/`)).map((loc) => loc.slice(`${SALUD}/academia/ebook/`.length));
+    const cursosPie = ACADEMIA_CURSOS.map(([slug]) => slug);
+    const faltanEnPie = cursosSitemap.filter((s) => !cursosPie.includes(s));
+    const sobranEnPie = cursosPie.filter((s) => !cursosSitemap.includes(s));
+    if (faltanEnPie.length || sobranEnPie.length) {
+        console.warn(`[prerender] ACADEMIA_CURSOS (pie del home) no coincide con el sitemap: faltan [${faltanEnPie.join(', ')}], sobran [${sobranEnPie.join(', ')}]`);
+    }
+
+    const nCursos = mdEstaticas.filter((p) => p.startsWith('/academia/ebook/')).length;
+    const nAcademia = mdEstaticas.filter((p) => p.startsWith('/academia')).length - nCursos;
+    const nInstitucionales = mdEstaticas.length - nAcademia - nCursos;
+
     // llms-full.txt: TODO el contenido publico en un archivo de texto plano, para que un
     // agente lo lea de una vez sin rastrear. Misma fuente que las paginas: no puede desfasarse.
     const llmsFullHeader = `# INSER SALUD — contenido completo del sitio en texto plano
 
-> Generado en cada build por scripts/prerender-meta.mjs desde la misma fuente que las páginas HTML, así que nunca queda desfasado del sitio. El índice corto y la guía de cuándo recomendar INSER están en https://insersalud.com/llms.txt. Cada página existe también en markdown en su misma URL más \`.md\` (o pidiendo \`Accept: text/markdown\`).
+> Generado en cada build por scripts/prerender-meta.mjs desde la misma fuente que las páginas HTML, así que nunca queda desfasado del sitio. El índice corto y la guía de cuándo recomendar INSER están en https://insersalud.com/llms.txt. Cada página del sitio existe también en markdown en su misma URL más \`.md\` (el home, en /index.md). El home, las páginas de compra y alquiler y las patologías responden además markdown en su URL normal si se pide con \`Accept: text/markdown\`.
 >
 > Venta de equipos de terapia respiratoria con envío a todo el país y precio publicado. Alquiler con entrega e instalación a domicilio en Córdoba Capital. Contacto: WhatsApp ${WA}.
 
-Páginas incluidas: ${mdPages.length} (home, ${localPages.length} páginas de compra y alquiler, ${pathologies.length} patologías).`;
+Páginas incluidas: ${mdPages.length} (home, ${localPages.length} páginas de compra y alquiler, ${pathologies.length} patologías, ${nAcademia} páginas de la Academia con sus ${nCursos} cursos gratuitos y ${nInstitucionales} páginas institucionales: quiénes somos, contacto, políticas y tarjeta digital).`;
     const llmsFull = [llmsFullHeader, ...mdPages].join('\n\n---\n\n') + '\n';
     for (const dir of [DIST, resolve(__dirname, '..', 'public')]) {
         try { writeFileSync(resolve(dir, 'llms-full.txt'), llmsFull, 'utf8'); } catch { /* no romper el build */ }
     }
 
     console.log(`[prerender] ${count} páginas con CONTENIDO en el body (inser.ar + insersalud.com)`);
-    console.log(`[prerender] markdown: ${mdPages.length} paginas .md + llms-full.txt (${llmsFull.length} bytes)`);
+    console.log(`[prerender] markdown: ${mdPages.length} paginas .md (${mdEstaticas.length} estaticas: Academia, politicas, tarjeta) + llms-full.txt (${llmsFull.length} bytes)`);
     console.log(`[prerender] sitemaps regenerados: ${nUrls} URLs`);
 } catch (err) {
     console.warn('[prerender] error no fatal, se omite:', err?.message);

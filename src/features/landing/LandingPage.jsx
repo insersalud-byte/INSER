@@ -1253,6 +1253,21 @@ const comparativeRows = [
     ['Desde', '$499.000', '$630.000', '$1.300.000'],
 ];
 
+// ── Cursos gratuitos de la Academia (enlaces directos en el footer) ─────────
+// Paginas estaticas en public/academia/ebook/<slug>, fuera de la SPA: van con <a href>, no con <Link>.
+// MANTENER SINCRONIZADO con ACADEMIA_CURSOS de scripts/prerender-meta.mjs (footer del HTML estatico).
+const academiaCursos = [
+    ['ventilacion-mecanica', 'Ventilación mecánica'],
+    ['ventilacion-no-invasiva', 'VNI'],
+    ['alto-flujo', 'Alto flujo'],
+    ['oxigenoterapia', 'Oxigenoterapia'],
+    ['extubacion-decanulacion-deglucion', 'Extubación y deglución'],
+    ['rehabilitacion-pulmonar', 'Rehabilitación pulmonar'],
+    ['ventilacion-neuromuscular', 'Ventilación neuromuscular'],
+    ['apnea-del-sueno', 'Apnea del sueño'],
+    ['imagenes-respiratorias', 'Imágenes respiratorias'],
+];
+
 // ── Helper ─────────────────────────────────────────────────────────────────
 const openSanti = (message) => {
     window.dispatchEvent(new CustomEvent('open-santi', { detail: { message } }));
@@ -2339,7 +2354,7 @@ const LandingPage = () => {
                             <div>
                                 <strong>Ubicación</strong>
                                 <span>Córdoba, Argentina</span>
-                                <small>Entrega en todo Córdoba</small>
+                                <small>Alquiler e instalación: Córdoba Capital y alrededores</small>
                             </div>
                         </div>
                     </div>
@@ -2388,6 +2403,12 @@ const LandingPage = () => {
                         <Link to="/patologia/paralisis-cerebral">Parálisis cerebral</Link>
                     </div>
                     <div className={css.footerContact}>
+                        <strong>Cursos gratuitos (Academia)</strong>
+                        {academiaCursos.map(([slug, label]) => (
+                            <a key={slug} href={`/academia/ebook/${slug}`}>{label}</a>
+                        ))}
+                    </div>
+                    <div className={css.footerContact}>
                         <strong>Contacto</strong>
                         <a href="https://wa.me/5493512065320" target="_blank" rel="noopener noreferrer">WhatsApp: +54 9 351 206-5320</a>
                         <a href="mailto:inser.salud@gmail.com">inser.salud@gmail.com</a>
@@ -2401,7 +2422,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className={css.footerBottom}>
-                    <p>&copy; 2026 Inser Salud · Aparatología aprobada por ANMAT · Córdoba, Argentina · <a href="/politica-de-privacidad" style={{ color: 'inherit' }}>Política de privacidad</a> · <a href="/politica-de-devoluciones" style={{ color: 'inherit' }}>Devoluciones</a> · <a href="/politica-de-devoluciones#arrepentimiento" style={{ color: 'inherit' }}>Botón de arrepentimiento</a> · <a href="/tarjeta" style={{ color: 'inherit' }}>Tarjeta digital</a> · <a href="/academia" style={{ color: 'inherit' }}>Academia</a></p>
+                    <p>&copy; 2026 Inser Salud · Aparatología aprobada por ANMAT · Córdoba, Argentina · <a href="/sobre-nosotros" style={{ color: 'inherit' }}>Quiénes somos</a> · <a href="/contacto" style={{ color: 'inherit' }}>Contacto</a> · <a href="/politica-de-privacidad" style={{ color: 'inherit' }}>Política de privacidad</a> · <a href="/politica-de-devoluciones" style={{ color: 'inherit' }}>Devoluciones</a> · <a href="/politica-de-devoluciones#arrepentimiento" style={{ color: 'inherit' }}>Botón de arrepentimiento</a> · <a href="/tarjeta" style={{ color: 'inherit' }}>Tarjeta digital</a> · <a href="/academia" style={{ color: 'inherit' }}>Academia</a></p>
                 </div>
             </footer>
 

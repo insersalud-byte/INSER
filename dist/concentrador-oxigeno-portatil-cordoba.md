@@ -107,6 +107,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 ## También te puede servir
 
+- [Todo el alquiler de equipos respiratorios en Córdoba](https://insersalud.com/alquiler-equipos-respiratorios-cordoba)
+
 - [Oxígeno a domicilio en Córdoba](https://insersalud.com/oxigeno-a-domicilio-cordoba)
 
 - [Alquiler de concentrador de oxígeno](https://insersalud.com/alquiler-concentrador-oxigeno-cordoba)

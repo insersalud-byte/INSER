@@ -29,7 +29,7 @@ SIEMPRE con prescripción y configuración indicada por el médico tratante: nos
 
 ## Precio y qué incluye
 
-Precio de referencia: U$S 7.342 (consultá la cotización del día por WhatsApp). Incluye humidificador y batería interna. Aprobado por ANMAT, con garantía oficial y acceso a servicio técnico y repuestos.
+Precio de referencia: U$S 7.342 (consultá la cotización del día por WhatsApp). Incluye humidificador y batería interna. Aprobado por ANMAT, con garantía oficial del fabricante y acceso a servicio técnico y repuestos.
 
 Complementos habituales: Cough Assist (asistente de tos, U$S 9.084) para el manejo de secreciones en ELA/AME, y máscaras de ventilación no invasiva en todos los talles.
 
@@ -93,7 +93,7 @@ Sí, soporta ambas: por traqueostomía (invasiva) y por máscara (no invasiva), 
 
 ### ¿Cuánto cuesta el STELLAR 150 en Argentina?
 
-Precio de referencia U$S 7.342, con humidificador y batería interna incluidos. Confirmá la cotización del día por WhatsApp. Aprobado por ANMAT con garantía oficial.
+Precio de referencia U$S 7.342, con humidificador y batería interna incluidos. Confirmá la cotización del día por WhatsApp. Aprobado por ANMAT, con garantía oficial del fabricante.
 
 ### ¿Necesito prescripción médica?
 

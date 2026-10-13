@@ -117,7 +117,11 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 ## También te puede servir
 
+- [Todo el alquiler de equipos respiratorios en Córdoba](https://insersalud.com/alquiler-equipos-respiratorios-cordoba)
+
 - [Comprar CPAP en Córdoba](https://insersalud.com/comprar-cpap-cordoba)
+
+- [Comprar CPAP (envío nacional)](https://insersalud.com/comprar-cpap-argentina)
 
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
 

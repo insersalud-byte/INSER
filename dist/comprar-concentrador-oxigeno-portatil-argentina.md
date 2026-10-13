@@ -41,7 +41,7 @@ Los modelos KINGON P2-S3, GCE Zen-O y Philips SimplyGo cuentan con aprobación F
 
 ## Compra con respaldo
 
-Aparatología aprobada por ANMAT con garantía oficial. Envío a todo el país, capacitación de uso, servicio técnico y provisión de baterías y accesorios. Si estás en Córdoba, también ofrecemos alquiler para probar antes de comprar.
+Aparatología aprobada por ANMAT, con garantía oficial del fabricante. Envío a todo el país, capacitación de uso, servicio técnico y provisión de baterías y accesorios. Si estás en Córdoba, también ofrecemos alquiler para probar antes de comprar.
 
 ## Peso y autonomía: los dos datos que definen el modelo
 

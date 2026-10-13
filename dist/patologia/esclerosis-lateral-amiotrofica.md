@@ -158,11 +158,11 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
 
 ### ¿Qué equipos se usan en la ELA?
 
-Los tres más frecuentes son la ventilación no invasiva (BiPAP con frecuencia respiratoria de respaldo, como el BMC G3 a $1.300.000), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el ResMed STELLAR 150. La indicación y los parámetros los define el equipo médico tratante.
+Los tres más frecuentes son la ventilación no invasiva ([BiPAP con frecuencia respiratoria de respaldo](https://insersalud.com/comprar-bipap-argentina), como el BMC G3 a $1.300.000), el asistente de tos o Cough Assist para movilizar secreciones, y en etapas avanzadas ventiladores de mayor complejidad como el [ResMed STELLAR 150](https://insersalud.com/ventilador-stellar-150). La indicación y los parámetros los define el equipo médico tratante.
 
 ### ¿Para qué sirve el asistente de tos (Cough Assist)?
 
-Cuando la musculatura respiratoria se debilita, la tos pierde fuerza y cuesta eliminar secreciones. El asistente de tos insufla aire y luego genera una salida rápida que imita el mecanismo de la tos, ayudando a despejar la vía aérea. Es un equipo de indicación médica.
+Cuando la musculatura respiratoria se debilita, la tos pierde fuerza y cuesta eliminar secreciones. El [asistente de tos](https://insersalud.com/cough-assist-asistente-de-tos) insufla aire y luego genera una salida rápida que imita el mecanismo de la tos, ayudando a despejar la vía aérea. Es un equipo de indicación médica.
 
 ### ¿Se pueden alquilar estos equipos?
 

@@ -173,11 +173,11 @@ Consultanos disponibilidad y opciones de financiación.
 
 ### ¿Qué equipos respiratorios se usan en parálisis cerebral?
 
-Depende del grado de compromiso respiratorio. Los más frecuentes son la ventilación no invasiva tipo BiPAP y el asistente de tos cuando hay dificultad para movilizar secreciones. La indicación siempre proviene del equipo médico tratante.
+Depende del grado de compromiso respiratorio. Los más frecuentes son la [ventilación no invasiva tipo BiPAP](https://insersalud.com/comprar-bipap-argentina) y el [asistente de tos](https://insersalud.com/cough-assist-asistente-de-tos) cuando hay dificultad para movilizar secreciones. La indicación siempre proviene del equipo médico tratante.
 
 ### ¿Tienen máscaras para niños?
 
-Sí, contamos con máscaras nasales pediátricas en varias tallas y kits neonatales. Una interfaz bien elegida mejora mucho la tolerancia del paciente al tratamiento.
+Sí, contamos con [máscaras nasales pediátricas](https://insersalud.com/mascaras-pediatricas) en varias tallas y kits neonatales. Una interfaz bien elegida mejora mucho la tolerancia del paciente al tratamiento.
 
 ### ¿Alquilan equipos en Córdoba?
 

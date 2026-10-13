@@ -93,6 +93,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Comprar concentrador de oxígeno (envío nacional)](https://insersalud.com/comprar-concentrador-oxigeno-argentina)
 
+- [Comprar concentrador de oxígeno portátil (envío nacional)](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina)
+
 - [Oxígeno a domicilio en Córdoba](https://insersalud.com/oxigeno-a-domicilio-cordoba)
 
 - [EPOC](https://insersalud.com/patologia/epoc)

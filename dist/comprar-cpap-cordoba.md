@@ -11,7 +11,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Comprar CPAP en Córdoba: precios y modelos
 
-En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP en Córdoba, aprobados por ANMAT, con garantía oficial y asesoramiento personalizado. Mirá los precios de referencia y elegí el equipo correcto según tu indicación médica.
+En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP en Córdoba, aprobados por ANMAT, con garantía oficial del fabricante y asesoramiento personalizado. Mirá los precios de referencia y elegí el equipo correcto según tu indicación médica.
 
 Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
 
@@ -33,7 +33,7 @@ Te ayudamos a elegir según lo que indicó tu médico y tu presión de tratamien
 
 ## Garantía y respaldo
 
-Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.
+Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial del fabricante. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.
 
 ## Qué incluye el equipo cuando lo comprás
 
@@ -103,7 +103,7 @@ Depende de tu indicación médica y tu presión de tratamiento. El CPAP fijo es 
 
 ### ¿Los equipos tienen garantía?
 
-Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT. En otras familias el plazo cambia: figura en la ficha de cada equipo.
+Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial del fabricante y son aparatología aprobada por ANMAT. En otras familias el plazo cambia: figura en la ficha de cada equipo.
 
 ### ¿Puedo alquilar en lugar de comprar?
 
@@ -132,6 +132,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 ## También te puede servir
 
 - [Alquiler de CPAP en Córdoba](https://insersalud.com/alquiler-cpap-cordoba)
+
+- [Comprar CPAP (envío nacional)](https://insersalud.com/comprar-cpap-argentina)
 
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
 

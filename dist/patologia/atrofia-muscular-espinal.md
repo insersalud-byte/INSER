@@ -154,11 +154,11 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
 
 ### ¿Qué equipamiento respiratorio se usa en la AME?
 
-Habitualmente ventilación no invasiva tipo BiPAP con frecuencia de respaldo y asistente de tos para el manejo de secreciones. En pacientes pediátricos se suman máscaras de tamaño adecuado. Todo el esquema lo define el equipo médico tratante.
+Habitualmente [ventilación no invasiva tipo BiPAP](https://insersalud.com/comprar-bipap-argentina) con frecuencia de respaldo y [asistente de tos](https://insersalud.com/cough-assist-asistente-de-tos) para el manejo de secreciones. En pacientes pediátricos se suman máscaras de tamaño adecuado. Todo el esquema lo define el equipo médico tratante.
 
 ### ¿Tienen máscaras pediátricas?
 
-Sí. Contamos con máscaras nasales pediátricas y kits neonatales de distintas tallas. La elección de la interfaz es clave para la tolerancia al tratamiento, así que te asesoramos según la edad y la anatomía del paciente.
+Sí. Contamos con [máscaras nasales pediátricas y kits neonatales](https://insersalud.com/mascaras-pediatricas) de distintas tallas. La elección de la interfaz es clave para la tolerancia al tratamiento, así que te asesoramos según la edad y la anatomía del paciente.
 
 ### ¿Hacen entrega e instalación a domicilio?
 

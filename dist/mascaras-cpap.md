@@ -43,7 +43,7 @@ Si buscás específicamente para un chico, tenemos una página aparte con los tr
 
 La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas que restan eficacia al tratamiento.
 
-Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos compatibilidad con tu equipo antes de comprar.
+Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos compatibilidad con tu equipo antes de comprar. Si lo que necesitás reponer es el tubo, tenemos la Tubuladura para CPAP / BiPAP ($36.000), un repuesto universal de 22 mm estándar.
 
 ## Equipos relacionados
 
@@ -58,6 +58,8 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos co
 - ![Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva](https://insersalud.com/artifacts/products/bmc_f2_codo_azul_2.jpg) Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva — $68.000
 
 - Máscaras pediátricas (Cirri Mini, Philips Wisp, Infant CPAP Kit) — desde U$S 97
+
+- ![Tubuladura para CPAP / BiPAP](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) Tubuladura para CPAP / BiPAP — $36.000
 
 ## Preguntas frecuentes
 

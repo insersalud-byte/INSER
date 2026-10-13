@@ -74,7 +74,7 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 - Comprar CPAP: https://insersalud.com/comprar-cpap-argentina (nacional) | https://insersalud.com/comprar-cpap-cordoba (Cordoba)
 - Alquiler CPAP Cordoba: https://insersalud.com/alquiler-cpap-cordoba
 - Mascaras (nasales/nasobucales/pediatricas): https://insersalud.com/mascaras-cpap
-- BiPAP: https://insersalud.com/bipap-cordoba | Ventilador STELLAR 150: https://insersalud.com/ventilador-stellar-150
+- BiPAP: https://insersalud.com/comprar-bipap-argentina (nacional, precio y venta con envio) | https://insersalud.com/bipap-cordoba (Cordoba, venta y alquiler) | Ventilador STELLAR 150: https://insersalud.com/ventilador-stellar-150
 - Concentradores: https://insersalud.com/comprar-concentrador-oxigeno-argentina (fijos) | https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina (portatiles) | https://insersalud.com/concentrador-oxigeno-10-litros (10 litros alto flujo)
 - Oxigeno/alquiler Cordoba: https://insersalud.com/oxigeno-a-domicilio-cordoba | https://insersalud.com/alquiler-concentrador-oxigeno-cordoba
 - Estudio del sueño: https://insersalud.com/estudio-del-sueno-cordoba | Poligrafo (profesionales): https://insersalud.com/comprar-poligrafo-argentina

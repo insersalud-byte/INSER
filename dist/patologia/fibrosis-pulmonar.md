@@ -164,15 +164,15 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
 
 ### ¿Qué equipamiento se usa en la fibrosis pulmonar?
 
-Principalmente oxigenoterapia domiciliaria con concentrador de oxígeno. El flujo en litros por minuto y las horas de uso los indica tu neumonólogo según la saturación. En rehabilitación pulmonar suelen usarse concentradores de alto flujo, como el Yuwell de 10 litros.
+Principalmente oxigenoterapia domiciliaria con [concentrador de oxígeno](https://insersalud.com/comprar-concentrador-oxigeno-argentina). El flujo en litros por minuto y las horas de uso los indica tu neumonólogo según la saturación. En rehabilitación pulmonar suelen usarse concentradores de alto flujo, como el [Yuwell de 10 litros](https://insersalud.com/concentrador-oxigeno-10-litros).
 
 ### ¿Concentrador fijo o portátil?
 
-El fijo es para el domicilio y funciona enchufado, sin recargas. El portátil tiene batería y permite salir, viajar o hacer trámites. Muchos pacientes usan los dos: el fijo en casa y el portátil para mantener su actividad.
+El fijo es para el domicilio y funciona enchufado, sin recargas. El [concentrador portátil](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina) tiene batería y permite salir, viajar o hacer trámites. Muchos pacientes usan los dos: el fijo en casa y el portátil para mantener su actividad.
 
 ### ¿Alquilan equipos de oxígeno en Córdoba?
 
-Sí. Alquilamos concentradores fijos y portátiles con entrega e instalación a domicilio en Córdoba Capital y alrededores. Respondemos consultas por WhatsApp todos los días.
+Sí. [Alquilamos concentradores fijos y portátiles](https://insersalud.com/oxigeno-a-domicilio-cordoba) con entrega e instalación a domicilio en Córdoba Capital y alrededores. Respondemos consultas por WhatsApp todos los días.
 
 ### ¿Trabajan con obra social?
 

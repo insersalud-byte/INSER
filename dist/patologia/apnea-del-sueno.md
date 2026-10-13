@@ -164,7 +164,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
 
 ### ¿Qué equipo se usa para tratar la apnea del sueño?
 
-El tratamiento de referencia es el CPAP, que entrega una presión de aire fija durante la noche. También existe el AutoCPAP, que ajusta la presión solo. Cuál corresponde y con qué presión lo define tu médico a partir del estudio del sueño. En INSER SALUD tenemos CPAP BMC G2S a $499.000, AutoCPAP BMC G2S a $630.000 y CPAP ResMed AirSense 10 a $974.000, todos con humidificador incluido.
+El tratamiento de referencia es el CPAP, que entrega una presión de aire fija durante la noche. También existe el AutoCPAP, que ajusta la presión solo. Cuál corresponde y con qué presión lo define tu médico a partir del estudio del sueño. En INSER SALUD tenemos [CPAP y AutoCPAP con envío a todo el país](https://insersalud.com/comprar-cpap-argentina): CPAP BMC G2S a $499.000, AutoCPAP BMC G2S a $630.000 y CPAP ResMed AirSense 10 a $974.000, todos con humidificador incluido.
 
 ### ¿Necesito un estudio del sueño antes de comprar el equipo?
 
@@ -172,11 +172,11 @@ Sí. El equipo y la presión se determinan a partir de una poligrafía respirato
 
 ### ¿Puedo alquilar un CPAP antes de comprarlo?
 
-En Córdoba sí: alquilamos CPAP con entrega e instalación a domicilio, lo que permite probar el tratamiento antes de decidir la compra. Al resto del país enviamos equipos en venta, con garantía de 2 años.
+En Córdoba sí: [alquilamos CPAP](https://insersalud.com/alquiler-cpap-cordoba) con entrega e instalación a domicilio, lo que permite probar el tratamiento antes de decidir la compra. Al resto del país enviamos equipos en venta, con garantía de 2 años.
 
 ### ¿Cada cuánto se cambia la máscara del CPAP?
 
-La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos máscaras nasales desde U$S 35 y nasobucales, con asesoramiento para elegir la talla correcta.
+La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos [máscaras nasales desde U$S 35 y nasobucales](https://insersalud.com/mascaras-cpap), con asesoramiento para elegir la talla correcta.
 
 ## Para profesionales: formación gratuita sobre Apnea del Sueño
 

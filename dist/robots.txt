@@ -13,8 +13,10 @@
 # Perplexity-User, OAI-SearchBot, ChatGPT-User, CCBot, cohere-ai,
 # Google-Extended, Applebot, Applebot-Extended, DuckAssistBot, Amazonbot,
 # Meta-ExternalAgent, FacebookBot, Googlebot y Bingbot) tienen permitido TODO el
-# sitio publico —las 18 landings, las 6 patologias, el home, /tarjeta y
-# /politica-de-privacidad— y solo se les bloquean las 5 rutas privadas.
+# sitio publico —las 18 landings, las 6 patologias, el home, /tarjeta,
+# /politica-de-privacidad, /politica-de-devoluciones y la Academia (/academia,
+# /academia/ebook y sus 9 cursos gratuitos)— y solo se les bloquean las 5 rutas
+# privadas.
 # Que las IA puedan leer el sitio es un objetivo del negocio: por eso no se
 # bloquea nada de contenido y no hace falta listarlos uno por uno.
 

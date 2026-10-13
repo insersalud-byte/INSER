@@ -1,6 +1,6 @@
 ---
 title: "Alquiler de Concentrador de Oxígeno en Córdoba | INSER"
-description: "Alquilá un concentrador de oxígeno fijo o portátil en Córdoba, para uso continuo 24 horas, con entrega e instalación. Respondemos por WhatsApp todos los días."
+description: "Alquilá un concentrador de oxígeno fijo o portátil en Córdoba, para uso continuo las 24 horas. Entrega e instalación en el día en Córdoba Capital; respondemos por WhatsApp todos los días."
 url: https://insersalud.com/alquiler-concentrador-oxigeno-cordoba
 canonical: https://insersalud.com/alquiler-concentrador-oxigeno-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -133,11 +133,15 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 ## También te puede servir
 
+- [Todo el alquiler de equipos respiratorios en Córdoba](https://insersalud.com/alquiler-equipos-respiratorios-cordoba)
+
 - [EPOC](https://insersalud.com/patologia/epoc)
 
 - [Fibrosis pulmonar](https://insersalud.com/patologia/fibrosis-pulmonar)
 
 - [Comprar CPAP en Córdoba](https://insersalud.com/comprar-cpap-cordoba)
+
+- [Comprar concentrador de oxígeno portátil (envío nacional)](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina)
 
 - [Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
 

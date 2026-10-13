@@ -286,11 +286,6 @@
       "permanent": true
     },
     {
-      "source": "/contacto",
-      "destination": "/#contacto",
-      "permanent": true
-    },
-    {
       "source": "/equipos-de-terapia-respiratoria",
       "destination": "/#tienda",
       "permanent": true
@@ -372,7 +367,32 @@
     },
     {
       "source": "/contact",
-      "destination": "/#contacto",
+      "destination": "/contacto",
+      "permanent": true
+    },
+    {
+      "source": "/quienes-somos",
+      "destination": "/sobre-nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/nosotros",
+      "destination": "/sobre-nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/sobre-nosotros",
+      "permanent": true
+    },
+    {
+      "source": "/alquiler-de-concentrador-oxigeno-cordoba",
+      "destination": "/alquiler-concentrador-oxigeno-cordoba",
+      "permanent": true
+    },
+    {
+      "source": "/alquiler-de-concentrador-de-oxigeno-cordoba",
+      "destination": "/alquiler-concentrador-oxigeno-cordoba",
       "permanent": true
     }
   ],

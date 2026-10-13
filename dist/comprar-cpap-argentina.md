@@ -22,7 +22,7 @@ CPAP BMC G2S con humidificador: $499.000 (el más vendido).
 AutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).
 Oferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.
 CPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).
-BiPAP BMC G3: $1.300.000 (para EPOC y enfermedades neuromusculares).
+[BiPAP BMC G3](https://insersalud.com/comprar-bipap-argentina): $1.300.000 (para EPOC y enfermedades neuromusculares).
 
 Los precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.
 
@@ -40,7 +40,7 @@ Si tu indicación dice AutoCPAP o dice APAP, es el mismo tipo de equipo con dos 
 
 ## Garantía, ANMAT y respaldo
 
-Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial. Conseguís repuestos ([máscaras](https://insersalud.com/mascaras-cpap), filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.
+Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial del fabricante. Conseguís repuestos ([máscaras](https://insersalud.com/mascaras-cpap), filtros, tubuladuras) y soporte técnico continuo, sin importar en qué provincia estés.
 
 ## Evidencia científica: por qué el CPAP es el tratamiento de referencia
 
@@ -56,9 +56,7 @@ Nota: el diagnóstico (poligrafía o polisomnografía) y la indicación de presi
 
 Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.
 
-La instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.
-
-Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.
+Te explicamos cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual. Es la diferencia entre recibir un aparato y empezar un tratamiento.
 
 En Córdoba la instalación la hace personal profesional en tu domicilio. Al resto del país el equipo llega ya configurado según tu indicación médica y te guiamos la puesta en marcha por WhatsApp.
 
@@ -112,7 +110,7 @@ Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador s
 
 ### ¿Los equipos tienen garantía?
 
-Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.
+Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial del fabricante y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.
 
 ### ¿Me ayudan a configurarlo si estoy en otra provincia?
 
@@ -132,7 +130,13 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Comprar CPAP en Córdoba](https://insersalud.com/comprar-cpap-cordoba)
 
+- [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap)
+
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
+
+- [Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP](https://insersalud.com/academia/ebook/apnea-del-sueno)
+
+- [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 

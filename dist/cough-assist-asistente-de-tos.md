@@ -29,7 +29,7 @@ Los consensos internacionales de cuidado respiratorio en enfermedades neuromuscu
 
 ## Precio y compra
 
-Precio de referencia: U$S 9.084 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial.
+Precio de referencia: U$S 9.084 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial del fabricante.
 
 Enviamos a todo el país y capacitamos a la familia y a los cuidadores en el uso seguro del equipo (presencial en Córdoba, guiada a distancia en el resto del país). Entregamos presupuesto formal y factura para gestionar el reintegro o la cobertura con la obra social.
 
@@ -89,7 +89,7 @@ Para tos débil o ineficaz por enfermedades neuromusculares: ELA, AME, distrofia
 
 ### ¿Cuánto cuesta el Cough Assist en Argentina?
 
-Precio de referencia U$S 9.084, aprobado por ANMAT con garantía oficial. Confirmá la cotización del día por WhatsApp. Entregamos presupuesto y factura para el reintegro de la obra social.
+Precio de referencia U$S 9.084, aprobado por ANMAT, con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Entregamos presupuesto y factura para el reintegro de la obra social.
 
 ### ¿La familia puede aprender a usarlo?
 

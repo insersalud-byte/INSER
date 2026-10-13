@@ -29,7 +29,7 @@ La indicación la define tu médico; nosotros te ayudamos a elegir el equipo cor
 
 ## Venta y alquiler con soporte
 
-Vendemos y alquilamos BiPAP en Córdoba con entrega e instalación a domicilio, configuración según tu prescripción, [máscara adecuada](https://insersalud.com/mascaras-cpap) y soporte técnico continuo. Aparatología aprobada por ANMAT con garantía.
+Vendemos y alquilamos BiPAP en Córdoba con entrega e instalación a domicilio, configuración según tu prescripción, [máscara adecuada](https://insersalud.com/mascaras-cpap) y soporte técnico continuo. Aparatología aprobada por ANMAT con garantía. Si estás fuera de Córdoba, [comprá tu BiPAP con envío a todo el país](https://insersalud.com/comprar-bipap-argentina).
 
 ## Evidencia científica: la ventilación no invasiva en EPOC y enfermedades neuromusculares
 
@@ -53,7 +53,7 @@ Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un
 
 - ![BiPAP BMC G3 con frecuencia respiratoria y humidificador](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000
 
-- ![Ventilador STELLAR 150 ResMed (alta gama)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador STELLAR 150 ResMed (alta gama) — consultar
+- ![Ventilador STELLAR 150 ResMed con humidificador y batería](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342
 
 ## Preguntas frecuentes
 
@@ -83,11 +83,19 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 ## También te puede servir
 
+- [Precio de BiPAP y compra con envío a todo el país](https://insersalud.com/comprar-bipap-argentina)
+
+- [Todo el alquiler de equipos respiratorios en Córdoba](https://insersalud.com/alquiler-equipos-respiratorios-cordoba)
+
 - [EPOC](https://insersalud.com/patologia/epoc)
 
 - [ELA (Esclerosis Lateral Amiotrófica)](https://insersalud.com/patologia/esclerosis-lateral-amiotrofica)
 
 - [Comprar CPAP en Córdoba](https://insersalud.com/comprar-cpap-cordoba)
+
+- [Cough Assist (asistente de tos)](https://insersalud.com/cough-assist-asistente-de-tos)
+
+- [Ventilador STELLAR 150](https://insersalud.com/ventilador-stellar-150)
 
 - [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 

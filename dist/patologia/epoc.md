@@ -173,7 +173,7 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
 
 ### ¿Qué equipos se usan en el tratamiento domiciliario de la EPOC?
 
-Los más frecuentes son los concentradores de oxígeno para oxigenoterapia domiciliaria y, en casos de mayor compromiso, los equipos de ventilación no invasiva tipo BiPAP. Qué corresponde en cada caso, y con qué flujo o presión, lo indica el neumonólogo.
+Los más frecuentes son los [concentradores de oxígeno](https://insersalud.com/comprar-concentrador-oxigeno-argentina) para oxigenoterapia domiciliaria y, en casos de mayor compromiso, los equipos de [ventilación no invasiva tipo BiPAP](https://insersalud.com/comprar-bipap-argentina). Qué corresponde en cada caso, y con qué flujo o presión, lo indica el neumonólogo.
 
 ### ¿Cuántas horas por día se usa el oxígeno?
 
@@ -181,11 +181,11 @@ Lo define tu médico según los resultados de saturación y gases en sangre. Nue
 
 ### ¿Se puede alquilar el concentrador de oxígeno?
 
-En Córdoba sí, con entrega e instalación a domicilio y capacitación en el uso. Es la opción habitual después de una internación o para tratamientos por tiempo definido. A todo el país vendemos con envío.
+En Córdoba sí: [alquilamos el concentrador](https://insersalud.com/alquiler-concentrador-oxigeno-cordoba) con entrega e instalación a domicilio y capacitación en el uso. Es la opción habitual después de una internación o para tratamientos por tiempo definido. A todo el país vendemos con envío.
 
 ### ¿Sirve un concentrador portátil para salir de casa?
 
-Sí, siempre que respete el tipo de flujo que te indicaron. Hay portátiles de flujo continuo y otros que entregan oxígeno solo por pulsos: si tu indicación es de flujo continuo, un equipo de pulsos no lo reemplaza. Te ayudamos a verificar la compatibilidad antes de comprar.
+Sí, siempre que respete el tipo de flujo que te indicaron. Hay [concentradores portátiles](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina) de flujo continuo y otros que entregan oxígeno solo por pulsos: si tu indicación es de flujo continuo, un equipo de pulsos no lo reemplaza. Te ayudamos a verificar la compatibilidad antes de comprar.
 
 ## Para profesionales: formación gratuita sobre EPOC
 

@@ -93,7 +93,7 @@ Si el informe confirma apnea, el tratamiento estándar es el CPAP o el AutoCPAP.
 
 Si después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.
 
-Precios de referencia para comprar: CPAP BMC G2S con humidificador $499.000, AutoCPAP BMC G2S con humidificador $630.000 y CPAP ResMed AirSense 10 $974.000. Aparatología aprobada por ANMAT, con 2 años de garantía oficial. Los precios se actualizan: confirmá el valor del día por WhatsApp.
+Precios de referencia para comprar: CPAP BMC G2S con humidificador $499.000, AutoCPAP BMC G2S con humidificador $630.000 y CPAP ResMed AirSense 10 $974.000. Aparatología aprobada por ANMAT, con 2 años de garantía oficial del fabricante. Los precios se actualizan: confirmá el valor del día por WhatsApp.
 
 El orden importa: primero el estudio y la indicación médica, después el equipo. La presión con la que se configura sale de ahí. Podés ver todas las opciones en [comprar CPAP en Córdoba](https://insersalud.com/comprar-cpap-cordoba).
 

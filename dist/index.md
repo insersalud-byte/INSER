@@ -267,6 +267,8 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - [Comprar CPAP en Argentina (envío a todo el país)](https://insersalud.com/comprar-cpap-argentina)
 
+- [Precio de BiPAP y compra con envío a todo el país](https://insersalud.com/comprar-bipap-argentina)
+
 - [Comprar concentrador de oxígeno en Argentina (envío)](https://insersalud.com/comprar-concentrador-oxigeno-argentina)
 
 - [Concentrador de oxígeno de 10 litros (alto flujo)](https://insersalud.com/concentrador-oxigeno-10-litros)
@@ -285,13 +287,15 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - [Cough Assist — asistente de tos mecánico](https://insersalud.com/cough-assist-asistente-de-tos)
 
-[Política de privacidad](https://insersalud.com/politica-de-privacidad) · [Política de devoluciones](https://insersalud.com/politica-de-devoluciones) · [Botón de arrepentimiento](https://insersalud.com/politica-de-devoluciones#arrepentimiento) · [Tarjeta digital de contacto](https://insersalud.com/tarjeta) · [Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)](https://insersalud.com/academia)
+[Quiénes somos](https://insersalud.com/sobre-nosotros) · [Contacto](https://insersalud.com/contacto) · [Política de privacidad](https://insersalud.com/politica-de-privacidad) · [Política de devoluciones](https://insersalud.com/politica-de-devoluciones) · [Botón de arrepentimiento](https://insersalud.com/politica-de-devoluciones#arrepentimiento) · [Tarjeta digital de contacto](https://insersalud.com/tarjeta) · [Academia: formación gratuita para profesionales (9 cursos gratuitos de terapia respiratoria, ebooks interactivos)](https://insersalud.com/academia)
+
+Cursos gratuitos de la Academia: [Ventilación mecánica](https://insersalud.com/academia/ebook/ventilacion-mecanica) · [VNI](https://insersalud.com/academia/ebook/ventilacion-no-invasiva) · [Alto flujo](https://insersalud.com/academia/ebook/alto-flujo) · [Oxigenoterapia](https://insersalud.com/academia/ebook/oxigenoterapia) · [Extubación y deglución](https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion) · [Rehabilitación pulmonar](https://insersalud.com/academia/ebook/rehabilitacion-pulmonar) · [Ventilación neuromuscular](https://insersalud.com/academia/ebook/ventilacion-neuromuscular) · [Apnea del sueño](https://insersalud.com/academia/ebook/apnea-del-sueno) · [Imágenes respiratorias](https://insersalud.com/academia/ebook/imagenes-respiratorias)
 
 ## Cómo trabajamos
 
 1. **Nos contactás**: por WhatsApp, teléfono, formulario o con Santi. Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.
 
-2. **Te asesoramos**: elegimos el equipo correcto según tu prescripción médica y tu presupuesto.
+2. **Te asesoramos**: elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.
 
 3. **Entregamos e instalamos**: en Córdoba a domicilio en el día; al resto del país, envío con puesta en marcha guiada.
 

@@ -29,7 +29,7 @@ Es un equipo robusto pensado para rotar entre pacientes: se entrega a la noche, 
 
 ## Precio y compra
 
-Precio de referencia: U$S 1.570 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial.
+Precio de referencia: U$S 1.570 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial del fabricante.
 
 Enviamos a todo el país, con capacitación de uso y del software incluida (presencial en Córdoba, guiada a distancia en el resto del país), y quedamos como soporte técnico permanente. Emitimos factura y presupuesto formal para instituciones.
 
@@ -71,7 +71,7 @@ En esta página vendemos el equipo, para profesionales y centros. Si lo que busc
 
 ### ¿Cuánto cuesta el polígrafo?
 
-Precio de referencia U$S 1.570, aprobado por ANMAT y con garantía oficial. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.
+Precio de referencia U$S 1.570, aprobado por ANMAT y con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.
 
 ### ¿Incluye capacitación?
 
