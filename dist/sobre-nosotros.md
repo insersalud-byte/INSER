@@ -69,7 +69,7 @@ Para que sepas desde el principio si somos el lugar correcto para tu consulta:
 
 ## Hablemos
 
-Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. Escribinos al [+54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%20INSER%20SALUD%2C%20vengo%20de%20la%20p%C3%A1gina%20Qui%C3%A9nes%20somos%20y%20quiero%20hacer%20una%20consulta) o mirá todas las vías en la página de [contacto](https://insersalud.com/contacto).
+Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. Escribinos al [+54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%20INSER%20SALUD%2C%20vengo%20de%20la%20p%C3%A1gina%20Qui%C3%A9nes%20somos%20y%20quiero%20hacer%20una%20consulta) o mirá todas las vías en la página de [contacto](https://insersalud.com/contacto). También estamos en Instagram como [@insersalud](https://www.instagram.com/insersalud).
 
 [Escribir por WhatsApp](https://wa.me/5493512065320?text=Hola%20INSER%20SALUD%2C%20vengo%20de%20la%20p%C3%A1gina%20Qui%C3%A9nes%20somos%20y%20quiero%20hacer%20una%20consulta) [Ver todas las vías de contacto](https://insersalud.com/contacto)
 
