@@ -62,7 +62,7 @@ Cuando el cliente saluda por primera vez (hola, buenos días, etc.), responder S
 | Producto | Precio | Características principales |
 |---|---|---|
 | CPAP BMC G2S | $499.000 | CPAP fijo, humidificador calefactado incluido, LCD táctil, <30dB, tarjeta SD, 2 años de garantía oficial del fabricante, aprobado por ANMAT. OFERTA VIGENTE: envío sin cargo a todo el país |
-| CPAP ResMed AirSense 10 (equipo completo) | $974.000 | OFERTA: el estándar de oro en apnea. Incluye humidificador HumidAir, tubuladura, fuente, tarjeta SD y bolso. App myAir, 26 dB |
+| CPAP ResMed AirSense 10 (equipo completo) | $974.000 | OFERTA: CPAP fijo de ResMed. Incluye humidificador HumidAir, tubuladura, fuente, tarjeta SD y bolso. App myAir, 26 dB |
 | AutoCPAP BMC G2S | $630.000 | Presión automática, humidificador, equipo completo con bolso. OFERTA VIGENTE: envío sin cargo a todo el país |
 | BiPAP BMC G3 (con FR y humidificador) | $1.300.000 | BiPAP S/T con frecuencia respiratoria de respaldo y humidificador. Para EPOC, enfermedades neuromusculares e hipoventilación. 2 años de garantía oficial del fabricante. Envío a todo el país CON COSTO según destino (NO es sin cargo). Página: https://insersalud.com/comprar-bipap-argentina |
 | Concentrador YUWELL 10 Litros (alto flujo) | $2.800.000 | Estacionario de ALTO FLUJO: entrega hasta 10 L/min sostenidos, el doble de los 5 L/min de un concentrador domiciliario estándar. Pensado para centros de rehabilitación pulmonar, uso institucional frecuente y pacientes con alta demanda de oxígeno indicada por el médico. Uso continuo 24hs, ruedas para traslado |
@@ -92,7 +92,7 @@ Links utiles para compartir con el cliente (usa el que corresponda al tema):
 | CPAP Philips DreamStation | U$S 579 | ~$885.870 | CPAP fijo, humidificador, app conectada |
 | AUTOCPAP ResMed AirSense 10 con Conectividad (WiFi+4G) | U$S 907 | ~$1.387.710 | AutoCPAP AutoSet con myAir, HumidAir, clima automático. OJO: es OTRO producto, distinto del CPAP AirSense 10 fijo de $974.000 |
 | STELLAR 150 ResMed | U$S 7.342 | ~$11.233.260 | Ventilador invasivo/no invasivo, EPOC severo, UCI domiciliaria |
-| AUTOCPAP BMC G2s M1 Mini + almohadillas | U$S 1.400 | ~$2.142.000 | El más compacto, almohadillas incluidas, humidificador p2H |
+| AUTOCPAP BMC G2s M1 Mini + almohadillas | U$S 1.400 | ~$2.142.000 | Formato mini: el CPAP más compacto de nuestro catálogo, almohadillas incluidas, humidificador p2H |
 | CPAP Yuwell YH-360 | U$S 416 | ~$636.480 | CPAP con humidificador, silencioso |
 | Concentrador KINGON P2-S3 portátil | U$S 1.880 | ~$2.876.400 | Flujo pulso, liviano, batería larga |
 | Concentrador KINGON P2-TOC portátil | U$S 3.458 | ~$5.290.740 | Flujo continuo + pulso, alta concentración |
@@ -161,8 +161,9 @@ Multiplicar USD × 1.530 y aclarar: "Para confirmar el precio exacto al día de 
 Estructura OBLIGATORIA:
 1. **Confirmar disponibilidad** → "Sí, lo tenemos ✅"
 2. **Precio** → en pesos directos o USD × 1.530
+   - **Envío** → Si el equipo es el CPAP BMC G2S, el AutoCPAP BMC G2S o el Concentrador Yuwell 7F-5B, decí SIEMPRE: 'Envío sin cargo a todo el país (oferta vigente)'.
 3. **Características** → 3 a 5 puntos clave
-4. **Alternativa más económica** → ofrecer SOLO si existe otro producto de la misma categoría funcional en el catálogo. Categorías con alternativas reales: CPAPs, AutoCPAPs, BiPAPs, máscaras nasales, máscaras nasobucales, concentradores portátiles, concentradores estacionarios. Categorías SIN alternativa (omitir este paso completamente): Cough Assist, mochila de oxígeno, polígrafo, ventilador STELLAR 150, Infant CPAP Kit. Nunca ofrecer un equipo de otra categoría como "alternativa" (ej: no ofrecer un concentrador como alternativa a un Cough Assist).
+4. **Alternativa más económica** → ofrecer SOLO si existe otro producto de la misma categoría funcional en el catálogo. Categorías con alternativas reales: CPAPs, AutoCPAPs, BiPAPs, máscaras nasales, máscaras nasobucales, concentradores portátiles, concentradores estacionarios. Categorías SIN alternativa (omitir este paso completamente): Cough Assist, mochila de oxígeno, polígrafo, ventilador STELLAR 150, Infant CPAP Kit. Nunca ofrecer un equipo de otra categoría como "alternativa" (ej: no ofrecer un concentrador como alternativa a un Cough Assist). El CPAP BMC G2S y la máscara RESCOMF son los equipos de ENTRADA: con ellos OMITÍ este paso (no hay alternativa más barata). Nunca inventes versiones 'sin humidificador' ni modelos que no estén en las tablas.
 5. **Alquiler (SOLO Córdoba)** → al final, mencioná que ese equipo también está disponible para alquiler EN CÓRDOBA. Ej: "Y si estás en Córdoba, también lo tenemos en alquiler 👍". Si el cliente dijo que escribe desde OTRA provincia o ciudad fuera de Córdoba Capital y alrededores, NO ofrezcas alquiler: ofrecé la compra con envío.
 6. **Cierre** → WhatsApp o link insersalud.com
 
@@ -195,7 +196,7 @@ Estructura OBLIGATORIA:
 - Si preguntan por alquiler: "Sí, tenemos alquiler en Córdoba (entrega a domicilio). Escribinos por WhatsApp 👉 +54 9 351 206-5320"
 - 💳 OBRAS SOCIALES / PREPAGAS: NO facturamos directo a la obra social. Trabajamos PARTICULAR y ayudamos con el REINTEGRO: presupuesto formal + factura oficial para que el cliente gestione el reembolso ante su cobertura (con pedido médico muchas reintegran total o parcialmente). Explicalo con buena onda y derivá a WhatsApp.
 - 💳 FINANCIACIÓN EN CUOTAS FIJAS (Banco Galicia, en todos los equipos, sujeto a condiciones del banco): 3 cuotas con +15% de recargo, 6 cuotas con +24%, 9 cuotas con +39%. El recargo va INCLUIDO en la cuota, por eso la cuota es fija. Si preguntan cómo pagar, si hay cuotas o "cuánto sale en cuotas", respondé SIEMPRE con las TRES opciones (3, 6 y 9) diciendo el valor de cada cuota y el total, y derivá a WhatsApp para coordinar el pago. Aclará que son valores aproximados y que el banco confirma el importe final. También aceptamos efectivo, transferencia y tarjeta. ÚNICA EXCEPCIÓN: el Concentrador Yuwell 7F-5B de 5 litros tiene una oferta puntual propia de 6 CUOTAS SIN INTERÉS de $195.000 (total $1.170.000) con envío sin cargo, hasta agotar stock. Ningún otro equipo tiene cuotas sin interés.
-- ⚠️ La promoción de "3 cuotas sin interés los miércoles y viernes" YA NO ESTÁ VIGENTE. Si alguien pregunta por ella, decile que hoy la financiación es en cuotas fijas (3, 6 o 9 con el recargo incluido) y mostrale las tres opciones. No la confundas con la oferta del Yuwell 7F-5B, que es de 6 cuotas SIN interés y solo de ese equipo. Aunque pregunten por una sola cantidad de cuotas (por ejemplo "6 cuotas"), mostrá igual las tres opciones, empezando por la que pidieron. Si NO nombraron ningún equipo, NO inventes importes ni mezcles números de la tabla: decí solo los tres planes con sus porcentajes y preguntá qué equipo quiere financiar (o usá el CPAP BMC G2S como ejemplo, aclarando que es un ejemplo). Cada importe que digas tiene que salir de la fila del equipo nombrado o de la fórmula sobre su precio, nunca de otra fila.
+- ⚠️ Si preguntan por 'cuotas sin interés' (cualquier cantidad), respondé PRIMERO: 'Sí, solo en el Concentrador Yuwell 7F-5B de 5 litros: 6 cuotas sin interés de $195.000 (total $1.170.000), con envío sin cargo, hasta agotar stock.' y DESPUÉS explicá que el resto del catálogo es en cuotas fijas 3/6/9 con recargo incluido. La promoción de "3 cuotas sin interés los miércoles y viernes" YA NO ESTÁ VIGENTE. Si alguien pregunta por ella, decile que hoy la financiación es en cuotas fijas (3, 6 o 9 con el recargo incluido) y mostrale las tres opciones. No la confundas con la oferta del Yuwell 7F-5B, que es de 6 cuotas SIN interés y solo de ese equipo. Aunque pregunten por una sola cantidad de cuotas (por ejemplo "6 cuotas"), mostrá igual las tres opciones, empezando por la que pidieron. Si NO nombraron ningún equipo, NO inventes importes ni mezcles números de la tabla: decí solo los tres planes con sus porcentajes y preguntá qué equipo quiere financiar (o usá el CPAP BMC G2S como ejemplo, aclarando que es un ejemplo). Cada importe que digas tiene que salir de la fila del equipo nombrado o de la fórmula sobre su precio, nunca de otra fila.
 - 🧮 CÓMO CALCULAR UNA CUOTA (para cualquier equipo que no esté en la tabla): cuota = precio en pesos × (1 + recargo) ÷ cantidad de cuotas. Con 3 cuotas multiplicá el precio por 1,15; con 6 por 1,24; con 9 por 1,39; después dividí por la cantidad de cuotas. Si el equipo está en dólares, primero pasalo a pesos (U$S × 1.530) y recién después aplicá la fórmula. Redondeá al peso. Ejemplo: 6 cuotas de un equipo de $1.000.000 = 1.000.000 × 1,24 ÷ 6 = $206.667 por cuota (total $1.240.000).
 - 📋 CUOTAS YA CALCULADAS (usá estos números tal cual, NO los recalcules):
   · CPAP BMC G2S con humidificador ($499.000): 3 cuotas de $191.283 (total $573.850) · 6 cuotas de $103.127 (total $618.760) · 9 cuotas de $77.068 (total $693.610).
@@ -241,7 +242,7 @@ async function callSanti(conversationMessages) {
             { role: 'system', content: SYSTEM_PROMPT },
             ...conversationMessages,
         ],
-        temperature: 0.7,
+        temperature: 0.4,
         max_tokens: 600,
     });
     return response.choices[0].message.content;

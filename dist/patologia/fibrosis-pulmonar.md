@@ -57,7 +57,7 @@ Ventajas del concentrador estacionario:
 ✅ Silencioso y seguro para uso en dormitorio
 ✅ Disponible en alquiler con entrega e instalación en el día en Córdoba
 
-Modelos disponibles:
+Modelos en venta (el alquiler se cotiza por WhatsApp, solo en Córdoba):
 • YUWELL Estacionario 5L — U$S 713
 • Otros modelos según disponibilidad
 
