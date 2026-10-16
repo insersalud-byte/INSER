@@ -29,26 +29,30 @@
     const baselineSpo2 = clamp(Number(input.baselineSpo2) || 88, 50, 100);
     const baselineRr = clamp(Number(input.baselineRr) || 30, 5, 80);
     const fault = input.fault || 'none';
+    // Objetivo de SpO2: 88-92 % en riesgo de hipercapnia (EPOC); 94-98 % en el resto (AARC 2022 / BTS 2017).
+    const spo2Low = input.scenario === 'copd' ? 88 : 90;
 
     let effectiveFlow = flow;
     if (fault === 'obstruction') effectiveFlow *= 0.3;
     if (fault === 'disconnection') effectiveFlow = 0;
 
     const coverage = clamp(effectiveFlow / demand, 0, 1);
-    const deliveredFio2 = clamp(21 + (fio2 - 21) * (0.55 + 0.45 * coverage), 21, fio2);
+    // Sin flujo entregado (circuito desconectado) el paciente respira aire ambiente: FiO2 efectiva 21 %.
+    const deliveredFio2 = effectiveFlow <= 0 ? 21 : clamp(21 + (fio2 - 21) * (0.55 + 0.45 * coverage), 21, fio2);
     const oxygenGain = (deliveredFio2 - 21) * 0.13;
     const flowGain = coverage * 3.1;
     const spo2 = round(clamp(baselineSpo2 + oxygenGain + flowGain, 70, 99));
     const rr = round(clamp(baselineRr - coverage * 6 - Math.max(0, spo2 - baselineSpo2) * 0.12, 8, 60));
     const mouthFactor = input.mouth === 'closed' ? 1 : 0.52;
     const estimatedPressure = round(clamp((effectiveFlow / 60) * 4.2 * (cannulaFit / 100) * mouthFactor, 0, 5), 1);
-    const rox = round((spo2 / (deliveredFio2 / 100)) / rr, 2);
+    // ROX (Roca 2019) se calcula con la FiO2 programada, no con la estimada como entregada.
+    const rox = round((spo2 / (fio2 / 100)) / rr, 2);
 
     let alarm = { level: 'ok', message: 'Sistema estable · vigilar respuesta clínica' };
     if (fault === 'obstruction') alarm = { level: 'high', message: 'Obstrucción de cánula/circuito · revisar de inmediato' };
     else if (fault === 'disconnection') alarm = { level: 'high', message: 'Circuito desconectado · flujo no entregado' };
     else if (fault === 'temperature') alarm = { level: 'medium', message: 'Temperatura fuera de rango · comprobar humidificador' };
-    else if (spo2 < 90 || rr >= 35) alarm = { level: 'high', message: 'Respuesta insuficiente · activar reevaluación y escalamiento' };
+    else if (spo2 < spo2Low || rr >= 35) alarm = { level: 'high', message: 'Respuesta insuficiente · activar reevaluación y escalamiento' };
     else if (fio2 >= 80 || rox < 4.88) alarm = { level: 'medium', message: 'Vigilancia estrecha · alta necesidad o ROX bajo' };
 
     return {

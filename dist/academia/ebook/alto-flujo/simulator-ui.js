@@ -64,16 +64,18 @@
 
   Object.values(controls).forEach(control => control.addEventListener('input', render));
   root.querySelectorAll('[data-hf-scenario]').forEach(button => button.addEventListener('click', () => {
-    root.querySelectorAll('[data-hf-scenario]').forEach(item => item.classList.remove('active'));
+    root.querySelectorAll('[data-hf-scenario]').forEach(item => { item.classList.remove('active'); item.setAttribute('aria-pressed', 'false'); });
     button.classList.add('active');
+    button.setAttribute('aria-pressed', 'true');
     scenario = window.HighFlowModel.getScenario(button.dataset.hfScenario);
     controls.demand.value = scenario.demand;
     history.spo2.length = history.rr.length = history.flow.length = 0;
     render();
   }));
   root.querySelectorAll('[data-hf-fault]').forEach(button => button.addEventListener('click', () => {
-    root.querySelectorAll('[data-hf-fault]').forEach(item => item.classList.remove('active'));
+    root.querySelectorAll('[data-hf-fault]').forEach(item => { item.classList.remove('active'); item.setAttribute('aria-pressed', 'false'); });
     button.classList.add('active');
+    button.setAttribute('aria-pressed', 'true');
     fault = button.dataset.hfFault;
     render();
   }));

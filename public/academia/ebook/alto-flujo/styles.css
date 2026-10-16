@@ -181,8 +181,8 @@ main { width: min(1480px, 94vw); margin: 0 auto; }
   gap: 14px;
   border-top: 1px solid var(--vm-line);
 }
-.section-number { color: var(--vm-teal); font-family: ui-monospace, monospace; font-weight: 800; }
-.eyebrow { color: var(--vm-teal); font-size: .68rem; font-weight: 900; letter-spacing: .1em; }
+.section-number { color: #0b6f63; font-family: ui-monospace, monospace; font-weight: 800; }
+.eyebrow { color: #0b6f63; font-size: .72rem; font-weight: 900; letter-spacing: .1em; }
 .chapter-heading h2 { margin: 4px 0 8px; font-size: clamp(2rem, 3.8vw, 4rem); line-height: .98; letter-spacing: -.055em; }
 .chapter-heading p { margin: 0; color: var(--vm-muted); font-size: 1rem; }
 

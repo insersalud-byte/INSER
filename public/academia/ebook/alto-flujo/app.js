@@ -5,7 +5,10 @@ const sections = $$('.chapter');
 const tocLinks = $$('#toc a');
 
 /* Progreso: capítulos vistos en este navegador, como en los ebooks de VM y VNI. */
-const seen = new Set(JSON.parse(localStorage.getItem('hf-progress') || '[]'));
+/* localStorage puede estar bloqueado (modo privado, permisos) o guardado corrupto: nunca debe tumbar el resto del ebook. */
+const storeGet = (key, fallback) => { try { const v = JSON.parse(localStorage.getItem(key) || 'null'); return v ?? fallback; } catch { return fallback; } };
+const storeSet = (key, value) => { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* sin almacenamiento */ } };
+const seen = new Set(Array.isArray(storeGet('hf-progress', [])) ? storeGet('hf-progress', []) : []);
 const paintProgress = () => {
   const percent = Math.round(seen.size / sections.length * 100);
   $('#progressBar').style.width = `${percent}%`;
@@ -19,7 +22,7 @@ const observer = new IntersectionObserver(entries => {
     tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === `#${entry.target.id}`));
     if (!seen.has(entry.target.id)) {
       seen.add(entry.target.id);
-      localStorage.setItem('hf-progress', JSON.stringify([...seen]));
+      storeSet('hf-progress', [...seen]);
       paintProgress();
     }
   });
@@ -58,9 +61,9 @@ function updateChecklist() {
   const done = checks.filter(c => c.checked).length;
   $('#checkText').textContent = `${done} de ${checks.length} controles`;
   $('#checkBar').style.width = `${done / checks.length * 100}%`;
-  localStorage.setItem('hf-checks', JSON.stringify(checks.map(c => c.checked)));
+  storeSet('hf-checks', checks.map(c => c.checked));
 }
-const storedChecks = JSON.parse(localStorage.getItem('hf-checks') || '[]');
+const storedChecks = Array.isArray(storeGet('hf-checks', [])) ? storeGet('hf-checks', []) : [];
 checks.forEach((c, i) => { c.checked = !!storedChecks[i]; c.addEventListener('change', updateChecklist); });
 $('#resetChecklist').addEventListener('click', () => { checks.forEach(c => c.checked = false); updateChecklist(); });
 updateChecklist();
@@ -108,7 +111,7 @@ $$('.choices').forEach((group, index) => {
     answered.set(index, correct);
     button.classList.add(correct ? 'correct' : 'wrong');
     if (!correct) $(`button[data-choice="${group.dataset.answer}"]`, group).classList.add('correct');
-    group.nextElementSibling.textContent = correct ? 'Correcto. La decisión integra respuesta y tendencia.' : 'Revisá la opción señalada: prioriza seguridad y reevaluación.';
+    group.nextElementSibling.textContent = correct ? 'Correcto. La decisión integra respuesta y tendencia.' : 'Revisá la opción señalada: priorizá seguridad y reevaluación.';
     const score = [...answered.values()].filter(Boolean).length;
     $('#quizScore').innerHTML = `Respondidas correctamente: <b>${score} / 3</b>`;
   }));

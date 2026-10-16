@@ -18,63 +18,63 @@
 .tec-shell-top>span.active{background:#e85637;box-shadow:0 0 9px #ff593d}
 .tec-panel{padding:2.8% 2.7% 1.6%;background:linear-gradient(120deg,#f5f7f6,#d7dce0);border:2px solid #bbc4ca;border-radius:1.2cqw;box-shadow:inset 1px 2px 3px #fff,0 0 0 2px #f6f8f9,0 0 0 4px #b4bbc1}
 .tec-front{display:grid;grid-template-columns:minmax(0,1fr) 7.5%;gap:1.7%;align-items:stretch}
-.tec-screen{font-size:1.5cqw;line-height:1.15;aspect-ratio:4/3;display:flex;flex-direction:column;border:4px solid #637c82;border-radius:.8cqw;background:#a8d6e5;box-shadow:0 0 0 2px #cfdddd,inset 0 0 8px #34475350;position:relative}
+.tec-screen{font-size:max(1.5cqw,9px);line-height:1.15;aspect-ratio:4/3;display:flex;flex-direction:column;border:4px solid #637c82;border-radius:.8cqw;background:#a8d6e5;box-shadow:0 0 0 2px #cfdddd,inset 0 0 8px #34475350;position:relative}
 .tec-monitor{display:grid;grid-template-columns:2.4fr repeat(6,1fr);min-height:16%;background:#f5f7e9;color:#254d59;gap:1px}
 .tec-monitor>div{border-right:1px solid #b6cdd2;text-align:center;padding:.6cqw .2cqw;display:flex;flex-direction:column;justify-content:space-around;min-width:0}
 .tec-monitor strong{font-size:2.6cqw;font-weight:400;line-height:1}
-#tecmeOafLab .tec-monitor small{font-size:1.1cqw;line-height:1.25}
+#tecmeOafLab .tec-monitor small{font-size:max(1.1cqw,9px);line-height:1.25}
 .tec-monitor .tec-mode{text-align:left;padding-left:.8cqw;justify-content:center;gap:.4cqw}
-.tec-mode b{font-size:2.4cqw}.tec-mode span{font-size:1.5cqw}
+.tec-mode b{font-size:2.4cqw}.tec-mode span{font-size:max(1.5cqw,9px)}
 .tec-inactive{color:#86969a}
-.tec-alarm{font-size:1.25cqw;line-height:1.1;min-height:5%;padding:.5cqw .6cqw;background:#8acadd;color:#214859;border:0;display:flex;align-items:center}
+.tec-alarm{font-size:max(1.25cqw,9px);line-height:1.1;min-height:5%;padding:.5cqw .6cqw;background:#8acadd;color:#214859;border:0;display:flex;align-items:center}
 .tec-alarm.active{background:#e49b67;color:#411c0b}
 .tec-display-body{display:grid;grid-template-columns:11% 48% 34% 7%;flex:1;min-height:0;padding:1cqw .4cqw .4cqw 0;gap:0}
-.tec-pressure-rail{display:flex;align-items:center;flex-direction:column;text-align:center;background:#ecf1e4;color:#375f67;font-size:1.2cqw;gap:.5cqw}
-#tecmeOafLab .tec-pressure-rail small{font-size:1cqw;line-height:1.3}
+.tec-pressure-rail{display:flex;align-items:center;flex-direction:column;text-align:center;background:#ecf1e4;color:#375f67;font-size:max(1.2cqw,9px);gap:.5cqw}
+#tecmeOafLab .tec-pressure-rail small{font-size:max(1cqw,9px);line-height:1.3}
 .tec-pressure-rail strong{font-size:2.7cqw;font-weight:400}
 .tec-unavailable{color:#849c9a;line-height:1.6;margin:auto 0}
-#tecmeOafLab .tec-pressure-rail button{background:#e9d995;border:1px solid #c4ae78;font-size:1cqw;min-height:0;border-radius:0;padding:.6cqw .1cqw;width:100%}
+#tecmeOafLab .tec-pressure-rail button{background:#e9d995;border:1px solid #c4ae78;font-size:max(1cqw,9px);min-height:0;border-radius:0;padding:.6cqw .1cqw;width:100%}
 .tec-plots{display:grid;grid-template-rows:repeat(3,minmax(0,1fr));gap:.8cqw;padding:0 .7cqw;min-height:0}
 .tec-plot{display:flex;flex-direction:column;min-height:0;background:#142242;color:#e7f6ff;overflow:hidden}
-.tec-plot>div{display:flex;justify-content:space-between;background:#83c6de;color:#204969;font-size:1.15cqw;padding:.2cqw .3cqw}
-.tec-plot>div span{font-size:.9cqw}
+.tec-plot>div{display:flex;justify-content:space-between;background:#83c6de;color:#204969;font-size:max(1.15cqw,9px);padding:.2cqw .3cqw}
+.tec-plot>div span{font-size:max(.9cqw,9px)}
 .tec-plot svg{width:100%;height:100%;min-height:0;overflow:hidden}
 .tec-plot text{font:9px Arial,sans-serif;fill:#d6edf5}
 .tec-grid{fill:none;stroke:#809cac;stroke-width:.6;stroke-dasharray:2 3}
 .tec-trace{fill:none;stroke:#efe27c;stroke-width:1.8;vector-effect:non-scaling-stroke}
 #tec-trace-pressure{stroke:#f79873}
 .tec-therapy{padding:0;min-height:0;display:flex;flex-direction:column;text-align:center;background:#c7e1e4;border:1px solid #8cb9c5}
-.tec-window-title{background:#78bfda;text-align:left;padding:.4cqw .5cqw;font-size:1.5cqw;color:#2c5265}
-.tec-therapy>span{font-size:1cqw;margin-top:1.2cqw;letter-spacing:0;color:#345860}
+.tec-window-title{background:#78bfda;text-align:left;padding:.4cqw .5cqw;font-size:max(1.5cqw,9px);color:#2c5265}
+.tec-therapy>span{font-size:max(1cqw,9px);margin-top:1.2cqw;letter-spacing:0;color:#345860}
 .tec-therapy output{font:500 3.1cqw/1.2 Arial,sans-serif;margin:1cqw 0 1.7cqw;color:#2a6647}
 .tec-therapy .tec-actions{gap:.4cqw;padding:0 .5cqw;flex-wrap:wrap}
-#tecmeOafLab .tec-therapy button{background:#eff0d9;color:#35535e;border:1px solid #9bafb4;border-radius:0;font-size:1.3cqw;min-height:3.2cqw;padding:.5cqw .6cqw;box-shadow:inset 1px 1px #fff,inset -1px -1px #b3c1c2}
+#tecmeOafLab .tec-therapy button{background:#eff0d9;color:#35535e;border:1px solid #9bafb4;border-radius:0;font-size:max(1.3cqw,9px);min-height:max(3.2cqw,30px);padding:.5cqw .6cqw;box-shadow:inset 1px 1px #fff,inset -1px -1px #b3c1c2}
 #tecmeOafLab .tec-therapy button:disabled{display:none}
-.tec-screen-warning{margin:1.5cqw .5cqw .5cqw;padding:.8cqw .3cqw;border:1px solid #9ab8be;flex:1;font-size:1.25cqw;color:#3c565b}
-.tec-screen-warning b{color:#824d46;font-size:1.3cqw}
-#tecmeOafLab .tec-screen-warning p{margin:.9cqw 0;font-size:1.2cqw;line-height:1.3}
-#tecmeOafLab .tec-screen-warning small{font-size:.9cqw;color:#42656d}
+.tec-screen-warning{margin:1.5cqw .5cqw .5cqw;padding:.8cqw .3cqw;border:1px solid #9ab8be;flex:1;font-size:max(1.25cqw,9px);color:#3c565b}
+.tec-screen-warning b{color:#824d46;font-size:max(1.3cqw,9px)}
+#tecmeOafLab .tec-screen-warning p{margin:.9cqw 0;font-size:max(1.2cqw,9px);line-height:1.3}
+#tecmeOafLab .tec-screen-warning small{font-size:max(.9cqw,9px);color:#42656d}
 .tec-toolbar{display:flex;flex-direction:column;justify-content:space-between;gap:.4cqw;padding-left:.4cqw}
-#tecmeOafLab .tec-toolbar button{font-size:1.8cqw;line-height:1;min-height:0;flex:1;padding:.3cqw 0;border-radius:0;background:#e7eedc;border:1px solid #98b6b7;color:#41647b}
+#tecmeOafLab .tec-toolbar button{font-size:max(1.8cqw,9px);line-height:1;min-height:0;flex:1;padding:.3cqw 0;border-radius:0;background:#e7eedc;border:1px solid #98b6b7;color:#41647b}
 .tec-settings{display:flex;gap:.4cqw;padding:.5cqw .4cqw .3cqw;min-height:17%;align-items:stretch;background:#deeadb}
 #tecmeOafLab .tec-settings button{display:grid;grid-template-columns:1fr auto;width:16%;flex-shrink:0;min-height:0;padding:.3cqw .4cqw 0;background:#f9f6dc;border:1px solid #9bafb1;border-radius:0;text-align:center;gap:.2cqw}
 .tec-settings strong{font-size:3.1cqw;font-weight:400;line-height:1.1}
-#tecmeOafLab .tec-settings small{font-size:1cqw;align-self:center}
-.tec-settings span{grid-column:1/-1;font-size:1.3cqw;background:#a5d3dd;margin:0 -.4cqw;padding:.3cqw}
+#tecmeOafLab .tec-settings small{font-size:max(1cqw,9px);align-self:center}
+.tec-settings span{grid-column:1/-1;font-size:max(1.3cqw,9px);background:#a5d3dd;margin:0 -.4cqw;padding:.3cqw}
 #tecmeOafLab .tec-settings button[aria-pressed=true]{outline:2px solid #e7b12e;outline-offset:-1px;background:#ffe994}
-#tec-screen-message{font-size:1.1cqw;background:transparent;padding:.6cqw .8cqw;margin:0;align-self:center;color:#365462}
+#tec-screen-message{font-size:max(1.1cqw,9px);background:transparent;padding:.6cqw .8cqw;margin:0;align-self:center;color:#365462}
 .tec-keys{display:flex;flex-direction:column;justify-content:space-between;gap:1.2cqw;padding:1cqw 0 3cqw;align-items:center}
-.tec-alarm-signals{text-align:center;font-size:1cqw;color:#4d626d;line-height:1.1}
+.tec-alarm-signals{text-align:center;font-size:max(1cqw,9px);color:#4d626d;line-height:1.1}
 .tec-alarm-signals>span{display:block;font-size:2.4cqw;line-height:1.3;color:#fcffff;text-shadow:0 0 2px #5f6767}
-#tecmeOafLab .tec-alarm-signals small{font-size:.85cqw}.tec-alarm-signals>span.active{color:#eb5434}
+#tecmeOafLab .tec-alarm-signals small{font-size:max(.85cqw,9px)}.tec-alarm-signals>span.active{color:#eb5434}
 #tecmeOafLab .tec-keys>button{padding:.3cqw!important;min-height:3.7cqw;width:4.8cqw;border:2px solid #647e95;border-radius:.6cqw;background:#c1cedf;box-shadow:inset 0 0 0 2px #eef3f8;font:bold 1.05cqw/1.1 Arial,sans-serif!important;color:#294e7f;flex:none}
 .tec-bottom{display:grid;grid-template-columns:1.6fr .5fr 2.3fr .5fr .5fr 1fr;gap:1.3cqw;align-items:center;min-height:10cqw;padding-top:.8cqw}
 #tecmeOafLab .tec-bottom button{min-height:3cqw;padding:.3cqw;border:2px solid #6b8399;border-radius:.6cqw;background:#c6d3e4;color:#294e7f;font:bold 1.05cqw/1.1 Arial,sans-serif;box-shadow:inset 0 0 0 2px #eff4f9}
-.tec-power{display:flex;flex-direction:column;gap:.7cqw;font-size:.8cqw;line-height:1.2;color:#365169;white-space:nowrap}.tec-power span::first-letter{color:#7eba50}
+.tec-power{display:flex;flex-direction:column;gap:.7cqw;font-size:max(.8cqw,9px);line-height:1.2;color:#365169;white-space:nowrap}.tec-power span::first-letter{color:#7eba50}
 .tec-maneuvers{display:flex;gap:.7cqw}.tec-maneuvers>button{flex:1}
-#tecmeOafLab #tec-lock{justify-self:start;min-width:3cqw;font-size:1.7cqw;background:#d1dbe7}
+#tecmeOafLab #tec-lock{justify-self:start;min-width:3cqw;font-size:max(1.7cqw,9px);background:#d1dbe7}
 #tecmeOafLab #tec-lock[aria-pressed=true]{background:#80bee5;box-shadow:0 0 6px #128cdd}
-#tecmeOafLab #tec-dial{display:block;grid-column:auto;grid-row:auto;width:8cqw;height:8cqw;min-height:0;border:2px solid #53789a;border-radius:50%;padding:.6cqw;background:#b6c6d8;box-shadow:inset 0 0 0 .3cqw #eef4fa;touch-action:none;user-select:none;cursor:grab;position:relative;font-size:0}
+#tecmeOafLab #tec-dial{display:block;grid-column:auto;grid-row:auto;width:max(8cqw,44px);height:max(8cqw,44px);min-height:0;border:2px solid #53789a;border-radius:50%;padding:.6cqw;background:#b6c6d8;box-shadow:inset 0 0 0 .3cqw #eef4fa;touch-action:none;user-select:none;cursor:grab;position:relative;font-size:0}
 #tecmeOafLab #tec-dial:active{cursor:grabbing}
 #tecmeOafLab #tec-dial:not(:disabled){background:#529dee;box-shadow:0 0 1.4cqw #75b5ff,inset 0 0 0 .3cqw #d2e6ff}
 #tecmeOafLab #tec-dial:disabled{opacity:1;background:#becbd6}
@@ -82,10 +82,10 @@
 #tec-dial span::after{content:'';position:absolute;top:11%;left:46%;width:8%;height:16%;background:#6a8195;border-radius:3px}
 .tec-name{display:flex;align-items:center;justify-content:space-between;margin:2.5cqw 1cqw 0;color:#006ba7;gap:1cqw}
 .tec-name>span{font-size:2.2cqw;font-weight:800}.tec-name b{font-weight:400}
-#tecmeOafLab .tec-name small{font-size:.8cqw;color:#627785;letter-spacing:.15em}
+#tecmeOafLab .tec-name small{font-size:max(.8cqw,9px);color:#627785;letter-spacing:.15em}
 .tec-connector-block{display:flex;justify-content:space-around;align-items:start;width:83%;height:10cqw;margin:0 auto;padding:.7cqw 2cqw;background:linear-gradient(#d0d9df,#f3f5f4 45%,#afbecb);border:1px solid #8498aa;border-radius:0 0 2cqw 2cqw;box-shadow:0 4px 5px #192f4125;position:relative;z-index:-0}
 .tec-connector-block>div{display:flex;flex-direction:column;align-items:center;gap:.7cqw}
-#tecmeOafLab .tec-connector-block small{font-size:.9cqw;color:#3c556c}
+#tecmeOafLab .tec-connector-block small{font-size:max(.9cqw,9px);color:#3c556c}
 .tec-port{display:block;background:linear-gradient(90deg,#9caeba,#edf4f6 20%,#aabfcb 50%,#eef5f6 75%,#728b9a);border:1px solid #6c899c;border-radius:0 0 .8cqw .8cqw;width:6cqw;height:4cqw;box-shadow:inset 0 -4px #bac9d2,0 4px 5px #53728c33}
 .tec-exp{width:7cqw;border-radius:10% 10% 40% 40%}.tec-insp{height:5cqw;width:4cqw}.tec-sensor{width:6cqw;height:3cqw;background:repeating-linear-gradient(90deg,#93aabb 0 4px,#d3dfe4 4px 8px)}.tec-small-port{width:2cqw;height:2cqw;border-radius:50%}.tec-prox>span{font-size:2.5cqw;color:#638397}
 .tec-dial-help{font-size:.8rem;color:#496575;margin:1rem 0;text-align:center}
@@ -95,3 +95,5 @@
 @media(max-width:1100px){.tec-workspace{grid-template-columns:1fr}.tec-device-wrap{max-width:900px;margin:auto;width:100%}.tec-coach{max-width:none}.tec-intro{display:block}}
 @media(max-width:600px){.tec-page>header,.tec-page>main{padding-left:.6rem;padding-right:.6rem}.tec-front{grid-template-columns:minmax(0,1fr) 7.5%}.tec-machine{padding:3.5% 4% 1.8%}.tec-screen{border-width:2px}.tec-panel{border-width:1px}.tec-bottom{gap:1cqw}.tec-name>span{font-size:2.2cqw}.tec-settings{padding:.5cqw .4cqw .3cqw}.tec-therapy{padding:0}.tec-dial-assist button{min-width:48px}.tec-workspace{gap:1rem}.tec-intro>div>p:last-child{font-size:.9rem}}
 @media print{.tec-keys,.tec-bottom{display:flex}.tec-coach{display:none}.tec-machine{box-shadow:none}}
+/* tec-mobile-scroll: en pantallas angostas el panel conserva 640px de ancho (la tipografía escala con cqw) y se desplaza en horizontal. */
+@media(max-width:700px){#tecmeOafLab .tec-workspace{overflow-x:auto;-webkit-overflow-scrolling:touch}#tecmeOafLab .tec-device-wrap{min-width:640px}}

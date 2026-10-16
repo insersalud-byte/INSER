@@ -107,7 +107,7 @@
     }
     statusText('tec-fault-note', `${state.running ? '' : 'Iniciá la simulación para activar la situación. '}${feedback[state.fault]}${$('tec-humidifier-on').checked ? '' : ' Humidificación pendiente: el respirador no verifica este control externo en el laboratorio.'}`);
     $('tec-step').textContent = state.pending?.key === 'stop' ? 'Confirmá la detención' : editing ? 'Ajustá y confirmá' : state.running ? 'Vigilá equipo y paciente' : 'Configurá e iniciá';
-    statusText('tec-screen-message', state.pending?.key === 'stop' ? 'Parar: pulse la perilla para confirmar' : editing ? `${names[state.pending.key]}: girar y pulsar para aceptar` : state.locked ? 'Pantalla bloqueada' : 'Seleccionar · girar · confirmar');
+    statusText('tec-screen-message', state.pending?.key === 'stop' ? 'Parar: pulsá la perilla para confirmar' : editing ? `${names[state.pending.key]}: girar y pulsar para aceptar` : state.locked ? 'Pantalla bloqueada' : 'Seleccionar · girar · confirmar');
     const sampleSecond = Math.floor(state.elapsed);
     if (sampleSecond !== historySecond || !history.length) {
       history.push(obs); if (history.length > 61) history.shift(); historySecond = sampleSecond;

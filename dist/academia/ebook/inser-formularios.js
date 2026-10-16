@@ -53,6 +53,8 @@
   var ICON_SEND = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>';
 
   function clean(value, max) { return String(value || '').trim().replace(/\s+/g, ' ').slice(0, max); }
+  // Para el mensaje libre se conservan los saltos de línea (párrafos) y solo se compactan espacios repetidos.
+  function cleanText(value, max) { return String(value || '').replace(/\r\n?/g, '\n').replace(/[ \t]+/g, ' ').replace(/\n{3,}/g, '\n\n').trim().slice(0, max); }
   function slug() { var p = location.pathname.split('/').filter(Boolean); var s = p[p.length - 1]; return s && s !== 'academia' ? 'academia-' + s : 'academia'; }
   function medir(ev, params) { try { if (typeof window.gtag === 'function') { params.source = slug(); window.gtag('event', ev, params); } } catch (e) { /* sin GA4 */ } }
   function ebookName(el) {
@@ -87,7 +89,7 @@
         field(id + '-contact', 'contact', 'Contacto', '<input id="' + id + '-contact" name="contact" autocomplete="tel" maxlength="' + MAX.contact + '" placeholder="WhatsApp, teléfono o correo">') +
         field(id + '-institution', 'institution', 'Institución', '<input id="' + id + '-institution" name="institution" autocomplete="organization" maxlength="' + MAX.institution + '">', { optional: true, full: true }) +
         field(id + '-simulator', 'simulator', '¿Qué simulador o equipo le gustaría ver?', '<textarea id="' + id + '-simulator" name="simulator" rows="3" maxlength="' + MAX.simulator + '" placeholder="Ej.: marca y modelo del equipo, u otro dispositivo…"></textarea>', { full: true }) +
-        '<div class="inser-form-actions"><button type="submit">' + ICON_SEND + ' Enviar pedido por WhatsApp</button><a class="inser-form-fallback" target="_blank" rel="noopener noreferrer" hidden>Si no se abrió WhatsApp, toque aquí</a></div>';
+        '<div class="inser-form-actions"><button type="submit">' + ICON_SEND + ' Enviar pedido por WhatsApp</button><a class="inser-form-fallback" target="_blank" rel="noopener noreferrer" onclick="" hidden>Si no se abrió WhatsApp, toque aquí</a></div>';
     } else {
       copy = '<span class="inser-form-eyebrow">Su opinión mejora este ebook</span>' +
         '<h2 id="' + titleId + '">Sugerencias y pedidos</h2>' +
@@ -97,8 +99,10 @@
         field(id + '-contact', 'contact', 'Contacto', '<input id="' + id + '-contact" name="contact" autocomplete="tel" maxlength="' + MAX.contact + '" placeholder="WhatsApp, teléfono o correo">') +
         field(id + '-type', 'type', 'Tipo de mensaje', '<select id="' + id + '-type" name="type"><option value="Sugerencia de mejora">Sugerencia de mejora</option><option value="Pedido de contenido o herramienta">Pedido de contenido o herramienta</option><option value="Error o dato a corregir">Error o dato a corregir</option><option value="Consulta">Consulta</option></select>', { full: true }) +
         field(id + '-message', 'message', 'Mensaje', '<textarea id="' + id + '-message" name="message" rows="4" maxlength="' + MAX.message + '" placeholder="Indique el capítulo o la sección si corresponde…"></textarea>', { full: true }) +
-        '<div class="inser-form-actions"><button type="submit">' + ICON_SEND + ' Enviar por WhatsApp</button><a class="inser-form-fallback" target="_blank" rel="noopener noreferrer" hidden>Si no se abrió WhatsApp, toque aquí</a></div>';
+        '<div class="inser-form-actions"><button type="submit">' + ICON_SEND + ' Enviar por WhatsApp</button><a class="inser-form-fallback" target="_blank" rel="noopener noreferrer" onclick="" hidden>Si no se abrió WhatsApp, toque aquí</a></div>';
     }
+    // El enlace de respaldo lleva onclick vacío a propósito: el medidor global de wa.me de cada ebook ignora los enlaces con onclick
+    // y así el clic no se cuenta dos veces (ya se mide como solicitud_simulador / sugerencia_ebook).
     el.className = (el.className ? el.className + ' ' : '') + 'inser-form inser-form-' + kind;
     el.setAttribute('role', 'region');
     el.setAttribute('aria-labelledby', titleId);
@@ -141,7 +145,7 @@
       } else {
         lines = ['Hola Sergio, le escribo desde el ebook de ' + ebook + '.', 'Tipo: ' + get('type'), '',
           'Nombre: ' + clean(get('name'), MAX.name), 'Contacto: ' + clean(get('contact'), MAX.contact),
-          'Mensaje: ' + clean(get('message'), MAX.message)];
+          'Mensaje: ' + cleanText(get('message'), MAX.message)];
       }
       return 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(lines.join('\n'));
     }
