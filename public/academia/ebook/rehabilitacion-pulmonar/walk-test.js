@@ -248,7 +248,7 @@
   let panel = $('walkPrintReport'); if (!panel) { panel = document.createElement('section'); panel.id = 'walkPrintReport'; document.body.appendChild(panel); } panel.replaceChildren();
   function add(tag, text, parent = panel) { const node = document.createElement(tag); node.textContent = text; parent.appendChild(node); return node; }
   const bar = add('div', ''); bar.className = 'report-actions'; const print = add('button', 'Imprimir / Guardar como PDF', bar); print.onclick = () => window.print(); const close = add('button', 'Cerrar informe', bar); close.onclick = () => document.body.classList.remove('show-walk-report');
-  add('h1', 'INSERSALUD.COM · ACADEMIA');
+  add('h2', 'INSERSALUD.COM · ACADEMIA');
   add('h2', r.patient.name || 'Paciente no identificado');
   add('p', 'Informe de test de marcha de seis minutos · ' + r.date);
   add('p', 'Edad: ' + (r.patient.age ?? 'NR') + ' años · Peso: ' + (r.patient.weight ?? 'NR') + ' kg · Altura: ' + (r.patient.height ?? 'NR') + ' cm · Sexo utilizado en la ecuación: ' + (r.patient.sex || 'NR'));

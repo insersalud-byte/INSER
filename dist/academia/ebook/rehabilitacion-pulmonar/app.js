@@ -187,7 +187,7 @@ if (inserGuardar) {
     a.href = URL.createObjectURL(blob);
     a.download = 'InserSalud.vcf';
     a.click();
-    URL.revokeObjectURL(a.href);
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   });
 }
 const inserCompartir = document.getElementById('inserCompartir');
