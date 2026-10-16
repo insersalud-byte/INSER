@@ -82,10 +82,26 @@ function mount() {
   }
   return true;
 }
-// El HTML llega prerenderizado: si montamos antes de que React hidrate, la hidratacion
-// descarta las secciones insertadas. Por eso el observador queda vivo y vuelve a montar
-// cada vez que las secciones desaparecen (sin bucle: mount() no hace nada si ya existen).
-function ensure(){ if (!document.getElementById('simulador-astral')) mount(); }
-new MutationObserver(ensure).observe(document.getElementById('root')??document.body,{childList:true,subtree:true});
-window.addEventListener('load',ensure);
-ensure();
+// El ebook esta prerenderizado y React lo hidrata al cargar: si las secciones y los enlaces del nav se
+// insertan antes de que termine la hidratacion, React los toma como diferencia con el HTML del servidor
+// (error 418) y vuelve a dibujar. React marca cada nodo hidratado con una propiedad __reactFiber$...:
+// se espera a que la ultima seccion del root la tenga (tope 20 s) y recien entonces se montan los laboratorios.
+function hydrated() {
+  const root=document.getElementById('root');
+  if (!root) return true;
+  if (!Object.keys(root).some(k=>k.startsWith('__reactContainer'))) return false;
+  const last=root.querySelector('section:last-of-type')??root.lastElementChild;
+  return !last || Object.keys(last).some(k=>k.startsWith('__reactFiber'));
+}
+let tries=0;
+function start() {
+  if (hydrated() || tries++>130) {
+    if (!mount()) {
+      const pending=new MutationObserver(()=>{if(mount())pending.disconnect();});
+      pending.observe(document.getElementById('root')??document.body,{childList:true,subtree:true});
+    }
+    return;
+  }
+  setTimeout(start,150);
+}
+start();
