@@ -194,11 +194,12 @@
     for (var j = 0; j < lk.length; j++) if (lk[j].indexOf('__reactFiber') === 0) return true;
     return false;
   }
+  // Arranca con el DOM listo (no espera a que carguen todas las imágenes); en páginas sin React, hydrated() da true enseguida.
   var tries = 0;
   function start() {
     if (hydrated() || tries++ > 130) { setTimeout(init, 150); return; }
     setTimeout(start, 150);
   }
-  if (document.readyState === 'complete') start(); else window.addEventListener('load', start);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
   window.inserFormularios = { init: init };
 })();
