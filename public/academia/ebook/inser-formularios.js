@@ -38,7 +38,7 @@
 .inser-form textarea{resize:vertical;min-height:84px}\
 .inser-form input:focus-visible,.inser-form select:focus-visible,.inser-form textarea:focus-visible{outline:3px solid #f0b83a;outline-offset:1px;border-color:#80601f}\
 .inser-form [aria-invalid="true"]{border-color:#b44437}\
-.inser-form small[role="alert"]{color:#9c3025;font-size:.74rem;font-weight:700}\
+.inser-form small[role="alert"]{color:#9c3025;font-size:.76rem;font-weight:700}\
 .inser-form-actions{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 1rem;margin-top:.2rem}\
 .inser-form button{padding:.75rem 1.1rem;display:inline-flex;align-items:center;gap:.5rem;border:0;border-radius:999px;background:#087b6e;color:#fff;font:inherit;font-size:.9rem;font-weight:800;cursor:pointer}\
 .inser-form button:hover{background:#075f56}\
