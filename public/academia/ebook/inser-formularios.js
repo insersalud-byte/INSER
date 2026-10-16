@@ -208,8 +208,18 @@
   }
   // Arranca con el DOM listo (no espera a que carguen todas las imágenes); en páginas sin React, hydrated() da true enseguida.
   var tries = 0;
+  function pending() {
+    return (cfg.simulador && !document.querySelector('[data-inser-form="simulador"]')) ||
+      (cfg.sugerencias && !document.querySelector('[data-inser-form="sugerencias"]'));
+  }
   function start() {
-    if (hydrated() || tries++ > 130) { setTimeout(init, 150); return; }
+    if (hydrated() || tries++ > 130) {
+      setTimeout(init, 150);
+      // Reintenta un rato (init es idempotente): cubre anclas que aparecen tarde o un redibujado de React.
+      var again = 0, timer = setInterval(function () { init(); if (!pending() || again++ > 60) clearInterval(timer); }, 700);
+      window.addEventListener('load', init);
+      return;
+    }
     setTimeout(start, 150);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
