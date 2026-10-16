@@ -57,12 +57,14 @@
       ? (remaining === 1 ? 'Falta 1 respuesta' : `Faltan ${remaining} respuestas`)
       : sbBands[result.band];
     $('sb-message').textContent = result.total === null
-      ? 'Respondé Sí o No en cada fila. El riesgo aparece al completar las ocho.'
+      ? 'Preguntale al paciente y marcá Sí o No en cada fila. El riesgo aparece al completar las ocho.'
       : result.band === 'bajo'
         ? 'Riesgo bajo no descarta AOS: si hay pausas observadas, comorbilidad cardiovascular o somnolencia con riesgo, la sospecha clínica manda.'
         : result.band === 'intermedio'
-          ? 'Riesgo intermedio: revisá los ítems STOP. Con dos o más de ellos más sexo masculino, IMC mayor de 35 o cuello mayor de 40 cm, se considera riesgo alto.'
-          : 'Riesgo alto: corresponde priorizar la evaluación clínica y el estudio de sueño. El cuestionario no mide gravedad ni indica tratamiento.';
+          ? 'Riesgo intermedio: revisá los ítems STOP. Con dos o más de ellos más sexo masculino, IMC mayor de 35 o cuello grande (más de 43 cm en hombres o 41 cm en mujeres), se considera riesgo alto.'
+          : result.highByRule && result.total <= 4
+            ? 'Riesgo alto por regla: dos o más ítems STOP más sexo masculino, IMC mayor de 35 o cuello grande. Corresponde priorizar la evaluación clínica y el estudio de sueño.'
+            : 'Riesgo alto: corresponde priorizar la evaluación clínica y el estudio de sueño. El cuestionario no mide gravedad ni indica tratamiento.';
   }
   sbFields.forEach(field => field.addEventListener('change', renderStopBang));
   if ($('sb-form')) {
@@ -91,6 +93,7 @@
   $('index-kind').addEventListener('change', renderIndex);
   function renderPap(mode) {
     const values = model.papTrace(mode);
+    if (!values) return;
     $('pap-line').setAttribute('points', values.map((value, i) => `${50 + i * 650 / 24},${180 - value * 160}`).join(' '));
     document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
     $('trace-title').textContent = mode === 'cpap' ? 'Patrón conceptual de CPAP fija' : 'Patrón conceptual de APAP';

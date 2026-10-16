@@ -30,7 +30,12 @@
     const answered = values.filter(v => v === 0 || v === 1).length;
     if (answered !== 8) return { total: null, answered, band: null };
     const total = values.reduce((sum, v) => sum + v, 0);
-    return { total, answered, band: total <= 2 ? 'bajo' : total <= 4 ? 'intermedio' : 'alto' };
+    // Regla adicional de Chung 2016: dos o más ítems STOP (ronquido, cansancio, apneas observadas, hipertensión)
+    // más sexo masculino, IMC > 35 o cuello grande se consideran riesgo alto aunque la suma sea 3 o 4.
+    const stop = values[0] + values[1] + values[2] + values[3];
+    const highByRule = stop >= 2 && (values[7] === 1 || values[4] === 1 || values[6] === 1);
+    const band = total >= 5 || highByRule ? 'alto' : total <= 2 ? 'bajo' : 'intermedio';
+    return { total, answered, band, highByRule };
   }
   root.SleepLab = { scoreEpworth, eventIndex, severity, papTrace, scoreStopBang };
 })(typeof window !== 'undefined' ? window : globalThis);

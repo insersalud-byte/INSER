@@ -24,7 +24,7 @@
 .inser-form *{box-sizing:border-box}\
 .inser-form-grid{display:grid;grid-template-columns:minmax(240px,.8fr) minmax(0,1.2fr)}\
 .inser-form-copy{padding:clamp(20px,3.5vw,38px);background:#f2faf8}\
-.inser-form-eyebrow{display:block;color:#087b6e;font-size:.68rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}\
+.inser-form-eyebrow{display:block;color:#087b6e;font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}\
 .inser-form-copy h2,.inser-form-copy h3{margin:.4rem 0 .6rem;font-size:clamp(1.35rem,2.6vw,1.9rem);line-height:1.15;letter-spacing:-.02em;color:#0f2a2e}\
 .inser-form-copy p{margin:0;color:#3f5b60;font-size:.95rem}\
 .inser-form-note{margin-top:1.2rem;padding:.8rem .9rem;display:flex;gap:.6rem;align-items:flex-start;background:#d9f2ec;color:#1f4a46;font-size:.82rem;border-radius:10px}\
@@ -45,7 +45,7 @@
 .inser-form button:focus-visible,.inser-form-fallback:focus-visible{outline:3px solid #f0b83a;outline-offset:3px}\
 .inser-form-fallback{color:#087b6e;font-weight:800;font-size:.85rem}\
 .inser-form-status{grid-column:1/-1;margin:0;color:#34565e;font-size:.82rem}\
-.inser-form-privacy{grid-column:1/-1;color:#61777d;font-size:.72rem;line-height:1.45}\
+.inser-form-privacy{grid-column:1/-1;color:#61777d;font-size:.76rem;line-height:1.45}\
 @media (max-width:760px){.inser-form-grid{grid-template-columns:1fr}.inser-form form{grid-template-columns:1fr}}\
 @media print{.inser-form{display:none!important}}';
 
@@ -64,8 +64,10 @@
 
   function field(id, name, label, control, opts) {
     opts = opts || {};
+    // Los campos obligatorios llevan aria-required (el control viene sin cerrar el tag: se inserta antes del primer '>').
+    if (!opts.optional && name !== 'type') control = control.replace('>', ' aria-required="true">');
     return '<div class="inser-form-field' + (opts.full ? ' inser-form-full' : '') + '" data-field="' + name + '">' +
-      '<label for="' + id + '">' + label + (opts.optional ? ' <span>(opcional)</span>' : '') + '</label>' + control + '</div>';
+      '<label for="' + id + '">' + label + (opts.optional ? ' <span>(opcional)</span>' : name === 'type' ? '' : ' <span>(obligatorio)</span>') + '</label>' + control + '</div>';
   }
 
   function build(el, kind, uid) {
@@ -75,9 +77,11 @@
     var copy, form;
     var nota = '<div class="inser-form-note">' + ICON_CHAT + '<span>Al enviar se abre WhatsApp con el mensaje ya preparado para el <strong>351 557 5258</strong>. Usted puede revisarlo antes de enviarlo.</span></div>';
     if (kind === 'simulador') {
-      copy = '<span class="inser-form-eyebrow">¿Le gustaría practicar con otro equipo?</span>' +
+      // data-simulador-texto permite adaptar la consigna al ebook (p. ej. imágenes: patrones y modalidades, no equipos).
+      var consigna = cfg.simuladorTexto || 'Díganos qué equipo o dispositivo (marca y modelo) le gustaría practicar en un simulador de este ebook.';
+      copy = '<span class="inser-form-eyebrow">¿Le gustaría practicar con otro simulador?</span>' +
         '<h3 id="' + titleId + '">Pida el próximo simulador</h3>' +
-        '<p>Díganos qué equipo o dispositivo (marca y modelo) le gustaría practicar en un simulador de este ebook. La institución es opcional.</p>' + nota;
+        '<p>' + consigna + ' La institución es opcional.</p>' + nota;
       form =
         field(id + '-name', 'name', 'Nombre y apellido', '<input id="' + id + '-name" name="name" autocomplete="name" maxlength="' + MAX.name + '">') +
         field(id + '-contact', 'contact', 'Contacto', '<input id="' + id + '-contact" name="contact" autocomplete="tel" maxlength="' + MAX.contact + '" placeholder="WhatsApp, teléfono o correo">') +
@@ -163,7 +167,9 @@
   // Configuracion por atributos del <script>:
   //   data-ebook="Nombre del ebook"  data-simulador="#seccion-del-simulador"  data-sugerencias="aside.ebook-desarrollo, footer, main"
   var me = document.currentScript;
-  var cfg = me ? { ebook: me.getAttribute('data-ebook') || '', simulador: me.getAttribute('data-simulador') || '', sugerencias: me.getAttribute('data-sugerencias') || '' } : { ebook: '', simulador: '', sugerencias: '' };
+  var cfg = me
+    ? { ebook: me.getAttribute('data-ebook') || '', simulador: me.getAttribute('data-simulador') || '', simuladorTexto: me.getAttribute('data-simulador-texto') || '', sugerencias: me.getAttribute('data-sugerencias') || '' }
+    : { ebook: '', simulador: '', simuladorTexto: '', sugerencias: '' };
 
   function placeholder(kind, anchorSel, where) {
     if (!anchorSel) return;

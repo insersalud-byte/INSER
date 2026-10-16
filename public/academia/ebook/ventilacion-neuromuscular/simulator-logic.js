@@ -90,7 +90,7 @@ export function assessPatient(raw = {}) {
     );
   }
 
-  if (input.paco2 !== null && input.paco2 > 45) {
+  if (input.paco2 !== null && input.paco2 >= 45) {
     add(
       'urgent-respiratory', 'red', 'Derivación respiratoria urgente',
       'Una PaCO₂ mayor de 45 mmHg es compatible con hipoventilación. Requiere evaluación rápida por un servicio con experiencia en ventilación; si hay deterioro agudo, somnolencia marcada o dificultad respiratoria, corresponde atención de emergencia.',
@@ -158,13 +158,13 @@ export function assessPatient(raw = {}) {
 
     if (input.peakCoughFlow !== null && input.peakCoughFlow <= 270) {
       add(
-        'cough-augmentation', input.peakCoughFlow <= 160 ? 'orange' : 'yellow', 'Evaluar y entrenar asistencia de tos',
+        'cough-augmentation', input.peakCoughFlow < 160 ? 'orange' : 'yellow', 'Evaluar y entrenar asistencia de tos',
         'Medir PCF espontáneo y asistido. Optimizar postura, volumen previo, apilamiento de aire o insuflación y tos manual según función bulbar y tolerancia.',
         `Pico flujo de tos ${input.peakCoughFlow} L/min.`
       );
     }
 
-    if (input.peakCoughFlow !== null && input.peakCoughFlow <= 160) {
+    if (input.peakCoughFlow !== null && input.peakCoughFlow < 160) {
       add(
         'mechanical-cough-assist', 'orange', 'Valorar cough assist / MI-E',
         'El pico de tos está en un rango de depuración muy ineficaz. Un equipo entrenado debe probar insuflación-exuflación mecánica y verificar el flujo logrado, secreciones, fugas, bulbar y tolerancia.',
