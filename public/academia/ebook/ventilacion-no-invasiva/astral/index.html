@@ -5,7 +5,7 @@
  <meta name="description" content="Laboratorio educativo interactivo Astral 100 y 150. Modos, circuitos, curvas y alarmas basados en documentación de ResMed.">
  <title>Astral 100 / 150 · Laboratorio de ventilación</title>
  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23133d50'/%3E%3Cpath d='M4 24h9l3-14 5 22 4-15 3 7h8' fill='none' stroke='%2397d7d0' stroke-width='3'/%3E%3C/svg%3E">
- <link rel="stylesheet" href="/academia/ebook/ventilacion-no-invasiva/astral/styles.css?v=041c11b7">
+ <link rel="stylesheet" href="/academia/ebook/ventilacion-no-invasiva/astral/styles.css?v=c7ca4528">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -23,10 +23,10 @@
 <body>
  <header class="site-header"><a class="back" href="/academia/ebook/ventilacion-no-invasiva#simulador">← Ebook de VNI</a><span>LABORATORIO RESPIRATORIO</span><nav aria-label="Secciones"><a href="#descripcion">El equipo</a><a href="#laboratorio">Simulador</a><a href="#investigacion">Investigación</a><a href="#fuentes">Manuales</a></nav></header>
  <main>
-  <section class="intro"><div><p class="eyebrow">ENTRENAMIENTO INTERACTIVO · RESMED ASTRAL</p><h1>Conocé el equipo.<br><em>Entendé cada cambio.</em></h1><p>Explorá Astral 100 y 150, practicá la configuración y observá la respuesta de un pulmón virtual en tiempo real.</p></div><figure class="product"><img src="/academia/ebook/ventilacion-no-invasiva/astral/astral-official.jpg" alt="Fotografía oficial del respirador ResMed Astral 150, vista frontal" width="420" height="320"><figcaption>Equipo real · imagen de ResMed <a href="https://www.resmed.com/en-us/products/ventilation/astral/" target="_blank" rel="noopener">↗</a></figcaption></figure></section>
+  <section class="intro"><div><p class="eyebrow">ENTRENAMIENTO INTERACTIVO · RESMED ASTRAL</p><h1>Conozca el equipo.<br><em>Entendé cada cambio.</em></h1><p>Explore Astral 100 y 150, practique la configuración y observe la respuesta de un pulmón virtual en tiempo real.</p></div><figure class="product"><img src="/academia/ebook/ventilacion-no-invasiva/astral/astral-official.jpg" alt="Fotografía oficial del respirador ResMed Astral 150, vista frontal" width="420" height="320"><figcaption>Equipo real · imagen de ResMed <a href="https://www.resmed.com/en-us/products/ventilation/astral/" target="_blank" rel="noopener">↗</a></figcaption></figure></section>
   <p class="education-note"><strong>Simulador educativo.</strong> Este laboratorio permite practicar con un paciente virtual; no prescribe tratamientos ni valida ajustes para una persona real.</p>
   <section id="descripcion" class="apparatus-description" aria-labelledby="descripcion-titulo">
-   <p class="eyebrow">CONOCÉ EL EQUIPO</p>
+   <p class="eyebrow">CONOZCA EL EQUIPO</p>
    <h2 id="descripcion-titulo">Astral 150: características y funcionamiento</h2>
    <p>El <strong>ResMed Astral 150</strong> es un ventilador portátil para ventilación invasiva y no invasiva. Su <strong>pantalla táctil a color</strong> reúne los menús de monitorización, configuración, alarmas e información, con acceso a curvas y parámetros de la ventilación.</p>
    <p>Ofrece modos de ventilación <strong>por presión y por volumen</strong>, además de iVAPS con AutoEPAP opcional según versión y región. Admite circuitos de <strong>rama única con fuga, rama única con válvula y doble rama</strong>; el circuito seleccionado determina qué modos y mediciones están disponibles.</p>
@@ -63,7 +63,7 @@
      <label>Fuga no intencional <output id="leak-out">0 L/min</output><input id="leak" type="range" min="0" max="120" step="5" value="0"></label>
      <label class="check"><input type="checkbox" id="disconnected"> Circuito desconectado</label><label class="check"><input type="checkbox" id="upperAirway"> Obstrucción de vía aérea superior (AutoEPAP)</label>
      <details><summary>Sensores y alimentación</summary><label class="check"><input id="spo2-sensor" type="checkbox"> Oxímetro conectado</label><label>SpO₂ introducida (%)<input id="spo2-value" type="number" value="96" min="50" max="100"></label><label class="check"><input id="fio2-sensor" type="checkbox" checked> Sensor FiO₂ conectado</label><label>FiO₂ introducida (%)<input id="fio2-value" type="number" value="21" min="18" max="100"></label><p class="micro">Son lecturas elegidas para probar alarmas, no estimaciones del intercambio gaseoso. Astral no incorpora mezclador de O₂: FiO₂ no es una consigna de ventilación.</p><label>Alimentación<select id="power"><option value="mains">Red eléctrica</option><option value="battery">Batería interna</option></select></label><label class="check"><input id="sound" type="checkbox"> Sonido de alarma didáctico</label></details>
-     <button id="patient-breath" class="outline">Simular un esfuerzo / contacto con boquilla</button><p id="scenario-note" class="micro">Compará curvas antes y después de modificar una sola variable.</p>
+     <button id="patient-breath" class="outline">Simular un esfuerzo / contacto con boquilla</button><p id="scenario-note" class="micro">Compare curvas antes y después de modificar una sola variable.</p>
     </aside>
    </div>
   </section>
@@ -74,9 +74,9 @@
   </section>
   <section id="fuentes" class="sources"><h2>Manuales y fuentes oficiales</h2><ol><li><a href="https://document.resmed.com/en-us/documents/uk/COVID_Ventilators_PDFs/278579_astral-100-150_clinical-guide_row_eng.pdf" target="_blank" rel="noopener">ResMed · Astral 100/150, Clinical guide 278579/1 (2018)</a><small>Referencia principal de modos, interfaz y rangos.</small></li><li><a href="https://document.resmed.com/documents/products/machine/astral-series/fact-sheet/1019228_astral_confident_care_fs_amer_eng.pdf" target="_blank" rel="noopener">ResMed · Astral specifications, iVAPS with optional AutoEPAP (2018)</a><small>Comparación de modelos y tecnologías adaptativas.</small></li><li><a href="https://document.resmed.com/documents/products/machine/astral-series/user-guide/astral-100-150_user-guide_amer_mul.pdf" target="_blank" rel="noopener">ResMed · Manual del usuario AMER, multilingüe</a><small>Consulta complementaria; usar la edición de su equipo.</small></li><li><a href="https://www.resmed.com/en-us/products/ventilation/astral/" target="_blank" rel="noopener">ResMed · Página oficial Astral</a><small>Referencia visual y fotografía del producto.</small></li></ol><p>Investigación: 15 de septiembre de 2026. ResMed y Astral son marcas de sus respectivos titulares. Desarrollo educativo independiente para acompañar el ebook.</p></section>
  </main>
- <footer><a href="/academia/ebook/ventilacion-no-invasiva#simulador">← Volver a «Controlá a tu paciente»</a><span>Ventilación en enfermedades neuromusculares · Laboratorio Astral</span></footer>
+ <footer><a href="/academia/ebook/ventilacion-no-invasiva#simulador">← Volver a «Controlá a su paciente»</a><span>Ventilación en enfermedades neuromusculares · Laboratorio Astral</span></footer>
  <dialog id="modal"><div id="modal-content"></div><button id="modal-close">Cerrar</button></dialog>
- <script type="module" src="/academia/ebook/ventilacion-no-invasiva/astral/app.mjs?v=76d5a63e"></script>
+ <script type="module" src="/academia/ebook/ventilacion-no-invasiva/astral/app.mjs?v=0303a864"></script>
  <script type="module" src="/academia/ebook/ventilacion-no-invasiva/embedded-lab.mjs"></script>
  <script type="module">
   for (const a of document.querySelectorAll('a[href="/academia/ebook/ventilacion-no-invasiva#simulador"]')) { a.textContent='← Volver al ebook de VNI'; a.target='_top'; }

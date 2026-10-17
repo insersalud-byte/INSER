@@ -31,7 +31,7 @@ export function normalize(s,regional=true){
  if(s.mask==='Trach')s.alarms.nonVented=1;
  return s;
 }
-export function canStart(s,p){if(p.weight<13)return 'La indicación del Stellar es para pacientes de 13 kg o más.';if(s.mode==='iVAPS'&&p.weight<30)return 'iVAPS está indicado a partir de 30 kg. Elegí otro modo para este paciente virtual.';return '';}
+export function canStart(s,p){if(p.weight<13)return 'La indicación del Stellar es para pacientes de 13 kg o más.';if(s.mode==='iVAPS'&&p.weight<30)return 'iVAPS está indicado a partir de 30 kg. Elija otro modo para este paciente virtual.';return '';}
 export function canSmartStop(s,opts,fit){return opts.smart&&!opts.confirmStop&&!fit&&!['Full Face','Trach'].includes(s.mask)&&!s.alarms.leak&&!s.alarms.lowMv;}
 // Height-derived approximation, not the proprietary dead-space function.
 export function deadspace(height,mask){return Math.max(.025,.15*Math.pow(height/175,2.3)-(mask==='Trach'?.05:0));}

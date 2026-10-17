@@ -6,10 +6,10 @@ document.head.append(css);
 const devices = [
   {id:'astral',name:'Astral 150',image:'astral/astral-official.jpg',
    description:'Ventilador portátil con pantalla táctil, modos por presión y volumen y cuatro programas independientes. Admite rama única con fuga, rama única con válvula y doble rama; los modos disponibles dependen del circuito. Incluye iVAPS y AutoEPAP según versión.',
-   exercise:'Practicá la selección de circuito, los ajustes, las curvas y las alarmas. El laboratorio abre en Astral 150 y también permite comparar el modelo 100.'},
+   exercise:'Practique la selección de circuito, los ajustes, las curvas y las alarmas. El laboratorio abre en Astral 150 y también permite comparar el modelo 100.'},
   {id:'stellar',name:'Stellar 150',image:'stellar/stellar-official.jpg',
    description:'Ventilador portátil con pantalla a color, botones de menú y perilla giratoria. Ofrece CPAP, S, ST, T, PAC e iVAPS, dos programas y circuito de una rama con fuga intencional. La opción AutoEPAP depende de la variante regional.',
-   exercise:'Practicá la navegación con la perilla, el reconocimiento del circuito, los cambios de presión y tiempo, y observá las curvas y alarmas del paciente virtual.'}
+   exercise:'Practique la navegación con la perilla, el reconocimiento del circuito, los cambios de presión y tiempo, y observe las curvas y alarmas del paciente virtual.'}
 ];
 const entries = [];
 function createSection(device) {
