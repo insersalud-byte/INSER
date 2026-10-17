@@ -1138,6 +1138,38 @@ try {
         }
     }
 
+    // FEED DE GOOGLE MERCHANT CENTER (/merchant-center-feed.tsv, Merchant lo lee solo cada dia).
+    // Los datos para Google viven en scripts/merchant-feed.mjs; el PRECIO sale del catalogo de
+    // LandingPage.jsx y se verifica contra el texto de la pagina del link generada aca mismo.
+    // Import dinamico y try propio: si algo falla, queda el feed del build anterior (Vite ya
+    // copio public/merchant-center-feed.tsv a dist/) y el resto del prerender sigue.
+    try {
+        const { leerCatalogo, generarFeed } = await import('./merchant-feed.mjs');
+        const catalogo = leerCatalogo(readFileSync(resolve(__dirname, '..', 'src', 'features', 'landing', 'LandingPage.jsx'), 'utf8'));
+        const cuerpoDe = (ruta) => {
+            if (ruta === '/') return buildHomeBody('salud');
+            const pat = pathologies.find((x) => `/patologia/${x.slug}` === ruta);
+            if (pat) return buildPathologyBody(pat, true);
+            const loc = localPages.find((x) => `/${x.slug}` === ruta);
+            return loc ? buildLocalBody(loc) : '';
+        };
+        const existeArchivo = (ruta) => [DIST, resolve(__dirname, '..', 'public')]
+            .some((dir) => existsSync(resolve(dir, decodeURIComponent(ruta).replace(/^\//, ''))));
+        const feed = generarFeed({ catalogo, localPages, cuerpoDe, existeArchivo });
+        for (const o of feed.omitidos) console.warn(`[prerender] merchant feed: queda afuera ${o.id}: ${o.motivo}`);
+        for (const a of feed.avisos) console.warn(`[prerender] merchant feed: ${a}`);
+        if (feed.incluidos < feed.total * 0.8) {
+            console.warn(`[prerender] merchant feed NO reescrito: solo ${feed.incluidos} de ${feed.total} productos pasaron los controles`);
+        } else {
+            for (const dir of [DIST, resolve(__dirname, '..', 'public')]) {
+                try { writeFileSync(resolve(dir, 'merchant-center-feed.tsv'), feed.tsv, 'utf8'); } catch { /* no romper el build */ }
+            }
+            console.log(`[prerender] merchant feed: ${feed.incluidos} de ${feed.total} productos -> merchant-center-feed.tsv`);
+        }
+    } catch (e) {
+        console.warn('[prerender] merchant feed no generado (queda el del build anterior):', e?.message);
+    }
+
     // Markdown de las paginas ESTATICAS del sitemap (Academia y sus cursos, politicas, tarjeta).
     // Se recorre el sitemap recien generado: toda URL publicada que todavia no tiene .md lo recibe,
     // asi ninguna URL del sitemap da 404 al pedir su .md. Solo entran los cursos PUBLICADOS (los del
