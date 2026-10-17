@@ -43,8 +43,7 @@ export function assessPatient(raw = {}) {
   const hasData = numericValues.some(value => value !== null)
     || symptoms.size > 0
     || input.nocturnalFinding !== 'not-measured'
-    || input.knownLungDisease
-    || input.acuteDeterioration;
+    || input.acuteDeterioration; // la enfermedad pulmonar conocida sola no es una medición: no habilita el veredicto
 
   if (!hasData) {
     return {
@@ -93,7 +92,7 @@ export function assessPatient(raw = {}) {
   if (input.paco2 !== null && input.paco2 >= 45) {
     add(
       'urgent-respiratory', 'red', 'Derivación respiratoria urgente',
-      'Una PaCO₂ mayor de 45 mmHg es compatible con hipoventilación. Requiere evaluación rápida por un servicio con experiencia en ventilación; si hay deterioro agudo, somnolencia marcada o dificultad respiratoria, corresponde atención de emergencia.',
+      'Una PaCO₂ de 45 mmHg o más es compatible con hipoventilación. Requiere evaluación rápida por un servicio con experiencia en ventilación; si hay deterioro agudo, somnolencia marcada o dificultad respiratoria, corresponde atención de emergencia.',
       `PaCO₂ ${input.paco2} mmHg.`
     );
     add(
@@ -168,7 +167,7 @@ export function assessPatient(raw = {}) {
       add(
         'mechanical-cough-assist', 'orange', 'Valorar cough assist / MI-E',
         'El pico de tos está en un rango de depuración muy ineficaz. Un equipo entrenado debe probar insuflación-exuflación mecánica y verificar el flujo logrado, secreciones, fugas, bulbar y tolerancia.',
-        `Pico flujo de tos ${input.peakCoughFlow} L/min, igual o menor de 160 L/min.`
+        `Pico flujo de tos ${input.peakCoughFlow} L/min, menor de 160 L/min.`
       );
     }
 
