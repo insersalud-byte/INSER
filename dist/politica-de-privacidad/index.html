@@ -32,6 +32,18 @@
   "publisher": { "@id": "https://insersalud.com/#organization" }
 }
 </script>
+<!-- Google Analytics 4: mismo ID que el sitio. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  // Trafico interno: ?sinstats=1 apaga GA4 en este navegador; ?constats=1 lo reactiva.
+  try{var q=location.search;if(/[?&]sinstats=1/.test(q))localStorage.setItem('inser-sin-stats','1');if(/[?&]constats=1/.test(q))localStorage.removeItem('inser-sin-stats');if(localStorage.getItem('inser-sin-stats')==='1')window['ga-disable-G-XD586V0PLV']=true;}catch(e){}
+  // Solo mide en produccion: previews de Vercel (*.vercel.app) y localhost no mandan datos a GA4.
+  if(!/(^|\.)(insersalud\.com|inser\.ar)$/.test(location.hostname))window['ga-disable-G-XD586V0PLV']=true;
+  gtag('js', new Date());
+  gtag('config', 'G-XD586V0PLV');
+</script>
 <style>
   :root { --tinta:#0f172a; --suave:#475569; --linea:#e2e8f0; --acento:#0369a1; --fondo:#f8fafc; }
   * { box-sizing:border-box; }
