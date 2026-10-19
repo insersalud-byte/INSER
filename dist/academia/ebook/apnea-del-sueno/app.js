@@ -14,16 +14,16 @@
       const selected = field.querySelector('input:checked');
       return selected ? Number(selected.value) : null;
     }));
-    $('ess-count').textContent = `${result.answered} de 8 respuestas${result.answered === 8 ? ' · completo ✓' : ''}`;
+    $('ess-count').textContent = `${result.answered} de 8 situaciones${result.answered === 8 ? ' · completo ✓' : ''}`;
     $('ess-progress').value = result.answered;
     $('ess-total').textContent = result.total ?? '—';
     $('ess-meter').style.width = result.total === null ? '0%' : `${result.total / 24 * 100}%`;
     const remaining = 8 - result.answered;
     $('ess-band').textContent = result.total === null
-      ? `${remaining === 1 ? 'Falta 1 respuesta' : 'Faltan ' + remaining + ' respuestas'}`
+      ? `${remaining === 1 ? 'Falta 1 situación' : 'Faltan ' + remaining + ' situaciones'}`
       : bands[result.band];
     $('ess-message').textContent = result.total === null
-      ? 'Elegí un número en cada fila. El resultado aparecerá al completar las ocho.'
+      ? 'Elegí una probabilidad en cada situación. El resultado aparecerá al completar las ocho.'
       : result.total <= 10
         ? 'Este puntaje no descarta AOS ni otros trastornos. Interpretar síntomas y contexto; no usarlo como autorización para conducir.'
         : 'El resultado orienta a evaluar la somnolencia y sus causas. No indica la gravedad de apnea ni el tratamiento que corresponde.';
@@ -54,7 +54,7 @@
     $('sb-meter').style.width = result.total === null ? '0%' : `${result.total / 8 * 100}%`;
     const remaining = 8 - result.answered;
     $('sb-band').textContent = result.total === null
-      ? (remaining === 1 ? 'Falta 1 respuesta' : `Faltan ${remaining} respuestas`)
+      ? (remaining === 1 ? 'Falta 1 situación' : `Faltan ${remaining} situaciones`)
       : sbBands[result.band];
     $('sb-message').textContent = result.total === null
       ? 'Preguntale al paciente y marcá Sí o No en cada fila. El riesgo aparece al completar las ocho.'
