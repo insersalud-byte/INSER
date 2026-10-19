@@ -97,3 +97,5 @@ main{max-width:1360px;margin:auto;padding:0 4vw}.hero{padding:4.5rem 0 3rem;disp
 .autor-nota a{font-weight:650}
 /* Epworth en celular: las cuatro opciones con su rótulo en dos columnas, para que no se partan palabra por palabra. */
 @media (max-width:520px){.ess-options{grid-template-columns:repeat(2,minmax(0,1fr))}.ess-option span{min-height:48px;font-size:.78rem}.ess-option b{font-size:1.1rem}}
+/* Tabla de alivio espiratorio por fabricante: en celular cada equipo es una ficha apilada. */
+@media (max-width:620px){.tabla-apilada{min-width:0!important;width:100%}.tabla-apilada thead{display:none}.tabla-apilada tr{display:block;border-bottom:1px solid var(--line);padding:.6rem 0}.tabla-apilada th,.tabla-apilada td{display:block;width:auto;border:0;padding:.25rem .75rem}.tabla-apilada td::before{content:attr(data-label);display:block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:.1rem}}
