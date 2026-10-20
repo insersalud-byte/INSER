@@ -91,6 +91,206 @@
   }
   ['event-count', 'event-minutes'].forEach(id => $(id).addEventListener('input', renderIndex));
   $('index-kind').addEventListener('change', renderIndex);
+
+  const polySetup = $('poly-setup');
+  const setupLabels = {
+    batteries: 'revisar equipo y pilas',
+    belt: 'centrar cinturón y esfuerzo',
+    cannula: 'colocar la cánula nasal',
+    oximeter: 'colocar la oximetría',
+    indicators: 'iniciar y confirmar luces verdes'
+  };
+  function renderPolygraphSetup() {
+    if (!polySetup) return;
+    const values = Object.fromEntries(Array.from(polySetup.querySelectorAll('[data-setup]')).map(input => [input.dataset.setup, input.checked]));
+    const result = model.evaluatePolygraphSetup(values);
+    $('poly-setup-count').textContent = `${result.completed} / 5`;
+    $('poly-setup-state').textContent = result.ready ? 'Listo para iniciar la práctica' : 'Instalación pendiente';
+    $('poly-setup-message').textContent = result.ready
+      ? 'Los cinco controles están completos. En un estudio real todavía corresponde verificar instrucciones, seguridad y protocolo local.'
+      : `Próximo control: ${setupLabels[result.missing[0]]}.`;
+    polySetup.closest('.setup-grid').querySelector('.setup-status').classList.toggle('ready', result.ready);
+  }
+  if (polySetup) {
+    polySetup.querySelectorAll('[data-setup]').forEach(input => input.addEventListener('change', renderPolygraphSetup));
+    polySetup.addEventListener('reset', () => setTimeout(renderPolygraphSetup, 0));
+  }
+
+  const polyCaseSelect = $('poly-case');
+  const solvedPolygraphCases = new Set();
+  function tracePoints(values, mapper) {
+    return values.map((value, index) => {
+      const x = 105 + index * 775 / (values.length - 1);
+      return `${x.toFixed(1)},${mapper(value).toFixed(1)}`;
+    }).join(' ');
+  }
+  function renderPolygraphScore() {
+    $('poly-score').textContent = `${solvedPolygraphCases.size} / ${model.polygraphCases.length} RESUELTOS`;
+  }
+  function formatMinutes(total) {
+    if (!Number.isFinite(total)) return '—';
+    const hours = Math.floor(total / 60);
+    const minutes = total % 60;
+    return `${hours} h ${String(minutes).padStart(2, '0')} min`;
+  }
+  function reportValue(id, value) {
+    const element = $(id);
+    if (element) element.textContent = value;
+  }
+  function renderReportOverview(item) {
+    const report = item.report;
+    const svgNamespace = 'http://www.w3.org/2000/svg';
+    const marks = $('poly-report-event-marks');
+    const rowY = { obstructive: 59, central: 84, mixed: 109, hypopneas: 134, desaturations: 159, snoring: 184 };
+    const fragment = document.createDocumentFragment();
+    Object.entries(report.overview.events).forEach(([kind, positions]) => {
+      positions.forEach(position => {
+        const line = document.createElementNS(svgNamespace, 'line');
+        const x = 120 + position * 760 / 120;
+        line.setAttribute('x1', x.toFixed(1));
+        line.setAttribute('x2', x.toFixed(1));
+        line.setAttribute('y1', String(rowY[kind] - 7));
+        line.setAttribute('y2', String(rowY[kind] + 7));
+        line.classList.add('report-event-mark', kind);
+        fragment.append(line);
+      });
+    });
+    marks.replaceChildren(fragment);
+    const overviewPoints = (values, mapper) => values.map((value, index) => {
+      const x = 120 + index * 760 / (values.length - 1);
+      return `${x.toFixed(1)},${mapper(value).toFixed(1)}`;
+    }).join(' ');
+    $('poly-report-pulse-line').setAttribute('points', overviewPoints(report.overview.pulse, value => Math.max(220, Math.min(330, 330 - (value - 40) * .92))));
+    $('poly-report-spo2-line').setAttribute('points', overviewPoints(report.overview.spo2, value => Math.max(350, Math.min(465, 465 - (value - 70) * 2.88))));
+  }
+  function renderPolygraphReport(item) {
+    const report = item.report;
+    if (!report) return;
+    const printable = value => Number.isFinite(value) ? String(value) : '—';
+    reportValue('poly-report-patient', report.patient);
+    reportValue('poly-report-study', report.studyLabel);
+    reportValue('poly-report-window', report.recordingWindow);
+    reportValue('poly-report-duration', formatMinutes(report.recordingMinutes));
+    reportValue('poly-report-valid-flow', formatMinutes(report.validFlowMinutes));
+    reportValue('poly-report-valid-ox', formatMinutes(report.validOximetryMinutes));
+    reportValue('poly-report-rei', report.interpretable ? `${report.rei.toFixed(1)} /h` : 'No calculable');
+    reportValue('poly-report-odi', report.interpretable ? `${report.odi.toFixed(1)} /h` : 'No calculable');
+    reportValue('poly-report-total', report.interpretable ? printable(report.events.total) : 'No validable');
+    reportValue('poly-report-apneas', printable(report.events.apneas));
+    reportValue('poly-report-types', `${report.events.obstructive} / ${report.events.central} / ${report.events.mixed}`);
+    reportValue('poly-report-hypopneas', printable(report.events.hypopneas));
+    reportValue('poly-report-rr', Number.isFinite(report.respiratoryRate) ? `${report.respiratoryRate.toFixed(1)} rpm` : 'No calculable');
+    reportValue('poly-report-spo2', `${report.spo2.baseline}% / ${report.spo2.average}% / ${report.spo2.minimum}%`);
+    reportValue('poly-report-below90', Number.isFinite(report.spo2.below90Minutes) ? `${report.spo2.below90Minutes} min` : 'No validable');
+    reportValue('poly-report-desaturations', report.interpretable ? printable(report.desaturations) : 'No validable');
+    reportValue('poly-report-pulse', `${report.pulse.minimum} / ${report.pulse.average} / ${report.pulse.maximum} lpm`);
+    reportValue('poly-report-snoring', printable(report.snoringEvents));
+    reportValue('poly-report-quality', report.quality);
+    reportValue('poly-report-commentary', report.commentary);
+    reportValue('poly-report-conclusion', report.conclusion);
+    reportValue('poly-report-recommendation', report.recommendation);
+    const resultText = !report.interpretable
+      ? 'REGISTRO NO INTERPRETABLE'
+      : report.kind === 'central'
+        ? `REI ${report.rei.toFixed(1)}/h · componente central significativo`
+        : `REI ${report.rei.toFixed(1)}/h · AOS ${report.severity}`;
+    reportValue('poly-report-result', resultText);
+    const riskPosition = !report.interpretable ? 52 : report.rei < 5 ? 20 : report.rei < 15 ? 48 : report.rei < 30 ? 70 : 90;
+    $('poly-report-risk-arrow').style.setProperty('--risk-position', `${riskPosition}%`);
+    renderReportOverview(item);
+  }
+  function renderTraceWindows(item) {
+    const svg = $('poly-traces');
+    const svgNamespace = 'http://www.w3.org/2000/svg';
+    let markers = $('poly-trace-markers');
+    if (!markers) {
+      markers = document.createElementNS(svgNamespace, 'g');
+      markers.id = 'poly-trace-markers';
+      const eventBand = document.createElementNS(svgNamespace, 'rect');
+      eventBand.id = 'poly-event-band';
+      eventBand.classList.add('trace-band', 'event');
+      eventBand.setAttribute('y', '18');
+      eventBand.setAttribute('height', '312');
+      const recoveryBand = document.createElementNS(svgNamespace, 'rect');
+      recoveryBand.id = 'poly-recovery-band';
+      recoveryBand.classList.add('trace-band', 'recovery');
+      recoveryBand.setAttribute('y', '18');
+      recoveryBand.setAttribute('height', '312');
+      const eventLabel = document.createElementNS(svgNamespace, 'text');
+      eventLabel.id = 'poly-event-label';
+      eventLabel.classList.add('trace-marker-label');
+      eventLabel.setAttribute('y', '31');
+      eventLabel.textContent = 'VENTANA A · EVENTO';
+      const recoveryLabel = document.createElementNS(svgNamespace, 'text');
+      recoveryLabel.id = 'poly-recovery-label';
+      recoveryLabel.classList.add('trace-marker-label');
+      recoveryLabel.setAttribute('y', '31');
+      recoveryLabel.textContent = 'VENTANA B · RESPUESTA';
+      markers.append(eventBand, recoveryBand, eventLabel, recoveryLabel);
+      svg.insertBefore(markers, $('poly-flow-line'));
+    }
+    const toX = index => 105 + index * 775 / (item.traces.flow.length - 1);
+    const eventX = toX(item.windows.eventStart);
+    const eventEndX = toX(item.windows.eventEnd);
+    const recoveryEndX = toX(item.windows.recoveryEnd);
+    $('poly-event-band').setAttribute('x', eventX.toFixed(1));
+    $('poly-event-band').setAttribute('width', (eventEndX - eventX).toFixed(1));
+    $('poly-recovery-band').setAttribute('x', eventEndX.toFixed(1));
+    $('poly-recovery-band').setAttribute('width', (recoveryEndX - eventEndX).toFixed(1));
+    $('poly-event-label').setAttribute('x', (eventX + 7).toFixed(1));
+    $('poly-recovery-label').setAttribute('x', (eventEndX + 7).toFixed(1));
+  }
+  function renderPolygraphCase(caseId) {
+    const item = model.polygraphCases.find(entry => entry.id === caseId) || model.polygraphCases[0];
+    if (!item) return;
+    polyCaseSelect.value = item.id;
+    $('poly-context').textContent = item.context;
+    $('poly-metrics').textContent = item.metrics;
+    $('poly-flow-line').setAttribute('points', tracePoints(item.traces.flow, value => 75 - value * 26));
+    $('poly-effort-line').setAttribute('points', tracePoints(item.traces.effort, value => 155 - value * 22));
+    $('poly-spo2-line').setAttribute('points', tracePoints(item.traces.spo2, value => Math.max(202, Math.min(268, 250 - (value - 88) * 1.6))));
+    $('poly-pulse-line').setAttribute('points', tracePoints(item.traces.pulse, value => Math.max(282, Math.min(332, 315 - (value - 65) * .45))));
+    renderTraceWindows(item);
+    renderPolygraphReport(item);
+    $('poly-trace-caption').textContent = 'Señales sintéticas. Ventana A: compará flujo y esfuerzo torácico. Ventana B: buscá recuperación y respuesta tardía de SpO₂/pulso.';
+    $('poly-event').value = '';
+    $('poly-action').value = '';
+    const feedback = $('poly-feedback');
+    feedback.className = 'feedback poly-feedback';
+    feedback.textContent = 'Elegí el patrón y la conducta; después comprobá tu lectura.';
+  }
+  if (polyCaseSelect) {
+    document.querySelectorAll('[data-poly-view]').forEach(button => button.addEventListener('click', () => {
+      const showReport = button.dataset.polyView === 'report';
+      $('poly-trace-view').hidden = showReport;
+      $('poly-report-view').hidden = !showReport;
+      document.querySelectorAll('[data-poly-view]').forEach(control => control.setAttribute('aria-pressed', String(control === button)));
+    }));
+    model.polygraphCases.forEach(item => polyCaseSelect.add(new Option(item.label, item.id)));
+    polyCaseSelect.addEventListener('change', () => renderPolygraphCase(polyCaseSelect.value));
+    $('poly-case-form').addEventListener('submit', event => {
+      event.preventDefault();
+      const result = model.checkPolygraphCase(polyCaseSelect.value, $('poly-event').value, $('poly-action').value);
+      if (!result) return;
+      const feedback = $('poly-feedback');
+      feedback.className = `feedback poly-feedback ${result.correct ? 'correct' : 'review'}`;
+      const heading = result.correct ? 'Lectura completa.' : result.eventCorrect || result.actionCorrect ? 'Lectura parcialmente correcta.' : 'Conviene volver a las señales.';
+      const details = `${result.eventCorrect ? 'Patrón correcto.' : 'Revisá la relación entre flujo y esfuerzo.'} ${result.actionCorrect ? 'Conducta correcta.' : 'Revisá la calidad y el próximo paso.'}`;
+      feedback.replaceChildren(Object.assign(document.createElement('strong'), { textContent: heading }), document.createTextNode(` ${details} ${result.rationale}`));
+      if (result.correct) solvedPolygraphCases.add(polyCaseSelect.value);
+      renderPolygraphScore();
+    });
+    $('poly-next').addEventListener('click', () => {
+      const current = model.polygraphCases.findIndex(item => item.id === polyCaseSelect.value);
+      renderPolygraphCase(model.polygraphCases[(current + 1) % model.polygraphCases.length].id);
+    });
+    $('poly-reset').addEventListener('click', () => {
+      solvedPolygraphCases.clear();
+      renderPolygraphScore();
+      renderPolygraphCase(model.polygraphCases[0].id);
+    });
+  }
+
   function renderPap(mode) {
     const values = model.papTrace(mode);
     if (!values) return;
@@ -220,5 +420,7 @@
     inserQrModal.addEventListener('click', () => inserQrModal.classList.remove('ver'));
     document.addEventListener('keydown', e => { if (e.key === 'Escape') inserQrModal.classList.remove('ver'); });
   }
-  renderEpworth(); renderStopBang(); renderIndex(); renderPap('cpap'); renderProgress();
+  renderEpworth(); renderStopBang(); renderIndex(); renderPolygraphSetup();
+  if (polyCaseSelect) { renderPolygraphCase(model.polygraphCases[0].id); renderPolygraphScore(); }
+  renderPap('cpap'); renderProgress();
 })();
