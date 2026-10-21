@@ -137,6 +137,21 @@
     const element = $(id);
     if (element) element.textContent = value;
   }
+  function reportClockLabels(recordingWindow) {
+    const [startText, endText] = String(recordingWindow).split('-');
+    const toMinutes = value => {
+      const [hours, minutes] = value.split(':').map(Number);
+      return hours * 60 + minutes;
+    };
+    const start = toMinutes(startText);
+    let end = toMinutes(endText);
+    if (end <= start) end += 24 * 60;
+    const format = minutes => {
+      const wrapped = Math.round(minutes) % (24 * 60);
+      return `${String(Math.floor(wrapped / 60)).padStart(2, '0')}:${String(wrapped % 60).padStart(2, '0')}`;
+    };
+    return [0, 0.25, 0.5, 0.75, 1].map(fraction => format(start + (end - start) * fraction));
+  }
   function renderReportOverview(item) {
     const report = item.report;
     const svgNamespace = 'http://www.w3.org/2000/svg';
@@ -160,21 +175,55 @@
       const x = 120 + index * 760 / (values.length - 1);
       return `${x.toFixed(1)},${mapper(value).toFixed(1)}`;
     }).join(' ');
+    const spo2Y = value => Math.max(350, Math.min(465, 465 - (value - 70) * 2.88));
     $('poly-report-pulse-line').setAttribute('points', overviewPoints(report.overview.pulse, value => Math.max(220, Math.min(330, 330 - (value - 40) * .92))));
-    $('poly-report-spo2-line').setAttribute('points', overviewPoints(report.overview.spo2, value => Math.max(350, Math.min(465, 465 - (value - 70) * 2.88))));
+    $('poly-report-spo2-line').setAttribute('points', overviewPoints(report.overview.spo2, spo2Y));
+    reportValue('poly-report-spo2-baseline', `Saturación basal ${report.spo2.baseline}%`);
+    reportValue('poly-report-spo2-average', `Saturación promedio ${report.spo2.average}%`);
+    const clockLabels = reportClockLabels(report.recordingWindow);
+    ['start', 'quarter', 'middle', 'three-quarter', 'end'].forEach((name, index) => reportValue(`poly-report-time-${name}`, clockLabels[index]));
+    const nadirIndex = report.overview.spo2.indexOf(Math.min(...report.overview.spo2));
+    const nadirX = 120 + nadirIndex * 760 / (report.overview.spo2.length - 1);
+    const nadirY = spo2Y(report.overview.spo2[nadirIndex]);
+    const nadirMarker = $('poly-report-spo2-nadir');
+    const nadirLabel = $('poly-report-spo2-nadir-label');
+    const showNadir = report.interpretable;
+    nadirMarker.style.display = showNadir ? '' : 'none';
+    nadirLabel.style.display = showNadir ? '' : 'none';
+    if (showNadir) {
+      nadirMarker.setAttribute('cx', nadirX.toFixed(1));
+      nadirMarker.setAttribute('cy', nadirY.toFixed(1));
+      nadirLabel.setAttribute('x', Math.max(145, Math.min(850, nadirX)).toFixed(1));
+      nadirLabel.setAttribute('y', Math.max(360, nadirY - 7).toFixed(1));
+      nadirLabel.setAttribute('text-anchor', 'middle');
+      nadirLabel.textContent = `Mín ${report.spo2.minimum}%`;
+    }
   }
   function renderPolygraphReport(item) {
     const report = item.report;
     if (!report) return;
     const printable = value => Number.isFinite(value) ? String(value) : '—';
+    const indexValue = value => Number.isFinite(value) ? `${value.toFixed(1)} /h` : 'No calculable';
     reportValue('poly-report-patient', report.patient);
     reportValue('poly-report-study', report.studyLabel);
     reportValue('poly-report-window', report.recordingWindow);
     reportValue('poly-report-duration', formatMinutes(report.recordingMinutes));
     reportValue('poly-report-valid-flow', formatMinutes(report.validFlowMinutes));
     reportValue('poly-report-valid-ox', formatMinutes(report.validOximetryMinutes));
-    reportValue('poly-report-rei', report.interpretable ? `${report.rei.toFixed(1)} /h` : 'No calculable');
-    reportValue('poly-report-odi', report.interpretable ? `${report.odi.toFixed(1)} /h` : 'No calculable');
+    reportValue('poly-report-rei', indexValue(report.indices.rei));
+    reportValue('poly-report-apnea-index', indexValue(report.indices.apneas));
+    reportValue('poly-report-obstructive-index', indexValue(report.indices.obstructive));
+    reportValue('poly-report-central-index', indexValue(report.indices.central));
+    reportValue('poly-report-mixed-index', indexValue(report.indices.mixed));
+    reportValue('poly-report-hypopnea-index', indexValue(report.indices.hypopneas));
+    reportValue('poly-report-odi', indexValue(report.indices.odi));
+    reportValue('poly-ref-rei', report.references.rei);
+    reportValue('poly-ref-apnea-index', report.references.apneas);
+    reportValue('poly-ref-obstructive-index', report.references.obstructive);
+    reportValue('poly-ref-central-index', report.references.central);
+    reportValue('poly-ref-mixed-index', report.references.mixed);
+    reportValue('poly-ref-hypopnea-index', report.references.hypopneas);
+    reportValue('poly-ref-odi', report.references.odi);
     reportValue('poly-report-total', report.interpretable ? printable(report.events.total) : 'No validable');
     reportValue('poly-report-apneas', printable(report.events.apneas));
     reportValue('poly-report-types', `${report.events.obstructive} / ${report.events.central} / ${report.events.mixed}`);

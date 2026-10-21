@@ -126,47 +126,220 @@
 
   function distributeMarkers(count, seed) {
     if (!count) return [];
-    return Array.from({ length: count }, (_, index) => Number((((index * 47 + seed * 19) % 118) + 1 + ((index % 5) * 0.12)).toFixed(2))).sort((a, b) => a - b);
+    const activeWindows = [[3, 27], [32, 48], [52, 73], [79, 96], [101, 118]];
+    return Array.from({ length: count }, (_, index) => {
+      const clusterNoise = Math.abs(Math.sin((index + 1) * (seed + 3) * 12.9898) * 43758.5453) % 1;
+      const positionNoise = Math.abs(Math.sin((index + 11) * (seed + 7) * 7.233) * 15731.743) % 1;
+      const window = activeWindows[Math.min(activeWindows.length - 1, Math.floor(clusterNoise * activeWindows.length))];
+      const fraction = Math.pow(positionNoise, 0.82 + (seed % 3) * 0.11);
+      return Number((window[0] + (window[1] - window[0]) * fraction).toFixed(2));
+    }).sort((a, b) => a - b);
+  }
+
+  function linkedDesaturationEvents(count, respiratoryEvents) {
+    if (!count || !respiratoryEvents.length) return [];
+    return Array.from({ length: count }, (_, index) => {
+      const sourceIndex = Math.min(respiratoryEvents.length - 1, Math.floor(index * respiratoryEvents.length / count));
+      const sourceEventPosition = respiratoryEvents[sourceIndex].position;
+      const severe = index === Math.floor(count * 0.56);
+      const onsetPosition = sourceEventPosition + 0.07 + (index % 3) * 0.01;
+      const nadirPosition = onsetPosition + (severe ? 0.2 : 0.1 + (index % 3) * 0.015);
+      const recoveryEnd = nadirPosition + (severe ? 0.32 : 0.18 + (index % 4) * 0.02);
+      return {
+        sourceEventPosition: Number(sourceEventPosition.toFixed(2)),
+        onsetPosition: Number(onsetPosition.toFixed(2)),
+        nadirPosition: Number(nadirPosition.toFixed(2)),
+        recoveryEnd: Number(recoveryEnd.toFixed(2))
+      };
+    }).sort((a, b) => a.nadirPosition - b.nadirPosition);
+  }
+
+  function adjustNonDesaturatedMean(values, protectedIndexes, targetMean, lower, upper) {
+    const adjustable = values.map((_, index) => index).filter(index => !protectedIndexes.has(index));
+    for (let pass = 0; pass < 8; pass += 1) {
+      const residual = targetMean * values.length - values.reduce((sum, value) => sum + value, 0);
+      if (Math.abs(residual) < 0.01 || !adjustable.length) break;
+      const delta = residual / adjustable.length;
+      adjustable.forEach(index => {
+        values[index] = Math.max(lower, Math.min(upper, values[index] + delta));
+      });
+    }
+  }
+
+  function normalizeOximetry(raw, report) {
+    const values = raw.slice();
+    const sampleMinutes = report.validOximetryMinutes / values.length;
+    const below90Count = Math.max(0, Math.min(values.length, Math.round(report.spo2.below90Minutes / sampleMinutes)));
+    const rankedIndexes = values.map((value, index) => ({ value, index })).sort((a, b) => a.value - b.value);
+    const below90Indexes = new Set(rankedIndexes.slice(0, below90Count).map(entry => entry.index));
+    const rankByIndex = new Map(rankedIndexes.slice(0, below90Count).map((entry, rank) => [entry.index, rank]));
+    const nonDesaturatedRaw = rankedIndexes.slice(below90Count).map(entry => entry.value);
+    const rawMean = nonDesaturatedRaw.reduce((sum, value) => sum + value, 0) / Math.max(1, nonDesaturatedRaw.length);
+
+    values.forEach((value, index) => {
+      if (below90Indexes.has(index)) {
+        const rank = rankByIndex.get(index);
+        const progress = below90Count <= 1 ? 0 : rank / (below90Count - 1);
+        values[index] = report.spo2.minimum + (89.8 - report.spo2.minimum) * Math.pow(progress, 0.72);
+      } else {
+        values[index] = Math.max(90.1, Math.min(report.spo2.baseline + 0.9, report.spo2.average + 0.45 + (value - rawMean) * 0.55));
+      }
+    });
+    adjustNonDesaturatedMean(values, below90Indexes, report.spo2.average, 90.1, report.spo2.baseline + 0.9);
+    return values.map(value => Number(value.toFixed(1)));
+  }
+
+  function normalizePulse(raw, report) {
+    const values = raw.slice();
+    const protectedIndexes = new Set();
+    const lowCenter = Math.floor(values.length * 0.2);
+    const highCenter = Math.floor(values.length * 0.64);
+    const lowShape = [6, 3, 1, 0, 1, 3, 6];
+    const highShape = [10, 5, 2, 0, 2, 5, 10];
+    lowShape.forEach((offset, index) => {
+      const at = lowCenter + index - 3;
+      values[at] = report.pulse.minimum + offset;
+      protectedIndexes.add(at);
+    });
+    highShape.forEach((offset, index) => {
+      const at = highCenter + index - 3;
+      values[at] = report.pulse.maximum - offset;
+      protectedIndexes.add(at);
+    });
+    const unprotected = values.filter((_, index) => !protectedIndexes.has(index));
+    const unprotectedMean = unprotected.reduce((sum, value) => sum + value, 0) / unprotected.length;
+    values.forEach((value, index) => {
+      if (!protectedIndexes.has(index)) {
+        values[index] = Math.max(report.pulse.minimum + 1, Math.min(report.pulse.maximum - 1, report.pulse.average + (value - unprotectedMean)));
+      }
+    });
+    adjustNonDesaturatedMean(values, protectedIndexes, report.pulse.average, report.pulse.minimum + 1, report.pulse.maximum - 1);
+    return values.map(value => Number(value.toFixed(1)));
+  }
+
+  function physiologicalOverviewSignals(kind, report, desaturationLinks, respiratoryEvents) {
+    const length = 1440;
+    if (kind === 'artifact') {
+      const pulse = Array.from({ length }, (_, index) => Number((report.pulse.average + Math.sin(index * 1.7) * 2).toFixed(1)));
+      const spo2 = Array.from({ length }, (_, index) => Number((report.spo2.baseline - 1 + Math.sin(index * 1.41) * 0.4).toFixed(1)));
+      for (let index = 0; index < length; index += 1) {
+        const missing = (index > 170 && index < 420) || (index > 690 && index < 1040) || (index > 1190 && index < 1320);
+        if (missing) {
+          spo2[index] = null;
+          pulse[index] = null;
+        } else if ((index > 500 && index < 555) || (index > 1090 && index < 1140)) {
+          spo2[index] = [86, 94, 82, 96, 88, 93][index % 6];
+          pulse[index] = [51, 82, 48, 96, 54, 78][index % 6];
+        }
+      }
+      return { pulse, spo2 };
+    }
+
+    const rawSpo2 = Array.from({ length }, (_, index) => {
+      const position = index * 120 / (length - 1);
+      const drift = Math.sin(index / 67) * 0.22 + Math.sin(index / 149) * 0.16;
+      const noise = Math.sin(index * 1.83) * 0.18 + Math.sin(index * 0.47) * 0.1;
+      let drop = 0;
+      desaturationLinks.forEach((link, markIndex) => {
+        const isSevere = markIndex === Math.floor(desaturationLinks.length * 0.56);
+        const amplitude = isSevere
+          ? report.spo2.baseline - report.spo2.minimum
+          : 2.4 + (markIndex % 7) * 0.52;
+        let eventDrop = 0;
+        if (position >= link.onsetPosition && position <= link.nadirPosition) {
+          eventDrop = amplitude * (position - link.onsetPosition) / (link.nadirPosition - link.onsetPosition);
+        }
+        if (position > link.nadirPosition && position <= link.recoveryEnd) {
+          eventDrop = amplitude * (1 - (position - link.nadirPosition) / (link.recoveryEnd - link.nadirPosition));
+        }
+        drop = Math.max(drop, eventDrop);
+      });
+      return report.spo2.baseline + drift + noise - drop;
+    });
+    const spo2 = normalizeOximetry(rawSpo2, report);
+
+    const rawPulse = Array.from({ length }, (_, index) => {
+      const position = index * 120 / (length - 1);
+      let response = 0;
+      respiratoryEvents.forEach((event, eventIndex) => {
+        const relative = position - event.position;
+        if (relative >= 0.08 && relative <= 0.7) {
+          const phase = (relative - 0.08) / 0.62;
+          response = Math.max(response, Math.sin(phase * Math.PI) * (5 + eventIndex % 6));
+        }
+      });
+      const variability = Math.sin(index * 1.37) * 1.4 + Math.sin(index / 31) * 1.8;
+      return Number((report.pulse.average - 1 + variability + response).toFixed(1));
+    });
+    const pulse = normalizePulse(rawPulse, report);
+    return { pulse, spo2 };
   }
 
   function createReportOverview(kind, report) {
-    const length = 120;
-    const pulse = Array.from({ length }, (_, i) => Number((report.pulse.average + Math.sin(i / 8) * 2.4 + Math.sin(i / 2.9) * 1.2).toFixed(1)));
-    const spo2 = Array.from({ length }, (_, i) => Number((report.spo2.average + Math.sin(i / 11) * 0.8).toFixed(1)));
-    const eventBurden = report.interpretable ? Math.max(1, report.events.total) : 8;
-
-    for (let i = 0; i < length; i += 1) {
-      const cluster = Math.max(0, Math.sin((i + 8) / 9));
-      if (kind === 'artifact') {
-        pulse[i] = i > 48 && i < 80 ? [48, 92, 54, 110, 50, 87][i % 6] : pulse[i];
-        spo2[i] = i > 20 && i < 88 ? [84, 96, 82, 95, 86, 93][i % 6] : spo2[i];
-      } else {
-        const burdenScale = Math.min(1, eventBurden / 100);
-        pulse[i] = Number((pulse[i] + cluster * burdenScale * 8).toFixed(1));
-        spo2[i] = Number((spo2[i] - cluster * burdenScale * (report.spo2.average - report.spo2.minimum) * 0.55).toFixed(1));
-      }
-    }
-    pulse[18] = report.pulse.minimum;
-    pulse[76] = report.pulse.maximum;
-    spo2[73] = report.spo2.minimum;
+    const events = {
+      indeterminate: distributeMarkers(report.events.indeterminate, 3),
+      obstructive: distributeMarkers(report.events.obstructive, 2),
+      central: distributeMarkers(report.events.central, 5),
+      mixed: distributeMarkers(report.events.mixed, 7),
+      hypopneas: distributeMarkers(report.events.hypopneas, 11),
+      snoring: distributeMarkers(report.snoringEvents, 17),
+      flowWithoutSnore: distributeMarkers(report.flowLimitations.withoutSnore, 19),
+      flowWithSnore: distributeMarkers(report.flowLimitations.withSnore, 23),
+      csr: distributeMarkers(report.csrPeriods, 29)
+    };
+    const respiratoryEvents = ['obstructive', 'central', 'mixed', 'hypopneas']
+      .flatMap(type => events[type].map(position => ({ type, position })))
+      .sort((a, b) => a.position - b.position);
+    const desaturationLinks = linkedDesaturationEvents(report.desaturations, respiratoryEvents);
+    events.desaturations = desaturationLinks.map(link => link.nadirPosition);
+    const { pulse, spo2 } = physiologicalOverviewSignals(kind, report, desaturationLinks, respiratoryEvents);
 
     return {
       pulse,
       spo2,
-      events: {
-        obstructive: distributeMarkers(report.events.obstructive, 2),
-        central: distributeMarkers(report.events.central, 5),
-        mixed: distributeMarkers(report.events.mixed, 7),
-        hypopneas: distributeMarkers(report.events.hypopneas, 11),
-        desaturations: distributeMarkers(report.desaturations, 13),
-        snoring: distributeMarkers(Math.min(report.snoringEvents, 160), 17)
-      }
+      events,
+      desaturationLinks
     };
   }
 
   function buildReport(config) {
     const report = { ...config };
+    report.snoringEvents = Number.isFinite(report.snoringEvents) ? report.snoringEvents : 0;
+    report.flowLimitations = {
+      withoutSnore: Number.isFinite(report.flowLimitations?.withoutSnore) ? report.flowLimitations.withoutSnore : 0,
+      withSnore: Number.isFinite(report.flowLimitations?.withSnore) ? report.flowLimitations.withSnore : 0
+    };
+    report.csrPeriods = Number.isFinite(report.csrPeriods) ? report.csrPeriods : 0;
+    report.breaths = Number.isInteger(report.breaths)
+      ? report.breaths
+      : Number.isFinite(report.respiratoryRate) ? Math.round(report.respiratoryRate * report.validFlowMinutes) : null;
+    report.analysisStatus ||= report.interpretable ? 'Análisis completo' : 'Análisis no válido';
+    report.scoringParameters ||= 'Apnea: caída del flujo ≥90% durante ≥10 s. Hipopnea: caída ≥30% durante ≥10 s con desaturación ≥3%.';
+    report.spo2 = {
+      ...report.spo2,
+      below85Minutes: Number.isFinite(report.spo2?.below85Minutes) ? report.spo2.below85Minutes : null,
+      below80Minutes: Number.isFinite(report.spo2?.below80Minutes) ? report.spo2.below80Minutes : null
+    };
     const validHours = report.validFlowMinutes / 60;
+    const rate = count => report.interpretable ? Number((count / validHours).toFixed(1)) : null;
+    report.indices = {
+      rei: report.interpretable ? report.rei : null,
+      apneas: rate(report.events.apneas),
+      obstructive: rate(report.events.obstructive),
+      central: rate(report.events.central),
+      mixed: rate(report.events.mixed),
+      hypopneas: rate(report.events.hypopneas),
+      odi: report.interpretable ? report.odi : null
+    };
+    report.references = {
+      rei: '< 5/h',
+      apneas: '< 5/h',
+      obstructive: '< 5/h',
+      central: '< 5/h',
+      mixed: 'Sin corte aislado',
+      hypopneas: '< 5/h',
+      odi: '< 5/h'
+    };
     const t90Percent = Number.isFinite(report.spo2.below90Minutes)
       ? report.spo2.below90Minutes / report.validOximetryMinutes * 100
       : null;
