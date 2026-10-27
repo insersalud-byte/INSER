@@ -8,12 +8,15 @@
 # bots de IA quedaban habilitados a rastrear /admin, /login, /login-admin, /api/
 # y la variante dormida /insersalud.
 #
+# (/insersalud ya no se bloquea: ahora redirige 301 a la URL publica y los
+# buscadores tienen que poder ver esa redireccion.)
+#
 # Con un unico grupo "*" el efecto es el mismo que se buscaba y sin la trampa:
 # TODOS los bots (incluidos GPTBot, ClaudeBot, anthropic-ai, PerplexityBot,
 # Perplexity-User, OAI-SearchBot, ChatGPT-User, CCBot, cohere-ai,
 # Google-Extended, Applebot, Applebot-Extended, DuckAssistBot, Amazonbot,
 # Meta-ExternalAgent, FacebookBot, Googlebot y Bingbot) tienen permitido TODO el
-# sitio publico —las 18 landings, las 6 patologias, el home, /tarjeta,
+# sitio publico —las 20 landings, las 6 patologias, el home, /tarjeta,
 # /politica-de-privacidad, /politica-de-devoluciones y la Academia (/academia,
 # /academia/ebook y sus 9 cursos gratuitos)— y solo se les bloquean las 5 rutas
 # privadas.
@@ -26,7 +29,6 @@ Disallow: /api/
 Disallow: /admin
 Disallow: /login
 Disallow: /login-admin
-Disallow: /insersalud
 
 # Sitemaps (dominio principal: insersalud.com)
 Sitemap: https://insersalud.com/sitemap.xml
@@ -42,7 +44,6 @@ Disallow: /api/
 Disallow: /admin
 Disallow: /login
 Disallow: /login-admin
-Disallow: /insersalud
 
 User-agent: SemrushBot
 Crawl-delay: 10
@@ -51,4 +52,3 @@ Disallow: /api/
 Disallow: /admin
 Disallow: /login
 Disallow: /login-admin
-Disallow: /insersalud

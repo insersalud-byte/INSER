@@ -1,6 +1,6 @@
 ---
 title: "Concentrador de Oxígeno 10 Litros Alto Flujo | INSER SALUD"
-description: "Concentrador de alto flujo: hasta 10 L/min sostenidos, el doble del estándar domiciliario de 5 L/min. Para alta demanda de oxígeno y centros de rehabilitación pulmonar. ANMAT y envío a todo el país."
+description: "Concentrador de alto flujo: hasta 10 L/min sostenidos, el doble del estándar domiciliario. Para alta demanda de oxígeno y centros de rehabilitación."
 url: https://insersalud.com/concentrador-oxigeno-10-litros
 canonical: https://insersalud.com/concentrador-oxigeno-10-litros
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Concentrador de oxígeno de 10 litros (alto flujo)
+
+![Concentrador de oxígeno de 10 litros (alto flujo)](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg)
 
 El concentrador de oxígeno YUWELL de 10 litros entrega alto flujo (hasta 10 L/min, el doble del concentrador estándar de 5 L). Está pensado para pacientes con alta demanda de oxígeno y para [centros de rehabilitación pulmonar](https://insersalud.com/equipamiento-rehabilitacion-pulmonar). Se vende con envío a todo el país; $2.800.000, aprobado por ANMAT.
 

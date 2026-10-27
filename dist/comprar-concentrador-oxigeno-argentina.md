@@ -1,6 +1,6 @@
 ---
-title: "Concentrador de oxígeno: precio desde $999.000 y envío a todo el país | INSER"
-description: "Precio de concentrador de oxígeno en Argentina: BMC estacionario hasta 5 L/min $999.000. Fijos, portátiles y de alto flujo, aprobados por ANMAT, cuotas fijas Banco Galicia y envío a todo el país."
+title: "Concentrador de Oxígeno: precio desde $999.000 | INSER"
+description: "Concentrador de oxígeno BMC estacionario de 5 L/min a $999.000, más fijos, portátiles y de alto flujo. ANMAT, cuotas fijas y envío a todo el país."
 url: https://insersalud.com/comprar-concentrador-oxigeno-argentina
 canonical: https://insersalud.com/comprar-concentrador-oxigeno-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Precio de concentradores de oxígeno en Argentina: comprá con envío a todo el país
+
+![Precio de concentradores de oxígeno en Argentina: comprá con envío a todo el país](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg)
 
 En INSER SALUD vendemos concentradores de oxígeno fijos y portátiles con envío a todo el país. Para oxigenoterapia domiciliaria en EPOC, fibrosis pulmonar y otras indicaciones, te enviamos el equipo aprobado por ANMAT a cualquier provincia.
 

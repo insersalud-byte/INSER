@@ -8,10 +8,18 @@
   <url>
     <loc>https://insersalud.com/alquiler-equipos-respiratorios-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
+      <image:title>Alquiler de respiradores y equipos respiratorios en Córdoba</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/alquiler-cpap-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_1.jpg</image:loc>
+      <image:title>Alquiler de CPAP y AutoCPAP en Córdoba</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
       <image:title>CPAP BMC G2S con humidificador</image:title>
@@ -26,12 +34,16 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
-      <image:title>Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)</image:title>
+      <image:title>Alquiler de concentrador de oxígeno en Córdoba</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/comprar-cpap-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
+      <image:title>Comprar CPAP en Córdoba: precios y modelos</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
       <image:title>CPAP BMC G2S con humidificador</image:title>
@@ -39,10 +51,6 @@
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/autocpap_bmc_g2_2.jpg</image:loc>
       <image:title>AutoCPAP BMC G2S con humidificador</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
-      <image:title>CPAP ResMed AirSense 10 (equipo completo)</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
@@ -126,7 +134,7 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
-      <image:title>BiPAP BMC G3 con frecuencia respiratoria y humidificador</image:title>
+      <image:title>BiPAP en Córdoba: venta y alquiler</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg</image:loc>
@@ -138,16 +146,24 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
-      <image:title>Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)</image:title>
+      <image:title>Oxígeno a domicilio en Córdoba</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/concentrador-oxigeno-portatil-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg</image:loc>
+      <image:title>Concentrador de oxígeno portátil en Córdoba</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/comprar-cpap-argentina</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
+      <image:title>Precio de CPAP y AutoCPAP en Argentina: comprá con envío a todo el país</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
       <image:title>CPAP BMC G2S con humidificador</image:title>
@@ -156,17 +172,13 @@
       <image:loc>https://insersalud.com/artifacts/products/autocpap_bmc_g2_2.jpg</image:loc>
       <image:title>AutoCPAP BMC G2S con humidificador</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
-      <image:title>CPAP ResMed AirSense 10 (equipo completo)</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/comprar-bipap-argentina</loc>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>
-      <image:title>BiPAP BMC G3 con frecuencia respiratoria y humidificador</image:title>
+      <image:title>Precio de BiPAP en Argentina: comprá con envío a todo el país</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg</image:loc>
@@ -178,7 +190,7 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
-      <image:title>Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)</image:title>
+      <image:title>Precio de concentradores de oxígeno en Argentina: comprá con envío a todo el país</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/concentrador_yuwell_5l.jpg</image:loc>
@@ -194,7 +206,7 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg</image:loc>
-      <image:title>Concentrador de oxígeno YUWELL 10 litros (alto flujo)</image:title>
+      <image:title>Concentrador de oxígeno de 10 litros (alto flujo)</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg</image:loc>
@@ -205,12 +217,12 @@
     <loc>https://insersalud.com/mascaras-cpap</loc>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg</image:loc>
-      <image:title>Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)</image:title>
+      <image:loc>https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg</image:loc>
+      <image:title>Máscaras para CPAP y BiPAP: nasales, nasobucales y pediátricas</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg</image:loc>
-      <image:title>Máscara nasal Philips DreamWear — mínimo contacto</image:title>
+      <image:loc>https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg</image:loc>
+      <image:title>Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/bmc_f2_1.jpg</image:loc>
@@ -234,7 +246,7 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg</image:loc>
-      <image:title>Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)</image:title>
+      <image:title>Máscaras pediátricas para CPAP y BiPAP: los 3 modelos que tenemos</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg</image:loc>
@@ -253,6 +265,10 @@
     <loc>https://insersalud.com/equipamiento-rehabilitacion-pulmonar</loc>
     <priority>0.9</priority>
     <image:image>
+      <image:loc>https://insersalud.com/artifacts/products/concentrador_yuwell_10l_1.jpg</image:loc>
+      <image:title>Equipamiento para centros de rehabilitación pulmonar</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg</image:loc>
       <image:title>Concentrador YUWELL 10 litros — alto flujo (uso intensivo)</image:title>
     </image:image>
@@ -270,7 +286,7 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg</image:loc>
-      <image:title>KINGON P2-S3 (el más liviano de nuestro catálogo, apto vuelos)</image:title>
+      <image:title>Comprar concentrador de oxígeno portátil: envío a todo el país</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg</image:loc>
@@ -290,7 +306,7 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg</image:loc>
-      <image:title>Ventilador ResMed STELLAR 150 (humidificador + batería)</image:title>
+      <image:title>Ventilador ResMed STELLAR 150: precio y venta en Argentina</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg</image:loc>
@@ -306,7 +322,7 @@
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg</image:loc>
-      <image:title>Polígrafo BMC YH-600B PRO (4 canales + software)</image:title>
+      <image:title>Polígrafo respiratorio BMC YH-600B PRO: precio y venta a profesionales</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
@@ -316,17 +332,13 @@
       <image:loc>https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg</image:loc>
       <image:title>CPAP ResMed AirSense 10 (equipo completo)</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg</image:loc>
-      <image:title>Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock</image:title>
-    </image:image>
   </url>
   <url>
     <loc>https://insersalud.com/cough-assist-asistente-de-tos</loc>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg</image:loc>
-      <image:title>Cough Assist — asistente de tos mecánico</image:title>
+      <image:title>Cough Assist (asistente de tos mecánico): precio y venta en Argentina</image:title>
     </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg</image:loc>

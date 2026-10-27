@@ -1,6 +1,6 @@
 ---
-title: "ResMed STELLAR 150: precio U$S 7.342 y venta en Argentina | INSER"
-description: "Precio del ventilador ResMed STELLAR 150 en Argentina: U$S 7.342. Soporte ventilatorio invasivo y no invasivo para ELA, enfermedades neuromusculares y EPOC severo. Con batería interna y humidificador. Envío a todo el país. Aprobado por ANMAT."
+title: "ResMed STELLAR 150: precio U$S 7.342 en Argentina | INSER"
+description: "Ventilador ResMed STELLAR 150 a U$S 7.342: soporte invasivo y no invasivo para ELA, neuromusculares y EPOC severo, con batería. Envío a todo el país."
 url: https://insersalud.com/ventilador-stellar-150
 canonical: https://insersalud.com/ventilador-stellar-150
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Ventilador ResMed STELLAR 150: precio y venta en Argentina
+
+![Ventilador ResMed STELLAR 150: precio y venta en Argentina](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg)
 
 El ResMed STELLAR 150 es un ventilador de soporte vital para uso domiciliario e institucional: ventilación invasiva y no invasiva, pacientes adultos y pediátricos, con batería interna para traslados y cortes de luz. En INSER SALUD lo vendemos con envío a todo el país y acompañamiento en la puesta en marcha.
 

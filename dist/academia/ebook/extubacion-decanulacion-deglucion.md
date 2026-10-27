@@ -1,10 +1,10 @@
 ---
-title: "Curso gratuito de extubación, decanulación y deglución: guía interactiva con casos | Academia INSER SALUD"
-description: "Curso gratuito online de extubación, decanulación y deglución en terapia intensiva de adultos, en formato de guía interactiva, del Lic. Sergio Giorda: screening de readiness y prueba de respiración espontánea (SBT), RSBI, cuff leak test, criterios de decanulación de traqueostomía (pico flujo tosido, capping, PAS) y tamizaje de disfagia post-extubación GUSS-ICU, con los protocolos explicados y la guía de la unidad aplicada a una cama."
+title: "Extubación, decanulación y deglución: guía gratuita | INSER"
+description: "Guía interactiva gratuita del Lic. Sergio Giorda para UTI: prueba de respiración espontánea, extubación, decanulación, tamizaje de deglución GUSS y casos."
 url: https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion
 canonical: https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
-last_reviewed: 2026-09-19
+last_reviewed: 2026-10-16
 language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---
@@ -125,7 +125,7 @@ Antes del protocolo · anatomía y cuidados · adultos
 
 El tubo entra por la boca, atraviesa la faringe y pasa entre las cuerdas vocales hasta la tráquea. Su extremo debe permanecer por encima de la carina, sin entrar en un bronquio. El manguito o *cuff* queda dentro de la tráquea, por debajo de las cuerdas vocales: no en la laringe. El conector une el tubo al circuito; el balón piloto y su línea permiten controlar el manguito.
 
-Ubicación orientativa. La lámina no permite elegir el tamaño ni establecer la profundidad de inserción de un paciente. **Tocá la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
+Ubicación orientativa. La lámina no permite elegir el tamaño ni establecer la profundidad de inserción de un paciente. **Toque la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
 
 #### Condiciones ideales de posición y fijación
 
@@ -371,13 +371,13 @@ Antes del protocolo · traqueostomía, cánulas y retiro
 
 La cánula entra por un estoma en la cara anterior del cuello, directamente a la tráquea, por debajo de la laringe. El aire evita parte de la vía aérea superior, por lo que necesita un plan de humidificación y manejo de secreciones. El alimento debe seguir pasando de la boca al esófago: **la traqueostomía no es una vía de alimentación**.
 
-Relación orientativa del estoma, cánula y vía aérea. La posición real se comprueba clínicamente y mediante los estudios indicados. **Tocá la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
+Relación orientativa del estoma, cánula y vía aérea. La posición real se comprueba clínicamente y mediante los estudios indicados. **Toque la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
 
 #### Qué revisar antes de elegir o cambiar una cánula
 
 Valorar la necesidad de ventilación, anatomía del cuello, diámetro interno útil, diámetro externo, longitud, secreciones y capacidad de tolerar el flujo por la vía superior. Los números comerciales no son intercambiables entre fabricantes. Confirmar modelo, componentes y compatibilidad; el cambio requiere personal entrenado y un plan ante desplazamiento u obstrucción.
 
-Diseños genéricos. Una misma cánula puede reunir varias características: manguito, doble cánula, longitud especial y puerto subglótico. No es un catálogo exhaustivo ni reproduce un modelo comercial. **Tocá la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
+Diseños genéricos. Una misma cánula puede reunir varias características: manguito, doble cánula, longitud especial y puerto subglótico. No es un catálogo exhaustivo ni reproduce un modelo comercial. **Toque la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
 
 | Diseño | Cuándo se considera | Límite o precaución |
 | --- | --- | --- |
@@ -424,9 +424,9 @@ las imágenes previas conservan simplificaciones de la epiglotis señaladas dura
 no representan con precisión su cinemática
 . La ampliación del apartado de deglución explica por separado la protección laríngea.
 
-Positivo: colorante traqueal visible. El trayecto hacia el bronquio es una explicación esquemática, no una observación que el test de cabecera permita localizar. **Tocá la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
+Positivo: colorante traqueal visible. El trayecto hacia el bronquio es una explicación esquemática, no una observación que el test de cabecera permita localizar. **Toque la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
 
-Negativo: no se detecta colorante. El paso esofágico mostrado no prueba ausencia de aspiración ni de alteraciones de la epiglotis. **Tocá la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
+Negativo: no se detecta colorante. El paso esofágico mostrado no prueba ausencia de aspiración ni de alteraciones de la epiglotis. **Toque la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
 
 Fuentes del desarrollo · consulta: 12/09/2026.
 
@@ -652,7 +652,7 @@ Antes del tamizaje · comprender la función normal
 
 Deglutir es una secuencia coordinada de preparación, transporte y protección. La boca prepara el bolo, la lengua lo impulsa, la faringe lo conduce al esófago y este lo transporta hacia el estómago. La respiración se interrumpe brevemente durante la fase faríngea; luego se reanuda.
 
-Los bolos sucesivos representan momentos distintos, no varias degluciones simultáneas. La lámina es un mapa del recorrido, no un estudio funcional. **Tocá la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
+Los bolos sucesivos representan momentos distintos, no varias degluciones simultáneas. La lámina es un mapa del recorrido, no un estudio funcional. **Toque la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
 
 #### 1. Preparación y transporte oral
 
@@ -670,7 +670,7 @@ La elevación y avance del complejo hio-laríngeo, el cierre de las cuerdas voca
 
 La peristalsis conduce el bolo hacia el estómago. El esófago está detrás de la tráquea; el alimento no debe recorrer la luz traqueal.
 
-La epiglotis está resaltada para reconocerla: posición elevada al respirar e inversión durante la deglución. Las dos vistas esquematizan fases distintas, no un blue test positivo y negativo. **Tocá la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
+La epiglotis está resaltada para reconocerla: posición elevada al respirar e inversión durante la deglución. Las dos vistas esquematizan fases distintas, no un blue test positivo y negativo. **Toque la imagen para ampliarla.** Ilustración de IA, no a escala; pendiente de revisión anatómica profesional.
 
 #### Qué cambia cuando hay disfagia
 
@@ -746,7 +746,7 @@ Parte 2
 
 Qué evalúa
 
-Semisólido (IDDSI 3), líquido fino (IDDSI 0), sólido (IDDSI 7) y consistencia mixta sólido-líquido. En cada subtest se controla lo mismo: deglución eficaz sin retardo, sin tos, sin babeo y sin cambio de voz.
+Semisólido tipo pudding (IDDSI 4), líquido fino (IDDSI 0), sólido (IDDSI 7) y consistencia mixta sólido-líquido. En cada subtest se controla lo mismo: deglución eficaz sin retardo, sin tos, sin babeo y sin cambio de voz.
 
 Por qué está
 
@@ -814,12 +814,12 @@ Retardo aceptable
 
 En semisólido y líquido; en sólido el tiempo oral llega a 23 s.
 
-0 · 3 · 7
+0 · 4 · 7
 IDDSI
 
 Consistencias del test
 
-Líquido fino, moderadamente espeso y sólido regular.
+Líquido fino, extremadamente espeso (pudding) y sólido regular.
 
 90°
 sentado
@@ -915,13 +915,13 @@ PUNTOS CLAVE
 - Cada etapa del protocolo cita su bibliografía: los umbrales no son opinión.
 - Las guías cambian; los protocolos locales mandan sobre cualquier material educativo.
 
-14
+06
 
 CONTACTO
 
 ## Tarjeta digital de INSER SALUD
 
-Equipos de terapia respiratoria: venta con envío a todo el país y alquiler en Córdoba. Guardá el contacto o compartí la tarjeta.
+Equipos de terapia respiratoria: venta con envío a todo el país y alquiler en Córdoba. Guarde el contacto o comparta la tarjeta.
 
 ### Inser *Salud*
 
@@ -934,9 +934,9 @@ Alquiler e instalación en el día en Córdoba
 - [Máscaras](https://insersalud.com/mascaras-cpap)
 - [Accesorios](https://insersalud.com)
 
-- [**Escribinos por WhatsApp** +54 9 351 206-5320 · Respuesta rápida](https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20ebook%20de%20extubaci%C3%B3n%20y%20decanulaci%C3%B3n%20de%20la%20Academia%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta)
+- [**Escríbanos por WhatsApp** +54 9 351 206-5320 · Respuesta rápida](https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20ebook%20de%20extubaci%C3%B3n%20y%20decanulaci%C3%B3n%20de%20la%20Academia%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta)
 - [**Catálogo online** insersalud.com](https://insersalud.com)
-- [**Seguinos en Instagram** @insersalud](https://instagram.com/insersalud)
+- [**Síganos en Instagram** @insersalud](https://instagram.com/insersalud)
 - [**Email** inser.salud@gmail.com](mailto:inser.salud@gmail.com)
 
 INSER SALUD · CÓRDOBA, ARGENTINA · [insersalud.com/tarjeta](https://insersalud.com/tarjeta)

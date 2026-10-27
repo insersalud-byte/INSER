@@ -1,10 +1,10 @@
 ---
-title: "Curso gratuito de ventilación en enfermedades neuromusculares: ebook interactivo con simulador y casos | Academia INSER SALUD"
-description: "Curso gratuito online de ventilación en enfermedades neuromusculares, en formato de ebook interactivo, del Lic. Sergio Giorda, para reconocer, evaluar y derivar a tiempo el compromiso respiratorio: los tres ejes (ventilar, toser, proteger), estudios respiratorios, semáforo clínico, simulador para controlar a tu paciente, cuándo ventilar, tos asistida, deglución, ELA, Duchenne, AME, miastenia y Guillain-Barré, urgencias y trabajo en equipo."
+title: "Ventilación neuromuscular: curso gratuito con simulador | INSER"
+description: "Ebook interactivo gratuito del Lic. Sergio Giorda: estudios respiratorios, semáforo clínico, simulador, cuándo ventilar, asistencia de la tos y deglución."
 url: https://insersalud.com/academia/ebook/ventilacion-neuromuscular
 canonical: https://insersalud.com/academia/ebook/ventilacion-neuromuscular
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
-last_reviewed: 2026-09-19
+last_reviewed: 2026-10-16
 language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---
@@ -113,7 +113,7 @@ Mapa de la enfermedad
 
 ## Clasificar para anticipar
 
-Primero identifique dónde se interrumpe la unidad motora. Después ubique la velocidad de evolución: eso define qué puede fallar y cuánto se puede esperar hasta el próximo control.
+Primero identificá dónde se interrumpe la unidad motora. Después ubicá la velocidad de evolución: eso define qué puede fallar y cuánto se puede esperar hasta el próximo control.
 
 ### Clasificación por fisiopatología
 
@@ -401,7 +401,7 @@ Hipoventilación nocturna, deterioro relevante o secreciones difíciles: discuti
 
 ### Rojo · Urgencia
 
-Fatiga, bulbar grave, caída rápida, hipercapnia, acidosis o secreciones inmanejables: área monitorizada.
+En contexto agudo: fatiga, bulbar grave, caída rápida, hipercapnia, acidosis o secreciones inmanejables. Área monitorizada.
 
 Hallazgo
 
@@ -433,7 +433,7 @@ Falla ventilatoria diurna.
 
 Requiere evaluación especializada y soporte, no oxígeno aislado.
 
-PCF <270 / <160 L/min
+PCF ≤270 / <160 L/min
 
 Reserva tusígena baja / tos muy ineficaz.
 
@@ -1028,7 +1028,7 @@ Patrones por diagnóstico
 
 ## No todas progresan igual
 
-Seleccione una enfermedad para ver qué indicios priorizar, qué medir y qué riesgo anticipar.
+Seleccioná una enfermedad para ver qué indicios priorizar, qué medir y qué riesgo anticipar.
 
 Progresión rápida
 
@@ -1223,7 +1223,7 @@ Rol de poligrafía, oximetría y monitorización de CO₂ en niños con ENM. [Ab
 
 IDDSI 2.0 · Español armonizado
 
-Niveles 0–7, descriptores y métodos para comprobar flujo y textura. [Abrir fuente](https://www.iddsi.org/images/Publications-Resources/DetailedDefnTestMethods/SpanishHarmonised/V2Detailed_DefnHSpanishFeb2024.pdf)
+Niveles 0–7, descriptores y métodos para comprobar flujo y textura. [Abrir fuente](https://www.iddsi.org/framework/)
 
 ASHA · Adult Dysphagia
 

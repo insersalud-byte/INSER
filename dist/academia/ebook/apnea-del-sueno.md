@@ -1,10 +1,10 @@
 ---
-title: "Curso gratuito de apnea del sueño: ebook interactivo con STOP-Bang, Epworth, CPAP/APAP y máscaras | Academia INSER SALUD"
-description: "Curso gratuito online de apnea obstructiva del sueño en adultos, en formato de ebook interactivo, del Lic. Sergio Giorda: anatomía y fisiopatología, sospecha clínica con STOP-Bang, polisomnografía y estudio domiciliario, IAH/REI, calculadora de Epworth, indicación de CPAP y APAP, máscaras, adaptación, cuidados, seguimiento y casos clínicos."
+title: "Apnea del sueño: curso gratuito con STOP-Bang y CPAP | INSER"
+description: "Ebook interactivo gratuito de apnea del sueño: poligrafía, ApneaLink Air, lectura de trazados, casos, STOP-Bang, CPAP y seguimiento."
 url: https://insersalud.com/academia/ebook/apnea-del-sueno
 canonical: https://insersalud.com/academia/ebook/apnea-del-sueno
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
-last_reviewed: 2026-09-21
+last_reviewed: 2026-10-19
 language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---
@@ -12,16 +12,17 @@ publisher: INSER SALUD (https://insersalud.com)
 INSER
 SALUD.COM
 
-CURSO GRATUITO · MANUAL INTERACTIVO · APNEA DEL SUEÑO
+MANUAL INTERACTIVO · APNEA DEL SUEÑO
 
 ← Academia
 
-0 / 13
+0 / 14
 
 - [Anatomía](https://insersalud.com/academia/ebook/apnea-del-sueno#anatomia)
 - [Fisiopatología](https://insersalud.com/academia/ebook/apnea-del-sueno#fisiopatologia)
 - [Sospecha](https://insersalud.com/academia/ebook/apnea-del-sueno#sospecha)
 - [Diagnóstico](https://insersalud.com/academia/ebook/apnea-del-sueno#diagnostico)
+- [Poligrafía](https://insersalud.com/academia/ebook/apnea-del-sueno#poligrafia)
 - [IAH / REI](https://insersalud.com/academia/ebook/apnea-del-sueno#resultados)
 - [Epworth](https://insersalud.com/academia/ebook/apnea-del-sueno#epworth)
 - [Indicación](https://insersalud.com/academia/ebook/apnea-del-sueno#indicacion)
@@ -46,9 +47,9 @@ Comenzar el recorrido
 
 Practicar Epworth
 
-13 capítulos · 14 ilustraciones · calculadoras de STOP-Bang, Epworth e IAH/REI · casos
+14 capítulos · 14 ilustraciones · simulador de poligrafía · calculadoras de STOP-Bang, Epworth e IAH/REI · casos
 Por el **Lic. Sergio Giorda**, kinesiólogo intensivista (MP 2123), director de INSER SALUD
-Edición educativa · revisión de fuentes: septiembre de 2026
+Edición educativa · revisión de fuentes: octubre de 2026
 
 La terapia acompaña el sueño. El equipo y la persona son representaciones genéricas. Ilustración generada por IA; no es una fotografía clínica real.
 
@@ -194,12 +195,12 @@ IMC mayor de 35
 
 Índice de masa corporal mayor de 35 kg/m².
 
-Circunferencia del cuello mayor de 40 cm, medida a la altura del cartílago tiroides.
+Circunferencia del cuello mayor de 43 cm en hombres o de 41 cm en mujeres (Chung, 2016), medida a la altura del cartílago tiroides.
 
 | Puntaje | Riesgo de AOS | Qué hacer en la práctica |
 | --- | --- | --- |
 | 0–2 | Bajo | Si persisten síntomas o hay comorbilidad, la sospecha clínica manda igual. |
-| 3–4 | Intermedio | Sumar contexto: con dos o más ítems STOP más sexo masculino, IMC >35 o cuello >40 cm, tratarlo como alto. |
+| 3–4 | Intermedio | Sumar contexto: con dos o más ítems STOP más sexo masculino, IMC >35 o cuello >43 cm en hombres o >41 cm en mujeres, tratarlo como alto. |
 | 5–8 | Alto | Priorizar la evaluación y el estudio de sueño; antes de una cirugía, alertar al equipo anestésico. |
 
 Cuestionario y umbrales: [[26]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-26)
@@ -233,7 +234,7 @@ Estudio domiciliario: el conjunto de sensores depende del dispositivo y la indic
 
 ### Estudio domiciliario · HSAT
 
-Puede ser apropiado en adultos sin complicaciones relevantes y con sospecha clínica suficiente. No todos los dispositivos miden sueño ni detectan microdespertares.
+Puede ser apropiado en adultos sin complicaciones relevantes y con signos de riesgo aumentado de AOS moderada a grave (AASM 2017). No todos los dispositivos miden sueño ni detectan microdespertares.
 
 ### Resultado negativo ≠ cierre
 
@@ -257,6 +258,184 @@ Volver al inicio ↑
 
 05
 
+Taller de estudio domiciliario
+
+## Poligrafía respiratoria: instalar, verificar y leer.
+
+Un recorrido operativo con ApneaLink Air como ejemplo de polígrafo tipo III. La marca orienta la instalación; los criterios clínicos y el protocolo local gobiernan la interpretación.
+
+Simulador educativo, no software sanitario.
+Los trazados son sintéticos y simplificados. No cargues datos de pacientes, no los uses para diagnosticar y no sustituyas el manual vigente del equipo, la revisión médica ni el protocolo del laboratorio.
+
+Qué registra
+
+### Cinco señales que deben leerse juntas
+
+ApneaLink Air puede registrar flujo nasal y ronquido, esfuerzo respiratorio, SpO₂ y pulso. No registra EEG: no sabe con certeza cuándo la persona duerme ni permite puntuar microdespertares.
+
+Flujo
+
+Cánula de presión nasal · amplitud, limitación y ronquido.
+
+Esfuerzo
+
+Sensor torácico · ayuda a diferenciar patrón obstructivo de central.
+
+SpO₂
+
+Oxímetro · desaturación, nadir y tiempo bajo umbral.
+
+Pulso
+
+Contexto fisiológico y control de coherencia de la oximetría.
+
+Posición/diario
+
+Dependen de la configuración; contextualizan tiempo supino y vigilia.
+
+| Comprobar | Apto para práctica domiciliaria | Preferir PSG o evaluación especializada |
+| --- | --- | --- |
+| Persona | Adulto sin complicaciones relevantes y con riesgo aumentado de AOS moderada–grave. | Enfermedad cardiorrespiratoria significativa, debilidad neuromuscular, hipoventilación, opioides crónicos, ACV, insomnio grave u otro trastorno de sueño relevante. |
+| Entorno | Comprende la colocación y puede devolver el equipo; existe supervisión clínica y seguimiento. | Factores personales o ambientales impiden una adquisición o interpretación adecuada. |
+| Resultado | Registro técnicamente adecuado, interpretado junto con historia y examen. | Negativo, inconcluso o técnicamente inadecuado con sospecha persistente: completar con PSG. |
+
+Instalación guiada
+
+### Prepará el ApneaLink Air en cinco controles críticos
+
+PRÁCTICA SIN DATOS PERSONALES
+
+Marcá cada punto después de verificarlo. La pantalla no reemplaza las instrucciones del paciente entregadas con el equipo.
+
+1. **Equipo y energía**Carcasa y accesorios íntegros; dos pilas AAA nuevas. Nunca configurarlo conectado por USB.
+2. **Cinturón y esfuerzo**Registrador centrado en el tórax, sobre una prenda de manga larga; cinturón firme y cómodo, sensor de esfuerzo próximo al equipo.
+3. **Cánula nasal**Conector enroscado, puntas curvas hacia atrás, tubería sobre las orejas y deslizador bajo el mentón; fijar en mejillas si se desplaza.
+4. **Oximetría**Sensor en mano no dominante; descartable en cuarto dedo o reutilizable en índice. Clip y sensor del mismo lado para reducir riesgo de enredo.
+5. **Inicio y señales**Mantener el botón unos 3 segundos y comprobar luces verdes de cada accesorio utilizado. Rojo intermitente exige reconectar o recolocar.
+
+### Del alta del equipo al informe
+
+1. **01 · PREPARAR**Confirmar indicación, identidad según protocolo, consentimiento, hora del equipo y consumibles.
+2. **02 · ENSEÑAR**Demostrar montaje, inicio, luces, qué hacer si se levanta y cuándo detener la prueba.
+3. **03 · REGISTRAR**Dejar el equipo encendido durante la noche; anotar acostarse, levantarse, despertares y retiro de sensores.
+4. **04 · CERRAR**Mantener el botón unos 3 segundos, comprobar “Test complete”, apagar, desmontar y reponer tapas.
+5. **05 · DESCARGAR**Retirar descartables, aplicar reprocesamiento institucional y descargar con el software autorizado.
+6. **06 · VALIDAR**Revisar señales crudas, excluir artefactos, corregir eventos cuando corresponda y documentar la regla utilizada.
+
+### Solución rápida de problemas
+
+Luz de accesorio roja
+
+Dejar encendido, reconectar el accesorio, recolocarlo y confirmar que cambie a verde.
+
+Flujo plano o recortado
+
+Buscar cánula fuera de la nariz, doblada, húmeda, obstruida o con conector flojo; no soplar en los puertos.
+
+SpO₂ con saltos imposibles
+
+Revisar movimiento, perfusión, esmalte/uña artificial, sensor apretado o suelto y coherencia con pulso.
+
+Esfuerzo ausente
+
+Comprobar conexión, posición y tensión del cinturón. Sin esfuerzo válido, la clasificación central/obstructiva pierde fiabilidad.
+
+“Test complete” rojo
+
+El equipo no reunió datos suficientes. Seguir el protocolo: pilas nuevas y repetir; si persiste, retirar el equipo de servicio.
+
+### Qué documentar al recibirlo
+
+- Hora de inicio/fin, tiempo de monitorización y segmentos excluidos.
+- Calidad y porcentaje válido de flujo, esfuerzo y oximetría.
+- Número y tipo de eventos; REI, ODI, SpO₂ mínima y tiempo bajo umbral.
+- Posición, ronquido y patrón temporal, si las señales lo permiten.
+- Regla de hipopnea usada y todo cambio manual al análisis automático.
+- Limitaciones, necesidad de repetir o indicar PSG y responsable de la interpretación.
+
+Automático no significa validado.
+El software ayuda a detectar eventos, pero el profesional debe revisar señales, artefactos y coherencia clínica antes de firmar.
+
+Método de lectura
+
+### Siete pasadas, siempre en el mismo orden
+
+1. **1. Indicación:** ¿era la persona adecuada para HSAT?
+2. **2. Duración:** separar registro total, monitorización válida y sueño referido.
+3. **3. Calidad:** revisar primero flujo, esfuerzo, SpO₂ y pulso; marcar artefactos.
+4. **4. Eventos:** confirmar duración y relación flujo–esfuerzo–desaturación.
+5. **5. Patrón:** obstructivo, central/mixto, periódico, posicional o relacionado con tiempo.
+6. **6. Carga:** integrar REI, ODI, nadir, hipoxemia sostenida, duración y agrupamiento.
+7. **7. Conclusión:** responder la pregunta clínica y declarar límites y próximo paso.
+
+En un HSAT sin EEG, el REI divide por tiempo de monitorización, que puede incluir vigilia. Por eso puede ser menor que un IAH calculado sobre tiempo real de sueño.
+
+Simulador de poligrafía e informe
+
+### Leé la señal y después integrá el informe
+
+0 / 4 RESUELTOS
+
+Caso
+
+**Informe educativo generado con datos ficticios.** Replica la organización habitual de los ejemplos aportados, pero no es una salida de ResMed ni un informe válido para una persona.
+
+#### Análisis
+
+| Índice | Resultado | Normal |
+| --- | --- | --- |
+| REI |  |  |
+| Índice de apneas |  |  |
+| IAO · obstructivas |  |  |
+| IAC · centrales |  |  |
+| IAM · mixtas |  |  |
+| Índice de hipopneas |  |  |
+| ODI · desaturaciones |  |  |
+
+| Medición | Resultado | Referencia |
+| --- | --- | --- |
+| Eventos respiratorios |  | Conteo |
+| Apneas |  | Conteo |
+| Obstructivas / centrales / mixtas |  | Conteo |
+| Hipopneas |  | Conteo |
+| Frecuencia respiratoria |  | Según contexto |
+| SpO₂ basal / promedio / mínima |  | Contextual / 94–98% / ≥90% |
+| Tiempo <90% (T90) |  | 0 min (ideal) |
+| Desaturaciones |  | Interpretar con ODI |
+| Pulso mínimo / promedio / máximo |  | Según contexto |
+| Eventos de ronquido |  | Sin corte aislado |
+| Calidad técnica |  | Adecuada |
+
+**Referencia orientativa:** el valor normal aparece junto a cada índice, como en los informes de ejemplo. Los conteos y las variables sin un punto de corte independiente deben interpretarse con el registro completo y el contexto clínico.
+
+#### Conclusión
+
+La oximetría describe hipoxemia nocturna, pero no diagnostica hipoventilación sin medición de CO₂ y contexto clínico.
+
+Datos sintéticos · Verificar siempre señales crudas, tiempos válidos, artefactos y criterio de hipopnea.
+
+RESUMEN NOCTURNO · SIMULACIÓN
+
+EVENTOS, PULSO Y SATURACIÓN
+
+PÁGINA 2 / 2
+
+Vista compacta de toda la noche. Cada marca superior representa un evento sintético; las curvas inferiores resumen pulso y SpO₂. Las desaturaciones aparecen después de los eventos respiratorios, con descenso, nadir y recuperación. La línea punteada marca el umbral del 90%.
+
+¿Qué patrón domina?
+
+¿Cuál es el próximo paso?
+
+Lectura segura del informe
+
+Una cifra nunca compensa una señal deficiente. Si la sospecha sigue alta y el HSAT es negativo, inconcluso o técnicamente inadecuado, la recomendación AASM es realizar PSG. En presencia de hipoventilación, enfermedad relevante o eventos centrales, no extrapoles algoritmos de AOS no complicada.
+
+Instalación y funcionamiento: [[27]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-27) [[28]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-28) · Selección e interpretación: [[8]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-8) [[29]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-29) [[30]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-30)
+
+Volver al inicio ↑
+
+06
+
 Interpretación del informe
 
 ## El índice cuenta eventos, no toda la enfermedad.
@@ -268,7 +447,7 @@ Distinguir el denominador cambia la lectura: tiempo de sueño no es lo mismo que
 | IAH / AHI | Apneas + hipopneas por hora de sueño en un estudio que lo mide. | No describe por sí solo duración de eventos, síntomas ni carga de hipoxemia. |
 | REI | Eventos por hora de tiempo de monitorización evaluable en muchos estudios domiciliarios. | Puede subestimar frecuencia respecto al tiempo realmente dormido. |
 | Oxigenación | Nadir, desaturaciones y tiempo bajo umbrales aportan contexto. | La desaturación no identifica por sí sola la causa de un evento. |
-| Criterio de hipopnea | El informe debe indicar la regla de desaturación y/o microdespertar empleada. | Informes con reglas distintas no son automáticamente comparables. |
+| Criterio de hipopnea | Apnea: caída del flujo ≥90 % durante ≥10 s. Hipopnea: caída ≥30 % durante ≥10 s con desaturación ≥3 % o microdespertar (regla 1A de la AASM; la 1B exige ≥4 %). El informe debe indicar la regla empleada. | Informes con reglas distintas no son automáticamente comparables. |
 
 En adultos se usan convencionalmente intervalos de IAH de 5 a <15, 15 a <30 y ≥30 eventos/h para describir frecuencia leve, moderada y grave. El diagnóstico requiere integrar criterios clínicos; menos de 5 no descarta otros trastornos o un estudio insuficiente.
 
@@ -288,159 +467,95 @@ IAH, REI, microdespertares y criterios: [[8]](https://insersalud.com/academia/eb
 
 Volver al inicio ↑
 
-06
+07
 
 Práctica de puntuación
 
-## Epworth, más fácil.
+## Escala de somnolencia de Epworth.
 
-Tocá un número en cada fila. Al completar las 8 respuestas, la suma aparece sola.
+Ocho situaciones de la vida diaria. En cada una, el paciente indica qué probabilidad tiene de dar una cabezada o quedarse dormido, de 0 a 3. Al completar las ocho, la suma aparece sola.
 
-**Cada respuesta tiene su pregunta guía arriba.** Son ayudas educativas, con redacción propia, para ubicar las situaciones; no son las preguntas de una versión validada. Transferí los puntajes del cuestionario autorizado o usá el ejemplo ficticio.
+**La pregunta es siempre la misma:** «¿Qué probabilidad tiene de dar una cabezada o quedarse dormido en las siguientes situaciones, en contraste con sentirse simplemente cansado? Refiérase a su modo de vida habitual en los últimos tiempos. Aunque no haya hecho algunas de estas cosas recientemente, piense cómo le habrían afectado». Se responde 0 = nunca me dormiría, 1 = escasa posibilidad, 2 = posibilidad moderada, 3 = alta posibilidad. La suma va de 0 a 24.
 
-Situaciones resumidas a partir del [material educativo de CDC/NIOSH ↗](https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/09.html). Para uso clínico, empleá el cuestionario autorizado completo.
+Situaciones y escala según la versión original (Johns, 1991) y la validación en español (Chiner y cols., 1999): [[31]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-31) [[32]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-32).
 
 Sobre el cuestionario y su uso
 
-Las filas reciben las puntuaciones del cuestionario autorizado, no reemplazan sus preguntas. Consultá la [fuente oficial de Epworth ↗](https://epworthsleepinessscale.com/about-the-ess/) y los requisitos de autorización. Esta interfaz no es un instrumento validado ni una traducción del cuestionario.
+La Escala de somnolencia de Epworth es propiedad del Dr. Murray W. Johns y su uso clínico o institucional requiere autorización del titular. Acá se reproducen las ocho situaciones y la escala con fines educativos, para aprender a administrarla e interpretarla. Para uso asistencial, empleá el cuestionario autorizado en la versión validada en tu país.
 
 Calculadora educativa
 
-### Elegí un puntaje por respuesta
+### ¿Qué probabilidad tiene de quedarse dormido?
 
 NO SE GUARDAN TUS RESPUESTAS
 
-Copiá el número de cada respuesta: 0, 1, 2 o 3. Para corregirlo, tocá otro número en la misma fila.
+Para cada situación elegí 0 (nunca me dormiría), 1 (escasa posibilidad), 2 (posibilidad moderada) o 3 (alta posibilidad). Para corregir, tocá otra opción en la misma fila.
 
-0 de 8 respuestas
+**3. Sentado, inactivo, en un lugar público (por ejemplo, en un teatro o en una reunión)**
 
-**¿Qué puntaje anotaste para la situación de lectura?**
-
-Respuesta 1
+Situación 3
 
 0
-puntos
+Nunca me dormiría
 
 1
-punto
+Escasa posibilidad
 
 2
-puntos
+Posibilidad moderada
 
 3
-puntos
+Alta posibilidad
 
-**¿Qué puntaje anotaste para la situación de mirar televisión?**
+**4. Como pasajero en un auto durante una hora seguida, sin paradas**
 
-Respuesta 2
+Situación 4
 
 0
-puntos
+Nunca me dormiría
 
 1
-punto
+Escasa posibilidad
 
 2
-puntos
+Posibilidad moderada
 
 3
-puntos
+Alta posibilidad
 
-**¿Qué puntaje anotaste para la situación de inactividad en un lugar público?**
+**5. Acostado a media tarde para descansar, cuando las circunstancias lo permiten**
 
-Respuesta 3
+**7. Sentado tranquilamente después de una comida sin alcohol**
+
+Situación 7
 
 0
-puntos
+Nunca me dormiría
 
 1
-punto
+Escasa posibilidad
 
 2
-puntos
+Posibilidad moderada
 
 3
-puntos
+Alta posibilidad
 
-**¿Qué puntaje anotaste para la situación de viajar como pasajero?**
+**8. En un auto, al detenerse unos minutos en el tránsito**
 
-Respuesta 4
+Situación 8
 
 0
-puntos
+Nunca me dormiría
 
 1
-punto
+Escasa posibilidad
 
 2
-puntos
+Posibilidad moderada
 
 3
-puntos
-
-**¿Qué puntaje anotaste para la situación de recostarte a descansar?**
-
-Respuesta 5
-
-0
-puntos
-
-1
-punto
-
-2
-puntos
-
-3
-puntos
-
-**¿Qué puntaje anotaste para la situación de conversar con alguien?**
-
-Respuesta 6
-
-0
-puntos
-
-1
-punto
-
-2
-puntos
-
-3
-puntos
-
-**¿Qué puntaje anotaste para la situación posterior a una comida?**
-
-Respuesta 7
-
-0
-puntos
-
-1
-punto
-
-2
-puntos
-
-3
-puntos
-
-**¿Qué puntaje anotaste para la situación de una detención en el tránsito?**
-
-Respuesta 8
-
-0
-puntos
-
-1
-punto
-
-2
-puntos
-
-3
-puntos
+Alta posibilidad
 
 | Puntuación | Lectura orientativa |
 | --- | --- |
@@ -455,7 +570,7 @@ Puntuación e interpretación: [[12]](https://insersalud.com/academia/ebook/apne
 
 Volver al inicio ↑
 
-07
+08
 
 Decisión terapéutica
 
@@ -491,7 +606,7 @@ Indicaciones y alternativas, con diferencias entre guías: [[9]](https://insersa
 
 Volver al inicio ↑
 
-08
+09
 
 Comprender la presión
 
@@ -511,19 +626,51 @@ VISUALIZACIÓN CONCEPTUAL · SIN PRESCRIPCIÓN
 
 Cambiá la modalidad para comparar el patrón. Las alturas son relativas: no representan cmH₂O, señales de un paciente ni el algoritmo de una marca.
 
-Se omiten rampa, alivio espiratorio, fugas y eventos para enseñar solamente la diferencia de control.
+Se omiten rampa, alivio espiratorio, fugas y eventos para enseñar solamente la diferencia de control. El alivio espiratorio se explica debajo.
 
 APAP no es “mejor para todos”.
 
 AASM admite CPAP o APAP para tratamiento continuo y el inicio con APAP domiciliaria en AOS sin comorbilidades significativas. VA/DoD 2025 sugiere iniciar APAP por sobre CPAP fija para facilitar el uso: es una recomendación débil, no una regla universal. NICE también conserva un lugar para CPAP fija y contempla APAP en situaciones seleccionadas.
 
+### Alivio de presión espiratoria: comodidad, no un tratamiento extra
+
+Con CPAP o APAP, parte de las personas siente que “no puede sacar el aire”: exhalar contra una presión constante resulta incómodo, sobre todo al principio y con presiones altas. El **alivio de presión espiratoria** baja transitoriamente la presión cuando empieza la espiración, entre 1 y 3 cmH₂O según el nivel elegido, y la recupera para la inspiración siguiente. La exhalación se siente más natural y la presión inspiratoria no cambia.
+
+### Por qué importa
+
+Es una de las primeras herramientas de confort, junto con la rampa, la humidificación y la elección de la máscara. Ayuda ante la sensación de exhalación forzada, la ansiedad con presiones altas y la aerofagia (tragar aire), que son causas habituales de abandono en las primeras semanas.
+
+### Qué dice la evidencia
+
+En promedio, la presión flexible no aumenta las horas de uso frente a la CPAP convencional (Cochrane 2009; metaanálisis de Bakker y Marshall, 2011). Su valor es individual: se indica a quien refiere incomodidad al exhalar, no a todos por rutina. La guía AASM 2019 no prefiere un modo de confort sobre otro y prioriza la educación y el seguimiento.
+
+### Qué controlar
+
+La vía aérea es más colapsable al final de la espiración: bajar la presión en ese momento puede dejar eventos residuales en algunos pacientes. Después de activarlo o subir el nivel, revisar en la descarga del equipo el IAH residual, las fugas y la presión del percentil 90/95 en APAP.
+
+| Fabricante · equipos | Nombre de la función | Niveles y particularidades |
+| --- | --- | --- |
+| ResMed · AirSense 10 y 11, AirMini | **EPR** (Expiratory Pressure Relief) | Apagado, 1, 2 o 3 cmH₂O. Funciona en CPAP y en AutoSet (APAP). Puede actuar toda la noche o solo durante la rampa. No baja la presión por debajo de 4 cmH₂O. |
+| Philips Respironics · DreamStation, DreamStation 2 | **C-Flex** y **C-Flex+** en CPAP; **A-Flex** en auto-CPAP; **Bi-Flex** en dos niveles | Niveles 1 a 3: a mayor número, mayor alivio. C-Flex+ y A-Flex también suavizan la transición al inspirar. |
+| Fisher & Paykel · SleepStyle | **Expiratory Relief** (alivio espiratorio) | Niveles regulables. Aparte, **SensAwake** baja la presión cuando el equipo detecta que la persona se despierta: no es lo mismo que el alivio en cada respiración. |
+| Löwenstein Medical · prisma SMART y SOFT | **softPAP** | Niveles 1 y 2. Suaviza el paso de inspiración a espiración. |
+| BMC · RESmart, serie G2 y G3 | **Reslex** | Niveles 1 a 3, en CPAP y auto-CPAP. |
+| React Health / 3B Medical · Luna II | **EZEX** | Niveles 1 a 3. |
+| DeVilbiss · IntelliPAP | **SmartFlex** | Niveles 1 a 3. |
+
+Los nombres, los niveles y los modos donde está disponible cambian según el modelo y la versión del equipo: confirmar siempre en el manual clínico del dispositivo y dejar el nivel indicado por escrito en la prescripción.
+
+Alivio espiratorio no es BPAP.
+
+El alivio baja 1 a 3 cmH₂O de forma transitoria y no aporta soporte ventilatorio. Si hay hipercapnia, síndrome de obesidad-hipoventilación, enfermedad neuromuscular o intolerancia a presiones altas pese a las medidas de confort, corresponde evaluar dos niveles (BPAP) con una indicación específica. Tampoco es lo mismo que la **rampa**: la rampa sube la presión de a poco al comenzar la noche; el alivio actúa en cada respiración.
+
 En la práctica importan eficacia, comodidad, costo, disponibilidad y datos de seguimiento. Ajustar presión no resuelve por sí solo una máscara que pierde, una obstrucción nasal o un diagnóstico incompleto.
 
-Modalidades y selección: [[14]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-14) [[9]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-9) [[15]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-15) [[17]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-17)
+Modalidades y selección: [[14]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-14) [[9]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-9) [[15]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-15) [[17]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-17) · Alivio espiratorio: [[33]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-33) [[34]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-34) [[14]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-14)
 
 Volver al inicio ↑
 
-09
+10
 
 Interfaz y tolerancia
 
@@ -564,7 +711,7 @@ Selección individual e imanes: [[18]](https://insersalud.com/academia/ebook/apn
 
 Volver al inicio ↑
 
-10
+11
 
 Kinesiología al lado del paciente
 
@@ -595,7 +742,7 @@ Vigilancia de zonas de apoyo: observar piel, comodidad y cambios persistentes. I
 
 ### Piel y confort
 
-Registrar molestias y lesiones; revisar talla, cushion y arnés. No colocar productos o accesorios bajo el sello sin comprobar compatibilidad. La lesión de piel requiere valoración, no normalización.
+Registrar molestias y lesiones; revisar talla, almohadilla (cushion) y arnés. No colocar productos o accesorios bajo el sello sin comprobar compatibilidad. La lesión de piel requiere valoración, no normalización.
 
 ¿Ozono o luz ultravioleta para limpiar?
 
@@ -621,7 +768,7 @@ Apoyo, cuidados y seguridad: [[7]](https://insersalud.com/academia/ebook/apnea-d
 
 Volver al inicio ↑
 
-11
+12
 
 Mirar más que horas de uso
 
@@ -646,13 +793,13 @@ Acompañamiento y revisión conjunta. El gráfico de la ilustración es ficticio
 
 Adherencia no es una frontera de cuatro horas.
 
-Las reglas de cobertura no son el objetivo fisiológico. El plan busca cubrir el sueño y lograr beneficio y tolerancia, con apoyo individual. La somnolencia residual obliga a revisar sueño suficiente, uso eficaz y otras causas antes de atribuirla a una sola explicación.
+El criterio habitual es ≥4 h por noche en ≥70 % de las noches, pero las reglas de cobertura no son el objetivo fisiológico. El plan busca cubrir el sueño y lograr beneficio y tolerancia, con apoyo individual. La somnolencia residual obliga a revisar sueño suficiente, uso eficaz y otras causas antes de atribuirla a una sola explicación.
 
 Seguimiento y reevaluación: [[7]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-7) [[14]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-14) [[22]](https://insersalud.com/academia/ebook/apnea-del-sueno#ref-22)
 
 Volver al inicio ↑
 
-12
+13
 
 Qué cambió y qué permanece
 
@@ -694,7 +841,7 @@ Diagnóstico, PAP, máscaras y fisiopatología: [[8]](https://insersalud.com/aca
 
 Volver al inicio ↑
 
-13
+14
 
 Integrar lo aprendido
 
@@ -756,7 +903,7 @@ Los números al pie de cada capítulo llevan a esta lista. Las guías internacio
 10. [NHLBI · Diagnóstico de apnea del sueño ↗](https://www.nhlbi.nih.gov/health/sleep-apnea/diagnosis) Evaluación clínica y estudios de sueño.
 11. [AASM · Puntuación basada en microdespertares (2018) ↗](https://aasm.org/advocacy/position-statements/polysomnography-for-obstructive-sleep-apnea-should-include-arousal-based-scoring-an-american-academy-of-sleep-medicine-position-statement/) Diferencias entre reglas de puntuación y denominadores.
 12. [ATS · Epworth Sleepiness Scale ↗](https://site.thoracic.org/assemblies/srn/sleep-related-questionnaires/ess) Puntuación 0–24 y bandas de somnolencia; no son categorías de gravedad de AOS.
-13. [AASM · Autorización de uso de Epworth ↗](https://support.aasm.org/how-do-i-obtain-copyright-premission) Remite al titular. Este ebook no reproduce preguntas del instrumento.
+13. [AASM · Autorización de uso de Epworth ↗](https://support.aasm.org/how-do-i-obtain-copyright-premission) Remite al titular. Las situaciones y la escala se reproducen con fines educativos; el uso clínico requiere la versión autorizada.
 14. [Patil y cols. · AASM, PAP en AOS adulta (2019) ↗](https://doi.org/10.5664/jcsm.7640) Resumen institucional accesible: https://aasm.org/clinical-guideline-pap-therapy/
 15. [NICE NG202 · Recomendaciones de AOS (2021) ↗](https://www.nice.org.uk/guidance/ng202/chapter/1-obstructive-sleep-apnoeahypopnoea-syndrome) CPAP fija, alternativas y seguimiento en contexto británico.
 16. [NHLBI · Tratamiento de apnea del sueño ↗](https://www.nhlbi.nih.gov/health/sleep-apnea/treatment) PAP y otras opciones seleccionadas.
@@ -770,6 +917,14 @@ Los números al pie de cada capítulo llevan a esta lista. Las guías internacio
 24. [Malhotra y cols. · SURMOUNT-OSA (2024) ↗](https://doi.org/10.1056/NEJMoa2404881) Ensayos en adultos con obesidad y AOS moderada/grave; no generalizar a todas las apneas.
 25. [FDA · Tirzepatida y AOS (20/12/2024) ↗](https://www.fda.gov/news-events/press-announcements/la-fda-aprueba-el-primer-medicamento-para-la-apnea-obstructiva-del-sueno) Autorización estadounidense para población específica; no implica autorización argentina.
 26. [Chung y cols. · STOP-Bang Questionnaire, Chest (2016) ↗](https://doi.org/10.1378/chest.15-0903) Cribado de riesgo en adultos: sensibilidad alta, especificidad limitada. No diagnostica.
+27. [ResMed · ApneaLink Air, instrucciones para el paciente ↗](https://document.resmed.com/documents/products/diagnostic/apnealink-air/patient-instructions/228691_apnealink-air_patient-instructions_glo_eng.pdf) Montaje, accesorios, indicadores, inicio, cierre y resolución de problemas. Documento oficial del fabricante.
+28. [ResMed · Soporte oficial ApneaLink Air ↗](https://support.resmed.com/es-xl/diagnostics-and-titration/apnealink-air/) Descripción del equipo tipo III y acceso al manual clínico vigente para profesionales; el manual requiere inicio de sesión.
+29. [ResMed · ApneaLink Air, guía de producto ↗](https://document.resmed.com/documents/products/diagnostic/apnealink-air/product-brochure/1017396_apnealink-air_product-brochure_apac_eng.pdf) Canales, accesorios, indicadores, análisis automático y revisión manual. Documento oficial del fabricante.
+30. [AASM · Scoring Manual v3.1, resumen de cambios ↗](https://aasm.org/wp-content/uploads/2024/02/SummaryofChanges_Document_3-1.pdf) Actualización de reglas respiratorias y HSAT; la regla de hipopnea con desaturación ≥4 % figura como opcional.
+31. **Johns MW.** A new method for measuring daytime sleepiness: the Epworth sleepiness scale. *Sleep*. 1991;14(6):540-545. [doi:10.1093/sleep/14.6.540 ↗](https://doi.org/10.1093/sleep/14.6.540)
+32. **Chiner E, Arriero JM, Signes-Costa J, Marco J, Fuentes I.** Validación de la versión española del test de somnolencia Epworth en pacientes con síndrome de apnea de sueño. *Arch Bronconeumol*. 1999;35(9):422-427. [doi:10.1016/S0300-2896(15)30037-5 ↗](https://doi.org/10.1016/S0300-2896(15)30037-5)
+33. [Smith y Lasserson · Modificación de la presión para mejorar el uso de CPAP, Cochrane (2009) ↗](https://doi.org/10.1002/14651858.CD003531.pub3) Revisión sistemática: presión flexible, APAP y dos niveles frente a CPAP fija.
+34. [Bakker y Marshall · Presión flexible y adherencia a CPAP, Chest (2011) ↗](https://doi.org/10.1378/chest.10-2379) Metaanálisis: el alivio espiratorio no mejora en promedio las horas de uso; su valor es el confort individual.
 
 Cómo se hizo este ebook
 
@@ -777,7 +932,7 @@ Síntesis educativa original con fuentes seleccionadas y fecha de consulta. Las 
 
 La calculadora no almacena respuestas ni transmite datos. Solo puede conservar en este navegador los capítulos que marques como leídos.
 
-14
+15
 
 Contacto
 

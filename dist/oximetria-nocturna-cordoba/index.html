@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="es-AR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ══ Favicon ══════════════════════════════════════════════════════════ -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- ══ Primary SEO ═══════════════════════════════════════════════════════ -->
+  <title>Oximetría nocturna a domicilio en Córdoba | INSER SALUD</title>
+  <meta name="description" content="Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama, con informe para tu médico. Coordiná por WhatsApp." />
+  <meta name="author" content="INSER SALUD" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://inser.ar/oximetria-nocturna-cordoba" />
+
+  <!-- ══ Geo / Local SEO ═══════════════════════════════════════════════════ -->
+  <meta name="geo.region" content="AR-X" />
+  <meta name="geo.placename" content="Córdoba, Argentina" />
+
+  <!-- ══ Open Graph (Facebook / WhatsApp / LinkedIn) ══════════════════════ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="INSER SALUD" />
+  <meta property="og:title" content="Oximetría nocturna a domicilio en Córdoba | INSER SALUD" />
+  <meta property="og:description" content="Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama, con informe para tu médico. Coordiná por WhatsApp." />
+  <meta property="og:url" content="https://inser.ar/oximetria-nocturna-cordoba" />
+  <meta property="og:image" content="https://insersalud.com/og-insersalud.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="INSER SALUD - Equipos Respiratorios Córdoba" />
+  <meta property="og:locale" content="es_AR" />
+
+  <!-- ══ Twitter / X Cards ════════════════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="INSER SALUD – Equipos Respiratorios en Córdoba" />
+  <meta name="twitter:description" content="Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama, con informe para tu médico. Coordiná por WhatsApp." />
+  <meta name="twitter:image" content="https://insersalud.com/og-insersalud.jpg" />
+
+  <!-- SEO por host: inser.ar (venta de equipos) e insersalud.com (terapias domiciliarias
+       y alquiler) se indexan por separado con titulo, descripcion y canonical propios -->
+  <script>
+    (function () {
+      var h = location.hostname;
+      if (h !== 'insersalud.com' && h !== 'www.insersalud.com') return;
+      var base = 'https://insersalud.com';
+      var c = document.querySelector('link[rel="canonical"]');
+      if (c) c.setAttribute('href', base + location.pathname);
+      var u = document.querySelector('meta[property="og:url"]');
+      if (u) u.setAttribute('content', base + location.pathname);
+      // Solo en la home: identidad propia del dominio (domiciliario/alquiler)
+      if (location.pathname !== '/' && location.pathname !== '/index.html') return;
+      var T = 'Alquiler y Venta de CPAP, BiPAP y Oxígeno en Córdoba | INSER';
+      var D = 'Terapias respiratorias domiciliarias en Córdoba: alquiler con instalación y venta de CPAP, BiPAP y oxígeno con envío a todo el país. Cuotas y ANMAT.';
+      document.title = T;
+      var set = function (sel, val) { var e = document.querySelector(sel); if (e) e.setAttribute('content', val); };
+      set('meta[name="description"]', D);
+      set('meta[property="og:title"]', T);
+      set('meta[property="og:description"]', D);
+      set('meta[name="twitter:title"]', T);
+      set('meta[name="twitter:description"]', D);
+    })();
+  </script>
+
+  <!-- ══ Google Analytics 4 ══════════════════════════════════════════════ -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    // Trafico interno: ?sinstats=1 apaga GA4 en este navegador; ?constats=1 lo reactiva.
+    try{var q=location.search;if(/[?&]sinstats=1/.test(q))localStorage.setItem('inser-sin-stats','1');if(/[?&]constats=1/.test(q))localStorage.removeItem('inser-sin-stats');if(localStorage.getItem('inser-sin-stats')==='1')window['ga-disable-G-XD586V0PLV']=true;}catch(e){}
+    // Solo mide en produccion: previews de Vercel (*.vercel.app) y localhost no mandan datos a GA4.
+    if(!/(^|\.)(insersalud\.com|inser\.ar)$/.test(location.hostname))window['ga-disable-G-XD586V0PLV']=true;
+    gtag('js', new Date());
+    // send_page_view:false -> el page_view de cada ruta lo envia App.jsx (SPA)
+    gtag('config', 'G-XD586V0PLV', { send_page_view: false });
+  </script>
+
+  <!-- ══ Meta Pixel (Facebook / Instagram Ads) ════════════════════════════════
+       Para ACTIVARLO: pegá tu Pixel ID en META_PIXEL_ID (ej. '1234567890123456').
+       Mientras esté vacío no carga nada. Los eventos de lead (Lead, Contact) los
+       dispara App.jsx / LeadForm.jsx en los mismos clicks que GA4. -->
+  <script>
+    window.META_PIXEL_ID = '909233601773426'; // Pixel "Inser Salud - Web" (portfolio Inser Salud 3998459027075498). OJO: el ID anterior 1671892630615236 era un App ID, no un pixel, y nunca recibio eventos.
+    (function () {
+      // Solo en produccion: previews de Vercel y localhost no disparan el Pixel.
+      if (window.META_PIXEL_ID && /(^|\.)(insersalud\.com|inser\.ar)$/.test(location.hostname)) {
+        !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', window.META_PIXEL_ID);
+        fbq('track', 'PageView');
+      } else {
+        window.fbq = window.fbq || function () {}; // no-op hasta que se cargue el pixel
+      }
+    })();
+  </script>
+
+  <!-- ══ Performance: Preconnect ═══════════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://api.openai.com" />
+
+  <!-- ══ Structured Data – LocalBusiness + MedicalBusiness ════════════════ -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "MedicalBusiness",
+    "LocalBusiness"
+  ],
+  "@id": "https://insersalud.com/#organization",
+  "name": "INSER SALUD",
+  "alternateName": "Inser Salud Córdoba",
+  "url": "https://insersalud.com",
+  "logo": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+  "image": "https://insersalud.com/artifacts/logo_insersalud.jpg",
+  "description": "Aparatología respiratoria aprobada por ANMAT. Venta de CPAP, AutoCPAP, BiPAP, máscaras y concentradores de oxígeno con envío a todo el país, y alquiler en Córdoba (entrega a domicilio). Atención personalizada y soporte técnico.",
+  "telephone": "+54-9-351-206-5320",
+  "email": "inser.salud@gmail.com",
+  "priceRange": "$",
+  "currenciesAccepted": "ARS, USD",
+  "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "@id": "https://insersalud.com/#returnpolicy",
+    "url": "https://insersalud.com/politica-de-devoluciones",
+    "applicableCountry": "AR",
+    "returnPolicyCountry": "AR",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "merchantReturnDays": 10,
+    "returnMethod": "https://schema.org/ReturnByMail",
+    "returnFees": "https://schema.org/FreeReturn",
+    "refundType": "https://schema.org/FullRefund"
+  },
+  "paymentAccepted": "Efectivo, Transferencia bancaria, Tarjeta de crédito, cuotas fijas con Banco Galicia (planes de 3, 6 y 9 cuotas)",
+  "medicalSpecialty": [
+    "Pulmonary",
+    "SleepMedicine"
+  ],
+  "knowsAbout": [
+    "Apnea del sueño",
+    "EPOC",
+    "Oxigenoterapia",
+    "Ventilación no invasiva",
+    "CPAP",
+    "BiPAP",
+    "Concentrador de oxígeno"
+  ],
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "Argentina"
+    },
+    {
+      "@type": "City",
+      "name": "Córdoba"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Provincia de Córdoba, Argentina"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Córdoba",
+    "addressRegion": "Córdoba",
+    "addressCountry": "AR"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "name": "Horario comercial",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "name": "Consultas por WhatsApp",
+      "description": "Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. No hay guardia técnica ni atención de urgencias.",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+54-9-351-206-5320",
+    "contactType": "sales",
+    "availableLanguage": "Spanish"
+  },
+  "sameAs": [
+    "https://share.google/QTMdrJZGqmyyNBHYh",
+    "https://www.google.com/search?kgmid=/g/11zfs2vwmz",
+    "https://www.instagram.com/insersalud",
+    "https://www.facebook.com/people/Inser-Salud/61576746347333/",
+    "https://wa.me/5493512065320"
+  ]
+}
+</script>
+
+  <!-- ══ Structured Data – WebSite + Servicios ═══════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://insersalud.com/#website",
+        "url": "https://insersalud.com/",
+        "name": "INSER SALUD",
+        "inLanguage": "es-AR",
+        "publisher": { "@id": "https://insersalud.com/#organization" }
+      },
+      {
+        "@type": "Service",
+        "name": "Alquiler de equipos respiratorios",
+        "serviceType": "Alquiler de CPAP, BiPAP y concentradores de oxígeno",
+        "provider": { "@id": "https://insersalud.com/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      },
+      {
+        "@type": "Service",
+        "name": "Oxigenoterapia domiciliaria",
+        "serviceType": "Provisión e instalación de oxígeno a domicilio (concentradores fijos y portátiles)",
+        "provider": { "@id": "https://insersalud.com/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      },
+      {
+        "@type": "Service",
+        "name": "Adaptación y seguimiento de CPAP/BiPAP",
+        "serviceType": "Instalación, adaptación y seguimiento profesional de ventilación no invasiva",
+        "provider": { "@id": "https://insersalud.com/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      },
+      {
+        "@type": "Service",
+        "name": "Poligrafía respiratoria domiciliaria",
+        "serviceType": "Estudio del sueño a domicilio (poligrafía respiratoria) con informe de IAH para el médico",
+        "url": "https://insersalud.com/estudio-del-sueno-cordoba",
+        "provider": { "@id": "https://insersalud.com/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      },
+      {
+        "@type": "Service",
+        "name": "Oximetría nocturna a domicilio",
+        "serviceType": "Registro continuo de saturación de oxígeno durante el sueño, a domicilio, con informe para el médico",
+        "url": "https://insersalud.com/oximetria-nocturna-cordoba",
+        "provider": { "@id": "https://insersalud.com/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      },
+      {
+        "@type": "Service",
+        "name": "Servicio técnico de equipos respiratorios",
+        "serviceType": "Mantenimiento y reparación de CPAP, BiPAP y concentradores",
+        "provider": { "@id": "https://insersalud.com/#organization" },
+        "areaServed": { "@type": "City", "name": "Córdoba" }
+      }
+    ]
+  }
+  </script>
+
+  <!-- ══ Structured Data – FAQPage (para IA y rich snippets) ══════════════ -->
+  <!-- ══ Structured Data – BreadcrumbList ═════════════════════════════════ -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://insersalud.com/#sergiogiorda",
+  "name": "Sergio Giorda",
+  "url": "https://insersalud.com/sobre-nosotros",
+  "honorificPrefix": "Lic.",
+  "jobTitle": "Kinesiólogo y Fisioterapeuta",
+  "description": "Kinesiólogo y fisioterapeuta con 25 años en el Servicio de Terapia Intensiva del Hospital Rawson, donde es Jefe del Servicio de Kinesiología y Fisioterapia. Director de INSER SALUD.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Matrícula Profesional",
+    "value": "2123"
+  },
+  "worksFor": {
+    "@id": "https://insersalud.com/#organization"
+  },
+  "knowsAbout": [
+    "Ventilación mecánica no invasiva",
+    "Oxigenoterapia domiciliaria",
+    "Rehabilitación pulmonar",
+    "Apnea obstructiva del sueño",
+    "Terapia intensiva respiratoria"
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidad Nacional de Córdoba"
+  }
+}
+  </script>
+  <script type="module" crossorigin src="/assets/index-BXklEhDX.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/react-vendor-DEMrqijm.js">
+  <link rel="modulepreload" crossorigin href="/assets/icons-Dl5iaD32.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-CuRA2SvH.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://inser.ar/oximetria-nocturna-cordoba#webpage",
+      "url": "https://inser.ar/oximetria-nocturna-cordoba",
+      "name": "Oximetría nocturna a domicilio en Córdoba | INSER SALUD",
+      "description": "Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama, con informe para tu médico. Coordiná por WhatsApp.",
+      "inLanguage": "es-AR",
+      "isPartOf": {
+        "@id": "https://insersalud.com/#website"
+      },
+      "publisher": {
+        "@id": "https://insersalud.com/#organization"
+      },
+      "author": {
+        "@id": "https://insersalud.com/#sergiogiorda"
+      },
+      "reviewedBy": {
+        "@id": "https://insersalud.com/#sergiogiorda"
+      },
+      "lastReviewed": "2026-10-27"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://inser.ar/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís",
+          "item": "https://inser.ar/oximetria-nocturna-cordoba"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://inser.ar/oximetria-nocturna-cordoba#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué es una oximetría nocturna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un estudio que mide en forma continua el oxígeno en sangre (SpO₂) y la frecuencia cardíaca mientras dormís, con un sensor en el dedo conectado a un oxímetro con memoria. Muestra cuántas veces y durante cuánto tiempo baja tu oxígeno durante la noche."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hacen la oximetría nocturna a domicilio en Córdoba?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. En INSER SALUD hacemos la oximetría nocturna a domicilio en Córdoba Capital y alrededores: se entrega el oxímetro en tu casa, dormís una noche con él y se devuelve al día siguiente. Del registro sale el informe para tu médico. Coordinalo por WhatsApp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Para qué sirve la oximetría nocturna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para detectar si tu oxígeno baja mientras dormís, evaluar si necesitás oxígeno nocturno o si el flujo indicado alcanza, orientar la sospecha de apnea del sueño y controlar tratamientos con CPAP o BiPAP. Se usa mucho en EPOC, fibrosis pulmonar y enfermedades neuromusculares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los beneficios de hacerla en casa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dormís en tu propia cama, así que el registro refleja una noche real tuya. No hay traslados ni internación, lo que es clave para personas mayores, con movilidad reducida o que usan oxígeno. Además se puede hacer con tu tratamiento de siempre puesto y repetirla fácilmente para controles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito pedido médico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La oximetría nocturna la indica tu médico, que es también quien interpreta el informe. Mandanos el pedido por WhatsApp y coordinamos el día."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es molesto dormir con el oxímetro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Es un estudio no invasivo: solo llevás un sensor en el dedo y una pequeña unidad en la muñeca. No hay cables en la cara ni en el pecho y dormís en tu cama como cualquier noche."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo hacerla con el oxígeno o el CPAP puesto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, si tu médico lo indica. Muchas veces se pide justamente así, para ver si el oxígeno o el equipo están cumpliendo durante la noche. Usalo como todas las noches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La oximetría nocturna diagnostica la apnea del sueño?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No la confirma. Las caídas repetidas del oxígeno pueden hacer sospechar apnea, pero el diagnóstico se hace con la poligrafía respiratoria o la polisomnografía, que miden además el flujo de aire y el esfuerzo respiratorio. Las dos las hacemos a domicilio en Córdoba."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué son el ODI y el T90 del informe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El ODI (índice de desaturación de oxígeno) cuenta cuántas veces por hora cae la saturación un 3 % o un 4 %. El T90 es el porcentaje del tiempo con saturación por debajo de 90 %. Junto con la saturación media y la mínima, son los datos que evalúa tu médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo tener las uñas pintadas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Conviene sacar el esmalte y las uñas postizas del dedo donde va el sensor, porque pueden alterar la lectura del oxígeno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Trabajan con obras sociales o prepagas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos presupuesto formal y factura oficial para que gestiones el reembolso ante tu obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se puede pagar en cuotas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://inser.ar/oximetria-nocturna-cordoba#equipos",
+      "name": "Equipos en Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís",
+      "numberOfItems": 2,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Concentrador de oxígeno BMC estacionario",
+            "image": "https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg",
+            "url": "https://inser.ar/oximetria-nocturna-cordoba#equipos",
+            "offers": {
+              "@type": "Offer",
+              "price": "999000",
+              "priceCurrency": "ARS",
+              "availability": "https://schema.org/InStock",
+              "url": "https://inser.ar/oximetria-nocturna-cordoba",
+              "seller": {
+                "@id": "https://insersalud.com/#organization"
+              }
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "Concentrador estacionario Yuwell 7F-5B de 5 litros",
+            "image": "https://insersalud.com/artifacts/products/concentrador_yuwell_5l.jpg",
+            "url": "https://inser.ar/oximetria-nocturna-cordoba#equipos",
+            "offers": {
+              "@type": "Offer",
+              "price": "1170000",
+              "priceCurrency": "ARS",
+              "availability": "https://schema.org/InStock",
+              "url": "https://inser.ar/oximetria-nocturna-cordoba",
+              "seller": {
+                "@id": "https://insersalud.com/#organization"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+  <link rel="alternate" type="text/markdown" href="https://insersalud.com/oximetria-nocturna-cordoba.md" />
+</head>
+
+<body>
+  <div id="root"><div id="ssr-content"><main>
+<nav><a href="/">Inicio</a> › <span>Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís</span></nav>
+<h1>Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís</h1>
+<p><img src="/artifacts/oximetria/oximetria-nocturna-domicilio-cordoba.jpg" alt="Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís" width="1200" height="800" loading="lazy" decoding="async"></p>
+<p>¿Tu médico te pidió una oximetría nocturna? Es el estudio que mide tu oxígeno en sangre durante toda la noche con un sensor en el dedo. En INSER SALUD la hacemos a domicilio en Córdoba: se entrega el oxímetro en tu casa, dormís en tu cama como cualquier noche y se devuelve al día siguiente. Del registro sale el informe que evalúa tu médico.</p>
+<p>Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.</p>
+<section><h2>¿Qué es la oximetría nocturna?</h2><p><img src="/artifacts/oximetria/oximetro-de-pulso-nocturno.jpg" alt="Oxímetro de pulso con sensor en el dedo para la oximetría nocturna" width="1200" height="800" loading="lazy" decoding="async"></p><p>Es un estudio que registra en forma continua la saturación de oxígeno en sangre (SpO₂) y la frecuencia cardíaca mientras dormís. Se hace con un oxímetro de pulso con memoria: un sensor que se coloca en el dedo y una pequeña unidad en la muñeca que guarda los datos de toda la noche.</p>
+<p>No es lo mismo que controlarte la saturación un momento con el saturómetro. La oximetría nocturna toma miles de mediciones durante el sueño y muestra cuántas veces y durante cuánto tiempo baja tu oxígeno. Hay personas que saturan bien de día y bajan de noche, y eso solo se ve con este estudio.</p>
+<p>Es un estudio no invasivo: no hay agujas, ni cables en la cara, ni cánulas.</p></section>
+<section><h2>Hacemos la oximetría nocturna a domicilio en Córdoba</h2><p><img src="/artifacts/oximetria/oximetria-a-domicilio-visita.jpg" alt="Visita a domicilio para colocar el oxímetro de la oximetría nocturna en Córdoba" width="1200" height="800" loading="lazy" decoding="async"></p><p>En INSER SALUD hacemos la oximetría nocturna en tu casa, en Córdoba Capital y alrededores. Lo coordinamos por WhatsApp con el pedido de tu médico. Se entrega el oxímetro en tu domicilio y te explicamos cómo colocarte el sensor; dormís una noche con él y se devuelve al día siguiente.</p>
+<p>Del registro sale el informe con el gráfico de toda la noche y los índices que evalúa tu médico: saturación media y mínima, índice de desaturación y porcentaje del tiempo por debajo de 90 %.</p>
+<p>Trabajamos en forma particular y te damos factura para que gestiones el reintegro ante tu obra social o prepaga.</p></section>
+<section><h2>Beneficios de hacer la oximetría nocturna en tu casa</h2><p><img src="/artifacts/oximetria/beneficios-oximetria-nocturna-domicilio.jpg" alt="Paciente en su casa con el oxímetro de pulso: beneficios de hacer la oximetría nocturna a domicilio" width="1200" height="800" loading="lazy" decoding="async"></p><p>Dormís en tu cama. El registro refleja una noche real tuya y no una noche incómoda en un lugar que no conocés. Eso hace que el estudio muestre mejor lo que te pasa todas las noches.</p>
+<p>Sin traslados ni internación. Es ideal para personas mayores, con movilidad reducida o que ya usan oxígeno, que no tienen que salir de su casa para estudiarse.</p>
+<p>Solo un sensor en el dedo. Es un estudio cómodo de tolerar: no hay cables en la cara ni en el pecho.</p>
+<p>Con tu tratamiento de siempre. Si usás oxígeno, CPAP o BiPAP y tu médico lo pide, el estudio se hace con el equipo puesto, en las mismas condiciones de todas las noches. Así se ve si el tratamiento está cumpliendo.</p>
+<p>Fácil de repetir. Si tu médico quiere controlar cómo evolucionás o si cambió el flujo de oxígeno indicado, el estudio se vuelve a hacer sin complicaciones.</p>
+<p>Un solo interlocutor. Si el resultado muestra que necesitás oxígeno o un equipo, en Córdoba te acompañamos también en ese paso.</p></section>
+<section><h2>Para qué sirve la oximetría nocturna</h2><p><img src="/artifacts/oximetria/oximetria-nocturna-con-oxigeno.jpg" alt="Paciente con oxigenoterapia y oxímetro de pulso durante la oximetría nocturna" width="1200" height="800" loading="lazy" decoding="async"></p><p>Detectar desaturaciones durante el sueño. En EPOC, fibrosis pulmonar y otras enfermedades respiratorias el oxígeno puede bajar de noche aunque de día esté bien.</p>
+<p>Evaluar si hace falta oxígeno nocturno, y controlar si el flujo indicado alcanza. Para esto el estudio se puede hacer con el concentrador puesto, al flujo que te indicó tu médico.</p>
+<p>Orientar la sospecha de apnea del sueño. Las caídas repetidas del oxígeno son una señal de alerta, pero para confirmar la apnea hace falta la <a href="/estudio-del-sueno-cordoba">poligrafía respiratoria</a>.</p>
+<p>Seguir a pacientes con enfermedades neuromusculares o con ventilación no invasiva. Ayuda a ver cómo se oxigenan de noche y si el <a href="/bipap-cordoba">BiPAP</a> está cumpliendo. No mide el dióxido de carbono: si se sospecha hipoventilación, tu médico puede pedir estudios complementarios.</p>
+<p>Controlar el tratamiento con CPAP. Permite ver si, con el equipo puesto, el oxígeno se mantiene estable durante la noche.</p></section>
+<section><h2>Qué dice el informe de la oximetría nocturna</h2><p><img src="/artifacts/oximetria/informe-oximetria-nocturna.jpg" alt="Médico revisando con el paciente el gráfico del informe de oximetría nocturna" width="1200" height="800" loading="lazy" decoding="async"></p><p>Saturación media: el promedio de oxígeno en sangre durante toda la noche.</p>
+<p>Saturación mínima: el valor más bajo que alcanzó el registro.</p>
+<p>Índice de desaturación de oxígeno (ODI): cuántas veces por hora cae la saturación un 3 % o un 4 % respecto de su valor previo. Un índice alto sugiere eventos respiratorios repetidos, como en la apnea del sueño.</p>
+<p>T90 (o CT90): el porcentaje del tiempo de registro con saturación por debajo de 90 %. En EPOC, pasar el 30 % o más de la noche por debajo de 90 % es uno de los criterios que se usan para hablar de desaturación nocturna.</p>
+<p>Frecuencia cardíaca y el gráfico completo de la noche, que permite ver en qué momento y con qué forma ocurren las caídas.</p>
+<p>La interpretación del informe la hace el médico: es quien define el diagnóstico y si hace falta un tratamiento. Nosotros hacemos el estudio y te acompañamos con el equipamiento.</p>
+<p>Contenido revisado por el Lic. Sergio Giorda (MP 2123), kinesiólogo con 25 años en terapia intensiva y director de INSER SALUD. Última revisión: octubre 2026.</p></section>
+<section><h2>Oximetría nocturna o poligrafía: cuál te corresponde</h2><p>La oximetría nocturna registra el oxígeno en sangre y la frecuencia cardíaca con un sensor en el dedo. Es el estudio indicado para ver si bajás el oxígeno de noche, si necesitás oxígeno nocturno o si el que usás alcanza.</p>
+<p>La <a href="/estudio-del-sueno-cordoba">poligrafía respiratoria</a> suma el flujo de aire, el ronquido, el esfuerzo respiratorio y la posición. Da el índice de apnea-hipopnea (IAH) y es la que diagnostica la apnea del sueño. La oximetría puede orientar la sospecha, pero no la reemplaza.</p>
+<p>Las dos las hacemos a domicilio en Córdoba. Cuál te corresponde lo decide tu médico.</p></section>
+<section><h2>Cómo prepararte para la noche del estudio</h2><p>Sacá el esmalte o las uñas postizas del dedo donde va el sensor: alteran la lectura.</p>
+<p>Colocate el sensor antes de dormir, como te explicamos en la entrega, y mantené las manos tibias.</p>
+<p>Si usás oxígeno, CPAP o BiPAP, usalo como todas las noches, salvo que tu médico indique otra cosa. Tomá tu medicación habitual.</p>
+<p>Dormí con normalidad. Si te levantás al baño, no hace falta sacarte el oxímetro. Lo importante es que registre la mayor parte de la noche de sueño.</p>
+<p>A la mañana te lo sacás y se devuelve el equipo para descargar el registro y armar el informe.</p></section>
+<section><h2>Si el estudio muestra que bajás el oxígeno de noche</h2><p>Si tu médico indica oxigenoterapia nocturna, en Córdoba podés <a href="/alquiler-concentrador-oxigeno-cordoba">alquilar un concentrador de oxígeno</a> o comprarlo, con entrega e instalación a domicilio. El equipo llega configurado con el flujo que indicó tu médico y la instalación la hace personal profesional que te explica cómo usarlo. Más información en <a href="/oxigeno-a-domicilio-cordoba">oxígeno a domicilio en Córdoba</a>.</p>
+<p>Si el patrón del registro hace sospechar apnea del sueño, el paso siguiente suele ser la <a href="/estudio-del-sueno-cordoba">poligrafía respiratoria domiciliaria</a>, que también hacemos en tu casa.</p>
+<p>Precios de referencia para comprar un concentrador: BMC estacionario $999.000 y Yuwell 7F-5B de 5 litros $1.170.000 (oferta puntual: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock). Aparatología aprobada por ANMAT. Los precios se actualizan: confirmá el valor del día por WhatsApp.</p></section>
+<h2 id="equipos">Equipos relacionados</h2>
+<ul>
+<li><img src="/artifacts/products/concentrador_bmc_1.jpg" alt="Concentrador de oxígeno BMC estacionario" width="900" height="771" loading="lazy" decoding="async"> Concentrador de oxígeno BMC estacionario — $999.000</li>
+<li><img src="/artifacts/products/concentrador_yuwell_5l.jpg" alt="Concentrador estacionario Yuwell 7F-5B de 5 litros" width="900" height="810" loading="lazy" decoding="async"> Concentrador estacionario Yuwell 7F-5B de 5 litros — $1.170.000</li>
+</ul>
+<h2>Preguntas frecuentes</h2>
+<h3>¿Qué es una oximetría nocturna?</h3><p>Es un estudio que mide en forma continua el oxígeno en sangre (SpO₂) y la frecuencia cardíaca mientras dormís, con un sensor en el dedo conectado a un oxímetro con memoria. Muestra cuántas veces y durante cuánto tiempo baja tu oxígeno durante la noche.</p>
+<h3>¿Hacen la oximetría nocturna a domicilio en Córdoba?</h3><p>Sí. En INSER SALUD hacemos la oximetría nocturna a domicilio en Córdoba Capital y alrededores: se entrega el oxímetro en tu casa, dormís una noche con él y se devuelve al día siguiente. Del registro sale el informe para tu médico. Coordinalo por WhatsApp.</p>
+<h3>¿Para qué sirve la oximetría nocturna?</h3><p>Para detectar si tu oxígeno baja mientras dormís, evaluar si necesitás oxígeno nocturno o si el flujo indicado alcanza, orientar la sospecha de apnea del sueño y controlar tratamientos con CPAP o BiPAP. Se usa mucho en EPOC, fibrosis pulmonar y enfermedades neuromusculares.</p>
+<h3>¿Cuáles son los beneficios de hacerla en casa?</h3><p>Dormís en tu propia cama, así que el registro refleja una noche real tuya. No hay traslados ni internación, lo que es clave para personas mayores, con movilidad reducida o que usan oxígeno. Además se puede hacer con tu tratamiento de siempre puesto y repetirla fácilmente para controles.</p>
+<h3>¿Necesito pedido médico?</h3><p>Sí. La oximetría nocturna la indica tu médico, que es también quien interpreta el informe. Mandanos el pedido por WhatsApp y coordinamos el día.</p>
+<h3>¿Es molesto dormir con el oxímetro?</h3><p>No. Es un estudio no invasivo: solo llevás un sensor en el dedo y una pequeña unidad en la muñeca. No hay cables en la cara ni en el pecho y dormís en tu cama como cualquier noche.</p>
+<h3>¿Puedo hacerla con el oxígeno o el CPAP puesto?</h3><p>Sí, si tu médico lo indica. Muchas veces se pide justamente así, para ver si el oxígeno o el equipo están cumpliendo durante la noche. Usalo como todas las noches.</p>
+<h3>¿La oximetría nocturna diagnostica la apnea del sueño?</h3><p>No la confirma. Las caídas repetidas del oxígeno pueden hacer sospechar apnea, pero el diagnóstico se hace con la <a href="/estudio-del-sueno-cordoba">poligrafía respiratoria</a> o la polisomnografía, que miden además el flujo de aire y el esfuerzo respiratorio. Las dos las hacemos a domicilio en Córdoba.</p>
+<h3>¿Qué son el ODI y el T90 del informe?</h3><p>El ODI (índice de desaturación de oxígeno) cuenta cuántas veces por hora cae la saturación un 3 % o un 4 %. El T90 es el porcentaje del tiempo con saturación por debajo de 90 %. Junto con la saturación media y la mínima, son los datos que evalúa tu médico.</p>
+<h3>¿Puedo tener las uñas pintadas?</h3><p>Conviene sacar el esmalte y las uñas postizas del dedo donde va el sensor, porque pueden alterar la lectura del oxígeno.</p>
+<h3>¿Trabajan con obras sociales o prepagas?</h3><p>Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos presupuesto formal y factura oficial para que gestiones el reembolso ante tu obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico.</p>
+<h3>¿Se puede pagar en cuotas?</h3><p>Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.</p>
+<h2>También te puede servir</h2>
+<ul>
+<li><a href="/estudio-del-sueno-cordoba">Poligrafía respiratoria domiciliaria (estudio del sueño)</a></li>
+<li><a href="/oxigeno-a-domicilio-cordoba">Oxígeno a domicilio en Córdoba</a></li>
+<li><a href="/alquiler-concentrador-oxigeno-cordoba">Alquiler de concentrador de oxígeno en Córdoba</a></li>
+<li><a href="/patologia/epoc">EPOC</a></li>
+<li><a href="/academia/ebook/oxigenoterapia">Curso gratuito (ebook): Oxigenoterapia</a></li>
+</ul>
+<p>INSER SALUD — Córdoba, Argentina. <a href="https://wa.me/5493512065320">WhatsApp +54 9 351 206-5320</a> · <a href="tel:+5493512065320">Llamar</a> · inser.salud@gmail.com</p>
+</main></div></div>
+</body>
+
+</html>

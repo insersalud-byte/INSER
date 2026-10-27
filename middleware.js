@@ -42,6 +42,10 @@ export const config = {
         '/ventilador-stellar-150',
         '/comprar-poligrafo-argentina',
         '/cough-assist-asistente-de-tos',
+        // La ruta interna /insersalud/... (variante domiciliaria) no debe verse desde afuera:
+        // si alguien la pide directo se redirige 301 a la URL publica equivalente.
+        '/insersalud',
+        '/insersalud/:path*',
     ],
 };
 
@@ -75,6 +79,17 @@ export default function middleware(request) {
             return Response.redirect(canon.toString(), 308);
         }
 
+        // /insersalud y /insersalud/... pedidos DESDE AFUERA: es un duplicado del sitio publico
+        // (devolvia 200 con canonical al home). 301 a la URL publica para consolidarlo.
+        // La marca x-inser-rewrite la pone el rewrite de abajo: si Vercel volviera a pasar
+        // la peticion reescrita por el middleware, se reconoce y no se redirige (sin bucles).
+        if ((url.pathname === '/insersalud' || url.pathname.startsWith('/insersalud/'))
+            && !request.headers.get('x-inser-rewrite')) {
+            const pub = new URL(url);
+            pub.pathname = url.pathname.slice('/insersalud'.length) || '/';
+            return Response.redirect(pub.toString(), 301);
+        }
+
         const host = (request.headers.get('host') || '').toLowerCase();
         if (!host.includes('insersalud.com')) return next();
         if (url.pathname.startsWith('/insersalud')) return next();
@@ -91,7 +106,9 @@ export default function middleware(request) {
 
         const target = new URL(url);
         target.pathname = '/insersalud' + (url.pathname === '/' ? '' : url.pathname.replace(/\/+$/, ''));
-        return rewrite(target, vary);
+        const marcada = new Headers(request.headers);
+        marcada.set('x-inser-rewrite', '1');
+        return rewrite(target, { ...vary, request: { headers: marcada } });
     } catch {
         return next();
     }

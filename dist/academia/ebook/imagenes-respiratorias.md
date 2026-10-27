@@ -1,10 +1,10 @@
 ---
-title: "Curso gratuito de diagnóstico por imágenes respiratorias: ebook interactivo con simuladores de RX, TC y ecografía | Academia INSER SALUD"
-description: "Curso gratuito online de diagnóstico por imágenes respiratorias, en formato de ebook interactivo, del Lic. Sergio Giorda: anatomía normal, radiografía, tomografía y angio-TC, ecografía pulmonar y diafragmática, V/Q, RM y PET-TC, con 8 simuladores y 46 escenarios."
+title: "Diagnóstico por imágenes respiratorias: curso gratuito | INSER"
+description: "Ebook interactivo gratuito del Lic. Sergio Giorda: radiografía, TC y ecografía pulmonar con simuladores, atlas clínico, diafragma y casos integradores."
 url: https://insersalud.com/academia/ebook/imagenes-respiratorias
 canonical: https://insersalud.com/academia/ebook/imagenes-respiratorias
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
-last_reviewed: 2026-09-26
+last_reviewed: 2026-10-16
 language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---

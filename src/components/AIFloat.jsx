@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { Send, X, MessageCircle, ExternalLink } from 'lucide-react';
 import css from './AIFloat.module.css';
 
+import { webp } from '../utils/webp';
 const QUICK_CHIPS = [
     'Quiero un CPAP',
     '¿Qué es la apnea del sueño?',
@@ -168,7 +169,7 @@ const AIFloat = () => {
                         <div className={css.headerInfo}>
                             <div className={css.headerAvatar}>
                                 <img
-                                    src="/artifacts/santi_real.jpg"
+                                    src={webp('/artifacts/santi_real.jpg')}
                                     alt="Santi"
                                     width={400}
                                     height={601}
@@ -204,7 +205,7 @@ const AIFloat = () => {
                             <div key={msg.id} className={`${css.message} ${css[msg.type]}`} data-msg-type={msg.type}>
                                 {msg.type === 'bot' && (
                                     <img
-                                        src="/artifacts/santi_real.jpg"
+                                        src={webp('/artifacts/santi_real.jpg')}
                                         className={css.botAvatar}
                                         alt="Santi"
                                         width={400}
@@ -217,7 +218,7 @@ const AIFloat = () => {
                         ))}
                         {isTyping && (
                             <div className={`${css.message} ${css.bot}`}>
-                                <img src="/artifacts/santi_real.jpg" className={css.botAvatar} alt="Santi" width={400} height={601} onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=S&background=1e40af&color=fff'; }} />
+                                <img src={webp('/artifacts/santi_real.jpg')} className={css.botAvatar} alt="Santi" width={400} height={601} onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=S&background=1e40af&color=fff'; }} />
                                 <div className={`${css.bubble} ${css.typingBubble}`}>
                                     <span></span><span></span><span></span>
                                 </div>
@@ -275,7 +276,7 @@ const AIFloat = () => {
                 <div className={css.avatarBtn}>
                     <span className={css.onlineDot}></span>
                     <img
-                        src="/artifacts/santi_real.jpg"
+                        src={webp('/artifacts/santi_real.jpg')}
                         alt="Santi IA"
                         width={400}
                         height={601}

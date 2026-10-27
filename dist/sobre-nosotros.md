@@ -1,5 +1,5 @@
 ---
-title: "Quiénes somos: terapias respiratorias domiciliarias | INSER SALUD"
+title: "Quiénes somos: terapias respiratorias a domicilio | INSER"
 description: "Conocé INSER SALUD: venta de CPAP, BiPAP y concentradores con envío a todo el país, alquiler en Córdoba, dirigida por el Lic. Sergio Giorda (MP 2123)."
 url: https://insersalud.com/sobre-nosotros
 canonical: https://insersalud.com/sobre-nosotros

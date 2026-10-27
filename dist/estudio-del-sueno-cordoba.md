@@ -1,6 +1,6 @@
 ---
-title: "Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER"
-description: "Hacemos la poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Coordiná por WhatsApp."
+title: "Poligrafía a domicilio en Córdoba: estudio del sueño | INSER"
+description: "Poligrafía respiratoria a domicilio en Córdoba: el estudio del sueño en tu casa, una noche, sin internación y con informe de IAH. Coordiná por WhatsApp."
 url: https://insersalud.com/estudio-del-sueno-cordoba
 canonical: https://insersalud.com/estudio-del-sueno-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -11,17 +11,23 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa
 
+![Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa](https://insersalud.com/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg)
+
 ¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba y, si da apnea, te acompañamos en el tratamiento.
 
 Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
 
 ## ¿Qué es la poligrafía respiratoria?
 
+![Kit de poligrafía respiratoria domiciliaria: polígrafo, cánula nasal, banda torácica y oxímetro](https://insersalud.com/artifacts/poligrafia/poligrafo-kit-estudio-del-sueno.jpg)
+
 Es un estudio del sueño que se realiza en tu propia casa con un equipo ([polígrafo respiratorio](https://insersalud.com/comprar-poligrafo-argentina)) que registra durante la noche tu respiración, el flujo de aire, los ronquidos, el oxígeno en sangre y las pausas respiratorias.
 
 Es cómodo, no invasivo y permite detectar la apnea obstructiva del sueño sin tener que dormir en un laboratorio.
 
 ## Hacemos la poligrafía respiratoria domiciliaria en Córdoba
+
+![Colocación del polígrafo a domicilio para el estudio del sueño en Córdoba](https://insersalud.com/artifacts/poligrafia/poligrafia-colocacion-domicilio.jpg)
 
 En INSER SALUD hacemos el estudio del sueño en tu casa, en Córdoba. Se entrega el polígrafo, dormís una noche con él y se devuelve al día siguiente. Del registro sale el informe con el índice de apnea-hipopnea (IAH), que es el que evalúa tu médico.
 
@@ -39,11 +45,15 @@ Cuál te corresponde lo decide tu médico.
 
 ## Roncar no siempre es apnea: el estudio lo define
 
+![Ronquidos fuertes: el estudio del sueño define si hay apnea](https://insersalud.com/artifacts/poligrafia/ronquidos-apnea-del-sueno.jpg)
+
 Mucha gente consulta para dejar de roncar. El ronquido puede ser solo ronquido, o puede venir con pausas en la respiración, que es la apnea del sueño. Desde afuera no se puede saber: la poligrafía lo mide durante una noche entera.
 
 Si el estudio confirma apnea, el tratamiento estándar es el CPAP. Si no la confirma, tu médico te va a indicar qué hacer con el ronquido.
 
 ## Señales de que podrías tener apnea del sueño
+
+![Somnolencia y cansancio durante el día, señales de apnea del sueño](https://insersalud.com/artifacts/poligrafia/somnolencia-diurna-apnea.jpg)
 
 Ronquidos fuertes y frecuentes, pausas en la respiración mientras dormís (que suele notar la pareja), somnolencia durante el día, despertares con sensación de ahogo, dolor de cabeza al levantarte y cansancio a pesar de dormir muchas horas.
 
@@ -64,6 +74,8 @@ No es invasivo: dormís en tu propia cama, como cualquier noche.
 La cánula nasal que se conecta al equipo es un insumo descartable y se cambia en cada estudio.
 
 ## Qué dice el informe: el índice de apnea-hipopnea (IAH)
+
+![Médico revisando con el paciente el registro nocturno del estudio del sueño](https://insersalud.com/artifacts/oximetria/informe-oximetria-nocturna.jpg)
 
 El polígrafo incluye software de descarga y análisis, que genera el informe con el Índice de Apnea-Hipopnea (IAH o AHI): la cantidad de apneas e hipopneas por hora de sueño. Es el índice que indica la severidad.
 
@@ -158,6 +170,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 - [Alquiler de CPAP en Córdoba](https://insersalud.com/alquiler-cpap-cordoba)
 
 - [Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP](https://insersalud.com/academia/ebook/apnea-del-sueno)
+
+- [Oximetría nocturna a domicilio en Córdoba](https://insersalud.com/oximetria-nocturna-cordoba)
 
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 

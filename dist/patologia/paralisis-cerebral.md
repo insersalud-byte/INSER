@@ -1,5 +1,5 @@
 ---
-title: "Información para Pacientes sobre Parálisis Cerebral · Tratamiento Domiciliario | INSER SALUD"
+title: "Parálisis Cerebral · Tratamiento Domiciliario | INSER SALUD"
 description: "Gran variedad de máscaras para BiPAP en todos los talles. Ventilación no invasiva con acompañamiento personalizado y respeto en cada paso."
 url: https://insersalud.com/patologia/paralisis-cerebral
 canonical: https://insersalud.com/patologia/paralisis-cerebral

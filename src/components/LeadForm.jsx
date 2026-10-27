@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Send, MessageCircle, CheckCircle, ArrowRight, ChevronDown } from 'lucide-react';
 import { adsConversion, ADS_CONTACTO } from '../adsConversions';
 
+import { webp } from '../utils/webp';
 /**
  * LeadForm — captación de consultas por indicación médica.
  *
@@ -217,7 +218,7 @@ export default function LeadForm({ contexto = 'Home', sinTitulo = false, conImag
                                 )}
                                 {eq.img ? (
                                     <img
-                                        src={eq.img}
+                                        src={webp(eq.img)}
                                         alt={eq.label}
                                         width={eq.w}
                                         height={eq.h}

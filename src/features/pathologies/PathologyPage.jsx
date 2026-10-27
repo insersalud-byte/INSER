@@ -10,6 +10,7 @@ import { useSEO } from '../../hooks/useSEO';
 import LeadForm from '../../components/LeadForm';
 import css from './PathologyPage.module.css';
 
+import { webp } from '../../utils/webp';
 // Enlaces internos escritos como [texto](/ruta) en las respuestas de las FAQ. Misma sintaxis que LocalPage.jsx y que
 // inlineLinks() del prerender: MANTENER LOS TRES SINCRONIZADOS.
 const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
@@ -93,7 +94,7 @@ const SpecsModal = ({ product, onClose }) => {
 
                 <div className={css.specsHead}>
                     <div className={css.specsHeadImg}>
-                        <img src={product.img} alt={product.name} {...imgDims(product.img)}
+                        <img src={webp(product.img)} alt={product.name} {...imgDims(product.img)}
                             onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                     </div>
                     <div className={css.specsHeadInfo}>
@@ -123,7 +124,7 @@ const SpecsModal = ({ product, onClose }) => {
                 <div className={css.specsFoot}>
                     <div className={css.specsSantiRow}>
                         <img
-                            src="/artifacts/santi_real.jpg"
+                            src={webp('/artifacts/santi_real.jpg')}
                             alt="Santi"
                             width={400}
                             height={601}
@@ -242,7 +243,7 @@ const PathologyPage = () => {
     const seoBase = isInsersaludHost ? 'https://insersalud.com' : 'https://inser.ar';
     useSEO({
         title: isInsersaludHost && data?.metaTitle
-            ? data.metaTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD')
+            ? (data.metaTitleSalud || data.metaTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD'))
             : data?.metaTitle,
         description: data?.subtitle || data?.intro,
         canonical: slug ? `${seoBase}/patologia/${slug}` : undefined,
@@ -298,7 +299,7 @@ const PathologyPage = () => {
             <nav className={css.navbar}>
                 <div className={css.navInner}>
                     <Link to="/" className={css.navLogo}>
-                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" width={400} height={400}
+                        <img src={webp('/artifacts/logo_insersalud.jpg')} alt="Inser Salud" width={400} height={400}
                             onError={(e) => { e.target.style.display = 'none'; }} />
                     </Link>
                     <div className={css.navActions}>
@@ -335,7 +336,7 @@ const PathologyPage = () => {
                     </div>
                 </div>
                 <div className={css.heroImgWrap}>
-                    <img src={data.heroImg} alt={data.title} className={css.heroImg} {...imgDims(data.heroImg)} />
+                    <img src={webp(data.heroImg)} alt={data.title} className={css.heroImg} {...imgDims(data.heroImg)} />
                     <div className={css.heroImgBadge}>
                         <Star size={14} fill="white" color="white" />
                         <span>Aparatología aprobada por ANMAT</span>
@@ -416,7 +417,7 @@ const PathologyPage = () => {
                             <div key={i} className={css.productCard}>
                                 {p.badge && <span className={css.productBadge}>{p.badge}</span>}
                                 <div className={css.productImg}>
-                                    <img src={p.img} alt={p.name} loading="lazy" decoding="async" {...imgDims(p.img)}
+                                    <img src={webp(p.img)} alt={p.name} loading="lazy" decoding="async" {...imgDims(p.img)}
                                         onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                                 </div>
                                 <h4>{p.name}</h4>
@@ -502,7 +503,7 @@ const PathologyPage = () => {
                 <div className={css.container}>
                     <div className={css.santiCard} onClick={() => openSanti(data.santiMessage)}>
                         <img
-                            src="/artifacts/santi_real.jpg"
+                            src={webp('/artifacts/santi_real.jpg')}
                             alt="Santi"
                             className={css.santiAvatar}
                             width={400}
@@ -533,7 +534,7 @@ const PathologyPage = () => {
                         {others.map((o, i) => (
                             <Link key={i} to={`/patologia/${o.slug}`} className={css.otherCard} style={{ '--other-color': o.color }}>
                                 <div className={css.otherImg}>
-                                    <img src={o.heroImg} alt={o.title} loading="lazy" decoding="async" {...imgDims(o.heroImg)}
+                                    <img src={webp(o.heroImg)} alt={o.title} loading="lazy" decoding="async" {...imgDims(o.heroImg)}
                                         onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                                 </div>
                                 <div className={css.otherBody}>

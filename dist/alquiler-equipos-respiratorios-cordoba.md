@@ -1,6 +1,6 @@
 ---
-title: "Alquiler de Respiradores y Equipos Respiratorios en Córdoba | INSER"
-description: "Alquilá oxígeno, CPAP, BiPAP, ventilador o asistente de tos en Córdoba, con entrega e instalación a domicilio. Decinos qué te indicó tu médico y te cotizamos el mismo día por WhatsApp."
+title: "Alquiler de Equipos Respiratorios en Córdoba | INSER SALUD"
+description: "Alquilá oxígeno, CPAP, BiPAP, ventilador o asistente de tos en Córdoba, con entrega e instalación a domicilio. Te cotizamos en el día por WhatsApp."
 url: https://insersalud.com/alquiler-equipos-respiratorios-cordoba
 canonical: https://insersalud.com/alquiler-equipos-respiratorios-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Alquiler de respiradores y equipos respiratorios en Córdoba
+
+![Alquiler de respiradores y equipos respiratorios en Córdoba](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg)
 
 Alquilamos equipos de terapia respiratoria en Córdoba con entrega e instalación a domicilio. Elegí abajo qué te indicó tu médico y te pasamos la cotización el mismo día por WhatsApp. No necesitás saber de marcas ni modelos: con la indicación alcanza.
 

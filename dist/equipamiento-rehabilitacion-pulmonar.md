@@ -1,6 +1,6 @@
 ---
-title: "Equipamiento para Centros de Rehabilitación Pulmonar | INSER SALUD"
-description: "Equipamiento para centros de rehabilitación pulmonar y kinesiología respiratoria: concentrador de oxígeno de 10 litros (alto flujo), BiPAP, ventilador STELLAR 150, máscaras e insumos. Presupuestos formales para instituciones y envío a todo el país. Aprobado por ANMAT."
+title: "Equipamiento para Rehabilitación Pulmonar | INSER SALUD"
+description: "Equipamiento para centros de rehabilitación pulmonar: concentrador de 10 litros, BiPAP, ventilador STELLAR 150 y máscaras, con presupuesto formal."
 url: https://insersalud.com/equipamiento-rehabilitacion-pulmonar
 canonical: https://insersalud.com/equipamiento-rehabilitacion-pulmonar
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Equipamiento para centros de rehabilitación pulmonar
+
+![Equipamiento para centros de rehabilitación pulmonar](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_1.jpg)
 
 Equipamos centros de rehabilitación pulmonar, consultorios de kinesiología respiratoria e instituciones de salud en todo el país: concentradores de oxígeno de alto flujo para uso intensivo, ventilación no invasiva, máscaras e insumos de reposición. Presupuesto formal, factura y soporte técnico continuo.
 

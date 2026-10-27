@@ -13,6 +13,7 @@ import css from './LandingPage.module.css';
 import { productGalleries } from './productGalleries';
 import { localPages } from '../seo/localPages';
 
+import { webp } from '../../utils/webp';
 // Resuelve la galería de imágenes de un producto.
 // Prioridad: (1) product.images si existe, (2) productGalleries[slug], (3) [product.img]
 const getGallery = (p) => {
@@ -1224,7 +1225,7 @@ const maskGuide = [
             'Se usan en lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y otros cuadros neuromusculares.',
             'La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa. Ese detalle no es decorativo: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene un armazón compacto y una almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, y es compatible con equipos de CPAP y BiPAP.',
             'A tener en cuenta: la línea pediátrica es difícil de conseguir en Argentina. Tenemos tres opciones con talles desde neonatal, y el talle no se elige por catálogo: te asesoramos según la edad, la anatomía del paciente y lo que indicó el médico.',
-            'Modelos: HSINER Cirri Mini nasal XS/S/M/L U$S 105 · Philips Wisp pediátrica (jirafa) · Infant CPAP Kit neonatal (talles 00 a 5) U$S 97.',
+            'Modelos: HSINER Cirri Mini nasal XS/S/M/L U$S 105 · Philips Wisp pediátrica (jirafa) U$S 227 · Infant CPAP Kit neonatal (talles 00 a 5) U$S 97.',
         ],
         color: '#f59e0b',
         priceFrom: 'Desde U$S 97 · 3 modelos pediátricos',
@@ -1284,7 +1285,7 @@ const ProductGallery = ({ images, name }) => {
     return (
         <div className={css.galleryWrap}>
             <div className={css.galleryMain}>
-                <img src={images[idx]} alt={`${name} (${idx + 1}/${total})`} loading="lazy" decoding="async" />
+                <img src={webp(images[idx])} alt={`${name} (${idx + 1}/${total})`} loading="lazy" decoding="async" />
                 {total > 1 && (
                     <>
                         <button className={`${css.galleryNav} ${css.galleryPrev}`} onClick={prev} aria-label="Anterior">‹</button>
@@ -1302,7 +1303,7 @@ const ProductGallery = ({ images, name }) => {
                             onClick={(e) => { e.stopPropagation(); setIdx(i); }}
                             aria-label={`Imagen ${i + 1}`}
                         >
-                            <img src={src} alt={`${name} thumb ${i + 1}`} loading="lazy" decoding="async" />
+                            <img src={webp(src)} alt={`${name} thumb ${i + 1}`} loading="lazy" decoding="async" />
                         </button>
                     ))}
                 </div>
@@ -1364,7 +1365,7 @@ const SpecsModal = ({ product, onClose }) => {
                 <div className={css.specsFooter}>
                     <div className={css.specsSantiRow}>
                         <img
-                            src="/artifacts/santi_real.jpg"
+                            src={webp('/artifacts/santi_real.jpg')}
                             alt="Santi"
                             className={css.specsSantiAvatar}
                             width="400"
@@ -1443,7 +1444,7 @@ const LandingPage = () => {
             <nav className={css.navbar}>
                 <div className={css.navContent}>
                     <div className={css.logo}>
-                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" className={css.logoImg} width="400" height="400" />
+                        <img src={webp('/artifacts/logo_insersalud.jpg')} alt="Inser Salud" className={css.logoImg} width="400" height="400" />
                     </div>
 
                     {/* Desktop links */}
@@ -1545,7 +1546,7 @@ const LandingPage = () => {
 
                 <div className={css.heroImageContainer}>
                     <div className={css.heroFloatCard}>
-                        <img src="/artifacts/santi_real.jpg" alt="Santi" className={css.santiMini} width="400" height="601"
+                        <img src={webp('/artifacts/santi_real.jpg')} alt="Santi" className={css.santiMini} width="400" height="601"
                             onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff'; }} />
                         <div>
                             <strong>Santi está en línea</strong>
@@ -1553,7 +1554,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                     <div className={css.heroImgWrapper}>
-                        <img src="/artifacts/cpap_real.jpg" alt="Inser Salud" className={css.heroImg} width="1024" height="1024" />
+                        <img src={webp('/artifacts/cpap_real.jpg')} alt="Inser Salud" className={css.heroImg} width="1024" height="1024" />
                     </div>
                 </div>
             </header>
@@ -1644,7 +1645,7 @@ const LandingPage = () => {
                                     style={{ cursor: 'pointer' }}
                                 >
                                     <div className={css.pathImgContainer}>
-                                        <img src={p.img} alt={p.name} loading="lazy" decoding="async" />
+                                        <img src={webp(p.img)} alt={p.name} loading="lazy" decoding="async" />
                                         <div className={css.pathImgOverlay}>
                                             <p.icon size={32} />
                                             <span>Ver más info →</span>
@@ -1789,7 +1790,7 @@ const LandingPage = () => {
                                     {/* Imagen de portada */}
                                     {g.img && (
                                         <div className={css.guiaImgWrap}>
-                                            <img src={g.img} alt={g.title} className={css.guiaImg} loading="lazy" decoding="async" />
+                                            <img src={webp(g.img)} alt={g.title} className={css.guiaImg} loading="lazy" decoding="async" />
                                             <div className={css.guiaImgOverlay} style={{ background: `linear-gradient(to bottom, transparent 40%, ${g.color}22 100%)` }} />
                                         </div>
                                     )}
@@ -1902,7 +1903,7 @@ const LandingPage = () => {
                                 >
                                     {m.img && (
                                         <div className={css.guiaImgWrap}>
-                                            <img src={m.img} alt={m.title} className={css.guiaImg} loading="lazy" decoding="async" />
+                                            <img src={webp(m.img)} alt={m.title} className={css.guiaImg} loading="lazy" decoding="async" />
                                             <div className={css.guiaImgOverlay} style={{ background: `linear-gradient(to bottom, transparent 40%, ${m.color}22 100%)` }} />
                                         </div>
                                     )}
@@ -2001,7 +2002,7 @@ const LandingPage = () => {
                                     onClick={() => setSpecsProduct(p)}
                                     aria-label={`Ver galería de ${p.name}`}
                                 >
-                                    <img src={p.img} alt={p.name} loading="lazy" decoding="async" />
+                                    <img src={webp(p.img)} alt={p.name} loading="lazy" decoding="async" />
                                     {gCount > 1 && <span className={css.galleryCountBadge}>📸 {gCount}</span>}
                                 </button>
                                 <h4>{p.name}</h4>
@@ -2062,7 +2063,7 @@ const LandingPage = () => {
                                         <div key={i} className={css.productCard}>
                                             {p.badge && <span className={css.cardBadge}>{p.badge}</span>}
                                             <button className={css.productImgContainer} onClick={() => setSpecsProduct(p)}>
-                                                <img src={p.img} alt={p.name} loading="lazy" decoding="async" />
+                                                <img src={webp(p.img)} alt={p.name} loading="lazy" decoding="async" />
                                                 {gCount > 1 && <span className={css.galleryCountBadge}>📸 {gCount}</span>}
                                             </button>
                                             <h4>{p.name}</h4>
@@ -2106,7 +2107,7 @@ const LandingPage = () => {
                             return (
                             <div key={i} className={`${css.serviceCard} ${isExp ? css.serviceCardExpanded : ''}`}>
                                 <div className={css.serviceImgContainer}>
-                                    <img src={s.img} alt={s.title} className={s.focusTop ? css.imgTop : ''} loading="lazy" decoding="async" />
+                                    <img src={webp(s.img)} alt={s.title} className={s.focusTop ? css.imgTop : ''} loading="lazy" decoding="async" />
                                 </div>
                                 <div className={css.serviceInfo}>
                                     <h3>{s.title}</h3>
@@ -2193,7 +2194,7 @@ const LandingPage = () => {
                 <div className={css.container}>
                     <div className={css.santiCard} onClick={() => openSanti(null)}>
                         <img
-                            src="/artifacts/santi_real.jpg"
+                            src={webp('/artifacts/santi_real.jpg')}
                             alt="Santi"
                             className={css.santiLarge}
                             width="400"
@@ -2384,7 +2385,7 @@ const LandingPage = () => {
             <footer className={css.footer}>
                 <div className={css.footerInner}>
                     <div className={css.footerBrand}>
-                        <img src="/artifacts/logo_insersalud.jpg" alt="Inser Salud" className={css.footerLogo} width="400" height="400" loading="lazy" decoding="async"
+                        <img src={webp('/artifacts/logo_insersalud.jpg')} alt="Inser Salud" className={css.footerLogo} width="400" height="400" loading="lazy" decoding="async"
                             onError={(e) => { e.target.style.display = 'none'; }} />
                         <p>Especialistas en terapias respiratorias domiciliarias. Córdoba, Argentina.</p>
                     </div>

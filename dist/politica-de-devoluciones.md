@@ -1,6 +1,6 @@
 ---
-title: "Política de devoluciones y botón de arrepentimiento | INSER SALUD"
-description: "Devoluciones en INSER SALUD: 10 días corridos de arrepentimiento en compras a distancia con el envío de vuelta a nuestro cargo, qué productos no se devuelven, equipos con falla (garantía) y alquileres."
+title: "Devoluciones y botón de arrepentimiento | INSER SALUD"
+description: "Devoluciones en INSER SALUD: 10 días de arrepentimiento en compras a distancia con el envío de vuelta a nuestro cargo, garantía por falla y alquileres."
 url: https://insersalud.com/politica-de-devoluciones
 canonical: https://insersalud.com/politica-de-devoluciones
 language: es-AR

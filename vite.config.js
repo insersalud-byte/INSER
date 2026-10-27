@@ -41,7 +41,28 @@ export default defineConfig({
         // Los ebooks de /academia/ no van al precache: son sitios estaticos aparte,
         // pesan varios MB (se descargaban en cada visita a la home) y, al servirse
         // cache-first, una version vieja quedaba pegada hasta que el SW se actualizaba.
-        globIgnores: ['**/academia/**'],
+        globIgnores: ['**/academia/**', '**/consultorio/**',
+          // Admin, login, chat y Supabase son rutas privadas en lazy: no tiene sentido que
+          // el SW se los baje en segundo plano a cada visitante de las paginas publicas.
+          'assets/{AdminPanel,AdminLoginPage,LoginPage,LoginPage.module,ChatAI,AuthContext,Input,supabase}-*'],
+        // Las PAGINAS (HTML) no van al precache. Antes el SW guardaba dist/index.html (la
+        // variante inser.ar) y la servia para cualquier navegacion: quien ya habia entrado
+        // a insersalud.com veia el titulo y la descripcion viejos/equivocados hasta que el
+        // SW se actualizaba. Ahora cada pagina se pide a la red (siempre la version
+        // publicada) y solo si no hay conexion se usa la ultima copia guardada.
+        globPatterns: ['**/*.{js,css}', '*.{ico,png,svg}'],
+        navigateFallback: null,
+        runtimeCaching: [
+          {
+            urlPattern: ({ request }) => request.mode === 'navigate',
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'paginas',
+              networkTimeoutSeconds: 5,
+              expiration: { maxEntries: 40, maxAgeSeconds: 7 * 24 * 60 * 60 },
+            },
+          },
+        ],
       },
       manifest: {
         name: 'Inser Salud App',

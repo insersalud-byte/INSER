@@ -1,6 +1,6 @@
 ---
-title: "Curso gratuito de rehabilitación pulmonar: ebook interactivo con test de marcha, simulador y casos | Academia INSER SALUD"
-description: "Curso gratuito online de rehabilitación pulmonar, en formato de ebook interactivo, del Lic. Sergio Giorda, para adultos: evaluación inicial, diez ejercicios paso a paso, entrenamiento aeróbico y de fuerza, manejo de la disnea, test de marcha de seis minutos con cronómetro y valores predichos, simulador de ejercicio, seguimiento con St. George, armador de sesión y casos clínicos."
+title: "Rehabilitación pulmonar: curso gratuito con simulador | INSER"
+description: "Ebook interactivo gratuito de rehabilitación pulmonar del Lic. Sergio Giorda: evaluación, test de marcha de 6 minutos, Borg, ejercicios, prescripción y casos."
 url: https://insersalud.com/academia/ebook/rehabilitacion-pulmonar
 canonical: https://insersalud.com/academia/ebook/rehabilitacion-pulmonar
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -41,7 +41,7 @@ Explorar ejercicios
 Abrir simulador
 
 Edición educativa para adultos · Septiembre 2026 · progreso guardado en este navegador
-Preparado para Lic. Sergio Giorda · INSER SALUD
+Lic. Sergio Giorda · INSER SALUD
 Ebooks hermanos: [Ventilación mecánica](https://insersalud.com/academia/ebook/ventilacion-mecanica), [Ventilación no invasiva](https://insersalud.com/academia/ebook/ventilacion-no-invasiva), [Alto flujo](https://insersalud.com/academia/ebook/alto-flujo) y [Extubación, decanulación y deglución](https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion)
 
 Recreación fotográfica generada por IA. El entrenamiento se adapta a cada persona.
@@ -289,7 +289,7 @@ El test de marcha se acompaña de la **escala de Borg modificada (0 a 10)** para
 1. Mostrar la hoja impresa, con los números y las palabras a la vista. No leerla de memoria ni sugerir un valor.
 2. Preguntar siempre igual: «¿Cuánta falta de aire siente en este momento?». Para las piernas: «¿Cuánto cansancio siente en las piernas?».
 3. Aceptar el número que señala, incluidos los intermedios como 0,5 o 2,5. No discutir la respuesta ni compararla con los signos.
-4. Registrar disnea y fatiga por separado, en reposo y al final. En esta estación se anota en la grilla y pasa al informe.
+4. Registrar la disnea en reposo y al final: en esta estación se anota en la grilla y pasa al informe. La fatiga de piernas, si se evalúa, se anota en la hoja impresa o en Observaciones.
 
 No confundir con la escala de Borg original de 6 a 20, que mide esfuerzo percibido. Un cambio de alrededor de 1 punto suele considerarse relevante en enfermedad respiratoria crónica; interpretar junto con la distancia y la SpO₂.
 
@@ -724,7 +724,7 @@ EVIDENCIA Y RECURSOS
 2. [BTS 2023 · Clinical Statement on pulmonary rehabilitation](https://thorax.bmj.com/content/78/Suppl_5/s2). Evaluación, organización, ejercicio y educación.
 3. [ATS/ERS 2013 · Key Concepts and Advances in Pulmonary Rehabilitation](https://www.thoracic.org/statements/resources/copd/PRStatementrccm-2E201309-1634st.pdf). Componentes del programa y principios de entrenamiento.
 4. [ERS/ATS 2014 · Field walking tests in chronic respiratory disease](https://www.thoracic.org/statements/resources/copd/FWT-Tech-Std.pdf). Estandarización y seguridad de pruebas de marcha.
-5. [ATS 2002 · Guidelines for the Six-Minute Walk Test](https://www.thoracic.org/statements/resources/pfet/sixminute.pdf). Preparación e instrucciones; consultar junto con la actualización de 2014.
+5. [ATS 2002 · Guidelines for the Six-Minute Walk Test](https://doi.org/10.1164/ajrccm.166.1.at1102). Preparación e instrucciones; consultar junto con la actualización de 2014.
 6. [ATS · Field Walking Tests](https://site.thoracic.org/assemblies/pr/outcome-measures/field-walking-tests). Propiedades de medida y diferencias importantes según población.
 7. [City St George’s · SGRQ](https://www.staff.sgul.ac.uk/about/research-operations/research-administration/st-georges-respiratory-questionnaire). [Manual 2022](https://www.staff.sgul.ac.uk/about/research-operations/research-administration/st-georges-respiratory-questionnaire/docs/SGRQ-Manual-March-2022.pdf), versiones y puntuación oficial.
 8. [St. George · Diferencia mínima clínicamente importante](https://www.staff.sgul.ac.uk/about/research-operations/research-administration/st-georges-respiratory-questionnaire/minimum-clinically-important-difference-mcid). Referencia de cuatro puntos y contexto de interpretación.
@@ -780,7 +780,7 @@ Desarrollo de proyectos educativos
 Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 
 INSER SALUD · REHABILITACIÓN PULMONAR
-Material preparado para Lic. Sergio Giorda
+Lic. Sergio Giorda · INSER SALUD
 
 Volver al inicio ↑
 

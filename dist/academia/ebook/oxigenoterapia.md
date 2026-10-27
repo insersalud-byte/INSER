@@ -1,6 +1,6 @@
 ---
-title: "Curso gratuito de oxigenoterapia en adultos y niños: ebook ilustrado, de la guardia a casa | Academia INSER SALUD"
-description: "Curso gratuito online de oxigenoterapia convencional, en formato de ebook ilustrado, del Lic. Sergio Giorda: metas y monitorización, bigotera, máscara simple, Venturi y reservorio, pediatría, cuándo escalar a alto flujo, preparación del alta y equipos domiciliarios (concentrador, cilindros, portátiles y oxígeno líquido), seguridad, casos y glosario."
+title: "Oxigenoterapia en adultos y niños: curso gratuito | INSER"
+description: "Ebook ilustrado gratuito de oxigenoterapia del Lic. Sergio Giorda: metas de SpO2, bigotera, Venturi y reservorio, pediatría, alta, concentradores y cilindros."
 url: https://insersalud.com/academia/ebook/oxigenoterapia
 canonical: https://insersalud.com/academia/ebook/oxigenoterapia
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -720,8 +720,8 @@ los números citados en cada capítulo llevan a la fuente correspondiente. Las f
 5. **FDA.** [Pulse Oximeters and Oxygen Concentrators](https://www.fda.gov/consumers/consumer-updates/pulse-oximeters-and-oxygen-concentrators-what-know-about-home-oxygen-therapy). Alcances y limitaciones de la pulsioximetría domiciliaria.
 6. **Ministerio de Salud de la Nación Argentina (2017).** [Guía de práctica clínica nacional de EPOC](https://www.argentina.gob.ar/sites/default/files/bancos/2018-10/0000000707cnt-2017-08_guia-practica-clinica-epoc_guia-completa.pdf). Criterios de hipoxemia crónica grave contextualizados.
 7. **Global Initiative for Chronic Obstructive Lung Disease (2026).** [GOLD Report 2026](https://goldcopd.org/wp-content/uploads/2025/11/GOLD-REPORT-2026-v1.2-20Nov2025_WMV.pdf). Reevaluación y tratamiento de la EPOC estable.
-8. **British Thoracic Society (2015).** [Guidelines for home oxygen use in adults](https://pmc.ncbi.nlm.nih.gov/articles/PMC5623332/). Evaluación, alta, educación, retirada, oxígeno nocturno, uso paliativo y seguridad domiciliaria.
-9. **East Kent Hospitals NHS.** [Oxygen on discharge from hospital](https://leaflets.ekhuft.nhs.uk/oxygen-on-discharge-from-hospital/html/). Oxígeno transitorio y organización posterior al alta.
+8. **British Thoracic Society (2017).** [Quality standards for home oxygen use in adults](https://pmc.ncbi.nlm.nih.gov/articles/PMC5623332/). Evaluación, alta, educación, retirada, oxígeno nocturno, uso paliativo y seguridad domiciliaria.
+9. **NHS (Reino Unido).** [Home oxygen therapy (información para pacientes al alta)](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/). Oxígeno transitorio y organización posterior al alta.
 10. **Royal Children's Hospital Melbourne.** [Oxygen delivery](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Oxygen_delivery/). Selección pediátrica, caudalímetros y vigilancia.
 11. **Organización Mundial de la Salud (2016).** [Oxygen therapy for children: a manual for health workers](https://www.who.int/publications/i/item/9789241549554). Hipoxemia, fuentes, interfaces y monitorización.
 12. **NICE NG9 (actualizada en 2021).** [Bronchiolitis in children: recommendations](https://www.nice.org.uk/guidance/ng9/chapter/Recommendations). Umbrales y condiciones de alta exclusivos de esa población.
@@ -733,10 +733,10 @@ los números citados en cada capítulo llevan a la fuente correspondiente. Las f
 18. **Inogen (2024).** [Pulse dose versus continuous flow](https://cdn.inogen.com/wp-content/uploads/2024/09/Inogen-Pulse-Dose-Brochure.pdf). Documento técnico de fabricante; los ajustes no son equivalentes entre equipos.
 19. **CAIRE.** [Medical oxygen systems](https://www.caireinc.com/medical/). Familias de concentradores y equipos transportables.
 20. **CAIRE.** [Manual de sistema de oxígeno líquido](https://files.caireinc.com/Manuals/10004479_REV_D_5.5x8.5.pdf). Almacenamiento criogénico, carga y seguridad del sistema específico.
-21. **National Tracheostomy Safety Project.** [Emergency algorithms](https://tracheostomy.org.uk/healthcare-staff/emergency-care/emergency-algorithms). Diferenciación entre traqueostomía y laringectomía.
-22. **Royal Children's Hospital Melbourne.** [High Flow Nasal Prong therapy](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/High_Flow_Nasal_Prong_HFNP_therapy/). Contexto pediátrico especializado para CNAF.
+21. **National Tracheostomy Safety Project.** [Emergency care (algoritmos de emergencia)](https://tracheostomy.org.uk/healthcare-staff/emergency-care). Diferenciación entre traqueostomía y laringectomía.
+22. **Royal Children's Hospital Melbourne.** [Oxygen delivery (guía clínica pediátrica)](https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/Oxygen_delivery/). Administración de oxígeno y alto flujo nasal en pediatría.
 23. **The Christie NHS Foundation Trust (2022).** [Home oxygen patient safety information](https://www.christie.nhs.uk/media/5k1m35ih/1094-home-oxygen-patient-safety-information-and-declaration-may-2022-unlocked.pdf). Fuego, tabaco y cigarrillos electrónicos.
-24. **Dorset County Hospital.** [Portable oxygen: cylinder duration examples](https://dchft.nhs.uk/leaflets/portable-oxygen-hire-for-air-travel/). Un cilindro portátil comparable dura aproximadamente 3 h 50 min a 2 L/min y 1 h 55 min a 4 L/min; la planificación real debe incluir reserva.
+24. **Dorset County Hospital.** [Portable oxygen: cylinder duration examples](https://dchft.nhs.uk/leaflets/portable-oxygen-hire-for-air-travel/). Un cilindro portátil de 460 L dura aproximadamente 3 h 50 min a 2 L/min y 1 h 55 min a 4 L/min (el capítulo 14 calcula con 450 L); la planificación real debe incluir reserva.
 25. **Centers for Disease Control and Prevention (CDC).** [Clinical Guidance for Carbon Monoxide Poisoning](https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html). La pulsioximetría convencional no es fiable ante carboxihemoglobina; el diagnóstico integra exposición, clínica y medición por co-oximetría.
 26. **Agency for Toxic Substances and Disease Registry.** [Clinical Assessment: Methemoglobinemia](https://archive.cdc.gov/www_atsdr_cdc_gov/csem/nitrate-nitrite/clinical_laboratory.html). Limitaciones del pulsioxímetro estándar y papel de la co-oximetría para medir metahemoglobina.
 27. **UCSF Health.** [Respiratory Policy for Oxygen Therapy](https://bchsfoutreach.ucsf.edu/sites/bchsfoutreach.ucsf.edu/files/Respiratory%20Policy%20for%20Oxygen%20Therapy.pdf). Rangos orientativos y limitaciones de cánula nasal, máscara simple y máscaras con reservorio; la FiO₂ real depende del ajuste y de la demanda del paciente.

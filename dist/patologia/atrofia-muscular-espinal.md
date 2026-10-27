@@ -1,5 +1,5 @@
 ---
-title: "ATROFIA MUSCULAR ESPINAL · Tratamiento Domiciliario | INSER SALUD"
+title: "Atrofia Muscular Espinal · Tratamiento Domiciliario | INSER"
 description: "BiPAP, asistentes de tos y máscaras pediátricas y de adultos. Seguimiento profesional para cada tipo y etapa de la enfermedad."
 url: https://insersalud.com/patologia/atrofia-muscular-espinal
 canonical: https://insersalud.com/patologia/atrofia-muscular-espinal

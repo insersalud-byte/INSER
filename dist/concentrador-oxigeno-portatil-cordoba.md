@@ -1,6 +1,6 @@
 ---
-title: "Concentrador de Oxígeno Portátil a Domicilio en Córdoba | INSER SALUD"
-description: "Concentradores de oxígeno portátiles en Córdoba: livianos, con batería y algunos aptos para vuelos. Venta y alquiler, aprobados por ANMAT, con entrega a domicilio. Consultá por WhatsApp."
+title: "Concentrador de Oxígeno Portátil en Córdoba | INSER SALUD"
+description: "Concentradores de oxígeno portátiles en Córdoba: livianos, con batería y algunos aptos para vuelos. Venta y alquiler, ANMAT, con entrega a domicilio."
 url: https://insersalud.com/concentrador-oxigeno-portatil-cordoba
 canonical: https://insersalud.com/concentrador-oxigeno-portatil-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Concentrador de oxígeno portátil en Córdoba
+
+![Concentrador de oxígeno portátil en Córdoba](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg)
 
 En INSER SALUD tenés concentradores de oxígeno portátiles en Córdoba: livianos, con batería y autonomía para salir, trabajar o viajar. Venta y alquiler, con asesoramiento para elegir el modelo según tu flujo y tu rutina.
 

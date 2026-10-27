@@ -5,6 +5,7 @@ import { getLocalPageBySlug, localPages } from './localPages';
 import { useSEO } from '../../hooks/useSEO';
 import LeadForm from '../../components/LeadForm';
 
+import { webp } from '../../utils/webp';
 const openSanti = (message) => {
     window.dispatchEvent(new CustomEvent('open-santi', { detail: { message } }));
 };
@@ -91,7 +92,7 @@ const LocalPage = ({ slug }) => {
             <nav style={c.nav}>
                 <div style={c.navInner}>
                     <Link to="/" aria-label="Inicio">
-                        <img src="/artifacts/logo_insersalud.jpg" alt="INSER SALUD" style={{ height: 38 }}
+                        <img src={webp('/artifacts/logo_insersalud.jpg')} alt="INSER SALUD" style={{ height: 38 }}
                             onError={(e) => { e.target.style.display = 'none'; }} />
                     </Link>
                     <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -121,7 +122,7 @@ const LocalPage = ({ slug }) => {
                     </div>
                     <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0.6rem 0 0' }}>Respondemos todos los días, también fines de semana. Santi atiende las 24 hs.</p>
                 </div>
-                <img src={data.heroImg} alt={data.h1} style={c.heroImg}
+                <img src={webp(data.heroImg)} alt={data.h1} style={c.heroImg}
                     onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
             </header>
 
@@ -146,7 +147,7 @@ const LocalPage = ({ slug }) => {
                         <h2 style={c.h2}>{s.title}</h2>
                         {/* Foto opcional por seccion (img: { src, alt }). Va entre el titulo y el texto. */}
                         {s.img && (
-                            <img src={s.img.src} alt={s.img.alt} loading="lazy" decoding="async"
+                            <img src={webp(s.img.src)} alt={s.img.alt} loading="lazy" decoding="async"
                                 width={1200} height={800} style={c.secImg}
                                 onError={(e) => { e.target.style.display = 'none'; }} />
                         )}

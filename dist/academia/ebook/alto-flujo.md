@@ -1,6 +1,6 @@
 ---
-title: "Curso gratuito de alto flujo (CNAF): ebook interactivo de oxigenoterapia con simulador y casos | Academia INSER SALUD"
-description: "Curso gratuito online de cánula nasal de alto flujo (CNAF), en formato de ebook interactivo, del Lic. Sergio Giorda: fisiología, equipo y montaje, indicaciones, titulación, monitorización, prono despierto, simulador educativo, índice ROX, fracaso, cuidados y destete."
+title: "Alto flujo nasal (CNAF): curso gratuito con simulador | INSER"
+description: "Ebook interactivo gratuito de alto flujo del Lic. Sergio Giorda: fisiología, montaje, titulación, índice ROX, prono despierto, fracaso, destete y casos."
 url: https://insersalud.com/academia/ebook/alto-flujo
 canonical: https://insersalud.com/academia/ebook/alto-flujo
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -47,7 +47,7 @@ Comenzar la lectura
 
 Ir directo al simulador
 
-14 capítulos · unas 2 horas de lectura y práctica · progreso guardado en este navegador · Ebooks hermanos:
+16 capítulos · unas 2 horas de lectura y práctica · progreso guardado en este navegador · Ebooks hermanos:
 Ventilación mecánica
 y
 Ventilación no invasiva

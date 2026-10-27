@@ -1,6 +1,6 @@
 ---
-title: "BiPAP a Domicilio en Córdoba | Venta y Alquiler | INSER SALUD"
-description: "BiPAP en Córdoba para EPOC, enfermedades neuromusculares e hipoventilación. Venta y alquiler de equipos aprobados por ANMAT, con entrega a domicilio y soporte técnico. Consultá por WhatsApp."
+title: "BiPAP a Domicilio en Córdoba | Venta y Alquiler | INSER"
+description: "BiPAP en Córdoba para EPOC, enfermedades neuromusculares e hipoventilación. Venta y alquiler de equipos ANMAT, con entrega a domicilio y soporte."
 url: https://insersalud.com/bipap-cordoba
 canonical: https://insersalud.com/bipap-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # BiPAP en Córdoba: venta y alquiler
+
+![BiPAP en Córdoba: venta y alquiler](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg)
 
 En INSER SALUD ofrecemos BiPAP en Córdoba, en venta y alquiler, para EPOC, enfermedades neuromusculares (ELA, AME), hipoventilación y apnea compleja. Equipos aprobados por ANMAT, con entrega a domicilio, adaptación y soporte técnico.
 

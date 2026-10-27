@@ -1,6 +1,6 @@
 ---
-title: "Academia: cursos gratuitos de terapia respiratoria para profesionales (9 ebooks interactivos) | INSER SALUD"
-description: "Academia INSER SALUD: formación gratuita para profesionales de la salud (kinesiólogos, médicos, enfermeros y estudiantes). Nueve cursos gratuitos online, en formato de ebook interactivo, del Lic. Sergio Giorda (MP 2123): ventilación mecánica, ventilación no invasiva (CPAP y BiPAP), oxigenoterapia de alto flujo, oxigenoterapia convencional de la guardia al domicilio (adultos y niños), extubación, decanulación y deglución, rehabilitación pulmonar, ventilación en enfermedades neuromusculares, apnea del sueño y diagnóstico por imágenes respiratorias. Sin costo y sin registro."
+title: "Academia: cursos gratuitos de terapia respiratoria | INSER"
+description: "Nueve cursos gratuitos de terapia respiratoria para kinesiólogos, médicos y enfermeros: ventilación, VNI, alto flujo, oxígeno y más, del Lic. Giorda."
 url: https://insersalud.com/academia
 canonical: https://insersalud.com/academia
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"

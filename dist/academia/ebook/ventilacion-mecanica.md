@@ -1,10 +1,10 @@
 ---
-title: "Curso gratuito de ventilación mecánica: ebook interactivo con simulador, casos y certificado | Academia INSER SALUD"
-description: "Curso gratuito online de ventilación mecánica, en formato de ebook interactivo, del Lic. Sergio Giorda: simulador con cinco modos (VC, PC, PRVC, SIMV y PSV), gases y alarmas, 13 alteraciones y asincronías, ejemplos resueltos, 10 retos, 8 casos clínicos, guía de destete, autoevaluación con certificado y glosario, para kinesiólogos respiratorios."
+title: "Ventilación mecánica: curso gratuito con simulador | INSER"
+description: "Ebook interactivo gratuito de ventilación mecánica del Lic. Sergio Giorda: simulador con 5 modos, asincronías, casos clínicos, destete y certificado."
 url: https://insersalud.com/academia/ebook/ventilacion-mecanica
 canonical: https://insersalud.com/academia/ebook/ventilacion-mecanica
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
-last_reviewed: 2026-09-19
+last_reviewed: 2026-10-16
 language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---
@@ -17,6 +17,7 @@ SALUD.COM
 
 - [Inicio](https://insersalud.com/academia/ebook/ventilacion-mecanica#fundamentos)
 - [Guía](https://insersalud.com/academia/ebook/ventilacion-mecanica#guia-rapida)
+- [Simulador TECME](https://insersalud.com/academia/ebook/ventilacion-mecanica#simulador-tecme)
 - [Simulador](https://insersalud.com/academia/ebook/ventilacion-mecanica#simulador)
 - [Mecánica](https://insersalud.com/academia/ebook/ventilacion-mecanica#mecanica)
 - [Patrones](https://insersalud.com/academia/ebook/ventilacion-mecanica#biblioteca)
@@ -42,9 +43,9 @@ Explore cómo cada decisión cambia la mecánica, los valores medidos, las curva
 
 Empezar por el pre-test (10 preguntas)
 
-Ir directo al simulador
+Ir directo al simulador TECME
 
-14 capítulos · unas 4 horas de lectura y práctica · progreso guardado en este navegador
+15 capítulos · unas 4 horas de lectura y práctica · progreso guardado en este navegador
 
 Imagen contextual generada por IA · el monitor didáctico está recreado en SVG
 
@@ -170,6 +171,43 @@ PUNTOS CLAVE
 
 01
 
+SIMULADOR DE EQUIPO
+
+## TECME Neumovent Advance
+
+Se incorpora este equipo porque es uno de los respiradores más comunes de encontrar en las terapias intensivas de nuestro medio.
+
+De la teoría al panel que se usa en terapia
+
+Practique encendido, categoría del paciente, conexión de ramas, calibración, elección de modo, programación, alarmas y estado En espera.
+
+Abrir a pantalla completa
+
+Recreación educativa basada en documentación pública. No sustituye el manual vigente, la capacitación del fabricante ni la práctica clínica supervisada.
+
+¿NECESITA OTRO EQUIPO?
+
+### Solicite el próximo simulador
+
+Complete sus datos y díganos qué respirador o dispositivo le gustaría practicar. La institución es opcional.
+
+Al continuar se abrirá WhatsApp con el mensaje preparado para el
+351 557 5258
+. Usted podrá revisarlo antes de enviarlo.
+
+Nombre y apellido
+
+Contacto
+
+Institución
+(opcional)
+
+¿Qué simulador le gustaría ver?
+
+Los datos no se guardan en el ebook: se incluyen únicamente en el mensaje de WhatsApp.
+
+02
+
 ## Laboratorio paciente - ventilador
 
 Toque un parámetro de la pantalla y ajústelo con la perilla. Cambie una variable por vez y observe qué permanece fijo.
@@ -179,7 +217,7 @@ AL TERMINAR VA A PODER
 25 min · Base
 
 - Predecir qué pasa con presión, flujo y volumen al mover cada control, antes de mirar la curva.
-- Provocar las trece alteraciones y reconocer su firma en las curvas y los bucles.
+- Provocar las doce alteraciones y reconocer su firma en las curvas y los bucles.
 - Usar la pausa inspiratoria y la espiratoria para medir Pplat y auto-PEEP.
 - Relacionar cada decisión con los gases estimados y las alarmas.
 
@@ -233,7 +271,7 @@ PUNTOS CLAVE
 - Si el flujo espiratorio no vuelve a cero antes del próximo ciclo, hay atrapamiento.
 - Los gases del simulador son una estimación: sirven para la dirección del cambio, no para decidir sobre un paciente.
 
-02
+03
 
 PRINCIPIO FISIOLÓGICO
 
@@ -273,7 +311,7 @@ Modelo monoexponencial simplificado. Identifica el efecto de R y C; no represent
 - τ = R × C. En 3τ se vacía el 95 % del volumen; con τ larga, la frecuencia alta atrapa aire.
 - La compliance baja "cuesta" presión por cada mL; la resistencia alta "cuesta" presión por cada L/s de flujo.
 
-03
+04
 
 BIBLIOTECA DE PATRONES
 
@@ -295,7 +333,7 @@ PUNTOS CLAVE
 - Verificar siempre en este orden: paciente, vía aérea, circuito, respirador.
 - Las asincronías se leen en presión y flujo juntas: una muesca sin ciclo es esfuerzo ineficaz; un ciclo sin muesca es autodisparo.
 
-04
+05
 
 EJEMPLOS RESUELTOS
 
@@ -316,7 +354,7 @@ PUNTOS CLAVE
 - Una pantalla se lee en un orden fijo: volumen, presiones, flujo espiratorio, sincronía.
 - Ante auto-PEEP el primer recurso es tiempo espiratorio, no más PEEP.
 
-05
+06
 
 CÁLCULO GUIADO
 
@@ -389,7 +427,7 @@ PUNTOS CLAVE
 - La tabla PEEP/FiO₂ es un punto de partida, no una receta: se titula por respuesta.
 - RSBI menor de 105 orienta, pero la prueba de ventilación espontánea es la que decide.
 
-06
+07
 
 RETOS EN EL SIMULADOR
 
@@ -413,7 +451,7 @@ PUNTOS CLAVE
 - Cada reto tiene más de una solución válida: lo que importa es cumplir las metas sin violar la seguridad.
 - Cuando una meta no se alcanza, vuelva a la ecuación de movimiento y pregúntese qué término manda.
 
-07
+08
 
 CASOS CLÍNICOS COMPLETOS
 
@@ -436,7 +474,7 @@ PUNTOS CLAVE
 - Antes de cambiar el respirador, pregunte qué cambió en el paciente.
 - Un buen plan tiene una meta, un tiempo para reevaluar y un criterio de fracaso.
 
-12
+09
 
 LECTURA POR MODOS
 
@@ -502,7 +540,7 @@ PUNTOS CLAVE
 
 - "Presión controlada" no significa "volumen protegido": hay que mirar el Vt respiración a respiración.
 
-09
+10
 
 DEL MONITOR A LA CABECERA
 
@@ -568,7 +606,7 @@ PUNTOS CLAVE
 
 - El circuito también forma parte del paciente: condensado, filtros, humidificación y conexiones.
 
-10
+11
 
 DESTETE PASO A PASO
 
@@ -650,7 +688,7 @@ PUNTOS CLAVE
 - La prueba se hace con o sin presión de soporte baja; no se sube la FiO₂ para "que pase".
 - Si fracasa: descansar en soporte cómodo, buscar la causa y repetir al día siguiente.
 
-11
+12
 
 AUTOEVALUACIÓN
 
@@ -695,7 +733,7 @@ PUNTOS CLAVE
 - Repita solo lo que falló: es la forma más eficiente de estudiar.
 - Una curva generada al azar por el simulador es la mejor prueba de que aprendió a leerla.
 
-08
+13
 
 GUÍAS Y LÍMITES
 
@@ -787,7 +825,7 @@ PUNTOS CLAVE
 
 - Toda recomendación se adapta al protocolo de cada institución.
 
-13
+14
 
 GLOSARIO
 
@@ -977,13 +1015,13 @@ PUNTOS CLAVE
 
 - Si una palabra no está clara, no siga: búsquela acá y vuelva.
 
-14
+15
 
 CONTACTO
 
 ## Tarjeta digital de INSER SALUD
 
-Equipos de terapia respiratoria: venta con envío a todo el país y alquiler en Córdoba. Guardá el contacto o compartí la tarjeta.
+Equipos de terapia respiratoria: venta con envío a todo el país y alquiler en Córdoba. Guarde el contacto o comparta la tarjeta.
 
 ### Inser *Salud*
 
@@ -996,9 +1034,9 @@ Alquiler e instalación en el día en Córdoba
 - [Máscaras](https://insersalud.com/mascaras-cpap)
 - [Accesorios](https://insersalud.com)
 
-- [**Escribinos por WhatsApp** +54 9 351 206-5320 · Respuesta rápida](https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20ebook%20de%20ventilaci%C3%B3n%20mec%C3%A1nica%20de%20la%20Academia%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta)
+- [**Escríbanos por WhatsApp** +54 9 351 206-5320 · Respuesta rápida](https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20ebook%20de%20ventilaci%C3%B3n%20mec%C3%A1nica%20de%20la%20Academia%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta)
 - [**Catálogo online** insersalud.com](https://insersalud.com)
-- [**Seguinos en Instagram** @insersalud](https://instagram.com/insersalud)
+- [**Síganos en Instagram** @insersalud](https://instagram.com/insersalud)
 - [**Email** inser.salud@gmail.com](mailto:inser.salud@gmail.com)
 
 INSER SALUD · CÓRDOBA, ARGENTINA · [insersalud.com/tarjeta](https://insersalud.com/tarjeta)

@@ -28,12 +28,12 @@ const SALUD = 'https://insersalud.com';
 const WA = '+54 9 351 206-5320';
 
 const SALUD_HOME = {
-    title: 'INSER SALUD – Terapias Respiratorias Domiciliarias | Alquiler y Venta CPAP, BiPAP y Oxígeno | Córdoba',
-    desc: 'Terapias respiratorias domiciliarias en Córdoba y venta de CPAP, BiPAP y concentradores de oxígeno con envío a todo el país. Alquiler con instalación en Córdoba. Cuotas con Banco Galicia. Aparatología ANMAT. ☎ +54 9 351 206-5320.',
+    title: 'Alquiler y Venta de CPAP, BiPAP y Oxígeno en Córdoba | INSER',
+    desc: 'Terapias respiratorias domiciliarias en Córdoba: alquiler con instalación y venta de CPAP, BiPAP y oxígeno con envío a todo el país. Cuotas y ANMAT.',
 };
 const INSER_HOME = {
-    title: 'INSER SALUD – Equipos Respiratorios CPAP, BiPAP y Oxígeno | Córdoba, Argentina',
-    desc: 'CPAP, AutoCPAP, BiPAP, máscaras nasales y nasobucales (DreamWear), oxigenoterapia y concentradores de oxígeno. Venta con envío a todo el país y alquiler en Córdoba. Cuotas con Banco Galicia.',
+    title: 'Equipos Respiratorios CPAP, BiPAP y Oxígeno en Córdoba | INSER',
+    desc: 'Venta de CPAP, AutoCPAP, BiPAP, máscaras y concentradores de oxígeno con envío a todo el país, y alquiler en Córdoba. Cuotas con Banco Galicia.',
 };
 
 // Catalogo curado (mismo dato que llms.txt) para el contenido estatico del home
@@ -105,7 +105,7 @@ const MASK_GUIDE = [
         'Diseñadas con medidas y materiales para bebés y chicos, no son máscaras de adulto en talle chico.',
         'Lactantes y niños con indicación de ventilación, habitualmente en atrofia muscular espinal, parálisis cerebral y cuadros neuromusculares.',
         'La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene armazón compacto y almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, compatible con CPAP y BiPAP. La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal, y el talle no se elige por catálogo: se asesora según la edad, la anatomía del paciente y la indicación médica.',
-        [['Máscara Nasal Pediátrica HSINER Cirri Mini', 'U$S 105'], ['Máscara Nasal Pediátrica Philips Wisp (jirafa)', ''], ['Infant CPAP Kit neonatal (talles 00 a 5)', 'U$S 97']]],
+        [['Máscara Nasal Pediátrica HSINER Cirri Mini', 'U$S 105'], ['Máscara Nasal Pediátrica Philips Wisp (jirafa)', 'U$S 227'], ['Infant CPAP Kit neonatal (talles 00 a 5)', 'U$S 97']]],
     ['Sin fuga (terapia intensiva)',
         'Máscara NO ventilada: no tiene los orificios de fuga que sí traen las de uso domiciliario.',
         'Para respiradores de terapia intensiva y ventilación no invasiva con circuito de doble rama o válvula espiratoria.',
@@ -604,9 +604,9 @@ ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></l
     return `<div id="ssr-content"><main>
 <h1>${esc(h1)}</h1>
 <p>${esc(intro)}</p>
-<h2>Preguntas frecuentes</h2>
 ${servicio}
 ${equipo}
+<h2>Preguntas frecuentes</h2>
 ${defs}
 ${compare}
 ${mascaras}
@@ -1031,7 +1031,7 @@ try {
         write(resolve(DIST, 'patologia', p.slug), buildPathologyPage(p, INSER, baseTitle, desc, false));
         count++;
         // insersalud.com
-        const saludTitle = baseTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
+        const saludTitle = p.metaTitleSalud || baseTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD');
         write(resolve(DIST, 'insersalud', 'patologia', p.slug), buildPathologyPage(p, SALUD, saludTitle, desc, true));
         count++;
         addMd(`patologia/${p.slug}.md`, { title: saludTitle, description: desc, url: `${SALUD}/patologia/${p.slug}`, reviewed: REVISION_CLINICA }, buildPathologyBody(p, true));

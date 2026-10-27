@@ -1,6 +1,6 @@
 ---
 title: "Alquiler de CPAP y AutoCPAP a Domicilio en Córdoba | INSER"
-description: "Alquilá un CPAP o AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara y humidificador incluidos, sin depósito y con soporte técnico. Consultá por WhatsApp."
+description: "Alquilá un CPAP o AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos ANMAT con máscara y humidificador, sin depósito."
 url: https://insersalud.com/alquiler-cpap-cordoba
 canonical: https://insersalud.com/alquiler-cpap-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Alquiler de CPAP y AutoCPAP en Córdoba
+
+![Alquiler de CPAP y AutoCPAP en Córdoba](https://insersalud.com/artifacts/products/resmed_airsense10_1.jpg)
 
 ¿Necesitás un CPAP por un tiempo o querés probarlo antes de comprarlo? En INSER SALUD alquilamos CPAP y AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara, humidificador y soporte técnico incluidos.
 

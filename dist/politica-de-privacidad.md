@@ -1,6 +1,6 @@
 ---
 title: "Política de Privacidad | INSER SALUD"
-description: "Cómo INSER SALUD trata tus datos personales: qué recopilamos, para qué, con quién lo compartimos y cómo ejercer tus derechos según la Ley 25.326 de Protección de Datos Personales."
+description: "Cómo INSER SALUD trata tus datos personales: qué recopilamos, para qué, con quién lo compartimos y cómo ejercer tus derechos según la Ley 25.326."
 url: https://insersalud.com/politica-de-privacidad
 canonical: https://insersalud.com/politica-de-privacidad
 language: es-AR

@@ -1,6 +1,6 @@
 ---
-title: "Cursos gratuitos (ebooks interactivos) de terapia respiratoria: ventilación mecánica, VNI, oxígeno, alto flujo, apnea del sueño e imágenes | Academia INSER SALUD"
-description: "Nueve cursos gratuitos online, en formato de ebook interactivo, de la Academia INSER SALUD, por el Lic. Sergio Giorda: Ventilación mecánica, Ventilación no invasiva (CPAP y BiPAP), Oxigenoterapia nasal de alto flujo (CNAF), Oxigenoterapia de la guardia a casa (adultos y niños), la guía de extubación, decanulación y deglución, Rehabilitación pulmonar, Ventilación en enfermedades neuromusculares, Apnea del sueño y Diagnóstico por imágenes respiratorias, con simuladores, calculadoras, guías de cabecera, test de marcha, casos clínicos y autoevaluación."
+title: "Cursos gratuitos de terapia respiratoria | Academia INSER"
+description: "Nueve ebooks interactivos gratuitos: ventilación mecánica, VNI, alto flujo, oxigenoterapia, rehabilitación pulmonar, apnea del sueño e imágenes."
 url: https://insersalud.com/academia/ebook
 canonical: https://insersalud.com/academia/ebook
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"

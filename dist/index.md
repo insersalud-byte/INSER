@@ -1,6 +1,6 @@
 ---
-title: "INSER SALUD – Terapias Respiratorias Domiciliarias | Alquiler y Venta CPAP, BiPAP y Oxígeno | Córdoba"
-description: "Terapias respiratorias domiciliarias en Córdoba y venta de CPAP, BiPAP y concentradores de oxígeno con envío a todo el país. Alquiler con instalación en Córdoba. Cuotas con Banco Galicia. Aparatología ANMAT. ☎ +54 9 351 206-5320."
+title: "Alquiler y Venta de CPAP, BiPAP y Oxígeno en Córdoba | INSER"
+description: "Terapias respiratorias domiciliarias en Córdoba: alquiler con instalación y venta de CPAP, BiPAP y oxígeno con envío a todo el país. Cuotas y ANMAT."
 url: https://insersalud.com/
 canonical: https://insersalud.com/
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -12,8 +12,6 @@ publisher: INSER SALUD (https://insersalud.com)
 # INSER SALUD — Terapias respiratorias domiciliarias en Córdoba
 
 Alquiler y venta de equipos de terapia respiratoria con instalación y seguimiento profesional a domicilio en Córdoba, Argentina. CPAP, BiPAP y oxigenoterapia. Aparatología aprobada por ANMAT.
-
-## Preguntas frecuentes
 
 ## No te entregamos una caja
 
@@ -44,6 +42,8 @@ Kinesiólogo y Fisioterapeuta · Matrícula Profesional 2123 · Director de INSE
 - Autor de trabajos sobre rehabilitación respiratoria en EPOC presentados en el Congreso Argentino de Medicina Respiratoria, y primer premio en las Jornadas Integrales de Kinesiología del Centro del País.
 
 Por eso cuando decimos que el equipo se entrega configurado según la indicación de tu médico, hay alguien que sabe leer esa indicación.
+
+## Preguntas frecuentes
 
 ### ¿Qué es un CPAP?
 
@@ -128,7 +128,7 @@ Diseñadas con medidas y materiales para bebés y chicos, no son máscaras de ad
 **A tener en cuenta:** La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene armazón compacto y almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, compatible con CPAP y BiPAP. La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal, y el talle no se elige por catálogo: se asesora según la edad, la anatomía del paciente y la indicación médica.
 
 - Máscara Nasal Pediátrica HSINER Cirri Mini — U$S 105
-- Máscara Nasal Pediátrica Philips Wisp (jirafa)
+- Máscara Nasal Pediátrica Philips Wisp (jirafa) — U$S 227
 - Infant CPAP Kit neonatal (talles 00 a 5) — U$S 97
 
 ### Máscara Sin fuga (terapia intensiva)
@@ -239,6 +239,10 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - Oxigenoterapia domiciliaria con instalación y seguimiento
 
+- [Poligrafía respiratoria a domicilio](https://insersalud.com/estudio-del-sueno-cordoba) en Córdoba: el estudio del sueño en tu casa, una noche y sin internación, con informe de IAH para tu médico
+
+- [Oximetría nocturna a domicilio](https://insersalud.com/oximetria-nocturna-cordoba) en Córdoba: tu oxígeno en sangre medido toda la noche con un sensor en el dedo, con informe para tu médico
+
 - Adaptación y seguimiento de equipos con profesionales
 
 - Servicio técnico de equipos respiratorios
@@ -264,6 +268,8 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 - [Concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba)
 
 - [Estudio del sueño a domicilio en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba)
+
+- [Oximetría nocturna a domicilio en Córdoba](https://insersalud.com/oximetria-nocturna-cordoba)
 
 - [Comprar CPAP en Argentina (envío a todo el país)](https://insersalud.com/comprar-cpap-argentina)
 

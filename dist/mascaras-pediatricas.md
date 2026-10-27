@@ -1,6 +1,6 @@
 ---
-title: "Máscaras Pediátricas para CPAP y BiPAP | Precios y Envío Nacional | INSER SALUD"
-description: "Máscaras pediátricas para CPAP y BiPAP con precios a la vista: Philips Wisp (la de la jirafa) U$S 227, HSINER Cirri Mini U$S 105 e Infant CPAP Kit neonatal desde U$S 97. Talles desde neonatal, envío a todo el país. Te asesoramos según la edad y la indicación médica."
+title: "Máscaras Pediátricas para CPAP y BiPAP: precios | INSER"
+description: "Máscaras pediátricas para CPAP y BiPAP: Philips Wisp (jirafa) U$S 227, Cirri Mini U$S 105 e Infant Kit neonatal U$S 97. Talles desde neonatal."
 url: https://insersalud.com/mascaras-pediatricas
 canonical: https://insersalud.com/mascaras-pediatricas
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Máscaras pediátricas para CPAP y BiPAP: los 3 modelos que tenemos
+
+![Máscaras pediátricas para CPAP y BiPAP: los 3 modelos que tenemos](https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg)
 
 La línea pediátrica es difícil de conseguir en Argentina. Nosotros tenemos las tres, con talles desde neonatal y precios publicados. Y algo que importa tanto como el precio: te ayudamos a elegir cuál y qué talle, porque en un chico una máscara incómoda muchas veces está detrás del abandono del tratamiento.
 

@@ -1,6 +1,6 @@
 ---
 title: "Alquiler de Oxígeno a Domicilio en Córdoba | INSER SALUD"
-description: "Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo las 24 horas. Entrega e instalación en el día en Córdoba Capital; respondemos por WhatsApp todos los días."
+description: "Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo, con entrega e instalación en el día en Córdoba Capital."
 url: https://insersalud.com/oxigeno-a-domicilio-cordoba
 canonical: https://insersalud.com/oxigeno-a-domicilio-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Oxígeno a domicilio en Córdoba
+
+![Oxígeno a domicilio en Córdoba](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg)
 
 En INSER SALUD llevamos el oxígeno a tu casa en Córdoba. Ofrecemos oxigenoterapia domiciliaria con concentradores de oxígeno fijos y portátiles, en venta y alquiler, con entrega, instalación y capacitación de uso.
 
@@ -136,6 +138,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 - [Concentrador de oxígeno portátil](https://insersalud.com/concentrador-oxigeno-portatil-cordoba)
 
 - [Comprar concentrador de oxígeno portátil (envío nacional)](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina)
+
+- [Oximetría nocturna a domicilio](https://insersalud.com/oximetria-nocturna-cordoba)
 
 - [EPOC](https://insersalud.com/patologia/epoc)
 

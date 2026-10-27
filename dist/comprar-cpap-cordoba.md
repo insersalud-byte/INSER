@@ -1,6 +1,6 @@
 ---
-title: "Comprar CPAP en Córdoba | Precios y Asesoramiento | INSER SALUD"
-description: "Comprá tu CPAP, AutoCPAP o BiPAP en Córdoba. Equipos aprobados por ANMAT, con garantía y asesoramiento. CPAP desde $499.000. Mirá precios y elegí el equipo correcto con ayuda de nuestro equipo. Consultá por WhatsApp."
+title: "Comprar CPAP en Córdoba | Precios y Asesoramiento | INSER"
+description: "Comprá tu CPAP, AutoCPAP o BiPAP en Córdoba: equipos ANMAT con garantía y asesoramiento profesional. CPAP desde $499.000. Consultá por WhatsApp."
 url: https://insersalud.com/comprar-cpap-cordoba
 canonical: https://insersalud.com/comprar-cpap-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Comprar CPAP en Córdoba: precios y modelos
+
+![Comprar CPAP en Córdoba: precios y modelos](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg)
 
 En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP en Córdoba, aprobados por ANMAT, con garantía oficial del fabricante y asesoramiento personalizado. Mirá los precios de referencia y elegí el equipo correcto según tu indicación médica.
 

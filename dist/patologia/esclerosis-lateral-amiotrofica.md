@@ -1,5 +1,5 @@
 ---
-title: "Información sobre la enfermedad ELA · Tratamiento Domiciliario | INSER SALUD"
+title: "ELA · Tratamiento Respiratorio Domiciliario | INSER SALUD"
 description: "En la ELA, mantener una tos efectiva y una ventilación adecuada puede ser la diferencia. Equipamos y acompañamos a pacientes y familias desde el primer día."
 url: https://insersalud.com/patologia/esclerosis-lateral-amiotrofica
 canonical: https://insersalud.com/patologia/esclerosis-lateral-amiotrofica

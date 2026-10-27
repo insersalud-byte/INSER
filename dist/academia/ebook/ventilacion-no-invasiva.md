@@ -1,10 +1,10 @@
 ---
-title: "Curso gratuito de ventilación no invasiva (CPAP y BiPAP): ebook interactivo con simulador de VNI y certificado | Academia INSER SALUD"
-description: "Curso gratuito online de ventilación no invasiva, en formato de ebook interactivo, del Lic. Sergio Giorda: CPAP y BiPAP, interfaces y fugas, simulador de VNI con IPAP/EPAP, programación en EPOC, edema de pulmón, obesidad-hipoventilación y ELA, monitoreo y criterios de intubación, VNI domiciliaria, retos, casos clínicos y autoevaluación con certificado."
+title: "Ventilación no invasiva (CPAP y BiPAP): curso gratuito | INSER"
+description: "Ebook interactivo gratuito de VNI del Lic. Sergio Giorda: CPAP y BiPAP, interfaces y fugas, simulador IPAP/EPAP, EPOC, edema, OHS, ELA, casos y certificado."
 url: https://insersalud.com/academia/ebook/ventilacion-no-invasiva
 canonical: https://insersalud.com/academia/ebook/ventilacion-no-invasiva
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
-last_reviewed: 2026-09-19
+last_reviewed: 2026-10-16
 language: es-AR
 publisher: INSER SALUD (https://insersalud.com)
 ---
@@ -19,6 +19,7 @@ SALUD.COM
 - [Guía](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#guia-vni)
 - [Simulador](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#simulador)
 - [Interfaces](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#interfaces)
+- [Elección de máscara](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#guia-mascaras)
 - [Patrones](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#biblioteca)
 - [Ejemplos](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#ejemplos)
 - [Calculadoras](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#calculadoras)
@@ -30,7 +31,6 @@ SALUD.COM
 - [Guías](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#evidencia)
 - [Glosario](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#glosario)
 - [Contacto](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#inser)
-- [Elección de máscara](https://insersalud.com/academia/ebook/ventilacion-no-invasiva#guia-mascaras)
 
 ← Academia
 
@@ -784,6 +784,40 @@ Descarga del equipo (uso, fuga, Vt, eventos residuales), oximetría nocturna, ga
 
 Batería o fuente alternativa en dependientes, número de contacto técnico, y criterios escritos para consultar a la guardia. Registro en la obra social o prepaga del equipo indicado.
 
+CONFORT DE LA ESPIRACIÓN
+
+### Alivio de presión espiratoria: qué es, cuándo sirve y cómo se llama en cada equipo
+
+En CPAP, y en APAP, parte de los pacientes siente que «no puede sacar el aire». El **alivio de presión espiratoria** baja transitoriamente la presión al comenzar la espiración, entre 1 y 3 cmH₂O según el nivel, y la recupera para la inspiración siguiente. La presión inspiratoria no cambia.
+
+#### Por qué importa
+
+Es una herramienta de confort, junto con la rampa de inicio, la humidificación y la interfaz. Ayuda ante la exhalación forzada, la ansiedad con presiones altas y la aerofagia, que son causas habituales de abandono en las primeras semanas.
+
+#### Qué dice la evidencia
+
+En promedio no aumenta las horas de uso de la CPAP (Cochrane 2009; Bakker y Marshall, Chest 2011). Su valor es individual: se indica a quien refiere incomodidad al exhalar, no a todos por rutina.
+
+#### Qué controlar
+
+La vía aérea superior colapsa más al final de la espiración: bajar la presión en ese momento puede dejar eventos residuales. Después de activarlo o subir el nivel, revisar en la descarga el IAH residual y la fuga.
+
+#### En dos niveles es otra cosa
+
+En BiPAP la espiración ya se hace en EPAP, más baja que la IPAP. Esa EPAP está indicada para sostener la vía aérea o contrarrestar la auto-PEEP: suavizarla de más puede aumentar eventos obstructivos o esfuerzos ineficaces. Las funciones de confort en dos niveles las prescribe el equipo tratante, no se agregan por defecto.
+
+| Fabricante · equipos | En CPAP y auto-CPAP | En dos niveles |
+| --- | --- | --- |
+| ResMed · AirSense 10 y 11, AirCurve, Lumis | **EPR** (Expiratory Pressure Relief): apagado, 1, 2 o 3 cmH₂O, toda la noche o solo durante la rampa. No baja de 4 cmH₂O. | Sin EPR. Se ajustan el **rise time** y el **fall time** (velocidad de subida a IPAP y de bajada a EPAP); **Easy-Breathe** suaviza la onda en algunos modos. |
+| Philips Respironics · DreamStation, BiPAP | **C-Flex** y **C-Flex+** en CPAP; **A-Flex** en auto-CPAP. Niveles 1 a 3. | **Bi-Flex**, niveles 1 a 3, según modelo y modo. Además, rampa de subida ajustable (rise time). |
+| BMC · RESmart, serie G2 y G3 | **Reslex**, niveles 1 a 3. | Confirmar en el manual del modelo de dos niveles. |
+| Fisher & Paykel · SleepStyle | **Expiratory Relief**. Aparte, **SensAwake** baja la presión cuando detecta que la persona se despierta. | — |
+| Löwenstein Medical · prisma | **softPAP**, niveles 1 y 2. | Confirmar en el manual del modelo de dos niveles. |
+| React Health / 3B · Luna II | **EZEX**, niveles 1 a 3. | Confirmar en el manual. |
+| DeVilbiss · IntelliPAP | **SmartFlex**, niveles 1 a 3. | Confirmar en el manual. |
+
+**Tres cosas que se llaman parecido y no son lo mismo.** La **rampa de inicio** sube la presión de a poco durante los primeros minutos de la noche. La **rampa de subida** (rise time) es la velocidad con que la presión pasa de EPAP a IPAP en cada respiración, la que se programa en el simulador de este ebook. El **alivio espiratorio** baja la presión al empezar cada exhalación en CPAP. Los nombres, los niveles y los modos donde están disponibles cambian con el modelo y el firmware: confirmar en el manual clínico y dejar el ajuste por escrito en la prescripción.
+
 INSER SALUD · VENTA A TODO EL PAÍS · ALQUILER EN CÓRDOBA
 
 Equipos de VNI domiciliaria: BiPAP, CPAP, máscaras, humidificadores y asistente de tos. Venta con envío a todo el país; alquiler, puesta en marcha e instalación en el día en Córdoba, con adaptación y seguimiento
@@ -911,6 +945,10 @@ Köhnlein · VNI domiciliaria en EPOC hipercápnico, Lancet Respir Med (2014)
 Bourke · VNI en ELA, Lancet Neurol (2006)
 
 GOLD · Informe EPOC 2026
+
+Smith y Lasserson · Modificación de la presión para mejorar el uso de CPAP, Cochrane (2009)
+
+Bakker y Marshall · Presión flexible y adherencia a CPAP, Chest (2011)
 
 Ante desaturación, deterioro de conciencia o inestabilidad
 
@@ -1062,13 +1100,13 @@ PUNTOS CLAVE
 
 - Si una sigla no está clara (IPAP, EPAP, S/T, AVAPS), búsquela acá antes de seguir.
 
-14
+13
 
 CONTACTO
 
 ## Tarjeta digital de INSER SALUD
 
-Equipos de terapia respiratoria: venta con envío a todo el país y alquiler en Córdoba. Guardá el contacto o compartí la tarjeta.
+Equipos de terapia respiratoria: venta con envío a todo el país y alquiler en Córdoba. Guarde el contacto o comparta la tarjeta.
 
 ### Inser *Salud*
 
@@ -1081,9 +1119,9 @@ Alquiler e instalación en el día en Córdoba
 - [Máscaras](https://insersalud.com/mascaras-cpap)
 - [Accesorios](https://insersalud.com)
 
-- [**Escribinos por WhatsApp** +54 9 351 206-5320 · Respuesta rápida](https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20ebook%20de%20ventilaci%C3%B3n%20no%20invasiva%20de%20la%20Academia%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta)
+- [**Escríbanos por WhatsApp** +54 9 351 206-5320 · Respuesta rápida](https://wa.me/5493512065320?text=Hola%2C%20vengo%20del%20ebook%20de%20ventilaci%C3%B3n%20no%20invasiva%20de%20la%20Academia%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta)
 - [**Catálogo online** insersalud.com](https://insersalud.com)
-- [**Seguinos en Instagram** @insersalud](https://instagram.com/insersalud)
+- [**Síganos en Instagram** @insersalud](https://instagram.com/insersalud)
 - [**Email** inser.salud@gmail.com](mailto:inser.salud@gmail.com)
 
 INSER SALUD · CÓRDOBA, ARGENTINA · [insersalud.com/tarjeta](https://insersalud.com/tarjeta)

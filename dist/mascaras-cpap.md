@@ -1,6 +1,6 @@
 ---
 title: "Máscaras CPAP y BiPAP nasales y nasobucales: precios | INSER"
-description: "Máscaras para CPAP y BiPAP con precios visibles y envío a todo el país: nasales desde U$S 35, DreamWear U$S 153, nasobucales (full face) y línea pediátrica completa. Aprobadas por ANMAT. Consultá por WhatsApp."
+description: "Máscaras para CPAP y BiPAP con precios a la vista: nasales desde U$S 35, DreamWear U$S 153, nasobucales y línea pediátrica. Envío a todo el país."
 url: https://insersalud.com/mascaras-cpap
 canonical: https://insersalud.com/mascaras-cpap
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -10,6 +10,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Máscaras para CPAP y BiPAP: nasales, nasobucales y pediátricas
+
+![Máscaras para CPAP y BiPAP: nasales, nasobucales y pediátricas](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg)
 
 La máscara es la mitad del éxito del tratamiento con CPAP o BiPAP: una interfaz incómoda es la principal causa de abandono. En INSER SALUD tenés máscaras nasales, nasobucales (full face), almohadillas y línea pediátrica, con precios visibles y envío a todo el país. Te ayudamos a elegir el modelo y el talle correcto para tu equipo.
 

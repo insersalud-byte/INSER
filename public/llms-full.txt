@@ -9,8 +9,8 @@ Páginas incluidas: 43 (home, 20 páginas de compra y alquiler, 6 patologías, 2
 ---
 
 ---
-title: "INSER SALUD – Terapias Respiratorias Domiciliarias | Alquiler y Venta CPAP, BiPAP y Oxígeno | Córdoba"
-description: "Terapias respiratorias domiciliarias en Córdoba y venta de CPAP, BiPAP y concentradores de oxígeno con envío a todo el país. Alquiler con instalación en Córdoba. Cuotas con Banco Galicia. Aparatología ANMAT. ☎ +54 9 351 206-5320."
+title: "Alquiler y Venta de CPAP, BiPAP y Oxígeno en Córdoba | INSER"
+description: "Terapias respiratorias domiciliarias en Córdoba: alquiler con instalación y venta de CPAP, BiPAP y oxígeno con envío a todo el país. Cuotas y ANMAT."
 url: https://insersalud.com/
 canonical: https://insersalud.com/
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -22,8 +22,6 @@ publisher: INSER SALUD (https://insersalud.com)
 # INSER SALUD — Terapias respiratorias domiciliarias en Córdoba
 
 Alquiler y venta de equipos de terapia respiratoria con instalación y seguimiento profesional a domicilio en Córdoba, Argentina. CPAP, BiPAP y oxigenoterapia. Aparatología aprobada por ANMAT.
-
-## Preguntas frecuentes
 
 ## No te entregamos una caja
 
@@ -54,6 +52,8 @@ Kinesiólogo y Fisioterapeuta · Matrícula Profesional 2123 · Director de INSE
 - Autor de trabajos sobre rehabilitación respiratoria en EPOC presentados en el Congreso Argentino de Medicina Respiratoria, y primer premio en las Jornadas Integrales de Kinesiología del Centro del País.
 
 Por eso cuando decimos que el equipo se entrega configurado según la indicación de tu médico, hay alguien que sabe leer esa indicación.
+
+## Preguntas frecuentes
 
 ### ¿Qué es un CPAP?
 
@@ -138,7 +138,7 @@ Diseñadas con medidas y materiales para bebés y chicos, no son máscaras de ad
 **A tener en cuenta:** La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene armazón compacto y almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, compatible con CPAP y BiPAP. La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal, y el talle no se elige por catálogo: se asesora según la edad, la anatomía del paciente y la indicación médica.
 
 - Máscara Nasal Pediátrica HSINER Cirri Mini — U$S 105
-- Máscara Nasal Pediátrica Philips Wisp (jirafa)
+- Máscara Nasal Pediátrica Philips Wisp (jirafa) — U$S 227
 - Infant CPAP Kit neonatal (talles 00 a 5) — U$S 97
 
 ### Máscara Sin fuga (terapia intensiva)
@@ -973,7 +973,7 @@ INSER SALUD — equipos y asesoramiento para Fibrosis Pulmonar en Córdoba. [Wha
 ---
 
 ---
-title: "Información sobre la enfermedad ELA · Tratamiento Domiciliario | INSER SALUD"
+title: "ELA · Tratamiento Respiratorio Domiciliario | INSER SALUD"
 description: "En la ELA, mantener una tos efectiva y una ventilación adecuada puede ser la diferencia. Equipamos y acompañamos a pacientes y familias desde el primer día."
 url: https://insersalud.com/patologia/esclerosis-lateral-amiotrofica
 canonical: https://insersalud.com/patologia/esclerosis-lateral-amiotrofica
@@ -1172,7 +1172,7 @@ INSER SALUD — equipos y asesoramiento para Esclerosis Lateral Amiotrófica en 
 ---
 
 ---
-title: "ATROFIA MUSCULAR ESPINAL · Tratamiento Domiciliario | INSER SALUD"
+title: "Atrofia Muscular Espinal · Tratamiento Domiciliario | INSER"
 description: "BiPAP, asistentes de tos y máscaras pediátricas y de adultos. Seguimiento profesional para cada tipo y etapa de la enfermedad."
 url: https://insersalud.com/patologia/atrofia-muscular-espinal
 canonical: https://insersalud.com/patologia/atrofia-muscular-espinal
@@ -1367,7 +1367,7 @@ INSER SALUD — equipos y asesoramiento para Atrofia Muscular Espinal en Córdob
 ---
 
 ---
-title: "Información para Pacientes sobre Parálisis Cerebral · Tratamiento Domiciliario | INSER SALUD"
+title: "Parálisis Cerebral · Tratamiento Domiciliario | INSER SALUD"
 description: "Gran variedad de máscaras para BiPAP en todos los talles. Ventilación no invasiva con acompañamiento personalizado y respeto en cada paso."
 url: https://insersalud.com/patologia/paralisis-cerebral
 canonical: https://insersalud.com/patologia/paralisis-cerebral
@@ -1579,8 +1579,8 @@ INSER SALUD — equipos y asesoramiento para Parálisis Cerebral en Córdoba. [W
 ---
 
 ---
-title: "Alquiler de Respiradores y Equipos Respiratorios en Córdoba | INSER"
-description: "Alquilá oxígeno, CPAP, BiPAP, ventilador o asistente de tos en Córdoba, con entrega e instalación a domicilio. Decinos qué te indicó tu médico y te cotizamos el mismo día por WhatsApp."
+title: "Alquiler de Equipos Respiratorios en Córdoba | INSER SALUD"
+description: "Alquilá oxígeno, CPAP, BiPAP, ventilador o asistente de tos en Córdoba, con entrega e instalación a domicilio. Te cotizamos en el día por WhatsApp."
 url: https://insersalud.com/alquiler-equipos-respiratorios-cordoba
 canonical: https://insersalud.com/alquiler-equipos-respiratorios-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -1590,6 +1590,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Alquiler de respiradores y equipos respiratorios en Córdoba
+
+![Alquiler de respiradores y equipos respiratorios en Córdoba](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg)
 
 Alquilamos equipos de terapia respiratoria en Córdoba con entrega e instalación a domicilio. Elegí abajo qué te indicó tu médico y te pasamos la cotización el mismo día por WhatsApp. No necesitás saber de marcas ni modelos: con la indicación alcanza.
 
@@ -1704,7 +1706,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Alquiler de CPAP y AutoCPAP a Domicilio en Córdoba | INSER"
-description: "Alquilá un CPAP o AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara y humidificador incluidos, sin depósito y con soporte técnico. Consultá por WhatsApp."
+description: "Alquilá un CPAP o AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos ANMAT con máscara y humidificador, sin depósito."
 url: https://insersalud.com/alquiler-cpap-cordoba
 canonical: https://insersalud.com/alquiler-cpap-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -1714,6 +1716,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Alquiler de CPAP y AutoCPAP en Córdoba
+
+![Alquiler de CPAP y AutoCPAP en Córdoba](https://insersalud.com/artifacts/products/resmed_airsense10_1.jpg)
 
 ¿Necesitás un CPAP por un tiempo o querés probarlo antes de comprarlo? En INSER SALUD alquilamos CPAP y AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara, humidificador y soporte técnico incluidos.
 
@@ -1842,7 +1846,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Alquiler de Concentrador de Oxígeno en Córdoba | INSER"
-description: "Alquilá un concentrador de oxígeno fijo o portátil en Córdoba, para uso continuo las 24 horas. Entrega e instalación en el día en Córdoba Capital; respondemos por WhatsApp todos los días."
+description: "Alquilá un concentrador de oxígeno fijo o portátil en Córdoba. Entrega e instalación en el día en Córdoba Capital y consultas por WhatsApp."
 url: https://insersalud.com/alquiler-concentrador-oxigeno-cordoba
 canonical: https://insersalud.com/alquiler-concentrador-oxigeno-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -1852,6 +1856,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Alquiler de concentrador de oxígeno en Córdoba
+
+![Alquiler de concentrador de oxígeno en Córdoba](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg)
 
 Si necesitás oxígeno en casa, en INSER SALUD alquilamos concentradores de oxígeno (fijos y portátiles) en Córdoba con entrega e instalación a domicilio. Ideal para oxigenoterapia continua en EPOC, fibrosis pulmonar, post-internación y otras indicaciones médicas.
 
@@ -1997,8 +2003,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Comprar CPAP en Córdoba | Precios y Asesoramiento | INSER SALUD"
-description: "Comprá tu CPAP, AutoCPAP o BiPAP en Córdoba. Equipos aprobados por ANMAT, con garantía y asesoramiento. CPAP desde $499.000. Mirá precios y elegí el equipo correcto con ayuda de nuestro equipo. Consultá por WhatsApp."
+title: "Comprar CPAP en Córdoba | Precios y Asesoramiento | INSER"
+description: "Comprá tu CPAP, AutoCPAP o BiPAP en Córdoba: equipos ANMAT con garantía y asesoramiento profesional. CPAP desde $499.000. Consultá por WhatsApp."
 url: https://insersalud.com/comprar-cpap-cordoba
 canonical: https://insersalud.com/comprar-cpap-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2008,6 +2014,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Comprar CPAP en Córdoba: precios y modelos
+
+![Comprar CPAP en Córdoba: precios y modelos](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg)
 
 En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP en Córdoba, aprobados por ANMAT, con garantía oficial del fabricante y asesoramiento personalizado. Mirá los precios de referencia y elegí el equipo correcto según tu indicación médica.
 
@@ -2147,8 +2155,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER"
-description: "Hacemos la poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Coordiná por WhatsApp."
+title: "Poligrafía a domicilio en Córdoba: estudio del sueño | INSER"
+description: "Poligrafía respiratoria a domicilio en Córdoba: el estudio del sueño en tu casa, una noche, sin internación y con informe de IAH. Coordiná por WhatsApp."
 url: https://insersalud.com/estudio-del-sueno-cordoba
 canonical: https://insersalud.com/estudio-del-sueno-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2158,6 +2166,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa
+
+![Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa](https://insersalud.com/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg)
 
 ¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba y, si da apnea, te acompañamos en el tratamiento.
 
@@ -2330,7 +2340,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Oximetría nocturna a domicilio en Córdoba | INSER SALUD"
-description: "Hacemos la oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama y sin internación, con informe para tu médico. Coordiná por WhatsApp."
+description: "Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama, con informe para tu médico. Coordiná por WhatsApp."
 url: https://insersalud.com/oximetria-nocturna-cordoba
 canonical: https://insersalud.com/oximetria-nocturna-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2341,6 +2351,8 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís
 
+![Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís](https://insersalud.com/artifacts/oximetria/oximetria-nocturna-domicilio-cordoba.jpg)
+
 ¿Tu médico te pidió una oximetría nocturna? Es el estudio que mide tu oxígeno en sangre durante toda la noche con un sensor en el dedo. En INSER SALUD la hacemos a domicilio en Córdoba: se entrega el oxímetro en tu casa, dormís en tu cama como cualquier noche y se devuelve al día siguiente. Del registro sale el informe que evalúa tu médico.
 
 Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
@@ -2349,7 +2361,7 @@ Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba �
 
 ![Oxímetro de pulso con sensor en el dedo para la oximetría nocturna](https://insersalud.com/artifacts/oximetria/oximetro-de-pulso-nocturno.jpg)
 
-Es un estudio que registra en forma continua la saturación de oxígeno en sangre (SpO₂) y la frecuencia cardíaca mientras dormís. Se hace con un oxímetro de pulso con memoria: un sensor que se coloca en el dedo y una pequeña unidad que guarda los datos de toda la noche.
+Es un estudio que registra en forma continua la saturación de oxígeno en sangre (SpO₂) y la frecuencia cardíaca mientras dormís. Se hace con un oxímetro de pulso con memoria: un sensor que se coloca en el dedo y una pequeña unidad en la muñeca que guarda los datos de toda la noche.
 
 No es lo mismo que controlarte la saturación un momento con el saturómetro. La oximetría nocturna toma miles de mediciones durante el sueño y muestra cuántas veces y durante cuánto tiempo baja tu oxígeno. Hay personas que saturan bien de día y bajan de noche, y eso solo se ve con este estudio.
 
@@ -2519,8 +2531,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "BiPAP a Domicilio en Córdoba | Venta y Alquiler | INSER SALUD"
-description: "BiPAP en Córdoba para EPOC, enfermedades neuromusculares e hipoventilación. Venta y alquiler de equipos aprobados por ANMAT, con entrega a domicilio y soporte técnico. Consultá por WhatsApp."
+title: "BiPAP a Domicilio en Córdoba | Venta y Alquiler | INSER"
+description: "BiPAP en Córdoba para EPOC, enfermedades neuromusculares e hipoventilación. Venta y alquiler de equipos ANMAT, con entrega a domicilio y soporte."
 url: https://insersalud.com/bipap-cordoba
 canonical: https://insersalud.com/bipap-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2530,6 +2542,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # BiPAP en Córdoba: venta y alquiler
+
+![BiPAP en Córdoba: venta y alquiler](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg)
 
 En INSER SALUD ofrecemos BiPAP en Córdoba, en venta y alquiler, para EPOC, enfermedades neuromusculares (ELA, AME), hipoventilación y apnea compleja. Equipos aprobados por ANMAT, con entrega a domicilio, adaptación y soporte técnico.
 
@@ -2630,7 +2644,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Alquiler de Oxígeno a Domicilio en Córdoba | INSER SALUD"
-description: "Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo las 24 horas. Entrega e instalación en el día en Córdoba Capital; respondemos por WhatsApp todos los días."
+description: "Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo, con entrega e instalación en el día en Córdoba Capital."
 url: https://insersalud.com/oxigeno-a-domicilio-cordoba
 canonical: https://insersalud.com/oxigeno-a-domicilio-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2640,6 +2654,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Oxígeno a domicilio en Córdoba
+
+![Oxígeno a domicilio en Córdoba](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg)
 
 En INSER SALUD llevamos el oxígeno a tu casa en Córdoba. Ofrecemos oxigenoterapia domiciliaria con concentradores de oxígeno fijos y portátiles, en venta y alquiler, con entrega, instalación y capacitación de uso.
 
@@ -2783,8 +2799,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Concentrador de Oxígeno Portátil a Domicilio en Córdoba | INSER SALUD"
-description: "Concentradores de oxígeno portátiles en Córdoba: livianos, con batería y algunos aptos para vuelos. Venta y alquiler, aprobados por ANMAT, con entrega a domicilio. Consultá por WhatsApp."
+title: "Concentrador de Oxígeno Portátil en Córdoba | INSER SALUD"
+description: "Concentradores de oxígeno portátiles en Córdoba: livianos, con batería y algunos aptos para vuelos. Venta y alquiler, ANMAT, con entrega a domicilio."
 url: https://insersalud.com/concentrador-oxigeno-portatil-cordoba
 canonical: https://insersalud.com/concentrador-oxigeno-portatil-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2794,6 +2810,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Concentrador de oxígeno portátil en Córdoba
+
+![Concentrador de oxígeno portátil en Córdoba](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg)
 
 En INSER SALUD tenés concentradores de oxígeno portátiles en Córdoba: livianos, con batería y autonomía para salir, trabajar o viajar. Venta y alquiler, con asesoramiento para elegir el modelo según tu flujo y tu rutina.
 
@@ -2910,7 +2928,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Precio de CPAP y AutoCPAP en Argentina: desde $499.000 | INSER"
-description: "Precio de CPAP en Argentina: CPAP BMC G2S $499.000, AutoCPAP $630.000 y ResMed AirSense 10 $974.000. Precios publicados, cuotas fijas Banco Galicia, ANMAT y envío a todo el país."
+description: "Precio de CPAP en Argentina: BMC G2S $499.000, AutoCPAP $630.000 y ResMed AirSense 10 $974.000. Cuotas Banco Galicia, ANMAT y envío a todo el país."
 url: https://insersalud.com/comprar-cpap-argentina
 canonical: https://insersalud.com/comprar-cpap-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2920,6 +2938,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Precio de CPAP y AutoCPAP en Argentina: comprá con envío a todo el país
+
+![Precio de CPAP y AutoCPAP en Argentina: comprá con envío a todo el país](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg)
 
 En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Salta o donde sea, te enviamos tu equipo aprobado por ANMAT, con garantía, configuración y asesoramiento para que lo uses bien desde el primer día.
 
@@ -3058,8 +3078,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "BiPAP: precio $1.300.000 y venta con envío a todo el país | INSER"
-description: "Precio de BiPAP en Argentina: BMC G3 S/T con frecuencia de respaldo y humidificador $1.300.000. Aprobado por ANMAT, 2 años de garantía oficial del fabricante, cuotas fijas Banco Galicia y envío a todo el país."
+title: "Precio de BiPAP: $1.300.000 con envío a todo el país | INSER"
+description: "BiPAP BMC G3 S/T con frecuencia de respaldo y humidificador: $1.300.000. ANMAT, 2 años de garantía oficial, cuotas fijas y envío a todo el país."
 url: https://insersalud.com/comprar-bipap-argentina
 canonical: https://insersalud.com/comprar-bipap-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -3069,6 +3089,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Precio de BiPAP en Argentina: comprá con envío a todo el país
+
+![Precio de BiPAP en Argentina: comprá con envío a todo el país](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg)
 
 En INSER SALUD vendemos BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Mendoza o donde sea, te enviamos tu equipo aprobado por ANMAT, configurado según la indicación de tu médico. El BiPAP se usa en EPOC con hipercapnia, en enfermedades neuromusculares como la ELA y la AME, en hipoventilación y en apnea del sueño compleja que no responde al CPAP; la indicación, el modo y las presiones los define siempre tu médico. Si estás en Córdoba Capital y alrededores, también podés alquilarlo: mirá [BiPAP en Córdoba](https://insersalud.com/bipap-cordoba).
 
@@ -3220,8 +3242,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Concentrador de oxígeno: precio desde $999.000 y envío a todo el país | INSER"
-description: "Precio de concentrador de oxígeno en Argentina: BMC estacionario hasta 5 L/min $999.000. Fijos, portátiles y de alto flujo, aprobados por ANMAT, cuotas fijas Banco Galicia y envío a todo el país."
+title: "Concentrador de Oxígeno: precio desde $999.000 | INSER"
+description: "Concentrador de oxígeno BMC estacionario de 5 L/min a $999.000, más fijos, portátiles y de alto flujo. ANMAT, cuotas fijas y envío a todo el país."
 url: https://insersalud.com/comprar-concentrador-oxigeno-argentina
 canonical: https://insersalud.com/comprar-concentrador-oxigeno-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -3231,6 +3253,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Precio de concentradores de oxígeno en Argentina: comprá con envío a todo el país
+
+![Precio de concentradores de oxígeno en Argentina: comprá con envío a todo el país](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg)
 
 En INSER SALUD vendemos concentradores de oxígeno fijos y portátiles con envío a todo el país. Para oxigenoterapia domiciliaria en EPOC, fibrosis pulmonar y otras indicaciones, te enviamos el equipo aprobado por ANMAT a cualquier provincia.
 
@@ -3359,7 +3383,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Concentrador de Oxígeno 10 Litros Alto Flujo | INSER SALUD"
-description: "Concentrador de alto flujo: hasta 10 L/min sostenidos, el doble del estándar domiciliario de 5 L/min. Para alta demanda de oxígeno y centros de rehabilitación pulmonar. ANMAT y envío a todo el país."
+description: "Concentrador de alto flujo: hasta 10 L/min sostenidos, el doble del estándar domiciliario. Para alta demanda de oxígeno y centros de rehabilitación."
 url: https://insersalud.com/concentrador-oxigeno-10-litros
 canonical: https://insersalud.com/concentrador-oxigeno-10-litros
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -3369,6 +3393,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Concentrador de oxígeno de 10 litros (alto flujo)
+
+![Concentrador de oxígeno de 10 litros (alto flujo)](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg)
 
 El concentrador de oxígeno YUWELL de 10 litros entrega alto flujo (hasta 10 L/min, el doble del concentrador estándar de 5 L). Está pensado para pacientes con alta demanda de oxígeno y para [centros de rehabilitación pulmonar](https://insersalud.com/equipamiento-rehabilitacion-pulmonar). Se vende con envío a todo el país; $2.800.000, aprobado por ANMAT.
 
@@ -3473,7 +3499,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Máscaras CPAP y BiPAP nasales y nasobucales: precios | INSER"
-description: "Máscaras para CPAP y BiPAP con precios visibles y envío a todo el país: nasales desde U$S 35, DreamWear U$S 153, nasobucales (full face) y línea pediátrica completa. Aprobadas por ANMAT. Consultá por WhatsApp."
+description: "Máscaras para CPAP y BiPAP con precios a la vista: nasales desde U$S 35, DreamWear U$S 153, nasobucales y línea pediátrica. Envío a todo el país."
 url: https://insersalud.com/mascaras-cpap
 canonical: https://insersalud.com/mascaras-cpap
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -3483,6 +3509,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Máscaras para CPAP y BiPAP: nasales, nasobucales y pediátricas
+
+![Máscaras para CPAP y BiPAP: nasales, nasobucales y pediátricas](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg)
 
 La máscara es la mitad del éxito del tratamiento con CPAP o BiPAP: una interfaz incómoda es la principal causa de abandono. En INSER SALUD tenés máscaras nasales, nasobucales (full face), almohadillas y línea pediátrica, con precios visibles y envío a todo el país. Te ayudamos a elegir el modelo y el talle correcto para tu equipo.
 
@@ -3588,8 +3616,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Máscaras Pediátricas para CPAP y BiPAP | Precios y Envío Nacional | INSER SALUD"
-description: "Máscaras pediátricas para CPAP y BiPAP con precios a la vista: Philips Wisp (la de la jirafa) U$S 227, HSINER Cirri Mini U$S 105 e Infant CPAP Kit neonatal desde U$S 97. Talles desde neonatal, envío a todo el país. Te asesoramos según la edad y la indicación médica."
+title: "Máscaras Pediátricas para CPAP y BiPAP: precios | INSER"
+description: "Máscaras pediátricas para CPAP y BiPAP: Philips Wisp (jirafa) U$S 227, Cirri Mini U$S 105 e Infant Kit neonatal U$S 97. Talles desde neonatal."
 url: https://insersalud.com/mascaras-pediatricas
 canonical: https://insersalud.com/mascaras-pediatricas
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -3599,6 +3627,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Máscaras pediátricas para CPAP y BiPAP: los 3 modelos que tenemos
+
+![Máscaras pediátricas para CPAP y BiPAP: los 3 modelos que tenemos](https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg)
 
 La línea pediátrica es difícil de conseguir en Argentina. Nosotros tenemos las tres, con talles desde neonatal y precios publicados. Y algo que importa tanto como el precio: te ayudamos a elegir cuál y qué talle, porque en un chico una máscara incómoda muchas veces está detrás del abandono del tratamiento.
 
@@ -3718,8 +3748,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Equipamiento para Centros de Rehabilitación Pulmonar | INSER SALUD"
-description: "Equipamiento para centros de rehabilitación pulmonar y kinesiología respiratoria: concentrador de oxígeno de 10 litros (alto flujo), BiPAP, ventilador STELLAR 150, máscaras e insumos. Presupuestos formales para instituciones y envío a todo el país. Aprobado por ANMAT."
+title: "Equipamiento para Rehabilitación Pulmonar | INSER SALUD"
+description: "Equipamiento para centros de rehabilitación pulmonar: concentrador de 10 litros, BiPAP, ventilador STELLAR 150 y máscaras, con presupuesto formal."
 url: https://insersalud.com/equipamiento-rehabilitacion-pulmonar
 canonical: https://insersalud.com/equipamiento-rehabilitacion-pulmonar
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -3729,6 +3759,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Equipamiento para centros de rehabilitación pulmonar
+
+![Equipamiento para centros de rehabilitación pulmonar](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_1.jpg)
 
 Equipamos centros de rehabilitación pulmonar, consultorios de kinesiología respiratoria e instituciones de salud en todo el país: concentradores de oxígeno de alto flujo para uso intensivo, ventilación no invasiva, máscaras e insumos de reposición. Presupuesto formal, factura y soporte técnico continuo.
 
@@ -3883,7 +3915,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Concentrador de Oxígeno Portátil desde $2.735.400 | INSER"
-description: "KINGON P2-S3 $2.735.400, el más liviano de nuestro catálogo (2,3 kg con batería), más la línea de flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país."
+description: "KINGON P2-S3 a $2.735.400 (2,3 kg con batería), más flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país."
 url: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 canonical: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -3893,6 +3925,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Comprar concentrador de oxígeno portátil: envío a todo el país
+
+![Comprar concentrador de oxígeno portátil: envío a todo el país](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg)
 
 Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles de pulso y de flujo continuo con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.
 
@@ -4034,8 +4068,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "ResMed STELLAR 150: precio U$S 7.342 y venta en Argentina | INSER"
-description: "Precio del ventilador ResMed STELLAR 150 en Argentina: U$S 7.342. Soporte ventilatorio invasivo y no invasivo para ELA, enfermedades neuromusculares y EPOC severo. Con batería interna y humidificador. Envío a todo el país. Aprobado por ANMAT."
+title: "ResMed STELLAR 150: precio U$S 7.342 en Argentina | INSER"
+description: "Ventilador ResMed STELLAR 150 a U$S 7.342: soporte invasivo y no invasivo para ELA, neuromusculares y EPOC severo, con batería. Envío a todo el país."
 url: https://insersalud.com/ventilador-stellar-150
 canonical: https://insersalud.com/ventilador-stellar-150
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4045,6 +4079,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Ventilador ResMed STELLAR 150: precio y venta en Argentina
+
+![Ventilador ResMed STELLAR 150: precio y venta en Argentina](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg)
 
 El ResMed STELLAR 150 es un ventilador de soporte vital para uso domiciliario e institucional: ventilación invasiva y no invasiva, pacientes adultos y pediátricos, con batería interna para traslados y cortes de luz. En INSER SALUD lo vendemos con envío a todo el país y acompañamiento en la puesta en marcha.
 
@@ -4180,8 +4216,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Polígrafo respiratorio: precio U$S 1.570 y venta a profesionales | INSER"
-description: "Precio del polígrafo respiratorio BMC YH-600B PRO: U$S 1.570. Venta para neumonólogos, clínicas del sueño y kinesiólogos: poligrafía domiciliaria de la apnea del sueño. Aprobado por ANMAT, con envío a todo el país y capacitación. Consultá por WhatsApp."
+title: "Polígrafo Respiratorio: precio U$S 1.570 | INSER SALUD"
+description: "Polígrafo respiratorio BMC YH-600B PRO a U$S 1.570, para neumonólogos, clínicas del sueño y kinesiólogos. ANMAT, envío a todo el país y capacitación."
 url: https://insersalud.com/comprar-poligrafo-argentina
 canonical: https://insersalud.com/comprar-poligrafo-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4191,6 +4227,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Polígrafo respiratorio BMC YH-600B PRO: precio y venta a profesionales
+
+![Polígrafo respiratorio BMC YH-600B PRO: precio y venta a profesionales](https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg)
 
 El polígrafo respiratorio permite estudiar la apnea del sueño en el domicilio del paciente, sin laboratorio. En INSER SALUD vendemos el BMC YH-600B PRO a profesionales de la salud (neumonólogos, clínicas del sueño, kinesiólogos y centros de diagnóstico) con envío a todo el país, capacitación de uso y soporte técnico.
 
@@ -4291,7 +4329,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Cough Assist (asistente de tos): precio U$S 9.084 | INSER"
-description: "Precio del Cough Assist en Argentina: U$S 9.084. Asistente de tos mecánico (insuflación-exuflación) para ELA, AME y enfermedades neuromusculares con tos débil. Aprobado por ANMAT, envío a todo el país y capacitación familiar. Consultá por WhatsApp."
+description: "Cough Assist a U$S 9.084: asistente de tos mecánico (insuflación-exuflación) para ELA, AME y neuromusculares. ANMAT, envío y capacitación familiar."
 url: https://insersalud.com/cough-assist-asistente-de-tos
 canonical: https://insersalud.com/cough-assist-asistente-de-tos
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4301,6 +4339,8 @@ publisher: INSER SALUD (https://insersalud.com)
 ---
 
 # Cough Assist (asistente de tos mecánico): precio y venta en Argentina
+
+![Cough Assist (asistente de tos mecánico): precio y venta en Argentina](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg)
 
 El Cough Assist es un asistente de tos mecánico: mediante insuflación-exuflación reproduce una tos eficaz en pacientes que perdieron la fuerza para toser, ayudando a eliminar secreciones y prevenir infecciones respiratorias. Es un equipo clave en ELA, AME y otras enfermedades neuromusculares. Lo vendemos con envío a todo el país y capacitación para la familia.
 
@@ -4428,8 +4468,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Academia: cursos gratuitos de terapia respiratoria para profesionales (9 ebooks interactivos) | INSER SALUD"
-description: "Academia INSER SALUD: formación gratuita para profesionales de la salud (kinesiólogos, médicos, enfermeros y estudiantes). Nueve cursos gratuitos online, en formato de ebook interactivo, del Lic. Sergio Giorda (MP 2123): ventilación mecánica, ventilación no invasiva (CPAP y BiPAP), oxigenoterapia de alto flujo, oxigenoterapia convencional de la guardia al domicilio (adultos y niños), extubación, decanulación y deglución, rehabilitación pulmonar, ventilación en enfermedades neuromusculares, apnea del sueño y diagnóstico por imágenes respiratorias. Sin costo y sin registro."
+title: "Academia: cursos gratuitos de terapia respiratoria | INSER"
+description: "Nueve cursos gratuitos de terapia respiratoria para kinesiólogos, médicos y enfermeros: ventilación, VNI, alto flujo, oxígeno y más, del Lic. Giorda."
 url: https://insersalud.com/academia
 canonical: https://insersalud.com/academia
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4663,8 +4703,8 @@ Los contenidos de la Academia son material educativo: no reemplazan la evaluaci�
 ---
 
 ---
-title: "Cursos gratuitos (ebooks interactivos) de terapia respiratoria: ventilación mecánica, VNI, oxígeno, alto flujo, apnea del sueño e imágenes | Academia INSER SALUD"
-description: "Nueve cursos gratuitos online, en formato de ebook interactivo, de la Academia INSER SALUD, por el Lic. Sergio Giorda: Ventilación mecánica, Ventilación no invasiva (CPAP y BiPAP), Oxigenoterapia nasal de alto flujo (CNAF), Oxigenoterapia de la guardia a casa (adultos y niños), la guía de extubación, decanulación y deglución, Rehabilitación pulmonar, Ventilación en enfermedades neuromusculares, Apnea del sueño y Diagnóstico por imágenes respiratorias, con simuladores, calculadoras, guías de cabecera, test de marcha, casos clínicos y autoevaluación."
+title: "Cursos gratuitos de terapia respiratoria | Academia INSER"
+description: "Nueve ebooks interactivos gratuitos: ventilación mecánica, VNI, alto flujo, oxigenoterapia, rehabilitación pulmonar, apnea del sueño e imágenes."
 url: https://insersalud.com/academia/ebook
 canonical: https://insersalud.com/academia/ebook
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4875,7 +4915,7 @@ Material educativo con un modelo fisiológico simplificado. No calcula indicacio
 ---
 
 ---
-title: "Ventilación mecánica: curso gratuito con simulador | INSER SALUD"
+title: "Ventilación mecánica: curso gratuito con simulador | INSER"
 description: "Ebook interactivo gratuito de ventilación mecánica del Lic. Sergio Giorda: simulador con 5 modos, asincronías, casos clínicos, destete y certificado."
 url: https://insersalud.com/academia/ebook/ventilacion-mecanica
 canonical: https://insersalud.com/academia/ebook/ventilacion-mecanica
@@ -5939,7 +5979,7 @@ Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 ---
 
 ---
-title: "Ventilación no invasiva (CPAP y BiPAP): curso gratuito | INSER SALUD"
+title: "Ventilación no invasiva (CPAP y BiPAP): curso gratuito | INSER"
 description: "Ebook interactivo gratuito de VNI del Lic. Sergio Giorda: CPAP y BiPAP, interfaces y fugas, simulador IPAP/EPAP, EPOC, edema, OHS, ELA, casos y certificado."
 url: https://insersalud.com/academia/ebook/ventilacion-no-invasiva
 canonical: https://insersalud.com/academia/ebook/ventilacion-no-invasiva
@@ -7088,7 +7128,7 @@ Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 ---
 
 ---
-title: "Alto flujo nasal (CNAF): curso gratuito con simulador | INSER SALUD"
+title: "Alto flujo nasal (CNAF): curso gratuito con simulador | INSER"
 description: "Ebook interactivo gratuito de alto flujo del Lic. Sergio Giorda: fisiología, montaje, titulación, índice ROX, prono despierto, fracaso, destete y casos."
 url: https://insersalud.com/academia/ebook/alto-flujo
 canonical: https://insersalud.com/academia/ebook/alto-flujo
@@ -7632,7 +7672,7 @@ insersalud.com
 ---
 
 ---
-title: "Extubación, decanulación y deglución: guía gratuita | INSER SALUD"
+title: "Extubación, decanulación y deglución: guía gratuita | INSER"
 description: "Guía interactiva gratuita del Lic. Sergio Giorda para UTI: prueba de respiración espontánea, extubación, decanulación, tamizaje de deglución GUSS y casos."
 url: https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion
 canonical: https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion
@@ -8596,7 +8636,7 @@ Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 ---
 
 ---
-title: "Rehabilitación pulmonar: curso gratuito con simulador | INSER SALUD"
+title: "Rehabilitación pulmonar: curso gratuito con simulador | INSER"
 description: "Ebook interactivo gratuito de rehabilitación pulmonar del Lic. Sergio Giorda: evaluación, test de marcha de 6 minutos, Borg, ejercicios, prescripción y casos."
 url: https://insersalud.com/academia/ebook/rehabilitacion-pulmonar
 canonical: https://insersalud.com/academia/ebook/rehabilitacion-pulmonar
@@ -9391,7 +9431,7 @@ insersalud.com ↗
 ---
 
 ---
-title: "Oxigenoterapia en adultos y niños: curso gratuito | INSER SALUD"
+title: "Oxigenoterapia en adultos y niños: curso gratuito | INSER"
 description: "Ebook ilustrado gratuito de oxigenoterapia del Lic. Sergio Giorda: metas de SpO2, bigotera, Venturi y reservorio, pediatría, alta, concentradores y cilindros."
 url: https://insersalud.com/academia/ebook/oxigenoterapia
 canonical: https://insersalud.com/academia/ebook/oxigenoterapia
@@ -10187,7 +10227,7 @@ INSERSALUD.COM · Oxigenoterapia en adultos y niños · Material educativo. Revi
 ---
 
 ---
-title: "Ventilación neuromuscular: curso gratuito con simulador | INSER SALUD"
+title: "Ventilación neuromuscular: curso gratuito con simulador | INSER"
 description: "Ebook interactivo gratuito del Lic. Sergio Giorda: estudios respiratorios, semáforo clínico, simulador, cuándo ventilar, asistencia de la tos y deglución."
 url: https://insersalud.com/academia/ebook/ventilacion-neuromuscular
 canonical: https://insersalud.com/academia/ebook/ventilacion-neuromuscular
@@ -11466,8 +11506,8 @@ Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 ---
 
 ---
-title: "Apnea del sueño: curso gratuito con STOP-Bang y CPAP | INSER SALUD"
-description: "Ebook interactivo gratuito de apnea del sueño del Lic. Sergio Giorda: poligrafía respiratoria, instalación de ApneaLink Air, lectura de trazados, casos, STOP-Bang, CPAP y seguimiento."
+title: "Apnea del sueño: curso gratuito con STOP-Bang y CPAP | INSER"
+description: "Ebook interactivo gratuito de apnea del sueño: poligrafía, ApneaLink Air, lectura de trazados, casos, STOP-Bang, CPAP y seguimiento."
 url: https://insersalud.com/academia/ebook/apnea-del-sueno
 canonical: https://insersalud.com/academia/ebook/apnea-del-sueno
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -12447,7 +12487,7 @@ Material educativo independiente. No afiliado a AASM, ATS, VA/DoD, NICE ni fabri
 ---
 
 ---
-title: "Diagnóstico por imágenes respiratorias: curso gratuito | INSER SALUD"
+title: "Diagnóstico por imágenes respiratorias: curso gratuito | INSER"
 description: "Ebook interactivo gratuito del Lic. Sergio Giorda: radiografía, TC y ecografía pulmonar con simuladores, atlas clínico, diafragma y casos integradores."
 url: https://insersalud.com/academia/ebook/imagenes-respiratorias
 canonical: https://insersalud.com/academia/ebook/imagenes-respiratorias
@@ -13218,7 +13258,7 @@ INSER SALUD · CÓRDOBA, ARGENTINA
 
 ---
 title: "Política de Privacidad | INSER SALUD"
-description: "Cómo INSER SALUD trata tus datos personales: qué recopilamos, para qué, con quién lo compartimos y cómo ejercer tus derechos según la Ley 25.326 de Protección de Datos Personales."
+description: "Cómo INSER SALUD trata tus datos personales: qué recopilamos, para qué, con quién lo compartimos y cómo ejercer tus derechos según la Ley 25.326."
 url: https://insersalud.com/politica-de-privacidad
 canonical: https://insersalud.com/politica-de-privacidad
 language: es-AR
@@ -13306,8 +13346,8 @@ INSER SALUD · Córdoba, Argentina · Aparatología aprobada por ANMAT
 ---
 
 ---
-title: "Política de devoluciones y botón de arrepentimiento | INSER SALUD"
-description: "Devoluciones en INSER SALUD: 10 días corridos de arrepentimiento en compras a distancia con el envío de vuelta a nuestro cargo, qué productos no se devuelven, equipos con falla (garantía) y alquileres."
+title: "Devoluciones y botón de arrepentimiento | INSER SALUD"
+description: "Devoluciones en INSER SALUD: 10 días de arrepentimiento en compras a distancia con el envío de vuelta a nuestro cargo, garantía por falla y alquileres."
 url: https://insersalud.com/politica-de-devoluciones
 canonical: https://insersalud.com/politica-de-devoluciones
 language: es-AR
@@ -13384,7 +13424,7 @@ INSER SALUD · Córdoba, Argentina · Aparatología aprobada por ANMAT
 ---
 
 ---
-title: "Quiénes somos: terapias respiratorias domiciliarias | INSER SALUD"
+title: "Quiénes somos: terapias respiratorias a domicilio | INSER"
 description: "Conocé INSER SALUD: venta de CPAP, BiPAP y concentradores con envío a todo el país, alquiler en Córdoba, dirigida por el Lic. Sergio Giorda (MP 2123)."
 url: https://insersalud.com/sobre-nosotros
 canonical: https://insersalud.com/sobre-nosotros
