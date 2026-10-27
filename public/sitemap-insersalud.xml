@@ -53,6 +53,26 @@
     <loc>https://insersalud.com/estudio-del-sueno-cordoba</loc>
     <priority>0.9</priority>
     <image:image>
+      <image:loc>https://insersalud.com/artifacts/poligrafia/poligrafo-kit-estudio-del-sueno.jpg</image:loc>
+      <image:title>Kit de poligrafía respiratoria domiciliaria: polígrafo, cánula nasal, banda torácica y oxímetro</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/poligrafia/poligrafia-colocacion-domicilio.jpg</image:loc>
+      <image:title>Colocación del polígrafo a domicilio para el estudio del sueño en Córdoba</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/poligrafia/ronquidos-apnea-del-sueno.jpg</image:loc>
+      <image:title>Ronquidos fuertes: el estudio del sueño define si hay apnea</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/poligrafia/somnolencia-diurna-apnea.jpg</image:loc>
+      <image:title>Somnolencia y cansancio durante el día, señales de apnea del sueño</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/oximetria/informe-oximetria-nocturna.jpg</image:loc>
+      <image:title>Médico revisando con el paciente el registro nocturno del estudio del sueño</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg</image:loc>
       <image:title>CPAP BMC G2S (tratamiento de la apnea)</image:title>
     </image:image>

@@ -279,10 +279,12 @@ export const localPages = [
             {
                 title: '¿Qué es la poligrafía respiratoria?',
                 content: 'Es un estudio del sueño que se realiza en tu propia casa con un equipo ([polígrafo respiratorio](/comprar-poligrafo-argentina)) que registra durante la noche tu respiración, el flujo de aire, los ronquidos, el oxígeno en sangre y las pausas respiratorias.\n\nEs cómodo, no invasivo y permite detectar la apnea obstructiva del sueño sin tener que dormir en un laboratorio.',
+                img: { src: '/artifacts/poligrafia/poligrafo-kit-estudio-del-sueno.jpg', alt: 'Kit de poligrafía respiratoria domiciliaria: polígrafo, cánula nasal, banda torácica y oxímetro' },
             },
             {
                 title: 'Hacemos la poligrafía respiratoria domiciliaria en Córdoba',
                 content: 'En INSER SALUD hacemos el estudio del sueño en tu casa, en Córdoba. Se entrega el polígrafo, dormís una noche con él y se devuelve al día siguiente. Del registro sale el informe con el índice de apnea-hipopnea (IAH), que es el que evalúa tu médico.\n\nLo coordinamos por WhatsApp. Trabajamos en forma particular y te damos factura para que gestiones el reintegro ante tu obra social o prepaga.\n\nSi el estudio da apnea, en Córdoba podés [alquilar](/alquiler-cpap-cordoba) o [comprar](/comprar-cpap-cordoba) el CPAP con entrega e instalación en el día.',
+                img: { src: '/artifacts/poligrafia/poligrafia-colocacion-domicilio.jpg', alt: 'Colocación del polígrafo a domicilio para el estudio del sueño en Córdoba' },
             },
             {
                 title: 'Poligrafía o polisomnografía: cuál es la diferencia',
@@ -291,10 +293,12 @@ export const localPages = [
             {
                 title: 'Roncar no siempre es apnea: el estudio lo define',
                 content: 'Mucha gente consulta para dejar de roncar. El ronquido puede ser solo ronquido, o puede venir con pausas en la respiración, que es la apnea del sueño. Desde afuera no se puede saber: la poligrafía lo mide durante una noche entera.\n\nSi el estudio confirma apnea, el tratamiento estándar es el CPAP. Si no la confirma, tu médico te va a indicar qué hacer con el ronquido.',
+                img: { src: '/artifacts/poligrafia/ronquidos-apnea-del-sueno.jpg', alt: 'Ronquidos fuertes: el estudio del sueño define si hay apnea' },
             },
             {
                 title: 'Señales de que podrías tener apnea del sueño',
                 content: 'Ronquidos fuertes y frecuentes, pausas en la respiración mientras dormís (que suele notar la pareja), somnolencia durante el día, despertares con sensación de ahogo, dolor de cabeza al levantarte y cansancio a pesar de dormir muchas horas.\n\nLa apnea no tratada aumenta el riesgo cardiovascular, por eso conviene estudiarla a tiempo.',
+                img: { src: '/artifacts/poligrafia/somnolencia-diurna-apnea.jpg', alt: 'Somnolencia y cansancio durante el día, señales de apnea del sueño' },
             },
             {
                 title: 'Del diagnóstico al tratamiento',
@@ -307,6 +311,7 @@ export const localPages = [
             {
                 title: 'Qué dice el informe: el índice de apnea-hipopnea (IAH)',
                 content: 'El polígrafo incluye software de descarga y análisis, que genera el informe con el Índice de Apnea-Hipopnea (IAH o AHI): la cantidad de apneas e hipopneas por hora de sueño. Es el índice que indica la severidad.\n\nLas referencias son: menos de 5 se considera normal, entre 5 y 15 apnea leve, entre 15 y 30 moderada y más de 30 severa.\n\nEl estudio además registra la saturación de oxígeno durante el sueño, el flujo aéreo y el ronquido.\n\nLa interpretación del estudio la hace el médico: es quien define el diagnóstico y el tratamiento a partir del informe. Nosotros hacemos el estudio y te acompañamos con el equipamiento.',
+                img: { src: '/artifacts/oximetria/informe-oximetria-nocturna.jpg', alt: 'Médico revisando con el paciente el registro nocturno del estudio del sueño' },
             },
             {
                 title: 'Qué conviene preguntar antes de hacerte el estudio',
