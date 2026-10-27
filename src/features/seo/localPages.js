@@ -404,7 +404,6 @@ export const localPages = [
             { q: '¿La oximetría nocturna diagnostica la apnea del sueño?', a: 'No la confirma. Las caídas repetidas del oxígeno pueden hacer sospechar apnea, pero el diagnóstico se hace con la [poligrafía respiratoria](/estudio-del-sueno-cordoba) o la polisomnografía, que miden además el flujo de aire y el esfuerzo respiratorio. Las dos las hacemos a domicilio en Córdoba.' },
             { q: '¿Qué son el ODI y el T90 del informe?', a: 'El ODI (índice de desaturación de oxígeno) cuenta cuántas veces por hora cae la saturación un 3 % o un 4 %. El T90 es el porcentaje del tiempo con saturación por debajo de 90 %. Junto con la saturación media y la mínima, son los datos que evalúa tu médico.' },
             { q: '¿Puedo tener las uñas pintadas?', a: 'Conviene sacar el esmalte y las uñas postizas del dedo donde va el sensor, porque pueden alterar la lectura del oxígeno.' },
-            { q: '¿Trabajan con obras sociales o prepagas?', a: 'Trabajamos en forma particular y te damos factura para que gestiones el reintegro ante tu obra social o prepaga.' },
         ],
         related: [
             { label: 'Poligrafía respiratoria domiciliaria (estudio del sueño)', href: '/estudio-del-sueno-cordoba' },
