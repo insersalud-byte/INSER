@@ -561,6 +561,8 @@ ${PRODUCTS.map(([n, p, d]) => `<li><strong>${esc(n)}</strong> — ${esc(p)} — 
 <li>Venta de equipos respiratorios aprobados por ANMAT, con envío a todo el país</li>
 <li>Alquiler de CPAP, BiPAP y concentradores de oxígeno (en Córdoba)</li>
 <li>Oxigenoterapia domiciliaria con instalación y seguimiento</li>
+<li><a href="/estudio-del-sueno-cordoba">Poligrafía respiratoria a domicilio</a> en Córdoba: el estudio del sueño en tu casa, una noche y sin internación, con informe de IAH para tu médico</li>
+<li><a href="/oximetria-nocturna-cordoba">Oximetría nocturna a domicilio</a> en Córdoba: tu oxígeno en sangre medido toda la noche con un sensor en el dedo, con informe para tu médico</li>
 <li>Adaptación y seguimiento de equipos con profesionales</li>
 <li>Servicio técnico de equipos respiratorios</li>
 <li>Presupuesto formal y factura oficial para gestionar el reintegro con tu obra social o prepaga (venta particular)</li>

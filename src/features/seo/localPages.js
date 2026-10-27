@@ -272,7 +272,7 @@ export const localPages = [
         metaTitle: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER',
         metaTitleSalud: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER',
         description: 'Hacemos la poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Coordiná por WhatsApp.',
-        heroImg: '/artifacts/products/resmed_airsense10_1.jpg',
+        heroImg: '/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg',
         intro: '¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba y, si da apnea, te acompañamos en el tratamiento.',
         ctaSanti: 'Hola Santi, quiero hacerme un estudio del sueño a domicilio en Córdoba. ¿Cómo es y qué necesito?',
         sections: [

@@ -725,6 +725,8 @@ const services = [
             ],
         },
     },
+    { title: 'Poligrafía respiratoria a domicilio', desc: 'El estudio del sueño en tu casa: dormís una noche en tu cama con el polígrafo, sin internación. Del registro sale el informe con el IAH para tu médico. En Córdoba.', img: '/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg', link: '/estudio-del-sueno-cordoba', cta: 'Ver el estudio' },
+    { title: 'Oximetría nocturna a domicilio', desc: 'Medimos tu oxígeno en sangre durante toda la noche con un sensor en el dedo, en tu cama y sin internación. Informe con saturación media, mínima, ODI y T90 para tu médico. En Córdoba.', img: '/artifacts/oximetria/oximetria-nocturna-domicilio-cordoba.jpg', link: '/oximetria-nocturna-cordoba', cta: 'Ver el estudio' },
 ];
 
 // ── Reseñas de tags — todas las patologías ────────────────────────────────
@@ -1603,7 +1605,7 @@ const LandingPage = () => {
             <section style={{ padding: '2.5rem 1rem', background: '#fff' }}>
                 <div className={css.container}>
                     <h2 style={{ textAlign: 'center', color: '#0f172a', fontSize: 'clamp(1.3rem, 3vw, 1.7rem)', margin: '0 0 1.5rem' }}>¿Qué necesitás hoy?</h2>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', maxWidth: 980, margin: '0 auto' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '1rem', maxWidth: 1080, margin: '0 auto' }}>
                         <Link to="/alquiler-equipos-respiratorios-cordoba" style={{ display: 'block', background: '#f0fdf4', border: '1.5px solid #bbf7d0', borderRadius: '1rem', padding: '1.25rem', textDecoration: 'none' }}>
                             <strong style={{ display: 'block', color: '#166534', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Necesito alquilar hoy</strong>
                             <span style={{ color: '#334155', fontSize: '0.9rem' }}>Elegí qué equipo te indicaron y te cotizamos el mismo día. Entrega e instalación a domicilio en Córdoba.</span>
@@ -1612,6 +1614,10 @@ const LandingPage = () => {
                             <strong style={{ display: 'block', color: '#1e40af', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Quiero comprar un equipo</strong>
                             <span style={{ color: '#334155', fontSize: '0.9rem' }}>Precios visibles, envío a todo el país y cuotas con Banco Galicia. Mirá las ofertas.</span>
                         </button>
+                        <div style={{ background: '#f5f3ff', border: '1.5px solid #ddd6fe', borderRadius: '1rem', padding: '1.25rem' }}>
+                            <strong style={{ display: 'block', color: '#5b21b6', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Tengo que hacerme un estudio</strong>
+                            <span style={{ color: '#334155', fontSize: '0.9rem' }}>Los hacemos a domicilio en Córdoba, en tu cama y sin internación: <Link to="/estudio-del-sueno-cordoba" style={{ color: '#5b21b6', fontWeight: 600 }}>poligrafía respiratoria</Link> y <Link to="/oximetria-nocturna-cordoba" style={{ color: '#5b21b6', fontWeight: 600 }}>oximetría nocturna</Link>.</span>
+                        </div>
                         <button onClick={() => openSanti(null)} style={{ textAlign: 'left', cursor: 'pointer', background: '#fefce8', border: '1.5px solid #fde68a', borderRadius: '1rem', padding: '1.25rem', fontFamily: 'inherit' }}>
                             <strong style={{ display: 'block', color: '#a16207', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Necesito asesoramiento</strong>
                             <span style={{ color: '#334155', fontSize: '0.9rem' }}>Santi te orienta al instante según tu indicación médica. Sin turnos, las 24 hs.</span>
@@ -2114,9 +2120,15 @@ const LandingPage = () => {
                                                 {isExp ? 'Cerrar ↑' : 'Ver cómo funciona ↓'}
                                             </button>
                                         ) : null}
-                                        <a href={s.link} target="_blank" rel="noopener noreferrer" className={css.serviceLink}>
-                                            {s.cta} →
-                                        </a>
+                                        {s.link.startsWith('/') ? (
+                                            <Link to={s.link} className={css.serviceLink}>
+                                                {s.cta} →
+                                            </Link>
+                                        ) : (
+                                            <a href={s.link} target="_blank" rel="noopener noreferrer" className={css.serviceLink}>
+                                                {s.cta} →
+                                            </a>
+                                        )}
                                     </div>
 
                                     {/* Panel expandible de Adaptación y Seguimiento */}
