@@ -53,6 +53,10 @@
     <loc>https://insersalud.com/estudio-del-sueno-cordoba</loc>
     <priority>0.9</priority>
     <image:image>
+      <image:loc>https://insersalud.com/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg</image:loc>
+      <image:title>Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://insersalud.com/artifacts/poligrafia/poligrafo-kit-estudio-del-sueno.jpg</image:loc>
       <image:title>Kit de poligrafía respiratoria domiciliaria: polígrafo, cánula nasal, banda torácica y oxímetro</image:title>
     </image:image>
@@ -84,6 +88,10 @@
   <url>
     <loc>https://insersalud.com/oximetria-nocturna-cordoba</loc>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/artifacts/oximetria/oximetria-nocturna-domicilio-cordoba.jpg</image:loc>
+      <image:title>Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís</image:title>
+    </image:image>
     <image:image>
       <image:loc>https://insersalud.com/artifacts/oximetria/oximetro-de-pulso-nocturno.jpg</image:loc>
       <image:title>Oxímetro de pulso con sensor en el dedo para la oximetría nocturna</image:title>

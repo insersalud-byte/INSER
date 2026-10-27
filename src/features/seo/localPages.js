@@ -271,7 +271,7 @@ export const localPages = [
         h1: 'Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa',
         metaTitle: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER',
         metaTitleSalud: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa | INSER',
-        description: 'Hacemos la poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa, en una noche y sin internación, con informe de IAH para tu médico. Si da apnea, te acompañamos con el CPAP. Coordiná por WhatsApp.',
+        description: 'Poligrafía respiratoria a domicilio en Córdoba: el estudio del sueño en tu casa, una noche, sin internación y con informe de IAH. Coordiná por WhatsApp.',
         heroImg: '/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg',
         intro: '¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba y, si da apnea, te acompañamos en el tratamiento.',
         ctaSanti: 'Hola Santi, quiero hacerme un estudio del sueño a domicilio en Córdoba. ¿Cómo es y qué necesito?',
@@ -358,7 +358,7 @@ export const localPages = [
         sections: [
             {
                 title: '¿Qué es la oximetría nocturna?',
-                content: 'Es un estudio que registra en forma continua la saturación de oxígeno en sangre (SpO₂) y la frecuencia cardíaca mientras dormís. Se hace con un oxímetro de pulso con memoria: un sensor que se coloca en el dedo y una pequeña unidad que guarda los datos de toda la noche.\n\nNo es lo mismo que controlarte la saturación un momento con el saturómetro. La oximetría nocturna toma miles de mediciones durante el sueño y muestra cuántas veces y durante cuánto tiempo baja tu oxígeno. Hay personas que saturan bien de día y bajan de noche, y eso solo se ve con este estudio.\n\nEs un estudio no invasivo: no hay agujas, ni cables en la cara, ni cánulas.',
+                content: 'Es un estudio que registra en forma continua la saturación de oxígeno en sangre (SpO₂) y la frecuencia cardíaca mientras dormís. Se hace con un oxímetro de pulso con memoria: un sensor que se coloca en el dedo y una pequeña unidad en la muñeca que guarda los datos de toda la noche.\n\nNo es lo mismo que controlarte la saturación un momento con el saturómetro. La oximetría nocturna toma miles de mediciones durante el sueño y muestra cuántas veces y durante cuánto tiempo baja tu oxígeno. Hay personas que saturan bien de día y bajan de noche, y eso solo se ve con este estudio.\n\nEs un estudio no invasivo: no hay agujas, ni cables en la cara, ni cánulas.',
                 img: { src: '/artifacts/oximetria/oximetro-de-pulso-nocturno.jpg', alt: 'Oxímetro de pulso con sensor en el dedo para la oximetría nocturna' },
             },
             {
