@@ -574,6 +574,7 @@ export const localPages = [
     {
         slug: 'comprar-cpap-argentina',
         national: true,
+        reviewed: '2026-10-27',
         h1: 'Precio de CPAP y AutoCPAP en Argentina: comprá con envío a todo el país',
         metaTitle: 'Precio de CPAP y AutoCPAP en Argentina: desde $499.000 | INSER',
         metaTitleSalud: 'Precio de CPAP y AutoCPAP en Argentina: desde $499.000 | INSER',
@@ -587,12 +588,28 @@ export const localPages = [
                 content: 'Estos son los precios de los CPAP y AutoCPAP de nuestro catálogo, con envío a todo el país. Te los mostramos antes de que preguntes, sin "consultar precio".\nCPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nOferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.\nCPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\n[BiPAP BMC G3](/comprar-bipap-argentina): $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
             },
             {
+                title: '¿Se puede pagar un CPAP en cuotas?',
+                content: 'Sí. Todos los equipos se pueden pagar en cuotas fijas con Banco Galicia. El recargo ya está incluido en la cuota, así que sabés desde el primer día cuánto vas a pagar en total:\n3 cuotas: +15% sobre el precio.\n6 cuotas: +24% sobre el precio.\n9 cuotas: +39% sobre el precio.\n\nPor ejemplo, el CPAP BMC G2S de $499.000 queda en $573.850 en 3 cuotas (unos $191.283 cada una), en $618.760 en 6 cuotas (unos $103.127 cada una) o en $693.610 en 9 cuotas (unos $77.068 cada una).\n\nConfirmá el precio del día y el plan de cuotas por WhatsApp antes de pagar.',
+            },
+            {
+                title: 'Además del equipo: máscara, filtros y repuestos',
+                content: 'Cuando armes el presupuesto del tratamiento, sumá la [máscara](/mascaras-cpap) si no viene incluida con el equipo que elegiste. Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.\n\nCon el uso también se reponen los filtros, la almohadilla de la máscara y la tubuladura (la tubuladura universal sale $36.000). Conviene comprar el equipo donde después consigas esos repuestos sin tener que importarlos.',
+            },
+            {
                 title: 'Cómo comprar y recibir tu equipo',
                 content: 'Nos escribís por WhatsApp, te asesoramos sobre el equipo según tu indicación médica y coordinamos el envío a tu domicilio en cualquier provincia de Argentina. Te llega configurado y con instrucciones; si necesitás ayuda con la puesta en marcha, te guiamos a distancia.',
             },
             {
                 title: '¿CPAP o AutoCPAP? La diferencia, en criollo',
                 content: 'Un CPAP fijo entrega toda la noche la misma presión: la que indicó tu médico a partir de tu estudio de sueño. Un AutoCPAP trabaja dentro de un rango, mide tu respiración y sube o baja la presión según lo que vas necesitando en cada momento de la noche.\n\nNinguno es mejor que el otro en abstracto: cuál te corresponde lo define tu médico. En la práctica el AutoCPAP se suele indicar cuando la presión que necesitás varía según la posición o la etapa del sueño, o cuando cuesta adaptarse a una presión fija.\n\nSi tu indicación dice AutoCPAP o dice APAP, es el mismo tipo de equipo con dos nombres. En nuestro catálogo el CPAP BMC G2S sale $499.000 y el AutoCPAP BMC G2S $630.000, los dos con humidificador y con envío a todo el país.',
+            },
+            {
+                title: 'Antes de comprar un CPAP: qué revisar',
+                content: 'Sea nuevo o usado, y lo compres donde lo compres, estas son las preguntas que te ahorran problemas:\n¿Está aprobado por ANMAT? Es la autorización para que el equipo se comercialice en Argentina.\n¿Quién responde la garantía en el país y por cuánto tiempo? Un equipo sin garantía local queda sin respaldo ante la primera falla.\n¿Te lo entregan configurado con la presión que indicó tu médico, o lo tenés que programar vos?\n¿El precio incluye humidificador y máscara, y de qué talle?\n¿Vas a conseguir repuestos (filtros, máscaras, tubuladuras) acá?\n¿Te dan factura? La vas a necesitar si querés pedir el reintegro a tu obra social o prepaga.\nSi es usado: ¿cuántas horas de uso tiene y quién lo revisó? Un equipo con muchas horas o sin mantenimiento puede no entregar la presión que necesitás.\n\nEn INSER los equipos tienen aprobación de ANMAT y 2 años de garantía oficial, llegan configurados según tu indicación médica y te damos factura oficial.',
+            },
+            {
+                title: 'Obra social y prepaga: cómo pedir el reintegro',
+                content: 'Trabajamos de forma particular: no facturamos directo a la obra social ni a la prepaga. Lo que sí hacemos es darte lo que necesitás para gestionar el reintegro.\n1. Pedile a tu médico la indicación del equipo (tipo de equipo y presión) con tu estudio del sueño.\n2. Pedinos un presupuesto formal con esa indicación.\n3. Presentá el presupuesto en tu obra social o prepaga y consultá qué parte cubre y qué documentación te piden.\n4. Cuando comprás, te entregamos factura oficial para completar el trámite.\n\nQué cubre y en qué plazos depende de cada obra social y de tu plan: confirmalo siempre con ellos antes de comprar.',
             },
             {
                 title: 'Garantía, ANMAT y respaldo',
@@ -625,6 +642,8 @@ export const localPages = [
                 q: '¿Cuánto sale un AutoCPAP?',
                 a: 'El AutoCPAP BMC G2S con humidificador sale $630.000, con envío sin cargo a todo el país (oferta vigente) y 2 años de garantía oficial. También tenemos el AutoCPAP ResMed AirSense 10 con conectividad. Escribinos por WhatsApp y te pasamos disponibilidad y formas de pago.',
             },
+            { q: '¿Puedo pagar el CPAP en cuotas?', a: 'Sí, en cuotas fijas con Banco Galicia: 3 cuotas con 15% de recargo, 6 cuotas con 24% o 9 cuotas con 39%, con el recargo ya incluido en la cuota. Por ejemplo, el CPAP BMC G2S de $499.000 queda en 6 cuotas de unos $103.127.' },
+            { q: '¿La obra social cubre el CPAP?', a: 'Depende de tu obra social o prepaga y de tu plan. Nosotros vendemos de forma particular y te damos presupuesto formal y factura oficial para que pidas el reintegro. Antes de comprar, consultá con ellos qué parte cubren y qué documentación te piden.' },
             { q: '¿Envían CPAP a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina (Buenos Aires, Rosario, Salta, etc.). Coordinamos el envío por WhatsApp.' },
             { q: '¿Cuánto cuesta un CPAP en Argentina?', a: 'En INSER el CPAP arranca en $499.000 (CPAP BMC G2S con humidificador). El AutoCPAP BMC G2S con humidificador sale $630.000 y el ResMed AirSense 10 $974.000. Por la oferta vigente, el CPAP y el AutoCPAP BMC G2S se envían sin cargo a todo el país. Confirmá disponibilidad por WhatsApp.' },
             { q: '¿Cuánto sale un CPAP para la apnea del sueño?', a: 'El equipo que se usa para tratar la apnea del sueño es el CPAP o el AutoCPAP: en nuestro catálogo van de $499.000 (CPAP BMC G2S) a $974.000 (ResMed AirSense 10), y el AutoCPAP BMC G2S sale $630.000. Cuál te corresponde y con qué presión lo define tu médico a partir de tu estudio de sueño; nosotros te lo entregamos configurado según esa indicación.' },
