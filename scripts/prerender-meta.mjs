@@ -907,7 +907,7 @@ function buildLocalBody(p) {
     return `<div id="ssr-content"><main>
 <nav><a href="/">Inicio</a> › <span>${esc(p.h1)}</span></nav>
 <h1>${esc(p.h1)}</h1>
-<p>${inlineLinks(esc(p.intro))}</p>
+${p.heroImg ? `<p>${imgTag(p.heroImg, p.h1)}</p>\n` : ''}<p>${inlineLinks(esc(p.intro))}</p>
 <p>Aparatología aprobada por ANMAT · ${p.national ? 'Envío a todo el país' : 'Entrega a domicilio en el día en Córdoba'}${p.garantia ? ' · ' + esc(p.garantia) : ''} · +500 pacientes.</p>
 ${secs}
 ${prods}
@@ -1078,7 +1078,8 @@ try {
         // El home va sin imagenes a proposito: su HTML estatico no tiene <img>.
         const escXml = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
             .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-        const imgs = (lista) => lista.slice(0, 20).map((it) =>
+        // Sin repetidas: la portada suele ser tambien una foto de producto de la misma pagina.
+        const imgs = (lista) => lista.filter((it, i) => lista.findIndex((o) => o.img === it.img) === i).slice(0, 20).map((it) =>
             `    <image:image>\n      <image:loc>${escXml(SALUD + it.img)}</image:loc>\n      <image:title>${escXml(it.name)}</image:title>\n    </image:image>`
         ).join('\n');
         const u = (loc, priority, lista) => {
@@ -1088,6 +1089,8 @@ try {
         const items = [
             u(`${SALUD}/`, '1.0'),
             ...localPages.map((p) => u(`${SALUD}/${p.slug}`, '0.9', [
+                // Foto de portada (heroImg): tambien va en el HTML estatico, despues del <h1>.
+                ...(p.heroImg ? [{ img: p.heroImg, name: p.h1 }] : []),
                 ...(p.sections || []).filter((s) => s.img).map((s) => ({ img: s.img.src, name: s.img.alt })),
                 ...productosLanding(p),
             ])),
