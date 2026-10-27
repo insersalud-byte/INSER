@@ -73,6 +73,7 @@ const LocalPage = ({ slug }) => {
         trustItem: { display: 'inline-flex', alignItems: 'center', gap: '0.4rem' },
         section: { maxWidth: 860, margin: '0 auto', padding: '1.5rem 1rem' },
         h2: { fontSize: '1.35rem', color: '#0f172a', margin: '1.5rem 0 0.6rem' },
+        secImg: { display: 'block', width: '100%', height: 'auto', aspectRatio: '3 / 2', objectFit: 'cover', borderRadius: '1rem', margin: '0.4rem 0 1rem', boxShadow: '0 8px 24px rgba(30,64,175,0.10)', background: '#e2e8f0' },
         p: { fontSize: '1rem', lineHeight: 1.7, color: '#334155', margin: '0 0 0.8rem', whiteSpace: 'pre-line' },
         prodList: { listStyle: 'none', padding: 0, margin: '0.5rem 0', display: 'grid', gap: '0.5rem' },
         prodItem: { display: 'flex', justifyContent: 'space-between', gap: '1rem', background: '#fff', border: '1px solid #e8eef6', borderRadius: '0.6rem', padding: '0.7rem 0.9rem', fontSize: '0.95rem' },
@@ -143,6 +144,12 @@ const LocalPage = ({ slug }) => {
                 {data.sections.map((s, i) => (
                     <section key={i}>
                         <h2 style={c.h2}>{s.title}</h2>
+                        {/* Foto opcional por seccion (img: { src, alt }). Va entre el titulo y el texto. */}
+                        {s.img && (
+                            <img src={s.img.src} alt={s.img.alt} loading="lazy" decoding="async"
+                                width={1200} height={800} style={c.secImg}
+                                onError={(e) => { e.target.style.display = 'none'; }} />
+                        )}
                         <p style={c.p}>{conEnlaces(s.content)}</p>
                     </section>
                 ))}

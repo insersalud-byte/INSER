@@ -27,6 +27,7 @@ export const config = {
         '/alquiler-concentrador-oxigeno-cordoba',
         '/comprar-cpap-cordoba',
         '/estudio-del-sueno-cordoba',
+        '/oximetria-nocturna-cordoba',
         '/bipap-cordoba',
         '/oxigeno-a-domicilio-cordoba',
         '/concentrador-oxigeno-portatil-cordoba',

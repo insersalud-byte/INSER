@@ -123,6 +123,7 @@ const LOCAL_LINKS = [
     ['/alquiler-concentrador-oxigeno-cordoba', 'Alquiler de concentrador de oxígeno en Córdoba'],
     ['/concentrador-oxigeno-portatil-cordoba', 'Concentrador de oxígeno portátil en Córdoba'],
     ['/estudio-del-sueno-cordoba', 'Estudio del sueño a domicilio en Córdoba'],
+    ['/oximetria-nocturna-cordoba', 'Oximetría nocturna a domicilio en Córdoba'],
     ['/comprar-cpap-argentina', 'Comprar CPAP en Argentina (envío a todo el país)'],
     ['/comprar-bipap-argentina', 'Precio de BiPAP y compra con envío a todo el país'],
     ['/comprar-concentrador-oxigeno-argentina', 'Comprar concentrador de oxígeno en Argentina (envío)'],
@@ -887,8 +888,9 @@ function staticPageMeta(html, path) {
 }
 
 function buildLocalBody(p) {
+    // Foto opcional por seccion (img: { src, alt }), igual que LocalPage.jsx.
     const secs = (p.sections || []).map(s =>
-        `<section><h2>${esc(s.title)}</h2>${textToHtml(s.content)}</section>`
+        `<section><h2>${esc(s.title)}</h2>${s.img ? `<p>${imgTag(s.img.src, s.img.alt)}</p>` : ''}${textToHtml(s.content)}</section>`
     ).join('\n');
     // Foto real por producto. La imagen NO depende del precio: una landing cuyos
     // equipos se cotizan ("consultar") igual tiene que mostrar el equipo.
@@ -1083,7 +1085,10 @@ try {
         };
         const items = [
             u(`${SALUD}/`, '1.0'),
-            ...localPages.map((p) => u(`${SALUD}/${p.slug}`, '0.9', productosLanding(p))),
+            ...localPages.map((p) => u(`${SALUD}/${p.slug}`, '0.9', [
+                ...(p.sections || []).filter((s) => s.img).map((s) => ({ img: s.img.src, name: s.img.alt })),
+                ...productosLanding(p),
+            ])),
             ...pathologies.map((p) => u(`${SALUD}/patologia/${p.slug}`, '0.8', productosPatologia(p))),
             u(`${SALUD}/tarjeta`, '0.3'),
             u(`${SALUD}/politica-de-privacidad`, '0.2'),
