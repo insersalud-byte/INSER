@@ -22,14 +22,14 @@ const WhatsAppFloat = () => {
             title="Escribinos por WhatsApp"
             style={{
                 position: 'fixed',
-                bottom: '1.5rem',
-                left: '1.5rem',
+                bottom: '1rem',
+                left: '1rem',
                 zIndex: 45,
                 width: 56,
                 height: 56,
                 borderRadius: '50%',
-                background: '#25d366',
-                boxShadow: '0 6px 18px rgba(37,211,102,0.45)',
+                background: '#108043',
+                boxShadow: '0 6px 18px rgba(16, 128, 67, 0.45)',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',

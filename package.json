@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node scripts/gen-local-index.mjs && vite",
     "server": "node server/index.js",
     "dev:full": "concurrently \"node server/index.js\" \"vite\"",
-    "build": "vite build && node scripts/prerender-meta.mjs",
+    "build": "node scripts/gen-local-index.mjs && vite build && node scripts/prerender-meta.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },

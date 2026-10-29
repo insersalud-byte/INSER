@@ -11,7 +11,7 @@ import {
 import LeadForm from '../../components/LeadForm';
 import css from './LandingPage.module.css';
 import { productGalleries } from './productGalleries';
-import { localPages } from '../seo/localPages';
+import { localPagesIndex } from '../seo/localPagesIndex';
 
 import { webp } from '../../utils/webp';
 // Resuelve la galería de imágenes de un producto.
@@ -1444,7 +1444,7 @@ const LandingPage = () => {
             <nav className={css.navbar}>
                 <div className={css.navContent}>
                     <div className={css.logo}>
-                        <img src={webp('/artifacts/logo_insersalud.jpg')} alt="Inser Salud" className={css.logoImg} width="400" height="400" />
+                        <img src="/artifacts/logo_insersalud_160.webp" alt="Inser Salud" className={css.logoImg} width="160" height="160" />
                     </div>
 
                     {/* Desktop links */}
@@ -1546,7 +1546,7 @@ const LandingPage = () => {
 
                 <div className={css.heroImageContainer}>
                     <div className={css.heroFloatCard}>
-                        <img src={webp('/artifacts/santi_real.jpg')} alt="Santi" className={css.santiMini} width="400" height="601"
+                        <img src="/artifacts/santi_avatar.webp" alt="Santi" className={css.santiMini} width="144" height="144"
                             onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff'; }} />
                         <div>
                             <strong>Santi está en línea</strong>
@@ -2000,12 +2000,13 @@ const LandingPage = () => {
                                 <button
                                     className={css.productImgContainer}
                                     onClick={() => setSpecsProduct(p)}
-                                    aria-label={`Ver galería de ${p.name}`}
+                                    aria-label={`Ver galería de ${p.name}${gCount > 1 ? ` (${gCount} fotos)` : ''}`}
                                 >
                                     <img src={webp(p.img)} alt={p.name} loading="lazy" decoding="async" />
-                                    {gCount > 1 && <span className={css.galleryCountBadge}>📸 {gCount}</span>}
+                                    {gCount > 1 && <span className={css.galleryCountBadge} data-fotos={`📸 ${gCount}`} aria-hidden="true" />}
                                 </button>
-                                <h4>{p.name}</h4>
+                                {/* h3: la seccion de ofertas arranca en h2 (antes h4 salteaba un nivel) */}
+                                <h3>{p.name}</h3>
                                 <Precio valor={p.price} className={css.priceTag} />
                                 {p.note && <p className={css.productNote}>{p.note}</p>}
                                 <div className={css.productCardBtns}>
@@ -2052,8 +2053,8 @@ const LandingPage = () => {
                         if (!items.length) return null;
                         return (
                             <div key={key} className={css.categoryGroup}>
-                                <div className={css.categoryGroupTitle}>
-                                    <span className={css.categoryGroupEmoji}>{emoji}</span>
+                                <div className={css.categoryGroupTitle} role="heading" aria-level={3}>
+                                    <span className={css.categoryGroupEmoji} aria-hidden="true">{emoji}</span>
                                     {label}
                                 </div>
                                 <div className={css.productsGrid}>
@@ -2064,7 +2065,7 @@ const LandingPage = () => {
                                             {p.badge && <span className={css.cardBadge}>{p.badge}</span>}
                                             <button className={css.productImgContainer} onClick={() => setSpecsProduct(p)}>
                                                 <img src={webp(p.img)} alt={p.name} loading="lazy" decoding="async" />
-                                                {gCount > 1 && <span className={css.galleryCountBadge}>📸 {gCount}</span>}
+                                                {gCount > 1 && <span className={css.galleryCountBadge} data-fotos={`📸 ${gCount}`} aria-hidden="true" />}
                                             </button>
                                             <h4>{p.name}</h4>
                                             <Precio valor={p.price} className={css.priceTag} />
@@ -2304,7 +2305,7 @@ const LandingPage = () => {
                         <a
                             href={`https://wa.me/5493512065320?text=${encodeURIComponent('Hola, quiero saber cómo gestionar el reintegro con mi obra social por un equipo.')}`}
                             target="_blank" rel="noopener noreferrer"
-                            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#25d366', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.85rem 1.4rem', borderRadius: '0.7rem', fontSize: '1rem' }}
+                            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: '#108043', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.85rem 1.4rem', borderRadius: '0.7rem', fontSize: '1rem' }}
                         >
                             <MessageCircle size={18} /> Consultar por mi obra social
                         </a>
@@ -2402,7 +2403,7 @@ const LandingPage = () => {
                     {/* Enlaces internos reales (<a href>) para crawlers: guias/landing y patologias */}
                     <div className={css.footerContact}>
                         <strong>Comprar y alquilar</strong>
-                        {localPages.map((p) => (
+                        {localPagesIndex.map((p) => (
                             <Link key={p.slug} to={`/${p.slug}`}>{p.h1}</Link>
                         ))}
                     </div>

@@ -247,7 +247,7 @@ export default function LeadForm({ contexto = 'Home', sinTitulo = false, conImag
                     gap: '0.5rem', padding: '0.7rem 0.9rem', fontSize: '0.95rem', fontFamily: 'inherit',
                     textAlign: 'left', cursor: 'pointer',
                     background: '#fff',
-                    color: equipos.length ? '#1e40af' : '#94a3b8',
+                    color: equipos.length ? '#1e40af' : '#64748b',
                     fontWeight: equipos.length ? 600 : 400,
                     border: `1.5px solid ${equipos.length ? '#93c5fd' : '#e2e8f0'}`,
                     borderRadius: '0.6rem',

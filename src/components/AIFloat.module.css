@@ -444,22 +444,28 @@
         border-radius: 1.5rem 1.5rem 0 0;
     }
 
-    /* En celular el avatar va ARRIBA, al lado del logo (fijo en la barra),
-       para no tapar el contenido que se esta leyendo */
+    /* En celular el avatar va ABAJO A LA DERECHA, espejado con el boton de WhatsApp
+       (abajo a la izquierda). Antes iba fijo arriba (top 20px, left 104px) y en las
+       paginas de patologia y en las landings tapaba el boton "Llamar" de la barra. */
     .fabContainer {
-        top: 20px;
-        left: 104px;
-        bottom: auto;
-        right: auto;
+        top: auto;
+        left: auto;
+        bottom: 1rem;
+        right: 1rem;
         flex-direction: row;
         align-items: center;
         z-index: 1001;
     }
 
     .avatarBtn {
-        width: 52px;
-        height: 52px;
+        width: 56px;
+        height: 56px;
         border-width: 2px;
+    }
+
+    /* Sin escalado al tocar: en touch el :hover queda "pegado" despues del tap */
+    .fabContainer:hover .avatarBtn {
+        transform: none;
     }
 
     .tooltip {

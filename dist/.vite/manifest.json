@@ -1,0 +1,194 @@
+{
+  "_AuthContext-CalOvEUH.js": {
+    "file": "assets/AuthContext-CalOvEUH.js",
+    "name": "AuthContext",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js"
+    ]
+  },
+  "_Input-!~{00d}~.js": {
+    "file": "assets/Input-BvNw3G50.css",
+    "src": "_Input-!~{00d}~.js"
+  },
+  "_Input-CicgavWh.js": {
+    "file": "assets/Input-CicgavWh.js",
+    "name": "Input",
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js"
+    ],
+    "css": [
+      "assets/Input-BvNw3G50.css"
+    ]
+  },
+  "_LeadForm-BGDG6yb2.js": {
+    "file": "assets/LeadForm-BGDG6yb2.js",
+    "name": "LeadForm",
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js",
+      "_icons-DqSsfwmA.js"
+    ]
+  },
+  "_LoginPage.module-!~{00e}~.js": {
+    "file": "assets/LoginPage-CV3FPwGD.css",
+    "src": "_LoginPage.module-!~{00e}~.js"
+  },
+  "_LoginPage.module-ymDCP2nB.js": {
+    "file": "assets/LoginPage.module-ymDCP2nB.js",
+    "name": "LoginPage.module",
+    "css": [
+      "assets/LoginPage-CV3FPwGD.css"
+    ]
+  },
+  "_icons-DqSsfwmA.js": {
+    "file": "assets/icons-DqSsfwmA.js",
+    "name": "icons",
+    "imports": [
+      "_react-vendor-BRAUxTbQ.js"
+    ]
+  },
+  "_react-vendor-BRAUxTbQ.js": {
+    "file": "assets/react-vendor-BRAUxTbQ.js",
+    "name": "react-vendor"
+  },
+  "_supabase-l0sNRNKZ.js": {
+    "file": "assets/supabase-l0sNRNKZ.js",
+    "name": "supabase"
+  },
+  "_useSEO-B3GZYNKT.js": {
+    "file": "assets/useSEO-B3GZYNKT.js",
+    "name": "useSEO",
+    "imports": [
+      "_react-vendor-BRAUxTbQ.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-BUwCw6UR.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_react-vendor-BRAUxTbQ.js",
+      "_icons-DqSsfwmA.js"
+    ],
+    "dynamicImports": [
+      "src/features/landing/LandingPage.jsx",
+      "src/features/pathologies/PathologyPage.jsx",
+      "src/features/seo/LocalPage.jsx",
+      "src/features/inquiries/ChatAI.jsx",
+      "src/features/auth/LoginPage.jsx",
+      "src/features/admin/AdminPanel.jsx",
+      "src/features/admin/AdminLoginPage.jsx",
+      "_AuthContext-CalOvEUH.js"
+    ],
+    "css": [
+      "assets/index-p4koK025.css"
+    ]
+  },
+  "src/features/admin/AdminLoginPage.jsx": {
+    "file": "assets/AdminLoginPage-Ap1-aE-E.js",
+    "name": "AdminLoginPage",
+    "src": "src/features/admin/AdminLoginPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js",
+      "_AuthContext-CalOvEUH.js",
+      "_Input-CicgavWh.js",
+      "_LoginPage.module-ymDCP2nB.js",
+      "_icons-DqSsfwmA.js"
+    ]
+  },
+  "src/features/admin/AdminPanel.jsx": {
+    "file": "assets/AdminPanel-CXKauLqD.js",
+    "name": "AdminPanel",
+    "src": "src/features/admin/AdminPanel.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js",
+      "_AuthContext-CalOvEUH.js",
+      "_Input-CicgavWh.js",
+      "_icons-DqSsfwmA.js"
+    ],
+    "css": [
+      "assets/AdminPanel-BAPlLUKS.css"
+    ]
+  },
+  "src/features/auth/LoginPage.jsx": {
+    "file": "assets/LoginPage-BCEAorbU.js",
+    "name": "LoginPage",
+    "src": "src/features/auth/LoginPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js",
+      "_AuthContext-CalOvEUH.js",
+      "_Input-CicgavWh.js",
+      "_LoginPage.module-ymDCP2nB.js",
+      "_icons-DqSsfwmA.js"
+    ]
+  },
+  "src/features/inquiries/ChatAI.jsx": {
+    "file": "assets/ChatAI-DCK16Rkv.js",
+    "name": "ChatAI",
+    "src": "src/features/inquiries/ChatAI.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js",
+      "_AuthContext-CalOvEUH.js",
+      "_icons-DqSsfwmA.js"
+    ],
+    "css": [
+      "assets/ChatAI-jv9Rfxd-.css"
+    ]
+  },
+  "src/features/landing/LandingPage.jsx": {
+    "file": "assets/LandingPage-B0LYZnYg.js",
+    "name": "LandingPage",
+    "src": "src/features/landing/LandingPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js",
+      "_LeadForm-BGDG6yb2.js",
+      "_icons-DqSsfwmA.js"
+    ],
+    "css": [
+      "assets/LandingPage-C1JUhIMQ.css"
+    ]
+  },
+  "src/features/pathologies/PathologyPage.jsx": {
+    "file": "assets/PathologyPage-ZfG9jRAa.js",
+    "name": "PathologyPage",
+    "src": "src/features/pathologies/PathologyPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js",
+      "_useSEO-B3GZYNKT.js",
+      "_LeadForm-BGDG6yb2.js",
+      "_icons-DqSsfwmA.js"
+    ],
+    "css": [
+      "assets/PathologyPage-BETiPglR.css"
+    ]
+  },
+  "src/features/seo/LocalPage.jsx": {
+    "file": "assets/LocalPage-B_fWjyTG.js",
+    "name": "LocalPage",
+    "src": "src/features/seo/LocalPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_react-vendor-BRAUxTbQ.js",
+      "_useSEO-B3GZYNKT.js",
+      "_LeadForm-BGDG6yb2.js",
+      "_icons-DqSsfwmA.js"
+    ]
+  }
+}

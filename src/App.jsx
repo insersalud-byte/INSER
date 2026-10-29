@@ -1,9 +1,9 @@
 import { lazy, Suspense, useEffect, useRef } from 'react';
 import { Routes, Route, Navigate, useLocation, Outlet } from 'react-router-dom';
-import LandingPage from './features/landing/LandingPage';
-import PathologyPage from './features/pathologies/PathologyPage';
-import LocalPage from './features/seo/LocalPage';
-import { localPages } from './features/seo/localPages';
+// Paginas publicas en chunks separados (ver routes.js): main.jsx precarga la de la URL
+// actual antes del primer render, asi el HTML prerenderizado no parpadea.
+import { LandingPage, PathologyPage, LocalPage } from './routes';
+import { localPagesIndex } from './features/seo/localPagesIndex';
 import AIFloat from './components/AIFloat';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import ScrollToTop from './components/ScrollToTop';
@@ -86,7 +86,7 @@ function App() {
         <Route path="/patologia/:slug" element={<PathologyPage />} />
 
         {/* Landing pages SEO locales (alta intención, Córdoba) */}
-        {localPages.map((p) => (
+        {localPagesIndex.map((p) => (
           <Route key={p.slug} path={`/${p.slug}`} element={<LocalPage slug={p.slug} />} />
         ))}
 

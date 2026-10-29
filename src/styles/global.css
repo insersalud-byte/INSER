@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+/* (Se quito el @import de Google Fonts "Outfit": ninguna regla usaba esa fuente y era una
+   hoja externa que bloqueaba el primer pintado en celular. La tipografia sale de --font-sans.) */
 @import './variables.css';
 
 * {

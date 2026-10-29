@@ -6,6 +6,8 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   build: {
     chunkSizeWarningLimit: 900,
+    // manifest: lo lee scripts/prerender-meta.mjs para precargar el chunk de cada pagina
+    manifest: true,
     rollupOptions: {
       output: {
         // Separar vendors pesados en chunks propios: mejor cacheo y descarga
@@ -32,6 +34,9 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      // registerSW.js con defer: antes era un <script> sincronico en el <head> que frenaba
+      // el primer pintado. El service worker no hace falta para mostrar la pagina.
+      injectRegister: 'script-defer',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       workbox: {
         // /tarjeta es una página estática fuera de la SPA: sin esto el SW la tapa con el shell de React

@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom';
 import { Send, X, MessageCircle, ExternalLink } from 'lucide-react';
 import css from './AIFloat.module.css';
 
-import { webp } from '../utils/webp';
 const QUICK_CHIPS = [
     'Quiero un CPAP',
     '¿Qué es la apnea del sueño?',
@@ -169,10 +168,10 @@ const AIFloat = () => {
                         <div className={css.headerInfo}>
                             <div className={css.headerAvatar}>
                                 <img
-                                    src={webp('/artifacts/santi_real.jpg')}
+                                    src="/artifacts/santi_avatar.webp"
                                     alt="Santi"
-                                    width={400}
-                                    height={601}
+                                    width={144}
+                                    height={144}
                                     onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi&background=1e40af&color=fff'; }}
                                 />
                                 <span className={css.onlineDotHeader}></span>
@@ -205,11 +204,11 @@ const AIFloat = () => {
                             <div key={msg.id} className={`${css.message} ${css[msg.type]}`} data-msg-type={msg.type}>
                                 {msg.type === 'bot' && (
                                     <img
-                                        src={webp('/artifacts/santi_real.jpg')}
+                                        src="/artifacts/santi_avatar.webp"
                                         className={css.botAvatar}
                                         alt="Santi"
-                                        width={400}
-                                        height={601}
+                                        width={144}
+                                        height={144}
                                         onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=S&background=1e40af&color=fff'; }}
                                     />
                                 )}
@@ -218,7 +217,7 @@ const AIFloat = () => {
                         ))}
                         {isTyping && (
                             <div className={`${css.message} ${css.bot}`}>
-                                <img src={webp('/artifacts/santi_real.jpg')} className={css.botAvatar} alt="Santi" width={400} height={601} onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=S&background=1e40af&color=fff'; }} />
+                                <img src="/artifacts/santi_avatar.webp" className={css.botAvatar} alt="Santi" width={144} height={144} onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=S&background=1e40af&color=fff'; }} />
                                 <div className={`${css.bubble} ${css.typingBubble}`}>
                                     <span></span><span></span><span></span>
                                 </div>
@@ -276,10 +275,10 @@ const AIFloat = () => {
                 <div className={css.avatarBtn}>
                     <span className={css.onlineDot}></span>
                     <img
-                        src={webp('/artifacts/santi_real.jpg')}
+                        src="/artifacts/santi_avatar.webp"
                         alt="Santi IA"
-                        width={400}
-                        height={601}
+                        width={144}
+                        height={144}
                         onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Santi+IA&background=1e40af&color=fff'; }}
                     />
                 </div>

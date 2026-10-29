@@ -281,6 +281,33 @@ function imgTag(src, alt) {
     return `<img src="${attr(src)}" alt="${attr(alt)}"${dim} loading="lazy" decoding="async">`;
 }
 
+// Ruta de la copia .webp de una foto de /artifacts si existe (la misma que muestra la app
+// via utils/webp.js), o null.
+function webpDe(src) {
+    if (!src || !/\.(jpe?g|png)$/i.test(src)) return null;
+    const w = src.replace(/\.(jpe?g|png)$/i, '.webp');
+    return existsSync(resolve(__dirname, '..', 'public', w.replace(/^\//, ''))) ? w : null;
+}
+
+// Foto de portada (LCP en celular): <picture> con la .webp que despues muestra React, asi
+// el navegador la baja UNA sola vez y con prioridad alta. El <img> sigue apuntando al JPG
+// (el mismo que figura en el sitemap de imagenes) para buscadores y crawlers.
+function heroTag(src, alt) {
+    if (!src) return '';
+    const d = imageSize(src);
+    const dim = d ? ` width="${d.w}" height="${d.h}"` : '';
+    const w = webpDe(src);
+    const img = `<img src="${attr(src)}" alt="${attr(alt)}"${dim} fetchpriority="high" decoding="async">`;
+    return w ? `<picture><source type="image/webp" srcset="${attr(w)}">${img}</picture>` : img;
+}
+
+// Precarga de la foto de portada en el <head>: sin esto el navegador recien la descubre
+// cuando llega al <body>, despues de bajar el CSS.
+function heroPreload(src) {
+    const w = webpDe(src) || src;
+    return w ? `  <link rel="preload" as="image" href="${attr(w)}" fetchpriority="high" />\n` : '';
+}
+
 // Convierte el precio VISIBLE de la pagina en price + priceCurrency.
 // Solo un precio limpio genera Offer: "consultar", "consultar alquiler",
 // "desde U$S 97" y cualquier rango devuelven null. Un precio en el schema que no
@@ -488,6 +515,42 @@ function applyMeta(tpl, { title, desc, url }) {
 }
 
 // Inyecta contenido real dentro de <div id="root"> (React lo reemplaza al montar)
+// Precarga del chunk de la pagina (JS + CSS) que App.jsx carga en diferido (src/routes.js).
+// Sin estas pistas el navegador recien pide el chunk cuando termina de ejecutar el bundle
+// principal (cascada). Lee el manifest de Vite; si no esta, no agrega nada.
+const RUTA_CHUNK = {
+    landing: 'src/features/landing/LandingPage.jsx',
+    patologia: 'src/features/pathologies/PathologyPage.jsx',
+    local: 'src/features/seo/LocalPage.jsx',
+};
+let _manifest;
+function viteManifest() {
+    if (_manifest !== undefined) return _manifest;
+    try { _manifest = JSON.parse(readFileSync(resolve(DIST, '.vite', 'manifest.json'), 'utf8')); }
+    catch { _manifest = null; }
+    return _manifest;
+}
+function withRouteHints(html, tipo) {
+    const m = viteManifest();
+    const raiz = m && m[RUTA_CHUNK[tipo]];
+    if (!raiz) return html;
+    const js = new Set(), css = new Set(), vistos = new Set();
+    const recorrer = (clave) => {
+        const e = m[clave];
+        if (!e || vistos.has(clave) || e.isEntry) return;
+        vistos.add(clave);
+        js.add(e.file);
+        (e.css || []).forEach((c) => css.add(c));
+        (e.imports || []).forEach(recorrer);
+    };
+    recorrer(RUTA_CHUNK[tipo]);
+    const yaEsta = (f) => html.includes(`href="/${f}"`); // vendors que Vite ya precarga
+    const links = [...js].filter((f) => !yaEsta(f)).map((f) => `  <link rel="modulepreload" crossorigin href="/${attr(f)}" />`)
+        .concat([...css].map((f) => `  <link rel="preload" as="style" href="/${attr(f)}" />`))
+        .join('\n');
+    return links ? html.replace('</head>', links + '\n</head>') : html;
+}
+
 function injectBody(html, contentHtml) {
     return html.replace(/<div id="root">\s*<\/div>/, `<div id="root">${contentHtml}</div>`);
 }
@@ -907,7 +970,7 @@ function buildLocalBody(p) {
     return `<div id="ssr-content"><main>
 <nav><a href="/">Inicio</a> › <span>${esc(p.h1)}</span></nav>
 <h1>${esc(p.h1)}</h1>
-${p.heroImg ? `<p>${imgTag(p.heroImg, p.h1)}</p>\n` : ''}<p>${inlineLinks(esc(p.intro))}</p>
+${p.heroImg ? `<p>${heroTag(p.heroImg, p.h1)}</p>\n` : ''}<p>${inlineLinks(esc(p.intro))}</p>
 <p>Aparatología aprobada por ANMAT · ${p.national ? 'Envío a todo el país' : 'Entrega a domicilio en el día en Córdoba'}${p.garantia ? ' · ' + esc(p.garantia) : ''} · +500 pacientes.</p>
 ${secs}
 ${prods}
@@ -996,10 +1059,10 @@ try {
     // dist/index.html: ademas de la variante inser.ar (dormida, el dominio redirige 308), este archivo
     // es el que Vercel sirve como fallback para CUALQUIER URL inexistente. Por eso su canonical debe
     // apuntar a insersalud.com: asi los soft-404 se consolidan en el home real y no en un dominio que redirige.
-    write(DIST, withMdLink(injectBody(applyMeta(tpl, { ...INSER_HOME, url: SALUD + '/' }), buildHomeBody('inser')), '/index.md'));
+    write(DIST, withRouteHints(withMdLink(injectBody(applyMeta(tpl, { ...INSER_HOME, url: SALUD + '/' }), buildHomeBody('inser')), '/index.md'), 'landing'));
     count++;
     // HOME insersalud.com
-    write(resolve(DIST, 'insersalud'), withMdLink(injectBody(applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }), buildHomeBody('salud')), '/index.md'));
+    write(resolve(DIST, 'insersalud'), withRouteHints(withMdLink(injectBody(applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }), buildHomeBody('salud')), '/index.md'), 'landing'));
     count++;
 
     // Markdown por pagina (solo la variante que se sirve, insersalud.com) + acumulado para llms-full.txt
@@ -1022,7 +1085,7 @@ try {
         h = h.replace('</head>', buildPathologySchema(p, base) + '</head>'); // schema medico propio
         h = injectBody(h, buildPathologyBody(p, isSalud)); // contenido real
         h = withMdLink(h, `/patologia/${p.slug}.md`);
-        return h;
+        return withRouteHints(h, 'patologia');
     };
     for (const p of pathologies) {
         const baseTitle = p.metaTitle || `${p.title} | INSER SALUD`;
@@ -1043,10 +1106,10 @@ try {
         h = removeLdBlock(h, 'BreadcrumbList');   // quitar breadcrumb generico del home
         h = removeLdBlock(h, 'FAQPage');          // reemplazar FAQ del home por la de la pagina
         h = stripOfferCatalog(h);                 // el catalogo de 45 productos va solo en el home
-        h = h.replace('</head>', buildLocalSchema(p, base) + '</head>');
+        h = h.replace('</head>', buildLocalSchema(p, base) + (p.heroImg ? heroPreload(p.heroImg) : '') + '</head>');
         h = injectBody(h, buildLocalBody(p));
         h = withMdLink(h, `/${p.slug}.md`);
-        return h;
+        return withRouteHints(h, 'local');
     };
     for (const p of localPages) {
         // inser.ar

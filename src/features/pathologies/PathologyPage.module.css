@@ -76,7 +76,7 @@
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    background: #25d366;
+    background: #108043;
     color: white;
     padding: 0.5rem 1.1rem;
     border-radius: 2rem;
@@ -87,8 +87,17 @@
 }
 
 .waBtn:hover {
-    background: #1da954;
+    background: #0b6b37;
     transform: translateY(-1px);
+}
+
+/* En celular no entran logo + "Inicio" + Llamar + WhatsApp: el boton de WhatsApp quedaba
+   cortado fuera de la pantalla. El logo y la miga de pan ya llevan al inicio. */
+@media (max-width: 560px) {
+    .navInner { padding: 0.6rem 1rem; }
+    .navLogo img { height: 44px; }
+    .navActions { gap: 0.5rem; }
+    .backBtn { display: none; }
 }
 
 /* ── Hero ──────────────────────────────────────────────────────── */
@@ -167,8 +176,8 @@
     align-items: center;
     gap: 0.4rem;
     background: white;
-    border: 2px solid #25d366;
-    color: #1da954;
+    border: 2px solid #108043;
+    color: #108043;
     padding: 0.9rem 1.5rem;
     border-radius: 0.75rem;
     font-size: 0.95rem;
@@ -178,7 +187,7 @@
 }
 
 .ctaWa:hover {
-    background: #25d366;
+    background: #108043;
     color: white;
     transform: translateY(-2px);
 }
@@ -357,6 +366,8 @@
     line-height: 1;
     letter-spacing: -2px;
 }
+/* Numero decorativo (01, 02...) como contenido CSS: es un adorno de color muy claro, no texto */
+.infoNum::before { content: attr(data-num); }
 
 .infoCard h3 {
     font-size: 1.1rem;
@@ -475,7 +486,7 @@
     position: absolute;
     top: 0.85rem;
     right: 0.85rem;
-    background: var(--color-accent);
+    background: #0369a1; /* celeste oscuro: el texto blanco chico necesita 4.5:1 */
     color: white;
     padding: 0.15rem 0.55rem;
     border-radius: 2rem;
@@ -501,7 +512,8 @@
     padding: 0.6rem;
 }
 
-.productCard h4 {
+.productCard h4,
+.productCard h3 {
     color: white;
     font-size: 0.95rem;
     font-weight: 700;
@@ -750,7 +762,8 @@
     padding: 1.25rem 1.5rem;
 }
 
-.otherBody h4 {
+.otherBody h4,
+.otherBody h3 {
     font-size: 1rem;
     font-weight: 700;
     color: var(--color-text-main);
@@ -767,7 +780,8 @@
 .otherLink {
     font-size: 0.82rem;
     font-weight: 700;
-    color: var(--other-color, #1e40af);
+    color: #1e40af;
+    color: color-mix(in srgb, var(--other-color, #1e40af) 60%, #000);
 }
 
 /* ── Footer ────────────────────────────────────────────────────── */
@@ -784,7 +798,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
-    color: rgba(255,255,255,0.45);
+    color: rgba(255,255,255,0.72);
     font-size: 0.82rem;
 }
 
@@ -794,7 +808,7 @@
 }
 
 .footerLinks a {
-    color: rgba(255,255,255,0.55);
+    color: rgba(255,255,255,0.8);
     text-decoration: none;
     transition: color 0.2s;
 }
@@ -940,7 +954,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    background: #25d366;
+    background: #108043;
     color: white;
     padding: 0.8rem 1.25rem;
     border-radius: 0.75rem;
@@ -951,7 +965,7 @@
 }
 
 .modalBtnWa:hover {
-    background: #1da954;
+    background: #0b6b37;
     transform: translateY(-1px);
 }
 
@@ -960,8 +974,8 @@
     align-items: center;
     gap: 0.4rem;
     background: white;
-    color: #1da954;
-    border: 2px solid #25d366;
+    color: #108043;
+    border: 2px solid #108043;
     padding: 0.8rem 1.25rem;
     border-radius: 0.75rem;
     font-size: 0.9rem;
@@ -971,7 +985,7 @@
 }
 
 .modalBtnWaDirect:hover {
-    background: #25d366;
+    background: #108043;
     color: white;
 }
 
@@ -1300,7 +1314,7 @@
 }
 
 .specsBtnWa {
-    background: #25d366;
+    background: #108043;
     color: white;
     padding: 0.85rem 1rem;
     border-radius: 0.6rem;

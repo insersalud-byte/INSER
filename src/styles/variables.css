@@ -14,11 +14,16 @@
   --color-bg-main: #f8fafc;
   --color-bg-card: #ffffff;
   --color-text-main: #0f172a;
-  --color-text-muted: #64748b;
+  --color-text-muted: #475569;
 
   --color-success: #10b981;
   --color-warning: #f59e0b;
   --color-danger: #ef4444;
+
+  /* WhatsApp: verde oscurecido para que el texto blanco cumpla contraste AA (5:1).
+     El #25d366 original daba 1.98:1 sobre blanco. */
+  --color-whatsapp: #108043;
+  --color-whatsapp-hover: #0b6b37;
 
   /* Glassmorphism */
   --glass-bg: rgba(255, 255, 255, 0.8);

@@ -60,14 +60,14 @@ const LocalPage = ({ slug }) => {
         page: { fontFamily: 'inherit', color: '#0f172a', background: '#f8fafc' },
         nav: { position: 'sticky', top: 0, zIndex: 50, background: '#fff', borderBottom: '1px solid #e8eef6', boxShadow: '0 1px 8px rgba(30,64,175,0.05)' },
         navInner: { maxWidth: 1100, margin: '0 auto', padding: '0.6rem 1rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' },
-        waBtn: { display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#25d366', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.5rem 0.9rem', borderRadius: '0.6rem', fontSize: '0.9rem' },
+        waBtn: { display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#108043', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.5rem 0.9rem', borderRadius: '0.6rem', fontSize: '0.9rem' },
         hero: { maxWidth: 1100, margin: '0 auto', padding: '2rem 1rem 1rem', display: 'grid', gridTemplateColumns: '1fr', gap: '1.5rem' },
         crumb: { display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.85rem', color: '#64748b', marginBottom: '0.5rem' },
         h1: { fontSize: 'clamp(1.6rem, 4vw, 2.4rem)', lineHeight: 1.15, margin: '0 0 0.75rem', color: '#0f172a' },
         intro: { fontSize: '1.05rem', lineHeight: 1.6, color: '#334155', margin: '0 0 1.25rem', maxWidth: 760 },
         ctas: { display: 'flex', flexWrap: 'wrap', gap: '0.6rem' },
         ctaPrimary: { background: 'linear-gradient(135deg,#1e40af,#3b82f6)', color: '#fff', border: 'none', fontWeight: 700, padding: '0.8rem 1.3rem', borderRadius: '0.7rem', cursor: 'pointer', fontSize: '1rem' },
-        ctaWa: { display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#25d366', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.8rem 1.3rem', borderRadius: '0.7rem', fontSize: '1rem' },
+        ctaWa: { display: 'inline-flex', alignItems: 'center', gap: '0.4rem', background: '#108043', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.8rem 1.3rem', borderRadius: '0.7rem', fontSize: '1rem' },
         heroImg: { width: '100%', maxWidth: 640, borderRadius: '1rem', boxShadow: '0 10px 30px rgba(30,64,175,0.12)', objectFit: 'cover' },
         trust: { background: '#eff6ff', borderTop: '1px solid #dbeafe', borderBottom: '1px solid #dbeafe' },
         trustInner: { maxWidth: 1100, margin: '0 auto', padding: '0.9rem 1rem', display: 'flex', flexWrap: 'wrap', gap: '1.2rem', justifyContent: 'center', color: '#1e40af', fontWeight: 600, fontSize: '0.9rem' },
@@ -92,7 +92,7 @@ const LocalPage = ({ slug }) => {
             <nav style={c.nav}>
                 <div style={c.navInner}>
                     <Link to="/" aria-label="Inicio">
-                        <img src={webp('/artifacts/logo_insersalud.jpg')} alt="INSER SALUD" style={{ height: 38 }}
+                        <img src="/artifacts/logo_insersalud_160.webp" alt="INSER SALUD" width={160} height={160} style={{ height: 38, width: 38 }}
                             onError={(e) => { e.target.style.display = 'none'; }} />
                     </Link>
                     <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -122,7 +122,7 @@ const LocalPage = ({ slug }) => {
                     </div>
                     <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0.6rem 0 0' }}>Respondemos todos los días, también fines de semana. Santi atiende las 24 hs.</p>
                 </div>
-                <img src={webp(data.heroImg)} alt={data.h1} style={c.heroImg}
+                <img src={webp(data.heroImg)} alt={data.h1} style={c.heroImg} fetchpriority="high" decoding="async"
                     onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
             </header>
 

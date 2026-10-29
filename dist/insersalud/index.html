@@ -64,8 +64,12 @@
     })();
   </script>
 
-  <!-- ══ Google Analytics 4 ══════════════════════════════════════════════ -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV"></script>
+  <!-- ══ Google Analytics 4 ══════════════════════════════════════════════
+       gtag.js y el Pixel de Meta ya NO se descargan al abrir la pagina: se cargan con la
+       primera interaccion (toque, scroll, tecla) o 3,5 s despues de que termina de cargar.
+       Eran el JavaScript de terceros que mas demoraba la carga en celular. Los eventos que
+       ocurran antes (page_view, conversiones de Ads, Contact) quedan en cola y se envian
+       igual apenas cargan los scripts (ver cargarTerceros, mas abajo). -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -87,7 +91,8 @@
     (function () {
       // Solo en produccion: previews de Vercel y localhost no disparan el Pixel.
       if (window.META_PIXEL_ID && /(^|\.)(insersalud\.com|inser\.ar)$/.test(location.hostname)) {
-        !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        // Cola del Pixel (fbq) lista ya; el script fbevents.js lo inyecta cargarTerceros.
+        !function (f) { if (f.fbq) return; var n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; window.__fbqPendiente = true; }(window);
         fbq('init', window.META_PIXEL_ID);
         fbq('track', 'PageView');
       } else {
@@ -96,10 +101,24 @@
     })();
   </script>
 
+  <!-- Carga diferida de gtag.js (GA4 + Google Ads) y del Pixel de Meta -->
+  <script>
+    (function () {
+      var cargado = false;
+      function inyectar(src) { var t = document.createElement('script'); t.async = true; t.src = src; document.head.appendChild(t); }
+      function cargarTerceros() {
+        if (cargado) return; cargado = true;
+        ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) { removeEventListener(ev, cargarTerceros, true); });
+        inyectar('https://www.googletagmanager.com/gtag/js?id=G-XD586V0PLV');
+        if (window.__fbqPendiente) inyectar('https://connect.facebook.net/en_US/fbevents.js');
+      }
+      ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) { addEventListener(ev, cargarTerceros, { capture: true, passive: true }); });
+      function trasCarga() { setTimeout(cargarTerceros, 3500); }
+      if (document.readyState === 'complete') trasCarga(); else addEventListener('load', trasCarga, { once: true });
+    })();
+  </script>
+
   <!-- ══ Performance: Preconnect ═══════════════════════════════════════════ -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="dns-prefetch" href="https://api.openai.com" />
 
   <!-- ══ Structured Data – LocalBusiness + MedicalBusiness ════════════════ -->
   <script type="application/ld+json">{
@@ -1767,11 +1786,14 @@
   }
 }
   </script>
-  <script type="module" crossorigin src="/assets/index-De_Cw8-2.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/react-vendor-DEMrqijm.js">
-  <link rel="modulepreload" crossorigin href="/assets/icons-Dl5iaD32.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-CuRA2SvH.css">
-<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script>  <link rel="alternate" type="text/markdown" href="https://insersalud.com/index.md" />
+  <script type="module" crossorigin src="/assets/index-BUwCw6UR.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/react-vendor-BRAUxTbQ.js">
+  <link rel="modulepreload" crossorigin href="/assets/icons-DqSsfwmA.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-p4koK025.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js" defer></script>  <link rel="alternate" type="text/markdown" href="https://insersalud.com/index.md" />
+  <link rel="modulepreload" crossorigin href="/assets/LandingPage-B0LYZnYg.js" />
+  <link rel="modulepreload" crossorigin href="/assets/LeadForm-BGDG6yb2.js" />
+  <link rel="preload" as="style" href="/assets/LandingPage-C1JUhIMQ.css" />
 </head>
 
 <body>

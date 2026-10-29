@@ -299,7 +299,7 @@ const PathologyPage = () => {
             <nav className={css.navbar}>
                 <div className={css.navInner}>
                     <Link to="/" className={css.navLogo}>
-                        <img src={webp('/artifacts/logo_insersalud.jpg')} alt="Inser Salud" width={400} height={400}
+                        <img src="/artifacts/logo_insersalud_160.webp" alt="Inser Salud" width={160} height={160}
                             onError={(e) => { e.target.style.display = 'none'; }} />
                     </Link>
                     <div className={css.navActions}>
@@ -377,7 +377,7 @@ const PathologyPage = () => {
                     <div className={css.infoGrid}>
                         {data.sections.map((s, i) => (
                             <div key={i} className={css.infoCard}>
-                                <div className={css.infoNum}>{String(i + 1).padStart(2, '0')}</div>
+                                <div className={css.infoNum} data-num={String(i + 1).padStart(2, '0')} aria-hidden="true" />
                                 <h3>{s.title}</h3>
                                 <p className={css.infoPreview}>{truncate(s.content)}</p>
                                 <div className={css.infoCardBtns}>
@@ -420,7 +420,7 @@ const PathologyPage = () => {
                                     <img src={webp(p.img)} alt={p.name} loading="lazy" decoding="async" {...imgDims(p.img)}
                                         onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                                 </div>
-                                <h4>{p.name}</h4>
+                                <h3>{p.name}</h3>
                                 {p.desc && <p className={css.productDesc}>{p.desc}</p>}
                                 <div className={css.productPrice}>
                                     {p.priceARS && <span className={css.priceARS}>{p.priceARS}</span>}
@@ -538,7 +538,7 @@ const PathologyPage = () => {
                                         onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
                                 </div>
                                 <div className={css.otherBody}>
-                                    <h4>{o.title}</h4>
+                                    <h3>{o.title}</h3>
                                     <p>{o.subtitle}</p>
                                     <span className={css.otherLink}>Ver información →</span>
                                 </div>
