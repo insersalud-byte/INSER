@@ -584,7 +584,7 @@
   gtag('js', new Date());
   gtag('config', 'G-XD586V0PLV');
   // WhatsApp sin medir (guia rapida, catalogo, autor): cuenta como contact_whatsapp. La tarjeta y los enlaces con onclick ya miden solos.
-  document.addEventListener('click',function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href*="wa.me/"]');if(!a||a.hasAttribute('onclick')||a.closest('.inser-card'))return;var s=location.pathname.split('/').filter(Boolean).pop();gtag('event','contact_whatsapp',{source:s&&s!=='academia'?'academia-'+s:'academia',ubicacion:'enlace-suelto'});});
+  document.addEventListener('click',function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href*="wa.me/"]');if(!a||a.hasAttribute('onclick')||a.closest('.inser-card')||typeof gtag!=='function')return;var s=location.pathname.split('/').filter(Boolean).pop();var src=s&&s!=='academia'?'academia-'+s:'academia';if((a.getAttribute('href')||'').indexOf('5493512065320')<0){gtag('event','academia_contacto_autor',{source:src});return;}gtag('event','contact_whatsapp',{source:src,ubicacion:'enlace-suelto',link_url:a.href,transport_type:'beacon'});gtag('event','conversion',{send_to:'AW-18383657900/2leGCIadkeEcEKy3gb5E',value:1.0,currency:'ARS'});});
 </script>
 </head>
 <body>
