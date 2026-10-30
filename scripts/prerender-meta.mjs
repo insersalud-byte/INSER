@@ -342,13 +342,23 @@ function buildProductItemList(items, pageUrl, listName) {
                 name: it.name,
                 image: SALUD + it.img,
                 url: `${pageUrl}#equipos`,
+                ...(marcaDe(it.name) ? { brand: marcaDe(it.name) } : {}),
                 offers: {
                     '@type': 'Offer',
                     price: it.price,
                     priceCurrency: it.currency,
                     availability: 'https://schema.org/InStock',
+                    itemCondition: 'https://schema.org/NewCondition',
                     url: pageUrl,
                     seller: { '@id': 'https://insersalud.com/#organization' },
+                    // Envio sin cargo SOLO donde la landing lo declara en la nota del producto.
+                    ...(it.envioGratis ? {
+                        shippingDetails: {
+                            '@type': 'OfferShippingDetails',
+                            shippingRate: { '@type': 'MonetaryAmount', value: '0', currency: 'ARS' },
+                            shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AR' },
+                        },
+                    } : {}),
                 },
             },
         })),
@@ -362,8 +372,16 @@ function productosLanding(p) {
         if (!pr) return null;
         const img = resolveProductImage(x.name);
         if (!img) return null;
-        return { name: x.name, img, price: pr.price, currency: pr.currency };
+        return { name: x.name, img, price: pr.price, currency: pr.currency, envioGratis: /env[ií]o sin cargo/i.test(x.note || '') };
     }).filter(Boolean);
+}
+
+// Marca del equipo a partir del nombre (para el Product de schema.org). Sin match, no se declara.
+const MARCAS = ['BMC', 'ResMed', 'Philips', 'Yuwell', 'GCE', 'KINGON', 'HSINER', 'RESCOMF'];
+function marcaDe(nombre) {
+    const n = normalizarNombre(nombre);
+    const m = MARCAS.find((b) => n.includes(b.toLowerCase()));
+    return m ? { '@type': 'Brand', name: m } : undefined;
 }
 
 // Idem para patologias (pathologyData usa priceARS / priceUSD y trae su propio img).

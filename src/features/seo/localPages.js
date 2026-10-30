@@ -129,7 +129,7 @@ export const localPages = [
         related: [
             { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
-            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Precio de CPAP en Argentina (envío a todo el país)', href: '/comprar-cpap-argentina' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
             { label: 'Poligrafía respiratoria domiciliaria (estudio del sueño)', href: '/estudio-del-sueno-cordoba' },
         ],
@@ -261,7 +261,7 @@ export const localPages = [
         ],
         related: [
             { label: 'Alquiler de CPAP en Córdoba', href: '/alquiler-cpap-cordoba' },
-            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Precio de CPAP en Argentina (envío a todo el país)', href: '/comprar-cpap-argentina' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
             { label: 'Poligrafía respiratoria domiciliaria (estudio del sueño)', href: '/estudio-del-sueno-cordoba' },
         ],
@@ -501,6 +501,8 @@ export const localPages = [
             { name: 'Mochila / tubo de oxígeno portátil', price: 'consultar' },
         ],
         faq: [
+            { q: '¿Cuánto cuesta alquilar oxígeno a domicilio en Córdoba?', a: 'El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo que indicó tu médico, e incluye la entrega y la instalación a cargo de personal especializado. Si después decidís comprarlo, te descontamos el primer mes de alquiler. Para comprar, el concentrador BMC estacionario sale $999.000 y el Yuwell 7F-5B de 5 litros $1.170.000, con cuotas fijas con Banco Galicia.' },
+            { q: '¿Dónde alquilar oxígeno a domicilio en Córdoba?', a: 'En INSER SALUD alquilamos y vendemos concentradores de oxígeno en Córdoba: te lo llevamos a tu casa, lo dejamos configurado según la indicación médica y te explicamos cómo usarlo. Escribinos por WhatsApp al +54 9 351 206-5320; el soporte es de 8 a 20 hs. No atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias.' },
             { q: '¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?', a: 'Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.' },
             { q: '¿Hacen entrega de oxígeno a domicilio en Córdoba?', a: 'Sí, entregamos e instalamos concentradores de oxígeno a domicilio en Córdoba Capital y alrededores, normalmente en el día.' },
             { q: '¿Necesito receta médica para el oxígeno?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
@@ -725,7 +727,7 @@ export const localPages = [
         ],
         related: [
             { label: 'Alquiler de BiPAP en Córdoba', href: '/bipap-cordoba' },
-            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Precio de CPAP en Argentina (envío a todo el país)', href: '/comprar-cpap-argentina' },
             { label: 'Máscaras para CPAP y BiPAP', href: '/mascaras-cpap' },
             { label: 'Cough Assist (asistente de tos)', href: '/cough-assist-asistente-de-tos' },
             { label: 'Ventilador STELLAR 150', href: '/ventilador-stellar-150' },
@@ -791,7 +793,7 @@ export const localPages = [
             { q: '¿Los equipos tienen garantía?', a: 'Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía oficial del fabricante.' },
         ],
         related: [
-            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Precio de CPAP en Argentina (envío a todo el país)', href: '/comprar-cpap-argentina' },
             { label: 'Comprar concentrador de oxígeno portátil (envío nacional)', href: '/comprar-concentrador-oxigeno-portatil-argentina' },
             { label: 'Concentrador de oxígeno portátil en Córdoba', href: '/concentrador-oxigeno-portatil-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
@@ -898,7 +900,7 @@ export const localPages = [
         ],
         related: [
             { label: 'Máscaras pediátricas', href: '/mascaras-pediatricas' },
-            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Precio de CPAP en Argentina (envío a todo el país)', href: '/comprar-cpap-argentina' },
             { label: 'Comprar CPAP en Córdoba', href: '/comprar-cpap-cordoba' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
         ],
@@ -1215,7 +1217,7 @@ export const localPages = [
         ],
         related: [
             { label: 'Poligrafía respiratoria domiciliaria en Córdoba', href: '/estudio-del-sueno-cordoba' },
-            { label: 'Comprar CPAP (envío nacional)', href: '/comprar-cpap-argentina' },
+            { label: 'Precio de CPAP en Argentina (envío a todo el país)', href: '/comprar-cpap-argentina' },
             { label: 'Apnea del sueño', href: '/patologia/apnea-del-sueno' },
             { label: 'Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP', href: '/academia/ebook/apnea-del-sueno' },
         ],
