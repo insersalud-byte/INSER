@@ -339,7 +339,7 @@ function buildProductItemList(items, pageUrl, listName) {
             position: i + 1,
             item: {
                 '@type': 'Product',
-                name: it.name,
+                name: it.nombreSchema || it.name,
                 image: SALUD + it.img,
                 url: `${pageUrl}#equipos`,
                 ...(marcaDe(it.name) ? { brand: marcaDe(it.name) } : {}),
@@ -374,7 +374,7 @@ function productosLanding(p) {
         if (!img) return null;
         // Nombre limpio del modelo para schema.org (sin aclaraciones de marketing entre parentesis o tras un guion largo).
         const nombre = x.name.replace(/\s*\([^)]*\)/g, '').replace(/\s+—.*$/, '').replace(/\s+/g, ' ').trim() || x.name;
-        return { name: nombre, img, price: pr.price, currency: pr.currency, envioGratis: /env[ií]o sin cargo/i.test(x.note || '') };
+        return { name: x.name, nombreSchema: nombre, img, price: pr.price, currency: pr.currency, envioGratis: /env[ií]o sin cargo/i.test(x.note || '') };
     }).filter(Boolean);
 }
 
