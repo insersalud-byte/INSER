@@ -418,6 +418,21 @@ function stripOfferCatalog(html) {
 }
 
 // Quita el bloque JSON-LD del home que contiene un @type dado (para no duplicar en subpaginas)
+// Preguntas frecuentes del home (fuente unica: src/features/landing/homeFaq.js). Se cargan en main().
+let HOME_FAQ = [];
+function homeFaqHtml() {
+    return HOME_FAQ.map((f) => `<h3>${esc(f.q)}</h3>\n<p>${esc(f.a)}</p>`).join('\n');
+}
+function homeFaqLd() {
+    if (!HOME_FAQ.length) return '';
+    const ld = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: HOME_FAQ.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+    };
+    return `<script type="application/ld+json">\n${JSON.stringify(ld, null, 2)}\n</script>\n`;
+}
+
 function removeLdBlock(html, typeName) {
     const re = new RegExp('<script type="application/ld\\+json">(?:(?!</script>)[\\s\\S])*?"' + typeName + '"(?:(?!</script>)[\\s\\S])*?</script>\\s*', '');
     return html.replace(re, '');
@@ -690,6 +705,7 @@ ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></l
 ${servicio}
 ${equipo}
 <h2>Preguntas frecuentes</h2>
+${homeFaqHtml()}
 ${defs}
 ${compare}
 ${mascaras}
@@ -1066,6 +1082,15 @@ try {
         console.warn('[prerender] no pude importar pathologyData.js:', e?.message);
     }
 
+    try {
+        const mod = await import(pathToFileURL(resolve(__dirname, '..', 'src', 'features', 'landing', 'homeFaq.js')).href);
+        HOME_FAQ = mod.homeFaq || [];
+    } catch (e) {
+        console.warn('[prerender] no pude importar homeFaq.js:', e?.message);
+    }
+    // El FAQPage del home sale de la misma lista que se muestra en la pagina.
+    const tplHome = HOME_FAQ.length ? removeLdBlock(tpl, 'FAQPage').replace('</head>', homeFaqLd() + '</head>') : tpl;
+
     let localPages = [];
     try {
         const mod = await import(pathToFileURL(resolve(__dirname, '..', 'src', 'features', 'seo', 'localPages.js')).href);
@@ -1079,10 +1104,10 @@ try {
     // dist/index.html: ademas de la variante inser.ar (dormida, el dominio redirige 308), este archivo
     // es el que Vercel sirve como fallback para CUALQUIER URL inexistente. Por eso su canonical debe
     // apuntar a insersalud.com: asi los soft-404 se consolidan en el home real y no en un dominio que redirige.
-    write(DIST, withRouteHints(withMdLink(injectBody(applyMeta(tpl, { ...INSER_HOME, url: SALUD + '/' }), buildHomeBody('inser')), '/index.md'), 'landing'));
+    write(DIST, withRouteHints(withMdLink(injectBody(applyMeta(tplHome, { ...INSER_HOME, url: SALUD + '/' }), buildHomeBody('inser')), '/index.md'), 'landing'));
     count++;
     // HOME insersalud.com
-    write(resolve(DIST, 'insersalud'), withRouteHints(withMdLink(injectBody(applyMeta(tpl, { ...SALUD_HOME, url: SALUD + '/' }), buildHomeBody('salud')), '/index.md'), 'landing'));
+    write(resolve(DIST, 'insersalud'), withRouteHints(withMdLink(injectBody(applyMeta(tplHome, { ...SALUD_HOME, url: SALUD + '/' }), buildHomeBody('salud')), '/index.md'), 'landing'));
     count++;
 
     // Markdown por pagina (solo la variante que se sirve, insersalud.com) + acumulado para llms-full.txt

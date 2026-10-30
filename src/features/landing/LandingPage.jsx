@@ -12,6 +12,7 @@ import LeadForm from '../../components/LeadForm';
 import css from './LandingPage.module.css';
 import { productGalleries } from './productGalleries';
 import { localPagesIndex } from '../seo/localPagesIndex';
+import { homeFaq } from './homeFaq';
 
 import { webp } from '../../utils/webp';
 // Resuelve la galería de imágenes de un producto.
@@ -2315,6 +2316,24 @@ const LandingPage = () => {
                         >
                             <MessageCircle size={18} /> Consultar por mi obra social
                         </a>
+                    </div>
+                </div>
+            </section>
+
+            {/* ── PREGUNTAS FRECUENTES (misma lista que el FAQPage JSON-LD) ── */}
+            <section id="preguntas-frecuentes" style={{ padding: '3rem 0' }}>
+                <div className={css.container}>
+                    <div className={css.sectionHeader}>
+                        <span className={css.sectionTag}>Dudas comunes</span>
+                        <h2>Preguntas frecuentes</h2>
+                    </div>
+                    <div style={{ maxWidth: 820, margin: '0 auto', display: 'grid', gap: '0.6rem' }}>
+                        {homeFaq.map((f) => (
+                            <details key={f.q} style={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: '0.75rem', padding: '0.9rem 1.1rem' }}>
+                                <summary style={{ fontWeight: 700, cursor: 'pointer', color: '#0f172a' }}>{f.q}</summary>
+                                <p style={{ margin: '0.6rem 0 0', color: '#334155', lineHeight: 1.65 }}>{f.a}</p>
+                            </details>
+                        ))}
                     </div>
                 </div>
             </section>
