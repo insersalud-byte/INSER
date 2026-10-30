@@ -794,7 +794,6 @@ export const localPages = [
             { q: '¿Conviene fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
             { q: '¿Hay concentradores aptos para vuelos?', a: 'Sí, modelos como el GCE Zen-O están homologados para volar. Consultanos antes de viajar.' },
             { q: '¿Necesito receta médica?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
-            { q: '¿Cuánto tarda en llegar a mi provincia?', a: 'Depende del destino y del transporte. Te confirmamos el plazo estimado por WhatsApp antes de que compres, junto con el costo del envío.' },
             { q: '¿Los equipos tienen garantía?', a: 'Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía oficial del fabricante.' },
         ],
         related: [

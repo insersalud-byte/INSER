@@ -1421,7 +1421,8 @@ const LandingPage = () => {
 
     // Diferenciacion por dominio: inser.ar apunta a venta de equipos;
     // insersalud.com a terapias domiciliarias y alquiler (su identidad historica).
-    const isInsersalud = typeof window !== 'undefined' && window.location.hostname.includes('insersalud.com');
+    // Un solo dominio canonico: inser.ar redirige 308 a insersalud.com.
+    const isInsersalud = true;
 
     const closeEpworth = () => {
         setShowEpworth(false);
@@ -1540,6 +1541,9 @@ const LandingPage = () => {
                         <button className={css.heroBtnPrimary} onClick={() => openSanti(null)}>
                             Hablar con Santi
                         </button>
+                        <a className={css.heroBtnWa} href="https://wa.me/5493512065320?text=Hola%2C%20vengo%20de%20la%20web%20de%20INSER%20SALUD%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer">
+                            Escribir por WhatsApp
+                        </a>
                         <button className={css.heroBtnOutline} onClick={() => scrollTo('ofertas')}>
                             Ver Ofertas
                         </button>

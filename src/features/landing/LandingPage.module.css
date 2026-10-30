@@ -247,6 +247,25 @@
     box-shadow: 0 8px 24px rgba(30, 64, 175, 0.4);
 }
 
+.heroBtnWa {
+    display: inline-flex;
+    align-items: center;
+    background: #108043;
+    color: white;
+    text-decoration: none;
+    padding: 0.9rem 2rem;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all 0.25s;
+    box-shadow: 0 4px 16px rgba(16, 128, 67, 0.3);
+}
+
+.heroBtnWa:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(16, 128, 67, 0.4);
+}
+
 .heroBtnOutline {
     background: transparent;
     color: var(--color-primary);
