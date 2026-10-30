@@ -12,6 +12,8 @@ const openSanti = (message) => {
 
 const WA = 'https://wa.me/5493512065320';
 const waCtx = (h1) => `${WA}?text=${encodeURIComponent(`Hola, estoy viendo "${h1}" en insersalud.com y quiero hacer una consulta.`)}`;
+// Mensaje precargado por equipo: llega a WhatsApp diciendo QUE quiere comprar.
+const waProducto = (p) => `${WA}?text=${encodeURIComponent(`Hola, quiero comprar el ${p.name} (${p.price}) con envío a mi provincia. ¿Me pasan disponibilidad y formas de pago?`)}`;
 
 /**
  * Enlaces internos inline estilo markdown dentro del texto de las secciones: [texto](/ruta).
@@ -83,6 +85,16 @@ const LocalPage = ({ slug }) => {
         relWrap: { display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '0.5rem' },
         relLink: { display: 'inline-block', background: '#fff', border: '1px solid #bfdbfe', color: '#1e40af', textDecoration: 'none', fontWeight: 600, padding: '0.45rem 0.8rem', borderRadius: '999px', fontSize: '0.88rem' },
         footer: { background: '#0f172a', color: '#cbd5e1', marginTop: '2rem', padding: '1.5rem 1rem', textAlign: 'center', fontSize: '0.85rem' },
+        offer: { display: 'inline-block', background: '#ecfdf5', color: '#065f46', border: '1px solid #a7f3d0', borderRadius: '0.6rem', padding: '0.45rem 0.75rem', fontSize: '0.9rem', fontWeight: 600, margin: '0 0 1rem' },
+        cards: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: '0.75rem', margin: '0 0 1.1rem' },
+        card: { position: 'relative', background: '#fff', border: '1px solid #dbeafe', borderRadius: '0.9rem', padding: '0.8rem', display: 'flex', flexDirection: 'column', gap: '0.35rem', boxShadow: '0 4px 14px rgba(30,64,175,0.07)' },
+        cardImg: { width: '100%', height: 130, objectFit: 'contain', background: '#fff', borderRadius: '0.6rem' },
+        cardBadge: { position: 'absolute', top: '0.6rem', left: '0.6rem', background: '#1e40af', color: '#fff', fontSize: '0.72rem', fontWeight: 700, padding: '0.2rem 0.5rem', borderRadius: '999px' },
+        cardName: { fontSize: '0.92rem', fontWeight: 600, color: '#0f172a', lineHeight: 1.3 },
+        cardPrice: { fontSize: '1.45rem', fontWeight: 800, color: '#1e40af', lineHeight: 1.1 },
+        cardNote: { fontSize: '0.8rem', color: '#475569' },
+        cardBtn: { marginTop: 'auto', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', background: '#108043', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.65rem 0.8rem', borderRadius: '0.6rem', fontSize: '0.95rem' },
+        midCta: { background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: '0.9rem', padding: '1rem 1.1rem', margin: '1.5rem 0', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '0.75rem' },
         footerLinks: { display: 'flex', flexWrap: 'wrap', gap: '0.9rem', justifyContent: 'center', marginTop: '0.6rem' },
     };
 
@@ -116,14 +128,46 @@ const LocalPage = ({ slug }) => {
                     </div>
                     <h1 style={c.h1}>{data.h1}</h1>
                     <p style={c.intro}>{conEnlaces(data.intro)}</p>
+                    {data.offerLine && <p style={c.offer}>{data.offerLine}</p>}
+                    {data.priceCards && data.products?.length > 0 && (
+                        <div style={c.cards}>
+                            {data.products.map((p, i) => (
+                                <div key={i} style={c.card}>
+                                    {p.badge && <span style={c.cardBadge}>{p.badge}</span>}
+                                    {p.img && (
+                                        <img src={webp(p.img)} alt={p.name} width={420} height={280} style={c.cardImg}
+                                            loading={i === 0 ? 'eager' : 'lazy'} decoding="async"
+                                            onError={(e) => { e.target.style.display = 'none'; }} />
+                                    )}
+                                    <span style={c.cardName}>{p.name}</span>
+                                    <span style={c.cardPrice}>{p.price}</span>
+                                    {p.note && <span style={c.cardNote}>{p.note}</span>}
+                                    <a href={waProducto(p)} target="_blank" rel="noopener noreferrer" style={c.cardBtn}>
+                                        <MessageCircle size={16} /> Lo quiero
+                                    </a>
+                                </div>
+                            ))}
+                        </div>
+                    )}
                     <div style={c.ctas}>
-                        <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
-                        <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
+                        {data.national ? (
+                            <>
+                                <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><MessageCircle size={16} /> Comprar por WhatsApp</a>
+                                <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
+                            </>
+                        ) : (
+                            <>
+                                <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
+                                <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
+                            </>
+                        )}
                     </div>
                     <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0.6rem 0 0' }}>Respondemos todos los días, también fines de semana. Santi atiende las 24 hs.</p>
                 </div>
-                <img src={webp(data.heroImg)} alt={data.h1} style={c.heroImg} fetchpriority="high" decoding="async"
-                    onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
+                {!data.priceCards && (
+                    <img src={webp(data.heroImg)} alt={data.h1} style={c.heroImg} fetchpriority="high" decoding="async"
+                        onError={(e) => { e.target.src = '/artifacts/logo_insersalud.jpg'; }} />
+                )}
             </header>
 
             {/* TRUST BAR */}
@@ -152,6 +196,12 @@ const LocalPage = ({ slug }) => {
                                 onError={(e) => { e.target.style.display = 'none'; }} />
                         )}
                         <p style={c.p}>{conEnlaces(s.content)}</p>
+                        {data.national && i === 1 && (
+                            <div style={c.midCta}>
+                                <span style={{ fontWeight: 600, color: '#0f172a' }}>¿Ya tenés la indicación de tu médico? Te pasamos el precio del día y el envío a tu provincia.</span>
+                                <a href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer" style={c.cardBtn}><MessageCircle size={16} /> Escribinos</a>
+                            </div>
+                        )}
                     </section>
                 ))}
 
@@ -166,7 +216,7 @@ const LocalPage = ({ slug }) => {
                     </section>
                 )}
 
-                {data.products && data.products.length > 0 && (
+                {!data.priceCards && data.products && data.products.length > 0 && (
                     <section>
                         <h2 style={c.h2}>Equipos relacionados</h2>
                         <ul style={c.prodList}>

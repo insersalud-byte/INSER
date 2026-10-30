@@ -628,10 +628,15 @@ export const localPages = [
                 content: 'Si estás en Córdoba y no estás seguro de cómo te vas a adaptar, alquilá el equipo y probalo en tu casa.\n\nSi después decidís comprarlo, ese primer mes de alquiler te lo descontamos del precio de venta. Aplica a CPAP y AutoCPAP.\n\nEs la forma de empezar el tratamiento sin la inversión completa de entrada, y sin perder lo que ya pagaste.\n\nEl alquiler es solo en Córdoba. Al resto del país vendemos con envío y te acompañamos en la puesta en marcha.',
             },
         ],
+        // Tarjetas de precio arriba de todo, cada una con su WhatsApp (oct 2026):
+        // la pagina recibia trafico nacional pero convertia ~7% porque los precios
+        // y el boton quedaban abajo de 11 secciones de texto.
+        priceCards: true,
+        offerLine: 'Envío sin cargo a todo el país en CPAP y AutoCPAP BMC G2S · Cuotas fijas con Banco Galicia',
         products: [
-            { name: 'CPAP BMC G2S con humidificador', price: '$499.000' },
-            { name: 'AutoCPAP BMC G2S con humidificador', price: '$630.000' },
-            { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$974.000' },
+            { name: 'CPAP BMC G2S con humidificador', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'El más vendido', note: 'Envío sin cargo · 6 cuotas de $103.127' },
+            { name: 'AutoCPAP BMC G2S con humidificador', price: '$630.000', img: '/artifacts/products/autocpap_bmc_g2_2.jpg', badge: 'Presión automática', note: 'Envío sin cargo · 6 cuotas de $130.200' },
+            { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$974.000', img: '/artifacts/products/resmed_airsense10_3.jpg', note: '6 cuotas de $201.293 · envío según destino' },
         ],
         faq: [
             {
