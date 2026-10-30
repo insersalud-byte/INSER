@@ -94,6 +94,7 @@ const LocalPage = ({ slug }) => {
         cardPrice: { fontSize: '1.45rem', fontWeight: 800, color: '#1e40af', lineHeight: 1.1 },
         cardNote: { fontSize: '0.8rem', color: '#475569' },
         cardBtn: { marginTop: 'auto', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', background: '#108043', color: '#fff', textDecoration: 'none', fontWeight: 700, padding: '0.65rem 0.8rem', borderRadius: '0.6rem', fontSize: '0.95rem' },
+        aviso: { display: 'block', background: '#fffbeb', border: '1px solid #fcd34d', color: '#92400e', borderRadius: '0.7rem', padding: '0.7rem 0.9rem', fontWeight: 600, textDecoration: 'none', margin: '0 0 1rem', fontSize: '0.95rem' },
         midCta: { background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: '0.9rem', padding: '1rem 1.1rem', margin: '1.5rem 0', display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '0.75rem' },
         footerLinks: { display: 'flex', flexWrap: 'wrap', gap: '0.9rem', justifyContent: 'center', marginTop: '0.6rem' },
     };
@@ -127,6 +128,9 @@ const LocalPage = ({ slug }) => {
                         <span>{data.h1}</span>
                     </div>
                     <h1 style={c.h1}>{data.h1}</h1>
+                    {data.aviso && (
+                        <Link to={data.aviso.href} style={c.aviso}>{data.aviso.texto} →</Link>
+                    )}
                     <p style={c.intro}>{conEnlaces(data.intro)}</p>
                     {data.offerLine && <p style={c.offer}>{data.offerLine}</p>}
                     {data.priceCards && data.products?.length > 0 && (
@@ -149,6 +153,12 @@ const LocalPage = ({ slug }) => {
                             ))}
                         </div>
                     )}
+                    {data.waPrecio && (
+                        <a href={`${WA}?text=${encodeURIComponent(data.waPrecio)}`} target="_blank" rel="noopener noreferrer"
+                            style={{ ...c.ctaWa, fontSize: '1.08rem', padding: '0.9rem 1.4rem', marginBottom: '0.6rem' }}>
+                            <MessageCircle size={18} /> Ver precio por WhatsApp
+                        </a>
+                    )}
                     <div style={c.ctas}>
                         {data.national ? (
                             <>
@@ -158,7 +168,9 @@ const LocalPage = ({ slug }) => {
                         ) : (
                             <>
                                 <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
-                                <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
+                                {!data.waPrecio && (
+                                    <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
+                                )}
                             </>
                         )}
                     </div>
