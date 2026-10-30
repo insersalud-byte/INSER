@@ -46,8 +46,9 @@ const conEnlaces = (texto) => {
 const LocalPage = ({ slug }) => {
     const data = getLocalPageBySlug(slug);
 
-    const isInsersaludHost = typeof window !== 'undefined' && window.location.hostname.includes('insersalud.com');
-    const seoBase = isInsersaludHost ? 'https://insersalud.com' : 'https://inser.ar';
+    // Un solo dominio canonico (inser.ar redirige 308 a insersalud.com; el middleware sirve esta variante en todo host).
+    const isInsersaludHost = true;
+    const seoBase = 'https://insersalud.com';
     useSEO({
         title: isInsersaludHost && data?.metaTitleSalud ? data.metaTitleSalud : data?.metaTitle,
         description: data?.description,

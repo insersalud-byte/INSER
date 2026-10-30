@@ -31,6 +31,16 @@
       "permanent": false
     },
     {
+      "source": "/academia/ebook/apnea-sueno",
+      "destination": "/academia/ebook/apnea-del-sueno",
+      "permanent": true
+    },
+    {
+      "source": "/academia/ebook/apnea-sueno/:path*",
+      "destination": "/academia/ebook/apnea-del-sueno",
+      "permanent": true
+    },
+    {
       "source": "/artifacts/:path*.jfif",
       "destination": "/artifacts/:path*.jpg",
       "permanent": true

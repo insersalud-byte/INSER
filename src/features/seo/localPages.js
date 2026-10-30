@@ -269,8 +269,8 @@ export const localPages = [
     {
         slug: 'estudio-del-sueno-cordoba',
         h1: 'Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa',
-        metaTitle: 'Poligrafía a domicilio en Córdoba: precio por WhatsApp | INSER',
-        metaTitleSalud: 'Poligrafía a domicilio en Córdoba: precio por WhatsApp | INSER',
+        metaTitle: 'Poligrafía domiciliaria en Córdoba: precio por WhatsApp',
+        metaTitleSalud: 'Poligrafía domiciliaria en Córdoba: precio por WhatsApp',
         description: 'Poligrafía respiratoria en tu casa, en Córdoba: una noche, sin internación y con informe de IAH para tu médico. Pedí el precio y el turno por WhatsApp.',
         waPrecio: 'Hola, quiero saber el precio de la poligrafía respiratoria a domicilio en Córdoba y qué turnos hay.',
         heroImg: '/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg',
@@ -582,8 +582,8 @@ export const localPages = [
         national: true,
         reviewed: '2026-10-27',
         h1: 'Precio de CPAP y AutoCPAP en Argentina: comprá con envío a todo el país',
-        metaTitle: 'Precio de CPAP y AutoCPAP en Argentina: desde $499.000 | INSER',
-        metaTitleSalud: 'Precio de CPAP y AutoCPAP en Argentina: desde $499.000 | INSER',
+        metaTitle: 'Precio de CPAP y AutoCPAP: desde $499.000 | INSER',
+        metaTitleSalud: 'Precio de CPAP y AutoCPAP: desde $499.000 | INSER',
         description: 'Precio de CPAP en Argentina: BMC G2S $499.000, AutoCPAP $630.000 y ResMed AirSense 10 $974.000. Cuotas Banco Galicia, ANMAT y envío a todo el país.',
         heroImg: '/artifacts/products/resmed_airsense10_3.jpg',
         intro: 'En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Salta o donde sea, te enviamos tu equipo aprobado por ANMAT, con garantía, configuración y asesoramiento para que lo uses bien desde el primer día.',
@@ -722,7 +722,7 @@ export const localPages = [
         ],
         faq: [
             { q: '¿Cuánto cuesta un BiPAP en Argentina?', a: 'En nuestro catálogo el BiPAP BMC G3 con frecuencia respiratoria y humidificador sale $1.300.000, con venta y envío a todo el país. Si el médico indicó un ventilador de mayor complejidad, el [ResMed STELLAR 150](/ventilador-stellar-150) tiene un precio de referencia de U$S 7.342. El costo del envío depende del destino. Los precios se actualizan: confirmá el valor del día por WhatsApp.' },
-            { q: '¿El envío del BiPAP tiene costo?', a: 'Sí. El envío del BiPAP no está incluido en el precio: el costo depende del destino y te lo confirmamos por WhatsApp, junto con el plazo estimado, antes de que compres.' },
+            { q: '¿El envío del BiPAP tiene costo?', a: 'Sí. El envío del BiPAP no está incluido en el precio: el costo depende del destino y te lo confirmamos por WhatsApp antes de que compres. Al resto del país tarda de 3 a 7 días hábiles; en Córdoba Capital la entrega es sin cargo y en el día.' },
             { q: '¿Necesito receta para comprar un BiPAP?', a: 'Sí, hace falta la indicación médica: el BiPAP, el modo y las presiones los define tu médico. Mandanos la indicación por WhatsApp y te confirmamos que el equipo cubre lo indicado antes de que compres.' },
             { q: '¿BiPAP o CPAP: cuál necesito?', a: 'Lo define tu médico según tu diagnóstico. El CPAP entrega una sola presión y es el tratamiento estándar de la apnea obstructiva del sueño; el BiPAP entrega dos presiones y se usa en EPOC con hipercapnia, enfermedades neuromusculares, hipoventilación y apnea compleja que no responde al CPAP. Si te indicaron CPAP, mirá los [precios de CPAP y AutoCPAP](/comprar-cpap-argentina).' },
             { q: '¿Qué garantía tiene?', a: 'El BiPAP BMC G3 tiene 2 años de garantía oficial del fabricante y es aparatología aprobada por ANMAT. El ventilador STELLAR 150 también tiene 2 años de garantía oficial del fabricante. Conseguís repuestos y soporte técnico continuo, sin importar en qué provincia estés.' },
@@ -788,7 +788,7 @@ export const localPages = [
             { name: 'Concentrador YUWELL 10 litros (alto flujo)', price: '$2.800.000' },
         ],
         faq: [
-            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp. El concentrador Yuwell 7F-5B también va sin cargo por su oferta vigente, hasta agotar stock.' },
             { q: '¿Cuánto cuesta un concentrador de oxígeno en Argentina?', a: 'En INSER el concentrador estacionario arranca en $999.000: es el BMC, de hasta 5 L/min, con control remoto y medidor de oxígeno. El Concentrador de Oxígeno YUWELL 7F-5B 5 Litros, también de hasta 5 L/min y con humidificador incorporado, sale $1.170.000, con una oferta puntual de 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock. El YUWELL de 10 litros, de alto flujo, sale $2.800.000. Los tres se venden con envío a todo el país; en el BMC y en el YUWELL de 10 litros el costo del envío te lo confirmamos por WhatsApp. Si necesitás un equipo a batería para salir o viajar, mirá los [concentradores portátiles](/comprar-concentrador-oxigeno-portatil-argentina). El alquiler es solo en Córdoba y se cotiza por WhatsApp: más información en [alquiler en Córdoba](/alquiler-concentrador-oxigeno-cordoba). Los precios se actualizan; confirmá el valor del día por WhatsApp.' },
             { q: '¿Envían concentradores de oxígeno a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina. Coordinamos el envío por WhatsApp.' },
             { q: '¿Conviene fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
@@ -843,6 +843,7 @@ export const localPages = [
             { name: 'Concentrador de oxígeno portátil (para salir/viajar)', price: 'consultar' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Para qué sirve un concentrador de oxígeno de 10 litros?', a: 'Para pacientes con alta demanda de oxígeno y para centros de rehabilitación pulmonar: entrega hasta 10 L/min, el doble del concentrador estándar de 5 L.' },
             { q: '¿Cuánto cuesta el concentrador de 10 litros?', a: 'Está a $2.800.000, aprobado por ANMAT y con garantía. Confirmá el precio del día y el envío por WhatsApp.' },
             { q: '¿Lo envían a todo el país?', a: 'Sí. Se vende con envío a cualquier provincia de Argentina. Coordinamos el envío por WhatsApp.' },
@@ -896,6 +897,7 @@ export const localPages = [
             { name: 'Tubuladura para CPAP / BiPAP', price: '$36.000' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Qué máscara elijo si respiro por la boca?', a: 'Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face (U$S 157), BMC F6 (U$S 124) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.' },
             { q: '¿Cuánto cuesta una máscara nasobucal?', a: 'La nasobucal BMC F6 multitalle está en oferta a U$S 124 y la Philips DreamWear Full Face sale U$S 157, con envío a todo el país. La BMC F2 codo azul ($68.000) es sin fuga, para respiradores de terapia intensiva: no sirve para un CPAP o BiPAP domiciliario. Cuál te corresponde depende de tu equipo y de si respirás por la boca: te asesoramos por WhatsApp.' },
             { q: '¿Cuánto cuesta una máscara para CPAP?', a: 'Desde U$S 35 (nasal RESCOMF multitalle). La DreamWear de Philips está a U$S 153 y las nasobucales desde U$S 52. Enviamos a todo el país.' },
@@ -954,6 +956,7 @@ export const localPages = [
             { name: 'Tubuladura para CPAP / BiPAP (repuesto universal)', price: '$36.000' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Puedo usar una máscara de adulto en talle chico?', a: 'No es recomendable. La cara de un chico tiene proporciones distintas, no es una cara adulta a escala: una máscara de adulto apoya donde no debe, genera fugas hacia los ojos y marca la piel. El resultado más habitual es que el chico se la saque y se abandone el tratamiento.' },
             { q: '¿Cuál es la máscara pediátrica más elegida?', a: 'La Philips Wisp, que viene con la funda estampada de jirafa (U$S 227). Ese diseño ayuda a que el chico la acepte, que es la mitad del tratamiento. También tenemos la HSINER Cirri Mini (U$S 105) y el Infant CPAP Kit neonatal (desde U$S 97).' },
             { q: '¿Tienen máscaras para bebés y recién nacidos?', a: 'Sí. El Infant CPAP Kit incluye las tallas 00, 0, 1, 2, 3, 4 y 5, pensadas para neonatos y lactantes. Es la línea más difícil de conseguir en el país.' },
@@ -1019,6 +1022,7 @@ export const localPages = [
             { name: 'Máscaras e insumos de reposición', price: 'desde U$S 35' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Sirve un concentrador domiciliario de 5 litros para un centro de rehabilitación?', a: 'Para uso intensivo o pacientes de alta demanda conviene el de 10 litros: duplica el flujo (hasta 10 L/min) y está pensado para funcionar de forma continua durante toda la jornada.' },
             { q: '¿Emiten presupuesto formal y factura para instituciones?', a: 'Sí. Preparamos presupuesto formal para la institución u obra social y entregamos factura. También asesoramos en la elección del equipamiento según la demanda del centro.' },
             { q: '¿Hacen envío e instalación en el interior?', a: 'Enviamos a todo el país. En Córdoba la capacitación es presencial; en el resto del país guiamos la puesta en marcha a distancia y damos soporte técnico continuo.' },
@@ -1092,6 +1096,7 @@ export const localPages = [
             { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Cuál es el concentrador portátil más liviano y económico?', a: 'El más liviano de nuestro catálogo es el KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a U$S 1.880.' },
             { q: '¿Puedo viajar en avión con un concentrador portátil?', a: 'Sí, con los modelos aprobados FAA (KINGON P2-S3, GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.' },
             { q: '¿Pulso o flujo continuo?', a: 'Depende de tu indicación médica. Pulso: más liviano y autónomo, para actividad. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. Te ayudamos a elegir.' },
@@ -1158,6 +1163,7 @@ export const localPages = [
             { name: 'Máscaras de ventilación no invasiva', price: 'desde U$S 35' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿El STELLAR 150 sirve para ventilación invasiva y no invasiva?', a: 'Sí, soporta ambas: por traqueostomía (invasiva) y por máscara (no invasiva), en pacientes adultos y pediátricos, con alarmas clínicas y batería interna.' },
             { q: '¿Cuánto cuesta el STELLAR 150 en Argentina?', a: 'Precio de referencia U$S 7.342, con humidificador y batería interna incluidos. Confirmá la cotización del día por WhatsApp. Aprobado por ANMAT, con garantía oficial del fabricante.' },
             { q: '¿Necesito prescripción médica?', a: 'Sí. Es un equipo de soporte vital: la indicación y la configuración las define el médico tratante. Nosotros proveemos el equipo y el soporte técnico.' },
@@ -1214,6 +1220,7 @@ export const localPages = [
             { name: 'Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock', price: 'U$S 1.794' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Quién puede comprar y usar el polígrafo?', a: 'Está orientado a profesionales e instituciones de salud (neumonólogos, clínicas del sueño, kinesiólogos, centros de diagnóstico). La interpretación del estudio la realiza el médico.' },
             { q: '¿Qué registra el BMC YH-600B PRO?', a: 'Es un polígrafo respiratorio de 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca. Incluye software de descarga y análisis para el informe.' },
             { q: '¿Busco hacerme la poligrafía, no comprar el equipo?', a: 'En esta página vendemos el equipo, para profesionales y centros. Si lo que buscás es hacerte el estudio del sueño, en Córdoba lo hacemos nosotros: mirá [poligrafía respiratoria domiciliaria en Córdoba](/estudio-del-sueno-cordoba) y escribinos por WhatsApp.' },
@@ -1275,6 +1282,7 @@ export const localPages = [
             { name: 'Máscaras de ventilación (adultos y pediátricas)', price: 'desde U$S 35' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Qué hace exactamente un Cough Assist?', a: 'Reproduce una tos eficaz mediante insuflación-exuflación mecánica: llena los pulmones con presión positiva y de inmediato aplica presión negativa, generando el flujo que arrastra las secreciones. Es no invasivo.' },
             { q: '¿Para qué pacientes está indicado?', a: 'Para tos débil o ineficaz por enfermedades neuromusculares: ELA, AME, distrofias musculares y lesiones medulares, entre otras. La indicación la define el equipo médico tratante.' },
             { q: '¿Cuánto cuesta el Cough Assist en Argentina?', a: 'Precio de referencia U$S 9.084, aprobado por ANMAT, con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Entregamos presupuesto y factura para el reintegro de la obra social.' },

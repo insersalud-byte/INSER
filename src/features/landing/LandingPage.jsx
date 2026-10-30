@@ -1159,7 +1159,9 @@ const guides = [
             'El informe genera el Índice de Apnea-Hipopnea (AHI), que indica la severidad: <5 normal, 5-15 leve, 15-30 moderada, >30 severa.',
         ],
         color: '#ec4899',
-        priceFrom: 'Consultar · Polígrafo desde U$S 1.570',
+        priceFrom: 'Precio del estudio por WhatsApp',
+        waLabel: 'Ver precio del estudio (WhatsApp)',
+        waMsg: 'Hola, quiero saber el precio de la poligrafía respiratoria a domicilio en Córdoba y qué turnos hay.',
     },
 ];
 
@@ -1834,11 +1836,11 @@ const LandingPage = () => {
 
                                     <a
                                         className={css.guiaRentBtn}
-                                        href={`https://wa.me/5493512065320?text=${encodeURIComponent(`Hola, quisiera consultar el precio de alquiler de un ${g.title}. ¿Me pasan info y disponibilidad?`)}`}
+                                        href={`https://wa.me/5493512065320?text=${encodeURIComponent(g.waMsg || `Hola, quisiera consultar el precio de alquiler de un ${g.title}. ¿Me pasan info y disponibilidad?`)}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <Phone size={14} /> Consultar por alquiler (WhatsApp)
+                                        <Phone size={14} /> {g.waLabel || 'Consultar por alquiler (WhatsApp)'}
                                     </a>
                                 </div>
                             );
