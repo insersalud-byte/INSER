@@ -183,14 +183,14 @@ export const localPages = [
             { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro)', price: 'consultar' },
         ],
         faq: [
-            { q: '¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?', a: 'Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.' },
+            { q: '¿Atienden las 24 horas o los fines de semana?', a: 'Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.' },
             { q: '¿Cuánto cuesta alquilar un concentrador de oxígeno en Córdoba?', a: 'Depende de si es fijo o portátil y del plazo. Escribinos por WhatsApp y te damos el valor mensual actualizado, con entrega e instalación incluidas.' },
             { q: '¿Entregan e instalan a domicilio?', a: 'Sí, hacemos entrega, instalación y capacitación de uso a domicilio en Córdoba Capital y alrededores.' },
             { q: '¿Necesito receta médica?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo que indicó tu médico.' },
             { q: '¿Tienen concentradores portátiles para viajar?', a: 'Sí, tenemos concentradores portátiles con batería, algunos homologados para vuelos. Consultanos por el modelo.' },
             { q: '¿Cuántas horas por día tengo que usar el concentrador?', a: 'Lo define tu médico según tu saturación y tus estudios. Como referencia, la oxigenoterapia domiciliaria demostró beneficio cuando se usa un mínimo de 15 a 18 horas por día, idealmente todo el día: usarla pocas horas no aporta los beneficios que mostraron los estudios. Los concentradores que entregamos soportan cualquier esquema que te hayan indicado.' },
             { q: '¿Cuánta electricidad consume un concentrador de oxígeno?', a: 'Poca. Se enchufa a la red eléctrica de la casa y podés usarlo todas las horas que te indicaron sin que se note en la factura. Y a diferencia de un tubo, no tiene costo de recarga: produce el oxígeno del aire del ambiente mientras esté enchufado.' },
-            { q: '¿Qué pasa si el equipo falla durante el alquiler?', a: 'El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos: escribinos por WhatsApp y coordinamos el cambio. Respondemos consultas todos los días, también fines de semana y fuera del horario comercial.' },
+            { q: '¿Qué pasa si el equipo falla durante el alquiler?', a: 'El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos: escribinos por WhatsApp y coordinamos el cambio. Respondemos todos los días de 8 a 20 hs.' },
         ],
         related: [
             { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
@@ -269,8 +269,8 @@ export const localPages = [
     {
         slug: 'estudio-del-sueno-cordoba',
         h1: 'Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa',
-        metaTitle: 'Poligrafía a domicilio en Córdoba: precio y turno por WhatsApp | INSER',
-        metaTitleSalud: 'Poligrafía a domicilio en Córdoba: precio y turno por WhatsApp | INSER',
+        metaTitle: 'Poligrafía a domicilio en Córdoba: precio por WhatsApp | INSER',
+        metaTitleSalud: 'Poligrafía a domicilio en Córdoba: precio por WhatsApp | INSER',
         description: 'Poligrafía respiratoria en tu casa, en Córdoba: una noche, sin internación y con informe de IAH para tu médico. Pedí el precio y el turno por WhatsApp.',
         waPrecio: 'Hola, quiero saber el precio de la poligrafía respiratoria a domicilio en Córdoba y qué turnos hay.',
         heroImg: '/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg',
@@ -328,7 +328,7 @@ export const localPages = [
             { name: 'CPAP ResMed AirSense 10', price: '$974.000' },
         ],
         faq: [
-            { q: '¿Cuánto cuesta la poligrafía a domicilio en Córdoba?', a: 'Te pasamos el precio por WhatsApp: tocá el botón verde "Ver precio por WhatsApp" y te respondemos con el valor y los turnos disponibles. El estudio se hace en tu casa, una noche, sin internación, y te entregamos el informe con el IAH para tu médico.' },
+            { q: '¿Cuánto cuesta la poligrafía a domicilio en Córdoba?', a: 'Te pasamos el precio por WhatsApp: escribinos al +54 9 351 206-5320 (o tocá "Ver precio por WhatsApp") y te respondemos con el valor y los turnos disponibles. El estudio se hace en tu casa, una noche, sin internación, y te entregamos el informe con el IAH para tu médico.' },
             { q: '¿Se puede hacer el estudio del sueño en casa?', a: 'Sí. La poligrafía respiratoria domiciliaria se hace en tu propia casa: dormís una noche con el polígrafo, que registra la respiración, el oxígeno en sangre y el ronquido. En Córdoba lo hacemos nosotros: coordinalo por WhatsApp.' },
             { q: '¿Hacen la poligrafía respiratoria domiciliaria?', a: 'Sí. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba: dormís una noche en tu casa con el polígrafo y del registro sale el informe con el IAH para tu médico. Lo coordinamos por WhatsApp.' },
             { q: '¿Qué diferencia hay entre poligrafía y polisomnografía?', a: 'La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo respiratorio, el oxígeno en sangre y el ronquido, y se hace en tu casa. La polisomnografía agrega la actividad del cerebro para conocer las etapas del sueño y habitualmente se hace en un laboratorio. Cuál te corresponde lo decide tu médico.' },
@@ -350,9 +350,9 @@ export const localPages = [
     {
         slug: 'oximetria-nocturna-cordoba',
         h1: 'Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno mientras dormís',
-        metaTitle: 'Oximetría nocturna a domicilio en Córdoba: precio y turno por WhatsApp | INSER',
-        metaTitleSalud: 'Oximetría nocturna a domicilio en Córdoba: precio y turno por WhatsApp | INSER',
-        description: 'Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama, con informe para tu médico. Pedí el precio y el turno por WhatsApp.',
+        metaTitle: 'Oximetría nocturna en Córdoba: precio por WhatsApp | INSER',
+        metaTitleSalud: 'Oximetría nocturna en Córdoba: precio por WhatsApp | INSER',
+        description: 'Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno toda la noche, en tu cama, con informe para tu médico. Pedí precio y turno por WhatsApp.',
         waPrecio: 'Hola, quiero saber el precio de la oximetría nocturna a domicilio en Córdoba y qué turnos hay.',
         reviewed: '2026-10-27',
         heroImg: '/artifacts/oximetria/oximetria-nocturna-domicilio-cordoba.jpg',
@@ -402,7 +402,7 @@ export const localPages = [
             { name: 'Concentrador estacionario Yuwell 7F-5B de 5 litros', price: '$1.170.000' },
         ],
         faq: [
-            { q: '¿Cuánto cuesta la oximetría nocturna a domicilio en Córdoba?', a: 'Te pasamos el precio por WhatsApp: tocá el botón verde "Ver precio por WhatsApp" y te respondemos con el valor y los turnos disponibles. La hacemos en tu casa, durante una noche, con un oxímetro de muñeca, y te entregamos el informe para tu médico.' },
+            { q: '¿Cuánto cuesta la oximetría nocturna a domicilio en Córdoba?', a: 'Te pasamos el precio por WhatsApp: escribinos al +54 9 351 206-5320 (o tocá "Ver precio por WhatsApp") y te respondemos con el valor y los turnos disponibles. La hacemos en tu casa, durante una noche, con un oxímetro de muñeca, y te entregamos el informe para tu médico.' },
             { q: '¿Qué es una oximetría nocturna?', a: 'Es un estudio que mide en forma continua el oxígeno en sangre (SpO₂) y la frecuencia cardíaca mientras dormís, con un sensor en el dedo conectado a un oxímetro con memoria. Muestra cuántas veces y durante cuánto tiempo baja tu oxígeno durante la noche.' },
             { q: '¿Hacen la oximetría nocturna a domicilio en Córdoba?', a: 'Sí. En INSER SALUD hacemos la oximetría nocturna a domicilio en Córdoba Capital y alrededores: se entrega el oxímetro en tu casa, dormís una noche con él y se devuelve al día siguiente. Del registro sale el informe para tu médico. Coordinalo por WhatsApp.' },
             { q: '¿Para qué sirve la oximetría nocturna?', a: 'Para detectar si tu oxígeno baja mientras dormís, evaluar si necesitás oxígeno nocturno o si el flujo indicado alcanza, orientar la sospecha de apnea del sueño y controlar tratamientos con CPAP o BiPAP. Se usa mucho en EPOC, fibrosis pulmonar y enfermedades neuromusculares.' },
@@ -468,9 +468,9 @@ export const localPages = [
     {
         slug: 'oxigeno-a-domicilio-cordoba',
         h1: 'Oxígeno a domicilio en Córdoba',
-        metaTitle: 'Alquiler de oxígeno a domicilio en Córdoba: cotización en el día | INSER',
-        metaTitleSalud: 'Alquiler de oxígeno a domicilio en Córdoba: cotización en el día | INSER',
-        description: 'Concentrador de oxígeno a domicilio en Córdoba, instalado en el día por personal especializado. Si lo comprás, te descontamos el primer mes. Venta desde $999.000.',
+        metaTitle: 'Oxígeno a domicilio en Córdoba: cotización en el día | INSER',
+        metaTitleSalud: 'Oxígeno a domicilio en Córdoba: cotización en el día | INSER',
+        description: 'Concentrador de oxígeno a domicilio en Córdoba, instalado en el día por personal especializado. Alquiler cotizado por WhatsApp; venta desde $999.000.',
         heroImg: '/artifacts/products/concentrador_bmc_1.jpg',
         intro: 'En INSER SALUD llevamos el oxígeno a tu casa en Córdoba. Ofrecemos oxigenoterapia domiciliaria con concentradores de oxígeno fijos y portátiles, en venta y alquiler, con entrega, instalación y capacitación de uso.',
         ctaSanti: 'Hola Santi, necesito oxígeno a domicilio en Córdoba. ¿Qué opciones tienen y cómo es la entrega?',
@@ -484,7 +484,7 @@ export const localPages = [
             },
             {
                 title: 'Qué quiere decir "oxígeno 24 horas"',
-                content: 'Es una consulta que mezcla dos cosas distintas.\n\nUna es el equipo. Los concentradores estacionarios que entregamos están declarados para uso continuo las 24 horas, así que soportan cualquier esquema que te hayan indicado. El BMC trabaja entre 0,5 y 5 litros por minuto con pureza igual o mayor al 93%, y el [Yuwell de 10 litros](/concentrador-oxigeno-10-litros) llega hasta 10 L/min para casos de alta demanda.\n\nLa otra es cuántas horas por día tenés que usarlo, y eso lo define tu médico según los resultados de saturación y gases en sangre. En oxigenoterapia domiciliaria las indicaciones suelen ser de muchas horas diarias, generalmente entre 16 y 24.\n\nY una aclaración práctica: respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. La entrega y la instalación en Córdoba las coordinamos con vos.',
+                content: 'Es una consulta que mezcla dos cosas distintas.\n\nUna es el equipo. Los concentradores estacionarios que entregamos están declarados para uso continuo las 24 horas, así que soportan cualquier esquema que te hayan indicado. El BMC trabaja entre 0,5 y 5 litros por minuto con pureza igual o mayor al 93%, y el [Yuwell de 10 litros](/concentrador-oxigeno-10-litros) llega hasta 10 L/min para casos de alta demanda.\n\nLa otra es cuántas horas por día tenés que usarlo, y eso lo define tu médico según los resultados de saturación y gases en sangre. En oxigenoterapia domiciliaria las indicaciones suelen ser de muchas horas diarias, generalmente entre 16 y 24.\n\nY una aclaración práctica: respondemos por WhatsApp todos los días de 8 a 20 hs; no hay guardia ni atención de urgencias. La entrega y la instalación en Córdoba las coordinamos con vos.',
             },
             {
                 title: 'Qué trae cada opción de oxígeno',
@@ -505,9 +505,9 @@ export const localPages = [
             { name: 'Mochila / tubo de oxígeno portátil', price: 'consultar' },
         ],
         faq: [
-            { q: '¿Cuánto cuesta alquilar oxígeno a domicilio en Córdoba?', a: 'El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo que indicó tu médico, e incluye la entrega y la instalación a cargo de personal especializado. Si después decidís comprarlo, te descontamos el primer mes de alquiler. Para comprar, el concentrador BMC estacionario sale $999.000 y el Yuwell 7F-5B de 5 litros $1.170.000, con cuotas fijas con Banco Galicia.' },
+            { q: '¿Cuánto cuesta alquilar oxígeno a domicilio en Córdoba?', a: 'El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo que indicó tu médico, e incluye la entrega y la instalación a cargo de personal especializado. Para comprar, el concentrador BMC estacionario sale $999.000 y el Yuwell 7F-5B de 5 litros $1.170.000, con cuotas fijas con Banco Galicia.' },
             { q: '¿Dónde alquilar oxígeno a domicilio en Córdoba?', a: 'En INSER SALUD alquilamos y vendemos concentradores de oxígeno en Córdoba: te lo llevamos a tu casa, lo dejamos configurado según la indicación médica y te explicamos cómo usarlo. Escribinos por WhatsApp al +54 9 351 206-5320; el soporte es de 8 a 20 hs. No atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias.' },
-            { q: '¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?', a: 'Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.' },
+            { q: '¿Atienden las 24 horas o los fines de semana?', a: 'Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.' },
             { q: '¿Hacen entrega de oxígeno a domicilio en Córdoba?', a: 'Sí, entregamos e instalamos concentradores de oxígeno a domicilio en Córdoba Capital y alrededores, normalmente en el día.' },
             { q: '¿Necesito receta médica para el oxígeno?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
             { q: '¿Conviene concentrador fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
@@ -537,7 +537,7 @@ export const localPages = [
         ctaSanti: 'Hola Santi, busco un concentrador de oxígeno portátil en Córdoba. ¿Qué modelos tienen y cuál es apto para vuelos?',
         sections: [
             { title: '¿Para quién es un concentrador portátil?', content: 'Para quienes necesitan oxígeno pero no quieren quedar atados a un equipo fijo: personas activas, que salen, trabajan o viajan. Funciona con batería y se recarga en casa o en el auto.' },
-            { title: 'Modelos disponibles', content: 'KINGON P2-S3: uno de los más livianos y económicos, ideal para uso diario. GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.\n\nTe ayudamos a elegir según el flujo que indicó tu médico.' },
+            { title: 'Modelos disponibles', content: 'KINGON P2-S3: el más liviano de nuestro catálogo, ideal para uso diario. GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.\n\nTe ayudamos a elegir según el flujo que indicó tu médico.' },
             { title: 'Venta y alquiler', content: 'Ofrecemos los portátiles en venta y alquiler, con entrega a domicilio en Córdoba, capacitación de uso y soporte técnico. Aparatología aprobada por ANMAT.' },
             {
                 title: 'Pulso o flujo continuo: la diferencia que más importa',
@@ -645,6 +645,7 @@ export const localPages = [
             { name: 'CPAP ResMed AirSense 10 (equipo completo)', price: '$974.000', img: '/artifacts/products/resmed_airsense10_3.jpg', note: '6 cuotas de $201.293 · envío según destino' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp. El CPAP y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país por promoción.' },
             {
                 q: '¿Qué diferencia hay entre un CPAP y un AutoCPAP?',
                 a: 'El CPAP entrega una presión fija durante toda la noche, la que indicó tu médico. El AutoCPAP la ajusta solo, dentro de un rango, según lo que vas necesitando. Cuál corresponde lo define tu médico a partir de tu estudio de sueño. En nuestro catálogo el CPAP BMC G2S sale $499.000 y el AutoCPAP BMC G2S $630.000.',
@@ -659,7 +660,6 @@ export const localPages = [
             { q: '¿Cuánto cuesta un CPAP en Argentina?', a: 'En INSER el CPAP arranca en $499.000 (CPAP BMC G2S con humidificador). El AutoCPAP BMC G2S con humidificador sale $630.000 y el ResMed AirSense 10 $974.000. Por la oferta vigente, el CPAP y el AutoCPAP BMC G2S se envían sin cargo a todo el país. Confirmá disponibilidad por WhatsApp.' },
             { q: '¿Cuánto sale un CPAP para la apnea del sueño?', a: 'El equipo que se usa para tratar la apnea del sueño es el CPAP o el AutoCPAP: en nuestro catálogo van de $499.000 (CPAP BMC G2S) a $974.000 (ResMed AirSense 10), y el AutoCPAP BMC G2S sale $630.000. Cuál te corresponde y con qué presión lo define tu médico a partir de tu estudio de sueño; nosotros te lo entregamos configurado según esa indicación.' },
             { q: '¿Cuánto sale alquilar un CPAP?', a: 'El alquiler es solo en Córdoba, con entrega e instalación en el día, y se cotiza por WhatsApp. Si después decidís comprarlo, el primer mes de alquiler se descuenta del precio. Más información en [alquiler de CPAP en Córdoba](/alquiler-cpap-cordoba).' },
-            { q: '¿El envío del CPAP tiene costo?', a: 'Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Para los demás equipos el costo de envío depende del destino: te lo confirmamos por WhatsApp.' },
             { q: '¿Los equipos tienen garantía?', a: 'Sí. Los CPAP y AutoCPAP declaran 2 años de garantía oficial del fabricante y son aparatología aprobada por ANMAT, en todo el país. En otras familias el plazo cambia: figura en la ficha de cada equipo.' },
             { q: '¿Me ayudan a configurarlo si estoy en otra provincia?', a: 'Sí, te enviamos el equipo configurado y te guiamos a distancia en la puesta en marcha y la adaptación.' },
         ],
@@ -788,6 +788,7 @@ export const localPages = [
             { name: 'Concentrador YUWELL 10 litros (alto flujo)', price: '$2.800.000' },
         ],
         faq: [
+            { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Cuánto cuesta un concentrador de oxígeno en Argentina?', a: 'En INSER el concentrador estacionario arranca en $999.000: es el BMC, de hasta 5 L/min, con control remoto y medidor de oxígeno. El Concentrador de Oxígeno YUWELL 7F-5B 5 Litros, también de hasta 5 L/min y con humidificador incorporado, sale $1.170.000, con una oferta puntual de 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock. El YUWELL de 10 litros, de alto flujo, sale $2.800.000. Los tres se venden con envío a todo el país; en el BMC y en el YUWELL de 10 litros el costo del envío te lo confirmamos por WhatsApp. Si necesitás un equipo a batería para salir o viajar, mirá los [concentradores portátiles](/comprar-concentrador-oxigeno-portatil-argentina). El alquiler es solo en Córdoba y se cotiza por WhatsApp: más información en [alquiler en Córdoba](/alquiler-concentrador-oxigeno-cordoba). Los precios se actualizan; confirmá el valor del día por WhatsApp.' },
             { q: '¿Envían concentradores de oxígeno a todo el país?', a: 'Sí. Vendemos con envío a cualquier provincia de Argentina. Coordinamos el envío por WhatsApp.' },
             { q: '¿Conviene fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
@@ -1264,7 +1265,7 @@ export const localPages = [
             },
             {
                 title: 'Cómo se usa en casa, día a día',
-                content: 'No es un equipo de uso continuo como un concentrador de oxígeno, que está preparado para funcionar las 24 horas: el asistente de tos se usa en sesiones. La pauta habitual es de 2 a 3 sesiones por día, de alrededor de 5 ciclos cada una, y durante una infección respiratoria el médico puede indicar aumentar la frecuencia.\n\nLo puede usar la familia en el domicilio con entrenamiento previo. Esa capacitación es parte de la entrega: formamos a familiares y cuidadores en el uso seguro del equipo, presencial en Córdoba y guiada a distancia en el resto del país, y después quedamos como soporte.\n\nLa frecuencia y los valores de cada sesión salen de la indicación médica o kinésica de cada paciente, así que no hay una pauta única. Si te queda una duda sobre el uso, escribinos por WhatsApp: respondemos consultas todos los días, también fines de semana y fuera del horario comercial.\n\nEs habitual que el asistente de tos se combine con ventilación no invasiva. Si el médico también indicó VNI, podés ver los equipos en [BiPAP con frecuencia respiratoria de respaldo](/bipap-cordoba) y en el [ventilador ResMed STELLAR 150](/ventilador-stellar-150).',
+                content: 'No es un equipo de uso continuo como un concentrador de oxígeno, que está preparado para funcionar las 24 horas: el asistente de tos se usa en sesiones. La pauta habitual es de 2 a 3 sesiones por día, de alrededor de 5 ciclos cada una, y durante una infección respiratoria el médico puede indicar aumentar la frecuencia.\n\nLo puede usar la familia en el domicilio con entrenamiento previo. Esa capacitación es parte de la entrega: formamos a familiares y cuidadores en el uso seguro del equipo, presencial en Córdoba y guiada a distancia en el resto del país, y después quedamos como soporte.\n\nLa frecuencia y los valores de cada sesión salen de la indicación médica o kinésica de cada paciente, así que no hay una pauta única. Si te queda una duda sobre el uso, escribinos por WhatsApp: respondemos todos los días de 8 a 20 hs.\n\nEs habitual que el asistente de tos se combine con ventilación no invasiva. Si el médico también indicó VNI, podés ver los equipos en [BiPAP con frecuencia respiratoria de respaldo](/bipap-cordoba) y en el [ventilador ResMed STELLAR 150](/ventilador-stellar-150).',
             },
         ],
         products: [

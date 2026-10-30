@@ -516,7 +516,7 @@ const tienda = [
     },
     // Diagnóstico
     {
-        name: 'POLÍGRAFO BMC YH-600B PRO (Estudio del Sueño)', slug: 'poligrafo-bmc-yh-600b-pro-', price: 'U$S 1.570', img: '/artifacts/products/1752508033704-poligrafobmc.jpg', badge: 'DIAGNÓSTICO', note: 'Poligrafía domiciliaria profesional. Opción con 30 cánulas Luer Lock: U$S 1.794.', category: 'Diagnóstico',
+        name: 'POLÍGRAFO BMC YH-600B PRO (equipo para profesionales)', slug: 'poligrafo-bmc-yh-600b-pro-', price: 'U$S 1.570', img: '/artifacts/products/1752508033704-poligrafobmc.jpg', badge: 'DIAGNÓSTICO', note: 'Equipo para profesionales. ¿Querés hacerte el estudio? Lo hacemos a domicilio en Córdoba: pedí el precio por WhatsApp. Opción con 30 cánulas Luer Lock: U$S 1.794.', category: 'Diagnóstico',
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Polígrafo respiratorio portátil'],
@@ -1621,7 +1621,7 @@ const LandingPage = () => {
                         </div>
                         <button onClick={() => openSanti(null)} style={{ textAlign: 'left', cursor: 'pointer', background: '#fefce8', border: '1.5px solid #fde68a', borderRadius: '1rem', padding: '1.25rem', fontFamily: 'inherit' }}>
                             <strong style={{ display: 'block', color: '#a16207', fontSize: '1.05rem', marginBottom: '0.35rem' }}>Necesito asesoramiento</strong>
-                            <span style={{ color: '#334155', fontSize: '0.9rem' }}>Santi te orienta al instante según tu indicación médica. Sin turnos, las 24 hs.</span>
+                            <span style={{ color: '#334155', fontSize: '0.9rem' }}>Santi, nuestro asistente virtual, te orienta al instante según tu indicación médica.</span>
                         </button>
                     </div>
                 </div>
@@ -2222,7 +2222,7 @@ const LandingPage = () => {
                     <p style={{ textAlign: 'center', color: '#475569', margin: '0 0 1.75rem', fontSize: '0.95rem' }}>Del primer mensaje al seguimiento: así es comprar o alquilar con INSER SALUD.</p>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem', maxWidth: 1050, margin: '0 auto' }}>
                         {[
-                            ['1', 'Nos contactás', 'Por WhatsApp, teléfono, formulario o con Santi. Respondemos todos los días, también fines de semana. Santi atiende las 24 hs.'],
+                            ['1', 'Nos contactás', 'Por WhatsApp, teléfono, formulario o con Santi. Atendemos todos los días de 8 a 20 hs; Santi, el asistente virtual, responde al instante.'],
                             ['2', 'Te asesoramos', 'Elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.'],
                             ['3', 'Entregamos e instalamos', 'En Córdoba, a domicilio en el día con instalación. Al resto del país, envío con puesta en marcha guiada.'],
                             ['4', 'Te acompañamos', 'Adaptación, soporte técnico continuo, repuestos, y factura con presupuesto formal para el reintegro de tu obra social.'],
@@ -2319,7 +2319,7 @@ const LandingPage = () => {
                     <div className={css.sectionHeader}>
                         <span className={css.sectionTag}>Estamos para vos</span>
                         <h2>Contacto Directo</h2>
-                        <p>Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.</p>
+                        <p>Atendemos por WhatsApp y teléfono todos los días de 8 a 20 hs. No atendemos urgencias.</p>
                     </div>
                     {/* El formulario completo vive arriba (#cotizacion). Aca solo un acceso,
                         para no repetir el mismo formulario largo dos veces en la misma pagina. */}

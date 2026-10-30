@@ -90,8 +90,9 @@ export default function middleware(request) {
             return Response.redirect(pub.toString(), 301);
         }
 
-        const host = (request.headers.get('host') || '').toLowerCase();
-        if (!host.includes('insersalud.com')) return next();
+        // Todos los hosts sirven la variante de insersalud.com (canonical al dominio principal).
+        // inser.ar redirige a insersalud.com desde Vercel; cualquier otro host (*.vercel.app,
+        // previews) servia antes la variante dormida con canonical a inser.ar.
         if (url.pathname.startsWith('/insersalud')) return next();
 
         const vary = { headers: { Vary: 'Accept' } };

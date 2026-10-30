@@ -309,7 +309,7 @@ Cursos gratuitos de la Academia: [Ventilación mecánica](https://insersalud.com
 
 ## Cómo trabajamos
 
-1. **Nos contactás**: por WhatsApp, teléfono, formulario o con Santi. Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.
+1. **Nos contactás**: por WhatsApp, teléfono, formulario o con Santi. Atendemos por WhatsApp y teléfono todos los días de 8 a 20 hs.
 
 2. **Te asesoramos**: elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.
 
@@ -1939,9 +1939,9 @@ Y si notás que tu saturación baja por debajo de lo habitual, avisale a tu méd
 
 ## Preguntas frecuentes
 
-### ¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?
+### ¿Atienden las 24 horas o los fines de semana?
 
-Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.
+Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.
 
 ### ¿Cuánto cuesta alquilar un concentrador de oxígeno en Córdoba?
 
@@ -1969,7 +1969,7 @@ Poca. Se enchufa a la red eléctrica de la casa y podés usarlo todas las horas 
 
 ### ¿Qué pasa si el equipo falla durante el alquiler?
 
-El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos: escribinos por WhatsApp y coordinamos el cambio. Respondemos consultas todos los días, también fines de semana y fuera del horario comercial.
+El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos: escribinos por WhatsApp y coordinamos el cambio. Respondemos todos los días de 8 a 20 hs.
 
 ### ¿Trabajan con obras sociales o prepagas?
 
@@ -2155,7 +2155,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Poligrafía a domicilio en Córdoba: precio y turno por WhatsApp | INSER"
+title: "Poligrafía a domicilio en Córdoba: precio por WhatsApp | INSER"
 description: "Poligrafía respiratoria en tu casa, en Córdoba: una noche, sin internación y con informe de IAH para tu médico. Pedí el precio y el turno por WhatsApp."
 url: https://insersalud.com/estudio-del-sueno-cordoba
 canonical: https://insersalud.com/estudio-del-sueno-cordoba
@@ -2275,7 +2275,7 @@ El orden importa: primero el estudio y la indicación médica, después el equip
 
 ### ¿Cuánto cuesta la poligrafía a domicilio en Córdoba?
 
-Te pasamos el precio por WhatsApp: tocá el botón verde "Ver precio por WhatsApp" y te respondemos con el valor y los turnos disponibles. El estudio se hace en tu casa, una noche, sin internación, y te entregamos el informe con el IAH para tu médico.
+Te pasamos el precio por WhatsApp: escribinos al +54 9 351 206-5320 (o tocá "Ver precio por WhatsApp") y te respondemos con el valor y los turnos disponibles. El estudio se hace en tu casa, una noche, sin internación, y te entregamos el informe con el IAH para tu médico.
 
 ### ¿Se puede hacer el estudio del sueño en casa?
 
@@ -2343,8 +2343,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Oximetría nocturna a domicilio en Córdoba: precio y turno por WhatsApp | INSER"
-description: "Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama, con informe para tu médico. Pedí el precio y el turno por WhatsApp."
+title: "Oximetría nocturna en Córdoba: precio por WhatsApp | INSER"
+description: "Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno toda la noche, en tu cama, con informe para tu médico. Pedí precio y turno por WhatsApp."
 url: https://insersalud.com/oximetria-nocturna-cordoba
 canonical: https://insersalud.com/oximetria-nocturna-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2467,7 +2467,7 @@ Precios de referencia para comprar un concentrador: BMC estacionario $999.000 y 
 
 ### ¿Cuánto cuesta la oximetría nocturna a domicilio en Córdoba?
 
-Te pasamos el precio por WhatsApp: tocá el botón verde "Ver precio por WhatsApp" y te respondemos con el valor y los turnos disponibles. La hacemos en tu casa, durante una noche, con un oxímetro de muñeca, y te entregamos el informe para tu médico.
+Te pasamos el precio por WhatsApp: escribinos al +54 9 351 206-5320 (o tocá "Ver precio por WhatsApp") y te respondemos con el valor y los turnos disponibles. La hacemos en tu casa, durante una noche, con un oxímetro de muñeca, y te entregamos el informe para tu médico.
 
 ### ¿Qué es una oximetría nocturna?
 
@@ -2651,8 +2651,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Alquiler de oxígeno a domicilio en Córdoba: cotización en el día | INSER"
-description: "Concentrador de oxígeno a domicilio en Córdoba, instalado en el día por personal especializado. Si lo comprás, te descontamos el primer mes. Venta desde $999.000."
+title: "Oxígeno a domicilio en Córdoba: cotización en el día | INSER"
+description: "Concentrador de oxígeno a domicilio en Córdoba, instalado en el día por personal especializado. Alquiler cotizado por WhatsApp; venta desde $999.000."
 url: https://insersalud.com/oxigeno-a-domicilio-cordoba
 canonical: https://insersalud.com/oxigeno-a-domicilio-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -2697,7 +2697,7 @@ Una es el equipo. Los concentradores estacionarios que entregamos están declara
 
 La otra es cuántas horas por día tenés que usarlo, y eso lo define tu médico según los resultados de saturación y gases en sangre. En oxigenoterapia domiciliaria las indicaciones suelen ser de muchas horas diarias, generalmente entre 16 y 24.
 
-Y una aclaración práctica: respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. La entrega y la instalación en Córdoba las coordinamos con vos.
+Y una aclaración práctica: respondemos por WhatsApp todos los días de 8 a 20 hs; no hay guardia ni atención de urgencias. La entrega y la instalación en Córdoba las coordinamos con vos.
 
 ## Qué trae cada opción de oxígeno
 
@@ -2743,15 +2743,15 @@ Si no tenés la indicación a mano, mandanos una foto por WhatsApp y te decimos 
 
 ### ¿Cuánto cuesta alquilar oxígeno a domicilio en Córdoba?
 
-El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo que indicó tu médico, e incluye la entrega y la instalación a cargo de personal especializado. Si después decidís comprarlo, te descontamos el primer mes de alquiler. Para comprar, el concentrador BMC estacionario sale $999.000 y el Yuwell 7F-5B de 5 litros $1.170.000, con cuotas fijas con Banco Galicia.
+El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo que indicó tu médico, e incluye la entrega y la instalación a cargo de personal especializado. Para comprar, el concentrador BMC estacionario sale $999.000 y el Yuwell 7F-5B de 5 litros $1.170.000, con cuotas fijas con Banco Galicia.
 
 ### ¿Dónde alquilar oxígeno a domicilio en Córdoba?
 
 En INSER SALUD alquilamos y vendemos concentradores de oxígeno en Córdoba: te lo llevamos a tu casa, lo dejamos configurado según la indicación médica y te explicamos cómo usarlo. Escribinos por WhatsApp al +54 9 351 206-5320; el soporte es de 8 a 20 hs. No atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias.
 
-### ¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?
+### ¿Atienden las 24 horas o los fines de semana?
 
-Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.
+Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.
 
 ### ¿Hacen entrega de oxígeno a domicilio en Córdoba?
 
@@ -2839,7 +2839,7 @@ Para quienes necesitan oxígeno pero no quieren quedar atados a un equipo fijo: 
 
 ## Modelos disponibles
 
-KINGON P2-S3: uno de los más livianos y económicos, ideal para uso diario. GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.
+KINGON P2-S3: el más liviano de nuestro catálogo, ideal para uso diario. GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.
 
 Te ayudamos a elegir según el flujo que indicó tu médico.
 
@@ -3066,6 +3066,10 @@ El alquiler es solo en Córdoba. Al resto del país vendemos con envío y te aco
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp. El CPAP y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país por promoción.
+
 ### ¿Qué diferencia hay entre un CPAP y un AutoCPAP?
 
 El CPAP entrega una presión fija durante toda la noche, la que indicó tu médico. El AutoCPAP la ajusta solo, dentro de un rango, según lo que vas necesitando. Cuál corresponde lo define tu médico a partir de tu estudio de sueño. En nuestro catálogo el CPAP BMC G2S sale $499.000 y el AutoCPAP BMC G2S $630.000.
@@ -3097,10 +3101,6 @@ El equipo que se usa para tratar la apnea del sueño es el CPAP o el AutoCPAP: e
 ### ¿Cuánto sale alquilar un CPAP?
 
 El alquiler es solo en Córdoba, con entrega e instalación en el día, y se cotiza por WhatsApp. Si después decidís comprarlo, el primer mes de alquiler se descuenta del precio. Más información en [alquiler de CPAP en Córdoba](https://insersalud.com/alquiler-cpap-cordoba).
-
-### ¿El envío del CPAP tiene costo?
-
-Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Para los demás equipos el costo de envío depende del destino: te lo confirmamos por WhatsApp.
 
 ### ¿Los equipos tienen garantía?
 
@@ -3387,6 +3387,10 @@ El alquiler es solo en Córdoba Capital y alrededores: mirá [alquiler de concen
 - ![Concentrador YUWELL 10 litros (alto flujo)](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg) Concentrador YUWELL 10 litros (alto flujo) — $2.800.000
 
 ## Preguntas frecuentes
+
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
 
 ### ¿Cuánto cuesta un concentrador de oxígeno en Argentina?
 
@@ -4458,7 +4462,7 @@ No es un equipo de uso continuo como un concentrador de oxígeno, que está prep
 
 Lo puede usar la familia en el domicilio con entrenamiento previo. Esa capacitación es parte de la entrega: formamos a familiares y cuidadores en el uso seguro del equipo, presencial en Córdoba y guiada a distancia en el resto del país, y después quedamos como soporte.
 
-La frecuencia y los valores de cada sesión salen de la indicación médica o kinésica de cada paciente, así que no hay una pauta única. Si te queda una duda sobre el uso, escribinos por WhatsApp: respondemos consultas todos los días, también fines de semana y fuera del horario comercial.
+La frecuencia y los valores de cada sesión salen de la indicación médica o kinésica de cada paciente, así que no hay una pauta única. Si te queda una duda sobre el uso, escribinos por WhatsApp: respondemos todos los días de 8 a 20 hs.
 
 Es habitual que el asistente de tos se combine con ventilación no invasiva. Si el médico también indicó VNI, podés ver los equipos en [BiPAP con frecuencia respiratoria de respaldo](https://insersalud.com/bipap-cordoba) y en el [ventilador ResMed STELLAR 150](https://insersalud.com/ventilador-stellar-150).
 

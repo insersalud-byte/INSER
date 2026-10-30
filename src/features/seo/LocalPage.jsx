@@ -174,7 +174,7 @@ const LocalPage = ({ slug }) => {
                             </>
                         )}
                     </div>
-                    <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0.6rem 0 0' }}>Respondemos todos los días, también fines de semana. Santi atiende las 24 hs.</p>
+                    <p style={{ color: '#64748b', fontSize: '0.85rem', margin: '0.6rem 0 0' }}>Respondemos todos los días. Santi, nuestro asistente virtual, responde al instante; una persona te contesta por WhatsApp de 8 a 20 hs.</p>
                 </div>
                 {!data.priceCards && (
                     <img src={webp(data.heroImg)} alt={data.h1} style={c.heroImg} fetchpriority="high" decoding="async"

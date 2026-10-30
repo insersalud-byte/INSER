@@ -372,7 +372,9 @@ function productosLanding(p) {
         if (!pr) return null;
         const img = resolveProductImage(x.name);
         if (!img) return null;
-        return { name: x.name, img, price: pr.price, currency: pr.currency, envioGratis: /env[ií]o sin cargo/i.test(x.note || '') };
+        // Nombre limpio del modelo para schema.org (sin aclaraciones de marketing entre parentesis o tras un guion largo).
+        const nombre = x.name.replace(/\s*\([^)]*\)/g, '').replace(/\s+—.*$/, '').replace(/\s+/g, ' ').trim() || x.name;
+        return { name: nombre, img, price: pr.price, currency: pr.currency, envioGratis: /env[ií]o sin cargo/i.test(x.note || '') };
     }).filter(Boolean);
 }
 
@@ -672,7 +674,7 @@ ${LOCAL_LINKS.map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></l
     const proceso = `
 <h2>Cómo trabajamos</h2>
 <ol>
-<li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.</li>
+<li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Atendemos por WhatsApp y teléfono todos los días de 8 a 20 hs.</li>
 <li><strong>Te asesoramos</strong>: elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.</li>
 <li><strong>Entregamos e instalamos</strong>: en Córdoba a domicilio en el día; al resto del país, envío con puesta en marcha guiada.</li>
 <li><strong>Te acompañamos</strong>: adaptación, soporte técnico, repuestos y factura con presupuesto formal para el reintegro de tu obra social.</li>
