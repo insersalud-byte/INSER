@@ -4034,8 +4034,8 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Concentrador de Oxígeno Portátil desde $2.735.400 | INSER"
-description: "KINGON P2-S3 a $2.735.400 (2,3 kg con batería), más flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país."
+title: "Concentrador de Oxígeno Portátil desde U$S 1.880 | INSER"
+description: "KINGON P2-S3 a U$S 1.880 (2,3 kg con batería), más flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país."
 url: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 canonical: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5040,6 +5040,10 @@ Empezar el curso →
 Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson, con 25 años de trabajo en su Servicio de Terapia Intensiva. Director y docente del Curso de Postgrado en Terapia Intensiva y Rehabilitación Pulmonar del Colegio Profesional de Kinesiólogos de Córdoba junto al Hospital Rawson (2007-2018).
 
 Material educativo con un modelo fisiológico simplificado. No calcula indicaciones para pacientes reales ni reemplaza protocolos, gasometría ni evaluación clínica.
+
+¿Necesitás un equipo, una máscara o asesoramiento para un paciente? Te respondemos por WhatsApp todos los días de 8 a 20 hs.
+
+Escribinos por WhatsApp
 
 &copy; 2026 Inser Salud · Aparatología aprobada por ANMAT · Córdoba, Argentina · [Política de privacidad](https://insersalud.com/politica-de-privacidad) · [Tarjeta digital](https://insersalud.com/tarjeta)
 
@@ -6106,6 +6110,8 @@ insersalud.com
 Desarrollo de proyectos educativos
 
 Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
+
+WhatsApp
 
 ---
 
@@ -7256,6 +7262,8 @@ Desarrollo de proyectos educativos
 
 Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 
+WhatsApp
+
 ---
 
 Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
@@ -7799,6 +7807,8 @@ Lic. Sergio Giorda
 Ebook interactivo de oxigenoterapia de alto flujo · Revisión 2026 ·
 
 insersalud.com
+
+WhatsApp
 
 ---
 
@@ -8764,6 +8774,8 @@ Desarrollo de proyectos educativos
 
 Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 
+WhatsApp
+
 ---
 
 Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
@@ -9558,6 +9570,8 @@ Lic. Sergio Giorda · INSER SALUD
 Volver al inicio ↑
 
 insersalud.com ↗
+
+WhatsApp
 
 ---
 
@@ -10354,6 +10368,8 @@ Desarrollo de proyectos educativos
 Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 
 INSERSALUD.COM · Oxigenoterapia en adultos y niños · Material educativo. Revisión documental dirigida, no revisión sistemática. Imágenes originales generadas por IA.
+
+WhatsApp
 
 ---
 
@@ -11634,6 +11650,8 @@ Desarrollo de proyectos educativos
 
 Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 
+WhatsApp
+
 ---
 
 Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
@@ -12615,6 +12633,8 @@ INSER SALUD · Academia · Apnea del sueño en adultos · Lic. Sergio Giorda, MP
 
 Material educativo independiente. No afiliado a AASM, ATS, VA/DoD, NICE ni fabricantes. [Fuentes y alcance](https://insersalud.com/academia/ebook/apnea-del-sueno#referencias) · [Volver al inicio ↑](https://insersalud.com/academia/ebook/apnea-del-sueno#inicio)
 
+WhatsApp
+
 ---
 
 Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
@@ -13350,6 +13370,8 @@ Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
 
 INSER SALUD · Academia · Diagnóstico por imágenes respiratorias · Lic. Sergio Giorda, MP 2123 · Edición educativa 2026. Contenido para formación, sujeto a revisión por profesionales responsables antes de su uso curricular o asistencial.
 
+WhatsApp
+
 ---
 
 Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
@@ -13358,7 +13380,7 @@ INSER SALUD · Academia · Diagnóstico por imágenes respiratorias · Lic. Serg
 ---
 
 ---
-title: "Inser Salud — Tarjeta Digital"
+title: "Tarjeta digital | INSER SALUD"
 description: "Inser Salud · Venta y alquiler de equipos respiratorios. CPAP, BiPAP, oxígeno y accesorios. Venta con envío a todo el país y alquiler en Córdoba."
 url: https://insersalud.com/tarjeta
 canonical: https://insersalud.com/tarjeta
