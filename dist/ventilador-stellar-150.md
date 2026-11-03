@@ -89,6 +89,10 @@ Cuál de las dos corresponde depende del circuito con el que se configure el equ
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
 ### ¿El STELLAR 150 sirve para ventilación invasiva y no invasiva?
 
 Sí, soporta ambas: por traqueostomía (invasiva) y por máscara (no invasiva), en pacientes adultos y pediátricos, con alarmas clínicas y batería interna.

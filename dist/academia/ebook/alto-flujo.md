@@ -1,5 +1,5 @@
 ---
-title: "Alto flujo nasal (CNAF): curso gratuito con simulador | INSER"
+title: "Alto flujo nasal (CNAF): curso gratuito con simulador"
 description: "Ebook interactivo gratuito de alto flujo del Lic. Sergio Giorda: fisiología, montaje, titulación, índice ROX, prono despierto, fracaso, destete y casos."
 url: https://insersalud.com/academia/ebook/alto-flujo
 canonical: https://insersalud.com/academia/ebook/alto-flujo
@@ -534,6 +534,8 @@ Lic. Sergio Giorda
 Ebook interactivo de oxigenoterapia de alto flujo · Revisión 2026 ·
 
 insersalud.com
+
+WhatsApp
 
 ---
 

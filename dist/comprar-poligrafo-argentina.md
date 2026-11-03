@@ -59,6 +59,10 @@ El equipo solo cuesta U$S 1.570. La versión con las 30 cánulas Luer Lock inclu
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
 ### ¿Quién puede comprar y usar el polígrafo?
 
 Está orientado a profesionales e instituciones de salud (neumonólogos, clínicas del sueño, kinesiólogos, centros de diagnóstico). La interpretación del estudio la realiza el médico.
@@ -95,7 +99,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Poligrafía respiratoria domiciliaria en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba)
 
-- [Comprar CPAP (envío nacional)](https://insersalud.com/comprar-cpap-argentina)
+- [Precio de CPAP en Argentina (envío a todo el país)](https://insersalud.com/comprar-cpap-argentina)
 
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
 

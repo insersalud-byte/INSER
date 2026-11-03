@@ -65,7 +65,7 @@ No es un equipo de uso continuo como un concentrador de oxígeno, que está prep
 
 Lo puede usar la familia en el domicilio con entrenamiento previo. Esa capacitación es parte de la entrega: formamos a familiares y cuidadores en el uso seguro del equipo, presencial en Córdoba y guiada a distancia en el resto del país, y después quedamos como soporte.
 
-La frecuencia y los valores de cada sesión salen de la indicación médica o kinésica de cada paciente, así que no hay una pauta única. Si te queda una duda sobre el uso, escribinos por WhatsApp: respondemos consultas todos los días, también fines de semana y fuera del horario comercial.
+La frecuencia y los valores de cada sesión salen de la indicación médica o kinésica de cada paciente, así que no hay una pauta única. Si te queda una duda sobre el uso, escribinos por WhatsApp: respondemos todos los días de 8 a 20 hs.
 
 Es habitual que el asistente de tos se combine con ventilación no invasiva. Si el médico también indicó VNI, podés ver los equipos en [BiPAP con frecuencia respiratoria de respaldo](https://insersalud.com/bipap-cordoba) y en el [ventilador ResMed STELLAR 150](https://insersalud.com/ventilador-stellar-150).
 
@@ -80,6 +80,10 @@ Es habitual que el asistente de tos se combine con ventilación no invasiva. Si 
 - Máscaras de ventilación (adultos y pediátricas) — desde U$S 35
 
 ## Preguntas frecuentes
+
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
 
 ### ¿Qué hace exactamente un Cough Assist?
 

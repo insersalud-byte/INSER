@@ -1,6 +1,6 @@
 ---
-title: "Alquiler de Oxígeno a Domicilio en Córdoba | INSER SALUD"
-description: "Alquiler y venta de oxígeno a domicilio en Córdoba: concentradores para uso continuo, con entrega e instalación en el día en Córdoba Capital."
+title: "Oxígeno a domicilio en Córdoba: cotización en el día | INSER"
+description: "Concentrador de oxígeno a domicilio en Córdoba, instalado en el día por personal especializado. Alquiler cotizado por WhatsApp; venta desde $999.000."
 url: https://insersalud.com/oxigeno-a-domicilio-cordoba
 canonical: https://insersalud.com/oxigeno-a-domicilio-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -45,7 +45,7 @@ Una es el equipo. Los concentradores estacionarios que entregamos están declara
 
 La otra es cuántas horas por día tenés que usarlo, y eso lo define tu médico según los resultados de saturación y gases en sangre. En oxigenoterapia domiciliaria las indicaciones suelen ser de muchas horas diarias, generalmente entre 16 y 24.
 
-Y una aclaración práctica: respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. La entrega y la instalación en Córdoba las coordinamos con vos.
+Y una aclaración práctica: respondemos por WhatsApp todos los días de 8 a 20 hs; no hay guardia ni atención de urgencias. La entrega y la instalación en Córdoba las coordinamos con vos.
 
 ## Qué trae cada opción de oxígeno
 
@@ -89,9 +89,17 @@ Si no tenés la indicación a mano, mandanos una foto por WhatsApp y te decimos 
 
 ## Preguntas frecuentes
 
-### ¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?
+### ¿Cuánto cuesta alquilar oxígeno a domicilio en Córdoba?
 
-Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.
+El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo que indicó tu médico, e incluye la entrega y la instalación a cargo de personal especializado. Para comprar, el concentrador BMC estacionario sale $999.000 y el Yuwell 7F-5B de 5 litros $1.170.000, con cuotas fijas con Banco Galicia.
+
+### ¿Dónde alquilar oxígeno a domicilio en Córdoba?
+
+En INSER SALUD alquilamos y vendemos concentradores de oxígeno en Córdoba: te lo llevamos a tu casa, lo dejamos configurado según la indicación médica y te explicamos cómo usarlo. Escribinos por WhatsApp al +54 9 351 206-5320; el soporte es de 8 a 20 hs. No atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias.
+
+### ¿Atienden las 24 horas o los fines de semana?
+
+Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.
 
 ### ¿Hacen entrega de oxígeno a domicilio en Córdoba?
 

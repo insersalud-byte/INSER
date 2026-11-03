@@ -1,5 +1,5 @@
 ---
-title: "Ventilación no invasiva (CPAP y BiPAP): curso gratuito | INSER"
+title: "Ventilación no invasiva (CPAP y BiPAP): curso gratuito"
 description: "Ebook interactivo gratuito de VNI del Lic. Sergio Giorda: CPAP y BiPAP, interfaces y fugas, simulador IPAP/EPAP, EPOC, edema, OHS, ELA, casos y certificado."
 url: https://insersalud.com/academia/ebook/ventilacion-no-invasiva
 canonical: https://insersalud.com/academia/ebook/ventilacion-no-invasiva
@@ -1139,6 +1139,8 @@ insersalud.com
 Desarrollo de proyectos educativos
 
 Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
+
+WhatsApp
 
 ---
 

@@ -2,6 +2,7 @@
 <html lang="es-AR">
 
 <head>
+    <meta name="msvalidate.01" content="299A69B32328FDD2FEDFC8CF5FF01700" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -188,27 +189,19 @@
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "name": "Horario comercial",
+      "name": "Atención por WhatsApp y teléfono",
+      "description": "Todos los días de 8 a 20 hs. No hay guardia técnica ni atención de urgencias.",
       "dayOfWeek": [
         "Monday",
         "Tuesday",
         "Wednesday",
         "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "18:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "name": "Consultas por WhatsApp",
-      "description": "Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. No hay guardia técnica ni atención de urgencias.",
-      "dayOfWeek": [
+        "Friday",
         "Saturday",
         "Sunday"
       ],
-      "opens": "09:00",
-      "closes": "18:00"
+      "opens": "08:00",
+      "closes": "20:00"
     }
   ],
   "contactPoint": {
@@ -321,7 +314,7 @@
   }
 }
   </script>
-  <script type="module" crossorigin src="/assets/index-BUwCw6UR.js"></script>
+  <script type="module" crossorigin src="/assets/index-DfKADGaX.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/react-vendor-BRAUxTbQ.js">
   <link rel="modulepreload" crossorigin href="/assets/icons-DqSsfwmA.js">
   <link rel="stylesheet" crossorigin href="/assets/index-p4koK025.css">
@@ -333,7 +326,7 @@
       "@type": "WebPage",
       "@id": "https://insersalud.com/comprar-concentrador-oxigeno-argentina#webpage",
       "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina",
-      "name": "Concentrador de oxígeno: precio desde $999.000 y envío a todo el país | INSER",
+      "name": "Concentrador de Oxígeno: precio desde $999.000 | INSER",
       "description": "Concentrador de oxígeno BMC estacionario de 5 L/min a $999.000, más fijos, portátiles y de alto flujo. ANMAT, cuotas fijas y envío a todo el país.",
       "inLanguage": "es-AR",
       "isPartOf": {
@@ -371,6 +364,14 @@
       "@type": "FAQPage",
       "@id": "https://insersalud.com/comprar-concentrador-oxigeno-argentina#faq",
       "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tarda y cuánto cuesta el envío?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp. El concentrador Yuwell 7F-5B también va sin cargo por su oferta vigente, hasta agotar stock."
+          }
+        },
         {
           "@type": "Question",
           "name": "¿Cuánto cuesta un concentrador de oxígeno en Argentina?",
@@ -413,14 +414,6 @@
         },
         {
           "@type": "Question",
-          "name": "¿Cuánto tarda en llegar a mi provincia?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Depende del destino y del transporte. Te confirmamos el plazo estimado por WhatsApp antes de que compres, junto con el costo del envío."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "¿Los equipos tienen garantía?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -456,14 +449,19 @@
           "position": 1,
           "item": {
             "@type": "Product",
-            "name": "Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)",
+            "name": "Concentrador de oxígeno BMC estacionario",
             "image": "https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg",
             "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina#equipos",
+            "brand": {
+              "@type": "Brand",
+              "name": "BMC"
+            },
             "offers": {
               "@type": "Offer",
               "price": "999000",
               "priceCurrency": "ARS",
               "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
               "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina",
               "seller": {
                 "@id": "https://insersalud.com/#organization"
@@ -479,11 +477,16 @@
             "name": "Concentrador de Oxígeno YUWELL 7F-5B 5 Litros",
             "image": "https://insersalud.com/artifacts/products/concentrador_yuwell_5l.jpg",
             "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina#equipos",
+            "brand": {
+              "@type": "Brand",
+              "name": "Yuwell"
+            },
             "offers": {
               "@type": "Offer",
               "price": "1170000",
               "priceCurrency": "ARS",
               "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
               "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina",
               "seller": {
                 "@id": "https://insersalud.com/#organization"
@@ -496,14 +499,19 @@
           "position": 3,
           "item": {
             "@type": "Product",
-            "name": "Concentrador YUWELL 10 litros (alto flujo)",
+            "name": "Concentrador YUWELL 10 litros",
             "image": "https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg",
             "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina#equipos",
+            "brand": {
+              "@type": "Brand",
+              "name": "Yuwell"
+            },
             "offers": {
               "@type": "Offer",
               "price": "2800000",
               "priceCurrency": "ARS",
               "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
               "url": "https://insersalud.com/comprar-concentrador-oxigeno-argentina",
               "seller": {
                 "@id": "https://insersalud.com/#organization"
@@ -518,9 +526,9 @@
 </script>
   <link rel="preload" as="image" href="/artifacts/products/concentrador_bmc_1.webp" fetchpriority="high" />
   <link rel="alternate" type="text/markdown" href="https://insersalud.com/comprar-concentrador-oxigeno-argentina.md" />
-  <link rel="modulepreload" crossorigin href="/assets/LocalPage-B_fWjyTG.js" />
+  <link rel="modulepreload" crossorigin href="/assets/LocalPage-bFxImv_t.js" />
   <link rel="modulepreload" crossorigin href="/assets/useSEO-B3GZYNKT.js" />
-  <link rel="modulepreload" crossorigin href="/assets/LeadForm-BGDG6yb2.js" />
+  <link rel="modulepreload" crossorigin href="/assets/LeadForm-_rMu5FO1.js" />
 </head>
 
 <body>
@@ -557,18 +565,18 @@
 <li><img src="/artifacts/products/concentrador_yuwell_10l_2.jpg" alt="Concentrador YUWELL 10 litros (alto flujo)" width="900" height="921" loading="lazy" decoding="async"> Concentrador YUWELL 10 litros (alto flujo) — $2.800.000</li>
 </ul>
 <h2>Preguntas frecuentes</h2>
+<h3>¿Cuánto tarda y cuánto cuesta el envío?</h3><p>En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp. El concentrador Yuwell 7F-5B también va sin cargo por su oferta vigente, hasta agotar stock.</p>
 <h3>¿Cuánto cuesta un concentrador de oxígeno en Argentina?</h3><p>En INSER el concentrador estacionario arranca en $999.000: es el BMC, de hasta 5 L/min, con control remoto y medidor de oxígeno. El Concentrador de Oxígeno YUWELL 7F-5B 5 Litros, también de hasta 5 L/min y con humidificador incorporado, sale $1.170.000, con una oferta puntual de 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock. El YUWELL de 10 litros, de alto flujo, sale $2.800.000. Los tres se venden con envío a todo el país; en el BMC y en el YUWELL de 10 litros el costo del envío te lo confirmamos por WhatsApp. Si necesitás un equipo a batería para salir o viajar, mirá los <a href="/comprar-concentrador-oxigeno-portatil-argentina">concentradores portátiles</a>. El alquiler es solo en Córdoba y se cotiza por WhatsApp: más información en <a href="/alquiler-concentrador-oxigeno-cordoba">alquiler en Córdoba</a>. Los precios se actualizan; confirmá el valor del día por WhatsApp.</p>
 <h3>¿Envían concentradores de oxígeno a todo el país?</h3><p>Sí. Vendemos con envío a cualquier provincia de Argentina. Coordinamos el envío por WhatsApp.</p>
 <h3>¿Conviene fijo o portátil?</h3><p>El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.</p>
 <h3>¿Hay concentradores aptos para vuelos?</h3><p>Sí, modelos como el GCE Zen-O están homologados para volar. Consultanos antes de viajar.</p>
 <h3>¿Necesito receta médica?</h3><p>La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.</p>
-<h3>¿Cuánto tarda en llegar a mi provincia?</h3><p>Depende del destino y del transporte. Te confirmamos el plazo estimado por WhatsApp antes de que compres, junto con el costo del envío.</p>
 <h3>¿Los equipos tienen garantía?</h3><p>Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía oficial del fabricante.</p>
 <h3>¿Trabajan con obras sociales o prepagas?</h3><p>Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos presupuesto formal y factura oficial para que gestiones el reembolso ante tu obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico.</p>
 <h3>¿Se puede pagar en cuotas?</h3><p>Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.</p>
 <h2>También te puede servir</h2>
 <ul>
-<li><a href="/comprar-cpap-argentina">Comprar CPAP (envío nacional)</a></li>
+<li><a href="/comprar-cpap-argentina">Precio de CPAP en Argentina (envío a todo el país)</a></li>
 <li><a href="/comprar-concentrador-oxigeno-portatil-argentina">Comprar concentrador de oxígeno portátil (envío nacional)</a></li>
 <li><a href="/concentrador-oxigeno-portatil-cordoba">Concentrador de oxígeno portátil en Córdoba</a></li>
 <li><a href="/patologia/epoc">EPOC</a></li>

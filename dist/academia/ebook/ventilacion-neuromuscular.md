@@ -1,5 +1,5 @@
 ---
-title: "Ventilación neuromuscular: curso gratuito con simulador | INSER"
+title: "Ventilación neuromuscular: curso gratuito con simulador"
 description: "Ebook interactivo gratuito del Lic. Sergio Giorda: estudios respiratorios, semáforo clínico, simulador, cuándo ventilar, asistencia de la tos y deglución."
 url: https://insersalud.com/academia/ebook/ventilacion-neuromuscular
 canonical: https://insersalud.com/academia/ebook/ventilacion-neuromuscular
@@ -1269,6 +1269,8 @@ INSER SALUD · Córdoba, Argentina · Ventilación en enfermedades neuromuscular
 Desarrollo de proyectos educativos
 
 Para más información: [WhatsApp 351 557 5258](https://wa.me/5493515575258)
+
+WhatsApp
 
 ---
 

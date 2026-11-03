@@ -1,6 +1,6 @@
 ---
-title: "Concentrador de Oxígeno Portátil desde $2.735.400 | INSER"
-description: "KINGON P2-S3 a $2.735.400 (2,3 kg con batería), más flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país."
+title: "Concentrador de Oxígeno Portátil desde U$S 1.880 | INSER"
+description: "KINGON P2-S3 a U$S 1.880 (2,3 kg con batería), más flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país."
 url: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 canonical: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -96,6 +96,10 @@ Respondemos por WhatsApp todos los días, también fines de semana.
 - ![Philips SimplyGo (continuo + pulso)](https://insersalud.com/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg) Philips SimplyGo (continuo + pulso) — U$S 3.887
 
 ## Preguntas frecuentes
+
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
 
 ### ¿Cuál es el concentrador portátil más liviano y económico?
 

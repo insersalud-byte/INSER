@@ -1,5 +1,5 @@
 ---
-title: "Precio de CPAP y AutoCPAP en Argentina: desde $499.000 | INSER"
+title: "Precio de CPAP y AutoCPAP: desde $499.000 | INSER"
 description: "Precio de CPAP en Argentina: BMC G2S $499.000, AutoCPAP $630.000 y ResMed AirSense 10 $974.000. Cuotas Banco Galicia, ANMAT y envío a todo el país."
 url: https://insersalud.com/comprar-cpap-argentina
 canonical: https://insersalud.com/comprar-cpap-argentina
@@ -39,9 +39,9 @@ Por ejemplo, el CPAP BMC G2S de $499.000 queda en $573.850 en 3 cuotas (unos $19
 
 Confirmá el precio del día y el plan de cuotas por WhatsApp antes de pagar.
 
-## Además del equipo: máscara, filtros y repuestos
+## El CPAP no trae máscara: sumala al presupuesto
 
-Cuando armes el presupuesto del tratamiento, sumá la [máscara](https://insersalud.com/mascaras-cpap) si no viene incluida con el equipo que elegiste. Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.
+Los CPAP y AutoCPAP que vendemos traen el equipo, el humidificador y la tubuladura, pero no la máscara: se compra aparte y la elegimos con vos según cómo respirás al dormir y el talle de tu cara. Cuando armes el presupuesto del tratamiento, sumá la [máscara](https://insersalud.com/mascaras-cpap). Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.
 
 Con el uso también se reponen los filtros, la almohadilla de la máscara y la tubuladura (la tubuladura universal sale $36.000). Conviene comprar el equipo donde después consigas esos repuestos sin tener que importarlos.
 
@@ -63,7 +63,7 @@ Sea nuevo o usado, y lo compres donde lo compres, estas son las preguntas que te
 ¿Está aprobado por ANMAT? Es la autorización para que el equipo se comercialice en Argentina.
 ¿Quién responde la garantía en el país y por cuánto tiempo? Un equipo sin garantía local queda sin respaldo ante la primera falla.
 ¿Te lo entregan configurado con la presión que indicó tu médico, o lo tenés que programar vos?
-¿El precio incluye humidificador y máscara, y de qué talle?
+¿El precio incluye humidificador y tubuladura? ¿Y la máscara? Casi nunca viene incluida: preguntá cuánto suma y de qué talle es.
 ¿Vas a conseguir repuestos (filtros, máscaras, tubuladuras) acá?
 ¿Te dan factura? La vas a necesitar si querés pedir el reintegro a tu obra social o prepaga.
 Si es usado: ¿cuántas horas de uso tiene y quién lo revisó? Un equipo con muchas horas o sin mantenimiento puede no entregar la presión que necesitás.
@@ -122,6 +122,10 @@ El alquiler es solo en Córdoba. Al resto del país vendemos con envío y te aco
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp. El CPAP y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país por promoción.
+
 ### ¿Qué diferencia hay entre un CPAP y un AutoCPAP?
 
 El CPAP entrega una presión fija durante toda la noche, la que indicó tu médico. El AutoCPAP la ajusta solo, dentro de un rango, según lo que vas necesitando. Cuál corresponde lo define tu médico a partir de tu estudio de sueño. En nuestro catálogo el CPAP BMC G2S sale $499.000 y el AutoCPAP BMC G2S $630.000.
@@ -138,6 +142,10 @@ Sí, en cuotas fijas con Banco Galicia: 3 cuotas con 15% de recargo, 6 cuotas co
 
 Depende de tu obra social o prepaga y de tu plan. Nosotros vendemos de forma particular y te damos presupuesto formal y factura oficial para que pidas el reintegro. Antes de comprar, consultá con ellos qué parte cubren y qué documentación te piden.
 
+### ¿El CPAP viene con máscara?
+
+No. El CPAP y el AutoCPAP se venden con humidificador y tubuladura, y la máscara se compra aparte. Te ayudamos a elegir el tipo y el talle: las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124. Si alquilás en Córdoba, el alquiler sí incluye la máscara.
+
 ### ¿Envían CPAP a todo el país?
 
 Sí. Vendemos con envío a cualquier provincia de Argentina (Buenos Aires, Rosario, Salta, etc.). Coordinamos el envío por WhatsApp.
@@ -153,10 +161,6 @@ El equipo que se usa para tratar la apnea del sueño es el CPAP o el AutoCPAP: e
 ### ¿Cuánto sale alquilar un CPAP?
 
 El alquiler es solo en Córdoba, con entrega e instalación en el día, y se cotiza por WhatsApp. Si después decidís comprarlo, el primer mes de alquiler se descuenta del precio. Más información en [alquiler de CPAP en Córdoba](https://insersalud.com/alquiler-cpap-cordoba).
-
-### ¿El envío del CPAP tiene costo?
-
-Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Para los demás equipos el costo de envío depende del destino: te lo confirmamos por WhatsApp.
 
 ### ¿Los equipos tienen garantía?
 

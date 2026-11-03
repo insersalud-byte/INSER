@@ -201,6 +201,10 @@ Jefe del Servicio de Kinesiología y Fisioterapia del Hospital Rawson, con 25 a�
 
 Material educativo con un modelo fisiológico simplificado. No calcula indicaciones para pacientes reales ni reemplaza protocolos, gasometría ni evaluación clínica.
 
+¿Necesitás un equipo, una máscara o asesoramiento para un paciente? Te respondemos por WhatsApp todos los días de 8 a 20 hs.
+
+Escribinos por WhatsApp
+
 &copy; 2026 Inser Salud · Aparatología aprobada por ANMAT · Córdoba, Argentina · [Política de privacidad](https://insersalud.com/politica-de-privacidad) · [Tarjeta digital](https://insersalud.com/tarjeta)
 
 ---

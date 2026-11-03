@@ -23,7 +23,7 @@ Para quienes necesitan oxígeno pero no quieren quedar atados a un equipo fijo: 
 
 ## Modelos disponibles
 
-KINGON P2-S3: uno de los más livianos y económicos, ideal para uso diario. GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.
+KINGON P2-S3: el más liviano de nuestro catálogo, ideal para uso diario. GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.
 
 Te ayudamos a elegir según el flujo que indicó tu médico.
 

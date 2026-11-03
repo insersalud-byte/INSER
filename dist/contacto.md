@@ -14,7 +14,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Contacto
 
-Escribinos por WhatsApp, llamanos o mandanos un correo. Te asesoramos sobre CPAP, AutoCPAP, BiPAP, concentradores de oxígeno y máscaras, para comprar (con envío a todo el país) o para alquilar (solo en Córdoba Capital y alrededores). Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.
+Escribinos por WhatsApp, llamanos o mandanos un correo. Te asesoramos sobre CPAP, AutoCPAP, BiPAP, concentradores de oxígeno y máscaras, para comprar (con envío a todo el país) o para alquilar (solo en Córdoba Capital y alrededores). Atendemos por WhatsApp y teléfono todos los días de 8 a 20 hs.
 
 [Escribir por WhatsApp](https://wa.me/5493512065320?text=Hola%20INSER%20SALUD%2C%20vengo%20de%20la%20p%C3%A1gina%20de%20contacto%20y%20quiero%20hacer%20una%20consulta) [Llamar al 351 206-5320](tel:+5493512065320) [Línea alternativa 351 557-5258](tel:+5493515575258) [Enviar un correo](mailto:inser.salud@gmail.com)
 
@@ -30,7 +30,7 @@ Escribinos por WhatsApp, llamanos o mandanos un correo. Te asesoramos sobre CPAP
 
 ## Cuándo respondemos
 
-Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. La entrega y la instalación en Córdoba las coordinamos con vos.
+**Todos los días de 8 a 20 hs**, por WhatsApp y teléfono. La entrega y la instalación en Córdoba las coordinamos con vos.
 
 **No hay guardia técnica ni atención de urgencias.** Ante una emergencia médica, llamá al sistema de emergencias.
 

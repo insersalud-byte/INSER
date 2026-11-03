@@ -1,5 +1,5 @@
 ---
-title: "Rehabilitación pulmonar: curso gratuito con simulador | INSER"
+title: "Rehabilitación pulmonar: curso gratuito con simulador"
 description: "Ebook interactivo gratuito de rehabilitación pulmonar del Lic. Sergio Giorda: evaluación, test de marcha de 6 minutos, Borg, ejercicios, prescripción y casos."
 url: https://insersalud.com/academia/ebook/rehabilitacion-pulmonar
 canonical: https://insersalud.com/academia/ebook/rehabilitacion-pulmonar
@@ -785,6 +785,8 @@ Lic. Sergio Giorda · INSER SALUD
 Volver al inicio ↑
 
 insersalud.com ↗
+
+WhatsApp
 
 ---
 

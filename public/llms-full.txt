@@ -3023,9 +3023,9 @@ Por ejemplo, el CPAP BMC G2S de $499.000 queda en $573.850 en 3 cuotas (unos $19
 
 Confirmá el precio del día y el plan de cuotas por WhatsApp antes de pagar.
 
-## Además del equipo: máscara, filtros y repuestos
+## El CPAP no trae máscara: sumala al presupuesto
 
-Cuando armes el presupuesto del tratamiento, sumá la [máscara](https://insersalud.com/mascaras-cpap) si no viene incluida con el equipo que elegiste. Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.
+Los CPAP y AutoCPAP que vendemos traen el equipo, el humidificador y la tubuladura, pero no la máscara: se compra aparte y la elegimos con vos según cómo respirás al dormir y el talle de tu cara. Cuando armes el presupuesto del tratamiento, sumá la [máscara](https://insersalud.com/mascaras-cpap). Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.
 
 Con el uso también se reponen los filtros, la almohadilla de la máscara y la tubuladura (la tubuladura universal sale $36.000). Conviene comprar el equipo donde después consigas esos repuestos sin tener que importarlos.
 
@@ -3047,7 +3047,7 @@ Sea nuevo o usado, y lo compres donde lo compres, estas son las preguntas que te
 ¿Está aprobado por ANMAT? Es la autorización para que el equipo se comercialice en Argentina.
 ¿Quién responde la garantía en el país y por cuánto tiempo? Un equipo sin garantía local queda sin respaldo ante la primera falla.
 ¿Te lo entregan configurado con la presión que indicó tu médico, o lo tenés que programar vos?
-¿El precio incluye humidificador y máscara, y de qué talle?
+¿El precio incluye humidificador y tubuladura? ¿Y la máscara? Casi nunca viene incluida: preguntá cuánto suma y de qué talle es.
 ¿Vas a conseguir repuestos (filtros, máscaras, tubuladuras) acá?
 ¿Te dan factura? La vas a necesitar si querés pedir el reintegro a tu obra social o prepaga.
 Si es usado: ¿cuántas horas de uso tiene y quién lo revisó? Un equipo con muchas horas o sin mantenimiento puede no entregar la presión que necesitás.
@@ -3125,6 +3125,10 @@ Sí, en cuotas fijas con Banco Galicia: 3 cuotas con 15% de recargo, 6 cuotas co
 ### ¿La obra social cubre el CPAP?
 
 Depende de tu obra social o prepaga y de tu plan. Nosotros vendemos de forma particular y te damos presupuesto formal y factura oficial para que pidas el reintegro. Antes de comprar, consultá con ellos qué parte cubren y qué documentación te piden.
+
+### ¿El CPAP viene con máscara?
+
+No. El CPAP y el AutoCPAP se venden con humidificador y tubuladura, y la máscara se compra aparte. Te ayudamos a elegir el tipo y el talle: las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124. Si alquilás en Córdoba, el alquiler sí incluye la máscara.
 
 ### ¿Envían CPAP a todo el país?
 

@@ -79,6 +79,10 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos la
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
 ### ¿Puedo usar una máscara de adulto en talle chico?
 
 No es recomendable. La cara de un chico tiene proporciones distintas, no es una cara adulta a escala: una máscara de adulto apoya donde no debe, genera fugas hacia los ojos y marca la piel. El resultado más habitual es que el chico se la saque y se abandone el tratamiento.

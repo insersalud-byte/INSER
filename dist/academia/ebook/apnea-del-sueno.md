@@ -972,6 +972,8 @@ INSER SALUD · Academia · Apnea del sueño en adultos · Lic. Sergio Giorda, MP
 
 Material educativo independiente. No afiliado a AASM, ATS, VA/DoD, NICE ni fabricantes. [Fuentes y alcance](https://insersalud.com/academia/ebook/apnea-del-sueno#referencias) · [Volver al inicio ↑](https://insersalud.com/academia/ebook/apnea-del-sueno#inicio)
 
+WhatsApp
+
 ---
 
 Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt

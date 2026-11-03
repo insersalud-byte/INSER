@@ -1,5 +1,5 @@
 ---
-title: "Inser Salud — Tarjeta Digital"
+title: "Tarjeta digital | INSER SALUD"
 description: "Inser Salud · Venta y alquiler de equipos respiratorios. CPAP, BiPAP, oxígeno y accesorios. Venta con envío a todo el país y alquiler en Córdoba."
 url: https://insersalud.com/tarjeta
 canonical: https://insersalud.com/tarjeta

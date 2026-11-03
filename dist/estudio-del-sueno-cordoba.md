@@ -1,6 +1,6 @@
 ---
-title: "Poligrafía a domicilio en Córdoba: estudio del sueño | INSER"
-description: "Poligrafía respiratoria a domicilio en Córdoba: el estudio del sueño en tu casa, una noche, sin internación y con informe de IAH. Coordiná por WhatsApp."
+title: "Poligrafía domiciliaria en Córdoba: precio por WhatsApp"
+description: "Poligrafía respiratoria en tu casa, en Córdoba: una noche, sin internación y con informe de IAH para tu médico. Pedí el precio y el turno por WhatsApp."
 url: https://insersalud.com/estudio-del-sueno-cordoba
 canonical: https://insersalud.com/estudio-del-sueno-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -116,6 +116,10 @@ El orden importa: primero el estudio y la indicación médica, después el equip
 - ![CPAP ResMed AirSense 10](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 — $974.000
 
 ## Preguntas frecuentes
+
+### ¿Cuánto cuesta la poligrafía a domicilio en Córdoba?
+
+Te pasamos el precio por WhatsApp: escribinos al +54 9 351 206-5320 (o tocá "Ver precio por WhatsApp") y te respondemos con el valor y los turnos disponibles. El estudio se hace en tu casa, una noche, sin internación, y te entregamos el informe con el IAH para tu médico.
 
 ### ¿Se puede hacer el estudio del sueño en casa?
 

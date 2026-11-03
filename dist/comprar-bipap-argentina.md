@@ -105,7 +105,7 @@ En nuestro catálogo el BiPAP BMC G3 con frecuencia respiratoria y humidificador
 
 ### ¿El envío del BiPAP tiene costo?
 
-Sí. El envío del BiPAP no está incluido en el precio: el costo depende del destino y te lo confirmamos por WhatsApp, junto con el plazo estimado, antes de que compres.
+Sí. El envío del BiPAP no está incluido en el precio: el costo depende del destino y te lo confirmamos por WhatsApp antes de que compres. Al resto del país tarda de 3 a 7 días hábiles; en Córdoba Capital la entrega es sin cargo y en el día.
 
 ### ¿Necesito receta para comprar un BiPAP?
 
@@ -139,7 +139,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Alquiler de BiPAP en Córdoba](https://insersalud.com/bipap-cordoba)
 
-- [Comprar CPAP (envío nacional)](https://insersalud.com/comprar-cpap-argentina)
+- [Precio de CPAP en Argentina (envío a todo el país)](https://insersalud.com/comprar-cpap-argentina)
 
 - [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap)
 

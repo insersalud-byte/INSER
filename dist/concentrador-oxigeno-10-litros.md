@@ -67,6 +67,10 @@ Lo enviamos a cualquier provincia de Argentina. Aparatología aprobada por ANMAT
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
 ### ¿Para qué sirve un concentrador de oxígeno de 10 litros?
 
 Para pacientes con alta demanda de oxígeno y para centros de rehabilitación pulmonar: entrega hasta 10 L/min, el doble del concentrador estándar de 5 L.

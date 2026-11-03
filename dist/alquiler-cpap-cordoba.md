@@ -123,7 +123,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Comprar CPAP en Córdoba](https://insersalud.com/comprar-cpap-cordoba)
 
-- [Comprar CPAP (envío nacional)](https://insersalud.com/comprar-cpap-argentina)
+- [Precio de CPAP en Argentina (envío a todo el país)](https://insersalud.com/comprar-cpap-argentina)
 
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
 

@@ -65,6 +65,10 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos co
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
 ### ¿Qué máscara elijo si respiro por la boca?
 
 Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face (U$S 157), BMC F6 (U$S 124) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.
@@ -101,7 +105,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Máscaras pediátricas](https://insersalud.com/mascaras-pediatricas)
 
-- [Comprar CPAP (envío nacional)](https://insersalud.com/comprar-cpap-argentina)
+- [Precio de CPAP en Argentina (envío a todo el país)](https://insersalud.com/comprar-cpap-argentina)
 
 - [Comprar CPAP en Córdoba](https://insersalud.com/comprar-cpap-cordoba)
 

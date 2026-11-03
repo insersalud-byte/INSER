@@ -45,6 +45,46 @@ Por eso cuando decimos que el equipo se entrega configurado según la indicació
 
 ## Preguntas frecuentes
 
+### ¿Dónde comprar un CPAP en Córdoba?
+
+INSER SALUD ofrece aparatología CPAP aprobada por ANMAT en Córdoba. Tenemos el CPAP BMC G2S desde $499.000 con humidificador incluido. Podés contactarnos por WhatsApp al +54 9 351 206-5320 o visitar insersalud.com.
+
+### ¿Se puede alquilar un CPAP o concentrador de oxígeno en Córdoba?
+
+Sí. INSER SALUD ofrece servicio de alquiler de CPAP, BiPAP y concentradores de oxígeno en Córdoba. Contactanos al +54 9 351 206-5320 para conocer disponibilidad y precios de alquiler.
+
+### ¿La aparatología está aprobada por ANMAT?
+
+Sí. La aparatología comercializada por INSER SALUD está aprobada por ANMAT (Administración Nacional de Medicamentos, Alimentos y Tecnología Médica), garantizando su calidad y seguridad.
+
+### ¿Cuánto cuesta un CPAP en Argentina?
+
+En INSER SALUD el CPAP BMC G2S cuesta $499.000 ARS con humidificador incluido (precio vigente publicado en el sitio). El AutoCPAP BMC G2S con humidificador está a $630.000 y el CPAP ResMed AirSense 10 completo a $974.000. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Los precios varían según el modelo y accesorios incluidos.
+
+### ¿Qué es la apnea del sueño y cómo se trata?
+
+La apnea del sueño es un trastorno en el que la respiración se interrumpe durante el sueño, muchas veces asociado a ronquidos fuertes. El tratamiento principal es el CPAP (presión positiva continua en vías aéreas), un dispositivo que mantiene abiertas las vías respiratorias. INSER SALUD ofrece CPAP aprobados por ANMAT con asesoramiento personalizado.
+
+### ¿Qué diferencia hay entre un CPAP y un AutoCPAP?
+
+El CPAP entrega una presión fija y el AutoCPAP ajusta la presión automáticamente según la respiración de cada noche, ofreciendo mayor comodidad. En INSER SALUD tenés ambos: CPAP BMC G2S desde $499.000 y AutoCPAP BMC, Philips DreamStation y ResMed AirSense 10. También BiPAP para EPOC y enfermedades neuromusculares.
+
+### ¿Qué máscaras para CPAP y BiPAP venden en Córdoba?
+
+En INSER SALUD tenés máscaras nasales, máscaras nasobucales (buconasales o full face) y de almohadillas para CPAP y BiPAP: DreamWear de Philips, ResMed AirFit F20/F30, BMC N4/N5 y F6, YUWELL y más, en todos los talles. Te asesoramos para elegir la máscara que mejor sella y se adapta a tu cara.
+
+### ¿Tienen oxigenoterapia y concentradores de oxígeno?
+
+Sí. INSER SALUD ofrece oxigenoterapia domiciliaria con concentradores de oxígeno estacionarios (fijos) para uso continuo en el hogar y concentradores de oxígeno portátiles aptos para viajes (KINGON, GCE Zen-O, Philips SimplyGo). Disponibles para venta y alquiler en Córdoba, con entrega y soporte técnico.
+
+### ¿Trabajan con obras sociales o prepagas?
+
+Trabajamos de forma particular y ayudamos con el reintegro: entregamos presupuesto formal y factura oficial para que el paciente gestione el reembolso ante su obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico.
+
+### ¿Se puede pagar en cuotas?
+
+Sí. Con Banco Galicia hay cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Se acepta efectivo, transferencia y tarjeta.
+
 ### ¿Qué es un CPAP?
 
 Un CPAP entrega una presión de aire fija y continua que mantiene abiertas las vías respiratorias durante el sueño. Es el tratamiento estándar de la apnea obstructiva del sueño.
@@ -225,7 +265,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - **Infant CPAP Kit neonatal** — U$S 97 — tallas 00 a 5
 
-- **Polígrafo BMC YH-600B PRO** — U$S 1.570 — estudio del sueño domiciliario
+- **Polígrafo BMC YH-600B PRO** — U$S 1.570 — equipo para profesionales; no es el precio del estudio
 
 - **Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock** — U$S 1.794 — con insumos incluidos para arrancar
 
@@ -299,7 +339,7 @@ Cursos gratuitos de la Academia: [Ventilación mecánica](https://insersalud.com
 
 ## Cómo trabajamos
 
-1. **Nos contactás**: por WhatsApp, teléfono, formulario o con Santi. Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.
+1. **Nos contactás**: por WhatsApp, teléfono, formulario o con Santi. Atendemos por WhatsApp y teléfono todos los días de 8 a 20 hs.
 
 2. **Te asesoramos**: elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.
 

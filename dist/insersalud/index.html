@@ -2,6 +2,7 @@
 <html lang="es-AR">
 
 <head>
+    <meta name="msvalidate.01" content="299A69B32328FDD2FEDFC8CF5FF01700" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -187,27 +188,19 @@
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "name": "Horario comercial",
+      "name": "Atención por WhatsApp y teléfono",
+      "description": "Todos los días de 8 a 20 hs. No hay guardia técnica ni atención de urgencias.",
       "dayOfWeek": [
         "Monday",
         "Tuesday",
         "Wednesday",
         "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "18:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "name": "Consultas por WhatsApp",
-      "description": "Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial. No hay guardia técnica ni atención de urgencias.",
-      "dayOfWeek": [
+        "Friday",
         "Saturday",
         "Sunday"
       ],
-      "opens": "09:00",
-      "closes": "18:00"
+      "opens": "08:00",
+      "closes": "20:00"
     }
   ],
   "contactPoint": {
@@ -1639,7 +1632,69 @@
   </script>
 
   <!-- ══ Structured Data – FAQPage (para IA y rich snippets) ══════════════ -->
+  <!-- ══ Structured Data – BreadcrumbList ═════════════════════════════════ -->
   <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://insersalud.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Equipos CPAP",
+        "item": "https://insersalud.com/#ofertas"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Contacto",
+        "item": "https://insersalud.com/#contacto"
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://insersalud.com/#sergiogiorda",
+  "name": "Sergio Giorda",
+  "url": "https://insersalud.com/sobre-nosotros",
+  "honorificPrefix": "Lic.",
+  "jobTitle": "Kinesiólogo y Fisioterapeuta",
+  "description": "Kinesiólogo y fisioterapeuta con 25 años en el Servicio de Terapia Intensiva del Hospital Rawson, donde es Jefe del Servicio de Kinesiología y Fisioterapia. Director de INSER SALUD.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Matrícula Profesional",
+    "value": "2123"
+  },
+  "worksFor": {
+    "@id": "https://insersalud.com/#organization"
+  },
+  "knowsAbout": [
+    "Ventilación mecánica no invasiva",
+    "Oxigenoterapia domiciliaria",
+    "Rehabilitación pulmonar",
+    "Apnea obstructiva del sueño",
+    "Terapia intensiva respiratoria"
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidad Nacional de Córdoba"
+  }
+}
+  </script>
+  <script type="module" crossorigin src="/assets/index-DfKADGaX.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/react-vendor-BRAUxTbQ.js">
+  <link rel="modulepreload" crossorigin href="/assets/icons-DqSsfwmA.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-p4koK025.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js" defer></script><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -1727,73 +1782,10 @@
   ]
 }
 </script>
-
-  <!-- ══ Structured Data – BreadcrumbList ═════════════════════════════════ -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Inicio",
-        "item": "https://insersalud.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Equipos CPAP",
-        "item": "https://insersalud.com/#ofertas"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Contacto",
-        "item": "https://insersalud.com/#contacto"
-      }
-    ]
-  }
-  </script>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://insersalud.com/#sergiogiorda",
-  "name": "Sergio Giorda",
-  "url": "https://insersalud.com/sobre-nosotros",
-  "honorificPrefix": "Lic.",
-  "jobTitle": "Kinesiólogo y Fisioterapeuta",
-  "description": "Kinesiólogo y fisioterapeuta con 25 años en el Servicio de Terapia Intensiva del Hospital Rawson, donde es Jefe del Servicio de Kinesiología y Fisioterapia. Director de INSER SALUD.",
-  "identifier": {
-    "@type": "PropertyValue",
-    "name": "Matrícula Profesional",
-    "value": "2123"
-  },
-  "worksFor": {
-    "@id": "https://insersalud.com/#organization"
-  },
-  "knowsAbout": [
-    "Ventilación mecánica no invasiva",
-    "Oxigenoterapia domiciliaria",
-    "Rehabilitación pulmonar",
-    "Apnea obstructiva del sueño",
-    "Terapia intensiva respiratoria"
-  ],
-  "alumniOf": {
-    "@type": "CollegeOrUniversity",
-    "name": "Universidad Nacional de Córdoba"
-  }
-}
-  </script>
-  <script type="module" crossorigin src="/assets/index-BUwCw6UR.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/react-vendor-BRAUxTbQ.js">
-  <link rel="modulepreload" crossorigin href="/assets/icons-DqSsfwmA.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-p4koK025.css">
-<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js" defer></script>  <link rel="alternate" type="text/markdown" href="https://insersalud.com/index.md" />
-  <link rel="modulepreload" crossorigin href="/assets/LandingPage-B0LYZnYg.js" />
-  <link rel="modulepreload" crossorigin href="/assets/LeadForm-BGDG6yb2.js" />
-  <link rel="preload" as="style" href="/assets/LandingPage-C1JUhIMQ.css" />
+  <link rel="alternate" type="text/markdown" href="https://insersalud.com/index.md" />
+  <link rel="modulepreload" crossorigin href="/assets/LandingPage-NAkjYqPE.js" />
+  <link rel="modulepreload" crossorigin href="/assets/LeadForm-_rMu5FO1.js" />
+  <link rel="preload" as="style" href="/assets/LandingPage-B6i9x10z.css" />
 </head>
 
 <body>
@@ -1820,6 +1812,26 @@
 </ul>
 <p>Por eso cuando decimos que el equipo se entrega configurado según la indicación de tu médico, hay alguien que sabe leer esa indicación.</p>
 <h2>Preguntas frecuentes</h2>
+<h3>¿Dónde comprar un CPAP en Córdoba?</h3>
+<p>INSER SALUD ofrece aparatología CPAP aprobada por ANMAT en Córdoba. Tenemos el CPAP BMC G2S desde $499.000 con humidificador incluido. Podés contactarnos por WhatsApp al +54 9 351 206-5320 o visitar insersalud.com.</p>
+<h3>¿Se puede alquilar un CPAP o concentrador de oxígeno en Córdoba?</h3>
+<p>Sí. INSER SALUD ofrece servicio de alquiler de CPAP, BiPAP y concentradores de oxígeno en Córdoba. Contactanos al +54 9 351 206-5320 para conocer disponibilidad y precios de alquiler.</p>
+<h3>¿La aparatología está aprobada por ANMAT?</h3>
+<p>Sí. La aparatología comercializada por INSER SALUD está aprobada por ANMAT (Administración Nacional de Medicamentos, Alimentos y Tecnología Médica), garantizando su calidad y seguridad.</p>
+<h3>¿Cuánto cuesta un CPAP en Argentina?</h3>
+<p>En INSER SALUD el CPAP BMC G2S cuesta $499.000 ARS con humidificador incluido (precio vigente publicado en el sitio). El AutoCPAP BMC G2S con humidificador está a $630.000 y el CPAP ResMed AirSense 10 completo a $974.000. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Los precios varían según el modelo y accesorios incluidos.</p>
+<h3>¿Qué es la apnea del sueño y cómo se trata?</h3>
+<p>La apnea del sueño es un trastorno en el que la respiración se interrumpe durante el sueño, muchas veces asociado a ronquidos fuertes. El tratamiento principal es el CPAP (presión positiva continua en vías aéreas), un dispositivo que mantiene abiertas las vías respiratorias. INSER SALUD ofrece CPAP aprobados por ANMAT con asesoramiento personalizado.</p>
+<h3>¿Qué diferencia hay entre un CPAP y un AutoCPAP?</h3>
+<p>El CPAP entrega una presión fija y el AutoCPAP ajusta la presión automáticamente según la respiración de cada noche, ofreciendo mayor comodidad. En INSER SALUD tenés ambos: CPAP BMC G2S desde $499.000 y AutoCPAP BMC, Philips DreamStation y ResMed AirSense 10. También BiPAP para EPOC y enfermedades neuromusculares.</p>
+<h3>¿Qué máscaras para CPAP y BiPAP venden en Córdoba?</h3>
+<p>En INSER SALUD tenés máscaras nasales, máscaras nasobucales (buconasales o full face) y de almohadillas para CPAP y BiPAP: DreamWear de Philips, ResMed AirFit F20/F30, BMC N4/N5 y F6, YUWELL y más, en todos los talles. Te asesoramos para elegir la máscara que mejor sella y se adapta a tu cara.</p>
+<h3>¿Tienen oxigenoterapia y concentradores de oxígeno?</h3>
+<p>Sí. INSER SALUD ofrece oxigenoterapia domiciliaria con concentradores de oxígeno estacionarios (fijos) para uso continuo en el hogar y concentradores de oxígeno portátiles aptos para viajes (KINGON, GCE Zen-O, Philips SimplyGo). Disponibles para venta y alquiler en Córdoba, con entrega y soporte técnico.</p>
+<h3>¿Trabajan con obras sociales o prepagas?</h3>
+<p>Trabajamos de forma particular y ayudamos con el reintegro: entregamos presupuesto formal y factura oficial para que el paciente gestione el reembolso ante su obra social o prepaga. Muchas coberturas reintegran total o parcialmente los equipos con pedido médico.</p>
+<h3>¿Se puede pagar en cuotas?</h3>
+<p>Sí. Con Banco Galicia hay cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Se acepta efectivo, transferencia y tarjeta.</p>
 <h3>¿Qué es un CPAP?</h3><p>Un CPAP entrega una presión de aire fija y continua que mantiene abiertas las vías respiratorias durante el sueño. Es el tratamiento estándar de la apnea obstructiva del sueño.</p>
 <h3>¿Qué es un AutoCPAP?</h3><p>El AutoCPAP (APAP) funciona como un CPAP pero ajusta la presión automáticamente noche a noche según la respiración del paciente, ofreciendo mayor comodidad.</p>
 <h3>¿Qué es un BiPAP?</h3><p>Un BiPAP entrega dos presiones: una mayor al inhalar (IPAP) y otra menor al exhalar (EPAP). Se usa en EPOC, enfermedades neuromusculares e hipoventilación, y puede tener frecuencia respiratoria de respaldo.</p>
@@ -1888,7 +1900,7 @@
 <li><strong>Máscara pediátrica HSINER Cirri Mini</strong> — U$S 105 — nasal pediátrica XS/S/M/L</li>
 <li><strong>Máscara pediátrica Philips Wisp (jirafa)</strong> — U$S 227 — nasal pediátrica, diseño amigable</li>
 <li><strong>Infant CPAP Kit neonatal</strong> — U$S 97 — tallas 00 a 5</li>
-<li><strong>Polígrafo BMC YH-600B PRO</strong> — U$S 1.570 — estudio del sueño domiciliario</li>
+<li><strong>Polígrafo BMC YH-600B PRO</strong> — U$S 1.570 — equipo para profesionales; no es el precio del estudio</li>
 <li><strong>Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock</strong> — U$S 1.794 — con insumos incluidos para arrancar</li>
 <li><strong>Tubuladura para CPAP / BiPAP</strong> — $36.000 — repuesto universal</li>
 </ul>
@@ -1934,7 +1946,7 @@
 
 <h2>Cómo trabajamos</h2>
 <ol>
-<li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial.</li>
+<li><strong>Nos contactás</strong>: por WhatsApp, teléfono, formulario o con Santi. Atendemos por WhatsApp y teléfono todos los días de 8 a 20 hs.</li>
 <li><strong>Te asesoramos</strong>: elegimos juntos el equipo correcto según tu prescripción médica y tu presupuesto.</li>
 <li><strong>Entregamos e instalamos</strong>: en Córdoba a domicilio en el día; al resto del país, envío con puesta en marcha guiada.</li>
 <li><strong>Te acompañamos</strong>: adaptación, soporte técnico, repuestos y factura con presupuesto formal para el reintegro de tu obra social.</li>

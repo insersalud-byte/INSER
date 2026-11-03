@@ -93,9 +93,9 @@ Y si notás que tu saturación baja por debajo de lo habitual, avisale a tu méd
 
 ## Preguntas frecuentes
 
-### ¿Atienden las 24 horas? ¿Y si necesito oxígeno un fin de semana?
+### ¿Atienden las 24 horas o los fines de semana?
 
-Respondemos consultas por WhatsApp todos los días, también fines de semana y fuera del horario comercial, así que podés escribirnos cuando lo necesites y coordinamos desde ese momento. Los concentradores que entregamos están preparados para uso continuo las 24 horas del día. La entrega e instalación en Córdoba las coordinamos con vos, normalmente en el día.
+Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.
 
 ### ¿Cuánto cuesta alquilar un concentrador de oxígeno en Córdoba?
 
@@ -123,7 +123,7 @@ Poca. Se enchufa a la red eléctrica de la casa y podés usarlo todas las horas 
 
 ### ¿Qué pasa si el equipo falla durante el alquiler?
 
-El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos: escribinos por WhatsApp y coordinamos el cambio. Respondemos consultas todos los días, también fines de semana y fuera del horario comercial.
+El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos: escribinos por WhatsApp y coordinamos el cambio. Respondemos todos los días de 8 a 20 hs.
 
 ### ¿Trabajan con obras sociales o prepagas?
 

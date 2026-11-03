@@ -95,6 +95,10 @@ La capacitación de uso del equipo y del software está incluida (presencial en 
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
 ### ¿Sirve un concentrador domiciliario de 5 litros para un centro de rehabilitación?
 
 Para uso intensivo o pacientes de alta demanda conviene el de 10 litros: duplica el flujo (hasta 10 L/min) y está pensado para funcionar de forma continua durante toda la jornada.

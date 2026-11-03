@@ -81,6 +81,10 @@ El alquiler es solo en Córdoba Capital y alrededores: mirá [alquiler de concen
 
 ## Preguntas frecuentes
 
+### ¿Cuánto tarda y cuánto cuesta el envío?
+
+En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp. El concentrador Yuwell 7F-5B también va sin cargo por su oferta vigente, hasta agotar stock.
+
 ### ¿Cuánto cuesta un concentrador de oxígeno en Argentina?
 
 En INSER el concentrador estacionario arranca en $999.000: es el BMC, de hasta 5 L/min, con control remoto y medidor de oxígeno. El Concentrador de Oxígeno YUWELL 7F-5B 5 Litros, también de hasta 5 L/min y con humidificador incorporado, sale $1.170.000, con una oferta puntual de 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock. El YUWELL de 10 litros, de alto flujo, sale $2.800.000. Los tres se venden con envío a todo el país; en el BMC y en el YUWELL de 10 litros el costo del envío te lo confirmamos por WhatsApp. Si necesitás un equipo a batería para salir o viajar, mirá los [concentradores portátiles](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina). El alquiler es solo en Córdoba y se cotiza por WhatsApp: más información en [alquiler en Córdoba](https://insersalud.com/alquiler-concentrador-oxigeno-cordoba). Los precios se actualizan; confirmá el valor del día por WhatsApp.
@@ -101,10 +105,6 @@ Sí, modelos como el GCE Zen-O están homologados para volar. Consultanos antes 
 
 La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.
 
-### ¿Cuánto tarda en llegar a mi provincia?
-
-Depende del destino y del transporte. Te confirmamos el plazo estimado por WhatsApp antes de que compres, junto con el costo del envío.
-
 ### ¿Los equipos tienen garantía?
 
 Sí, todos los equipos son aparatología aprobada por ANMAT y tienen garantía oficial del fabricante.
@@ -119,7 +119,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 ## También te puede servir
 
-- [Comprar CPAP (envío nacional)](https://insersalud.com/comprar-cpap-argentina)
+- [Precio de CPAP en Argentina (envío a todo el país)](https://insersalud.com/comprar-cpap-argentina)
 
 - [Comprar concentrador de oxígeno portátil (envío nacional)](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina)
 

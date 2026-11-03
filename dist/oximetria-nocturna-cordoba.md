@@ -1,6 +1,6 @@
 ---
-title: "Oximetría nocturna a domicilio en Córdoba | INSER SALUD"
-description: "Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno en sangre toda la noche, en tu cama, con informe para tu médico. Coordiná por WhatsApp."
+title: "Oximetría nocturna en Córdoba: precio por WhatsApp | INSER"
+description: "Oximetría nocturna a domicilio en Córdoba: medimos tu oxígeno toda la noche, en tu cama, con informe para tu médico. Pedí precio y turno por WhatsApp."
 url: https://insersalud.com/oximetria-nocturna-cordoba
 canonical: https://insersalud.com/oximetria-nocturna-cordoba
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -120,6 +120,10 @@ Precios de referencia para comprar un concentrador: BMC estacionario $999.000 y 
 - ![Concentrador estacionario Yuwell 7F-5B de 5 litros](https://insersalud.com/artifacts/products/concentrador_yuwell_5l.jpg) Concentrador estacionario Yuwell 7F-5B de 5 litros — $1.170.000
 
 ## Preguntas frecuentes
+
+### ¿Cuánto cuesta la oximetría nocturna a domicilio en Córdoba?
+
+Te pasamos el precio por WhatsApp: escribinos al +54 9 351 206-5320 (o tocá "Ver precio por WhatsApp") y te respondemos con el valor y los turnos disponibles. La hacemos en tu casa, durante una noche, con un oxímetro de muñeca, y te entregamos el informe para tu médico.
 
 ### ¿Qué es una oximetría nocturna?
 

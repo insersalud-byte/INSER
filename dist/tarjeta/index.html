@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Inser Salud — Tarjeta Digital</title>
+<title>Tarjeta digital | INSER SALUD</title>
+  <meta name="robots" content="index, follow">
 <meta name="description" content="Inser Salud · Venta y alquiler de equipos respiratorios. CPAP, BiPAP, oxígeno y accesorios. Venta con envío a todo el país y alquiler en Córdoba.">
 <meta property="og:title" content="Inser Salud — Equipos Respiratorios">
 <meta property="og:description" content="CPAP · BiPAP · Oxígeno · Accesorios. Venta con envío a todo el país y alquiler con instalación en el día en Córdoba.">
@@ -280,6 +281,9 @@ try{var q=location.search;if(/[?&]sinstats=1/.test(q))localStorage.setItem('inse
     if(!/(^|\.)(insersalud\.com|inser\.ar)$/.test(location.hostname))window['ga-disable-G-XD586V0PLV']=true;
 gtag('js', new Date());
 gtag('config', 'G-XD586V0PLV');
+  // Contactos: los mismos eventos que mide el sitio (contact_whatsapp / contact_phone en GA4) y la
+  // conversion "Contacto" de Google Ads, con la misma etiqueta que src/adsConversions.js.
+  document.addEventListener('click',function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href*="wa.me/"],a[href^="tel:"]');if(!a||typeof gtag!=='function')return;var href=a.getAttribute('href')||'';gtag('event',href.indexOf('tel:')===0?'contact_phone':'contact_whatsapp',{source:'tarjeta',link_url:href,transport_type:'beacon'});gtag('event','conversion',{send_to:'AW-18383657900/2leGCIadkeEcEKy3gb5E',value:1.0,currency:'ARS'});},true);
 </script>
 </head>
 <body>
