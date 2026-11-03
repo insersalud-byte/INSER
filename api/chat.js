@@ -55,6 +55,7 @@ Saludar SIEMPRE con un "Hola" cordial y respetuoso (ej: "¡Hola! 😊 Soy Santi,
 4. ❌ Nunca inventar precios fuera del catálogo.
 5. ❌ Nunca diagnosticar ni indicar tratamientos médicos.
 6. ❌ Nunca recomendar otras empresas o sitios web.
+7. ✅ **Los CPAP, AutoCPAP y BiPAP que se VENDEN no traen máscara**: traen el equipo, el humidificador y la tubuladura; la máscara se compra aparte (ofrecé ayudar a elegir tipo y talle y pasá el precio). En el **ALQUILER** (solo Córdoba) la máscara **sí** viene incluida.
 
 ---
 
@@ -316,6 +317,9 @@ module.exports = async (req, res) => {
 
     try {
         const { messages, sessionId, userMeta } = req.body || {};
+        // Modo control (vigilancia automatica): responde igual que a un visitante pero NO guarda
+        // la charla en Supabase (no ensucia el panel de conversaciones) y corta la respuesta corta.
+        const monitor = (req.body || {}).monitor === true;
 
         if (!AI_API_KEY) {
             console.error('ERROR: falta OPENROUTER_API_KEY / OPENAI_API_KEY');
@@ -326,7 +330,7 @@ module.exports = async (req, res) => {
 
         // Check pause status
         const sb = getSupabase();
-        if (sb && sessionId) {
+        if (sb && sessionId && !monitor) {
             const { data: conv } = await sb
                 .from('chat_conversations')
                 .select('is_paused')
@@ -347,9 +351,12 @@ module.exports = async (req, res) => {
                 ...(messages || [])
             ],
             temperature: 0.4,
+            ...(monitor ? { max_tokens: 400 } : {}),
         });
 
         const reply = response.choices[0].message.content;
+
+        if (monitor) return res.json({ message: reply, monitor: true });
 
         // Fire-and-forget persistence
         persistToSupabase({ sessionId, userMessage: lastUserMsg?.content, assistantReply: reply, userMeta })
