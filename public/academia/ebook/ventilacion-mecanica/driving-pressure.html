@@ -263,8 +263,8 @@ footer.f strong{color:#fff}
       <tr><td>FR</td><td>20 rpm</td><td>Cuántas veces por minuto se repite esa carga</td></tr>
     </tbody>
   </table></div>
-  <figure class="fig"><div class="ft">ΔP = Vt / Cst: el mismo volumen genera presiones distintas</div><div id="fig-vtcrs"></div><figcaption>Relación matemática idealizada. Con Cst 25, un Vt de 400 mL ya da ΔP 16; con Cst 60, ni 600 mL llegan a 15. La línea punteada (15 cmH₂O) es una señal de atención frecuente, no un umbral universal.</figcaption></figure>
-  <div class="box info"><strong>Cómo interpretarla</strong><p>Valores altos de ΔP en SDRA se asocian con peor pronóstico, pero asociación no es causalidad: bajar la ΔP "a cualquier costo" no demostró por sí solo mejorar la sobrevida (ver sección 5). El valor de 15 cmH₂O se usa como señal de atención, no como frontera de seguridad. La guía AARC 2024 sugiere evaluar la ΔP, con recomendación condicional y certeza baja.</p></div>
+  <figure class="fig"><div class="ft">ΔP = Vt / Cst: el mismo volumen genera presiones distintas</div><div id="fig-vtcrs"></div><figcaption>Relación matemática idealizada. Con Cst 25, un Vt de 400 mL ya da ΔP 16; con Cst 60, ni 600 mL llegan a 15. La línea punteada marca 15 cmH₂O: por encima de ese valor aumenta la mortalidad en SDRA.</figcaption></figure>
+  <div class="box red"><strong>Por encima de 15 cmH₂O aumenta la mortalidad</strong><p>Es la asociación más consistente de la ventilación protectora:</p><ul class="clean"><li><b>Amato 2015</b> (3.562 pacientes con SDRA, 9 ensayos): la ΔP fue la variable que mejor se asoció con la supervivencia. Cada aumento de 7 cmH₂O elevó el riesgo de muerte un 41 %, y por encima de 15 la mortalidad crecía aun con Pplat menor de 30 y Vt protector.</li><li><b>Bellani 2019</b>: la misma relación en ventilación asistida (ΔP ≥ 15).</li><li><b>LUNG SAFE 2026</b>: la ΔP volvió a ser de los mejores predictores, con un corte de 17 cmH₂O.</li></ul><p>Por eso una ΔP mayor de 15 obliga a revisar la estrategia: Vt por peso predicho, PEEP, posición prono y causas de compliance baja. Lo que todavía no está demostrado es que forzarla a un número fijo, a cualquier costo, baje la mortalidad (sección 5). La guía AARC 2024 recomienda medirla y registrarla.</p></div>
 </section>
 
 <section id="dpfr">
@@ -622,7 +622,7 @@ function badge(g,x,y,s,col){var t=txt(g,x,y,s,{size:12,fill:"#fff",weight:700,an
   var cs=[[25,C.red],[30,C.amber],[40,C.blue],[60,C.tealD]];
   plot(host,{h:300,x:[200,600],y:[0,26],xt:[200,300,400,500,600],yt:[0,5,10,15,20,25],xl:"Vt (mL)",yl:"ΔP (cmH₂O)",
     series:cs.map(function(c){return{pts:range(200,600,40).map(function(v){return[v,Math.min(26,v/c[0])]}),color:c[1]}}),
-    ann:function(g,X,Y){hline(g,X,Y,200,600,15,C.muted,"6 5");txt(g,X(205),Y(15)-6,"15 cmH₂O: señal de atención",{size:11});
+    ann:function(g,X,Y){hline(g,X,Y,200,600,15,C.muted,"6 5");txt(g,X(205),Y(15)-6,"15 cmH₂O: ↑ mortalidad por encima",{size:11});
       cs.forEach(function(c,i){var x=Math.min(590,26*c[0]-30),y=x/c[0];if(c[0]>=40){x=585;y=x/c[0]}txt(g,X(x),Y(y)-8,"Cst "+c[0],{size:12,fill:c[1],weight:700,anchor:"end"})})}});
 })();
 
@@ -739,7 +739,7 @@ function calcCtrl(){
   var pbw=(sexo==="m"?50:45.5)+0.91*(talla-152.4),vtk=vt/pbw,dp=ppl-peep,crs=vt/dp,idx=4*dp+fr,pm=.098*fr*vt/1000*(ppk-dp/2),pmel=.098*fr*vt/1000*dp/2,en=dp/vtk,ve=vt*fr/1000;
   var o="";var ok=isFinite(dp)&&dp>0;
   o+=card("Vt por peso predicho",isFinite(vtk)?fmt(vtk):"—","mL/kg","PBW "+fmt(pbw)+" kg. "+(vtk>8?"Mayor de 8 mL/kg: por encima del rango protector.":vtk<4?"Menor de 4 mL/kg: vigilar CO₂ y esfuerzos.":"Dentro de 4–8 mL/kg."),vtk>8?"bad":(vtk<4?"warn":""));
-  o+=card("Driving pressure",ok?fmt(dp):"—","cmH₂O",!ok?"Revise Pplat y PEEP.":dp>=17?"≥ 17: corte asociado con mayor mortalidad (LUNG SAFE).":dp>=15?"15–17: señal de atención.":"Menor de 15.",!ok?"na":dp>=17?"bad":dp>=15?"warn":"");
+  o+=card("Driving pressure",ok?fmt(dp):"—","cmH₂O",!ok?"Revise Pplat y PEEP.":dp>15?"Mayor de 15: asociada con mayor mortalidad en SDRA (Amato 2015). Revise la estrategia.":dp>=14?"Cerca de 15: vigilar la tendencia.":"≤ 15.",!ok?"na":dp>15?"bad":dp>=14?"warn":"");
   o+=card("Compliance estática",ok?fmt(crs):"—","mL/cmH₂O",ok?(crs<30?"Baja: pulmón pequeño o rígido.":crs<50?"Moderadamente reducida.":"Conservada."):"",!ok?"na":crs<30?"warn":"");
   o+=card("4ΔP + FR",ok?fmt(idx):"—","",ok?(idx>=76?"≥ 76 (corte poblacional LUNG SAFE). Compare estrategias.":"Menor de 76. Usalo para comparar en el tiempo."):"",!ok?"na":idx>=76?"warn":"");
   o+=card("Elastancia normalizada",ok&&isFinite(en)?fmt(en):"—","cmH₂O/(mL/kg)",ok?(en>=2.1?"≥ 2,1: punto de corte asociado con mortalidad.":"Menor de 2,1."):"",!ok?"na":en>=2.1?"warn":"");
