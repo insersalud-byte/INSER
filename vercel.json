@@ -4,6 +4,10 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/academia/ebook/ventilacion-mecanica/driving-pressure",
+      "destination": "/academia/ebook/ventilacion-mecanica/driving-pressure.html"
+    },
+    {
       "source": "/chat-ai",
       "destination": "/index.html"
     },

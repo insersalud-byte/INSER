@@ -1215,6 +1215,10 @@ try {
             u(`${SALUD}/academia/ebook/ventilacion-mecanica`, '0.7', [
                 { img: '/academia/ebook/ventilacion-mecanica/images/hero-evaluacion.webp', name: 'Ebook interactivo de ventilación mecánica - Academia INSER SALUD' },
             ]),
+            // Capitulo avanzado del ebook de VM (HTML estatico; rewrite sin .html en vercel.json)
+            u(`${SALUD}/academia/ebook/ventilacion-mecanica/driving-pressure`, '0.6', [
+                { img: '/academia/ebook/ventilacion-mecanica/images/modo-volumen.webp', name: 'Driving pressure, 4ΔP + FR y monitoreo en presión de soporte - Academia INSER SALUD' },
+            ]),
             u(`${SALUD}/academia/ebook/ventilacion-no-invasiva`, '0.7', [
                 { img: '/academia/ebook/ventilacion-no-invasiva/images/vni-hfnc.webp', name: 'Ebook interactivo de ventilación no invasiva (CPAP y BiPAP) - Academia INSER SALUD' },
             ]),

@@ -534,6 +534,14 @@
     </image:image>
   </url>
   <url>
+    <loc>https://insersalud.com/academia/ebook/ventilacion-mecanica/driving-pressure</loc>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://insersalud.com/academia/ebook/ventilacion-mecanica/images/modo-volumen.webp</image:loc>
+      <image:title>Driving pressure, 4ΔP + FR y monitoreo en presión de soporte - Academia INSER SALUD</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://insersalud.com/academia/ebook/ventilacion-no-invasiva</loc>
     <priority>0.7</priority>
     <image:image>
