@@ -222,6 +222,7 @@ footer.f strong{color:#fff}
     <ul class="clean">
       <li>En el paciente pasivo, la ΔP del sistema respiratorio se calcula con <b>presión plateau y PEEP total</b>, nunca con la presión pico.</li>
       <li>El daño pulmonar depende de cuánta energía entra en cada ciclo <b>y de cuántas veces por minuto</b> se repite: por eso la frecuencia respiratoria importa.</li>
+      <li><b>Una ΔP por encima de 15 cmH₂O se asocia con mayor mortalidad en SDRA.</b> El objetivo es mantenerla por debajo, dentro de la estrategia protectora.</li>
       <li>En presión de soporte, el esfuerzo muscular puede ser muy distinto con la misma presión en la vía aérea.</li>
       <li>P0.1 estima sobre todo el impulso respiratorio; Pocc ayuda a cribar la intensidad del esfuerzo.</li>
       <li>Una medición aislada nunca reemplaza la tendencia, la observación del paciente y la lectura de las curvas.</li>
@@ -258,7 +259,7 @@ footer.f strong{color:#fff}
       <tr><td>Ppico</td><td>31 cmH₂O</td><td>Incluye la presión resistiva</td></tr>
       <tr><td>Pplat</td><td>25 cmH₂O</td><td>Presión a flujo cero</td></tr>
       <tr><td>PEEP total</td><td>10 cmH₂O</td><td>Presión al final de la espiración</td></tr>
-      <tr><td>ΔP</td><td>25 − 10 = <b>15 cmH₂O</b></td><td>Presión elástica del sistema</td></tr>
+      <tr><td>ΔP</td><td>25 − 10 = <b>15 cmH₂O</b></td><td>Presión elástica del sistema. En el límite: por encima de 15 aumenta la mortalidad</td></tr>
       <tr><td>Cst</td><td>450 / 15 = <b>30 mL/cmH₂O</b></td><td>Compliance estática</td></tr>
       <tr><td>FR</td><td>20 rpm</td><td>Cuántas veces por minuto se repite esa carga</td></tr>
     </tbody>
@@ -275,8 +276,8 @@ footer.f strong{color:#fff}
   <p>En 2021, Costa y colaboradores juntaron 4.549 pacientes con SDRA de seis ensayos de ventilación protectora y una cohorte observacional. La ΔP, la FR y el poder mecánico predijeron mortalidad, pero un modelo simple con solo ΔP y FR funcionó igual que la ecuación completa de poder mecánico. El efecto de cada cmH₂O de ΔP sobre la mortalidad fue alrededor de cuatro veces el de cada respiración por minuto de FR.</p>
   <div class="formula amber"><div class="eq">Índice = 4 × ΔP + FR</div><small>ΔP en cmH₂O · FR en respiraciones por minuto · resultado sin unidad física: es un puntaje de riesgo, no una energía</small></div>
   <div class="grid2">
-    <div class="card"><h4>Lectura práctica</h4><p>Subir la ΔP <b>1 cmH₂O</b> pesa en el riesgo lo mismo que subir la FR <b>4 rpm</b>. Por eso, al bajar el Vt para reducir la ΔP, se puede aceptar una FR algo más alta y el balance suele ser favorable.</p></div>
-    <div class="card"><h4>Ejemplo</h4><p>ΔP 15 y FR 20 → 4×15 + 20 = <b>80</b>.<br>ΔP 12 y FR 26 → 4×12 + 26 = <b>74</b>.<br>La segunda estrategia tiene menos carga combinada aunque la FR sea mayor.</p></div>
+    <div class="card"><h4>Lectura práctica</h4><p>Subir la ΔP <b>1 cmH₂O</b> pesa en el riesgo lo mismo que subir la FR <b>4 rpm</b>. Por eso, al bajar el Vt para llevar la ΔP por debajo de 15, se puede aceptar una FR algo más alta y el balance suele ser favorable.</p></div>
+    <div class="card"><h4>Ejemplo</h4><p>ΔP 15 y FR 20 → 4×15 + 20 = <b>80</b>.<br>ΔP 12 y FR 26 → 4×12 + 26 = <b>74</b>.<br>La segunda estrategia tiene menos carga combinada aunque la FR sea mayor, y además deja la ΔP por debajo de 15.</p></div>
   </div>
   <figure class="fig"><div class="ft">Mapa de iso-riesgo: ΔP versus frecuencia respiratoria</div>
     <div class="iso-ctrl">
@@ -287,7 +288,7 @@ footer.f strong{color:#fff}
     <figcaption>Cada línea une combinaciones con el mismo 4ΔP + FR. Moverse hacia abajo y a la izquierda reduce la carga combinada. La línea de 76 marca el punto de corte de un análisis de LUNG SAFE (Eur Respir J 2026) con sensibilidad 71 % y especificidad 48 %: es un dato poblacional, no una meta validada.</figcaption>
   </figure>
   <h3>El intercambio volumen–frecuencia, con números</h3>
-  <p>Paciente con Cst 30 mL/cmH₂O, Vt 450 mL, FR 20 → volumen minuto 9 L/min, ΔP 15, índice 80. Si se baja el Vt a 380 mL: ΔP = 380/30 ≈ 12,7. Para sostener el mismo volumen minuto hace falta FR ≈ 24 (9.000/380). Nuevo índice ≈ 4×12,7 + 24 = <b>74,8</b>. Bajó la carga combinada.</p>
+  <p>Paciente con Cst 30 mL/cmH₂O, Vt 450 mL, FR 20 → volumen minuto 9 L/min, ΔP 15, índice 80. Si se baja el Vt a 380 mL: ΔP = 380/30 ≈ 12,7. Para sostener el mismo volumen minuto hace falta FR ≈ 24 (9.000/380). Nuevo índice ≈ 4×12,7 + 24 = <b>74,8</b>. Bajó la carga combinada y la ΔP salió de la zona de mayor mortalidad.</p>
   <div class="box warn"><strong>El límite del intercambio</strong><p>Al bajar el Vt, el espacio muerto pesa proporcionalmente más: el volumen minuto alveolar cae aunque el volumen minuto total se mantenga. Por eso la PaCO₂ puede subir y obligar a una FR mayor de la calculada. Además, con FR alta se acorta el tiempo espiratorio y puede aparecer auto-PEEP, que eleva la PEEP total y cambia la ΔP real. Después de cada cambio: gases, curva de flujo espiratorio y nueva pausa.</p></div>
   <figure class="photo"><img src="/academia/ebook/ventilacion-mecanica/images/sdra-prono.webp" alt="Equipo de terapia intensiva posicionando en prono a un paciente con SDRA conectado al ventilador" width="1400" height="788" loading="lazy"></figure>
   <h3>Lo que el índice no es</h3>
@@ -476,13 +477,13 @@ footer.f strong{color:#fff}
   <div class="sec-head"><span class="num">13</span></div>
   <h2>Cuatro casos comentados</h2>
   <div class="case"><span class="tag">CASO A · LA FÓRMULA CORRECTA</span><h4>Volumen control, paciente pasivo</h4><p>Vt 420 mL, Pplat 28, PEEP total 12, Ppico 36 cmH₂O, FR 22.</p>
-    <details class="ans"><summary>Ver análisis</summary><p>ΔP = 28 − 12 = 16 cmH₂O. Cst = 420/16 = 26,3 mL/cmH₂O. Ppico − PEEP = 24 <b>no</b> es la driving pressure. 4ΔP + FR = 64 + 22 = 86. Buscar la causa de la compliance baja (edema, atelectasia, distensión abdominal, neumotórax) y revisar la estrategia protectora completa, incluida la PEEP.</p></details></div>
+    <details class="ans"><summary>Ver análisis</summary><p>ΔP = 28 − 12 = 16 cmH₂O. Cst = 420/16 = 26,3 mL/cmH₂O. Ppico − PEEP = 24 <b>no</b> es la driving pressure. 4ΔP + FR = 64 + 22 = 86. Una ΔP de 16 ya está en la zona asociada con mayor mortalidad: hay que intentar bajarla. Buscar la causa de la compliance baja (edema, atelectasia, distensión abdominal, neumotórax) y revisar la estrategia protectora completa, incluida la PEEP.</p></details></div>
   <div class="case"><span class="tag">CASO B · PSV Y ESFUERZO QUE NO SE VE EN LA PS</span><h4>PS 10, PEEP 8, Ppico 18, P0.1 4,1, ΔPocc −15 cmH₂O</h4>
     <details class="ans"><summary>Ver análisis</summary><p>Pmus ≈ 0,75 × 15 = 11,3 cmH₂O. ΔP<sub>L,din</sub> ≈ (18 − 8) + 10 = 20 cmH₂O. Drive elevado y posible esfuerzo excesivo. Antes de tocar un parámetro aislado: dolor, fiebre, acidosis, hipoxemia, confort, fugas y asincronías; integrar gases y mecánica.</p></details></div>
   <div class="case"><span class="tag">CASO C · P0.1 BAJA NO SIEMPRE ES TRANQUILIDAD</span><h4>PS 14, PEEP 6, P0.1 0,8, ΔPocc −12, FR 27</h4>
     <details class="ans"><summary>Ver análisis</summary><p>Indicadores discordantes: la P0.1 sugiere drive inicial bajo, pero la Pocc indica esfuerzo apreciable. Repetir las mediciones si la técnica fue válida y evaluar debilidad muscular, el algoritmo del equipo, actividad espiratoria y, si está disponible, ΔPes.</p></details></div>
   <div class="case"><span class="tag">CASO D · NUEVO · ¿BAJAR EL VOLUMEN O NO?</span><h4>SDRA moderado en volumen control</h4><p>Vt 480 mL (7,3 mL/kg PBW), FR 18, Pplat 27, PEEP 11, PaCO₂ 42 mmHg, pH 7,38, sin auto-PEEP.</p>
-    <details class="ans"><summary>Ver análisis</summary><p>ΔP = 16, Cst = 30; 4ΔP + FR = 82. Propuesta: Vt 400 mL (6,1 mL/kg) → ΔP ≈ 13,3. Para el mismo volumen minuto (8,6 L/min), FR ≈ 22 → índice ≈ 75. Por el mayor peso del espacio muerto, probablemente haga falta FR 24: índice ≈ 77, igual menor que 82. Verificar a los 20–30 minutos: nueva pausa (la Pplat real confirma la ΔP), gases arteriales, curva de flujo espiratorio para descartar auto-PEEP y confort/asincronías.</p></details></div>
+    <details class="ans"><summary>Ver análisis</summary><p>ΔP = 16, Cst = 30; 4ΔP + FR = 82. La ΔP está por encima de 15, la zona asociada con mayor mortalidad, aunque la Pplat sea menor de 30. Propuesta: Vt 400 mL (6,1 mL/kg) → ΔP ≈ 13,3. Para el mismo volumen minuto (8,6 L/min), FR ≈ 22 → índice ≈ 75. Por el mayor peso del espacio muerto, probablemente haga falta FR 24: índice ≈ 77, igual menor que 82. Verificar a los 20–30 minutos: nueva pausa (la Pplat real confirma la ΔP), gases arteriales, curva de flujo espiratorio para descartar auto-PEEP y confort/asincronías.</p></details></div>
 </section>
 
 <section id="procedimiento">
@@ -739,7 +740,7 @@ function calcCtrl(){
   var pbw=(sexo==="m"?50:45.5)+0.91*(talla-152.4),vtk=vt/pbw,dp=ppl-peep,crs=vt/dp,idx=4*dp+fr,pm=.098*fr*vt/1000*(ppk-dp/2),pmel=.098*fr*vt/1000*dp/2,en=dp/vtk,ve=vt*fr/1000;
   var o="";var ok=isFinite(dp)&&dp>0;
   o+=card("Vt por peso predicho",isFinite(vtk)?fmt(vtk):"—","mL/kg","PBW "+fmt(pbw)+" kg. "+(vtk>8?"Mayor de 8 mL/kg: por encima del rango protector.":vtk<4?"Menor de 4 mL/kg: vigilar CO₂ y esfuerzos.":"Dentro de 4–8 mL/kg."),vtk>8?"bad":(vtk<4?"warn":""));
-  o+=card("Driving pressure",ok?fmt(dp):"—","cmH₂O",!ok?"Revise Pplat y PEEP.":dp>15?"Mayor de 15: asociada con mayor mortalidad en SDRA (Amato 2015). Revise la estrategia.":dp>=14?"Cerca de 15: vigilar la tendencia.":"≤ 15.",!ok?"na":dp>15?"bad":dp>=14?"warn":"");
+  o+=card("Driving pressure",ok?fmt(dp):"—","cmH₂O",!ok?"Revise Pplat y PEEP.":dp>15?"Mayor de 15: asociada con mayor mortalidad en SDRA (Amato 2015). Revise Vt y PEEP.":dp>=14?"En el límite: por encima de 15 aumenta la mortalidad.":"Menor de 15: dentro del objetivo.",!ok?"na":dp>15?"bad":dp>=14?"warn":"");
   o+=card("Compliance estática",ok?fmt(crs):"—","mL/cmH₂O",ok?(crs<30?"Baja: pulmón pequeño o rígido.":crs<50?"Moderadamente reducida.":"Conservada."):"",!ok?"na":crs<30?"warn":"");
   o+=card("4ΔP + FR",ok?fmt(idx):"—","",ok?(idx>=76?"≥ 76 (corte poblacional LUNG SAFE). Compare estrategias.":"Menor de 76. Usalo para comparar en el tiempo."):"",!ok?"na":idx>=76?"warn":"");
   o+=card("Elastancia normalizada",ok&&isFinite(en)?fmt(en):"—","cmH₂O/(mL/kg)",ok?(en>=2.1?"≥ 2,1: punto de corte asociado con mortalidad.":"Menor de 2,1."):"",!ok?"na":en>=2.1?"warn":"");
