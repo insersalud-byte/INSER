@@ -203,15 +203,24 @@ footer.f strong{color:#fff}
 
 <section id="mapa">
   <div class="sec-head"><span class="num">MAPA DE APRENDIZAJE</span></div>
-  <h2>Qué vas a poder hacer al terminar</h2>
+  <h2>Qué va a poder hacer al terminar</h2>
   <div class="grid3">
     <div class="card"><div class="big">1</div><h4>Medir bien la ΔP</h4><p>Con Pplat y PEEP total, a flujo cero y con el paciente pasivo. Y saber cuándo el dato no es válido.</p></div>
     <div class="card"><div class="big">2</div><h4>Sumar la frecuencia</h4><p>Usar 4ΔP + FR y el poder mecánico para comparar estrategias, sin convertirlos en metas fijas.</p></div>
     <div class="card"><div class="big">3</div><h4>Leer el esfuerzo en PSV</h4><p>Integrar P0.1, Pocc, PMI y curvas para detectar sobre y subasistencia y asincronías.</p></div>
   </div>
+  <div class="box ok"><strong>Dónde se ubica este capítulo</strong>
+    <p>Es un capítulo avanzado del ebook de ventilación mecánica. Conviene llegar con estos capítulos leídos:</p>
+    <ul class="clean">
+      <li><a href="/academia/ebook/ventilacion-mecanica#mecanica">03 · Mecánica</a>: ecuación de movimiento, compliance y resistencia.</li>
+      <li><a href="/academia/ebook/ventilacion-mecanica#calculadoras">06 · Calculadoras</a>: peso predicho, ΔP, compliance y poder mecánico, uno por uno.</li>
+      <li><a href="/academia/ebook/ventilacion-mecanica#modos">09 · Lectura por modos</a> y <a href="/academia/ebook/ventilacion-mecanica#destete">11 · Destete</a>: presión de soporte y prueba de ventilación espontánea.</li>
+    </ul>
+    <p>Las secciones 1 y 2 son un repaso breve. Lo nuevo empieza en la 3: frecuencia respiratoria, índices combinados, evidencia reciente y monitoreo del esfuerzo en PSV.</p>
+  </div>
   <div class="box info"><strong>Ideas esenciales antes de empezar</strong>
     <ul class="clean">
-      <li>En el paciente pasivo, la ΔP del sistema respiratorio se calcula con <b>presión meseta y PEEP total</b>, nunca con la presión pico.</li>
+      <li>En el paciente pasivo, la ΔP del sistema respiratorio se calcula con <b>presión plateau y PEEP total</b>, nunca con la presión pico.</li>
       <li>El daño pulmonar depende de cuánta energía entra en cada ciclo <b>y de cuántas veces por minuto</b> se repite: por eso la frecuencia respiratoria importa.</li>
       <li>En presión de soporte, el esfuerzo muscular puede ser muy distinto con la misma presión en la vía aérea.</li>
       <li>P0.1 estima sobre todo el impulso respiratorio; Pocc ayuda a cribar la intensidad del esfuerzo.</li>
@@ -222,39 +231,39 @@ footer.f strong{color:#fff}
 </section>
 
 <section id="dp">
-  <div class="sec-head"><span class="num">1</span></div>
+  <div class="sec-head"><span class="num">1 · REPASO</span></div>
   <h2>Driving pressure: el fundamento fisiológico</h2>
-  <p class="lede">La driving pressure (ΔP, presión de distensión del sistema respiratorio) es la diferencia entre la presión meseta (Pplat) al final de la inspiración y la PEEP total al final de la espiración, medidas a flujo cero y sin esfuerzo muscular relevante. Representa la presión elástica que hace falta para meter el volumen corriente (VT) en ese sistema respiratorio.</p>
-  <div class="formula"><div class="eq">ΔP = Pplat − PEEP<sub>total</sub> = V<sub>T</sub> / C<sub>RS</sub></div><small>ΔP, Pplat y PEEP en cmH₂O · VT en mL · C<sub>RS</sub> = compliance estática del sistema respiratorio en mL/cmH₂O</small></div>
-  <p>Leída de derecha a izquierda, la fórmula cuenta lo más importante: la ΔP es el volumen corriente <b>ajustado al tamaño del pulmón que todavía ventila</b> (el "baby lung"). El mismo VT de 450 mL es poco para un pulmón con buena compliance y mucho para uno con compliance de 25.</p>
-  <figure class="fig"><div class="ft">Ventilación controlada por volumen: pico, meseta y driving pressure</div><div id="fig-vcv"></div><figcaption>Señales sintéticas con parámetros plausibles (VT 450 mL, flujo constante, pausa teleinspiratoria de 0,3 s). Ppico 31 · Pplat 25 · PEEP 10 → ΔP 15 cmH₂O. No es un registro de paciente.</figcaption></figure>
-  <div class="box warn"><strong>No confundir</strong><p>La Ppico incluye el componente resistivo que aparece mientras hay flujo; la Pplat describe la presión estática cuando el flujo cesa. Si la Ppico sube con Pplat estable, pensá en más resistencia de vía aérea o del circuito (secreciones, broncoespasmo, tubo acodado). La PEEP total suma la PEEP externa y, si existe, la intrínseca (auto-PEEP).</p></div>
-  <p>La igualdad VT/C<sub>RS</sub> solo vale si las mediciones se hicieron en la misma condición, sin fugas importantes y sin esfuerzos que deformen la mecánica. Calcular una compliance estática sin una meseta válida en un paciente con actividad muscular lleva a errores.</p>
+  <p class="lede">La driving pressure (ΔP, presión de distensión del sistema respiratorio) es la diferencia entre la presión plateau (Pplat) al final de la inspiración y la PEEP total al final de la espiración, medidas a flujo cero y sin esfuerzo muscular relevante. Representa la presión elástica que hace falta para meter el volumen corriente (Vt) en ese sistema respiratorio.</p>
+  <div class="formula"><div class="eq">ΔP = Pplat − PEEP<sub>total</sub> = V<sub>t</sub> / Cst</div><small>ΔP, Pplat y PEEP en cmH₂O · Vt en mL · Cst = compliance estática del sistema respiratorio en mL/cmH₂O</small></div>
+  <p>Leída de derecha a izquierda, la fórmula cuenta lo más importante: la ΔP es el volumen corriente <b>ajustado al tamaño del pulmón que todavía ventila</b> (el "baby lung"). El mismo Vt de 450 mL es poco para un pulmón con buena compliance y mucho para uno con compliance de 25.</p>
+  <figure class="fig"><div class="ft">Ventilación controlada por volumen: pico, plateau y driving pressure</div><div id="fig-vcv"></div><figcaption>Señales sintéticas con parámetros plausibles (Vt 450 mL, flujo constante, pausa teleinspiratoria de 0,3 s). Ppico 31 · Pplat 25 · PEEP 10 → ΔP 15 cmH₂O. No es un registro de paciente.</figcaption></figure>
+  <div class="box warn"><strong>No confundir</strong><p>La Ppico incluye el componente resistivo que aparece mientras hay flujo; la Pplat describe la presión estática cuando el flujo cesa. Si la Ppico sube con Pplat estable, piense en más resistencia de vía aérea o del circuito (secreciones, broncoespasmo, tubo acodado). La PEEP total suma la PEEP externa y, si existe, la intrínseca (auto-PEEP).</p></div>
+  <p>La igualdad Vt/Cst solo vale si las mediciones se hicieron en la misma condición, sin fugas importantes y sin esfuerzos que deformen la mecánica. Calcular una compliance estática sin una Pplat válida en un paciente con actividad muscular lleva a errores.</p>
 </section>
 
 <section id="medir">
-  <div class="sec-head"><span class="num">2</span></div>
+  <div class="sec-head"><span class="num">2 · REPASO</span></div>
   <h2>Cómo medir paso a paso en ventilación controlada</h2>
   <ol class="clean">
     <li>Confirmar ventilación controlada y paciente pasivo durante las maniobras. No interpretar ciclos con esfuerzo.</li>
     <li>Revisar las curvas: fugas, atrapamiento aéreo, cambios recientes de configuración.</li>
     <li>Hacer una pausa teleinspiratoria hasta obtener una Pplat estable con flujo cero (duración según equipo y protocolo).</li>
     <li>Determinar la PEEP total: buscar auto-PEEP con pausa teleespiratoria cuando haya sospecha y las condiciones lo permitan.</li>
-    <li>Calcular ΔP = Pplat − PEEP<sub>total</sub> y C<sub>RS</sub> = VT/ΔP. Registrar modo, volumen, PEEP, Pplat, ΔP, FR y contexto clínico.</li>
+    <li>Calcular ΔP = Pplat − PEEP<sub>total</sub> y Cst = Vt/ΔP. Registrar modo, volumen, PEEP, Pplat, ΔP, FR y contexto clínico.</li>
   </ol>
   <div class="tbl-wrap"><table class="tbl">
     <thead><tr><th>Parámetro</th><th>Ejemplo adulto (ilustrativo)</th><th>Cómo interpretarlo</th></tr></thead>
     <tbody>
-      <tr><td>VT</td><td>450 mL (6,8 mL/kg de peso predicho, PBW 66 kg)</td><td>Volumen entregado en cada ciclo</td></tr>
+      <tr><td>Vt</td><td>450 mL (6,8 mL/kg de peso predicho, PBW 66 kg)</td><td>Volumen entregado en cada ciclo</td></tr>
       <tr><td>Ppico</td><td>31 cmH₂O</td><td>Incluye la presión resistiva</td></tr>
       <tr><td>Pplat</td><td>25 cmH₂O</td><td>Presión a flujo cero</td></tr>
       <tr><td>PEEP total</td><td>10 cmH₂O</td><td>Presión al final de la espiración</td></tr>
       <tr><td>ΔP</td><td>25 − 10 = <b>15 cmH₂O</b></td><td>Presión elástica del sistema</td></tr>
-      <tr><td>C<sub>RS</sub></td><td>450 / 15 = <b>30 mL/cmH₂O</b></td><td>Compliance estática</td></tr>
+      <tr><td>Cst</td><td>450 / 15 = <b>30 mL/cmH₂O</b></td><td>Compliance estática</td></tr>
       <tr><td>FR</td><td>20 rpm</td><td>Cuántas veces por minuto se repite esa carga</td></tr>
     </tbody>
   </table></div>
-  <figure class="fig"><div class="ft">ΔP = VT / C<sub>RS</sub>: el mismo volumen genera presiones distintas</div><div id="fig-vtcrs"></div><figcaption>Relación matemática idealizada. Con C<sub>RS</sub> 25, un VT de 400 mL ya da ΔP 16; con C<sub>RS</sub> 60, ni 600 mL llegan a 15. La línea punteada (15 cmH₂O) es una señal de atención frecuente, no un umbral universal.</figcaption></figure>
+  <figure class="fig"><div class="ft">ΔP = Vt / Cst: el mismo volumen genera presiones distintas</div><div id="fig-vtcrs"></div><figcaption>Relación matemática idealizada. Con Cst 25, un Vt de 400 mL ya da ΔP 16; con Cst 60, ni 600 mL llegan a 15. La línea punteada (15 cmH₂O) es una señal de atención frecuente, no un umbral universal.</figcaption></figure>
   <div class="box info"><strong>Cómo interpretarla</strong><p>Valores altos de ΔP en SDRA se asocian con peor pronóstico, pero asociación no es causalidad: bajar la ΔP "a cualquier costo" no demostró por sí solo mejorar la sobrevida (ver sección 5). El valor de 15 cmH₂O se usa como señal de atención, no como frontera de seguridad. La guía AARC 2024 sugiere evaluar la ΔP, con recomendación condicional y certeza baja.</p></div>
 </section>
 
@@ -266,7 +275,7 @@ footer.f strong{color:#fff}
   <p>En 2021, Costa y colaboradores juntaron 4.549 pacientes con SDRA de seis ensayos de ventilación protectora y una cohorte observacional. La ΔP, la FR y el poder mecánico predijeron mortalidad, pero un modelo simple con solo ΔP y FR funcionó igual que la ecuación completa de poder mecánico. El efecto de cada cmH₂O de ΔP sobre la mortalidad fue alrededor de cuatro veces el de cada respiración por minuto de FR.</p>
   <div class="formula amber"><div class="eq">Índice = 4 × ΔP + FR</div><small>ΔP en cmH₂O · FR en respiraciones por minuto · resultado sin unidad física: es un puntaje de riesgo, no una energía</small></div>
   <div class="grid2">
-    <div class="card"><h4>Lectura práctica</h4><p>Subir la ΔP <b>1 cmH₂O</b> pesa en el riesgo lo mismo que subir la FR <b>4 rpm</b>. Por eso, al bajar el VT para reducir la ΔP, se puede aceptar una FR algo más alta y el balance suele ser favorable.</p></div>
+    <div class="card"><h4>Lectura práctica</h4><p>Subir la ΔP <b>1 cmH₂O</b> pesa en el riesgo lo mismo que subir la FR <b>4 rpm</b>. Por eso, al bajar el Vt para reducir la ΔP, se puede aceptar una FR algo más alta y el balance suele ser favorable.</p></div>
     <div class="card"><h4>Ejemplo</h4><p>ΔP 15 y FR 20 → 4×15 + 20 = <b>80</b>.<br>ΔP 12 y FR 26 → 4×12 + 26 = <b>74</b>.<br>La segunda estrategia tiene menos carga combinada aunque la FR sea mayor.</p></div>
   </div>
   <figure class="fig"><div class="ft">Mapa de iso-riesgo: ΔP versus frecuencia respiratoria</div>
@@ -278,8 +287,8 @@ footer.f strong{color:#fff}
     <figcaption>Cada línea une combinaciones con el mismo 4ΔP + FR. Moverse hacia abajo y a la izquierda reduce la carga combinada. La línea de 76 marca el punto de corte de un análisis de LUNG SAFE (Eur Respir J 2026) con sensibilidad 71 % y especificidad 48 %: es un dato poblacional, no una meta validada.</figcaption>
   </figure>
   <h3>El intercambio volumen–frecuencia, con números</h3>
-  <p>Paciente con C<sub>RS</sub> 30 mL/cmH₂O, VT 450 mL, FR 20 → volumen minuto 9 L/min, ΔP 15, índice 80. Si se baja el VT a 380 mL: ΔP = 380/30 ≈ 12,7. Para sostener el mismo volumen minuto hace falta FR ≈ 24 (9.000/380). Nuevo índice ≈ 4×12,7 + 24 = <b>74,8</b>. Bajó la carga combinada.</p>
-  <div class="box warn"><strong>El límite del intercambio</strong><p>Al bajar el VT, el espacio muerto pesa proporcionalmente más: el volumen minuto alveolar cae aunque el volumen minuto total se mantenga. Por eso la PaCO₂ puede subir y obligar a una FR mayor de la calculada. Además, con FR alta se acorta el tiempo espiratorio y puede aparecer auto-PEEP, que eleva la PEEP total y cambia la ΔP real. Después de cada cambio: gases, curva de flujo espiratorio y nueva pausa.</p></div>
+  <p>Paciente con Cst 30 mL/cmH₂O, Vt 450 mL, FR 20 → volumen minuto 9 L/min, ΔP 15, índice 80. Si se baja el Vt a 380 mL: ΔP = 380/30 ≈ 12,7. Para sostener el mismo volumen minuto hace falta FR ≈ 24 (9.000/380). Nuevo índice ≈ 4×12,7 + 24 = <b>74,8</b>. Bajó la carga combinada.</p>
+  <div class="box warn"><strong>El límite del intercambio</strong><p>Al bajar el Vt, el espacio muerto pesa proporcionalmente más: el volumen minuto alveolar cae aunque el volumen minuto total se mantenga. Por eso la PaCO₂ puede subir y obligar a una FR mayor de la calculada. Además, con FR alta se acorta el tiempo espiratorio y puede aparecer auto-PEEP, que eleva la PEEP total y cambia la ΔP real. Después de cada cambio: gases, curva de flujo espiratorio y nueva pausa.</p></div>
   <figure class="photo"><img src="/academia/ebook/ventilacion-mecanica/images/sdra-prono.webp" alt="Equipo de terapia intensiva posicionando en prono a un paciente con SDRA conectado al ventilador" width="1400" height="788" loading="lazy"></figure>
   <h3>Lo que el índice no es</h3>
   <ul class="clean">
@@ -289,33 +298,33 @@ footer.f strong{color:#fff}
     <li><b>La relación 4:1 no se cumple igual en todos los pulmones.</b> En un estudio experimental de 2026 (Raimondi Cominesi y cols.) se mantuvo fijo 4ΔP + FR = 140 combinando distintas ΔP y FR: con ΔP alta y FR baja el daño fue mayor, sobre todo en pulmones lesionados, donde creció de forma lineal al subir la ΔP. Conclusión de los autores: a igual índice, la ΔP sigue pesando más que la frecuencia.</li>
   </ul>
   <h3>Elastancia normalizada: el otro índice que sale bien parado</h3>
-  <p>Si la ΔP es el VT "ajustado" a la compliance, la elastancia normalizada hace la cuenta al revés: cuánta presión cuesta cada mL/kg de volumen corriente.</p>
-  <div class="formula blue"><div class="eq">E<sub>norm</sub> = ΔP / (V<sub>T</sub> / PBW)</div><small>cmH₂O por mL/kg de peso predicho · ejemplo: ΔP 15 con VT 6,8 mL/kg → 2,2</small></div>
-  <p>En el análisis de LUNG SAFE publicado en 2026 fue, junto con la ΔP y 4ΔP + FR, el mejor predictor de mortalidad, con un punto de corte de 2,1 cmH₂O/(mL/kg). Tiene la ventaja de no depender del VT que se eligió: describe al pulmón.</p>
+  <p>Si la ΔP es el Vt "ajustado" a la compliance, la elastancia normalizada hace la cuenta al revés: cuánta presión cuesta cada mL/kg de volumen corriente.</p>
+  <div class="formula blue"><div class="eq">E<sub>norm</sub> = ΔP / (V<sub>t</sub> / PBW)</div><small>cmH₂O por mL/kg de peso predicho · ejemplo: ΔP 15 con Vt 6,8 mL/kg → 2,2</small></div>
+  <p>En el análisis de LUNG SAFE publicado en 2026 fue, junto con la ΔP y 4ΔP + FR, el mejor predictor de mortalidad, con un punto de corte de 2,1 cmH₂O/(mL/kg). Tiene la ventaja de no depender del Vt que se eligió: describe al pulmón.</p>
 </section>
 
 <section id="pm">
   <div class="sec-head"><span class="num">4</span><span class="badge">NUEVO</span></div>
   <h2>Poder mecánico: las fórmulas y cuál usar</h2>
-  <p class="lede">El poder mecánico (PM) es la energía que el ventilador entrega al sistema respiratorio por minuto. Reúne en un solo número VT, FR, presiones y flujo. 4ΔP + FR es, en el fondo, una versión simplificada que se queda con las dos piezas que más pesan.</p>
-  <div class="formula violet"><div class="eq">PM ≈ 0,098 × FR × V<sub>T</sub> × (Ppico − ΔP/2)</div><small>Fórmula simplificada para volumen control (Gattinoni) · VT en litros · resultado en J/min · 0,098 convierte L·cmH₂O en joules</small></div>
+  <p class="lede">El poder mecánico (PM) es la energía que el ventilador entrega al sistema respiratorio por minuto. Reúne en un solo número Vt, FR, presiones y flujo. 4ΔP + FR es, en el fondo, una versión simplificada que se queda con las dos piezas que más pesan.</p>
+  <div class="formula violet"><div class="eq">PM ≈ 0,098 × FR × V<sub>t</sub> × (Ppico − ΔP/2)</div><small>Fórmula simplificada para volumen control (Gattinoni) · Vt en litros · resultado en J/min · 0,098 convierte L·cmH₂O en joules</small></div>
   <p>Con el ejemplo de la sección 2: 0,098 × 20 × 0,45 × (31 − 7,5) = <b>20,7 J/min</b>. La expresión se puede descomponer en tres partes:</p>
   <div class="tbl-wrap"><table class="tbl">
     <thead><tr><th>Componente</th><th>Fórmula</th><th>Ejemplo</th><th>Qué refleja</th></tr></thead>
     <tbody>
-      <tr><td><b>Elástico dinámico</b></td><td>0,098 × FR × VT × ΔP/2</td><td>6,6 J/min</td><td>El estiramiento cíclico. Es el único componente que se asoció con mortalidad en el análisis de Costa 2021</td></tr>
-      <tr><td>Estático (PEEP)</td><td>0,098 × FR × VT × PEEP</td><td>8,8 J/min</td><td>Energía para sostener la PEEP. Si la PEEP recluta, puede proteger: su papel es debatido</td></tr>
-      <tr><td>Resistivo</td><td>0,098 × FR × VT × (Ppico − Pplat)</td><td>5,3 J/min</td><td>Se disipa sobre todo en la vía aérea y el tubo</td></tr>
+      <tr><td><b>Elástico dinámico</b></td><td>0,098 × FR × Vt × ΔP/2</td><td>6,6 J/min</td><td>El estiramiento cíclico. Es el único componente que se asoció con mortalidad en el análisis de Costa 2021</td></tr>
+      <tr><td>Estático (PEEP)</td><td>0,098 × FR × Vt × PEEP</td><td>8,8 J/min</td><td>Energía para sostener la PEEP. Si la PEEP recluta, puede proteger: su papel es debatido</td></tr>
+      <tr><td>Resistivo</td><td>0,098 × FR × Vt × (Ppico − Pplat)</td><td>5,3 J/min</td><td>Se disipa sobre todo en la vía aérea y el tubo</td></tr>
     </tbody>
   </table></div>
-  <figure class="fig"><div class="ft">De qué está hecho el poder mecánico (mismo paciente, tres estrategias)</div><div id="fig-pm"></div><figcaption>Cálculo con C<sub>RS</sub> 30, PEEP 10 y resistencia constante. Bajar el VT reduce sobre todo el componente elástico, aunque suba la FR. La línea de 17 J/min corresponde al valor asociado con mayor mortalidad en cohortes observacionales; no es un umbral de seguridad individual.</figcaption></figure>
-  <div class="formula violet"><div class="eq">PM<sub>PCV</sub> ≈ 0,098 × FR × V<sub>T</sub> × (ΔP<sub>insp</sub> + PEEP)</div><small>Aproximación de Becher (2019) para presión control · ΔP<sub>insp</sub> = presión inspiratoria programada sobre PEEP · útil cuando no hay meseta</small></div>
+  <figure class="fig"><div class="ft">De qué está hecho el poder mecánico (mismo paciente, tres estrategias)</div><div id="fig-pm"></div><figcaption>Cálculo con Cst 30, PEEP 10 y resistencia constante. Bajar el Vt reduce sobre todo el componente elástico, aunque suba la FR. La línea de 17 J/min corresponde al valor asociado con mayor mortalidad en cohortes observacionales; no es un umbral de seguridad individual.</figcaption></figure>
+  <div class="formula violet"><div class="eq">PM<sub>PCV</sub> ≈ 0,098 × FR × V<sub>t</sub> × (ΔP<sub>insp</sub> + PEEP)</div><small>Aproximación de Becher (2019) para presión control · ΔP<sub>insp</sub> = presión inspiratoria programada sobre PEEP · útil cuando no hay Pplat medible</small></div>
   <div class="box info"><strong>¿Cuál usar junto a la cama?</strong>
   <ul class="clean">
     <li><b>Primero, ΔP válida.</b> Es simple, se mide y tiene la mejor relación entre precisión y simplicidad (LUNG SAFE 2026).</li>
-    <li><b>4ΔP + FR</b> para comparar dos estrategias en el mismo paciente (por ejemplo, antes y después de bajar el VT).</li>
+    <li><b>4ΔP + FR</b> para comparar dos estrategias en el mismo paciente (por ejemplo, antes y después de bajar el Vt).</li>
     <li><b>Poder mecánico</b> para seguir la tendencia y enseñar de dónde viene la energía. En LUNG SAFE no se asoció de forma independiente con mortalidad; en parte porque incluye la PEEP, que tuvo una relación en forma de U.</li>
-    <li>Ningún índice reemplaza Pplat ≤ 30, VT 4–8 mL/kg PBW y la PEEP individualizada.</li>
+    <li>Ningún índice reemplaza Pplat ≤ 30, Vt 4–8 mL/kg PBW y la PEEP individualizada.</li>
   </ul></div>
 </section>
 
@@ -327,10 +336,10 @@ footer.f strong{color:#fff}
   <div class="ev"><span class="yr">2026</span><b>Metaanálisis de estrategias que limitan la ΔP (Agrafiotis y cols., Crit Care).</b> 4 ensayos, 431 pacientes con SDRA: efecto neutro sobre mortalidad y días libres de ventilador. Los autores proponen que, sobre una ventilación ya protectora, es difícil bajar mucho más la ΔP.</div>
   <div class="ev"><span class="yr">2026</span><b>Metaanálisis en insuficiencia respiratoria aguda hipoxémica (resumen ATS).</b> 5 ensayos, 982 pacientes: la estrategia limitada bajó la ΔP 1,3 cmH₂O, sin cambios en mortalidad ni estadía. Dato preliminar: aún no es artículo completo.</div>
   <div class="ev"><span class="yr">2026</span><b>Raimondi Cominesi y cols. (J Physiol), experimental.</b> Con 4ΔP + FR fijo en 140, la combinación ΔP alta y FR baja causó más lesión, y el daño en pulmón lesionado creció linealmente con la ΔP. El índice constante no predijo del todo el daño.</div>
-  <div class="ev"><span class="yr">2025</span><b>Ensayo STAMINA (Maia y cols., Br J Anaesth).</b> SDRA por neumonía: PEEP por mejor compliance y VT ajustado para ΔP ≤ 14 frente a la tabla de PEEP baja. Sin diferencia en días libres de ventilador. La diferencia de ΔP lograda entre grupos fue de apenas 0,7 cmH₂O, y se cortó antes por reclutamiento lento.</div>
+  <div class="ev"><span class="yr">2025</span><b>Ensayo STAMINA (Maia y cols., Br J Anaesth).</b> SDRA por neumonía: PEEP por mejor compliance y Vt ajustado para ΔP ≤ 14 frente a la tabla de PEEP baja. Sin diferencia en días libres de ventilador. La diferencia de ΔP lograda entre grupos fue de apenas 0,7 cmH₂O, y se cortó antes por reclutamiento lento.</div>
   <div class="ev"><span class="yr">2024</span><b>Galizia y cols., Gattinoni (Intensive Care Med Exp).</b> 121 cerdos ventilados 48 h: ΔP, 4ΔP + FR y razón de poder mecánico se asociaron de forma similar con el daño pulmonar; ninguno fue claramente superior.</div>
   <div class="ev"><span class="yr">2021</span><b>Costa y cols. (Am J Respir Crit Care Med).</b> 4.549 pacientes con SDRA: el efecto de la ΔP sobre la mortalidad fue cerca de 4 veces el de la FR; el modelo ΔP + FR igualó al poder mecánico completo.</div>
-  <div class="box ok"><strong>Mensaje para la práctica</strong><p>Medí y registrá la ΔP en cada paciente pasivo. Usala, junto con la FR, para elegir entre estrategias. Pero no fuerces la ΔP a un número a costa de hipercapnia grave, auto-PEEP o asincronías: la evidencia actual no respalda ese objetivo aislado.</p></div>
+  <div class="box ok"><strong>Mensaje para la práctica</strong><p>Mida y registre la ΔP en cada paciente pasivo. Úsela, junto con la FR, para elegir entre estrategias. Pero no fuerce la ΔP a un número a costa de hipercapnia grave, auto-PEEP o asincronías: la evidencia actual no respalda ese objetivo aislado.</p></div>
 </section>
 
 <section id="psv">
@@ -339,20 +348,20 @@ footer.f strong{color:#fff}
   <p class="lede">En presión de soporte (PSV), el ventilador agrega presión sobre la PEEP, y el paciente aporta una presión muscular negativa que también infla los pulmones. Por eso una PS de 8 o 10 cmH₂O <b>no</b> permite deducir el esfuerzo muscular, la ΔP estática ni el estrés transpulmonar total.</p>
   <div class="formula"><div class="eq">PS (programada) ≠ ΔP (estática) ≠ ΔP<sub>L</sub> (transpulmonar)</div><small>La igualdad falla por esfuerzo espontáneo, resistencia, tiempo de ciclado y cambios en la mecánica</small></div>
   <figure class="fig"><div class="ft">Presión de soporte: la misma Paw puede esconder esfuerzos muy distintos</div><div id="fig-psv"></div><figcaption>Dos escenarios superpuestos con el mismo patrón de presión en la vía aérea (PEEP 8 + PS 9). ΔPes: deflexión de presión esofágica, menor esfuerzo −4 y mayor esfuerzo −12 cmH₂O. Señales sintéticas.</figcaption></figure>
-  <p>En pacientes seleccionados se puede intentar una pausa teleinspiratoria en PSV para estimar Pplat y ΔP, si la presión se estabiliza y la actividad muscular no invalida la meseta. Bellani y colaboradores describieron su factibilidad y su asociación con el pronóstico en SDRA con ventilación asistida. No es lo mismo que leer la PS en la pantalla.</p>
+  <p>En pacientes seleccionados se puede intentar una pausa teleinspiratoria en PSV para estimar Pplat y ΔP, si la presión se estabiliza y la actividad muscular no invalida la Pplat. Bellani y colaboradores describieron su factibilidad y su asociación con el pronóstico en SDRA con ventilación asistida. No es lo mismo que leer la PS en la pantalla.</p>
   <figure class="photo"><img src="/academia/ebook/ventilacion-mecanica/images/soporte-destete.webp" alt="Kinesióloga controlando a un paciente intubado en presión de soporte junto al monitor del ventilador" width="1400" height="788" loading="lazy"></figure>
 </section>
 
 <section id="esfuerzo">
   <div class="sec-head"><span class="num">7</span></div>
   <h2>Impulso respiratorio y esfuerzo: qué se está midiendo</h2>
-  <p><b>Impulso (drive):</b> la salida del centro respiratorio que activa los músculos inspiratorios. <b>Esfuerzo:</b> la presión que esos músculos efectivamente generan. Un drive alto puede coexistir con poco esfuerzo si hay debilidad neuromuscular. El VT, la FR y la presión de vía aérea, solos, no cuantifican el esfuerzo.</p>
+  <p><b>Impulso (drive):</b> la salida del centro respiratorio que activa los músculos inspiratorios. <b>Esfuerzo:</b> la presión que esos músculos efectivamente generan. Un drive alto puede coexistir con poco esfuerzo si hay debilidad neuromuscular. El Vt, la FR y la presión de vía aérea, solos, no cuantifican el esfuerzo.</p>
   <div class="tbl-wrap"><table class="tbl">
     <thead><tr><th>Herramienta</th><th>Qué aporta</th><th>Limitación principal</th></tr></thead>
     <tbody>
       <tr><td><b>P0.1</b></td><td>Marcador de drive al inicio de una oclusión</td><td>Algoritmos automáticos distintos; baja con debilidad muscular</td></tr>
       <tr><td><b>Pocc / ΔPocc</b></td><td>Cribado del esfuerzo total contra oclusión</td><td>Valores estimados; variación individual</td></tr>
-      <tr><td><b>PMI</b></td><td>Esfuerzo durante una pausa teleinspiratoria en PSV</td><td>Requiere meseta estable e interpretable</td></tr>
+      <tr><td><b>PMI</b></td><td>Esfuerzo durante una pausa teleinspiratoria en PSV</td><td>Requiere Pplat estable e interpretable</td></tr>
       <tr><td><b>ΔPes y PTP</b></td><td>Referencia para esfuerzo y carga en el tiempo</td><td>Necesita balón esofágico y experiencia</td></tr>
       <tr><td><b>EAdi / EMG diafragmática</b></td><td>Señal eléctrica de activación</td><td>No equivale directamente a fuerza</td></tr>
       <tr><td><b>Ecografía de diafragma</b></td><td>Engrosamiento y desplazamiento</td><td>Depende del operador y del contexto</td></tr>
@@ -380,10 +389,10 @@ footer.f strong{color:#fff}
 <section id="pmi">
   <div class="sec-head"><span class="num">9</span></div>
   <h2>PMI: índice de presión muscular durante PSV</h2>
-  <p>El <i>pressure muscle index</i> se obtiene con una pausa teleinspiratoria en un ciclo asistido con meseta estable. Cuando el paciente relaja el esfuerzo al final de la inspiración, la presión sube de Ppico a Pplat: ese aumento aproxima la contribución de los músculos inspiratorios.</p>
-  <div class="formula"><div class="eq">PMI = Pplat − Ppico</div><small>Ejemplo: 24 − 17 = 7 cmH₂O · requiere meseta válida</small></div>
+  <p>El <i>pressure muscle index</i> se obtiene con una pausa teleinspiratoria en un ciclo asistido con Pplat estable. Cuando el paciente relaja el esfuerzo al final de la inspiración, la presión sube de Ppico a Pplat: ese aumento aproxima la contribución de los músculos inspiratorios.</p>
+  <div class="formula"><div class="eq">PMI = Pplat − Ppico</div><small>Ejemplo: 24 − 17 = 7 cmH₂O · requiere Pplat válida</small></div>
   <figure class="fig"><div class="ft">PMI en presión de soporte: pausa inspiratoria válida</div><div id="fig-pmi"></div><figcaption>Ejemplo sintético: PEEP 8, PS 9 → Ppico 17; durante la pausa la presión sube y se estabiliza en 24. PMI = 7 cmH₂O.</figcaption></figure>
-  <div class="box warn"><strong>Cuándo no informarlo</strong><p>Si la Pplat no se estabiliza, no fuerces la lectura: esa misma imposibilidad puede indicar esfuerzo alto. Un PMI bajo o negativo puede sugerir ventilación casi pasiva o sobreasistencia, pero no hay un rango ideal validado, y la actividad de los músculos espiratorios también distorsiona la medición.</p></div>
+  <div class="box warn"><strong>Cuándo no informarlo</strong><p>Si la Pplat no se estabiliza, no fuerce la lectura: esa misma imposibilidad puede indicar esfuerzo alto. Un PMI bajo o negativo puede sugerir ventilación casi pasiva o sobreasistencia, pero no hay un rango ideal validado, y la actividad de los músculos espiratorios también distorsiona la medición.</p></div>
 </section>
 
 <section id="monitoreo">
@@ -393,7 +402,7 @@ footer.f strong{color:#fff}
   <div class="tbl-wrap"><table class="tbl">
     <thead><tr><th>Eje</th><th>Mediciones / señales</th><th>Pregunta clínica</th></tr></thead>
     <tbody>
-      <tr><td><b>Patrón</b></td><td>FR, VT/PBW, VE, Ti, Te</td><td>¿Ventila lo suficiente? ¿Hay taquipnea?</td></tr>
+      <tr><td><b>Patrón</b></td><td>FR, Vt/PBW, VE, Ti, Te</td><td>¿Ventila lo suficiente? ¿Hay taquipnea?</td></tr>
       <tr><td><b>Oxigenación</b></td><td>SpO₂, FiO₂, PEEP, gases</td><td>¿Es adecuada para el objetivo clínico?</td></tr>
       <tr><td><b>Asistencia</b></td><td>PS / PEEP, Ppico, volumen</td><td>¿Asistencia excesiva o insuficiente?</td></tr>
       <tr><td><b>Drive / esfuerzo</b></td><td>P0.1, Pocc, PMI, ΔPes si está disponible</td><td>¿Se protegen diafragma y pulmón?</td></tr>
@@ -402,12 +411,13 @@ footer.f strong{color:#fff}
       <tr><td><b>Auto-PEEP</b></td><td>Flujo espiratorio, pausa si corresponde</td><td>¿Termina de exhalar antes del ciclo siguiente?</td></tr>
     </tbody>
   </table></div>
-  <p>El VT se expresa por peso corporal predicho, no por peso real. La guía AARC recomienda 4–8 mL/kg PBW en estrategias protectoras y evaluar Pplat y PEEP/auto-PEEP, individualizando según la situación clínica.</p>
+  <p>El Vt se expresa por peso corporal predicho, no por peso real. La guía AARC recomienda 4–8 mL/kg PBW en estrategias protectoras y evaluar Pplat y PEEP/auto-PEEP, individualizando según la situación clínica.</p>
 </section>
 
 <section id="asincronias">
   <div class="sec-head"><span class="num">11</span></div>
   <h2>Curvas y asincronías en PSV</h2>
+  <p>La biblioteca completa de patrones de curvas está en el <a href="/academia/ebook/ventilacion-mecanica#biblioteca">capítulo 04 · Patrones</a>. Aquí se repasan los que más importan en presión de soporte.</p>
   <p>En PSV la Paw sube hasta el nivel de soporte y el flujo inspiratorio es desacelerado. El ciclo empieza con el disparo del paciente y termina cuando el flujo cae a un porcentaje del pico (criterio de ciclado), o por criterios de seguridad del equipo.</p>
   <figure class="fig"><div class="ft">Cuatro patrones para reconocer</div><div class="panels"><div id="as1"></div><div id="as2"></div><div id="as3"></div><div id="as4"></div></div><figcaption>Patrones docentes generados digitalmente, no tomados de ventiladores reales. La zona marcada en ámbar señala el hallazgo.</figcaption></figure>
   <div class="tbl-wrap"><table class="tbl">
@@ -427,7 +437,7 @@ footer.f strong{color:#fff}
 <section id="calculadora">
   <div class="sec-head"><span class="num">12</span><span class="badge">NUEVO</span></div>
   <h2>Calculadora integral</h2>
-  <p>Cargá los datos medidos. Los resultados se marcan en verde, ámbar o rojo según referencias de la literatura citada; son orientativos y no indican por sí solos un cambio de ajustes.</p>
+  <p>Reúne en una sola pantalla las calculadoras del <a href="/academia/ebook/ventilacion-mecanica#calculadoras">capítulo 06</a> y agrega 4ΔP + FR, elastancia normalizada y el módulo de presión de soporte. Cargue los datos medidos. Los resultados se marcan en verde, ámbar o rojo según referencias de la literatura citada; son orientativos y no indican por sí solos un cambio de ajustes.</p>
   <div class="calc">
     <div class="tabs" role="tablist">
       <button role="tab" aria-selected="true" data-tab="ctrl">Paciente pasivo (controlado)</button>
@@ -437,7 +447,7 @@ footer.f strong{color:#fff}
       <div class="fields">
         <label>Sexo<div class="in"><select id="cSexo"><option value="m">Masculino</option><option value="f">Femenino</option></select></div></label>
         <label>Talla<div class="in"><input id="cTalla" type="number" value="170" inputmode="decimal"><span class="u">cm</span></div></label>
-        <label>VT<div class="in"><input id="cVt" type="number" value="450" inputmode="decimal"><span class="u">mL</span></div></label>
+        <label>Vt<div class="in"><input id="cVt" type="number" value="450" inputmode="decimal"><span class="u">mL</span></div></label>
         <label>FR<div class="in"><input id="cFr" type="number" value="20" inputmode="decimal"><span class="u">rpm</span></div></label>
         <label>Ppico<div class="in"><input id="cPpk" type="number" value="31" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
         <label>Pplat<div class="in"><input id="cPpl" type="number" value="25" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
@@ -457,7 +467,7 @@ footer.f strong{color:#fff}
         <label>FR<div class="in"><input id="pFr" type="number" value="24" inputmode="decimal"><span class="u">rpm</span></div></label>
       </div>
       <div class="out" id="outPsv"></div>
-      <p class="note">Pmus y ΔP<sub>L,din</sub> son estimaciones de cribado (Bertoni 2019, de Vries 2023). PMI y ΔP en PSV solo con meseta estable. Si un dato no se midió, dejalo vacío: nunca lo reemplaces por el valor de PS.</p>
+      <p class="note">Pmus y ΔP<sub>L,din</sub> son estimaciones de cribado (Bertoni 2019, de Vries 2023). PMI y ΔP en PSV solo con Pplat estable. Si un dato no se midió, déjelo vacío: nunca lo reemplace por el valor de PS.</p>
     </div>
   </div>
 </section>
@@ -465,14 +475,14 @@ footer.f strong{color:#fff}
 <section id="casos">
   <div class="sec-head"><span class="num">13</span></div>
   <h2>Cuatro casos comentados</h2>
-  <div class="case"><span class="tag">CASO A · LA FÓRMULA CORRECTA</span><h4>Volumen control, paciente pasivo</h4><p>VT 420 mL, Pplat 28, PEEP total 12, Ppico 36 cmH₂O, FR 22.</p>
-    <details class="ans"><summary>Ver análisis</summary><p>ΔP = 28 − 12 = 16 cmH₂O. C<sub>RS</sub> = 420/16 = 26,3 mL/cmH₂O. Ppico − PEEP = 24 <b>no</b> es la driving pressure. 4ΔP + FR = 64 + 22 = 86. Buscar la causa de la compliance baja (edema, atelectasia, distensión abdominal, neumotórax) y revisar la estrategia protectora completa, incluida la PEEP.</p></details></div>
+  <div class="case"><span class="tag">CASO A · LA FÓRMULA CORRECTA</span><h4>Volumen control, paciente pasivo</h4><p>Vt 420 mL, Pplat 28, PEEP total 12, Ppico 36 cmH₂O, FR 22.</p>
+    <details class="ans"><summary>Ver análisis</summary><p>ΔP = 28 − 12 = 16 cmH₂O. Cst = 420/16 = 26,3 mL/cmH₂O. Ppico − PEEP = 24 <b>no</b> es la driving pressure. 4ΔP + FR = 64 + 22 = 86. Buscar la causa de la compliance baja (edema, atelectasia, distensión abdominal, neumotórax) y revisar la estrategia protectora completa, incluida la PEEP.</p></details></div>
   <div class="case"><span class="tag">CASO B · PSV Y ESFUERZO QUE NO SE VE EN LA PS</span><h4>PS 10, PEEP 8, Ppico 18, P0.1 4,1, ΔPocc −15 cmH₂O</h4>
     <details class="ans"><summary>Ver análisis</summary><p>Pmus ≈ 0,75 × 15 = 11,3 cmH₂O. ΔP<sub>L,din</sub> ≈ (18 − 8) + 10 = 20 cmH₂O. Drive elevado y posible esfuerzo excesivo. Antes de tocar un parámetro aislado: dolor, fiebre, acidosis, hipoxemia, confort, fugas y asincronías; integrar gases y mecánica.</p></details></div>
   <div class="case"><span class="tag">CASO C · P0.1 BAJA NO SIEMPRE ES TRANQUILIDAD</span><h4>PS 14, PEEP 6, P0.1 0,8, ΔPocc −12, FR 27</h4>
     <details class="ans"><summary>Ver análisis</summary><p>Indicadores discordantes: la P0.1 sugiere drive inicial bajo, pero la Pocc indica esfuerzo apreciable. Repetir las mediciones si la técnica fue válida y evaluar debilidad muscular, el algoritmo del equipo, actividad espiratoria y, si está disponible, ΔPes.</p></details></div>
-  <div class="case"><span class="tag">CASO D · NUEVO · ¿BAJAR EL VOLUMEN O NO?</span><h4>SDRA moderado en volumen control</h4><p>VT 480 mL (7,3 mL/kg PBW), FR 18, Pplat 27, PEEP 11, PaCO₂ 42 mmHg, pH 7,38, sin auto-PEEP.</p>
-    <details class="ans"><summary>Ver análisis</summary><p>ΔP = 16, C<sub>RS</sub> = 30; 4ΔP + FR = 82. Propuesta: VT 400 mL (6,1 mL/kg) → ΔP ≈ 13,3. Para el mismo volumen minuto (8,6 L/min), FR ≈ 22 → índice ≈ 75. Por el mayor peso del espacio muerto, probablemente haga falta FR 24: índice ≈ 77, igual menor que 82. Verificar a los 20–30 minutos: nueva pausa (la Pplat real confirma la ΔP), gases arteriales, curva de flujo espiratorio para descartar auto-PEEP y confort/asincronías.</p></details></div>
+  <div class="case"><span class="tag">CASO D · NUEVO · ¿BAJAR EL VOLUMEN O NO?</span><h4>SDRA moderado en volumen control</h4><p>Vt 480 mL (7,3 mL/kg PBW), FR 18, Pplat 27, PEEP 11, PaCO₂ 42 mmHg, pH 7,38, sin auto-PEEP.</p>
+    <details class="ans"><summary>Ver análisis</summary><p>ΔP = 16, Cst = 30; 4ΔP + FR = 82. Propuesta: Vt 400 mL (6,1 mL/kg) → ΔP ≈ 13,3. Para el mismo volumen minuto (8,6 L/min), FR ≈ 22 → índice ≈ 75. Por el mayor peso del espacio muerto, probablemente haga falta FR 24: índice ≈ 77, igual menor que 82. Verificar a los 20–30 minutos: nueva pausa (la Pplat real confirma la ΔP), gases arteriales, curva de flujo espiratorio para descartar auto-PEEP y confort/asincronías.</p></details></div>
 </section>
 
 <section id="procedimiento">
@@ -481,19 +491,19 @@ footer.f strong{color:#fff}
   <ol class="clean">
     <li>Registrar diagnóstico, objetivo ventilatorio y modo exacto del equipo.</li>
     <li>Observar 30–60 s al paciente y las curvas: postura, confort, adaptación.</li>
-    <li>Documentar VT (mL y mL/kg PBW), FR, VE, Paw, PEEP, FiO₂ y tendencia.</li>
-    <li>Con ventilación pasiva: Pplat y PEEP total para ΔP; calcular C<sub>RS</sub>, 4ΔP + FR y, si se usa, poder mecánico.</li>
+    <li>Documentar Vt (mL y mL/kg PBW), FR, VE, Paw, PEEP, FiO₂ y tendencia.</li>
+    <li>Con ventilación pasiva: Pplat y PEEP total para ΔP; calcular Cst, 4ΔP + FR y, si se usa, poder mecánico.</li>
     <li>En PSV: separar la PS de la fuerza que aportan los músculos; hacer oclusiones cuando estén disponibles y sean apropiadas.</li>
     <li>Interpretar P0.1 + Pocc (± PMI / Pes) en conjunto, anotando la calidad de la maniobra.</li>
     <li>Buscar asincronías y causas reversibles antes de cambiar ajustes; reevaluar después de cada intervención.</li>
   </ol>
-  <div class="box ok"><strong>Registro mínimo propuesto en la historia clínica</strong><p>Fecha y hora · modo · PS o VT programados · PEEP total · Pplat (si es válida) · Ppico · ΔP · VT/PBW · FR · 4ΔP + FR · P0.1 · Pocc · PMI o ΔPes si están disponibles · curva o asincronía · interpretación · acción · respuesta. Los parámetros no medidos se registran como "no disponible", nunca estimados a partir de la PS.</p></div>
+  <div class="box ok"><strong>Registro mínimo propuesto en la historia clínica</strong><p>Fecha y hora · modo · PS o Vt programados · PEEP total · Pplat (si es válida) · Ppico · ΔP · Vt/PBW · FR · 4ΔP + FR · P0.1 · Pocc · PMI o ΔPes si están disponibles · curva o asincronía · interpretación · acción · respuesta. Los parámetros no medidos se registran como "no disponible", nunca estimados a partir de la PS.</p></div>
 </section>
 
 <section id="quiz" class="quiz">
   <div class="sec-head"><span class="num">15</span></div>
   <h2>Autoevaluación</h2>
-  <p>Elegí una opción en cada pregunta y después tocá "Corregir".</p>
+  <p>Elija una opción en cada pregunta y después toque "Corregir".</p>
   <div id="quizBox"></div>
   <button class="btn" id="quizBtn" type="button">Corregir</button> <button class="btn ghost" id="quizReset" type="button">Reintentar</button>
   <div class="score" id="quizScore" aria-live="polite"></div>
@@ -507,8 +517,8 @@ footer.f strong{color:#fff}
     <a href="https://www.openpediatrics.org/critical-care-videos/ventilator-waveforms" target="_blank" rel="noopener"><b>Curvas del ventilador ↗</b><span>OPENPediatrics · lectura de las tres curvas y reconocimiento de problemas</span></a>
     <a href="https://www.openpediatrics.org/critical-care-videos/modes-of-mechanical-ventilation" target="_blank" rel="noopener"><b>Modos y PSV ↗</b><span>OPENPediatrics · modos ventilatorios con explicación de presión de soporte</span></a>
     <a href="https://www.openpediatrics.org/interactive-media/ventilator-simulator" target="_blank" rel="noopener"><b>Simulador interactivo ↗</b><span>OPENPediatrics · práctica de parámetros, orientado a pediatría</span></a>
-    <a href="https://www.medmastery.com/es/courses/mechanical-ventilation-essentials" target="_blank" rel="noopener"><b>Videocurso en español ↗</b><span>Medmastery · presión pico, meseta y flujo; acceso según el proveedor</span></a>
-    <a href="/academia/ebook/ventilacion-mecanica#simulador"><b>Simulador INSER ↗</b><span>Volvé al simulador del ebook y probá cómo cambian ΔP y FR</span></a>
+    <a href="https://www.medmastery.com/es/courses/mechanical-ventilation-essentials" target="_blank" rel="noopener"><b>Videocurso en español ↗</b><span>Medmastery · presión pico, plateau y flujo; acceso según el proveedor</span></a>
+    <a href="/academia/ebook/ventilacion-mecanica#simulador"><b>Simulador INSER ↗</b><span>Vuelva al simulador del ebook y pruebe cómo cambian ΔP y FR</span></a>
   </div>
 </section>
 
@@ -586,10 +596,10 @@ function badge(g,x,y,s,col){var t=txt(g,x,y,s,{size:12,fill:"#fff",weight:700,an
 /* Figure 1: VCV three panels */
 (function(){
   var host=document.getElementById("fig-vcv");if(!host)return;
-  var PEEP=10,Ppk=31,Ppl=25,Ti=1,Tp=.3,tau=.45,T=3.2,VT=450,F=27;
+  var PEEP=10,Ppk=31,Ppl=25,Ti=1,Tp=.3,tau=.45,T=3.2,Vt=450,F=27;
   function paw(t){if(t<0)return PEEP;if(t<Ti)return PEEP+(Ppk-Ppl)+(Ppl-PEEP)*t/Ti;if(t<Ti+Tp){var k=(t-Ti)/.04;return k<1?Ppk-(Ppk-Ppl)*k:Ppl}var te=t-Ti-Tp;return PEEP+(Ppl-PEEP)*Math.exp(-te/tau)*Math.max(0,1-te/(T))}
-  function vol(t){if(t<0)return 0;if(t<Ti)return VT*t/Ti;if(t<Ti+Tp)return VT;return VT*Math.exp(-(t-Ti-Tp)/tau)}
-  function flw(t){if(t<0)return 0;if(t<Ti)return F;if(t<Ti+Tp)return 0;return -(VT/1000*60/tau)*Math.exp(-(t-Ti-Tp)/tau)}
+  function vol(t){if(t<0)return 0;if(t<Ti)return Vt*t/Ti;if(t<Ti+Tp)return Vt;return Vt*Math.exp(-(t-Ti-Tp)/tau)}
+  function flw(t){if(t<0)return 0;if(t<Ti)return F;if(t<Ti+Tp)return 0;return -(Vt/1000*60/tau)*Math.exp(-(t-Ti-Tp)/tau)}
   var ts=range(-.2,T,400);
   var wrap=document.createElement("div");host.appendChild(wrap);
   var d1=document.createElement("div"),d2=document.createElement("div"),d3=document.createElement("div");wrap.appendChild(d1);wrap.appendChild(d2);wrap.appendChild(d3);
@@ -603,17 +613,17 @@ function badge(g,x,y,s,col){var t=txt(g,x,y,s,{size:12,fill:"#fff",weight:700,an
   plot(d2,{h:170,x:[-.2,T],y:[-70,35],yt:[-60,-30,0,30],yl:"Flujo (L/min)",zero:0,series:[{pts:ts.map(function(t){return[t,flw(t)]}),color:C.orange}],
     ann:function(g,X,Y){txt(g,X(.5),Y(F)-6,"flujo constante",{anchor:"middle",size:11,fill:C.orange});txt(g,X(Ti+Tp/2),Y(0)-6,"0",{anchor:"middle",size:11,fill:"#9a6a12"})}});
   plot(d3,{h:180,x:[-.2,T],y:[0,500],yt:[0,250,500],yl:"Volumen (mL)",xl:"Tiempo (s)",xt:[0,.5,1,1.5,2,2.5,3],series:[{pts:ts.map(function(t){return[t,vol(t)]}),color:C.blue}],
-    ann:function(g,X,Y){txt(g,X(Ti+.05),Y(VT)-6,"VT 450 mL",{size:11,fill:C.blue,weight:600})}});
+    ann:function(g,X,Y){txt(g,X(Ti+.05),Y(Vt)-6,"Vt 450 mL",{size:11,fill:C.blue,weight:600})}});
 })();
 
-/* Figure 2: VT vs CRS */
+/* Figure 2: Vt vs CRS */
 (function(){
   var host=document.getElementById("fig-vtcrs");if(!host)return;
   var cs=[[25,C.red],[30,C.amber],[40,C.blue],[60,C.tealD]];
-  plot(host,{h:300,x:[200,600],y:[0,26],xt:[200,300,400,500,600],yt:[0,5,10,15,20,25],xl:"VT (mL)",yl:"ΔP (cmH₂O)",
+  plot(host,{h:300,x:[200,600],y:[0,26],xt:[200,300,400,500,600],yt:[0,5,10,15,20,25],xl:"Vt (mL)",yl:"ΔP (cmH₂O)",
     series:cs.map(function(c){return{pts:range(200,600,40).map(function(v){return[v,Math.min(26,v/c[0])]}),color:c[1]}}),
     ann:function(g,X,Y){hline(g,X,Y,200,600,15,C.muted,"6 5");txt(g,X(205),Y(15)-6,"15 cmH₂O: señal de atención",{size:11});
-      cs.forEach(function(c,i){var x=Math.min(590,26*c[0]-30),y=x/c[0];if(c[0]>=40){x=585;y=x/c[0]}txt(g,X(x),Y(y)-8,"C"+"RS "+c[0],{size:12,fill:c[1],weight:700,anchor:"end"})})}});
+      cs.forEach(function(c,i){var x=Math.min(590,26*c[0]-30),y=x/c[0];if(c[0]>=40){x=585;y=x/c[0]}txt(g,X(x),Y(y)-8,"Cst "+c[0],{size:12,fill:c[1],weight:700,anchor:"end"})})}});
 })();
 
 /* Figure 3: iso-risk map */
@@ -644,8 +654,8 @@ bindIso();
 /* Figure 4: mechanical power stacked bars */
 (function(){
   var host=document.getElementById("fig-pm");if(!host)return;
-  var C_=30,PEEP=10,R=13.3; // R in cmH2O/L/s, flow ~ VT/Ti
-  var strat=[{n:"VT 500 · FR 18",vt:500,fr:18},{n:"VT 450 · FR 20",vt:450,fr:20},{n:"VT 380 · FR 24",vt:380,fr:24}];
+  var C_=30,PEEP=10,R=13.3; // R in cmH2O/L/s, flow ~ Vt/Ti
+  var strat=[{n:"Vt 500 · FR 18",vt:500,fr:18},{n:"Vt 450 · FR 20",vt:450,fr:20},{n:"Vt 380 · FR 24",vt:380,fr:24}];
   strat.forEach(function(s){var dp=s.vt/C_,res=R*(s.vt/1000)/1; s.el=.098*s.fr*s.vt/1000*dp/2; s.pe=.098*s.fr*s.vt/1000*PEEP; s.re=.098*s.fr*s.vt/1000*res; s.tot=s.el+s.pe+s.re; s.dp=dp; s.idx=4*dp+s.fr});
   var NW=window.innerWidth<640;var w=NW?560:720,h=300,m={l:NW?205:150,r:56,t:20,b:46};
   var svg=el("svg",{viewBox:"0 0 "+w+" "+h,role:"img","aria-label":"Componentes del poder mecánico en tres estrategias"});
@@ -728,14 +738,14 @@ function calcCtrl(){
   var sexo=document.getElementById("cSexo").value,talla=n("cTalla"),vt=n("cVt"),fr=n("cFr"),ppk=n("cPpk"),ppl=n("cPpl"),peep=n("cPeep");
   var pbw=(sexo==="m"?50:45.5)+0.91*(talla-152.4),vtk=vt/pbw,dp=ppl-peep,crs=vt/dp,idx=4*dp+fr,pm=.098*fr*vt/1000*(ppk-dp/2),pmel=.098*fr*vt/1000*dp/2,en=dp/vtk,ve=vt*fr/1000;
   var o="";var ok=isFinite(dp)&&dp>0;
-  o+=card("VT por peso predicho",isFinite(vtk)?fmt(vtk):"—","mL/kg","PBW "+fmt(pbw)+" kg. "+(vtk>8?"Mayor de 8 mL/kg: por encima del rango protector.":vtk<4?"Menor de 4 mL/kg: vigilar CO₂ y esfuerzos.":"Dentro de 4–8 mL/kg."),vtk>8?"bad":(vtk<4?"warn":""));
-  o+=card("Driving pressure",ok?fmt(dp):"—","cmH₂O",!ok?"Revisá Pplat y PEEP.":dp>=17?"≥ 17: corte asociado con mayor mortalidad (LUNG SAFE).":dp>=15?"15–17: señal de atención.":"Menor de 15.",!ok?"na":dp>=17?"bad":dp>=15?"warn":"");
+  o+=card("Vt por peso predicho",isFinite(vtk)?fmt(vtk):"—","mL/kg","PBW "+fmt(pbw)+" kg. "+(vtk>8?"Mayor de 8 mL/kg: por encima del rango protector.":vtk<4?"Menor de 4 mL/kg: vigilar CO₂ y esfuerzos.":"Dentro de 4–8 mL/kg."),vtk>8?"bad":(vtk<4?"warn":""));
+  o+=card("Driving pressure",ok?fmt(dp):"—","cmH₂O",!ok?"Revise Pplat y PEEP.":dp>=17?"≥ 17: corte asociado con mayor mortalidad (LUNG SAFE).":dp>=15?"15–17: señal de atención.":"Menor de 15.",!ok?"na":dp>=17?"bad":dp>=15?"warn":"");
   o+=card("Compliance estática",ok?fmt(crs):"—","mL/cmH₂O",ok?(crs<30?"Baja: pulmón pequeño o rígido.":crs<50?"Moderadamente reducida.":"Conservada."):"",!ok?"na":crs<30?"warn":"");
-  o+=card("4ΔP + FR",ok?fmt(idx):"—","",ok?(idx>=76?"≥ 76 (corte poblacional LUNG SAFE). Compará estrategias.":"Menor de 76. Usalo para comparar en el tiempo."):"",!ok?"na":idx>=76?"warn":"");
+  o+=card("4ΔP + FR",ok?fmt(idx):"—","",ok?(idx>=76?"≥ 76 (corte poblacional LUNG SAFE). Compare estrategias.":"Menor de 76. Usalo para comparar en el tiempo."):"",!ok?"na":idx>=76?"warn":"");
   o+=card("Elastancia normalizada",ok&&isFinite(en)?fmt(en):"—","cmH₂O/(mL/kg)",ok?(en>=2.1?"≥ 2,1: punto de corte asociado con mortalidad.":"Menor de 2,1."):"",!ok?"na":en>=2.1?"warn":"");
   o+=card("Poder mecánico",ok?fmt(pm):"—","J/min",ok?("Elástico dinámico: "+fmt(pmel)+" J/min. "+(pm>=17?"≥ 17 J/min: asociado con peor evolución en cohortes.":"Menor de 17 J/min.")):"",!ok?"na":pm>=17?"warn":"");
   o+=card("Presión resistiva",isFinite(ppk-ppl)?fmt(ppk-ppl):"—","cmH₂O",ppk-ppl>10?"Alta: revisar secreciones, broncoespasmo, tubo.":"Ppico − Pplat.",ppk-ppl>10?"warn":"");
-  o+=card("Volumen minuto",isFinite(ve)?fmt(ve):"—","L/min","VT × FR. Recordá el espacio muerto.","");
+  o+=card("Volumen minuto",isFinite(ve)?fmt(ve):"—","L/min","Vt × FR. Recuerde el espacio muerto.","");
   o+=card("Pplat",isFinite(ppl)?fmt(ppl):"—","cmH₂O",ppl>30?"Mayor de 30: por encima del límite protector.":"≤ 30.",ppl>30?"bad":"");
   document.getElementById("outCtrl").innerHTML=o;
   if(ok&&isFinite(fr)){var a=document.getElementById("isoDp"),b=document.getElementById("isoFr");if(dp>=6&&dp<=26&&fr>=10&&fr<=40){a.value=dp;b.value=fr;a.dispatchEvent(new Event("input"))}}
@@ -747,8 +757,8 @@ function calcPsv(){
   o+=card("ΔP<sub>L,din</sub> estimada",isFinite(a)&&isFinite(ppk)?fmt(dpl):"no disponible","cmH₂O",isFinite(a)?(dpl>20?"Mayor de 20: investigar estrés pulmonar elevado.":"≤ 20."):"Requiere ΔPocc.",!isFinite(a)?"na":dpl>20?"bad":"");
   o+=card("P0.1",isFinite(p01)?fmt(p01):"no disponible","cmH₂O",!isFinite(p01)?"Sin dato.":p01>3.5?"Mayor de 3,5–4: drive elevado.":p01<1?"Menor de 1: drive bajo, posible sobreasistencia.":"Rango intermedio.",!isFinite(p01)?"na":p01>3.5?"warn":p01<1?"warn":"");
   var hasPl=isFinite(ppl);
-  o+=card("PMI",hasPl?fmt(ppl-ppk):"no disponible","cmH₂O",hasPl?(ppl-ppk<=0?"Bajo o negativo: ventilación casi pasiva o sobreasistencia posible.":"Contribución muscular aproximada al final de la inspiración."):"Sin meseta válida: no informar.",hasPl?"":"na");
-  o+=card("ΔP en PSV",hasPl?fmt(ppl-peep):"no disponible","cmH₂O",hasPl?((ppl-peep)>=15?"≥ 15 en ventilación asistida: asociada con peor pronóstico (Bellani).":"Menor de 15."):"Solo con meseta estable.",!hasPl?"na":(ppl-peep)>=15?"warn":"");
+  o+=card("PMI",hasPl?fmt(ppl-ppk):"no disponible","cmH₂O",hasPl?(ppl-ppk<=0?"Bajo o negativo: ventilación casi pasiva o sobreasistencia posible.":"Contribución muscular aproximada al final de la inspiración."):"Sin Pplat válida: no informar.",hasPl?"":"na");
+  o+=card("ΔP en PSV",hasPl?fmt(ppl-peep):"no disponible","cmH₂O",hasPl?((ppl-peep)>=15?"≥ 15 en ventilación asistida: asociada con peor pronóstico (Bellani).":"Menor de 15."):"Solo con Pplat estable.",!hasPl?"na":(ppl-peep)>=15?"warn":"");
   o+=card("4ΔP + FR (PSV)",hasPl&&isFinite(fr)?fmt(4*(ppl-peep)+fr):"no disponible","",hasPl?"Orientativo: el índice se derivó en ventilación controlada.":"Requiere ΔP válida.",hasPl?"":"na");
   if(isFinite(a)&&isFinite(p01)&&p01<1&&a>=10)o+=card("Discordancia","P0.1 baja + Pocc alta","","Repetir maniobras; pensar en debilidad, algoritmo del equipo o actividad espiratoria.","warn");
   document.getElementById("outPsv").innerHTML=o;
@@ -761,16 +771,16 @@ calcCtrl();calcPsv();
 /* Quiz */
 var Q=[
  {q:"Paciente pasivo con Pplat 27 y PEEP total 9. ¿Cuál es la ΔP?",o:["36 cmH₂O","18 cmH₂O","27 cmH₂O","No se puede calcular sin la Ppico"],a:1,e:"ΔP = Pplat − PEEP total = 27 − 9 = 18 cmH₂O. La Ppico no interviene."},
- {q:"VT 480 mL y ΔP 12 cmH₂O. ¿Cuál es la C<sub>RS</sub>?",o:["40 mL/cmH₂O","57,6 mL/cmH₂O","25 mL/cmH₂O","12 mL/cmH₂O"],a:0,e:"C<sub>RS</sub> = VT/ΔP = 480/12 = 40 mL/cmH₂O."},
+ {q:"Vt 480 mL y ΔP 12 cmH₂O. ¿Cuál es la Cst?",o:["40 mL/cmH₂O","57,6 mL/cmH₂O","25 mL/cmH₂O","12 mL/cmH₂O"],a:0,e:"Cst = Vt/ΔP = 480/12 = 40 mL/cmH₂O."},
  {q:"ΔP 14 y FR 24. ¿Cuánto vale 4ΔP + FR?",o:["38","62","80","96"],a:2,e:"4 × 14 + 24 = 56 + 24 = 80."},
  {q:"¿Qué significa el factor 4 del índice 4ΔP + FR?",o:["Que la FR debe ser 4 veces la ΔP","Que 1 cmH₂O de ΔP pesó en la mortalidad como unas 4 rpm de FR","Que es una conversión a joules","Que la ΔP se mide 4 veces"],a:1,e:"Surge del análisis de Costa 2021: el efecto de cada cmH₂O de ΔP sobre la mortalidad fue cerca de 4 veces el de cada rpm de FR. Es un peso estadístico, no una magnitud física."},
  {q:"Según la evidencia 2025–2026 (STAMINA y metaanálisis), una estrategia que fuerza la ΔP por debajo de un objetivo fijo...",o:["Reduce la mortalidad a la mitad","No demostró cambiar mortalidad ni días libres de ventilador","Está contraindicada en SDRA","Solo sirve en EPOC"],a:1,e:"Los ensayos y metaanálisis recientes muestran efecto neutro: la ΔP es un buen marcador de riesgo, pero bajarla como objetivo aislado no demostró beneficio."},
  {q:"¿Por qué una PS de 12 no indica una ΔP de 12 en un paciente activo?",o:["Porque la PS se mide en otra unidad","Porque la presión muscular del paciente también participa en la insuflación","Porque la PS incluye la PEEP","Porque en PSV no hay volumen corriente"],a:1,e:"En PSV el paciente aporta presión muscular: la presión que distiende el pulmón puede ser mucho mayor que la PS programada."},
  {q:"¿Qué diferencia conceptual hay entre P0.1 y Pocc?",o:["Son lo mismo medido en distinto momento","P0.1 refleja drive (caída inicial); Pocc, el esfuerzo de toda la inspiración ocluida","P0.1 mide esfuerzo total y Pocc el drive","Pocc solo se mide con balón esofágico"],a:1,e:"P0.1 es la caída en los primeros 100 ms (orden central); Pocc es la deflexión máxima de todo el esfuerzo contra la oclusión."},
- {q:"En una pausa en PSV la presión no se estabiliza. ¿Se puede informar un PMI?",o:["Sí, tomando el valor más alto","Sí, promediando","No: se informa como maniobra no interpretable","Sí, restando la PS"],a:2,e:"Sin meseta estable el PMI no es confiable. Registrarlo como no interpretable; esa inestabilidad puede reflejar esfuerzo alto."}
+ {q:"En una pausa en PSV la presión no se estabiliza. ¿Se puede informar un PMI?",o:["Sí, tomando el valor más alto","Sí, promediando","No: se informa como maniobra no interpretable","Sí, restando la PS"],a:2,e:"Sin Pplat estable el PMI no es confiable. Registrarlo como no interpretable; esa inestabilidad puede reflejar esfuerzo alto."}
 ];
 function renderQuiz(){var b=document.getElementById("quizBox");b.innerHTML="";Q.forEach(function(q,i){var d=document.createElement("div");d.className="q";var h='<p>'+(i+1)+'. '+q.q+'</p>';q.o.forEach(function(op,j){h+='<label><input type="radio" name="q'+i+'" value="'+j+'"> '+op+'</label>'});h+='<div class="fb">'+q.e+'</div>';d.innerHTML=h;b.appendChild(d)});document.getElementById("quizScore").textContent=""}
-document.getElementById("quizBtn").addEventListener("click",function(){var s=0;Q.forEach(function(q,i){var d=document.querySelectorAll("#quizBox .q")[i];var ch=d.querySelector("input:checked");d.classList.add("done");d.querySelectorAll("label").forEach(function(l,j){l.classList.remove("right","wrong");if(j===q.a)l.classList.add("right");else if(ch&&+ch.value===j)l.classList.add("wrong")});if(ch&&+ch.value===q.a)s++});document.getElementById("quizScore").textContent="Resultado: "+s+" de "+Q.length+(s===Q.length?" · ¡Excelente!":s>=6?" · Muy bien":" · Repasá las secciones marcadas");try{gtag("event","quiz_driving_pressure",{score:s})}catch(e){}});
+document.getElementById("quizBtn").addEventListener("click",function(){var s=0;Q.forEach(function(q,i){var d=document.querySelectorAll("#quizBox .q")[i];var ch=d.querySelector("input:checked");d.classList.add("done");d.querySelectorAll("label").forEach(function(l,j){l.classList.remove("right","wrong");if(j===q.a)l.classList.add("right");else if(ch&&+ch.value===j)l.classList.add("wrong")});if(ch&&+ch.value===q.a)s++});document.getElementById("quizScore").textContent="Resultado: "+s+" de "+Q.length+(s===Q.length?" · ¡Excelente!":s>=6?" · Muy bien":" · Repase las secciones marcadas");try{gtag("event","quiz_driving_pressure",{score:s})}catch(e){}});
 document.getElementById("quizReset").addEventListener("click",renderQuiz);
 renderQuiz();
 
