@@ -535,7 +535,7 @@ export const localPages = [
         ctaSanti: 'Hola Santi, busco un concentrador de oxígeno portátil en Córdoba. ¿Qué modelos tienen y cuál es apto para vuelos?',
         sections: [
             { title: '¿Para quién es un concentrador portátil?', content: 'Para quienes necesitan oxígeno pero no quieren quedar atados a un equipo fijo: personas activas, que salen, trabajan o viajan. Funciona con batería y se recarga en casa o en el auto.' },
-            { title: 'Modelos disponibles', content: 'GCE Zen-O: premium, pulso y flujo continuo de hasta 2 L/min, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: pulso y flujo continuo de hasta 2 L/min, apto para viajes.\n\nTe ayudamos a elegir según el flujo que indicó tu médico.' },
+            { title: 'Modelos disponibles', content: 'GCE Zen-O: premium, pulso y flujo continuo de 0,5 a 2 L/min, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: pulso y flujo continuo de 0,5 a 2 L/min, apto para viajes.\n\nTe ayudamos a elegir según el flujo que indicó tu médico.' },
             { title: 'Venta y alquiler', content: 'Ofrecemos los portátiles en venta y alquiler, con entrega a domicilio en Córdoba, capacitación de uso y soporte técnico. Aparatología aprobada por ANMAT.' },
             {
                 title: 'Pulso o flujo continuo: la diferencia que más importa',
@@ -1047,7 +1047,7 @@ export const localPages = [
         h1: 'Comprar concentrador de oxígeno portátil: envío a todo el país',
         metaTitle: 'Concentrador de Oxígeno Portátil desde U$S 3.747 | INSER',
         metaTitleSalud: 'Concentrador de Oxígeno Portátil desde U$S 3.747 | INSER',
-        description: 'GCE Zen-O (U$S 3.747) y Philips SimplyGo (U$S 3.887), con pulso y flujo continuo de hasta 2 L/min, aptos para vuelos. ANMAT, garantía de 3 años y envío a todo el país.',
+        description: 'GCE Zen-O (U$S 3.747) y Philips SimplyGo (U$S 3.887), con pulso y flujo continuo de 0,5 a 2 L/min, aptos para vuelos. ANMAT, garantía de 3 años y envío a todo el país.',
         heroImg: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg',
         intro: 'Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles de pulso y de flujo continuo con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.',
         ctaSanti: 'Hola Santi, quiero comprar un concentrador de oxígeno portátil. ¿Qué modelos tienen, precios y cuál me conviene según mi flujo?',
@@ -1058,7 +1058,7 @@ export const localPages = [
             },
             {
                 title: 'Modelos y precios',
-                content: 'GCE Zen-O — U$S 3.747: premium europeo, pulso y flujo continuo de hasta 2 L/min, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
+                content: 'GCE Zen-O — U$S 3.747: premium europeo, pulso y flujo continuo de 0,5 a 2 L/min, 2 baterías + carro, homologado para vuelos.\nPhilips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.\n\nPrecios de referencia; confirmá el valor del día por WhatsApp.',
             },
             {
                 title: 'Para viajar en avión',
@@ -1070,7 +1070,7 @@ export const localPages = [
             },
             {
                 title: 'Peso y autonomía: los dos datos que definen el modelo',
-                content: 'Entre los portátiles la diferencia práctica está en cuánto pesa el equipo y cuántas horas te banca fuera de casa. No siempre van juntos, así que conviene mirar los dos números antes de decidir.\n\nEl GCE Zen-O pesa 4,66 kg con las dos baterías puestas, entrega pulso y flujo continuo de hasta 2 L/min y llega hasta 8 horas, pero viene con carro de transporte, así que no lo llevás colgado. El Philips SimplyGo pesa 4,5 kg y entrega flujo continuo de 0,5 a 2 L/min además de pulso.\n\nUn detalle que conviene tener claro: la autonomía depende del flujo que uses. A mayor flujo, menos dura la batería. Por eso la pregunta correcta no es cuántas horas rinde el equipo, sino cuántas horas rinde en tu nivel.',
+                content: 'Entre los portátiles la diferencia práctica está en cuánto pesa el equipo y cuántas horas te banca fuera de casa. No siempre van juntos, así que conviene mirar los dos números antes de decidir.\n\nEl GCE Zen-O pesa 4,66 kg con las dos baterías puestas, entrega pulso y flujo continuo de 0,5 a 2 L/min y llega hasta 8 horas, pero viene con carro de transporte, así que no lo llevás colgado. El Philips SimplyGo pesa 4,5 kg y entrega flujo continuo de 0,5 a 2 L/min además de pulso.\n\nUn detalle que conviene tener claro: la autonomía depende del flujo que uses. A mayor flujo, menos dura la batería. Por eso la pregunta correcta no es cuántas horas rinde el equipo, sino cuántas horas rinde en tu nivel.',
             },
             {
                 title: 'Qué viene con el equipo y qué garantía tiene',
@@ -1091,7 +1091,7 @@ export const localPages = [
         ],
         faq: [
             { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
-            { q: '¿Qué concentradores portátiles tienen y cuánto salen?', a: 'El GCE Zen-O, con 2 baterías y carro, a U$S 3.747, y el Philips SimplyGo, a U$S 3.887. Los dos entregan pulso y flujo continuo de hasta 2 L/min. Los dos son aptos para vuelos y tienen 3 años de garantía oficial.' },
+            { q: '¿Qué concentradores portátiles tienen y cuánto salen?', a: 'El GCE Zen-O, con 2 baterías y carro, a U$S 3.747, y el Philips SimplyGo, a U$S 3.887. Los dos entregan pulso y flujo continuo de 0,5 a 2 L/min. Los dos son aptos para vuelos y tienen 3 años de garantía oficial.' },
             { q: '¿Puedo viajar en avión con un concentrador portátil?', a: 'Sí, con los modelos aprobados FAA (GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.' },
             { q: '¿Pulso o flujo continuo?', a: 'Depende de tu indicación médica. Pulso: más liviano y autónomo, para actividad. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. Te ayudamos a elegir.' },
             { q: '¿Envían a todo el país?', a: 'Sí, enviamos a cualquier provincia con capacitación de uso guiada y garantía oficial. En Córdoba también hay alquiler para probar antes de comprar.' },

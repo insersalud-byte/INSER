@@ -73,17 +73,17 @@ Modelos disponibles en Inser Salud:
 
 👑 GCE Zen-O — Premium con carrito y 2 baterías
 • Precio: U$S 3.747
-• Pulso y flujo continuo de hasta 2 L/min
+• Pulso y flujo continuo de 0,5 a 2 L/min
 • Incluye carrito y 2 baterías para máxima autonomía
 • Homologado para vuelos comerciales
 • La opción premium para el paciente más activo
 
 💨 Philips SimplyGo — Pulso y flujo continuo
 • Precio: U$S 3.887
-• Flujo continuo de hasta 2 L/min, además del modo pulso
+• Flujo continuo de 0,5 a 2 L/min, además del modo pulso
 • Apto para viajes
 
-Importante: el modo pulso no reemplaza una indicación de flujo continuo. El Zen-O y el SimplyGo tienen flujo continuo de hasta 2 L/min; si tu médico indicó más que eso o uso nocturno, consultanos: puede corresponder un concentrador estacionario.
+Importante: el modo pulso no reemplaza una indicación de flujo continuo. El Zen-O y el SimplyGo tienen flujo continuo de 0,5 a 2 L/min; si tu médico indicó más que eso o uso nocturno, consultanos: puede corresponder un concentrador estacionario.
 
 ## Mochilas de Oxígeno Portátil
 

@@ -138,7 +138,7 @@ const ofertas = [
         specs: [
             ['Fabricante', 'GCE Healthcare (Europa)'],
             ['Tipo', 'Concentrador portátil: pulso y flujo continuo'],
-            ['Flujo', 'Pulso en 5 settings (1 – 5) y continuo hasta 2 L/min'],
+            ['Flujo', 'Pulso en 11 niveles (1 – 6) y continuo de 0,5 a 2 L/min'],
             ['Peso', '4,66 kg con 2 baterías'],
             ['Autonomía', 'Hasta 8 hs con 2 baterías'],
             ['Incluye', 'Carro de transporte + 2 baterías + cargadores'],
@@ -352,7 +352,7 @@ const tienda = [
         specs: [
             ['Fabricante', 'GCE Healthcare'],
             ['Tipo', 'Portátil premium: pulso y flujo continuo'],
-            ['Flujo', 'Pulso 1 – 5 y continuo hasta 2 L/min'],
+            ['Flujo', 'Pulso 1 – 6 y continuo de 0,5 a 2 L/min'],
             ['Peso', '4,66 kg con 2 baterías'],
             ['Autonomía', 'Hasta 8 hs'],
             ['Incluye', 'Carro + 2 baterías + cargadores'],
@@ -780,7 +780,7 @@ const ALL_TAG_INFO = {
         bullets: [
             { icon: '✈️', text: 'Homologados para vuelos comerciales (aprobación FAA)' },
             { icon: '🔋', text: 'Autonomía de batería de hasta 8 horas según modelo (GCE Zen-O con 2 baterías)' },
-            { icon: '💨', text: 'Pulso y flujo continuo de hasta 2 L/min (GCE Zen-O y Philips SimplyGo)' },
+            { icon: '💨', text: 'Pulso y flujo continuo de 0,5 a 2 L/min (GCE Zen-O y Philips SimplyGo)' },
             { icon: '🔌', text: 'Carga en 220V, 12V auto o batería intercambiable' },
         ],
         waMsg: 'Hola, necesito un concentrador de oxígeno portátil. ¿Qué modelos tienen y cuáles son los precios?',

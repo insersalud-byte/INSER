@@ -115,7 +115,7 @@ export const FEED = [
         brand: 'Yuwell', cat: 4551, type: 'Equipos respiratorios > Concentradores de oxígeno', tok: /YUWELL/i },
     // ---- Concentradores portatiles ----
     { id: 'gce-zen-o', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', title: 'GCE Zen-O concentrador de oxígeno portátil con 2 baterías y carro, apto vuelos',
-        desc: 'Concentrador de oxígeno portátil GCE Zen-O (GCE Healthcare) con pulso en 5 niveles y flujo continuo de hasta 2 L/min. Incluye carro, 2 baterías y cargadores, con autonomía de hasta 8 horas. Peso 4,66 kg con las 2 baterías. Homologado para vuelos (FAA). Garantía oficial del fabricante: 3 años. ' + PULSO + ' ' + MED_FLUJO,
+        desc: 'Concentrador de oxígeno portátil GCE Zen-O (GCE Healthcare) con pulso (niveles 1 a 6) y flujo continuo de 0,5 a 2 L/min. Incluye carro, 2 baterías y cargadores, con autonomía de hasta 8 horas. Peso 4,66 kg con las 2 baterías. Homologado para vuelos (FAA). Garantía oficial del fabricante: 3 años. ' + PULSO + ' ' + MED_FLUJO,
         link: '/comprar-concentrador-oxigeno-portatil-argentina', img: A('47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg'), add: [A('731923be-19f2-4856-a0e1-5cfbe1ef831a.jpg'), A('c1223981-5f7b-44d4-8c72-ba979f43f504.jpg')],
         brand: 'GCE Healthcare', cat: 4551, type: 'Equipos respiratorios > Concentradores portátiles', tok: /Zen-?O/i },
     { id: 'philips-simplygo', slug: 'concentrador-de-oxigeno-portatil-simplygo', title: 'Philips SimplyGo concentrador de oxígeno portátil, flujo continuo y pulso, apto vuelos',
