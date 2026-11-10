@@ -57,7 +57,7 @@ Hasta 5 litros por minuto, el concentrador estacionario estándar cubre la mayor
 
 Por encima de 5 litros por minuto hace falta un equipo de alto flujo. El [concentrador Yuwell de 10 litros](https://insersalud.com/concentrador-oxigeno-10-litros) llega al doble del flujo del estacionario estándar; hoy lo publicamos en venta, así que si tu indicación supera los 5 L/min escribinos y vemos qué opción hay para tu caso.
 
-Y hay una distinción que confunde seguido: el GCE Zen-O, el portátil que figura en esta página, entrega el oxígeno a pulso, es decir una bocanada por cada inspiración. Si tu indicación es de flujo continuo, un equipo a pulso no lo reemplaza; para eso está el Philips SimplyGo, que entrega flujo continuo de 0,5 a 2 L/min además del modo pulso. Podés ver los modelos en [concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba), o mandarnos la indicación por WhatsApp y te confirmamos qué equipo cumple.
+Y hay una distinción que confunde seguido: el modo pulso entrega una bocanada de oxígeno por cada inspiración y no reemplaza una indicación de flujo continuo. Los dos portátiles que vendemos, el GCE Zen-O y el Philips SimplyGo, tienen además flujo continuo, pero solo hasta 2 L/min: si tu indicación es de flujo continuo por encima de eso, corresponde un concentrador estacionario. Podés ver los modelos en [concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba), o mandarnos la indicación por WhatsApp y te confirmamos qué equipo cumple.
 
 ## Qué incluye el alquiler
 

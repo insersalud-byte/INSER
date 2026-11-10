@@ -23,7 +23,7 @@ Para quienes necesitan oxígeno pero no quieren quedar atados a un equipo fijo: 
 
 ## Modelos disponibles
 
-GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.
+GCE Zen-O: premium, pulso y flujo continuo de hasta 2 L/min, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: pulso y flujo continuo de hasta 2 L/min, apto para viajes.
 
 Te ayudamos a elegir según el flujo que indicó tu médico.
 

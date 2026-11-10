@@ -96,8 +96,8 @@ Tipos de sistemas de oxígeno disponibles en Inser Salud:
 
 🎒 Concentrador portátil (para salir de casa):
 • Permite mantener la actividad diaria y la autonomía
-• GCE Zen-O: con carrito y 2 baterías, hasta 8 horas de autonomía (U$S 3.747)
-• Philips SimplyGo: flujo continuo de 0,5 a 2 L/min además de pulso (U$S 3.887)
+• GCE Zen-O: pulso y flujo continuo de hasta 2 L/min, con carrito y 2 baterías (U$S 3.747)
+• Philips SimplyGo: pulso y flujo continuo de hasta 2 L/min (U$S 3.887)
 
 💧 Oxígeno líquido:
 • Mayor autonomía en menor peso

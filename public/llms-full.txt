@@ -677,8 +677,8 @@ Tipos de sistemas de oxígeno disponibles en Inser Salud:
 
 🎒 Concentrador portátil (para salir de casa):
 • Permite mantener la actividad diaria y la autonomía
-• GCE Zen-O: con carrito y 2 baterías, hasta 8 horas de autonomía (U$S 3.747)
-• Philips SimplyGo: flujo continuo de 0,5 a 2 L/min además de pulso (U$S 3.887)
+• GCE Zen-O: pulso y flujo continuo de hasta 2 L/min, con carrito y 2 baterías (U$S 3.747)
+• Philips SimplyGo: pulso y flujo continuo de hasta 2 L/min (U$S 3.887)
 
 💧 Oxígeno líquido:
 • Mayor autonomía en menor peso
@@ -865,16 +865,17 @@ Modelos disponibles en Inser Salud:
 
 👑 GCE Zen-O — Premium con carrito y 2 baterías
 • Precio: U$S 3.747
+• Pulso y flujo continuo de hasta 2 L/min
 • Incluye carrito y 2 baterías para máxima autonomía
 • Homologado para vuelos comerciales
 • La opción premium para el paciente más activo
 
 💨 Philips SimplyGo — Pulso y flujo continuo
 • Precio: U$S 3.887
-• Flujo continuo de 0,5 a 2 L/min, además del modo pulso
+• Flujo continuo de hasta 2 L/min, además del modo pulso
 • Apto para viajes
 
-Importante: un equipo de pulso no reemplaza una indicación de flujo continuo. Si tu médico indicó flujo continuo o uso nocturno, consultanos: puede corresponder el SimplyGo (hasta 2 L/min) o un concentrador estacionario.
+Importante: el modo pulso no reemplaza una indicación de flujo continuo. El Zen-O y el SimplyGo tienen flujo continuo de hasta 2 L/min; si tu médico indicó más que eso o uso nocturno, consultanos: puede corresponder un concentrador estacionario.
 
 ## Mochilas de Oxígeno Portátil
 
@@ -1918,7 +1919,7 @@ Hasta 5 litros por minuto, el concentrador estacionario estándar cubre la mayor
 
 Por encima de 5 litros por minuto hace falta un equipo de alto flujo. El [concentrador Yuwell de 10 litros](https://insersalud.com/concentrador-oxigeno-10-litros) llega al doble del flujo del estacionario estándar; hoy lo publicamos en venta, así que si tu indicación supera los 5 L/min escribinos y vemos qué opción hay para tu caso.
 
-Y hay una distinción que confunde seguido: el GCE Zen-O, el portátil que figura en esta página, entrega el oxígeno a pulso, es decir una bocanada por cada inspiración. Si tu indicación es de flujo continuo, un equipo a pulso no lo reemplaza; para eso está el Philips SimplyGo, que entrega flujo continuo de 0,5 a 2 L/min además del modo pulso. Podés ver los modelos en [concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba), o mandarnos la indicación por WhatsApp y te confirmamos qué equipo cumple.
+Y hay una distinción que confunde seguido: el modo pulso entrega una bocanada de oxígeno por cada inspiración y no reemplaza una indicación de flujo continuo. Los dos portátiles que vendemos, el GCE Zen-O y el Philips SimplyGo, tienen además flujo continuo, pero solo hasta 2 L/min: si tu indicación es de flujo continuo por encima de eso, corresponde un concentrador estacionario. Podés ver los modelos en [concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba), o mandarnos la indicación por WhatsApp y te confirmamos qué equipo cumple.
 
 ## Qué incluye el alquiler
 
@@ -2850,7 +2851,7 @@ Para quienes necesitan oxígeno pero no quieren quedar atados a un equipo fijo: 
 
 ## Modelos disponibles
 
-GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.
+GCE Zen-O: premium, pulso y flujo continuo de hasta 2 L/min, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: pulso y flujo continuo de hasta 2 L/min, apto para viajes.
 
 Te ayudamos a elegir según el flujo que indicó tu médico.
 
@@ -4006,7 +4007,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Concentrador de Oxígeno Portátil desde U$S 3.747 | INSER"
-description: "GCE Zen-O (U$S 3.747) y Philips SimplyGo con flujo continuo (U$S 3.887), aptos para vuelos. ANMAT, garantía de 3 años y envío a todo el país."
+description: "GCE Zen-O (U$S 3.747) y Philips SimplyGo (U$S 3.887), con pulso y flujo continuo de hasta 2 L/min, aptos para vuelos. ANMAT, garantía de 3 años y envío a todo el país."
 url: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 canonical: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4033,7 +4034,7 @@ La indicación médica (litros por minuto y modalidad) define el modelo correcto
 
 ## Modelos y precios
 
-GCE Zen-O — U$S 3.747: premium europeo, 2 baterías + carro, homologado para vuelos.
+GCE Zen-O — U$S 3.747: premium europeo, pulso y flujo continuo de hasta 2 L/min, 2 baterías + carro, homologado para vuelos.
 Philips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.
 
 Precios de referencia; confirmá el valor del día por WhatsApp.
@@ -4050,7 +4051,7 @@ Aparatología aprobada por ANMAT, con garantía oficial del fabricante. Envío a
 
 Entre los portátiles la diferencia práctica está en cuánto pesa el equipo y cuántas horas te banca fuera de casa. No siempre van juntos, así que conviene mirar los dos números antes de decidir.
 
-El GCE Zen-O pesa 4,66 kg con las dos baterías puestas y llega hasta 8 horas, pero viene con carro de transporte, así que no lo llevás colgado. El Philips SimplyGo pesa 4,5 kg y entrega flujo continuo de 0,5 a 2 L/min además de pulso.
+El GCE Zen-O pesa 4,66 kg con las dos baterías puestas, entrega pulso y flujo continuo de hasta 2 L/min y llega hasta 8 horas, pero viene con carro de transporte, así que no lo llevás colgado. El Philips SimplyGo pesa 4,5 kg y entrega flujo continuo de 0,5 a 2 L/min además de pulso.
 
 Un detalle que conviene tener claro: la autonomía depende del flujo que uses. A mayor flujo, menos dura la batería. Por eso la pregunta correcta no es cuántas horas rinde el equipo, sino cuántas horas rinde en tu nivel.
 
@@ -4096,7 +4097,7 @@ En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el 
 
 ### ¿Qué concentradores portátiles tienen y cuánto salen?
 
-El GCE Zen-O, a pulso, con 2 baterías y carro, a U$S 3.747, y el Philips SimplyGo, con flujo continuo de 0,5 a 2 L/min además de pulso, a U$S 3.887. Los dos son aptos para vuelos y tienen 3 años de garantía oficial.
+El GCE Zen-O, con 2 baterías y carro, a U$S 3.747, y el Philips SimplyGo, a U$S 3.887. Los dos entregan pulso y flujo continuo de hasta 2 L/min. Los dos son aptos para vuelos y tienen 3 años de garantía oficial.
 
 ### ¿Puedo viajar en avión con un concentrador portátil?
 

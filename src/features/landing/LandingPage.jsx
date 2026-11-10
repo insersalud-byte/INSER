@@ -137,8 +137,8 @@ const ofertas = [
         name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: 'U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'GCE Healthcare (Europa)'],
-            ['Tipo', 'Concentrador portátil a pulso'],
-            ['Flujo', '5 settings (1 – 5)'],
+            ['Tipo', 'Concentrador portátil: pulso y flujo continuo'],
+            ['Flujo', 'Pulso en 5 settings (1 – 5) y continuo hasta 2 L/min'],
             ['Peso', '4,66 kg con 2 baterías'],
             ['Autonomía', 'Hasta 8 hs con 2 baterías'],
             ['Incluye', 'Carro de transporte + 2 baterías + cargadores'],
@@ -351,8 +351,8 @@ const tienda = [
         name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: 'U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'GCE Healthcare'],
-            ['Tipo', 'Portátil a pulso premium'],
-            ['Flujo', '5 settings (1 – 5)'],
+            ['Tipo', 'Portátil premium: pulso y flujo continuo'],
+            ['Flujo', 'Pulso 1 – 5 y continuo hasta 2 L/min'],
             ['Peso', '4,66 kg con 2 baterías'],
             ['Autonomía', 'Hasta 8 hs'],
             ['Incluye', 'Carro + 2 baterías + cargadores'],
@@ -780,7 +780,7 @@ const ALL_TAG_INFO = {
         bullets: [
             { icon: '✈️', text: 'Homologados para vuelos comerciales (aprobación FAA)' },
             { icon: '🔋', text: 'Autonomía de batería de hasta 8 horas según modelo (GCE Zen-O con 2 baterías)' },
-            { icon: '💨', text: 'Pulso o flujo continuo (Philips SimplyGo, de 0,5 a 2 L/min)' },
+            { icon: '💨', text: 'Pulso y flujo continuo de hasta 2 L/min (GCE Zen-O y Philips SimplyGo)' },
             { icon: '🔌', text: 'Carga en 220V, 12V auto o batería intercambiable' },
         ],
         waMsg: 'Hola, necesito un concentrador de oxígeno portátil. ¿Qué modelos tienen y cuáles son los precios?',

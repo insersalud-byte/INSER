@@ -85,8 +85,8 @@ const SPECS = {
     ],
     'gce zen-o': [
         ['Fabricante', 'GCE Healthcare'],
-        ['Tipo', 'Portátil a pulso premium'],
-        ['Flujo', '5 settings (1 – 5)'],
+        ['Tipo', 'Portátil premium: pulso y flujo continuo'],
+        ['Flujo', 'Pulso 1 – 5 y continuo hasta 2 L/min'],
         ['Peso', '4,66 kg con 2 baterías'],
         ['Autonomía', 'Hasta 8 hs'],
         ['Incluye', 'Carro + 2 baterías + cargadores'],
