@@ -67,7 +67,7 @@ Cuando el cliente saluda por primera vez (hola, buenos días, etc.), responder S
 | BiPAP BMC G3 (con FR y humidificador) | $1.300.000 | BiPAP S/T con frecuencia respiratoria de respaldo y humidificador. Para EPOC, enfermedades neuromusculares e hipoventilación. 2 años de garantía oficial del fabricante. Envío a todo el país CON COSTO según destino (NO es sin cargo). Página: https://insersalud.com/comprar-bipap-argentina |
 | Concentrador YUWELL 10 Litros (alto flujo) | $2.800.000 | Estacionario de ALTO FLUJO: entrega hasta 10 L/min sostenidos, el doble de los 5 L/min de un concentrador domiciliario estándar. Pensado para centros de rehabilitación pulmonar, uso institucional frecuente y pacientes con alta demanda de oxígeno indicada por el médico. Uso continuo 24hs, ruedas para traslado |
 | Máscara Buconasal BMC F2 Codo Azul | $68.000 | SIN FUGA (no ventilada), para respiradores de terapia intensiva / VNI con válvula espiratoria. NO sirve para CPAP/BiPAP domiciliario estándar (esos usan máscara ventilada como F6 o DreamWear) |
-| Tubuladura para CPAP / BiPAP | $36.000 | Repuesto universal (recambio del tubo de paciente), 22 mm estándar, 1,8 m aprox., PVC flexible de grado médico, compatible con CPAP/AutoCPAP/BiPAP |
+| Tubuladura para CPAP / BiPAP | $50.000 | Repuesto universal (recambio del tubo de paciente), 22 mm estándar, 1,8 m aprox., PVC flexible de grado médico, compatible con CPAP/AutoCPAP/BiPAP |
 
 Links utiles para compartir con el cliente (usa el que corresponda al tema):
 - Comprar CPAP: https://insersalud.com/comprar-cpap-argentina (nacional) | https://insersalud.com/comprar-cpap-cordoba (Cordoba)
