@@ -128,7 +128,31 @@ figure.vid figcaption{font-size:.82rem;color:#a9c0c3;padding:10px 16px 14px}
 .panels{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .panels3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .calc{background:var(--navy);color:#e7f1f1;border-radius:16px;padding:22px;margin:22px 0}
-.calc h3{color:#fff;margin-top:0}
+.calc h3{color:#fff;margin:22px 0 10px;font-size:1.02rem}
+.presets{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 6px;font-size:.84rem;color:#a9c2c5}
+.presets button{background:#0f2e3b;color:#dbe9ea;border:1px solid #23495a;border-radius:999px;padding:6px 12px;font:inherit;font-size:.84rem;cursor:pointer}
+.presets button[aria-pressed=true],.presets button:hover{border-color:var(--teal);color:#fff}
+.presets button[aria-pressed=true]{background:rgba(25,188,166,.22)}
+.sl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:4px 22px}
+.calc .range label{min-width:58px;color:#cfe0e1;font-weight:600}
+.calc .range output{color:#fff;min-width:78px}
+.prop{background:#0f2e3b;border:1px solid #23495a;border-left:5px solid var(--amber);border-radius:10px;padding:14px 18px;color:#e2eeee}
+.prop.ok{border-left-color:var(--teal)}
+.prop b{color:#fff}.prop p{margin:6px 0 0}
+.pn{font-size:.86rem;color:#bcd2d4;margin:8px 0 0}
+.calc .tbl{margin:12px 0 4px;color:var(--ink)}
+.calc .tbl td{color:var(--ink)}
+.cmpt td{font-family:Consolas,"SF Mono",monospace;font-size:.9rem}
+.cmpt td:first-child{font-family:inherit}
+.cmpt td.c-warn{background:#fbf1dc!important;color:#7a520b;font-weight:700}
+.cmpt td.c-bad{background:#f8e3e5!important;color:#8f2630;font-weight:700}
+.simfig{margin:10px 0 4px;background:#fff;border-radius:12px;padding:10px 8px 4px}
+.simfig svg{display:block;width:100%;height:auto}
+.verdict{margin:14px 0;border-radius:12px;padding:14px 18px;border:2px solid var(--teal);background:rgba(25,188,166,.12);color:#e2eeee}
+.verdict b{display:block;font-size:1.1rem;color:#fff;margin-bottom:6px}
+.verdict.v-warn{border-color:var(--amber);background:rgba(233,185,93,.12)}
+.verdict.v-bad{border-color:#e56b75;background:rgba(229,107,117,.12)}
+.calc .btn.ghost{color:#8ff0e1;border-color:#8ff0e1}
 .calc .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
 .calc .tabs button{background:rgba(255,255,255,.08);color:#d6e6e7;border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:7px 14px;font:inherit;font-size:.86rem;cursor:pointer}
 .calc .tabs button[aria-selected=true]{background:var(--teal);color:var(--navy);border-color:var(--teal);font-weight:700}
@@ -180,6 +204,8 @@ footer.f strong{color:#fff}
   .grid2,.grid3,.panels,.iso-ctrl{grid-template-columns:1fr}
   .lvl{grid-template-columns:1fr 1fr}
   .panels3{grid-template-columns:1fr}
+  .calc{padding:16px}
+  .out{grid-template-columns:repeat(auto-fill,minmax(128px,1fr))}
   .vlinks{grid-template-columns:1fr 1fr}
   .tbl{min-width:600px}
   body{font-size:16px}
@@ -227,7 +253,7 @@ footer.f strong{color:#fff}
     <li><a class="n" href="#titular">10 · Titular PS y PEEP</a></li>
     <li><a href="#monitoreo">11 · Monitoreo PSV</a></li>
     <li><a href="#asincronias">12 · Asincronías</a></li>
-    <li><a class="n" href="#calculadora">13 · Calculadora</a></li>
+    <li><a class="n" href="#calculadora">13 · Simuladores</a></li>
     <li><a href="#casos">14 · Casos</a></li>
     <li><a href="#procedimiento">15 · Procedimiento</a></li>
     <li><a href="#quiz">16 · Autoevaluación</a></li>
@@ -256,7 +282,7 @@ footer.f strong{color:#fff}
     </ul>
     <p>Las secciones 1 y 2 son un repaso breve. Lo nuevo empieza en la 3: frecuencia respiratoria, índices combinados, evidencia reciente y monitoreo del esfuerzo en PSV.</p>
   </div>
-  <p style="font-size:.92rem">El capítulo incluye <b>4 videos prácticos propios</b> (secciones 2, 6, 8 y 10) y una <a href="#videos">selección de videos de terceros</a> con la técnica en ventiladores reales.</p>
+  <p style="font-size:.92rem">El capítulo incluye <b>dos simuladores</b> (<a href="#calculadora">sección 13</a>: ΔP + FR con propuesta de cambios, y presión de soporte), <b>4 videos prácticos propios</b> (secciones 2, 6, 8 y 10) y una <a href="#videos">selección de videos de terceros</a> con la técnica en ventiladores reales.</p>
   <div class="box info"><strong>Ideas esenciales antes de empezar</strong>
     <ul class="clean">
       <li>En el paciente pasivo, la ΔP del sistema respiratorio se calcula con <b>presión plateau y PEEP total</b>, nunca con la presión pico.</li>
@@ -569,38 +595,68 @@ footer.f strong{color:#fff}
 
 <section id="calculadora">
   <div class="sec-head"><span class="num">13</span><span class="badge">NUEVO</span></div>
-  <h2>Calculadora integral</h2>
-  <p>Reúne en una sola pantalla las calculadoras del <a href="/academia/ebook/ventilacion-mecanica#calculadoras">capítulo 06</a> y agrega 4ΔP + FR, elastancia normalizada y el módulo de presión de soporte. Cargue los datos medidos. Los resultados se marcan en verde, ámbar o rojo según referencias de la literatura citada; son orientativos y no indican por sí solos un cambio de ajustes.</p>
+  <h2>Simuladores: ΔP + FR y presión de soporte</h2>
+  <p>Dos herramientas para practicar con los temas del capítulo. La primera calcula la carga de un paciente pasivo y propone cómo bajarla. La segunda simula un paciente en presión de soporte y muestra cómo cambian el esfuerzo, el volumen y la ΔP al mover PS, PEEP y ciclado. Las propuestas son docentes: se verifican siempre en el paciente con una nueva pausa, gases y curvas.</p>
   <div class="calc">
     <div class="tabs" role="tablist">
-      <button role="tab" aria-selected="true" data-tab="ctrl">Paciente pasivo (controlado)</button>
-      <button role="tab" aria-selected="false" data-tab="psvt">Presión de soporte</button>
+      <button role="tab" aria-selected="true" data-tab="ctrl">Simulador ΔP + FR (paciente pasivo)</button>
+      <button role="tab" aria-selected="false" data-tab="psvt">Simulador de presión de soporte</button>
     </div>
+
     <div data-panel="ctrl">
+      <h3>1 · Cargue los datos medidos</h3>
       <div class="fields">
         <label>Sexo<div class="in"><select id="cSexo"><option value="m">Masculino</option><option value="f">Femenino</option></select></div></label>
         <label>Talla<div class="in"><input id="cTalla" type="number" value="170" inputmode="decimal"><span class="u">cm</span></div></label>
-        <label>Vt<div class="in"><input id="cVt" type="number" value="450" inputmode="decimal"><span class="u">mL</span></div></label>
-        <label>FR<div class="in"><input id="cFr" type="number" value="20" inputmode="decimal"><span class="u">rpm</span></div></label>
-        <label>Ppico<div class="in"><input id="cPpk" type="number" value="31" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
-        <label>Pplat<div class="in"><input id="cPpl" type="number" value="25" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
-        <label>PEEP total<div class="in"><input id="cPeep" type="number" value="10" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
+        <label>Vt<div class="in"><input id="cVt" type="number" value="480" inputmode="decimal"><span class="u">mL</span></div></label>
+        <label>FR<div class="in"><input id="cFr" type="number" value="18" inputmode="decimal"><span class="u">rpm</span></div></label>
+        <label>Ppico<div class="in"><input id="cPpk" type="number" value="33" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
+        <label>Pplat<div class="in"><input id="cPpl" type="number" value="27" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
+        <label>PEEP total<div class="in"><input id="cPeep" type="number" value="11" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
+        <label>PaCO₂ (opcional)<div class="in"><input id="cCo2" type="number" value="42" inputmode="decimal"><span class="u">mmHg</span></div></label>
       </div>
+      <div class="presets"><span>Ejemplos:</span>
+        <button type="button" data-pre="sdra">SDRA moderado</button>
+        <button type="button" data-pre="grave">SDRA grave</button>
+        <button type="button" data-pre="ok">Ya protector</button>
+      </div>
+      <h3>2 · Situación actual</h3>
       <div class="out" id="outCtrl"></div>
-      <p class="note">PBW: hombres 50 + 0,91 × (talla − 152,4); mujeres 45,5 + 0,91 × (talla − 152,4). Poder mecánico con la fórmula simplificada para volumen control.</p>
-    </div>
-    <div data-panel="psvt" hidden>
-      <div class="fields">
-        <label>PEEP<div class="in"><input id="pPeep" type="number" value="8" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
-        <label>PS<div class="in"><input id="pPs" type="number" value="10" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
-        <label>Ppico<div class="in"><input id="pPpk" type="number" value="18" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
-        <label>ΔPocc (con signo)<div class="in"><input id="pOcc" type="number" value="-15" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
-        <label>P0.1<div class="in"><input id="pP01" type="number" value="4.1" step="0.1" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
-        <label>Pplat en pausa (si es válida)<div class="in"><input id="pPpl" type="number" value="" placeholder="vacío = no válida" inputmode="decimal"><span class="u">cmH₂O</span></div></label>
-        <label>FR<div class="in"><input id="pFr" type="number" value="24" inputmode="decimal"><span class="u">rpm</span></div></label>
+      <h3>3 · Propuesta para bajar la carga</h3>
+      <div id="propCtrl"></div>
+      <h3>4 · Pruebe su propio ajuste</h3>
+      <div class="sl-grid">
+        <div class="range"><label for="sVt">Vt</label><input id="sVt" type="range" min="200" max="700" step="10" value="480"><output id="sVtO"></output></div>
+        <div class="range"><label for="sFr">FR</label><input id="sFr" type="range" min="8" max="40" step="1" value="18"><output id="sFrO"></output></div>
       </div>
+      <div class="cmp" id="cmpCtrl"></div>
+      <p class="note">Supuestos: la compliance no cambia con el Vt, espacio muerto ≈ 2,2 mL/kg de peso predicho y PaCO₂ proporcional a 1 / ventilación alveolar. PBW: hombres 50 + 0,91 × (talla − 152,4); mujeres 45,5 + 0,91 × (talla − 152,4). Poder mecánico con la fórmula simplificada para volumen control.</p>
+    </div>
+
+    <div data-panel="psvt" hidden>
+      <h3>1 · Elija el paciente</h3>
+      <div class="presets" id="psvPre"><span>Paciente:</span>
+        <button type="button" data-pp="neumo" aria-pressed="true">Neumonía, en PSV</button>
+        <button type="button" data-pp="sdra">SDRA con drive alto</button>
+        <button type="button" data-pp="epoc">EPOC</button>
+        <button type="button" data-pp="destete">Destete</button>
+      </div>
+      <p class="note" id="psvDesc" style="margin:0 0 12px"></p>
+      <h3>2 · Ajuste el ventilador</h3>
+      <div class="sl-grid">
+        <div class="range"><label for="pPS">PS</label><input id="pPS" type="range" min="0" max="24" step="1" value="14"><output id="pPSO"></output></div>
+        <div class="range"><label for="pPEEP">PEEP</label><input id="pPEEP" type="range" min="0" max="18" step="1" value="6"><output id="pPEEPO"></output></div>
+        <div class="range"><label for="pCyc">Ciclado</label><input id="pCyc" type="range" min="5" max="70" step="5" value="25"><output id="pCycO"></output></div>
+      </div>
+      <figure class="simfig"><div id="psvWave"></div></figure>
+      <h3>3 · Lo que mediría junto a la cama</h3>
       <div class="out" id="outPsv"></div>
-      <p class="note">Pmus y ΔP<sub>L,din</sub> son estimaciones de cribado (Bertoni 2019, de Vries 2023). PMI y ΔP en PSV solo con Pplat estable. Si un dato no se midió, déjelo vacío: nunca lo reemplace por el valor de PS.</p>
+      <div id="psvVerdict"></div>
+      <p><button class="btn" type="button" id="psvLog">Registrar este ajuste</button> <button class="btn ghost" type="button" id="psvLogClr">Borrar registro</button></p>
+      <div class="tbl-wrap"><table class="tbl" id="psvTable" hidden>
+        <thead><tr><th>#</th><th>PS / PEEP / ciclado</th><th>Vt (mL/kg)</th><th>FR</th><th>P0.1</th><th>ΔPocc</th><th>ΔP</th><th>Zona</th></tr></thead><tbody></tbody>
+      </table></div>
+      <p class="note">Modelo docente simplificado, basado en las relaciones descritas por Docci 2023 (el paciente baja su esfuerzo cuando sube la PS), Dianti 2022 (la PEEP que mejora la compliance baja el esfuerzo) y Bertoni 2019 (Pmus ≈ 0,75 × |ΔPocc|; ΔP<sub>L,din</sub> ≈ PS + 0,67 × |ΔPocc|). No reproduce a un paciente real ni reemplaza las maniobras.</p>
     </div>
   </div>
 </section>
@@ -985,44 +1041,158 @@ document.querySelectorAll("figure.vid video").forEach(function(v){v.addEventList
   panel("as4","D · Atrapamiento aéreo","Flujo",function(t){var s=[.1,1.45,2.8];for(var i=s.length-1;i>=0;i--){var x=t-s[i];if(x>=0){if(x<.55)return .9*Math.min(1,x/.06)*Math.exp(-x/.6);return -1.1*Math.exp(-(x-.55)/.9)}}return 0},[-1.2,1],[1.3,1.5],"no llega a cero");
 })();
 
-/* Calculator */
+/* ===== Simulador 1: ΔP + FR ===== */
 function n(id){var v=document.getElementById(id).value;if(v===""||v===null)return NaN;return parseFloat(String(v).replace(",","."))}
 function card(lbl,val,unit,hint,st){return '<div class="o '+(st||"")+'"><span>'+lbl+'</span><b>'+val+(unit?' <small style="display:inline;font-size:.8rem;color:#9fb9bc">'+unit+'</small>':'')+'</b><small>'+hint+'</small></div>'}
+var SIM={};
+function loadCtrl(){
+  var sexo=document.getElementById("cSexo").value,talla=n("cTalla");
+  var d={vt:n("cVt"),fr:n("cFr"),ppk:n("cPpk"),ppl:n("cPpl"),peep:n("cPeep"),co2:n("cCo2")};
+  d.pbw=(sexo==="m"?50:45.5)+0.91*(talla-152.4);d.dp=d.ppl-d.peep;d.cst=d.vt/d.dp;d.res=d.ppk-d.ppl;d.vd=2.2*d.pbw;
+  d.ok=isFinite(d.dp)&&d.dp>0&&isFinite(d.vt)&&isFinite(d.fr)&&d.pbw>20;return d;
+}
+function evalStrat(d,vt,fr){
+  var dp=vt/d.cst,ppl=d.peep+dp,ppk=ppl+d.res*vt/d.vt,va=Math.max(1,(vt-d.vd)*fr),va0=Math.max(1,(d.vt-d.vd)*d.fr);
+  return {vt:vt,fr:fr,vtk:vt/d.pbw,dp:dp,ppl:ppl,ppk:ppk,idx:4*dp+fr,pm:.098*fr*vt/1000*(ppk-dp/2),pmel:.098*fr*vt/1000*dp/2,ve:vt*fr/1000,co2:isFinite(d.co2)?d.co2*va0/va:NaN,te:60/fr*2/3};
+}
+function st(v,good,warn){return v<=good?"":v<=warn?"warn":"bad"}
 function calcCtrl(){
-  var sexo=document.getElementById("cSexo").value,talla=n("cTalla"),vt=n("cVt"),fr=n("cFr"),ppk=n("cPpk"),ppl=n("cPpl"),peep=n("cPeep");
-  var pbw=(sexo==="m"?50:45.5)+0.91*(talla-152.4),vtk=vt/pbw,dp=ppl-peep,crs=vt/dp,idx=4*dp+fr,pm=.098*fr*vt/1000*(ppk-dp/2),pmel=.098*fr*vt/1000*dp/2,en=dp/vtk,ve=vt*fr/1000;
-  var o="";var ok=isFinite(dp)&&dp>0;
-  o+=card("Vt por peso predicho",isFinite(vtk)?fmt(vtk):"—","mL/kg","PBW "+fmt(pbw)+" kg. "+(vtk>8?"Mayor de 8 mL/kg: por encima del rango protector.":vtk<4?"Menor de 4 mL/kg: vigilar CO₂ y esfuerzos.":"Dentro de 4–8 mL/kg."),vtk>8?"bad":(vtk<4?"warn":""));
-  o+=card("Driving pressure",ok?fmt(dp):"—","cmH₂O",!ok?"Revise Pplat y PEEP.":dp>15?"Mayor de 15: asociada con mayor mortalidad en SDRA (Amato 2015). Revise Vt y PEEP.":dp>=14?"En el límite: por encima de 15 aumenta la mortalidad.":"Menor de 15: dentro del objetivo.",!ok?"na":dp>15?"bad":dp>=14?"warn":"");
-  o+=card("Compliance estática",ok?fmt(crs):"—","mL/cmH₂O",ok?(crs<30?"Baja: pulmón pequeño o rígido.":crs<50?"Moderadamente reducida.":"Conservada."):"",!ok?"na":crs<30?"warn":"");
-  o+=card("4ΔP + FR",ok?fmt(idx):"—","",ok?(idx>=76?"≥ 76 (corte poblacional LUNG SAFE). Compare estrategias.":"Menor de 76. Usalo para comparar en el tiempo."):"",!ok?"na":idx>=76?"warn":"");
-  o+=card("Elastancia normalizada",ok&&isFinite(en)?fmt(en):"—","cmH₂O/(mL/kg)",ok?(en>=2.1?"≥ 2,1: punto de corte asociado con mortalidad.":"Menor de 2,1."):"",!ok?"na":en>=2.1?"warn":"");
-  o+=card("Poder mecánico",ok?fmt(pm):"—","J/min",ok?("Elástico dinámico: "+fmt(pmel)+" J/min. "+(pm>=17?"≥ 17 J/min: asociado con peor evolución en cohortes.":"Menor de 17 J/min.")):"",!ok?"na":pm>=17?"warn":"");
-  o+=card("Presión resistiva",isFinite(ppk-ppl)?fmt(ppk-ppl):"—","cmH₂O",ppk-ppl>10?"Alta: revisar secreciones, broncoespasmo, tubo.":"Ppico − Pplat.",ppk-ppl>10?"warn":"");
-  o+=card("Volumen minuto",isFinite(ve)?fmt(ve):"—","L/min","Vt × FR. Recuerde el espacio muerto.","");
-  o+=card("Pplat",isFinite(ppl)?fmt(ppl):"—","cmH₂O",ppl>30?"Mayor de 30: por encima del límite protector.":"≤ 30.",ppl>30?"bad":"");
+  var d=loadCtrl();SIM.d=d;var o="";
+  if(!d.ok){document.getElementById("outCtrl").innerHTML=card("Datos","—","","Revise Vt, FR, Pplat y PEEP (la Pplat debe ser mayor que la PEEP).","na");document.getElementById("propCtrl").innerHTML="";document.getElementById("cmpCtrl").innerHTML="";return}
+  var a=evalStrat(d,d.vt,d.fr);SIM.a=a;
+  o+=card("Vt por peso predicho",fmt(a.vtk),"mL/kg","PBW "+fmt(d.pbw)+" kg. "+(a.vtk>8?"Por encima del rango protector (4–8).":a.vtk<4?"Menor de 4: vigilar CO₂ y esfuerzos.":"Dentro de 4–8."),a.vtk>8?"bad":a.vtk<4?"warn":"");
+  o+=card("Driving pressure",fmt(d.dp),"cmH₂O",d.dp>15?"Mayor de 15: asociada con mayor mortalidad en SDRA.":d.dp>=14?"En el límite.":"Menor de 15: dentro del objetivo.",d.dp>15?"bad":d.dp>=14?"warn":"");
+  o+=card("Compliance estática",fmt(d.cst),"mL/cmH₂O",d.cst<30?"Baja: pulmón chico o rígido.":d.cst<50?"Moderadamente reducida.":"Conservada.",d.cst<30?"warn":"");
+  o+=card("4ΔP + FR",fmt(a.idx),"",a.idx>=76?"≥ 76: carga combinada alta (LUNG SAFE).":"Menor de 76.",a.idx>=76?"warn":"");
+  o+=card("Poder mecánico",fmt(a.pm),"J/min","Elástico dinámico "+fmt(a.pmel)+" J/min. "+(a.pm>=17?"≥ 17: asociado con peor evolución.":"Menor de 17."),a.pm>=17?"warn":"");
+  o+=card("Pplat",fmt(d.ppl),"cmH₂O",d.ppl>30?"Mayor de 30: fuera del límite protector.":"≤ 30.",d.ppl>30?"bad":"");
+  o+=card("Elastancia normalizada",fmt(d.dp/a.vtk),"cmH₂O/(mL/kg)",d.dp/a.vtk>=2.1?"≥ 2,1: asociada con mortalidad.":"Menor de 2,1.",d.dp/a.vtk>=2.1?"warn":"");
+  o+=card("Ventilación minuto",fmt(a.ve),"L/min","Espacio muerto estimado "+Math.round(d.vd)+" mL.","");
   document.getElementById("outCtrl").innerHTML=o;
-  if(ok&&isFinite(fr)){var a=document.getElementById("isoDp"),b=document.getElementById("isoFr");if(dp>=6&&dp<=26&&fr>=10&&fr<=40){a.value=dp;b.value=fr;a.dispatchEvent(new Event("input"))}}
+  /* propuesta */
+  var need=d.dp>15||a.vtk>8||d.ppl>30,p="",vtN=d.vt,frN=d.fr,notes=[];
+  if(need){
+    vtN=Math.min(d.vt,d.cst*13,8*d.pbw,(30-d.peep)*d.cst);vtN=Math.max(vtN,4*d.pbw);vtN=Math.round(vtN/10)*10;
+    var va0=(d.vt-d.vd)*d.fr;frN=Math.round(va0/Math.max(1,vtN-d.vd));
+    if(frN>35){notes.push("Para mantener la misma ventilación alveolar haría falta FR "+frN+". Se propone FR 35 y aceptar hipercapnia permisiva si el pH lo tolera (objetivo habitual pH ≥ 7,25).");frN=35}
+    frN=Math.max(frN,d.fr);
+  }
+  var b=evalStrat(d,vtN,frN);SIM.b=b;
+  if(!need){
+    p='<div class="prop ok"><b>La estrategia ya es protectora.</b><p>ΔP '+fmt(d.dp)+', Vt '+fmt(a.vtk)+' mL/kg y Pplat '+fmt(d.ppl)+'. No hace falta bajar el volumen. '+(a.idx>=76?'El índice 4ΔP + FR es alto por la frecuencia: revise si la FR puede bajar sin acidosis. ':'')+'Siga la tendencia con una pausa por turno y revise la PEEP por la mejor compliance.</p></div>';
+  }else{
+    p='<div class="prop"><ol class="clean">'+
+      '<li><b>Bajar el Vt de '+d.vt+' a '+vtN+' mL</b> ('+fmt(b.vtk)+' mL/kg), de a 1 mL/kg cada 20–30 minutos.</li>'+
+      '<li><b>Subir la FR de '+d.fr+' a '+frN+' rpm</b> para sostener la ventilación alveolar'+(isFinite(b.co2)?' (PaCO₂ estimada '+Math.round(b.co2)+' mmHg)':'')+'.</li>'+
+      '<li><b>Repetir la pausa inspiratoria</b> y confirmar la nueva Pplat y ΔP. Pedir gases a los 20–30 minutos.</li>'+
+      (b.fr>=28?'<li><b>Con FR '+b.fr+':</b> verificar que el flujo espiratorio llegue a cero antes de cada ciclo (auto-PEEP) y medir la PEEP total.</li>':'')+
+      (b.dp>15?'<li><b>La ΔP sigue en '+fmt(b.dp)+' aun con '+fmt(b.vtk)+' mL/kg:</b> titular la PEEP por la mejor compliance, considerar prono si PaO₂/FiO₂ es menor de 150 y buscar causas de compliance baja (distensión abdominal, neumotórax, derrame, asincronías).</li>':'')+
+      '</ol>'+notes.map(function(t){return '<p class="pn">'+t+'</p>'}).join("")+'</div>';
+    p+='<div class="tbl-wrap"><table class="tbl cmpt"><thead><tr><th></th><th>Actual</th><th>Propuesta</th></tr></thead><tbody>'+rowsCmp([a,b])+'</tbody></table></div>';
+  }
+  document.getElementById("propCtrl").innerHTML=p;
+  var sv=document.getElementById("sVt"),sf=document.getElementById("sFr");
+  sv.min=Math.round(3.5*d.pbw/10)*10;sv.max=Math.round(10*d.pbw/10)*10;sv.value=vtN;sf.value=frN;
+  calcTry();
+  if(d.dp>=6&&d.dp<=26&&d.fr>=10&&d.fr<=40){var ia=document.getElementById("isoDp"),ib=document.getElementById("isoFr");ia.value=d.dp;ib.value=d.fr;ia.dispatchEvent(new Event("input"))}
+}
+function rowsCmp(arr){
+  var R=[["Vt (mL/kg)",function(s){return fmt(s.vtk)},function(s){return st(s.vtk,8,8)}],["FR (rpm)",function(s){return String(s.fr)},function(s){return st(s.fr,30,35)}],
+    ["ΔP (cmH₂O)",function(s){return fmt(s.dp)},function(s){return s.dp>15?"bad":s.dp>=14?"warn":""}],["Pplat (cmH₂O)",function(s){return fmt(s.ppl)},function(s){return st(s.ppl,30,30)}],
+    ["4ΔP + FR",function(s){return fmt(s.idx)},function(s){return s.idx>=76?"warn":""}],["Poder mecánico (J/min)",function(s){return fmt(s.pm)},function(s){return s.pm>=17?"warn":""}],
+    ["Ventilación minuto (L/min)",function(s){return fmt(s.ve)},function(){return ""}],["PaCO₂ estimada (mmHg)",function(s){return isFinite(s.co2)?String(Math.round(s.co2)):"—"},function(s){return isFinite(s.co2)&&s.co2>55?"warn":""}]];
+  return R.map(function(r){return '<tr><td>'+r[0]+'</td>'+arr.map(function(s){return '<td class="c-'+(r[2](s)||"ok")+'">'+r[1](s)+'</td>'}).join("")+'</tr>'}).join("");
+}
+function calcTry(){
+  var d=SIM.d;if(!d||!d.ok)return;var vt=+document.getElementById("sVt").value,fr=+document.getElementById("sFr").value;
+  document.getElementById("sVtO").textContent=vt+" mL";document.getElementById("sFrO").textContent=fr+" rpm";
+  var c=evalStrat(d,vt,fr),msg=[];
+  if(c.dp>15)msg.push("La ΔP queda por encima de 15.");if(c.ppl>30)msg.push("La Pplat supera 30.");if(c.vtk<4)msg.push("Vt menor de 4 mL/kg: riesgo de hipercapnia y asincronías.");
+  if(isFinite(c.co2)&&c.co2>60)msg.push("PaCO₂ estimada alta: controle el pH.");if(fr>=30)msg.push("FR alta: vigile auto-PEEP.");
+  if(!msg.length)msg.push(c.idx<SIM.a.idx?"Bajó la carga combinada respecto del ajuste actual.":"No mejora la carga respecto del ajuste actual.");
+  document.getElementById("cmpCtrl").innerHTML='<div class="tbl-wrap"><table class="tbl cmpt"><thead><tr><th></th><th>Actual</th><th>Su ajuste</th></tr></thead><tbody>'+rowsCmp([SIM.a,c])+'</tbody></table></div><p class="pn">'+msg.join(" ")+'</p>';
+}
+var PRE={sdra:{cSexo:"m",cTalla:170,cVt:480,cFr:18,cPpk:33,cPpl:27,cPeep:11,cCo2:42},grave:{cSexo:"f",cTalla:160,cVt:450,cFr:20,cPpk:38,cPpl:32,cPeep:12,cCo2:48},ok:{cSexo:"m",cTalla:175,cVt:420,cFr:22,cPpk:26,cPpl:22,cPeep:10,cCo2:44}};
+document.querySelectorAll("[data-pre]").forEach(function(b){b.addEventListener("click",function(){var p=PRE[b.getAttribute("data-pre")];for(var k in p)document.getElementById(k).value=p[k];calcCtrl()})});
+["cSexo","cTalla","cVt","cFr","cPpk","cPpl","cPeep","cCo2"].forEach(function(id){var e=document.getElementById(id);e.addEventListener("input",calcCtrl);e.addEventListener("change",calcCtrl)});
+["sVt","sFr"].forEach(function(id){document.getElementById(id).addEventListener("input",calcTry)});
+
+/* ===== Simulador 2: presión de soporte ===== */
+var PP={neumo:{pbw:65,cst:40,r:10,d:15,vek:.12,opt:9,ps:14,peep:6,cyc:25,txt:"Neumonía en día 4 de ventilación, ya en PSV. Compliance 40, resistencia normal, drive moderado. Su PEEP óptima simulada está cerca de 9."},
+  sdra:{pbw:62,cst:28,r:10,d:23,vek:.16,opt:12,ps:10,peep:8,cyc:25,txt:"SDRA moderado que empezó a respirar espontáneo: compliance baja y drive alto por hipoxemia e inflamación. Riesgo de esfuerzo excesivo."},
+  epoc:{pbw:70,cst:60,r:28,d:13,vek:.14,opt:5,ps:16,peep:4,cyc:25,txt:"EPOC reagudizado: resistencia alta y constante de tiempo larga. Fácil de sobreasistir, con ciclado tardío y auto-PEEP."},
+  destete:{pbw:68,cst:50,r:9,d:10,vek:.10,opt:6,ps:14,peep:6,cyc:25,txt:"Paciente en destete, con drive normal. Con PS alta queda sobreasistido."}};
+var PSV={pp:"neumo",log:[]};
+function psvModel(ps,peep,cyc){
+  var P=PP[PSV.pp];
+  var cstE=P.cst*Math.max(.6,1-.01*Math.pow(peep-P.opt,2));
+  var dEff=P.d*Math.sqrt(P.cst/cstE);
+  var pmus=Math.max(0,dEff-.85*ps);
+  var tau=P.r*cstE/1000;
+  var ti=Math.min(2.6,Math.max(.4,tau*Math.log(100/cyc)+(pmus>0?.2:0)));
+  var vt=cstE*(ps+.8*pmus)*(1-Math.exp(-ti/tau));
+  var ve=P.vek*P.pbw*(pmus>0?1:.85);
+  var fr=Math.min(42,Math.max(5,ve*1000/Math.max(vt,60)));
+  if(pmus>0&&fr<10)fr=10;
+  var te=60/fr-ti,dp=vt/cstE,ape=te>0?dp*Math.exp(-te/tau):dp;ape=ape<.5?0:ape;
+  var ppk=peep+ps,ppl=peep+ape+dp,pmi=ppl-ppk,p01=.2+pmus/4,occ=-(pmus/.75),dpl=ps+.67*Math.abs(occ),vtk=vt/P.pbw;
+  var inef=ape>2&&pmus<9?Math.min(60,Math.round((ape-2)*12)):0;
+  return {cstE:cstE,pmus:pmus,tau:tau,ti:ti,vt:vt,fr:fr,te:te,dp:dp,ape:ape,ppk:ppk,ppl:ppl,pmi:pmi,p01:p01,occ:occ,dpl:dpl,vtk:vtk,inef:inef,ps:ps,peep:peep,cyc:cyc};
+}
+function psvZone(m){
+  var hi=Math.abs(m.occ)>15||m.p01>3.5||m.dpl>20||m.fr>30,lo=Math.abs(m.occ)<6||m.p01<1||m.pmi<=.5||(m.vtk>8&&m.pmus<3)||m.fr<10;
+  return hi?"Esfuerzo excesivo":lo?"Sobreasistencia":"Zona objetivo";
+}
+function psvWave(m){
+  var h=document.getElementById("psvWave");if(!h)return;var per=60/m.fr,ti=Math.min(m.ti,per*.8),tp=ti/Math.log(100/m.cyc),F0=(m.vt/1000)/(tp*(1-m.cyc/100));
+  function ph(t){return ((t%per)+per)%per}
+  function paw(t){var k=ph(t);if(k<ti){var v=m.peep+m.ps*(1-Math.exp(-k/.06));if(m.pmus>8&&k<.5)v-=Math.min(3,m.pmus*.15)*Math.sin(Math.PI*k/.5);return v}return m.peep+m.ape*Math.exp(-(k-ti)/m.tau)*0+m.ps*Math.exp(-(k-ti)/.03)}
+  function fl(t){var k=ph(t);if(k<ti)return F0*Math.min(1,k/.06)*Math.exp(-k/tp);var e=k-ti;return -(m.vt/1000)/m.tau*Math.exp(-e/m.tau)}
+  function pm(t){var k=ph(t),tn=.9;if(m.pmus<=0||k>tn)return 0;return -m.pmus*Math.sin(Math.PI*k/tn)}
+  var ts=range(0,10,700);h.innerHTML="";var a=document.createElement("div"),b=document.createElement("div"),c=document.createElement("div");h.appendChild(a);h.appendChild(b);h.appendChild(c);
+  plot(a,{h:150,m:{l:52,r:16,t:22,b:18},x:[0,10],y:[0,36],yt:[0,10,20,30],series:[{pts:ts.map(function(t){return[t,paw(t)]}),color:C.tealD}],ann:function(g){txt(g,56,14,"Paw (cmH₂O) · PEEP "+m.peep+" + PS "+m.ps,{size:12,fill:C.ink,weight:700})}});
+  plot(b,{h:130,m:{l:52,r:16,t:22,b:18},x:[0,10],y:[-1.6,1.6],yt:[-1,0,1],zero:0,series:[{pts:ts.map(function(t){return[t,fl(t)]}),color:C.orange}],ann:function(g,X,Y){txt(g,56,14,"Flujo (L/s)"+(m.ape>0?" · no llega a cero: auto-PEEP ≈ "+fmt(m.ape):""),{size:12,fill:m.ape>0?C.red:C.ink,weight:700})}});
+  plot(c,{h:130,m:{l:52,r:16,t:22,b:30},x:[0,10],y:[-20,1],yt:[-15,-10,-5,0],xt:[0,2,4,6,8,10],zero:0,series:[{pts:ts.map(function(t){return[t,pm(t)]}),color:C.violet}],ann:function(g){txt(g,56,14,"Esfuerzo del paciente (Pmus, cmH₂O)",{size:12,fill:C.violet,weight:700})}});
 }
 function calcPsv(){
-  var peep=n("pPeep"),ps=n("pPs"),ppk=n("pPpk"),occ=n("pOcc"),p01=n("pP01"),ppl=n("pPpl"),fr=n("pFr");
-  var a=Math.abs(occ),pmus=.75*a,dpl=(ppk-peep)+.67*a,o="";
-  o+=card("Pmus estimada",isFinite(a)?fmt(pmus):"—","cmH₂O",isFinite(a)?"0,75 × |ΔPocc|. Cribado, no medición exacta.":"Sin oclusión registrada.",isFinite(a)?"":"na");
-  o+=card("ΔP<sub>L,din</sub> estimada",isFinite(a)&&isFinite(ppk)?fmt(dpl):"—","cmH₂O",isFinite(a)?(dpl>20?"Mayor de 20: investigar estrés pulmonar elevado.":"≤ 20."):"Requiere ΔPocc.",!isFinite(a)?"na":dpl>20?"bad":"");
-  o+=card("P0.1",isFinite(p01)?fmt(p01):"—","cmH₂O",!isFinite(p01)?"Sin dato.":p01>3.5?"Mayor de 3,5–4: drive elevado.":p01<1?"Menor de 1: drive bajo, posible sobreasistencia.":"Rango intermedio.",!isFinite(p01)?"na":p01>3.5?"warn":p01<1?"warn":"");
-  var hasPl=isFinite(ppl);
-  o+=card("PMI",hasPl?fmt(ppl-ppk):"—","cmH₂O",hasPl?(ppl-ppk<=0?"Bajo o negativo: ventilación casi pasiva o sobreasistencia posible.":"Contribución muscular aproximada al final de la inspiración."):"Sin Pplat válida: no informar.",hasPl?"":"na");
-  o+=card("ΔP en PSV",hasPl?fmt(ppl-peep):"—","cmH₂O",hasPl?((ppl-peep)>15?"Mayor de 15. En ventilación asistida la ΔP más alta se asoció con mayor mortalidad (Bellani 2019, ICEBERG 2025). Puede estar sobreestimada por músculos espiratorios.":"Menor de 15: tranquiliza."):"Solo con Pplat estable.",!hasPl?"na":(ppl-peep)>15?"bad":"");
-  o+=card("4ΔP + FR (PSV)",hasPl&&isFinite(fr)?fmt(4*(ppl-peep)+fr):"—","",hasPl?"Orientativo: el índice se derivó en ventilación controlada.":"Requiere ΔP válida.",hasPl?"":"na");
-  var hi=(isFinite(a)&&a>15)||(isFinite(p01)&&p01>3.5)||(isFinite(a)&&isFinite(ppk)&&dpl>20),lo=(isFinite(a)&&a<6)||(isFinite(p01)&&p01<1)||(hasPl&&(ppl-ppk)<=0);
-  if(isFinite(a)||isFinite(p01))o+=card("Orientación para la PS",hi&&!lo?"Esfuerzo alto":lo&&!hi?"Posible sobreasistencia":hi&&lo?"Datos discordantes":"Zona objetivo","",hi&&!lo?"Buscar causas (dolor, fiebre, acidosis, asincronías); luego subir PS de a 2 y revisar PEEP. Reevaluar en 10–15 min.":lo&&!hi?"Bajar PS de a 2 cmH₂O y reevaluar en 10–15 min.":hi&&lo?"Repetir maniobras antes de decidir.":"Mantener y seguir la tendencia.",hi?"bad":lo?"warn":"");
-  if(isFinite(a)&&isFinite(p01)&&p01<1&&a>=10)o+=card("Discordancia","P0.1 baja + Pocc alta","","Repetir maniobras; pensar en debilidad, algoritmo del equipo o actividad espiratoria.","warn");
+  var ps=+document.getElementById("pPS").value,peep=+document.getElementById("pPEEP").value,cyc=+document.getElementById("pCyc").value;
+  document.getElementById("pPSO").textContent=ps+" cmH₂O";document.getElementById("pPEEPO").textContent=peep+" cmH₂O";document.getElementById("pCycO").textContent=cyc+" %";
+  var m=psvModel(ps,peep,cyc),z=psvZone(m),o="";PSV.m=m;PSV.z=z;
+  o+=card("Vt por peso predicho",fmt(m.vtk),"mL/kg",Math.round(m.vt)+" mL. "+(m.vtk>8?"Mayor de 8 mL/kg.":m.vtk<6?"Menor de 6 mL/kg.":"6–8 mL/kg."),m.vtk>8||m.vtk<5?"warn":"");
+  o+=card("FR",Math.round(m.fr),"rpm",m.fr>30?"Taquipnea.":m.fr<10?"FR muy baja: riesgo de apneas.":"En rango.",m.fr>30?"bad":m.fr<10?"warn":"");
+  o+=card("P0.1",fmt(m.p01),"cmH₂O",m.p01>3.5?"Drive alto.":m.p01<1?"Drive bajo.":"1–3,5.",m.p01>3.5?"bad":m.p01<1?"warn":"");
+  o+=card("ΔPocc",fmt(m.occ),"cmH₂O","Pmus ≈ "+fmt(m.pmus)+". "+(Math.abs(m.occ)>15?"Esfuerzo excesivo.":Math.abs(m.occ)<6?"Esfuerzo muy bajo.":"Zona objetivo."),Math.abs(m.occ)>15?"bad":Math.abs(m.occ)<6?"warn":"");
+  o+=card("Pplat en pausa",fmt(m.ppl),"cmH₂O","Ppico "+fmt(m.ppk)+".","");o+=card("PMI",fmt(m.pmi),"cmH₂O",m.pmi<=.5?"Casi nulo o negativo: paciente casi pasivo.":"Hay contribución muscular.",m.pmi<=.5?"warn":"");
+  o+=card("ΔP en pausa",fmt(m.dp),"cmH₂O",m.dp>15?"Mayor de 15: riesgo pulmonar.":"Menor de 15.",m.dp>15?"bad":"");
+  o+=card("ΔP<sub>L,din</sub> estimada",fmt(m.dpl),"cmH₂O",m.dpl>20?"Mayor de 20: estrés pulmonar alto.":"≤ 20.",m.dpl>20?"bad":"");
+  o+=card("Compliance simulada",fmt(m.cstE),"mL/cmH₂O","Depende de la PEEP elegida.","");
+  if(m.ape>0)o+=card("Auto-PEEP",fmt(m.ape),"cmH₂O",m.inef?"≈ "+m.inef+" % de esfuerzos que no disparan.":"Atrapamiento aéreo.","bad");
   document.getElementById("outPsv").innerHTML=o;
+  /* recomendaciones */
+  var r=[];
+  if(z==="Esfuerzo excesivo"){r.push("Buscar primero la causa del drive: dolor, fiebre, acidosis, hipoxemia, secreciones o asincronías.");r.push("Subir la PS de a 2 cmH₂O y reevaluar a los 10–15 minutos.");if(m.dp>15||m.vtk>8)r.push("Ojo: con este esfuerzo el Vt y la ΔP ya son altos. Si subir la PS los aumenta más, considere volver a un modo controlado con sedación adecuada.")}
+  if(z==="Sobreasistencia"){r.push("Bajar la PS de a 2 cmH₂O y reevaluar a los 10–15 minutos, hasta que reaparezca el esfuerzo (P0.1 1–3,5, ΔPocc −7 a −13) y el Vt quede en 6–8 mL/kg.")}
+  if(z==="Zona objetivo"){r.push("Mantener el ajuste y seguir la tendencia. Repetir las maniobras ante cualquier cambio clínico.")}
+  if(m.ape>2){r.push("Auto-PEEP: suba el criterio de ciclado para acortar la inspiración"+(m.vtk>8?" y baje la PS":"")+". La PEEP externa puede probarse hasta un 70–80 % de la auto-PEEP medida, vigilando atrapamiento y presión arterial.")}
+  else if(m.ti>1.4){r.push("Inspiración larga (Ti "+fmt(m.ti)+" s): posible ciclado tardío. Suba el criterio de ciclado.")}
+  if(m.ti<.6&&m.pmus>6)r.push("Ti corto con esfuerzo marcado: posible ciclado prematuro o doble disparo. Baje el criterio de ciclado.");
+  var up=psvModel(ps,Math.min(18,peep+2),cyc),dn=psvModel(ps,Math.max(0,peep-2),cyc);
+  var best=up.cstE>m.cstE+.5?"subir":dn.cstE>m.cstE+.5?"bajar":"";
+  r.push(best?("Prueba de PEEP en este paciente simulado: al "+best+" la PEEP 2 cmH₂O la compliance pasaría de "+fmt(m.cstE)+" a "+fmt(best==="subir"?up.cstE:dn.cstE)+" y la ΔP de "+fmt(m.dp)+" a "+fmt(best==="subir"?up.dp:dn.dp)+". Mueva el control para comprobarlo."):"La PEEP actual da la mejor compliance de este paciente simulado: subirla o bajarla 2 cmH₂O la empeora.");
+  var col=z==="Zona objetivo"?"ok":z==="Sobreasistencia"?"warn":"bad";
+  document.getElementById("psvVerdict").innerHTML='<div class="verdict v-'+col+'"><b>'+z+'</b><ul class="clean">'+r.map(function(x){return "<li>"+x+"</li>"}).join("")+'</ul></div>';
+  psvWave(m);
 }
-["cSexo","cTalla","cVt","cFr","cPpk","cPpl","cPeep"].forEach(function(id){var e=document.getElementById(id);e.addEventListener("input",calcCtrl);e.addEventListener("change",calcCtrl)});
-["pPeep","pPs","pPpk","pOcc","pP01","pPpl","pFr"].forEach(function(id){document.getElementById(id).addEventListener("input",calcPsv)});
-document.querySelectorAll(".calc .tabs button").forEach(function(b){b.addEventListener("click",function(){document.querySelectorAll(".calc .tabs button").forEach(function(x){x.setAttribute("aria-selected",x===b?"true":"false")});document.querySelectorAll("[data-panel]").forEach(function(p){p.hidden=p.getAttribute("data-panel")!==b.getAttribute("data-tab")})})});
-calcCtrl();calcPsv();
+function setPP(k){PSV.pp=k;var P=PP[k];document.getElementById("pPS").value=P.ps;document.getElementById("pPEEP").value=P.peep;document.getElementById("pCyc").value=P.cyc;document.getElementById("psvDesc").textContent=P.txt+" Peso predicho "+P.pbw+" kg.";
+  document.querySelectorAll("[data-pp]").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-pp")===k?"true":"false")});PSV.log=[];renderLog();calcPsv()}
+function renderLog(){var t=document.getElementById("psvTable");t.hidden=!PSV.log.length;t.querySelector("tbody").innerHTML=PSV.log.map(function(m,i){return "<tr><td>"+(i+1)+"</td><td>"+m.ps+" / "+m.peep+" / "+m.cyc+" %</td><td>"+fmt(m.vtk)+"</td><td>"+Math.round(m.fr)+"</td><td>"+fmt(m.p01)+"</td><td>"+fmt(m.occ)+"</td><td>"+fmt(m.dp)+"</td><td>"+m.z+"</td></tr>"}).join("")}
+document.querySelectorAll("[data-pp]").forEach(function(b){b.addEventListener("click",function(){setPP(b.getAttribute("data-pp"))})});
+["pPS","pPEEP","pCyc"].forEach(function(id){document.getElementById(id).addEventListener("input",calcPsv)});
+document.getElementById("psvLog").addEventListener("click",function(){var m=PSV.m;m.z=PSV.z;PSV.log.push(Object.assign({},m));renderLog()});
+document.getElementById("psvLogClr").addEventListener("click",function(){PSV.log=[];renderLog()});
+document.querySelectorAll(".calc .tabs button").forEach(function(b){b.addEventListener("click",function(){document.querySelectorAll(".calc .tabs button").forEach(function(x){x.setAttribute("aria-selected",x===b?"true":"false")});document.querySelectorAll("[data-panel]").forEach(function(p){p.hidden=p.getAttribute("data-panel")!==b.getAttribute("data-tab")});if(b.getAttribute("data-tab")==="psvt")calcPsv()})});
+calcCtrl();setPP("neumo");
+
 
 /* Quiz */
 var Q=[
