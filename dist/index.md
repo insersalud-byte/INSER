@@ -269,7 +269,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - **Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock** — U$S 1.794 — con insumos incluidos para arrancar
 
-- **Tubuladura para CPAP / BiPAP** — $36.000 — repuesto universal
+- **Tubuladura para CPAP / BiPAP** — $50.000 — repuesto universal
 
 ## Servicios
 

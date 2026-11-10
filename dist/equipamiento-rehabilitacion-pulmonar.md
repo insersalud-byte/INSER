@@ -71,7 +71,7 @@ Como referencia de recambio: la almohadilla de silicona conviene renovarla cada 
 
 Un caso que conviene no confundir: la BMC F2 codo azul ($68.000) es una buconasal SIN puertos de exhalación, la interfaz correcta para respiradores de terapia intensiva y para ventilación no invasiva con válvula espiratoria en el circuito. No corresponde usarla con un CPAP o BiPAP domiciliario estándar, que necesitan máscara ventilada.
 
-La tubuladura de recambio para CPAP/BiPAP está a $36.000: 22 mm de diámetro estándar, 1,8 m aprox. de largo, PVC flexible de grado médico.
+La tubuladura de recambio para CPAP/BiPAP está a $50.000: 22 mm de diámetro estándar, 1,8 m aprox. de largo, PVC flexible de grado médico.
 
 ## Sumar diagnóstico al centro: el polígrafo respiratorio
 

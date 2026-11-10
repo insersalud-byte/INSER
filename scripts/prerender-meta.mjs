@@ -80,7 +80,7 @@ const PRODUCTS = [
     ['Infant CPAP Kit neonatal', 'U$S 97', 'tallas 00 a 5'],
     ['Polígrafo BMC YH-600B PRO', 'U$S 1.570', 'equipo para profesionales; no es el precio del estudio'],
     ['Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock', 'U$S 1.794', 'con insumos incluidos para arrancar'],
-    ['Tubuladura para CPAP / BiPAP', '$36.000', 'repuesto universal'],
+    ['Tubuladura para CPAP / BiPAP', '$50.000', 'repuesto universal'],
 ];
 
 

@@ -25,7 +25,10 @@ SALUD.COM
 - [Calculadoras](https://insersalud.com/academia/ebook/ventilacion-mecanica#calculadoras)
 - [Retos](https://insersalud.com/academia/ebook/ventilacion-mecanica#retos)
 - [Casos](https://insersalud.com/academia/ebook/ventilacion-mecanica#casos)
+- [Modos](https://insersalud.com/academia/ebook/ventilacion-mecanica#modos)
+- [Galería](https://insersalud.com/academia/ebook/ventilacion-mecanica#escenarios)
 - [Destete](https://insersalud.com/academia/ebook/ventilacion-mecanica#destete)
+- [ΔP + FR](https://insersalud.com/academia/ebook/ventilacion-mecanica/driving-pressure)
 - [Evaluación](https://insersalud.com/academia/ebook/ventilacion-mecanica#autoevaluacion)
 - [Guías](https://insersalud.com/academia/ebook/ventilacion-mecanica#evidencia)
 - [Glosario](https://insersalud.com/academia/ebook/ventilacion-mecanica#glosario)
@@ -71,7 +74,7 @@ FUNDAMENTO
 
 ### Ventilación minuto
 
-V̇E = VT × FR
+V̇E = Vt × FR
 
 El período respiratorio se distribuye entre tiempo inspiratorio y espiratorio. La lectura siempre debe integrar volumen, frecuencia, mecánica e intercambio gaseoso.
 
@@ -93,7 +96,7 @@ Presión al final de la espiración; ayuda a evitar el colapso alveolar y sosten
 
 Driving pressure
 
-Diferencia entre la presión plateau y la PEEP total cuando la medición es válida. Objetivo habitual: menor de 15.
+Diferencia entre la presión plateau y la PEEP total cuando la medición es válida. Objetivo: menor de 15. Por encima, aumenta la mortalidad en SDRA.
 
 Compliance / Raw
 
@@ -250,13 +253,13 @@ La presión cambia con la resistencia y la compliance
 
 Clave de lectura
 
-Si baja la compliance, suben Pmeseta y Ppico.
+Si baja la compliance, suben Pplat y Ppico.
 
 ### Mecánica resultante **normal **vigilar **peligro
 
 **Pulmón sano.** Mecánica respiratoria normal. Use este caso como base para comparar con las distintas patologías.
 
-**En las curvas:** Curvas con morfología normal. Ppico y Pmeseta adecuadas. Flujo espiratorio completo. Volúmenes estables.
+**En las curvas:** Curvas con morfología normal. Ppico y Pplat adecuadas. Flujo espiratorio completo. Volúmenes estables.
 
 ### Qué cambió en las curvas
 
@@ -421,9 +424,17 @@ Condiciones importan:
 
 Pplat y auto-PEEP no deben interpretarse con pausa inválida, fuga o esfuerzo importante. Raw requiere flujo conocido y condiciones comparables. El RSBI se mide sin soporte o con soporte mínimo.
 
+NUEVO
+
+Capítulo avanzado: ΔP + frecuencia respiratoria
+
+4ΔP + FR, poder mecánico, ΔP medida en PSV y cómo titular la PS y la PEEP con P0.1, Pocc y PMI. Con simuladores de ΔP + FR y de presión de soporte, 4 videos prácticos y evidencia 2024–2026.
+
+Abrir capítulo →
+
 PUNTOS CLAVE
 
-- Driving pressure = Pplat − PEEP total. Menor de 15 cmH₂O es el objetivo habitual.
+- Driving pressure = Pplat − PEEP total. Por encima de 15 cmH₂O se asocia con mayor mortalidad en SDRA.
 - La tabla PEEP/FiO₂ es un punto de partida, no una receta: se titula por respuesta.
 - RSBI menor de 105 orienta, pero la prueba de ventilación espontánea es la que decide.
 
@@ -520,7 +531,7 @@ SOPORTE DE PRESIÓN
 
 En EPOC, una constante de tiempo larga puede prolongar el flujo. Un porcentaje de ciclado mayor termina antes la inspiración; no existe un valor universal.
 
-AARC 2024: un SBT puede hacerse con o sin PS y el RSBI no es obligatorio para evaluar readiness.
+AARC 2024: un SBT puede hacerse con o sin PS y el RSBI no es obligatorio para evaluar la preparación para el destete.
 
 Abrir simulador
 
@@ -739,7 +750,7 @@ GUÍAS Y LÍMITES
 
 ## Evidencia que sostiene el recorrido
 
-Revisión editorial al 1 de septiembre de 2026. Prioriza guías oficiales; todo contenido debe adaptarse al protocolo institucional.
+Revisión editorial al 7 de noviembre de 2026. Prioriza guías oficiales; todo contenido debe adaptarse al protocolo institucional.
 
 AL TERMINAR VA A PODER
 
@@ -777,11 +788,11 @@ GUÍA FUERTE
 
 AARC 2024: evaluación diaria de preparación y prueba de ventilación espontánea con o sin PS baja; el RSBI no es obligatorio; no subir la FiO₂ para superar la prueba.
 
-CONCEPTO EMERGENTE
+ACTUALIZADO 2026
 
-### Driving pressure y poder mecánico
+### Driving pressure, frecuencia y poder mecánico
 
-La ΔP fue la variable ventilatoria más asociada a supervivencia en SDRA (Amato 2015). El poder mecánico integra volumen, presión y frecuencia (Gattinoni 2016); aún no hay umbral validado para titular.
+La ΔP sigue siendo el marcador ventilatorio de riesgo más sólido en SDRA (Amato 2015; LUNG SAFE 2026). Sumarle la frecuencia (4ΔP + FR) o calcular el poder mecánico sirve para comparar estrategias, pero el ensayo STAMINA (2025) y los metaanálisis de 2026 no mostraron beneficio en mortalidad ni en días libres de ventilador al fijar la ΔP como meta. Detalle en el capítulo avanzado ΔP + FR.
 
 ### Fuentes principales
 
@@ -831,7 +842,7 @@ GLOSARIO
 
 ## Cada palabra, explicada en simple
 
-43 términos. Escriba una palabra para filtrar.
+47 términos. Escriba una palabra para filtrar.
 
 AL TERMINAR VA A PODER
 
@@ -885,7 +896,11 @@ Dos inspiraciones seguidas casi sin espiración entre medio. El volumen se apila
 
 Driving pressure (ΔP)
 
-Presión plateau menos PEEP total. Es la presión que "estira" el pulmón en cada ciclo. Menor de 15 cmH₂O se asocia a mejor pronóstico en SDRA.
+Presión plateau menos PEEP total. Es la presión que "estira" el pulmón en cada ciclo. Por encima de 15 cmH₂O se asocia con mayor mortalidad en SDRA (Amato 2015): el objetivo es mantenerla por debajo.
+
+Elastancia normalizada
+
+ΔP dividida por el Vt en mL/kg de peso predicho. Dice cuánta presión cuesta cada mL/kg: describe al pulmón, no a la programación. Valores de 2,1 o más se asociaron a mayor mortalidad en SDRA.
 
 Esfuerzo ineficaz
 
@@ -911,9 +926,17 @@ Hiperinsuflación dinámica
 
 Acumulación de aire ciclo tras ciclo porque el vaciado no se completa. Es la causa de la auto-PEEP.
 
+Índice 4ΔP + FR
+
+Cuatro veces la driving pressure más la frecuencia respiratoria. Pondera que 1 cmH₂O de ΔP pesa en el riesgo como unas 4 respiraciones por minuto. Sirve para comparar estrategias; no es una meta validada. Ver también: Driving pressure, poder mecánico
+
 Índice de oxigenación (IO)
 
 Presión media × FiO₂ × 100 / PaO₂. Junta cuánto cuesta (presión) y cuánto se logra (PaO₂). Más alto es peor.
+
+P0.1 y Pocc
+
+Maniobras de oclusión. P0.1 es la caída de presión en los primeros 100 ms y estima el impulso respiratorio; Pocc es la caída máxima durante todo el esfuerzo y estima su intensidad. Ver también: Presión de soporte, trabajo respiratorio
 
 Pausa espiratoria
 
@@ -930,6 +953,10 @@ Presión positiva al final de la espiración. Mantiene los alvéolos abiertos, m
 Peso predicho (PBW)
 
 Peso que corresponde a la talla y el sexo, no el peso real. Los pulmones tienen el tamaño de la talla, no del peso. El Vt se calcula por PBW.
+
+PMI (índice de presión muscular)
+
+Pplat menos Ppico durante una pausa inspiratoria en presión de soporte. Aproxima cuánto aporta el músculo al final de la inspiración. Solo vale con Pplat estable.
 
 Poder mecánico
 
@@ -953,7 +980,7 @@ Promedio de la presión durante todo el ciclo. Se relaciona con la oxigenación 
 
 PRVC
 
-Presión regulada, volumen controlado: el respirador entrega ciclos por presión pero ajusta esa presión ciclo a ciclo para alcanzar el volumen objetivo. Cuidado: si el paciente hace mucho esfuerzo, baja la presión y puede sobreasistir menos de lo pensado.
+Presión regulada, volumen controlado: el respirador entrega ciclos por presión pero ajusta esa presión ciclo a ciclo para alcanzar el volumen objetivo. Cuidado: si el paciente hace mucho esfuerzo, el equipo baja la presión y el paciente recibe menos asistencia de la pensada.
 
 Prueba de ventilación espontánea (SBT)
 

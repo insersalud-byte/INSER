@@ -599,7 +599,7 @@ export const localPages = [
             },
             {
                 title: 'El CPAP no trae máscara: sumala al presupuesto',
-                content: 'Los CPAP y AutoCPAP que vendemos traen el equipo, el humidificador y la tubuladura, pero no la máscara: se compra aparte y la elegimos con vos según cómo respirás al dormir y el talle de tu cara. Cuando armes el presupuesto del tratamiento, sumá la [máscara](/mascaras-cpap). Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.\n\nCon el uso también se reponen los filtros, la almohadilla de la máscara y la tubuladura (la tubuladura universal sale $36.000). Conviene comprar el equipo donde después consigas esos repuestos sin tener que importarlos.',
+                content: 'Los CPAP y AutoCPAP que vendemos traen el equipo, el humidificador y la tubuladura, pero no la máscara: se compra aparte y la elegimos con vos según cómo respirás al dormir y el talle de tu cara. Cuando armes el presupuesto del tratamiento, sumá la [máscara](/mascaras-cpap). Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.\n\nCon el uso también se reponen los filtros, la almohadilla de la máscara y la tubuladura (la tubuladura universal sale $50.000). Conviene comprar el equipo donde después consigas esos repuestos sin tener que importarlos.',
             },
             {
                 title: 'Cómo comprar y recibir tu equipo',
@@ -884,7 +884,7 @@ export const localPages = [
             },
             {
                 title: 'Cambio y reposición',
-                content: 'La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas que restan eficacia al tratamiento.\n\nEnviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos compatibilidad con tu equipo antes de comprar. Si lo que necesitás reponer es el tubo, tenemos la Tubuladura para CPAP / BiPAP ($36.000), un repuesto universal de 22 mm estándar.',
+                content: 'La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas que restan eficacia al tratamiento.\n\nEnviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos compatibilidad con tu equipo antes de comprar. Si lo que necesitás reponer es el tubo, tenemos la Tubuladura para CPAP / BiPAP ($50.000), un repuesto universal de 22 mm estándar.',
             },
         ],
         products: [
@@ -894,7 +894,7 @@ export const localPages = [
             { name: 'Máscara nasobucal Philips DreamWear Full Face', price: 'U$S 157' },
             { name: 'Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva', price: '$68.000' },
             { name: 'Máscaras pediátricas (Cirri Mini, Philips Wisp, Infant CPAP Kit)', price: 'desde U$S 97' },
-            { name: 'Tubuladura para CPAP / BiPAP', price: '$36.000' },
+            { name: 'Tubuladura para CPAP / BiPAP', price: '$50.000' },
         ],
         faq: [
             { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
@@ -953,7 +953,7 @@ export const localPages = [
             { name: 'Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)', price: 'U$S 227' },
             { name: 'Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)', price: 'U$S 105' },
             { name: 'Infant CPAP Kit neonatal (tallas 00 a 5)', price: 'U$S 97' },
-            { name: 'Tubuladura para CPAP / BiPAP (repuesto universal)', price: '$36.000' },
+            { name: 'Tubuladura para CPAP / BiPAP (repuesto universal)', price: '$50.000' },
         ],
         faq: [
             { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
@@ -1008,7 +1008,7 @@ export const localPages = [
             },
             {
                 title: 'Los insumos son el gasto que se repite',
-                content: 'El equipo se compra una vez; las máscaras, las tubuladuras y los filtros se renuevan todo el tiempo. En un centro con rotación de pacientes, ese es el rubro que conviene tener resuelto de entrada.\n\nNasales desde U$S 35 (RESCOMF multitalle) y nasobucales desde U$S 52 (Yuwell con apoya frente y BMC F5A); la BMC F6 multitalle está a U$S 124. En pediátrico, la HSINER Cirri Mini en talles XS/S/M/L (U$S 105) y el Infant CPAP Kit con tallas 00 a 5 (U$S 97), una línea difícil de conseguir en el país. El listado completo con precios está en [máscaras para CPAP y BiPAP](/mascaras-cpap).\n\nComo referencia de recambio: la almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. En una institución eso es lo que define el volumen de reposición.\n\nUn caso que conviene no confundir: la BMC F2 codo azul ($68.000) es una buconasal SIN puertos de exhalación, la interfaz correcta para respiradores de terapia intensiva y para ventilación no invasiva con válvula espiratoria en el circuito. No corresponde usarla con un CPAP o BiPAP domiciliario estándar, que necesitan máscara ventilada.\n\nLa tubuladura de recambio para CPAP/BiPAP está a $36.000: 22 mm de diámetro estándar, 1,8 m aprox. de largo, PVC flexible de grado médico.',
+                content: 'El equipo se compra una vez; las máscaras, las tubuladuras y los filtros se renuevan todo el tiempo. En un centro con rotación de pacientes, ese es el rubro que conviene tener resuelto de entrada.\n\nNasales desde U$S 35 (RESCOMF multitalle) y nasobucales desde U$S 52 (Yuwell con apoya frente y BMC F5A); la BMC F6 multitalle está a U$S 124. En pediátrico, la HSINER Cirri Mini en talles XS/S/M/L (U$S 105) y el Infant CPAP Kit con tallas 00 a 5 (U$S 97), una línea difícil de conseguir en el país. El listado completo con precios está en [máscaras para CPAP y BiPAP](/mascaras-cpap).\n\nComo referencia de recambio: la almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. En una institución eso es lo que define el volumen de reposición.\n\nUn caso que conviene no confundir: la BMC F2 codo azul ($68.000) es una buconasal SIN puertos de exhalación, la interfaz correcta para respiradores de terapia intensiva y para ventilación no invasiva con válvula espiratoria en el circuito. No corresponde usarla con un CPAP o BiPAP domiciliario estándar, que necesitan máscara ventilada.\n\nLa tubuladura de recambio para CPAP/BiPAP está a $50.000: 22 mm de diámetro estándar, 1,8 m aprox. de largo, PVC flexible de grado médico.',
             },
             {
                 title: 'Sumar diagnóstico al centro: el polígrafo respiratorio',

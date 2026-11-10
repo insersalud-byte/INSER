@@ -1,6 +1,6 @@
 ---
-title: "Precio de CPAP y AutoCPAP: desde $499.000 | INSER"
-description: "Precio de CPAP en Argentina: BMC G2S $499.000, AutoCPAP $630.000 y ResMed AirSense 10 $974.000. Cuotas Banco Galicia, ANMAT y envío a todo el país."
+title: "Precio de CPAP 2026: desde $499.000 en cuotas | INSER"
+description: "Precios de CPAP publicados: BMC G2S $499.000, AutoCPAP BMC $630.000 y ResMed AirSense 10 $974.000. Cuotas con Banco Galicia, ANMAT y envío a todo el país."
 url: https://insersalud.com/comprar-cpap-argentina
 canonical: https://insersalud.com/comprar-cpap-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -43,7 +43,7 @@ Confirmá el precio del día y el plan de cuotas por WhatsApp antes de pagar.
 
 Los CPAP y AutoCPAP que vendemos traen el equipo, el humidificador y la tubuladura, pero no la máscara: se compra aparte y la elegimos con vos según cómo respirás al dormir y el talle de tu cara. Cuando armes el presupuesto del tratamiento, sumá la [máscara](https://insersalud.com/mascaras-cpap). Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.
 
-Con el uso también se reponen los filtros, la almohadilla de la máscara y la tubuladura (la tubuladura universal sale $36.000). Conviene comprar el equipo donde después consigas esos repuestos sin tener que importarlos.
+Con el uso también se reponen los filtros, la almohadilla de la máscara y la tubuladura (la tubuladura universal sale $50.000). Conviene comprar el equipo donde después consigas esos repuestos sin tener que importarlos.
 
 ## Cómo comprar y recibir tu equipo
 

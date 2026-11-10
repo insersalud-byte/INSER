@@ -75,7 +75,7 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos la
 
 - ![Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg) Infant CPAP Kit neonatal (tallas 00 a 5) — U$S 97
 
-- ![Tubuladura para CPAP / BiPAP (repuesto universal)](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) Tubuladura para CPAP / BiPAP (repuesto universal) — $36.000
+- ![Tubuladura para CPAP / BiPAP (repuesto universal)](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) Tubuladura para CPAP / BiPAP (repuesto universal) — $50.000
 
 ## Preguntas frecuentes
 

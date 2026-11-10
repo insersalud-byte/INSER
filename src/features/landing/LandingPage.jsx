@@ -604,7 +604,7 @@ const tienda = [
         ],
     },
     {
-        name: 'Tubuladura para CPAP / BiPAP', slug: 'tubuladura-para-cpap-bipap', price: '$36.000', img: '/artifacts/products/tubuladura_cpap_bipap.jpg', badge: 'NUEVO', note: 'Repuesto universal CPAP/BiPAP.', category: 'Oxígeno',
+        name: 'Tubuladura para CPAP / BiPAP', slug: 'tubuladura-para-cpap-bipap', price: '$50.000', img: '/artifacts/products/tubuladura_cpap_bipap.jpg', badge: 'NUEVO', note: 'Repuesto universal CPAP/BiPAP.', category: 'Oxígeno',
         specs: [
             ['Tipo', 'Tubuladura (manguera) de paciente'],
             ['Compatibilidad', 'CPAP / BiPAP universal'],
