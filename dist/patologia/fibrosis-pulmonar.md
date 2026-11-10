@@ -71,24 +71,18 @@ Los concentradores portátiles te permiten mantener la actividad diaria fuera de
 
 Modelos disponibles en Inser Salud:
 
-🥇 KINGON P2-S3 — El más liviano de nuestro catálogo
-• Precio: U$S 1.880
-• 2,3 kg con batería
-• Ideal para pacientes activos con necesidad de flujo bajo-moderado
-• Batería incluida para autonomía en desplazamientos
-
-⏱️ KINGON P2-TOC — 9,5 horas de autonomía
-• Precio: U$S 3.458
-• Batería de larga duración: 9,5 horas continuas
-• Ideal para viajes en avión o jornadas largas fuera del hogar
-
 👑 GCE Zen-O — Premium con carrito y 2 baterías
 • Precio: U$S 3.747
 • Incluye carrito y 2 baterías para máxima autonomía
 • Homologado para vuelos comerciales
 • La opción premium para el paciente más activo
 
-Importante: Los concentradores portátiles funcionan por pulso (en demanda). Para flujos continuos o nocturnos, se recomienda complementar con concentrador estacionario.
+💨 Philips SimplyGo — Pulso y flujo continuo
+• Precio: U$S 3.887
+• Flujo continuo de 0,5 a 2 L/min, además del modo pulso
+• Apto para viajes
+
+Importante: un equipo de pulso no reemplaza una indicación de flujo continuo. Si tu médico indicó flujo continuo o uso nocturno, consultanos: puede corresponder el SimplyGo (hasta 2 L/min) o un concentrador estacionario.
 
 ## Mochilas de Oxígeno Portátil
 
@@ -151,10 +145,6 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
 ## Equipos para Fibrosis Pulmonar
 
 - ![GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) GCE Zen-O (2 baterías + carro) — U$S 3.747
-
-- ![KINGON P2-S3 (Portátil)](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg) KINGON P2-S3 (Portátil) — U$S 1.880
-
-- ![KINGON P2-TOC (Portátil)](https://insersalud.com/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg) KINGON P2-TOC (Portátil) — U$S 3.458
 
 - ![Concentrador YUWELL Estacionario](https://insersalud.com/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg) Concentrador YUWELL Estacionario — U$S 713
 

@@ -1,6 +1,6 @@
 ---
-title: "Concentrador de Oxígeno Portátil desde U$S 1.880 | INSER"
-description: "KINGON P2-S3 a U$S 1.880 (2,3 kg con batería), más flujo continuo, GCE Zen-O y Philips SimplyGo aptos para vuelos. ANMAT y envío a todo el país."
+title: "Concentrador de Oxígeno Portátil desde U$S 3.747 | INSER"
+description: "GCE Zen-O (U$S 3.747) y Philips SimplyGo con flujo continuo (U$S 3.887), aptos para vuelos. ANMAT, garantía de 3 años y envío a todo el país."
 url: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 canonical: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -11,7 +11,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Comprar concentrador de oxígeno portátil: envío a todo el país
 
-![Comprar concentrador de oxígeno portátil: envío a todo el país](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg)
+![Comprar concentrador de oxígeno portátil: envío a todo el país](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg)
 
 Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles de pulso y de flujo continuo con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.
 
@@ -27,11 +27,6 @@ La indicación médica (litros por minuto y modalidad) define el modelo correcto
 
 ## Modelos y precios
 
-KINGON P2-S3 — U$S 1.880: el más liviano de nuestro catálogo (2,3 kg con batería), pulso, apto vuelos (FAA).
-KINGON P2-E — U$S 2.379: entrada a los de flujo continuo.
-KINGON P2-E6 — U$S 2.695: flujo continuo con batería.
-KINGON P2-E7 — U$S 3.099: alto flujo continuo, batería extendida.
-KINGON P2-TOC — U$S 3.458: continuo + pulso con 9,5 hs de autonomía.
 GCE Zen-O — U$S 3.747: premium europeo, 2 baterías + carro, homologado para vuelos.
 Philips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.
 
@@ -39,7 +34,7 @@ Precios de referencia; confirmá el valor del día por WhatsApp.
 
 ## Para viajar en avión
 
-Los modelos KINGON P2-S3, GCE Zen-O y Philips SimplyGo cuentan con aprobación FAA para vuelos. Las aerolíneas suelen exigir batería para el 150% de la duración del vuelo y aviso previo: te asesoramos con los requisitos antes de tu viaje.
+El GCE Zen-O y el Philips SimplyGo cuentan con aprobación FAA para vuelos. Las aerolíneas suelen exigir batería para el 150% de la duración del vuelo y aviso previo: te asesoramos con los requisitos antes de tu viaje.
 
 ## Compra con respaldo
 
@@ -49,21 +44,17 @@ Aparatología aprobada por ANMAT, con garantía oficial del fabricante. Envío a
 
 Entre los portátiles la diferencia práctica está en cuánto pesa el equipo y cuántas horas te banca fuera de casa. No siempre van juntos, así que conviene mirar los dos números antes de decidir.
 
-El KINGON P2-S3 pesa 2,3 kg con batería y rinde entre 4 y 5 horas: es el más liviano del catálogo y alcanza para una salida, un turno médico o media jornada. El KINGON P2-TOC pesa 2,8 kg con batería y estira la autonomía hasta 9,5 horas, para estar todo el día afuera. En autonomía, entre esos dos quedan el P2-E6 (hasta 6 horas) y el P2-E7 (hasta 7).
-
 El GCE Zen-O pesa 4,66 kg con las dos baterías puestas y llega hasta 8 horas, pero viene con carro de transporte, así que no lo llevás colgado. El Philips SimplyGo pesa 4,5 kg y entrega flujo continuo de 0,5 a 2 L/min además de pulso.
 
 Un detalle que conviene tener claro: la autonomía depende del flujo que uses. A mayor flujo, menos dura la batería. Por eso la pregunta correcta no es cuántas horas rinde el equipo, sino cuántas horas rinde en tu nivel.
 
 ## Qué viene con el equipo y qué garantía tiene
 
-Todos nuestros portátiles se entregan con batería, cargador de red y cargador para el auto, bolso o mochila de traslado, cánula nasal y manual en español. El cargador de auto no es un detalle menor: el KINGON P2-S3 funciona con corriente de 100 a 240V, con 12V del auto o con su batería, así que lo recargás en pleno viaje por ruta.
+Todos nuestros portátiles se entregan con batería, cargador de red y cargador para el auto, bolso o mochila de traslado, cánula nasal y manual en español. El cargador de auto no es un detalle menor: lo recargás en pleno viaje por ruta.
 
 El GCE Zen-O suma la segunda batería y el carro de transporte, y tiene app móvil para seguir el uso del equipo desde el celular.
 
-La garantía es oficial de fábrica y cambia según la marca: los KINGON tienen 1 año, mientras que el GCE Zen-O y el Philips SimplyGo tienen 3 años. Si el equipo va a ser de uso diario durante varios años, ese dato entra en la cuenta junto con el precio.
-
-Otro dato para quien lo va a usar en la oficina o en reuniones: el P2-S3 trabaja por debajo de los 43 dB, bastante menos que un concentrador estacionario.
+La garantía es oficial de fábrica: el GCE Zen-O y el Philips SimplyGo tienen 3 años. Si el equipo va a ser de uso diario durante varios años, ese dato entra en la cuenta junto con el precio.
 
 ## El portátil muchas veces no es el único equipo
 
@@ -87,10 +78,6 @@ Respondemos por WhatsApp todos los días, también fines de semana.
 
 ## Equipos relacionados
 
-- ![KINGON P2-S3 (el más liviano de nuestro catálogo, apto vuelos)](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg) KINGON P2-S3 (el más liviano de nuestro catálogo, apto vuelos) — U$S 1.880
-
-- ![KINGON P2-TOC (9,5 hs, continuo + pulso)](https://insersalud.com/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg) KINGON P2-TOC (9,5 hs, continuo + pulso) — U$S 3.458
-
 - ![GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) GCE Zen-O (2 baterías + carro, apto vuelos) — U$S 3.747
 
 - ![Philips SimplyGo (continuo + pulso)](https://insersalud.com/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg) Philips SimplyGo (continuo + pulso) — U$S 3.887
@@ -101,13 +88,13 @@ Respondemos por WhatsApp todos los días, también fines de semana.
 
 En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
 
-### ¿Cuál es el concentrador portátil más liviano y económico?
+### ¿Qué concentradores portátiles tienen y cuánto salen?
 
-El más liviano de nuestro catálogo es el KINGON P2-S3: 2,3 kg con batería, flujo de pulso en 5 niveles y aprobación FAA para vuelos. Está a U$S 1.880.
+El GCE Zen-O, a pulso, con 2 baterías y carro, a U$S 3.747, y el Philips SimplyGo, con flujo continuo de 0,5 a 2 L/min además de pulso, a U$S 3.887. Los dos son aptos para vuelos y tienen 3 años de garantía oficial.
 
 ### ¿Puedo viajar en avión con un concentrador portátil?
 
-Sí, con los modelos aprobados FAA (KINGON P2-S3, GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.
+Sí, con los modelos aprobados FAA (GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.
 
 ### ¿Pulso o flujo continuo?
 
@@ -119,11 +106,11 @@ Sí, enviamos a cualquier provincia con capacitación de uso guiada y garantía 
 
 ### ¿Cuántas horas de batería tiene cada modelo?
 
-El KINGON P2-S3 da entre 4 y 5 horas, el P2-E6 hasta 6, el P2-E7 hasta 7, el GCE Zen-O hasta 8 con sus dos baterías y el KINGON P2-TOC hasta 9,5. La autonomía depende del flujo configurado: a mayor flujo, menos dura la batería. Decinos cuántas horas necesitás estar fuera de casa y en qué nivel, y te confirmamos qué modelo llega.
+El GCE Zen-O llega hasta 8 horas con sus dos baterías. La autonomía depende del flujo configurado: a mayor flujo, menos dura la batería. Decinos cuántas horas necesitás estar fuera de casa y en qué nivel, y te confirmamos qué modelo llega.
 
 ### ¿Qué garantía tienen los concentradores portátiles?
 
-La garantía es oficial y depende de la marca: los KINGON tienen 1 año, y el GCE Zen-O y el Philips SimplyGo tienen 3 años. Toda la aparatología está aprobada por ANMAT, y después de la compra tenés capacitación de uso, servicio técnico y provisión de baterías y accesorios.
+La garantía es oficial: el GCE Zen-O y el Philips SimplyGo tienen 3 años. Toda la aparatología está aprobada por ANMAT, y después de la compra tenés capacitación de uso, servicio técnico y provisión de baterías y accesorios.
 
 ### ¿Puedo usar el concentrador portátil mientras duermo?
 

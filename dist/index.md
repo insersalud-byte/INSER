@@ -75,7 +75,7 @@ En INSER SALUD tenés máscaras nasales, máscaras nasobucales (buconasales o fu
 
 ### ¿Tienen oxigenoterapia y concentradores de oxígeno?
 
-Sí. INSER SALUD ofrece oxigenoterapia domiciliaria con concentradores de oxígeno estacionarios (fijos) para uso continuo en el hogar y concentradores de oxígeno portátiles aptos para viajes (KINGON, GCE Zen-O, Philips SimplyGo). Disponibles para venta y alquiler en Córdoba, con entrega y soporte técnico.
+Sí. INSER SALUD ofrece oxigenoterapia domiciliaria con concentradores de oxígeno estacionarios (fijos) para uso continuo en el hogar y concentradores de oxígeno portátiles aptos para viajes (GCE Zen-O, Philips SimplyGo). Disponibles para venta y alquiler en Córdoba, con entrega y soporte técnico.
 
 ### ¿Trabajan con obras sociales o prepagas?
 
@@ -214,16 +214,6 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 - **Concentrador estacionario Yuwell 5 L/min** — U$S 713 — para uso domiciliario continuo
 
 - **Concentrador estacionario Yuwell 7F-5B de 5 litros** — $1.170.000 — con humidificador incorporado, flujo continuo de 0,5 a 5 L/min — oferta puntual: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock
-
-- **Concentrador portátil KINGON P2-S3** — U$S 1.880 — el más liviano de nuestro catálogo, apto para vuelos
-
-- **Concentrador portátil KINGON P2-TOC** — U$S 3.458 — 9,5 hs de autonomía, continuo + pulso
-
-- **Concentrador portátil KINGON P2-E7** — U$S 3.099 — alto flujo continuo, batería extendida
-
-- **Concentrador portátil KINGON P2-E6** — U$S 2.695 — flujo continuo con batería
-
-- **Concentrador portátil KINGON P2-E** — U$S 2.379 — entrada a portátiles de flujo continuo
 
 - **Concentrador portátil GCE Zen-O** — U$S 3.747 — 2 baterías + carro, homologado para vuelos
 

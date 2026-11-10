@@ -83,8 +83,6 @@ Si no tenés la indicación a mano, mandanos una foto por WhatsApp y te decimos 
 
 - ![Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg) Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂) — $999.000
 
-- ![Concentrador portátil KINGON P2-S3](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg) Concentrador portátil KINGON P2-S3 — consultar
-
 - ![Mochila / tubo de oxígeno portátil](https://insersalud.com/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg) Mochila / tubo de oxígeno portátil — consultar
 
 ## Preguntas frecuentes

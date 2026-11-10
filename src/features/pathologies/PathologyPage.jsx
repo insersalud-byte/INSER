@@ -53,8 +53,6 @@ const IMG_DIMS = {
     '/artifacts/hero_epoc.jpg': [900, 600],
     '/artifacts/hero_fibrosis.jpg': [768, 1159],
     '/artifacts/hero_paralisis.jpg': [768, 786],
-    '/artifacts/kingon_p2_s3.jpg': [1198, 921],
-    '/artifacts/kingon_p2_toc.jpg': [604, 1195],
     '/artifacts/logo_insersalud.jpg': [400, 400],
     '/artifacts/mascara_nasal_dreamwear.jpg': [1200, 1026],
     '/artifacts/mascara_nasobucal_dreamwear.jpg': [1018, 1600],

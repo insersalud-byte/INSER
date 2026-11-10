@@ -57,7 +57,7 @@ Hasta 5 litros por minuto, el concentrador estacionario estándar cubre la mayor
 
 Por encima de 5 litros por minuto hace falta un equipo de alto flujo. El [concentrador Yuwell de 10 litros](https://insersalud.com/concentrador-oxigeno-10-litros) llega al doble del flujo del estacionario estándar; hoy lo publicamos en venta, así que si tu indicación supera los 5 L/min escribinos y vemos qué opción hay para tu caso.
 
-Y hay una distinción que confunde seguido: los dos portátiles que figuran en esta página, el KINGON P2-S3 y el GCE Zen-O, entregan el oxígeno a pulso, es decir una bocanada por cada inspiración. Si tu indicación es de flujo continuo, un equipo a pulso no lo reemplaza; para eso está el Philips SimplyGo, que entrega flujo continuo de 0,5 a 2 L/min además del modo pulso. Podés ver los modelos en [concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba), o mandarnos la indicación por WhatsApp y te confirmamos qué equipo cumple.
+Y hay una distinción que confunde seguido: el GCE Zen-O, el portátil que figura en esta página, entrega el oxígeno a pulso, es decir una bocanada por cada inspiración. Si tu indicación es de flujo continuo, un equipo a pulso no lo reemplaza; para eso está el Philips SimplyGo, que entrega flujo continuo de 0,5 a 2 L/min además del modo pulso. Podés ver los modelos en [concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba), o mandarnos la indicación por WhatsApp y te confirmamos qué equipo cumple.
 
 ## Qué incluye el alquiler
 
@@ -86,8 +86,6 @@ Y si notás que tu saturación baja por debajo de lo habitual, avisale a tu méd
 ## Equipos relacionados
 
 - ![Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg) Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂) — también en venta $999.000
-
-- ![Concentrador portátil KINGON P2-S3 (apto vuelos)](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg) Concentrador portátil KINGON P2-S3 (apto vuelos) — consultar
 
 - ![Concentrador portátil GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) Concentrador portátil GCE Zen-O (2 baterías + carro) — consultar
 

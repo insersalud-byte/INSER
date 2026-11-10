@@ -42,21 +42,6 @@ export const productGalleries = {
     "/artifacts/products/aaddd83f-e98e-45d7-9f16-43fa6a7e2e7c.jpeg",
     "/artifacts/products/0f91ac58-4c98-4160-855d-2518d3b5def2.jpeg",
   ],
-  "concentrador-de-oxigeno-portatil-kingon-p2-e6": [
-    "/artifacts/products/1748963802989-kingonp2.png",
-  ],
-  "concentrador-de-oxigeno-portatil-kingon-p2-e7": [
-    "/artifacts/products/1748964279808-p2-e7.jpg",
-  ],
-  "concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico": [
-    "/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg",
-  ],
-  "concentrador-de-oxigeno-portatil-kingon-p2-toc": [
-    "/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg",
-    "/artifacts/products/f5368f6e-9047-4b59-a210-04ceb1d3d6d2.jpg",
-    "/artifacts/products/a5e844ea-11ff-4b05-8c27-f2a3bb89d2ca.jpg",
-    "/artifacts/products/b1c20e96-ed6e-43d5-b9e0-9b20c464d434.jpg",
-  ],
   "concentrador-de-oxigeno-portatil-simplygo": [
     "/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg",
     "/artifacts/products/33c3e5ab-69f8-4dba-8d6a-0b348062e6aa.jpg",

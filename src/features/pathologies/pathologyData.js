@@ -373,9 +373,8 @@ Tipos de sistemas de oxígeno disponibles en Inser Salud:
 
 🎒 Concentrador portátil (para salir de casa):
 • Permite mantener la actividad diaria y la autonomía
-• KINGON P2-S3: el más liviano y económico de nuestro catálogo (U$S 1.880)
-• KINGON P2-TOC: 9,5 horas de autonomía (U$S 3.458)
-• GCE Zen-O: premium, con carrito y 2 baterías (U$S 3.747)
+• GCE Zen-O: con carrito y 2 baterías, hasta 8 horas de autonomía (U$S 3.747)
+• Philips SimplyGo: flujo continuo de 0,5 a 2 L/min además de pulso (U$S 3.887)
 
 💧 Oxígeno líquido:
 • Mayor autonomía en menor peso
@@ -446,22 +445,6 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
 
         products: [
             {
-                name: 'Concentrador Portátil KINGON P2-S3',
-                priceARS: null,
-                priceUSD: 'U$S 1.880',
-                img: '/artifacts/kingon_p2_s3.jpg',
-                badge: 'EL MÁS LIVIANO',
-                desc: 'El concentrador portátil más liviano y económico de nuestro catálogo.',
-            },
-            {
-                name: 'Concentrador Portátil KINGON P2-TOC',
-                priceARS: null,
-                priceUSD: 'U$S 3.458',
-                img: '/artifacts/kingon_p2_toc.jpg',
-                badge: '9,5 HS',
-                desc: '9,5 horas de autonomía con batería extendida.',
-            },
-            {
                 name: 'GCE Zen-O (2 baterías + carro)',
                 priceARS: null,
                 priceUSD: 'U$S 3.747',
@@ -481,7 +464,7 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
                 name: 'Mochila de Oxígeno Portátil',
                 priceARS: null,
                 priceUSD: 'U$S 270',
-                img: '/artifacts/kingon_p2_s3.jpg',
+                img: '/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg',
                 badge: null,
                 desc: 'Tubo 0,415 L + regulador + bolso + carga incluida.',
             },
@@ -597,24 +580,18 @@ Alquiler disponible con entrega e instalación en el día en Córdoba. Ideal par
 
 Modelos disponibles en Inser Salud:
 
-🥇 KINGON P2-S3 — El más liviano de nuestro catálogo
-• Precio: U$S 1.880
-• 2,3 kg con batería
-• Ideal para pacientes activos con necesidad de flujo bajo-moderado
-• Batería incluida para autonomía en desplazamientos
-
-⏱️ KINGON P2-TOC — 9,5 horas de autonomía
-• Precio: U$S 3.458
-• Batería de larga duración: 9,5 horas continuas
-• Ideal para viajes en avión o jornadas largas fuera del hogar
-
 👑 GCE Zen-O — Premium con carrito y 2 baterías
 • Precio: U$S 3.747
 • Incluye carrito y 2 baterías para máxima autonomía
 • Homologado para vuelos comerciales
 • La opción premium para el paciente más activo
 
-Importante: Los concentradores portátiles funcionan por pulso (en demanda). Para flujos continuos o nocturnos, se recomienda complementar con concentrador estacionario.`,
+💨 Philips SimplyGo — Pulso y flujo continuo
+• Precio: U$S 3.887
+• Flujo continuo de 0,5 a 2 L/min, además del modo pulso
+• Apto para viajes
+
+Importante: un equipo de pulso no reemplaza una indicación de flujo continuo. Si tu médico indicó flujo continuo o uso nocturno, consultanos: puede corresponder el SimplyGo (hasta 2 L/min) o un concentrador estacionario.`,
                 link: 'https://wa.me/5493512065320?text=Hola, quiero información sobre concentradores portátiles de oxígeno para Fibrosis Pulmonar',
                 linkText: 'Consultá modelos portátiles →',
             },
@@ -697,22 +674,6 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
                 desc: 'Con carrito y 2 baterías. Máxima autonomía.',
             },
             {
-                name: 'KINGON P2-S3 (Portátil)',
-                priceARS: null,
-                priceUSD: 'U$S 1.880',
-                img: '/artifacts/kingon_p2_s3.jpg',
-                badge: 'MÁS LIVIANO',
-                desc: 'El más liviano y económico de nuestro catálogo.',
-            },
-            {
-                name: 'KINGON P2-TOC (Portátil)',
-                priceARS: null,
-                priceUSD: 'U$S 3.458',
-                img: '/artifacts/kingon_p2_toc.jpg',
-                badge: '9,5 HS',
-                desc: '9,5 horas de autonomía con batería extendida.',
-            },
-            {
                 name: 'Concentrador YUWELL Estacionario',
                 priceARS: null,
                 priceUSD: 'U$S 713',
@@ -724,7 +685,7 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
                 name: 'Mochila de Oxígeno Portátil',
                 priceARS: null,
                 priceUSD: 'U$S 270',
-                img: '/artifacts/kingon_p2_s3.jpg',
+                img: '/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg',
                 badge: null,
                 desc: 'Tubo 0,415 L + regulador + bolso + carga.',
             },

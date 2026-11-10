@@ -73,8 +73,6 @@ El alquiler es solo en Córdoba Capital y alrededores: mirá [alquiler de concen
 
 - ![Concentrador de Oxígeno YUWELL 7F-5B 5 Litros](https://insersalud.com/artifacts/products/concentrador_yuwell_5l.jpg) Concentrador de Oxígeno YUWELL 7F-5B 5 Litros — $1.170.000
 
-- ![Concentrador portátil KINGON P2-S3 (apto vuelos)](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg) Concentrador portátil KINGON P2-S3 (apto vuelos) — consultar
-
 - ![Concentrador portátil GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) Concentrador portátil GCE Zen-O (2 baterías + carro) — consultar
 
 - ![Concentrador YUWELL 10 litros (alto flujo)](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg) Concentrador YUWELL 10 litros (alto flujo) — $2.800.000

@@ -96,9 +96,8 @@ Tipos de sistemas de oxígeno disponibles en Inser Salud:
 
 🎒 Concentrador portátil (para salir de casa):
 • Permite mantener la actividad diaria y la autonomía
-• KINGON P2-S3: el más liviano y económico de nuestro catálogo (U$S 1.880)
-• KINGON P2-TOC: 9,5 horas de autonomía (U$S 3.458)
-• GCE Zen-O: premium, con carrito y 2 baterías (U$S 3.747)
+• GCE Zen-O: con carrito y 2 baterías, hasta 8 horas de autonomía (U$S 3.747)
+• Philips SimplyGo: flujo continuo de 0,5 a 2 L/min además de pulso (U$S 3.887)
 
 💧 Oxígeno líquido:
 • Mayor autonomía en menor peso
@@ -158,10 +157,6 @@ Ejercicios recomendados:
 En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación pulmonar en Córdoba.
 
 ## Equipos para EPOC
-
-- ![Concentrador Portátil KINGON P2-S3](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg) Concentrador Portátil KINGON P2-S3 — U$S 1.880
-
-- ![Concentrador Portátil KINGON P2-TOC](https://insersalud.com/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg) Concentrador Portátil KINGON P2-TOC — U$S 3.458
 
 - ![GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) GCE Zen-O (2 baterías + carro) — U$S 3.747
 

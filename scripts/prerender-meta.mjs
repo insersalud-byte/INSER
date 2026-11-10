@@ -53,11 +53,6 @@ const PRODUCTS = [
     ['Concentrador de oxígeno YUWELL 10 litros (alto flujo)', '$2.800.000', 'hasta 10 L/min, para alta demanda de oxígeno y centros de rehabilitación pulmonar'],
     ['Concentrador estacionario Yuwell 5 L/min', 'U$S 713', 'para uso domiciliario continuo'],
     ['Concentrador estacionario Yuwell 7F-5B de 5 litros', '$1.170.000', 'con humidificador incorporado, flujo continuo de 0,5 a 5 L/min — oferta puntual: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock'],
-    ['Concentrador portátil KINGON P2-S3', 'U$S 1.880', 'el más liviano de nuestro catálogo, apto para vuelos'],
-    ['Concentrador portátil KINGON P2-TOC', 'U$S 3.458', '9,5 hs de autonomía, continuo + pulso'],
-    ['Concentrador portátil KINGON P2-E7', 'U$S 3.099', 'alto flujo continuo, batería extendida'],
-    ['Concentrador portátil KINGON P2-E6', 'U$S 2.695', 'flujo continuo con batería'],
-    ['Concentrador portátil KINGON P2-E', 'U$S 2.379', 'entrada a portátiles de flujo continuo'],
     ['Concentrador portátil GCE Zen-O', 'U$S 3.747', '2 baterías + carro, homologado para vuelos'],
     ['Concentrador portátil Philips SimplyGo', 'U$S 3.887', 'continuo + pulso, apto vuelos'],
     ['Mochila de oxígeno', 'U$S 270', 'tubo 0,415 + regulador + bolso, para traslados'],
@@ -379,7 +374,7 @@ function productosLanding(p) {
 }
 
 // Marca del equipo a partir del nombre (para el Product de schema.org). Sin match, no se declara.
-const MARCAS = ['BMC', 'ResMed', 'Philips', 'Yuwell', 'GCE', 'KINGON', 'HSINER', 'RESCOMF'];
+const MARCAS = ['BMC', 'ResMed', 'Philips', 'Yuwell', 'GCE', 'HSINER', 'RESCOMF'];
 function marcaDe(nombre) {
     const n = normalizarNombre(nombre);
     const m = MARCAS.find((b) => n.includes(b.toLowerCase()));

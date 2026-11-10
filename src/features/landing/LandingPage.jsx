@@ -104,21 +104,6 @@ const ofertas = [
         ],
     },
     {
-        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: 'U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico de nuestro catálogo.', category: 'Concentrador',
-        specs: [
-            ['Fabricante', 'KINGON (China, ANMAT)'],
-            ['Tipo', 'Concentrador portátil a pulso'],
-            ['Flujo', '5 settings de pulso (1 – 5)'],
-            ['Peso', '2,3 kg con batería (el más liviano de nuestro catálogo)'],
-            ['Autonomía', '≈ 4 – 5 hs con batería estándar'],
-            ['Alimentación', 'AC 100–240V / DC 12V / batería'],
-            ['Ruido', '< 43 dB'],
-            ['Apto vuelos', 'FAA aprobado'],
-            ['Incluye', 'Bolso de transporte + cánula + cargadores'],
-            ['Garantía', '1 año oficial'],
-        ],
-    },
-    {
         name: 'Concentrador de Oxígeno BMC Estacionario', slug: 'concentrador-de-oxigeno-bmc-estacionario', price: '$999.000', img: '/artifacts/products/concentrador_bmc_1.jpg', images: ['/artifacts/products/concentrador_bmc_1.jpg', '/artifacts/products/concentrador_bmc_2.jpg'], badge: 'OFERTA', note: 'Con control remoto y medidor de oxígeno.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'BMC Medical'],
@@ -363,31 +348,6 @@ const tienda = [
     },
     // ── Concentradores Portátiles ────────────────────────────────────────────
     {
-        name: 'Concentrador Portátil KINGON P2-S3', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-s3-el-mas-liviano-y-economico', price: 'U$S 1.880', img: '/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg', badge: 'OFERTA', note: 'El más liviano y económico de nuestro catálogo.', category: 'Concentrador',
-        specs: [
-            ['Fabricante', 'KINGON'],
-            ['Tipo', 'Concentrador portátil a pulso'],
-            ['Flujo', '5 settings (1 – 5)'],
-            ['Peso', '2,3 kg'],
-            ['Autonomía', '4 – 5 hs'],
-            ['Ruido', '< 43 dB'],
-            ['Apto vuelos', 'FAA'],
-            ['Garantía', '1 año'],
-        ],
-    },
-    {
-        name: 'Concentrador Portátil KINGON P2-TOC 9,5 Hs', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-toc', price: 'U$S 3.458', img: '/artifacts/products/dbf2f4a8-6dd6-4d06-863f-2a14deaa9086.jpg', badge: '9,5 HS', note: 'Máxima autonomía de batería.', category: 'Concentrador',
-        specs: [
-            ['Fabricante', 'KINGON'],
-            ['Tipo', 'Concentrador portátil a pulso — batería extendida'],
-            ['Flujo', '5 settings (1 – 5)'],
-            ['Autonomía', 'Hasta 9,5 hs'],
-            ['Peso', '2,8 kg con batería'],
-            ['Apto vuelos', 'FAA'],
-            ['Garantía', '1 año'],
-        ],
-    },
-    {
         name: 'Concentrador Portátil GCE Zen-O (2 Bat. + Carro)', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', price: 'U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', badge: 'OFERTA', note: 'Homologado para vuelos.', category: 'Concentrador',
         specs: [
             ['Fabricante', 'GCE Healthcare'],
@@ -525,43 +485,6 @@ const tienda = [
             ['Uso', 'Estudio del sueño en domicilio (AOS)'],
             ['Software', 'Incluido, reporte automático AHI'],
             ['Garantía', '2 años'],
-        ],
-    },
-    // Concentradores KINGON adicionales
-    {
-        name: 'Concentrador Portátil KINGON P2-E7', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-e7', price: 'U$S 3.099', img: '/artifacts/products/1748964279808-p2-e7.jpg', badge: null, note: 'Autonomía y flujo extendidos.', category: 'Concentrador',
-        specs: [
-            ['Fabricante', 'KINGON'],
-            ['Modelo', 'P2-E7'],
-            ['Tipo', 'Portátil a pulso'],
-            ['Flujo', '5 settings'],
-            ['Autonomía', 'Hasta 7 hs'],
-            ['Apto vuelos', 'FAA'],
-            ['Garantía', '1 año'],
-        ],
-    },
-    {
-        name: 'Concentrador Portátil KINGON P2-E6', slug: 'concentrador-de-oxigeno-portatil-kingon-p2-e6', price: 'U$S 2.695', img: '/artifacts/products/1748963802989-kingonp2.png', badge: null, note: 'Opción intermedia.', category: 'Concentrador',
-        specs: [
-            ['Fabricante', 'KINGON'],
-            ['Modelo', 'P2-E6'],
-            ['Tipo', 'Portátil a pulso'],
-            ['Flujo', '5 settings'],
-            ['Autonomía', 'Hasta 6 hs'],
-            ['Apto vuelos', 'FAA'],
-            ['Garantía', '1 año'],
-        ],
-    },
-    {
-        name: 'Concentrador Portátil KINGON P2-E', slug: 'concentrador-de-oxigeno-portatil', price: 'U$S 2.379', img: '/artifacts/products/880a332c-b080-4b38-9ab2-059aba2ea797.jpg', badge: null, note: 'Entrada de gama KINGON.', category: 'Concentrador',
-        specs: [
-            ['Fabricante', 'KINGON'],
-            ['Modelo', 'P2-E'],
-            ['Tipo', 'Portátil a pulso'],
-            ['Flujo', '5 settings'],
-            ['Autonomía', '4 – 5 hs'],
-            ['Apto vuelos', 'FAA'],
-            ['Garantía', '1 año'],
         ],
     },
     {
@@ -853,11 +776,11 @@ const ALL_TAG_INFO = {
         icon: '🎒',
         title: 'Concentradores de oxígeno portátiles',
         subtitle: 'Movilidad e independencia para el paciente',
-        body: 'Los concentradores portátiles permiten al paciente continuar su oxigenoterapia fuera del hogar: salidas, viajes y vuelos. Son livianos (desde 2,3 kg), silenciosos y pueden cargarse en el auto o con batería.',
+        body: 'Los concentradores portátiles permiten al paciente continuar su oxigenoterapia fuera del hogar: salidas, viajes y vuelos. Funcionan con batería, se cargan en el auto o en la red y vienen homologados para vuelos.',
         bullets: [
             { icon: '✈️', text: 'Homologados para vuelos comerciales (aprobación FAA)' },
-            { icon: '🔋', text: 'Autonomía de batería: entre 4 y 9,5 horas según modelo' },
-            { icon: '⚖️', text: 'Desde 2,3 kg con batería (KINGON P2-S3, el más liviano de nuestro catálogo)' },
+            { icon: '🔋', text: 'Autonomía de batería de hasta 8 horas según modelo (GCE Zen-O con 2 baterías)' },
+            { icon: '💨', text: 'Pulso o flujo continuo (Philips SimplyGo, de 0,5 a 2 L/min)' },
             { icon: '🔌', text: 'Carga en 220V, 12V auto o batería intercambiable' },
         ],
         waMsg: 'Hola, necesito un concentrador de oxígeno portátil. ¿Qué modelos tienen y cuáles son los precios?',
@@ -1132,7 +1055,7 @@ const guides = [
             'No se recarga como un tubo: enchufás el equipo y produce oxígeno a partir del aire ambiente. Los portátiles usan batería para salidas.',
         ],
         color: '#10b981',
-        priceFrom: 'Desde $999.000 · Portátiles desde U$S 1.880',
+        priceFrom: 'Desde $999.000 · Portátiles desde U$S 3.747',
     },
     {
         icon: Waves,

@@ -45,7 +45,7 @@ Esta exclusión no afecta la garantía: si un producto llega con un defecto de f
 Una falla de funcionamiento no se resuelve como devolución sino por la garantía oficial del fabricante o del importador, que gestionamos nosotros con el servicio técnico. Los plazos dependen de cada equipo:
 
 - CPAP, AutoCPAP, BiPAP y ventilador STELLAR: 2 años.
-- Concentradores YUWELL de 10 litros y KINGON: 1 año.
+- Concentrador YUWELL de 10 litros: 1 año.
 - Concentradores portátiles GCE Zen-O y Philips SimplyGo: 3 años.
 - Máscaras: garantía oficial del fabricante.
 

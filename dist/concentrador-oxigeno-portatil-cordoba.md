@@ -23,7 +23,7 @@ Para quienes necesitan oxígeno pero no quieren quedar atados a un equipo fijo: 
 
 ## Modelos disponibles
 
-KINGON P2-S3: el más liviano de nuestro catálogo, ideal para uso diario. GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.
+GCE Zen-O: premium, con dos baterías y carro, homologado para vuelos. Philips SimplyGo: continuo + pulso, apto para viajes.
 
 Te ayudamos a elegir según el flujo que indicó tu médico.
 
@@ -62,8 +62,6 @@ La instalación la hace personal profesional especializado, que te explica cómo
 Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.
 
 ## Equipos relacionados
-
-- ![Concentrador portátil KINGON P2-S3 (el más liviano de nuestro catálogo)](https://insersalud.com/artifacts/products/f18cede5-9404-4eee-a751-01f532e715d7.jpg) Concentrador portátil KINGON P2-S3 (el más liviano de nuestro catálogo) — consultar
 
 - ![Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) Concentrador portátil GCE Zen-O (2 baterías + carro, apto vuelos) — consultar
 

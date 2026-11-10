@@ -32,7 +32,7 @@ export const homeFaq = [
     },
     {
         "q": "¿Tienen oxigenoterapia y concentradores de oxígeno?",
-        "a": "Sí. INSER SALUD ofrece oxigenoterapia domiciliaria con concentradores de oxígeno estacionarios (fijos) para uso continuo en el hogar y concentradores de oxígeno portátiles aptos para viajes (KINGON, GCE Zen-O, Philips SimplyGo). Disponibles para venta y alquiler en Córdoba, con entrega y soporte técnico."
+        "a": "Sí. INSER SALUD ofrece oxigenoterapia domiciliaria con concentradores de oxígeno estacionarios (fijos) para uso continuo en el hogar y concentradores de oxígeno portátiles aptos para viajes (GCE Zen-O, Philips SimplyGo). Disponibles para venta y alquiler en Córdoba, con entrega y soporte técnico."
     },
     {
         "q": "¿Trabajan con obras sociales o prepagas?",
