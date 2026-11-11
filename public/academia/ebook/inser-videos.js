@@ -96,7 +96,7 @@
 .iv-cap{padding:.8rem 1rem .95rem;display:flex;gap:.7rem;align-items:flex-start;font-size:.92rem;line-height:1.45}\
 .iv-cap b{display:block;color:#fff;font-size:1rem}\
 .iv-cap span{color:#9fb6ba}\
-.iv-kick{flex:0 0 auto;margin-top:.15rem;padding:.18rem .5rem;border-radius:6px;background:#19bca6;color:#071923;font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}\
+.iv-cap .iv-kick{flex:0 0 auto;margin-top:.15rem;padding:.18rem .5rem;border-radius:6px;background:#19bca6;color:#071923;font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}\
 .iv-sec{margin:2.4rem auto;padding:clamp(18px,3vw,32px);border-radius:16px;background:#0d2632;color:#eaf4f3;border:1px solid #173a48}\
 .iv-sec h2{margin:.2rem 0 .4rem;font-size:clamp(1.4rem,2.6vw,1.9rem);line-height:1.15;color:#fff}\
 .iv-sec>p{margin:0 0 1.2rem;color:#9fb6ba;font-size:.95rem}\
