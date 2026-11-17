@@ -4,7 +4,7 @@
 >
 > Venta de equipos de terapia respiratoria con envío a todo el país y precio publicado. Alquiler con entrega e instalación a domicilio en Córdoba Capital. Contacto: WhatsApp +54 9 351 206-5320.
 
-Páginas incluidas: 43 (home, 20 páginas de compra y alquiler, 6 patologías, 2 páginas de la Academia con sus 9 cursos gratuitos y 5 páginas institucionales: quiénes somos, contacto, políticas y tarjeta digital).
+Páginas incluidas: 66 (home, 20 páginas de compra y alquiler, 6 patologías, 2 páginas de la Academia con sus 9 cursos gratuitos, 23 fichas de producto y 5 páginas institucionales: quiénes somos, contacto, políticas y tarjeta digital).
 
 ---
 
@@ -3416,11 +3416,11 @@ El alquiler es solo en Córdoba Capital y alrededores: mirá [alquiler de concen
 
 ## Equipos relacionados
 
-- ![Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg) Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂) — $999.000
+- ![Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)](https://insersalud.com/artifacts/products/concentrador_bmc_1.jpg) [Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)](https://insersalud.com/producto/concentrador-de-oxigeno-bmc-estacionario) — $999.000
 
-- ![Concentrador de Oxígeno YUWELL 7F-5B 5 Litros](https://insersalud.com/artifacts/products/concentrador_yuwell_5l.jpg) Concentrador de Oxígeno YUWELL 7F-5B 5 Litros — $1.170.000
+- ![Concentrador de Oxígeno YUWELL 7F-5B 5 Litros](https://insersalud.com/artifacts/products/concentrador_yuwell_5l.jpg) [Concentrador de Oxígeno YUWELL 7F-5B 5 Litros](https://insersalud.com/producto/concentrador-de-oxigeno-yuwell-7f-5b) — $1.170.000
 
-- ![Concentrador portátil GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) Concentrador portátil GCE Zen-O (2 baterías + carro) — consultar
+- ![Concentrador portátil GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) [Concentrador portátil GCE Zen-O (2 baterías + carro)](https://insersalud.com/producto/gce-zen-o) — consultar
 
 - ![Concentrador YUWELL 10 litros (alto flujo)](https://insersalud.com/artifacts/products/concentrador_yuwell_10l_2.jpg) Concentrador YUWELL 10 litros (alto flujo) — $2.800.000
 
@@ -3634,9 +3634,9 @@ Todas nuestras máscaras son compatibles con equipos CPAP, AutoCPAP y BiPAP de c
 
 ## Precios de máscaras (referencia)
 
-Nasales: RESCOMF multitalle U$S 35 (la más económica de nuestro catálogo) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto U$S 153 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.
+Nasales: [RESCOMF multitalle](https://insersalud.com/producto/mascara-nasal-rescomf) U$S 35 (la más económica de nuestro catálogo) · [BMC N4](https://insersalud.com/producto/mascara-nasal-bmc-n4) U$S 36 · [BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a) U$S 60 · [BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle) U$S 89,50 · [Philips DreamWear mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear) U$S 153 · [ResMed AirFit](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto) U$S 157 · [Almohadillas Yuwell YP-01](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01) U$S 42.
 
-Nasobucales (full face): BMC F6 multitalle U$S 124 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face U$S 157 · BMC F2 codo azul SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.
+Nasobucales (full face): [BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6) U$S 124 (oferta, tan cómoda como la DreamWear) · [Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear) U$S 157 · [BMC F2 codo azul](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul) SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · [Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente) U$S 52 · [Yuwell YF02](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02) U$S 55 · [BMC F5A](https://insersalud.com/producto/mascara-buconasal-bmc-f5a) U$S 52 · [ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20) U$S 189,50 · [AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30) U$S 212.
 
 Los precios se actualizan; confirmá el valor del día por WhatsApp.
 
@@ -3654,19 +3654,19 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos co
 
 ## Equipos relacionados
 
-- ![Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)](https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg) Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo) — U$S 35
+- ![Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)](https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg) [Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)](https://insersalud.com/producto/mascara-nasal-rescomf) — U$S 35
 
-- ![Máscara nasal Philips DreamWear — mínimo contacto](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara nasal Philips DreamWear — mínimo contacto — U$S 153
+- ![Máscara nasal Philips DreamWear — mínimo contacto](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) [Máscara nasal Philips DreamWear — mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear) — U$S 153
 
-- ![Máscara nasobucal BMC F6 multitalle (oferta)](https://insersalud.com/artifacts/products/bmc_f2_1.jpg) Máscara nasobucal BMC F6 multitalle (oferta) — U$S 124
+- ![Máscara nasobucal BMC F6 multitalle (oferta)](https://insersalud.com/artifacts/products/bmc_f2_1.jpg) [Máscara nasobucal BMC F6 multitalle (oferta)](https://insersalud.com/producto/mascara-nasobucal-bmc-f6) — U$S 124
 
-- ![Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara nasobucal Philips DreamWear Full Face — U$S 157
+- ![Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear) — U$S 157
 
-- ![Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva](https://insersalud.com/artifacts/products/bmc_f2_codo_azul_2.jpg) Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva — $68.000
+- ![Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva](https://insersalud.com/artifacts/products/bmc_f2_codo_azul_2.jpg) [Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul) — $68.000
 
 - Máscaras pediátricas (Cirri Mini, Philips Wisp, Infant CPAP Kit) — desde U$S 97
 
-- ![Tubuladura para CPAP / BiPAP](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) Tubuladura para CPAP / BiPAP — $50.000
+- ![Tubuladura para CPAP / BiPAP](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) [Tubuladura para CPAP / BiPAP](https://insersalud.com/producto/tubuladura-cpap-bipap) — $50.000
 
 ## Preguntas frecuentes
 
@@ -3796,13 +3796,13 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos la
 
 ## Equipos relacionados
 
-- ![Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)](https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg) Máscara Nasal Pediátrica Philips Wisp (la de la jirafa) — U$S 227
+- ![Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)](https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg) [Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp) — U$S 227
 
-- ![Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)](https://insersalud.com/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg) Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L) — U$S 105
+- ![Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)](https://insersalud.com/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg) [Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini) — U$S 105
 
-- ![Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg) Infant CPAP Kit neonatal (tallas 00 a 5) — U$S 97
+- ![Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg) [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal) — U$S 97
 
-- ![Tubuladura para CPAP / BiPAP (repuesto universal)](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) Tubuladura para CPAP / BiPAP (repuesto universal) — $50.000
+- ![Tubuladura para CPAP / BiPAP (repuesto universal)](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) [Tubuladura para CPAP / BiPAP (repuesto universal)](https://insersalud.com/producto/tubuladura-cpap-bipap) — $50.000
 
 ## Preguntas frecuentes
 
@@ -4111,9 +4111,9 @@ Respondemos por WhatsApp todos los días, también fines de semana.
 
 ## Equipos relacionados
 
-- ![GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) GCE Zen-O (2 baterías + carro, apto vuelos) — U$S 3.747
+- ![GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) [GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/producto/gce-zen-o) — U$S 3.747
 
-- ![Philips SimplyGo (continuo + pulso)](https://insersalud.com/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg) Philips SimplyGo (continuo + pulso) — U$S 3.887
+- ![Philips SimplyGo (continuo + pulso)](https://insersalud.com/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg) [Philips SimplyGo (continuo + pulso)](https://insersalud.com/producto/philips-simplygo) — U$S 3.887
 
 ## Preguntas frecuentes
 
@@ -4582,6 +4582,2131 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 - [Curso gratuito (ebook): Ventilación en enfermedades neuromusculares, con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
 
 INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Cough%20Assist%20(asistente%20de%20tos%20mec%C3%A1nico)%3A%20precio%20y%20venta%20en%20Argentina%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Philips DreamWear nasal: máscara para CPAP y BiPAP | INSER"
+description: "Máscara nasal Philips Respironics DreamWear de mínimo contacto, en silicona hipoalergénica. Precio: U$S 153. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasal-philips-dreamwear
+canonical: https://insersalud.com/producto/mascara-nasal-philips-dreamwear
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasal Philips DreamWear de mínimo contacto
+
+**Precio:** U$S 153. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Philips Respironics
+
+## Descripción
+
+Máscara nasal Philips Respironics DreamWear de mínimo contacto, en silicona hipoalergénica. Talles S, M, L y MW. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** Philips Respironics
+
+- **Tipo:** Máscara nasal de mínimo contacto
+
+- **Compatibilidad:** CPAP, AutoCPAP, BiPAP
+
+- **Material:** Silicona hipoalergénica suave
+
+- **Tubo:** Ingresa por la parte superior de la cabeza
+
+- **Tallas:** S / M / L / MW
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasal cubre solo la nariz: es la indicada si respirás por la nariz al dormir. Si respirás por la boca, tenés congestión frecuente o usás presiones altas, suele corresponder una nasobucal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasal Philips DreamWear de mínimo contacto?
+
+U$S 153. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M / L / MW. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): U$S 35
+
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): U$S 36
+
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): U$S 60
+
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): U$S 89,50
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "RESCOMF: máscara nasal para CPAP y BiPAP | INSER"
+description: "Máscara nasal RESCOMF con apoya frente y arnés de 4 puntos de fijación. Talles S, M y L. Precio: U$S 35. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasal-rescomf
+canonical: https://insersalud.com/producto/mascara-nasal-rescomf
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasal RESCOMF con apoya frente
+
+**Precio:** U$S 35. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: RESCOMF
+
+## Descripción
+
+Máscara nasal RESCOMF con apoya frente y arnés de 4 puntos de fijación. Talles S, M y L. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** Rescomf
+
+- **Tipo:** Máscara nasal con apoya frente
+
+- **Compatibilidad:** CPAP, AutoCPAP, BiPAP (conector universal)
+
+- **Material:** Silicona médica suave
+
+- **Tallas:** S / M / L
+
+- **Arnés:** 4 puntos de fijación ajustables
+
+- **Garantía:** 90 días
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasal cubre solo la nariz: es la indicada si respirás por la nariz al dormir. Si respirás por la boca, tenés congestión frecuente o usás presiones altas, suele corresponder una nasobucal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** 90 días.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasal RESCOMF con apoya frente?
+
+U$S 35. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M / L. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): U$S 36
+
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): U$S 60
+
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): U$S 89,50
+
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): U$S 157
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "BMC N4: máscara nasal con apoya frente para CPAP | INSER"
+description: "Máscara nasal BMC N4 (BMC Medical) con apoya frente y almohadilla de gel suave. Talles M y L. Precio: U$S 36. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasal-bmc-n4
+canonical: https://insersalud.com/producto/mascara-nasal-bmc-n4
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasal BMC N4 con apoya frente
+
+**Precio:** U$S 36. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
+
+## Descripción
+
+Máscara nasal BMC N4 (BMC Medical) con apoya frente y almohadilla de gel suave. Talles M y L. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** BMC Medical
+
+- **Tipo:** Nasal con apoya frente
+
+- **Tallas:** M / L
+
+- **Material:** Silicona
+
+- **Compatibilidad:** CPAP / BiPAP (conector universal)
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasal cubre solo la nariz: es la indicada si respirás por la nariz al dormir. Si respirás por la boca, tenés congestión frecuente o usás presiones altas, suele corresponder una nasobucal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasal BMC N4 con apoya frente?
+
+U$S 36. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+M / L. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): U$S 60
+
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): U$S 89,50
+
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): U$S 157
+
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): U$S 42
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "BMC N5a: máscara nasal sin apoya frente para CPAP | INSER"
+description: "Máscara nasal BMC N5a (BMC Medical) sin apoya frente, que deja un amplio campo visual. Talles SW, S y M. Precio: U$S 60. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasal-bmc-n5a
+canonical: https://insersalud.com/producto/mascara-nasal-bmc-n5a
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasal BMC N5a sin apoya frente
+
+**Precio:** U$S 60. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
+
+## Descripción
+
+Máscara nasal BMC N5a (BMC Medical) sin apoya frente, que deja un amplio campo visual. Talles SW, S y M. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** BMC Medical
+
+- **Modelo:** N5a
+
+- **Tipo:** Nasal sin apoya frente
+
+- **Tallas:** SW / S / M
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasal cubre solo la nariz: es la indicada si respirás por la nariz al dormir. Si respirás por la boca, tenés congestión frecuente o usás presiones altas, suele corresponder una nasobucal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasal BMC N5a sin apoya frente?
+
+U$S 60. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+SW / S / M. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): U$S 89,50
+
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): U$S 157
+
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): U$S 42
+
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): U$S 157
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "BMC multitalle: máscara nasal para CPAP y BiPAP | INSER"
+description: "Máscara nasal multitalle BMC Medical que se adapta a distintas morfologías faciales. Precio: U$S 89,50. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasal-bmc-multitalle
+canonical: https://insersalud.com/producto/mascara-nasal-bmc-multitalle
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasal BMC multitalle
+
+**Precio:** U$S 89,50. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
+
+## Descripción
+
+Máscara nasal multitalle BMC Medical que se adapta a distintas morfologías faciales. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** BMC Medical
+
+- **Tipo:** Nasal multitalle
+
+- **Material:** Silicona adaptable
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasal cubre solo la nariz: es la indicada si respirás por la nariz al dormir. Si respirás por la boca, tenés congestión frecuente o usás presiones altas, suele corresponder una nasobucal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasal BMC multitalle?
+
+U$S 89,50. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): U$S 157
+
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): U$S 42
+
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): U$S 157
+
+- [Máscara nasobucal BMC F6 con apoya frente](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): U$S 124
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "ResMed AirFit nasal: máscara de mínimo contacto | INSER"
+description: "Máscara nasal ResMed AirFit de mínimo contacto, sin apoya frente. Talles SW, S y M. Precio: U$S 157. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto
+canonical: https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasal ResMed AirFit de mínimo contacto
+
+**Precio:** U$S 157. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: ResMed
+
+## Descripción
+
+Máscara nasal ResMed AirFit de mínimo contacto, sin apoya frente. Talles SW, S y M. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** ResMed
+
+- **Modelo:** AirFit (nasal mínimo contacto)
+
+- **Tipo:** Nasal de mínimo contacto
+
+- **Tallas:** SW / S / M
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasal cubre solo la nariz: es la indicada si respirás por la nariz al dormir. Si respirás por la boca, tenés congestión frecuente o usás presiones altas, suele corresponder una nasobucal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasal ResMed AirFit de mínimo contacto?
+
+U$S 157. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+SW / S / M. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): U$S 42
+
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): U$S 157
+
+- [Máscara nasobucal BMC F6 con apoya frente](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): U$S 124
+
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): U$S 52
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Yuwell YP-01: almohadillas nasales para CPAP | INSER"
+description: "Máscara de almohadillas nasales (pillow) Yuwell YP-01, de mínima presencia facial. Talles M y L. Precio: U$S 42. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01
+canonical: https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Almohadillas nasales Yuwell YP-01 (pillow)
+
+**Precio:** U$S 42. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Yuwell
+
+## Descripción
+
+Máscara de almohadillas nasales (pillow) Yuwell YP-01, de mínima presencia facial. Talles M y L. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** YUWELL
+
+- **Modelo:** YP-01 Pillow
+
+- **Tipo:** Almohadillas nasales
+
+- **Tallas:** L / M
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Las almohadillas nasales apoyan directo en las fosas nasales, con mínima presencia en la cara. Sirven si respirás por la nariz al dormir; si respirás por la boca, tenés congestión frecuente o usás presiones altas, suele corresponder una nasobucal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuestan las almohadillas nasales Yuwell YP-01?
+
+U$S 42. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles vienen?
+
+L / M. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): U$S 157
+
+- [Máscara nasobucal BMC F6 con apoya frente](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): U$S 124
+
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): U$S 52
+
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): U$S 55
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Philips DreamWear Full Face: máscara nasobucal | INSER"
+description: "Máscara nasobucal (full face) Philips Respironics DreamWear: cubre nariz y boca con mínimo contacto. Precio: U$S 157. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear
+canonical: https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasobucal Philips DreamWear Full Face
+
+**Precio:** U$S 157. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Philips Respironics
+
+## Descripción
+
+Máscara nasobucal (full face) Philips Respironics DreamWear: cubre nariz y boca con mínimo contacto. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** Philips Respironics
+
+- **Tipo:** Máscara nasobucal (full face) de mínimo contacto
+
+- **Compatibilidad:** CPAP, AutoCPAP, BiPAP
+
+- **Material:** Silicona hipoalergénica
+
+- **Tubo superior:** Sale por la parte superior de la cabeza
+
+- **Tallas:** S / M / L
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasobucal (también llamada buconasal o full face) cubre nariz y boca: se usa si respirás por la boca al dormir, tenés congestión frecuente o usás presiones altas. Si respirás por la nariz, podés usar una máscara nasal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasobucal Philips DreamWear Full Face?
+
+U$S 157. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M / L. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasobucal BMC F6 con apoya frente](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): U$S 124
+
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): U$S 52
+
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): U$S 55
+
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): U$S 52
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "BMC F6: máscara nasobucal para CPAP y BiPAP | INSER"
+description: "Máscara nasobucal (full face) BMC F6 (BMC Medical) con apoya frente. Talles S, M y L. Precio: U$S 124. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasobucal-bmc-f6
+canonical: https://insersalud.com/producto/mascara-nasobucal-bmc-f6
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasobucal BMC F6 con apoya frente
+
+**Precio:** U$S 124. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
+
+## Descripción
+
+Máscara nasobucal (full face) BMC F6 (BMC Medical) con apoya frente. Talles S, M y L. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** BMC Medical
+
+- **Tipo:** Nasobucal (full face) con apoya frente
+
+- **Tallas:** S / M / L (multitalle)
+
+- **Compatibilidad:** CPAP / BiPAP
+
+- **Material:** Silicona médica suave
+
+- **Garantía:** 1 año oficial
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasobucal (también llamada buconasal o full face) cubre nariz y boca: se usa si respirás por la boca al dormir, tenés congestión frecuente o usás presiones altas. Si respirás por la nariz, podés usar una máscara nasal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** 1 año oficial.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasobucal BMC F6 con apoya frente?
+
+U$S 124. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M / L (multitalle). Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): U$S 52
+
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): U$S 55
+
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): U$S 52
+
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): U$S 189,50
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Yuwell con apoya frente: máscara buconasal CPAP | INSER"
+description: "Máscara buconasal (full face) Yuwell con apoya frente. Talles S, M y L. Precio: U$S 52. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente
+canonical: https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara buconasal Yuwell con apoya frente
+
+**Precio:** U$S 52. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Yuwell
+
+## Descripción
+
+Máscara buconasal (full face) Yuwell con apoya frente. Talles S, M y L. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** YUWELL
+
+- **Tipo:** Nasobucal con apoya frente
+
+- **Tallas:** S / M / L
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasobucal (también llamada buconasal o full face) cubre nariz y boca: se usa si respirás por la boca al dormir, tenés congestión frecuente o usás presiones altas. Si respirás por la nariz, podés usar una máscara nasal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara buconasal Yuwell con apoya frente?
+
+U$S 52. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M / L. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): U$S 55
+
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): U$S 52
+
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): U$S 189,50
+
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): U$S 212
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Yuwell YF02: máscara buconasal sin apoya frente | INSER"
+description: "Máscara buconasal (full face) Yuwell YF02 sin apoya frente, con campo visual amplio. Talles S, M y L. Precio: U$S 55. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-buconasal-yuwell-yf02
+canonical: https://insersalud.com/producto/mascara-buconasal-yuwell-yf02
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara buconasal Yuwell YF02 sin apoya frente
+
+**Precio:** U$S 55. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Yuwell
+
+## Descripción
+
+Máscara buconasal (full face) Yuwell YF02 sin apoya frente, con campo visual amplio. Talles S, M y L. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** YUWELL
+
+- **Modelo:** YF02
+
+- **Tipo:** Nasobucal sin apoya frente (mayor campo visual)
+
+- **Tallas:** S / M / L
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasobucal (también llamada buconasal o full face) cubre nariz y boca: se usa si respirás por la boca al dormir, tenés congestión frecuente o usás presiones altas. Si respirás por la nariz, podés usar una máscara nasal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara buconasal Yuwell YF02 sin apoya frente?
+
+U$S 55. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M / L. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): U$S 52
+
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): U$S 189,50
+
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): U$S 212
+
+- [Máscara buconasal BMC F2 codo azul (no ventilada)](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul): $68.000
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "BMC F5A: máscara buconasal sin apoya frente | INSER"
+description: "Máscara buconasal (full face) BMC F5A (BMC Medical) sin apoya frente, con amplia visión. Talles S, M y L. Precio: U$S 52. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-buconasal-bmc-f5a
+canonical: https://insersalud.com/producto/mascara-buconasal-bmc-f5a
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara buconasal BMC F5A sin apoya frente
+
+**Precio:** U$S 52. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
+
+## Descripción
+
+Máscara buconasal (full face) BMC F5A (BMC Medical) sin apoya frente, con amplia visión. Talles S, M y L. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** BMC Medical
+
+- **Modelo:** F5A
+
+- **Tipo:** Nasobucal sin apoya frente
+
+- **Tallas:** S / M / L
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasobucal (también llamada buconasal o full face) cubre nariz y boca: se usa si respirás por la boca al dormir, tenés congestión frecuente o usás presiones altas. Si respirás por la nariz, podés usar una máscara nasal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara buconasal BMC F5A sin apoya frente?
+
+U$S 52. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M / L. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): U$S 189,50
+
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): U$S 212
+
+- [Máscara buconasal BMC F2 codo azul (no ventilada)](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul): $68.000
+
+- [Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)](https://insersalud.com/producto/tubuladura-cpap-bipap): $50.000
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "ResMed AirFit F20: máscara nasobucal para CPAP | INSER"
+description: "Máscara nasobucal (full face) ResMed AirFit F20, de sellado amplio. Talles S, M y L. Precio: U$S 189,50. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20
+canonical: https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasobucal ResMed AirFit F20
+
+**Precio:** U$S 189,50. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: ResMed
+
+## Descripción
+
+Máscara nasobucal (full face) ResMed AirFit F20, de sellado amplio. Talles S, M y L. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** ResMed
+
+- **Modelo:** AirFit F20
+
+- **Tipo:** Nasobucal full-face
+
+- **Tallas:** S / M / L
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasobucal (también llamada buconasal o full face) cubre nariz y boca: se usa si respirás por la boca al dormir, tenés congestión frecuente o usás presiones altas. Si respirás por la nariz, podés usar una máscara nasal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasobucal ResMed AirFit F20?
+
+U$S 189,50. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M / L. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): U$S 212
+
+- [Máscara buconasal BMC F2 codo azul (no ventilada)](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul): $68.000
+
+- [Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)](https://insersalud.com/producto/tubuladura-cpap-bipap): $50.000
+
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): U$S 153
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "ResMed AirFit F30: máscara nasobucal de bajo perfil | INSER"
+description: "Máscara nasobucal ResMed AirFit F30 de bajo perfil: apoya por debajo de la nariz. Para CPAP y BiPAP. Precio: U$S 212. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30
+canonical: https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasobucal ResMed AirFit F30
+
+**Precio:** U$S 212. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: ResMed
+
+## Descripción
+
+Máscara nasobucal (full face) ResMed AirFit F30 de contacto mínimo y bajo perfil: apoya por debajo de la nariz. Compatible con CPAP, AutoCPAP y BiPAP.
+
+## Características
+
+- **Fabricante:** ResMed
+
+- **Modelo:** AirFit F30
+
+- **Tipo:** Nasobucal de mínimo contacto sub-nasal
+
+- **Tallas:** S / M
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## ¿Es el tipo de máscara que necesitás?
+
+Una máscara nasobucal (también llamada buconasal o full face) cubre nariz y boca: se usa si respirás por la boca al dormir, tenés congestión frecuente o usás presiones altas. Si respirás por la nariz, podés usar una máscara nasal. En [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) comparamos los tres tipos.
+
+El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.
+
+La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, [el alquiler ya incluye la máscara](https://insersalud.com/alquiler-cpap-cordoba).
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasobucal ResMed AirFit F30?
+
+U$S 212. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+S / M. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con mi CPAP o BiPAP?
+
+Usa la conexión estándar de tubuladura de 22 mm, compatible con CPAP, AutoCPAP y BiPAP. Si tenés dudas, pasanos la marca y el modelo de tu equipo y te lo confirmamos antes de comprar.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara buconasal BMC F2 codo azul (no ventilada)](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul): $68.000
+
+- [Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)](https://insersalud.com/producto/tubuladura-cpap-bipap): $50.000
+
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): U$S 153
+
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): U$S 35
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "BMC F2 codo azul: máscara no ventilada para VNI | INSER"
+description: "Máscara buconasal BMC F2 no ventilada, con codo azul, para respiradores de terapia intensiva y VNI con válvula espiratoria. Precio: $68.000."
+url: https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul
+canonical: https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara buconasal BMC F2 codo azul (no ventilada)
+
+**Precio:** $68.000. Los precios se actualizan: el valor del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
+
+## Descripción
+
+Máscara buconasal (full face) BMC F2 (BMC Medical) no ventilada, con codo azul y sin puertos de exhalación: para respiradores de terapia intensiva y VNI con válvula espiratoria. No es para CPAP ni BiPAP domiciliario. Silicona médica, conexión estándar de 22 mm. Aprobada por ANMAT.
+
+Silicona médica hipoalergénica, arnés con apoya frente y conexión estándar de 22 mm.
+
+## Características
+
+- **Fabricante:** BMC Medical
+
+- **Tipo:** Buconasal (full face) NO ventilada — codo azul
+
+- **Uso:** Respiradores de terapia intensiva / VNI con válvula espiratoria
+
+- **Fuga:** SIN puertos de exhalación (sin fuga intencional)
+
+- **Conexión:** Estándar 22 mm
+
+- **Material:** Silicona médica hipoalergénica
+
+- **Importante:** NO usar con CPAP/BiPAP domiciliario estándar (requieren máscara ventilada)
+
+- **Garantía:** 1 año oficial
+
+## Para qué equipos es
+
+Es una máscara no ventilada: no tiene puertos de exhalación. Se usa con respiradores de terapia intensiva y con equipos de ventilación no invasiva que tienen válvula espiratoria.
+
+**No sirve para un CPAP o BiPAP domiciliario estándar**, que necesitan una máscara ventilada. Si tu equipo es de uso en casa, mirá las [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) o escribinos y te confirmamos cuál corresponde.
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** 1 año oficial.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara buconasal BMC F2 codo azul?
+
+$68.000. Los precios se actualizan: confirmá el valor del día por WhatsApp.
+
+### ¿Sirve para mi CPAP o BiPAP de casa?
+
+No. Es una máscara no ventilada, para respiradores de terapia intensiva y VNI con válvula espiratoria. Un CPAP o BiPAP domiciliario estándar necesita una máscara ventilada.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)](https://insersalud.com/producto/tubuladura-cpap-bipap): $50.000
+
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): U$S 153
+
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): U$S 35
+
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): U$S 36
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Philips Wisp pediátrica (jirafa): máscara nasal | INSER"
+description: "Máscara nasal pediátrica Philips Respironics Wisp, con funda de diseño de jirafa. Para CPAP y BiPAP. Precio: U$S 227. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-pediatrica-philips-wisp
+canonical: https://insersalud.com/producto/mascara-pediatrica-philips-wisp
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasal pediátrica Philips Wisp (jirafa)
+
+**Precio:** U$S 227. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas) · Marca: Philips Respironics
+
+## Descripción
+
+Máscara nasal pediátrica Philips Respironics Wisp, con funda de diseño de jirafa. Para CPAP y BiPAP. El tipo y el talle de máscara se eligen según la indicación del médico tratante.
+
+El armazón es compacto y la almohadilla es de silicona hipoalergénica, apoyada solo sobre la nariz. Es compatible con equipos de CPAP y BiPAP. La elección del modelo y del talle no se hace por catálogo: te asesoramos según la edad, la anatomía del paciente y la indicación médica.
+
+## Características
+
+- **Fabricante:** Philips Respironics
+
+- **Modelo:** Wisp pediátrica (diseño jirafa)
+
+- **Tipo:** Nasal pediátrica
+
+- **Material:** Silicona hipoalergénica
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## El talle no se elige por catálogo
+
+La cara de un chico no es una cara adulta a escala. El talle correcto depende de la edad, del tamaño y la forma de la cara, de la presión indicada y de si respira por la nariz o abre la boca al dormir.
+
+Escribinos por WhatsApp con esos datos y con la marca y el modelo del equipo: te decimos cuál corresponde y te confirmamos la compatibilidad antes de comprar. Las máscaras pediátricas se usan siempre con indicación médica.
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene.
+
+[Ver las máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas)
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasal pediátrica Philips Wisp?
+
+U$S 227. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿Es compatible con el equipo que usa mi hijo?
+
+Es para equipos de CPAP y BiPAP. Antes de comprar, pasanos por WhatsApp la marca y el modelo del equipo y te confirmamos la compatibilidad.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras pediátricas
+
+- [Máscara nasal pediátrica HSINER Cirri Mini](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini): U$S 105
+
+- [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal): U$S 97
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "HSINER Cirri Mini: máscara nasal pediátrica | INSER"
+description: "Máscara nasal pediátrica HSINER Cirri Mini para CPAP y BiPAP. Talles XS, S, M y L. Precio: U$S 105. Envío a todo el país."
+url: https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini
+canonical: https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Máscara nasal pediátrica HSINER Cirri Mini
+
+**Precio:** U$S 105. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas) · Marca: HSINER
+
+## Descripción
+
+Máscara nasal pediátrica HSINER Cirri Mini para CPAP y BiPAP. Talles XS, S, M y L. El tipo y el talle de máscara se eligen según la indicación del médico tratante.
+
+## Características
+
+- **Fabricante:** HSINER
+
+- **Modelo:** Cirri Mini
+
+- **Tipo:** Nasal pediátrica
+
+- **Tallas:** XS / S / M / L
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## El talle no se elige por catálogo
+
+La cara de un chico no es una cara adulta a escala. El talle correcto depende de la edad, del tamaño y la forma de la cara, de la presión indicada y de si respira por la nariz o abre la boca al dormir.
+
+Escribinos por WhatsApp con esos datos y con la marca y el modelo del equipo: te decimos cuál corresponde y te confirmamos la compatibilidad antes de comprar. Las máscaras pediátricas se usan siempre con indicación médica.
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene.
+
+[Ver las máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas)
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la máscara nasal pediátrica HSINER Cirri Mini?
+
+U$S 105. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿En qué talles viene?
+
+XS / S / M / L. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.
+
+### ¿Es compatible con el equipo que usa mi hijo?
+
+Es para equipos de CPAP y BiPAP. Antes de comprar, pasanos por WhatsApp la marca y el modelo del equipo y te confirmamos la compatibilidad.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras pediátricas
+
+- [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal): U$S 97
+
+- [Máscara nasal pediátrica Philips Wisp (jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp): U$S 227
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Infant CPAP Kit neonatal: tallas 00 a 5 | INSER"
+description: "Kit de CPAP neonatal con tallas 00, 0, 1, 2, 3, 4 y 5. Precio: U$S 97. Envío a todo el país."
+url: https://insersalud.com/producto/infant-cpap-kit-neonatal
+canonical: https://insersalud.com/producto/infant-cpap-kit-neonatal
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Infant CPAP Kit neonatal (tallas 00 a 5)
+
+**Precio:** U$S 97. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Categoría: [Máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas)
+
+## Descripción
+
+Kit de CPAP neonatal con tallas 00, 0, 1, 2, 3, 4 y 5. El tipo y el talle de interfaz se eligen según la indicación del médico tratante.
+
+## Características
+
+- **Tipo:** Kit de máscaras nasales pediátricas
+
+- **Tallas incluidas:** 00 / 0 / 1 / 2 / 3 / 4 / 5
+
+- **Uso:** Neonatos, lactantes y niños
+
+- **Compatibilidad:** CPAP / BiPAP
+
+## El talle no se elige por catálogo
+
+La cara de un chico no es una cara adulta a escala. El talle correcto depende de la edad, del tamaño y la forma de la cara, de la presión indicada y de si respira por la nariz o abre la boca al dormir.
+
+Escribinos por WhatsApp con esos datos y con la marca y el modelo del equipo: te decimos cuál corresponde y te confirmamos la compatibilidad antes de comprar. Las máscaras pediátricas se usan siempre con indicación médica.
+
+## Cambio y cuidado
+
+La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene.
+
+[Ver las máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas)
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Garantía:** oficial del fabricante.
+
+- **Devoluciones:** por razones de higiene, las máscaras y los descartables no tienen devolución una vez abiertos o usados. Si el producto llega con un defecto de fábrica, se aplica la garantía. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta el Infant CPAP Kit neonatal?
+
+U$S 97. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿Es compatible con el equipo que usa mi hijo?
+
+Es para equipos de CPAP y BiPAP. Antes de comprar, pasanos por WhatsApp la marca y el modelo del equipo y te confirmamos la compatibilidad.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras pediátricas
+
+- [Máscara nasal pediátrica Philips Wisp (jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp): U$S 227
+
+- [Máscara nasal pediátrica HSINER Cirri Mini](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini): U$S 105
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Tubuladura para CPAP y BiPAP de 22 mm | INSER"
+description: "Tubuladura de repuesto para CPAP, AutoCPAP y BiPAP, de 22 mm de diámetro estándar y 1,8 m de largo. Precio: $50.000. Envío a todo el país."
+url: https://insersalud.com/producto/tubuladura-cpap-bipap
+canonical: https://insersalud.com/producto/tubuladura-cpap-bipap
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)
+
+**Precio:** $50.000. Los precios se actualizan: el valor del día se confirma por WhatsApp.
+
+Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap)
+
+## Descripción
+
+Tubuladura de repuesto para equipos CPAP, AutoCPAP y BiPAP, de 22 mm de diámetro estándar y 1,8 m de largo aproximado.
+
+## Características
+
+- **Tipo:** Tubuladura (manguera) de paciente
+
+- **Compatibilidad:** CPAP / BiPAP universal
+
+- **Diámetro:** 22 mm estándar
+
+- **Largo:** 1,8 m aprox.
+
+- **Material:** PVC flexible de grado médico
+
+- **Uso:** Repuesto / recambio de tubo
+
+## Para qué sirve
+
+Es el tubo que une el equipo con la máscara. Este repuesto tiene la conexión estándar de 22 mm que usan los CPAP, AutoCPAP y BiPAP. Por WhatsApp te confirmamos la compatibilidad con tu equipo antes de comprar.
+
+## Cuidado
+
+La tubuladura se lava y se cuelga a secar. Si se raja, hay que reemplazarla.
+
+[Ver todas las máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap)
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** efectivo, transferencia o tarjeta.
+
+- **Devoluciones:** por razones de higiene, las tubuladuras son descartables y no tienen devolución. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta la tubuladura para CPAP y BiPAP?
+
+$50.000. Los precios se actualizan: confirmá el valor del día por WhatsApp.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otras máscaras e insumos
+
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): U$S 153
+
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): U$S 35
+
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): U$S 36
+
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): U$S 60
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "BMC estacionario 5 L/min: concentrador de oxígeno | INSER"
+description: "Concentrador de oxígeno estacionario BMC (BMC Medical) para uso domiciliario continuo. Precio: $999.000. Envío a todo el país."
+url: https://insersalud.com/producto/concentrador-de-oxigeno-bmc-estacionario
+canonical: https://insersalud.com/producto/concentrador-de-oxigeno-bmc-estacionario
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# BMC estacionario de 5 L/min: concentrador de oxígeno con control remoto
+
+**Precio:** $999.000. Los precios se actualizan: el valor del día se confirma por WhatsApp.
+
+Con control remoto y medidor de oxígeno.
+
+Categoría: [Concentradores de oxígeno](https://insersalud.com/comprar-concentrador-oxigeno-argentina) · Marca: BMC Medical
+
+## Descripción
+
+Concentrador de oxígeno estacionario BMC (BMC Medical) para uso domiciliario continuo. Flujo regulable de 0,5 a 5 L/min y pureza de oxígeno igual o mayor al 93%. Control remoto para manejo a distancia, medidor de pureza de oxígeno integrado y display digital de pureza, flujo y horas de uso. Aparatología aprobada por ANMAT. Garantía oficial del fabricante: 2 años. El flujo lo define el médico tratante.
+
+## Características
+
+- **Fabricante:** BMC Medical
+
+- **Tipo:** Concentrador estacionario domiciliario
+
+- **Control remoto:** Sí — manejo a distancia
+
+- **Medidor de O₂:** Sí — monitor de pureza integrado
+
+- **Flujo:** 0,5 – 5 L/min
+
+- **Pureza O₂:** ≥ 93%
+
+- **Pantalla:** Display digital (pureza, flujo, horas)
+
+- **Uso:** Continuo, día y noche
+
+- **Garantía:** 2 años
+
+## ¿Es el equipo que te indicaron?
+
+El dato que define el equipo es el flujo de tu indicación médica, en litros por minuto. Hasta 5 L/min lo cubre un concentrador estacionario como este; por encima de eso hace falta un equipo de alto flujo, como el [concentrador Yuwell de 10 litros](https://insersalud.com/concentrador-oxigeno-10-litros).
+
+Funciona enchufado a la red eléctrica y produce oxígeno a partir del aire del ambiente: no hay tubos que recargar. El filtro externo se limpia con agua una vez por mes y se deja secar.
+
+Por seguridad, no se fuma ni se acerca una llama al equipo mientras está en uso.
+
+En Córdoba también alquilamos concentradores con entrega e instalación a domicilio: mirá [alquiler de concentrador de oxígeno en Córdoba](https://insersalud.com/alquiler-concentrador-oxigeno-cordoba).
+
+[Ver todos los concentradores de oxígeno](https://insersalud.com/comprar-concentrador-oxigeno-argentina)
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
+
+- **Garantía:** 2 años.
+
+- **Devoluciones:** si comprás a distancia tenés 10 días corridos para arrepentirte de la compra. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta el concentrador de oxígeno BMC estacionario de 5 L/min?
+
+$999.000. Los precios se actualizan: confirmá el valor del día por WhatsApp.
+
+### ¿Necesito indicación médica?
+
+La oxigenoterapia se usa según indicación médica, con el flujo en litros por minuto. Te asesoramos para que el equipo cumpla con lo que te indicaron.
+
+### ¿Se puede alquilar en lugar de comprar?
+
+En Córdoba sí: alquilamos concentradores con entrega e instalación a domicilio, y el alquiler se cotiza por WhatsApp. Al resto del país vendemos con envío.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otros concentradores de oxígeno
+
+- [Concentrador de oxígeno Yuwell 7F-5B de 5 L/min](https://insersalud.com/producto/concentrador-de-oxigeno-yuwell-7f-5b): $1.170.000
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Yuwell 7F-5B: estacionario 5 L/min con humidificador | INSER"
+description: "Concentrador de oxígeno estacionario Yuwell 7F-5B para uso domiciliario. Precio: $1.170.000. Envío a todo el país."
+url: https://insersalud.com/producto/concentrador-de-oxigeno-yuwell-7f-5b
+canonical: https://insersalud.com/producto/concentrador-de-oxigeno-yuwell-7f-5b
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Yuwell 7F-5B: concentrador de oxígeno estacionario de 5 L/min
+
+**Precio:** $1.170.000. Los precios se actualizan: el valor del día se confirma por WhatsApp.
+
+6 cuotas sin interés de $195.000. Envío gratis.
+
+Categoría: [Concentradores de oxígeno](https://insersalud.com/comprar-concentrador-oxigeno-argentina) · Marca: Yuwell
+
+## Descripción
+
+Concentrador de oxígeno estacionario Yuwell 7F-5B para uso domiciliario. Flujo continuo regulable de 0,5 a 5 L/min, humidificador incorporado y bajo nivel de ruido. Funciona enchufado a la red eléctrica y produce oxígeno a partir del aire ambiente, sin recarga. Aparatología aprobada por ANMAT. Garantía oficial del fabricante y servicio técnico. El flujo y las horas de uso los define el médico tratante.
+
+Trae humidificador incorporado, que ayuda a evitar la sequedad de nariz y garganta en los tratamientos prolongados, y funciona con bajo nivel de ruido, de modo que puede usarse en el dormitorio durante la noche. No se recarga como un tubo: se enchufa y produce oxígeno a partir del aire del ambiente, sin costo de reposición. El flujo en litros por minuto y las horas de uso los indica tu médico según tu saturación.
+
+## Características
+
+- **Fabricante:** YUWELL (China)
+
+- **Modelo:** 7F-5B
+
+- **Tipo:** Concentrador estacionario (domiciliario)
+
+- **Flujo:** 0,5 – 5 L/min (continuo)
+
+- **Humidificador:** Incorporado
+
+- **Ruido:** Bajo nivel de ruido
+
+- **Garantía:** Oficial, con servicio técnico
+
+## ¿Es el equipo que te indicaron?
+
+El dato que define el equipo es el flujo de tu indicación médica, en litros por minuto. Hasta 5 L/min lo cubre un concentrador estacionario como este; por encima de eso hace falta un equipo de alto flujo, como el [concentrador Yuwell de 10 litros](https://insersalud.com/concentrador-oxigeno-10-litros).
+
+Funciona enchufado a la red eléctrica y produce oxígeno a partir del aire del ambiente: no hay tubos que recargar. El filtro externo se limpia con agua una vez por mes y se deja secar.
+
+Por seguridad, no se fuma ni se acerca una llama al equipo mientras está en uso.
+
+En Córdoba también alquilamos concentradores con entrega e instalación a domicilio: mirá [alquiler de concentrador de oxígeno en Córdoba](https://insersalud.com/alquiler-concentrador-oxigeno-cordoba).
+
+[Ver todos los concentradores de oxígeno](https://insersalud.com/comprar-concentrador-oxigeno-argentina)
+
+## Envío, pago y garantía
+
+- **Envío:** por la oferta vigente, este equipo se envía sin cargo a todo el país. En Córdoba Capital la entrega es en el día.
+
+- **Pago:** 6 cuotas sin interés de $195.000. Oferta hasta agotar stock. También efectivo, transferencia y tarjeta.
+
+- **Garantía:** oficial, con servicio técnico.
+
+- **Devoluciones:** si comprás a distancia tenés 10 días corridos para arrepentirte de la compra. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta el concentrador de oxígeno Yuwell 7F-5B de 5 L/min?
+
+$1.170.000. Los precios se actualizan: confirmá el valor del día por WhatsApp.
+
+### ¿Necesito indicación médica?
+
+La oxigenoterapia se usa según indicación médica, con el flujo en litros por minuto. Te asesoramos para que el equipo cumpla con lo que te indicaron.
+
+### ¿Se puede alquilar en lugar de comprar?
+
+En Córdoba sí: alquilamos concentradores con entrega e instalación a domicilio, y el alquiler se cotiza por WhatsApp. Al resto del país vendemos con envío.
+
+### ¿Hacen envíos?
+
+Sí. Por la oferta vigente este equipo se envía sin cargo a todo el país. En Córdoba Capital la entrega es en el día.
+
+## Otros concentradores de oxígeno
+
+- [Concentrador de oxígeno BMC estacionario de 5 L/min](https://insersalud.com/producto/concentrador-de-oxigeno-bmc-estacionario): $999.000
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "GCE Zen-O: concentrador de oxígeno portátil | INSER"
+description: "Concentrador de oxígeno portátil GCE Zen-O con pulso y flujo continuo de 0,5 a 2 L/min, 2 baterías y carro. Apto para vuelos. Precio: U$S 3.747."
+url: https://insersalud.com/producto/gce-zen-o
+canonical: https://insersalud.com/producto/gce-zen-o
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# GCE Zen-O: concentrador de oxígeno portátil con 2 baterías y carro
+
+**Precio:** U$S 3.747. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Homologado para vuelos.
+
+Categoría: [Concentradores de oxígeno portátiles](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina) · Marca: GCE Healthcare
+
+## Descripción
+
+Concentrador de oxígeno portátil GCE Zen-O (GCE Healthcare) con pulso (niveles 1 a 6) y flujo continuo de 0,5 a 2 L/min. Incluye carro, 2 baterías y cargadores, con autonomía de hasta 8 horas. Peso 4,66 kg con las 2 baterías. Homologado para vuelos (FAA). Garantía oficial del fabricante: 3 años. El flujo lo define el médico tratante.
+
+## Características
+
+- **Fabricante:** GCE Healthcare (Europa)
+
+- **Tipo:** Concentrador portátil: pulso y flujo continuo
+
+- **Flujo:** Pulso de 1 a 6 (11 niveles) y continuo de 0,5 a 2 L/min
+
+- **Peso:** 4,66 kg con 2 baterías
+
+- **Autonomía:** Hasta 8 hs con 2 baterías
+
+- **Incluye:** Carro de transporte + 2 baterías + cargadores
+
+- **Apto vuelos:** FAA homologado
+
+- **Conectividad:** App móvil para seguimiento
+
+- **Garantía:** 3 años oficiales
+
+## Pulso y flujo continuo
+
+Este equipo tiene modo pulso y flujo continuo de 0,5 a 2 L/min. En modo pulso entrega oxígeno cuando detecta la inspiración y la batería rinde más; el flujo continuo es la opción cuando el médico lo indica. Si tu indicación es de flujo continuo por encima de 2 L/min, corresponde un [concentrador estacionario](https://insersalud.com/comprar-concentrador-oxigeno-argentina).
+
+La autonomía depende del flujo que uses: a mayor flujo, menos dura la batería. Decinos cuántas horas necesitás estar fuera de casa y en qué nivel, y te confirmamos si alcanza.
+
+## Para viajar en avión
+
+Está homologado para vuelos (FAA). Las aerolíneas suelen pedir aviso previo y batería para más tiempo que la duración del vuelo: consultá los requisitos de la tuya antes de viajar.
+
+En Córdoba también alquilamos concentradores portátiles: mirá [concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba).
+
+[Ver los concentradores de oxígeno portátiles](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina)
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
+
+- **Garantía:** 3 años oficiales.
+
+- **Devoluciones:** si comprás a distancia tenés 10 días corridos para arrepentirte de la compra. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta el concentrador de oxígeno portátil GCE Zen-O?
+
+U$S 3.747. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿Se puede usar en un avión?
+
+Sí, está homologado para vuelos (FAA). Las aerolíneas suelen pedir aviso previo y batería suficiente: consultá los requisitos de la tuya antes de viajar.
+
+### ¿Se puede usar mientras duermo?
+
+Solo en flujo continuo y si tu médico lo autorizó. El modo pulso depende de detectar cada inspiración, y durante el sueño la respiración se vuelve más suave.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otros equipos de oxígeno portátil
+
+- [Concentrador de oxígeno portátil Philips SimplyGo](https://insersalud.com/producto/philips-simplygo): U$S 3.887
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
+
+---
+
+Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt
+
+
+---
+
+---
+title: "Philips SimplyGo: concentrador de oxígeno portátil | INSER"
+description: "Concentrador de oxígeno portátil Philips Respironics SimplyGo con flujo continuo y modo pulso. Precio: U$S 3.887. Envío a todo el país."
+url: https://insersalud.com/producto/philips-simplygo
+canonical: https://insersalud.com/producto/philips-simplygo
+author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
+language: es-AR
+publisher: INSER SALUD (https://insersalud.com)
+---
+
+# Philips SimplyGo: concentrador de oxígeno portátil
+
+**Precio:** U$S 3.887. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+
+Flujo continuo + pulso.
+
+Categoría: [Concentradores de oxígeno portátiles](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina) · Marca: Philips Respironics
+
+## Descripción
+
+Concentrador de oxígeno portátil Philips Respironics SimplyGo con flujo continuo y modo pulso. Apto para vuelos. Garantía oficial del fabricante: 3 años. El flujo lo define el médico tratante.
+
+## Características
+
+- **Fabricante:** Philips Respironics
+
+- **Modelo:** SimplyGo
+
+- **Tipo:** Portátil con flujo continuo y a pulso
+
+- **Flujo continuo:** 0,5 – 2 L/min
+
+- **Flujo pulso:** Niveles 1 a 6
+
+- **Peso:** 4,5 kg
+
+- **Apto vuelos:** FAA homologado
+
+- **Garantía:** 3 años oficiales
+
+## Pulso y flujo continuo
+
+Este equipo tiene modo pulso y flujo continuo de 0,5 a 2 L/min. En modo pulso entrega oxígeno cuando detecta la inspiración y la batería rinde más; el flujo continuo es la opción cuando el médico lo indica. Si tu indicación es de flujo continuo por encima de 2 L/min, corresponde un [concentrador estacionario](https://insersalud.com/comprar-concentrador-oxigeno-argentina).
+
+La autonomía depende del flujo que uses: a mayor flujo, menos dura la batería. Decinos cuántas horas necesitás estar fuera de casa y en qué nivel, y te confirmamos si alcanza.
+
+## Para viajar en avión
+
+Está homologado para vuelos (FAA). Las aerolíneas suelen pedir aviso previo y batería para más tiempo que la duración del vuelo: consultá los requisitos de la tuya antes de viajar.
+
+En Córdoba también alquilamos concentradores portátiles: mirá [concentrador de oxígeno portátil en Córdoba](https://insersalud.com/concentrador-oxigeno-portatil-cordoba).
+
+[Ver los concentradores de oxígeno portátiles](https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina)
+
+## Envío, pago y garantía
+
+- **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
+
+- **Garantía:** 3 años oficiales.
+
+- **Devoluciones:** si comprás a distancia tenés 10 días corridos para arrepentirte de la compra. [Política de devoluciones](https://insersalud.com/politica-de-devoluciones).
+
+- **Factura y reintegro:** trabajamos de forma particular y te entregamos presupuesto formal y factura para que gestiones el reintegro ante tu obra social o prepaga.
+
+## Preguntas frecuentes
+
+### ¿Cuánto cuesta el concentrador de oxígeno portátil Philips SimplyGo?
+
+U$S 3.887. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+
+### ¿Se puede usar en un avión?
+
+Sí, está homologado para vuelos (FAA). Las aerolíneas suelen pedir aviso previo y batería suficiente: consultá los requisitos de la tuya antes de viajar.
+
+### ¿Se puede usar mientras duermo?
+
+Solo en flujo continuo y si tu médico lo autorizó. El modo pulso depende de detectar cada inspiración, y durante el sueño la respiración se vuelve más suave.
+
+### ¿Hacen envíos?
+
+Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
+
+## Otros equipos de oxígeno portátil
+
+- [Concentrador de oxígeno portátil GCE Zen-O](https://insersalud.com/producto/gce-zen-o): U$S 3.747
+
+Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
 ---
 

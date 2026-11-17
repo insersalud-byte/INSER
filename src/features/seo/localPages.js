@@ -794,9 +794,9 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)', price: '$999.000' },
-            { name: 'Concentrador de Oxígeno YUWELL 7F-5B 5 Litros', price: '$1.170.000' },
-            { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro)', price: 'consultar' },
+            { name: 'Concentrador de oxígeno BMC estacionario (control remoto + medidor de O₂)', price: '$999.000', ficha: '/producto/concentrador-de-oxigeno-bmc-estacionario' },
+            { name: 'Concentrador de Oxígeno YUWELL 7F-5B 5 Litros', price: '$1.170.000', ficha: '/producto/concentrador-de-oxigeno-yuwell-7f-5b' },
+            { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro)', price: 'consultar', ficha: '/producto/gce-zen-o' },
             { name: 'Concentrador YUWELL 10 litros (alto flujo)', price: '$2.800.000' },
         ],
         faq: [
@@ -887,7 +887,7 @@ export const localPages = [
             },
             {
                 title: 'Precios de máscaras (referencia)',
-                content: 'Nasales: RESCOMF multitalle U$S 35 (la más económica de nuestro catálogo) · BMC N4 U$S 36 · BMC N5a sin apoya frente U$S 60 · BMC multitalle U$S 89,50 · Philips DreamWear mínimo contacto U$S 153 · ResMed AirFit U$S 157 · Almohadillas Yuwell YP-01 U$S 42.\n\nNasobucales (full face): BMC F6 multitalle U$S 124 (oferta, tan cómoda como la DreamWear) · Philips DreamWear Full Face U$S 157 · BMC F2 codo azul SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · Yuwell con apoya frente U$S 52 · Yuwell YF02 U$S 55 · BMC F5A U$S 52 · ResMed AirFit F20 U$S 189,50 · AirFit F30 U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
+                content: 'Nasales: [RESCOMF multitalle](/producto/mascara-nasal-rescomf) U$S 35 (la más económica de nuestro catálogo) · [BMC N4](/producto/mascara-nasal-bmc-n4) U$S 36 · [BMC N5a sin apoya frente](/producto/mascara-nasal-bmc-n5a) U$S 60 · [BMC multitalle](/producto/mascara-nasal-bmc-multitalle) U$S 89,50 · [Philips DreamWear mínimo contacto](/producto/mascara-nasal-philips-dreamwear) U$S 153 · [ResMed AirFit](/producto/mascara-nasal-resmed-airfit-minimo-contacto) U$S 157 · [Almohadillas Yuwell YP-01](/producto/mascara-almohadillas-yuwell-yp-01) U$S 42.\n\nNasobucales (full face): [BMC F6 multitalle](/producto/mascara-nasobucal-bmc-f6) U$S 124 (oferta, tan cómoda como la DreamWear) · [Philips DreamWear Full Face](/producto/mascara-nasobucal-philips-dreamwear) U$S 157 · [BMC F2 codo azul](/producto/mascara-buconasal-bmc-f2-codo-azul) SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · [Yuwell con apoya frente](/producto/mascara-buconasal-yuwell-apoya-frente) U$S 52 · [Yuwell YF02](/producto/mascara-buconasal-yuwell-yf02) U$S 55 · [BMC F5A](/producto/mascara-buconasal-bmc-f5a) U$S 52 · [ResMed AirFit F20](/producto/mascara-nasobucal-resmed-airfit-f20) U$S 189,50 · [AirFit F30](/producto/mascara-nasobucal-resmed-airfit-f30) U$S 212.\n\nLos precios se actualizan; confirmá el valor del día por WhatsApp.',
             },
             {
                 title: 'Máscaras pediátricas',
@@ -899,13 +899,13 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)', price: 'U$S 35' },
-            { name: 'Máscara nasal Philips DreamWear — mínimo contacto', price: 'U$S 153' },
-            { name: 'Máscara nasobucal BMC F6 multitalle (oferta)', price: 'U$S 124' },
-            { name: 'Máscara nasobucal Philips DreamWear Full Face', price: 'U$S 157' },
-            { name: 'Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva', price: '$68.000' },
+            { name: 'Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)', price: 'U$S 35', ficha: '/producto/mascara-nasal-rescomf' },
+            { name: 'Máscara nasal Philips DreamWear — mínimo contacto', price: 'U$S 153', ficha: '/producto/mascara-nasal-philips-dreamwear' },
+            { name: 'Máscara nasobucal BMC F6 multitalle (oferta)', price: 'U$S 124', ficha: '/producto/mascara-nasobucal-bmc-f6' },
+            { name: 'Máscara nasobucal Philips DreamWear Full Face', price: 'U$S 157', ficha: '/producto/mascara-nasobucal-philips-dreamwear' },
+            { name: 'Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva', price: '$68.000', ficha: '/producto/mascara-buconasal-bmc-f2-codo-azul' },
             { name: 'Máscaras pediátricas (Cirri Mini, Philips Wisp, Infant CPAP Kit)', price: 'desde U$S 97' },
-            { name: 'Tubuladura para CPAP / BiPAP', price: '$50.000' },
+            { name: 'Tubuladura para CPAP / BiPAP', price: '$50.000', ficha: '/producto/tubuladura-cpap-bipap' },
         ],
         faq: [
             { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
@@ -961,10 +961,10 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)', price: 'U$S 227' },
-            { name: 'Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)', price: 'U$S 105' },
-            { name: 'Infant CPAP Kit neonatal (tallas 00 a 5)', price: 'U$S 97' },
-            { name: 'Tubuladura para CPAP / BiPAP (repuesto universal)', price: '$50.000' },
+            { name: 'Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)', price: 'U$S 227', ficha: '/producto/mascara-pediatrica-philips-wisp' },
+            { name: 'Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)', price: 'U$S 105', ficha: '/producto/mascara-pediatrica-hsiner-cirri-mini' },
+            { name: 'Infant CPAP Kit neonatal (tallas 00 a 5)', price: 'U$S 97', ficha: '/producto/infant-cpap-kit-neonatal' },
+            { name: 'Tubuladura para CPAP / BiPAP (repuesto universal)', price: '$50.000', ficha: '/producto/tubuladura-cpap-bipap' },
         ],
         faq: [
             { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
@@ -1103,8 +1103,8 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: 'U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', note: 'Pulso y flujo continuo · hasta 8 h con 2 baterías' },
-            { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887', img: '/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg', note: 'Pulso y flujo continuo · 4,5 kg' },
+            { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: 'U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', note: 'Pulso y flujo continuo · hasta 8 h con 2 baterías', ficha: '/producto/gce-zen-o' },
+            { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887', img: '/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg', note: 'Pulso y flujo continuo · 4,5 kg', ficha: '/producto/philips-simplygo' },
         ],
         faq: [
             { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },

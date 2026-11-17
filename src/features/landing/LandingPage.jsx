@@ -138,7 +138,7 @@ const ofertas = [
         specs: [
             ['Fabricante', 'GCE Healthcare (Europa)'],
             ['Tipo', 'Concentrador portátil: pulso y flujo continuo'],
-            ['Flujo', 'Pulso en 11 niveles (1 – 6) y continuo de 0,5 a 2 L/min'],
+            ['Flujo', 'Pulso de 1 a 6 (11 niveles) y continuo de 0,5 a 2 L/min'],
             ['Peso', '4,66 kg con 2 baterías'],
             ['Autonomía', 'Hasta 8 hs con 2 baterías'],
             ['Incluye', 'Carro de transporte + 2 baterías + cargadores'],
@@ -494,7 +494,7 @@ const tienda = [
             ['Modelo', 'SimplyGo'],
             ['Tipo', 'Portátil con flujo continuo y a pulso'],
             ['Flujo continuo', '0,5 – 2 L/min'],
-            ['Flujo pulso', '1 – 6 settings'],
+            ['Flujo pulso', 'Niveles 1 a 6'],
             ['Peso', '4,5 kg'],
             ['Apto vuelos', 'FAA homologado'],
             ['Garantía', '3 años oficiales'],

@@ -99,7 +99,7 @@ export const FEED = [
     // ---- Concentradores estacionarios ----
     { id: 'concentrador-de-oxigeno-bmc-estacionario', slug: 'concentrador-de-oxigeno-bmc-estacionario', title: 'BMC concentrador de oxígeno estacionario 0,5-5 L/min con control remoto y medidor de O2',
         desc: 'Concentrador de oxígeno estacionario BMC (BMC Medical) para uso domiciliario continuo. Flujo regulable de 0,5 a 5 L/min y pureza de oxígeno igual o mayor al 93%. Control remoto para manejo a distancia, medidor de pureza de oxígeno integrado y display digital de pureza, flujo y horas de uso. Aparatología aprobada por ANMAT. Garantía oficial del fabricante: 2 años. El flujo lo define el médico tratante.',
-        link: '/comprar-concentrador-oxigeno-argentina', img: A('concentrador_bmc_2.jpg'), add: [],
+        link: '/comprar-concentrador-oxigeno-argentina', img: A('concentrador_bmc_2.jpg'), add: [A('concentrador_bmc_1.jpg')],
         brand: 'BMC Medical', cat: 4551, type: 'Equipos respiratorios > Concentradores de oxígeno', tok: /BMC/ },
     { id: 'concentrador-de-oxigeno-yuwell-7f-5b', slug: 'concentrador-de-oxigeno-yuwell-7f-5b', title: 'Yuwell 7F-5B concentrador de oxígeno estacionario 5 L/min con humidificador incorporado',
         desc: 'Concentrador de oxígeno estacionario Yuwell 7F-5B para uso domiciliario. Flujo continuo regulable de 0,5 a 5 L/min, humidificador incorporado y bajo nivel de ruido. Funciona enchufado a la red eléctrica y produce oxígeno a partir del aire ambiente, sin recarga. Aparatología aprobada por ANMAT. Garantía oficial del fabricante y servicio técnico. El flujo y las horas de uso los define el médico tratante.',
@@ -116,14 +116,14 @@ export const FEED = [
     // ---- Concentradores portatiles ----
     { id: 'gce-zen-o', slug: 'concentrador-portatil-gce-zen-o-con-carrito-y-2-baterias', title: 'GCE Zen-O concentrador de oxígeno portátil con 2 baterías y carro, apto vuelos',
         desc: 'Concentrador de oxígeno portátil GCE Zen-O (GCE Healthcare) con pulso (niveles 1 a 6) y flujo continuo de 0,5 a 2 L/min. Incluye carro, 2 baterías y cargadores, con autonomía de hasta 8 horas. Peso 4,66 kg con las 2 baterías. Homologado para vuelos (FAA). Garantía oficial del fabricante: 3 años. ' + MED_FLUJO,
-        link: '/comprar-concentrador-oxigeno-portatil-argentina', img: A('47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg'), add: [A('731923be-19f2-4856-a0e1-5cfbe1ef831a.jpg'), A('c1223981-5f7b-44d4-8c72-ba979f43f504.jpg')],
+        link: '/comprar-concentrador-oxigeno-portatil-argentina', img: A('47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg'), add: [A('731923be-19f2-4856-a0e1-5cfbe1ef831a.jpg')],
         brand: 'GCE Healthcare', cat: 4551, type: 'Equipos respiratorios > Concentradores portátiles', tok: /Zen-?O/i },
     { id: 'philips-simplygo', slug: 'concentrador-de-oxigeno-portatil-simplygo', title: 'Philips SimplyGo concentrador de oxígeno portátil, flujo continuo y pulso, apto vuelos',
         desc: 'Concentrador de oxígeno portátil Philips Respironics SimplyGo con flujo continuo y modo pulso. Apto para vuelos. Garantía oficial del fabricante: 3 años. ' + MED_FLUJO,
         link: '/comprar-concentrador-oxigeno-portatil-argentina', img: A('e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg'), add: [A('33c3e5ab-69f8-4dba-8d6a-0b348062e6aa.jpg'), A('c6795dd4-d5eb-43ad-9437-6c3fe4260c88.jpg')],
         brand: 'Philips Respironics', cat: 4551, type: 'Equipos respiratorios > Concentradores portátiles', tok: /SimplyGo/i },
     { id: 'mochila-de-oxigeno', slug: 'mochila-de-oxigeno-tubo-de0415-regulador-bolso-carga', title: 'Mochila de oxígeno: tubo 0,415 con regulador y bolso de transporte',
-        desc: 'Tubo de oxígeno 0,415 con regulador y bolso tipo mochila para llevarlo en salidas fuera de casa. Incluye recarga. ' + MED_FLUJO,
+        desc: 'Tubo de oxígeno 0,415 con regulador y bolso tipo mochila para llevarlo en salidas fuera de casa. Incluye la carga inicial. ' + MED_FLUJO,
         link: '/comprar-concentrador-oxigeno-portatil-argentina', img: A('c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg'), add: [],
         brand: '', cat: 499692, type: 'Equipos respiratorios > Oxígeno portátil', tok: /Mochila/i },
     // ---- Diagnostico ----
@@ -137,8 +137,8 @@ export const FEED = [
         link: '/comprar-poligrafo-argentina', img: A('1752508033704-poligrafobmc.jpg'), add: [],
         brand: 'BMC Medical', cat: 3477, type: 'Diagnóstico > Polígrafos respiratorios', bundle: true, tok: /c[áa]nulas/i },
     // ---- Mascaras adulto ----
-    { id: 'mascara-nasal-philips-dreamwear', slug: 'mascarilla-nasal-cpap', title: 'Philips DreamWear máscara nasal de mínimo contacto para CPAP y BiPAP, talles S/M/L',
-        desc: 'Máscara nasal Philips Respironics DreamWear de mínimo contacto, en silicona hipoalergénica. Talles S, M y L. ' + COMPAT,
+    { id: 'mascara-nasal-philips-dreamwear', slug: 'mascarilla-nasal-cpap', title: 'Philips DreamWear máscara nasal de mínimo contacto para CPAP y BiPAP, talles S/M/L/MW',
+        desc: 'Máscara nasal Philips Respironics DreamWear de mínimo contacto, en silicona hipoalergénica. Talles S, M, L y MW. ' + COMPAT,
         link: '/mascaras-cpap', img: A('1751037116992-1000306910.jpg'), add: [A('1751037116992-1000306912.jpg'), A('1751037116992-1000306914.jpg')],
         brand: 'Philips Respironics', cat: 7316, type: 'Máscaras CPAP y BiPAP > Nasales', tok: /DreamWear/i },
     { id: 'mascara-nasobucal-philips-dreamwear', slug: 'mascarilla-nasobucal-dreamwear-philips-cpap', title: 'Philips DreamWear Full Face máscara nasobucal para CPAP y BiPAP',
@@ -280,7 +280,9 @@ const PROHIBIDO = /(m[áa]s barat|econ[óo]mic|\bmejor\b|\boferta|env[íi]o|grat
  * @param existeArchivo (ruta publica, ej. "/artifacts/x.jpg") => boolean
  * @returns { tsv, incluidos, total, omitidos: [{ id, motivo }], avisos: [] }
  */
-export function generarFeed({ catalogo, localPages, cuerpoDe, existeArchivo }) {
+// conFicha: ids de los productos con pagina propia (/producto/<id>); su link va ahi y el control
+// de precio visible se hace contra esa pagina.
+export function generarFeed({ catalogo, localPages, cuerpoDe, existeArchivo, conFicha = new Set() }) {
     const omitidos = [];
     const avisos = [];
     const filas = [];
@@ -309,11 +311,12 @@ export function generarFeed({ catalogo, localPages, cuerpoDe, existeArchivo }) {
             if (!precio) { omitidos.push({ id: p.id, motivo: `precio de la ficha no es un importe: "${precios[0]}"` }); continue; }
         }
 
-        const texto = textoDe(p.link);
-        if (!texto) { omitidos.push({ id: p.id, motivo: `no hay pagina estatica para ${p.link}` }); continue; }
+        const link = conFicha.has(p.id) ? '/producto/' + p.id : p.link;
+        const texto = textoDe(link);
+        if (!texto) { omitidos.push({ id: p.id, motivo: `no hay pagina estatica para ${link}` }); continue; }
         const escrito = precioEscrito(precio);
         if (!precioVisible(texto, escrito, p.tok)) {
-            omitidos.push({ id: p.id, motivo: `${escrito} no se ve junto a ${p.tok} en ${p.link}` });
+            omitidos.push({ id: p.id, motivo: `${escrito} no se ve junto a ${p.tok} en ${link}` });
             continue;
         }
 
@@ -335,7 +338,7 @@ export function generarFeed({ catalogo, localPages, cuerpoDe, existeArchivo }) {
         ids.add(p.id);
 
         const envio = fichas.some((f) => ENVIO_SIN_CARGO.test(f.note || '')) ? 'envio-sin-cargo' : 'envio-a-cotizar';
-        filas.push([p.id, p.title, p.desc, S + p.link, p.img, adicionales.join(','), 'in_stock',
+        filas.push([p.id, p.title, p.desc, S + link, p.img, adicionales.join(','), 'in_stock',
             precio.valor.toFixed(2) + ' ' + precio.moneda, 'new', p.brand, 'no', p.cat, p.type, envio, p.bundle ? 'yes' : '']);
     }
 

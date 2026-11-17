@@ -21,6 +21,13 @@ const waProducto = (p) => `${WA}?text=${encodeURIComponent(`Hola, quiero comprar
  * el HTML estatico y el render de React muestren lo mismo.
  */
 const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
+// Paginas que NO son rutas de React (HTML estatico propio): fichas de producto, Academia,
+// quienes somos, contacto, politicas y tarjeta. Con <Link> el router no las conoce y manda
+// al inicio; van con un <a> comun, que carga la pagina.
+const ES_ESTATICA = /^\/(producto|academia|sobre-nosotros|contacto|politica-de-|tarjeta)(\/|$)/;
+const Enlace = ({ href, children, style }) => (ES_ESTATICA.test(href)
+    ? <a href={href} style={style}>{children}</a>
+    : <Link to={href} style={style}>{children}</Link>);
 const conEnlaces = (texto) => {
     if (!texto || !texto.includes('](/')) return texto;
     const partes = [];
@@ -28,9 +35,9 @@ const conEnlaces = (texto) => {
     for (const m of String(texto).matchAll(LINK_RE)) {
         if (m.index > ultimo) partes.push(texto.slice(ultimo, m.index));
         partes.push(
-            <Link key={m.index} to={m[2]} style={{ color: '#1e40af', textDecoration: 'underline' }}>
+            <Enlace key={m.index} href={m[2]} style={{ color: '#1e40af', textDecoration: 'underline' }}>
                 {m[1]}
-            </Link>
+            </Enlace>
         );
         ultimo = m.index + m[0].length;
     }
@@ -147,6 +154,7 @@ const LocalPage = ({ slug }) => {
                                     <span style={c.cardName}>{p.name}</span>
                                     <span style={c.cardPrice}>{p.price}</span>
                                     {p.note && <span style={c.cardNote}>{p.note}</span>}
+                                    {p.ficha && <a href={p.ficha} style={{ fontSize: '0.85rem', fontWeight: 600, color: '#1e40af' }}>Ver ficha de {p.name.replace(/\s*\(.*$/, '')}</a>}
                                     <a href={waProducto(p)} data-wa="tarjeta-producto" target="_blank" rel="noopener noreferrer" style={c.cardBtn}>
                                         <MessageCircle size={16} /> Lo quiero
                                     </a>
@@ -236,7 +244,7 @@ const LocalPage = ({ slug }) => {
                         <ul style={c.prodList}>
                             {data.products.map((p, i) => (
                                 <li key={i} style={c.prodItem}>
-                                    <span>{p.name}</span>
+                                    <span>{p.ficha ? <a href={p.ficha} style={{ color: '#0f172a', textDecorationColor: '#93c5fd' }}>{p.name}</a> : p.name}</span>
                                     <strong style={{ color: '#1e40af', whiteSpace: 'nowrap' }}>{p.price}</strong>
                                 </li>
                             ))}
@@ -281,7 +289,7 @@ const LocalPage = ({ slug }) => {
                     <h2 style={c.h2}>También te puede servir</h2>
                     <div style={c.relWrap}>
                         {(data.related || others.slice(0, 3).map((o) => ({ label: o.h1, href: `/${o.slug}` }))).map((r, i) => (
-                            <Link key={i} to={r.href} style={c.relLink}>{r.label}</Link>
+                            <Enlace key={i} href={r.href} style={c.relLink}>{r.label}</Enlace>
                         ))}
                     </div>
                 </section>

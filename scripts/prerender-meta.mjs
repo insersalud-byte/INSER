@@ -336,7 +336,8 @@ function buildProductItemList(items, pageUrl, listName) {
                 '@type': 'Product',
                 name: it.nombreSchema || it.name,
                 image: SALUD + it.img,
-                url: `${pageUrl}#equipos`,
+                // Con ficha propia, el producto vive en /producto/<id>: la lista solo lo referencia.
+                url: it.ficha ? SALUD + it.ficha : `${pageUrl}#equipos`,
                 ...(marcaDe(it.name) ? { brand: marcaDe(it.name) } : {}),
                 offers: {
                     '@type': 'Offer',
@@ -344,7 +345,7 @@ function buildProductItemList(items, pageUrl, listName) {
                     priceCurrency: it.currency,
                     availability: 'https://schema.org/InStock',
                     itemCondition: 'https://schema.org/NewCondition',
-                    url: pageUrl,
+                    url: it.ficha ? SALUD + it.ficha : pageUrl,
                     seller: { '@id': 'https://insersalud.com/#organization' },
                     // Envio sin cargo SOLO donde la landing lo declara en la nota del producto.
                     ...(it.envioGratis ? {
@@ -369,7 +370,7 @@ function productosLanding(p) {
         if (!img) return null;
         // Nombre limpio del modelo para schema.org (sin aclaraciones de marketing entre parentesis o tras un guion largo).
         const nombre = x.name.replace(/\s*\([^)]*\)/g, '').replace(/\s+—.*$/, '').replace(/\s+/g, ' ').trim() || x.name;
-        return { name: x.name, nombreSchema: nombre, img, price: pr.price, currency: pr.currency, envioGratis: /env[ií]o sin cargo/i.test(x.note || '') };
+        return { name: x.name, nombreSchema: nombre, img, price: pr.price, currency: pr.currency, envioGratis: /env[ií]o sin cargo/i.test(x.note || ''), ficha: x.ficha };
     }).filter(Boolean);
 }
 
@@ -994,7 +995,8 @@ function buildLocalBody(p) {
     const prods = (p.products && p.products.length)
         ? `<h2 id="equipos">Equipos relacionados</h2>\n<ul>\n${p.products.map(x => {
             const foto = resolveProductImage(x.name);
-            return `<li>${foto ? imgTag(foto, x.name) + ' ' : ''}${esc(x.name)} — ${esc(x.price)}</li>`;
+            const nombre = x.ficha ? `<a href="${attr(x.ficha)}">${esc(x.name)}</a>` : esc(x.name);
+            return `<li>${foto ? imgTag(foto, x.name) + ' ' : ''}${nombre} — ${esc(x.price)}</li>`;
         }).join('\n')}\n</ul>`
         : '';
     const faq = (p.faq || []).map(f => `<h3>${esc(f.q)}</h3><p>${inlineLinks(esc(f.a))}</p>`).join('\n');
@@ -1096,6 +1098,47 @@ try {
     }
 
     let count = 0;
+
+    // FICHAS DE PRODUCTO (/producto/<id>): paginas estaticas propias, fuera de la SPA. Salen del
+    // feed de Merchant (textos y fotos) y del catalogo del home (precio y especificaciones).
+    // Si falta alguna ficha el build se corta (ver mas abajo): pasar a "consultar" el precio de un
+    // producto con ficha, o borrar su foto principal, exige sacarlo antes de FICHAS (product-pages.mjs).
+    let fichas = [];
+    let fichasEsperadas = null;
+    try {
+        const { construirFichas, FICHAS } = await import('./product-pages.mjs');
+        const { leerCatalogo, FEED } = await import('./merchant-feed.mjs');
+        const catalogoFichas = leerCatalogo(readFileSync(resolve(__dirname, '..', 'src', 'features', 'landing', 'LandingPage.jsx'), 'utf8'));
+        const existe = (ruta) => [DIST, resolve(__dirname, '..', 'public')]
+            .some((dir) => existsSync(resolve(dir, decodeURIComponent(ruta).replace(/^\//, ''))));
+        fichas = construirFichas({
+            FEED, catalogo: catalogoFichas, SALUD, esc, attr, imageSize, webpDe, existeArchivo: existe,
+            avisar: (m) => console.warn(`[prerender] fichas: ${m}`),
+        });
+        for (const f of fichas) {
+            write(resolve(DIST, 'producto', f.id), withMdLink(f.html, `${f.ruta}.md`));
+            count++;
+        }
+        console.log(`[prerender] fichas de producto: ${fichas.length} paginas en /producto/`);
+        fichasEsperadas = FICHAS.length;
+    } catch (e) {
+        fichas = [];
+        console.error('[prerender] fichas de producto no generadas:', e?.message);
+    }
+    // Las landings, el bundle de React y llms.txt enlazan a las fichas con rutas fijas: si falta
+    // alguna (un precio que paso a "consultar", una foto borrada) esos enlaces darian 404. Se corta
+    // el build y Vercel deja publicada la version anterior.
+    if (fichas.length !== fichasEsperadas) {
+        console.error(`[prerender] ERROR: se esperaban ${fichasEsperadas ?? 'todas las'} fichas de producto y se generaron ${fichas.length}. Build cancelado: revisar el aviso de arriba (precio, foto o fila del catalogo).`);
+        process.exit(1);
+    }
+    // Una landing no puede enlazar a una ficha que no se genero (daria 404).
+    const rutasFicha = new Set(fichas.map((f) => f.ruta));
+    for (const p of localPages) {
+        for (const x of (p.products || [])) {
+            if (x.ficha && !rutasFicha.has(x.ficha)) { console.warn(`[prerender] ${p.slug}: la ficha ${x.ficha} no existe, se quita el enlace`); delete x.ficha; }
+        }
+    }
 
     // dist/index.html: ademas de la variante inser.ar (dormida, el dominio redirige 308), este archivo
     // es el que Vercel sirve como fallback para CUALQUIER URL inexistente. Por eso su canonical debe
@@ -1199,6 +1242,8 @@ try {
                 ...productosLanding(p),
             ])),
             ...pathologies.map((p) => u(`${SALUD}/patologia/${p.slug}`, '0.8', productosPatologia(p))),
+            // Fichas de producto: cada una declara sus propias fotos.
+            ...fichas.map((f) => u(`${SALUD}${f.ruta}`, '0.6', f.imagenes.map((img) => ({ img, name: f.nombre })))),
             u(`${SALUD}/tarjeta`, '0.3'),
             u(`${SALUD}/politica-de-privacidad`, '0.2'),
             u(`${SALUD}/politica-de-devoluciones`, '0.3'),
@@ -1266,6 +1311,8 @@ try {
         const catalogo = leerCatalogo(readFileSync(resolve(__dirname, '..', 'src', 'features', 'landing', 'LandingPage.jsx'), 'utf8'));
         const cuerpoDe = (ruta) => {
             if (ruta === '/') return buildHomeBody('salud');
+            const ficha = fichas.find((x) => x.ruta === ruta);
+            if (ficha) return ficha.cuerpo;
             const pat = pathologies.find((x) => `/patologia/${x.slug}` === ruta);
             if (pat) return buildPathologyBody(pat, true);
             const loc = localPages.find((x) => `/${x.slug}` === ruta);
@@ -1273,7 +1320,7 @@ try {
         };
         const existeArchivo = (ruta) => [DIST, resolve(__dirname, '..', 'public')]
             .some((dir) => existsSync(resolve(dir, decodeURIComponent(ruta).replace(/^\//, ''))));
-        const feed = generarFeed({ catalogo, localPages, cuerpoDe, existeArchivo });
+        const feed = generarFeed({ catalogo, localPages, cuerpoDe, existeArchivo, conFicha: new Set(fichas.map((x) => x.id)) });
         for (const o of feed.omitidos) console.warn(`[prerender] merchant feed: queda afuera ${o.id}: ${o.motivo}`);
         for (const a of feed.avisos) console.warn(`[prerender] merchant feed: ${a}`);
         if (feed.incluidos < feed.total * 0.8) {
@@ -1286,6 +1333,11 @@ try {
         }
     } catch (e) {
         console.warn('[prerender] merchant feed no generado (queda el del build anterior):', e?.message);
+    }
+
+    // Markdown de las fichas de producto: version limpia (sin botones ni iconos).
+    for (const f of fichas) {
+        addMd(`producto/${f.id}.md`, { title: f.titulo, description: f.descripcion, url: SALUD + f.ruta }, f.cuerpoMd);
     }
 
     // Markdown de las paginas ESTATICAS del sitemap (Academia y sus cursos, politicas, tarjeta).
@@ -1337,7 +1389,7 @@ try {
 >
 > Venta de equipos de terapia respiratoria con envío a todo el país y precio publicado. Alquiler con entrega e instalación a domicilio en Córdoba Capital. Contacto: WhatsApp ${WA}.
 
-Páginas incluidas: ${mdPages.length} (home, ${localPages.length} páginas de compra y alquiler, ${pathologies.length} patologías, ${nAcademia} páginas de la Academia con sus ${nCursos} cursos gratuitos y ${nInstitucionales} páginas institucionales: quiénes somos, contacto, políticas y tarjeta digital).`;
+Páginas incluidas: ${mdPages.length} (home, ${localPages.length} páginas de compra y alquiler, ${pathologies.length} patologías, ${nAcademia} páginas de la Academia con sus ${nCursos} cursos gratuitos, ${fichas.length} fichas de producto y ${nInstitucionales} páginas institucionales: quiénes somos, contacto, políticas y tarjeta digital).`;
     const llmsFull = [llmsFullHeader, ...mdPages].join('\n\n---\n\n') + '\n';
     for (const dir of [DIST, resolve(__dirname, '..', 'public')]) {
         try { writeFileSync(resolve(dir, 'llms-full.txt'), llmsFull, 'utf8'); } catch { /* no romper el build */ }

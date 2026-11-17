@@ -127,6 +127,37 @@ Diagnóstico:
 Accesorios:
 - Tubuladura para CPAP / BiPAP — $50.000
 
+## Fichas de producto (una página por modelo, con precio, fotos y especificaciones)
+
+Máscaras e insumos:
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear)
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf)
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4)
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a)
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle)
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto)
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01)
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear)
+- [Máscara nasobucal BMC F6 con apoya frente](https://insersalud.com/producto/mascara-nasobucal-bmc-f6)
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente)
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02)
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a)
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20)
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30)
+- [Máscara buconasal BMC F2 codo azul (no ventilada)](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul)
+- [Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)](https://insersalud.com/producto/tubuladura-cpap-bipap)
+
+Máscaras pediátricas:
+- [Máscara nasal pediátrica Philips Wisp (jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp)
+- [Máscara nasal pediátrica HSINER Cirri Mini](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini)
+- [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal)
+
+Oxígeno:
+- [Concentrador de oxígeno BMC estacionario de 5 L/min](https://insersalud.com/producto/concentrador-de-oxigeno-bmc-estacionario)
+- [Concentrador de oxígeno Yuwell 7F-5B de 5 L/min](https://insersalud.com/producto/concentrador-de-oxigeno-yuwell-7f-5b)
+- [Concentrador de oxígeno portátil GCE Zen-O](https://insersalud.com/producto/gce-zen-o)
+- [Concentrador de oxígeno portátil Philips SimplyGo](https://insersalud.com/producto/philips-simplygo)
+
 ## Servicios
 
 - Venta de equipos respiratorios aprobados por ANMAT, con envío a todo el país
