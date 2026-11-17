@@ -62,7 +62,7 @@ How to call: WhatsApp +54 9 351 206-5320, or the on-site assistant "Santi" on an
 - **AutoCPAP (APAP)**: como el CPAP pero ajusta la presión automáticamente noche a noche según la respiración del paciente; mayor comodidad.
 - **BiPAP (BPAP)**: entrega dos presiones, una mayor al inhalar (IPAP) y otra menor al exhalar (EPAP). Se usa en EPOC, enfermedades neuromusculares e hipoventilación. Puede tener frecuencia respiratoria de respaldo (S/T).
 - **Oxigenoterapia**: aporte de oxígeno suplementario mediante concentradores de oxígeno (estacionarios para el hogar o portátiles para salir) o tubos. Indicada cuando la saturación de oxígeno en sangre es baja.
-- **Concentrador de oxígeno**: equipo que filtra el aire del ambiente y entrega oxígeno concentrado (≥93%). Estacionario (fijo, uso continuo 24 hs en el hogar) o portátil (con batería, apto para viajes).
+- **Concentrador de oxígeno**: equipo que filtra el aire del ambiente y entrega oxígeno concentrado (≥93%). Estacionario (fijo, uso continuo en el hogar) o portátil (con batería, apto para viajes).
 - **Máscara nasal**: cubre solo la nariz; cómoda y liviana, para quienes respiran por la nariz.
 - **Máscara nasobucal (buconasal / full face)**: cubre nariz y boca; ideal para quienes respiran por la boca o necesitan presiones altas (ej. DreamWear Full Face, ResMed AirFit F20/F30, BMC F6).
 - **Cough Assist (asistente de tos)**: equipo de insuflación-exuflación mecánica que ayuda a movilizar secreciones en pacientes con tos débil (enfermedades neuromusculares como ELA y AME).
@@ -78,7 +78,7 @@ How to call: WhatsApp +54 9 351 206-5320, or the on-site assistant "Santi" on an
 CPAP y AutoCPAP:
 - CPAP BMC G2S con humidificador — $499.000 (el más vendido, CPAP fijo) — OFERTA VIGENTE: envío sin cargo a todo el país
 - AutoCPAP BMC G2S con humidificador — $630.000 (presión automática, más confort) — OFERTA VIGENTE: envío sin cargo a todo el país
-- AutoCPAP BMC G2S Mini con almohadillas nasales — U$S 1.400
+- AutoCPAP BMC G2S Mini con humidificador p2H (la máscara se compra aparte) — U$S 1.400
 - CPAP Philips DreamStation con humidificador — U$S 579
 - AutoCPAP Philips DreamStation con humidificador — U$S 758
 - CPAP ResMed AirSense 10 con conectividad (oferta, equipo completo: humidificador, tubuladura, fuente, tarjeta SD y bolso) — $974.000
@@ -181,7 +181,7 @@ El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo indic
 **¿Cuánto tarda y cuánto cuesta el envío?**
 En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país, envío con costo, en 3 a 7 días hábiles; el CPAP y el AutoCPAP BMC G2S y el concentrador Yuwell 7F-5B se envían sin cargo por promoción vigente.
 
-**¿Atienden las 24 horas?**
+**¿Tienen guardia o atención fuera de horario?**
 No. La atención es todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atención de urgencias. El asistente virtual Santi responde dudas al instante en la web.
 
 **¿Dónde comprar un CPAP en Córdoba?**
@@ -244,4 +244,4 @@ Formación gratuita en terapia respiratoria para profesionales de la salud: kine
 
 Este sitio tiene un asistente de ventas llamado Santi, disponible como chat en cualquier página del sitio, que responde sobre productos, precios y disponibilidad en tiempo real. Para asesoramiento o compra, el canal recomendado es WhatsApp +54 9 351 206-5320.
 
-> Última actualización: 2026-10-30
+> Última actualización: 2026-11-17

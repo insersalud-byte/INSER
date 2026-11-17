@@ -27,6 +27,7 @@ export const pathologies = [
         ],
         title: 'Apnea del Sueño',
         metaTitle: 'APNEA DEL SUEÑO | INSER SALUD',
+        metaTitleSalud: 'Tratamiento de la apnea del sueño en Córdoba: estudio y CPAP',
         headline: '¿Te despertás cansado? Podría ser Apnea del Sueño.',
         subtitle: 'Si roncás fuerte, te despertás varias veces en la noche o te sentís agotado durante el día, podés estar sufriendo apnea del sueño sin saberlo.',
         color: '#1e40af',
@@ -272,7 +273,7 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
         slug: 'epoc',
         faq: [
             { q: '¿Qué equipos se usan en el tratamiento domiciliario de la EPOC?', a: 'Los más frecuentes son los [concentradores de oxígeno](/comprar-concentrador-oxigeno-argentina) para oxigenoterapia domiciliaria y, en casos de mayor compromiso, los equipos de [ventilación no invasiva tipo BiPAP](/comprar-bipap-argentina). Qué corresponde en cada caso, y con qué flujo o presión, lo indica el neumonólogo.' },
-            { q: '¿Cuántas horas por día se usa el oxígeno?', a: 'Lo define tu médico según los resultados de saturación y gases en sangre. Nuestros concentradores están preparados para uso continuo las 24 horas del día, así que soportan cualquier esquema que te hayan indicado.' },
+            { q: '¿Cuántas horas por día se usa el oxígeno?', a: 'Lo define tu médico según los resultados de saturación y gases en sangre. Nuestros concentradores están preparados para uso continuo, de día y de noche, así que soportan cualquier esquema que te hayan indicado.' },
             { q: '¿Se puede alquilar el concentrador de oxígeno?', a: 'En Córdoba sí: [alquilamos el concentrador](/alquiler-concentrador-oxigeno-cordoba) con entrega e instalación a domicilio y capacitación en el uso. Es la opción habitual después de una internación o para tratamientos por tiempo definido. A todo el país vendemos con envío.' },
             { q: '¿Sirve un concentrador portátil para salir de casa?', a: 'Sí, siempre que respete el tipo de flujo que te indicaron. Hay [concentradores portátiles](/comprar-concentrador-oxigeno-portatil-argentina) de flujo continuo y otros que entregan oxígeno solo por pulsos: si tu indicación es de flujo continuo, un equipo de pulsos no lo reemplaza. Te ayudamos a verificar la compatibilidad antes de comprar.' },
         ],
@@ -361,7 +362,7 @@ Si tenés dudas sobre tu técnica, consultanos: podemos mostrarte cómo hacerlo 
 
 ¿Cuántas horas usar el oxígeno?
 
-La evidencia demuestra que la oxigenoterapia es efectiva solo cuando se usa un mínimo de 15-18 horas diarias (idealmente 24 horas). Usar el oxígeno pocas horas por día no aporta los beneficios en sobrevida demostrados por los estudios.
+La evidencia demuestra que la oxigenoterapia es efectiva solo cuando se usa un mínimo de 15-18 horas diarias (idealmente todo el día). Usar el oxígeno pocas horas por día no aporta los beneficios en sobrevida demostrados por los estudios.
 
 Tipos de sistemas de oxígeno disponibles en Inser Salud:
 

@@ -199,7 +199,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - **AutoCPAP BMC G2S con humidificador** — $630.000 — presión automática, equipo completo con bolso; oferta vigente: envío sin cargo a todo el país
 
-- **AutoCPAP BMC G2S Mini** — U$S 1.400 — presión automática, con almohadillas nasales
+- **AutoCPAP BMC G2S Mini** — U$S 1.400 — presión automática, formato mini con humidificador p2H
 
 - **CPAP Philips DreamStation** — U$S 579 — CPAP fijo con humidificador y conectividad
 
@@ -365,7 +365,7 @@ Cursos gratuitos de la Academia: [Ventilación mecánica](https://insersalud.com
 
 Empresa cordobesa con más de 5 años de experiencia y más de 500 pacientes atendidos. Aparatología aprobada por ANMAT. La venta de equipos se realiza con envío a todo el país (cualquier provincia de Argentina); el alquiler está disponible en Córdoba, con entrega en el día y soporte técnico continuo. Atención por WhatsApp +54 9 351 206-5320 y asesoramiento con el agente Santi.
 
-Contacto: [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com · Córdoba, Argentina
+Contacto: [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20vengo%20de%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com · Córdoba, Argentina
 
 ---
 
@@ -375,7 +375,7 @@ Contacto: [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar]
 ---
 
 ---
-title: "APNEA DEL SUEÑO · Tratamiento Domiciliario | INSER SALUD"
+title: "Tratamiento de la apnea del sueño en Córdoba: estudio y CPAP"
 description: "Si roncás fuerte, te despertás varias veces en la noche o te sentís agotado durante el día, podés estar sufriendo apnea del sueño sin saberlo."
 url: https://insersalud.com/patologia/apnea-del-sueno
 canonical: https://insersalud.com/patologia/apnea-del-sueno
@@ -570,7 +570,7 @@ Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta,
 
 Esta información es orientativa y no reemplaza la consulta médica. El equipo y los parámetros de uso los indica tu médico tratante.
 
-INSER SALUD — equipos y asesoramiento para Apnea del Sueño en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320).
+INSER SALUD — equipos y asesoramiento para Apnea del Sueño en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20la%20p%C3%A1gina%20de%20Apnea%20del%20Sue%C3%B1o%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320).
 
 ---
 
@@ -665,7 +665,7 @@ La oxigenoterapia domiciliaria está indicada en pacientes con EPOC que presenta
 
 ¿Cuántas horas usar el oxígeno?
 
-La evidencia demuestra que la oxigenoterapia es efectiva solo cuando se usa un mínimo de 15-18 horas diarias (idealmente 24 horas). Usar el oxígeno pocas horas por día no aporta los beneficios en sobrevida demostrados por los estudios.
+La evidencia demuestra que la oxigenoterapia es efectiva solo cuando se usa un mínimo de 15-18 horas diarias (idealmente todo el día). Usar el oxígeno pocas horas por día no aporta los beneficios en sobrevida demostrados por los estudios.
 
 Tipos de sistemas de oxígeno disponibles en Inser Salud:
 
@@ -753,7 +753,7 @@ Los más frecuentes son los [concentradores de oxígeno](https://insersalud.com/
 
 ### ¿Cuántas horas por día se usa el oxígeno?
 
-Lo define tu médico según los resultados de saturación y gases en sangre. Nuestros concentradores están preparados para uso continuo las 24 horas del día, así que soportan cualquier esquema que te hayan indicado.
+Lo define tu médico según los resultados de saturación y gases en sangre. Nuestros concentradores están preparados para uso continuo, de día y de noche, así que soportan cualquier esquema que te hayan indicado.
 
 ### ¿Se puede alquilar el concentrador de oxígeno?
 
@@ -781,7 +781,7 @@ Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta,
 
 Esta información es orientativa y no reemplaza la consulta médica. El equipo y los parámetros de uso los indica tu médico tratante.
 
-INSER SALUD — equipos y asesoramiento para EPOC en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320).
+INSER SALUD — equipos y asesoramiento para EPOC en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20la%20p%C3%A1gina%20de%20EPOC%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320).
 
 ---
 
@@ -979,7 +979,7 @@ Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta,
 
 Esta información es orientativa y no reemplaza la consulta médica. El equipo y los parámetros de uso los indica tu médico tratante.
 
-INSER SALUD — equipos y asesoramiento para Fibrosis Pulmonar en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320).
+INSER SALUD — equipos y asesoramiento para Fibrosis Pulmonar en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20la%20p%C3%A1gina%20de%20Fibrosis%20Pulmonar%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320).
 
 ---
 
@@ -1178,7 +1178,7 @@ Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta,
 
 Esta información es orientativa y no reemplaza la consulta médica. El equipo y los parámetros de uso los indica tu médico tratante.
 
-INSER SALUD — equipos y asesoramiento para Esclerosis Lateral Amiotrófica en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320).
+INSER SALUD — equipos y asesoramiento para Esclerosis Lateral Amiotrófica en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20la%20p%C3%A1gina%20de%20Esclerosis%20Lateral%20Amiotr%C3%B3fica%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320).
 
 ---
 
@@ -1373,7 +1373,7 @@ Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta,
 
 Esta información es orientativa y no reemplaza la consulta médica. El equipo y los parámetros de uso los indica tu médico tratante.
 
-INSER SALUD — equipos y asesoramiento para Atrofia Muscular Espinal en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320).
+INSER SALUD — equipos y asesoramiento para Atrofia Muscular Espinal en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20la%20p%C3%A1gina%20de%20Atrofia%20Muscular%20Espinal%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320).
 
 ---
 
@@ -1585,7 +1585,7 @@ Contenido revisado por el **Lic. Sergio Giorda**, kinesiólogo y fisioterapeuta,
 
 Esta información es orientativa y no reemplaza la consulta médica. El equipo y los parámetros de uso los indica tu médico tratante.
 
-INSER SALUD — equipos y asesoramiento para Parálisis Cerebral en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320).
+INSER SALUD — equipos y asesoramiento para Parálisis Cerebral en Córdoba. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20la%20p%C3%A1gina%20de%20Par%C3%A1lisis%20Cerebral%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320).
 
 ---
 
@@ -1611,7 +1611,9 @@ publisher: INSER SALUD (https://insersalud.com)
 
 Alquilamos equipos de terapia respiratoria en Córdoba con entrega e instalación a domicilio. Elegí abajo qué te indicó tu médico y te pasamos la cotización el mismo día por WhatsApp. No necesitás saber de marcas ni modelos: con la indicación alcanza.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+[Pedir precio de alquiler por WhatsApp](https://wa.me/5493512065320?text=Hola%2C%20quiero%20saber%20el%20precio%20del%20alquiler%20de%20un%20equipo%20respiratorio%20en%20C%C3%B3rdoba.)
+
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Qué equipos alquilamos
 
@@ -1711,7 +1713,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Oxígeno a domicilio en Córdoba](https://insersalud.com/oxigeno-a-domicilio-cordoba)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Alquiler%20de%20respiradores%20y%20equipos%20respiratorios%20en%20C%C3%B3rdoba%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -1737,7 +1739,9 @@ publisher: INSER SALUD (https://insersalud.com)
 
 ¿Necesitás un CPAP por un tiempo o querés probarlo antes de comprarlo? En INSER SALUD alquilamos CPAP y AutoCPAP en Córdoba con entrega e instalación a domicilio en el día. Equipos aprobados por ANMAT, con máscara, humidificador y soporte técnico incluidos.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+[Pedir precio de alquiler por WhatsApp](https://wa.me/5493512065320?text=Hola%2C%20quiero%20saber%20el%20precio%20del%20alquiler%20de%20un%20CPAP%20en%20C%C3%B3rdoba.)
+
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Cómo funciona el alquiler de CPAP?
 
@@ -1851,7 +1855,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Poligrafía respiratoria domiciliaria (estudio del sueño)](https://insersalud.com/estudio-del-sueno-cordoba)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Alquiler%20de%20CPAP%20y%20AutoCPAP%20en%20C%C3%B3rdoba%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -1877,11 +1881,13 @@ publisher: INSER SALUD (https://insersalud.com)
 
 Si necesitás oxígeno en casa, en INSER SALUD alquilamos concentradores de oxígeno (fijos y portátiles) en Córdoba con entrega e instalación a domicilio. Ideal para oxigenoterapia continua en EPOC, fibrosis pulmonar, post-internación y otras indicaciones médicas.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+[Pedir precio de alquiler por WhatsApp](https://wa.me/5493512065320?text=Hola%2C%20quiero%20saber%20el%20precio%20del%20alquiler%20de%20un%20concentrador%20de%20ox%C3%ADgeno%20en%20C%C3%B3rdoba.)
+
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Concentrador fijo o portátil: ¿cuál necesito?
 
-El concentrador estacionario (fijo) es para uso continuo en el hogar, las 24 horas, y entrega mayor flujo de oxígeno. El concentrador portátil tiene batería y es para quienes necesitan moverse, salir o viajar manteniendo el oxígeno.
+El concentrador estacionario (fijo) es para uso continuo en el hogar, de día y de noche, y entrega mayor flujo de oxígeno. El concentrador portátil tiene batería y es para quienes necesitan moverse, salir o viajar manteniendo el oxígeno.
 
 Te ayudamos a elegir según el flujo que indicó tu médico (litros por minuto) y tu estilo de vida.
 
@@ -1893,19 +1899,19 @@ Llevamos el concentrador a tu casa en Córdoba, lo instalamos y te capacitamos a
 
 La oxigenoterapia domiciliaria está indicada cuando la saturación de oxígeno en sangre es baja, situación frecuente en EPOC, fibrosis pulmonar, secuelas post-COVID y cuadros respiratorios crónicos. Siempre se usa según indicación médica.
 
-## No te entregamos una caja
+## Cómo queda instalado el concentrador en tu casa
 
-Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.
+El concentrador llega regulado en el flujo que indicó tu médico, en litros por minuto. No tenés que calcular nada ni tocar la configuración.
 
-La instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.
+Quien lo instala es personal profesional especializado: lo deja funcionando, te muestra cómo encenderlo, cómo colocarte la cánula y cómo limpiar el filtro, y se lo explica también a quien te acompaña en casa.
 
-Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.
+Antes de irse revisa con vos dónde conviene ubicarlo, con espacio alrededor para que tome aire y lejos de cualquier llama o fuente de calor. Si lo que buscás es comparar con la compra o con otras formas de recibir oxígeno, mirá [oxígeno a domicilio en Córdoba](https://insersalud.com/oxigeno-a-domicilio-cordoba).
 
-## Qué significa "oxígeno 24 horas"
+## Oxígeno todo el día: el equipo y las horas de uso
 
-Cuando se habla de oxígeno 24 horas se mezclan dos cosas distintas, y conviene separarlas.
+Cuando se habla de usar oxígeno todo el día se mezclan dos cosas distintas, y conviene separarlas.
 
-Una es el equipo. Los concentradores estacionarios que entregamos están preparados para uso continuo las 24 horas del día: toman el aire del ambiente y de ahí extraen el oxígeno, así que no dependen de la recarga de un tubo ni hay que estar pendiente de que se termine.
+Una es el equipo. Los concentradores estacionarios que entregamos están preparados para uso continuo, de día y de noche: toman el aire del ambiente y de ahí extraen el oxígeno, así que no dependen de la recarga de un tubo ni hay que estar pendiente de que se termine.
 
 La otra son las horas que te corresponde usarlo, y eso lo define tu médico según tus estudios. En oxigenoterapia domiciliaria la evidencia muestra que el tratamiento es efectivo cuando se usa un mínimo de 15 a 18 horas por día, idealmente todo el día: usarlo pocas horas no aporta los beneficios que demostraron los estudios.
 
@@ -1953,9 +1959,9 @@ Y si notás que tu saturación baja por debajo de lo habitual, avisale a tu méd
 
 ## Preguntas frecuentes
 
-### ¿Atienden las 24 horas o los fines de semana?
+### ¿En qué horario atienden? ¿Hay guardia?
 
-Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.
+Respondemos por WhatsApp y teléfono todos los días, incluidos sábados y domingos, de 8 a 20 hs. No tenemos guardia técnica y no atendemos urgencias: si es una emergencia, llamá a tu servicio de emergencias. La entrega y la instalación del concentrador en Córdoba se coordinan con vos, normalmente en el día.
 
 ### ¿Cuánto cuesta alquilar un concentrador de oxígeno en Córdoba?
 
@@ -1995,6 +2001,8 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 ## También te puede servir
 
+- [Oxígeno a domicilio en Córdoba](https://insersalud.com/oxigeno-a-domicilio-cordoba)
+
 - [Todo el alquiler de equipos respiratorios en Córdoba](https://insersalud.com/alquiler-equipos-respiratorios-cordoba)
 
 - [EPOC](https://insersalud.com/patologia/epoc)
@@ -2007,7 +2015,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Alquiler%20de%20concentrador%20de%20ox%C3%ADgeno%20en%20C%C3%B3rdoba%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -2033,7 +2041,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP en Córdoba, aprobados por ANMAT, con garantía oficial del fabricante y asesoramiento personalizado. Mirá los precios de referencia y elegí el equipo correcto según tu indicación médica.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Precios de CPAP en Córdoba (referencia)
 
@@ -2053,13 +2061,13 @@ Te ayudamos a elegir según lo que indicó tu médico y tu presión de tratamien
 
 ## Garantía y respaldo
 
-Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial del fabricante. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.
+Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial del fabricante. Te asesoramos en la adaptación y damos soporte técnico continuo en Córdoba. Los repuestos (máscaras, filtros y tubuladuras) los tenemos acá y se compran aparte.
 
 ## Qué incluye el equipo cuando lo comprás
 
 Cuando comprás un CPAP con nosotros no te llevás solo el motor. El equipo viene completo: la unidad, el humidificador, la tubuladura, la fuente de alimentación, la tarjeta de memoria y el bolso de traslado.
 
-La máscara la elegimos juntos, porque es la pieza que define si el tratamiento funciona o no. Es donde más pacientes abandonan, y casi siempre es por una máscara mal elegida, no por el equipo.
+La máscara no viene incluida en el precio del equipo: se compra aparte y la elegimos juntos, porque es la pieza que define si el tratamiento funciona o no. Es donde más pacientes abandonan, y casi siempre es por una máscara mal elegida, no por el equipo.
 
 Además te configuramos la presión que indicó tu médico y te explicamos cómo usarlo. No entregamos equipos en una caja para que los descubras solo.
 
@@ -2159,7 +2167,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Poligrafía respiratoria domiciliaria (estudio del sueño)](https://insersalud.com/estudio-del-sueno-cordoba)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Comprar%20CPAP%20en%20C%C3%B3rdoba%3A%20precios%20y%20modelos%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -2169,7 +2177,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 ---
 
 ---
-title: "Poligrafía domiciliaria en Córdoba: precio por WhatsApp"
+title: "Poligrafía domiciliaria en Córdoba: estudio del sueño en casa"
 description: "Poligrafía respiratoria en tu casa, en Córdoba: una noche, sin internación y con informe de IAH para tu médico. Pedí el precio y el turno por WhatsApp."
 url: https://insersalud.com/estudio-del-sueno-cordoba
 canonical: https://insersalud.com/estudio-del-sueno-cordoba
@@ -2185,7 +2193,9 @@ publisher: INSER SALUD (https://insersalud.com)
 
 ¿Roncás fuerte, te despertás cansado o te dijeron que dejás de respirar mientras dormís? La poligrafía respiratoria domiciliaria es el estudio del sueño que se hace en tu casa: dormís una noche en tu cama con el polígrafo y no hace falta internarte ni dormir en un laboratorio. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba y, si da apnea, te acompañamos en el tratamiento.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+[Ver precio por WhatsApp](https://wa.me/5493512065320?text=Hola%2C%20quiero%20saber%20el%20precio%20de%20la%20poligraf%C3%ADa%20respiratoria%20a%20domicilio%20en%20C%C3%B3rdoba%20y%20qu%C3%A9%20turnos%20hay.)
+
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Qué es la poligrafía respiratoria?
 
@@ -2209,9 +2219,9 @@ Si el estudio da apnea, en Córdoba podés [alquilar](https://insersalud.com/alq
 
 Las dos son estudios del sueño. La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo del tórax y el abdomen, el oxígeno en sangre y el ronquido. Es la que se hace en tu casa.
 
-La polisomnografía suma la actividad del cerebro, de los ojos y de los músculos para conocer las etapas del sueño, y habitualmente se hace en un laboratorio.
+La polisomnografía suma la actividad del cerebro, de los ojos y de los músculos para conocer las etapas del sueño, y habitualmente se hace en un laboratorio o clínica del sueño.
 
-Cuál te corresponde lo decide tu médico.
+Cuál te corresponde lo decide tu médico. Si te indicaron una poligrafía respiratoria, en Córdoba la hacemos en tu casa.
 
 ## Roncar no siempre es apnea: el estudio lo define
 
@@ -2303,6 +2313,14 @@ Sí. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba
 
 La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo respiratorio, el oxígeno en sangre y el ronquido, y se hace en tu casa. La polisomnografía agrega la actividad del cerebro para conocer las etapas del sueño y habitualmente se hace en un laboratorio. Cuál te corresponde lo decide tu médico.
 
+### ¿Tengo que ir a una clínica del sueño en Córdoba para hacerme el estudio?
+
+Depende de lo que te indicaron. La polisomnografía se hace habitualmente en un laboratorio o clínica del sueño, donde pasás la noche. La poligrafía respiratoria se hace en tu casa: en Córdoba se entrega el polígrafo, dormís una noche en tu cama y te entregamos el informe para tu médico. Cuál de los dos estudios corresponde lo decide tu médico.
+
+### ¿Hay tratamiento para dejar de roncar?
+
+Primero hay que saber qué hay detrás del ronquido. Si viene con pausas en la respiración puede ser apnea del sueño, y eso se confirma con el estudio. Si la poligrafía da apnea, el tratamiento estándar es el CPAP; si no la da, tu médico te indica cómo seguir. Podés leer más en [tratamiento de la apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno).
+
 ### ¿Qué pasa si el estudio da apnea del sueño?
 
 El tratamiento estándar es el CPAP o AutoCPAP. Te ayudamos a elegir el equipo según tu indicación médica y te acompañamos en la adaptación.
@@ -2347,7 +2365,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Oximetría nocturna a domicilio en Córdoba](https://insersalud.com/oximetria-nocturna-cordoba)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Poligraf%C3%ADa%20respiratoria%20domiciliaria%20en%20C%C3%B3rdoba%3A%20el%20estudio%20del%20sue%C3%B1o%20en%20tu%20casa%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -2373,7 +2391,9 @@ publisher: INSER SALUD (https://insersalud.com)
 
 ¿Tu médico te pidió una oximetría nocturna? Es el estudio que mide tu oxígeno en sangre durante toda la noche con un sensor en el dedo. En INSER SALUD la hacemos a domicilio en Córdoba: se entrega el oxímetro en tu casa, dormís en tu cama como cualquier noche y se devuelve al día siguiente. Del registro sale el informe que evalúa tu médico.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+[Ver precio por WhatsApp](https://wa.me/5493512065320?text=Hola%2C%20quiero%20saber%20el%20precio%20de%20la%20oximetr%C3%ADa%20nocturna%20a%20domicilio%20en%20C%C3%B3rdoba%20y%20qu%C3%A9%20turnos%20hay.)
+
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Qué es la oximetría nocturna?
 
@@ -2543,7 +2563,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Oxigenoterapia](https://insersalud.com/academia/ebook/oxigenoterapia)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Oximetr%C3%ADa%20nocturna%20a%20domicilio%20en%20C%C3%B3rdoba%3A%20medimos%20tu%20ox%C3%ADgeno%20mientras%20dorm%C3%ADs%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -2569,7 +2589,9 @@ publisher: INSER SALUD (https://insersalud.com)
 
 En INSER SALUD ofrecemos BiPAP en Córdoba, en venta y alquiler, para EPOC, enfermedades neuromusculares (ELA, AME), hipoventilación y apnea compleja. Equipos aprobados por ANMAT, con entrega a domicilio, adaptación y soporte técnico.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+[Pedir precio de alquiler por WhatsApp](https://wa.me/5493512065320?text=Hola%2C%20quiero%20saber%20el%20precio%20del%20alquiler%20de%20un%20BiPAP%20en%20C%C3%B3rdoba.)
+
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Qué es un BiPAP y cuándo se usa?
 
@@ -2655,7 +2677,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22BiPAP%20en%20C%C3%B3rdoba%3A%20venta%20y%20alquiler%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -2681,7 +2703,9 @@ publisher: INSER SALUD (https://insersalud.com)
 
 En INSER SALUD llevamos el oxígeno a tu casa en Córdoba. Ofrecemos oxigenoterapia domiciliaria con concentradores de oxígeno fijos y portátiles, en venta y alquiler, con entrega, instalación y capacitación de uso.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+[Pedir precio de alquiler por WhatsApp](https://wa.me/5493512065320?text=Hola%2C%20quiero%20saber%20el%20precio%20del%20alquiler%20de%20ox%C3%ADgeno%20a%20domicilio%20en%20C%C3%B3rdoba.)
+
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Qué es la oxigenoterapia domiciliaria?
 
@@ -2703,13 +2727,13 @@ La instalación la hace personal profesional especializado, que te explica cómo
 
 Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.
 
-## Qué quiere decir "oxígeno 24 horas"
+## Oxígeno todo el día: qué quiere decir
 
 Es una consulta que mezcla dos cosas distintas.
 
-Una es el equipo. Los concentradores estacionarios que entregamos están declarados para uso continuo las 24 horas, así que soportan cualquier esquema que te hayan indicado. El BMC trabaja entre 0,5 y 5 litros por minuto con pureza igual o mayor al 93%, y el [Yuwell de 10 litros](https://insersalud.com/concentrador-oxigeno-10-litros) llega hasta 10 L/min para casos de alta demanda.
+Una es el equipo. Los concentradores estacionarios que entregamos están declarados para uso continuo, de día y de noche, así que soportan cualquier esquema que te hayan indicado. El BMC trabaja entre 0,5 y 5 litros por minuto con pureza igual o mayor al 93%, y el [Yuwell de 10 litros](https://insersalud.com/concentrador-oxigeno-10-litros) llega hasta 10 L/min para casos de alta demanda.
 
-La otra es cuántas horas por día tenés que usarlo, y eso lo define tu médico según los resultados de saturación y gases en sangre. En oxigenoterapia domiciliaria las indicaciones suelen ser de muchas horas diarias, generalmente entre 16 y 24.
+La otra es cuántas horas por día tenés que usarlo, y eso lo define tu médico según los resultados de saturación y gases en sangre. En oxigenoterapia domiciliaria las indicaciones suelen ser de muchas horas diarias, generalmente de 16 o más.
 
 Y una aclaración práctica: respondemos por WhatsApp todos los días de 8 a 20 hs; no hay guardia ni atención de urgencias. La entrega y la instalación en Córdoba las coordinamos con vos.
 
@@ -2761,9 +2785,9 @@ El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo que i
 
 En INSER SALUD alquilamos y vendemos concentradores de oxígeno en Córdoba: te lo llevamos a tu casa, lo dejamos configurado según la indicación médica y te explicamos cómo usarlo. Escribinos por WhatsApp al +54 9 351 206-5320; el soporte es de 8 a 20 hs. No atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias.
 
-### ¿Atienden las 24 horas o los fines de semana?
+### ¿Atienden de noche o los fines de semana?
 
-Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.
+Atendemos todos los días, también sábados y domingos, de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo, de día y de noche, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.
 
 ### ¿Hacen entrega de oxígeno a domicilio en Córdoba?
 
@@ -2779,11 +2803,11 @@ El fijo es para uso continuo en casa; el portátil tiene batería para salir o v
 
 ### ¿Venden o alquilan?
 
-Las dos cosas. Tenés el concentrador BMC estacionario desde $999.000 y opciones de alquiler.
+Las dos cosas. Tenés el concentrador BMC estacionario desde $999.000 y el [alquiler de concentrador de oxígeno en Córdoba](https://insersalud.com/alquiler-concentrador-oxigeno-cordoba), que se cotiza por WhatsApp.
 
 ### ¿Puedo usar el concentrador toda la noche mientras duermo?
 
-Los concentradores estacionarios que entregamos están declarados para uso continuo las 24 horas y entregan flujo continuo. Los portátiles a pulso liberan oxígeno cuando detectan la inspiración, y durante el sueño la respiración se vuelve más suave: por eso solo se usan de noche si son de flujo continuo y tu médico lo autorizó. Cuántas horas por día usarlo lo define tu médico.
+Los concentradores estacionarios que entregamos están declarados para uso continuo, de día y de noche, y entregan flujo continuo. Los portátiles a pulso liberan oxígeno cuando detectan la inspiración, y durante el sueño la respiración se vuelve más suave: por eso solo se usan de noche si son de flujo continuo y tu médico lo autorizó. Cuántas horas por día usarlo lo define tu médico.
 
 ### ¿Cuánta electricidad consume un concentrador de oxígeno?
 
@@ -2805,7 +2829,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Todo el alquiler de equipos respiratorios en Córdoba](https://insersalud.com/alquiler-equipos-respiratorios-cordoba)
 
-- [Alquiler de concentrador de oxígeno](https://insersalud.com/alquiler-concentrador-oxigeno-cordoba)
+- [Alquiler de concentrador de oxígeno en Córdoba](https://insersalud.com/alquiler-concentrador-oxigeno-cordoba)
 
 - [Concentrador de oxígeno portátil](https://insersalud.com/concentrador-oxigeno-portatil-cordoba)
 
@@ -2817,7 +2841,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Ox%C3%ADgeno%20a%20domicilio%20en%20C%C3%B3rdoba%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -2843,7 +2867,9 @@ publisher: INSER SALUD (https://insersalud.com)
 
 En INSER SALUD tenés concentradores de oxígeno portátiles en Córdoba: livianos, con batería y autonomía para salir, trabajar o viajar. Venta y alquiler, con asesoramiento para elegir el modelo según tu flujo y tu rutina.
 
-Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes.
+[Pedir precio de alquiler por WhatsApp](https://wa.me/5493512065320?text=Hola%2C%20quiero%20saber%20el%20precio%20del%20alquiler%20de%20un%20concentrador%20de%20ox%C3%ADgeno%20port%C3%A1til%20en%20C%C3%B3rdoba.)
+
+Aparatología aprobada por ANMAT · Entrega a domicilio en el día en Córdoba · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Para quién es un concentrador portátil?
 
@@ -2943,7 +2969,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [EPOC](https://insersalud.com/patologia/epoc)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Concentrador%20de%20ox%C3%ADgeno%20port%C3%A1til%20en%20C%C3%B3rdoba%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -2969,11 +2995,11 @@ publisher: INSER SALUD (https://insersalud.com)
 
 En INSER SALUD vendemos CPAP, AutoCPAP y BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Salta o donde sea, te enviamos tu equipo aprobado por ANMAT, con garantía, configuración y asesoramiento para que lo uses bien desde el primer día.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Cuánto cuesta un CPAP en Argentina? Precios publicados
 
-Estos son los precios de los CPAP y AutoCPAP de nuestro catálogo, con envío a todo el país. Te los mostramos antes de que preguntes, sin "consultar precio".
+Estos son los precios de los CPAP y AutoCPAP de nuestro catálogo, con envío a todo el país. Te los mostramos antes de que preguntes.
 CPAP BMC G2S con humidificador: $499.000 (el más vendido).
 AutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).
 Oferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.
@@ -3146,7 +3172,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Precio%20de%20CPAP%20y%20AutoCPAP%20en%20Argentina%3A%20compr%C3%A1%20con%20env%C3%ADo%20a%20todo%20el%20pa%C3%ADs%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -3172,7 +3198,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 En INSER SALUD vendemos BiPAP con envío a todo el país. Vivas en Buenos Aires, Rosario, Mendoza o donde sea, te enviamos tu equipo aprobado por ANMAT, configurado según la indicación de tu médico. El BiPAP se usa en EPOC con hipercapnia, en enfermedades neuromusculares como la ELA y la AME, en hipoventilación y en apnea del sueño compleja que no responde al CPAP; la indicación, el modo y las presiones los define siempre tu médico. Si estás en Córdoba Capital y alrededores, también podés alquilarlo: mirá [BiPAP en Córdoba](https://insersalud.com/bipap-cordoba).
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Cuánto cuesta un BiPAP en Argentina? Precio publicado
 
@@ -3310,7 +3336,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Ventilación no invasiva (CPAP y BiPAP)](https://insersalud.com/academia/ebook/ventilacion-no-invasiva)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Precio%20de%20BiPAP%20en%20Argentina%3A%20compr%C3%A1%20con%20env%C3%ADo%20a%20todo%20el%20pa%C3%ADs%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -3336,7 +3362,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 En INSER SALUD vendemos concentradores de oxígeno fijos y portátiles con envío a todo el país. Para oxigenoterapia domiciliaria en EPOC, fibrosis pulmonar y otras indicaciones, te enviamos el equipo aprobado por ANMAT a cualquier provincia.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Concentrador fijo o portátil
 
@@ -3448,7 +3474,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Precio%20de%20concentradores%20de%20ox%C3%ADgeno%20en%20Argentina%3A%20compr%C3%A1%20con%20env%C3%ADo%20a%20todo%20el%20pa%C3%ADs%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -3474,13 +3500,13 @@ publisher: INSER SALUD (https://insersalud.com)
 
 El concentrador de oxígeno YUWELL de 10 litros entrega alto flujo (hasta 10 L/min, el doble del concentrador estándar de 5 L). Está pensado para pacientes con alta demanda de oxígeno y para [centros de rehabilitación pulmonar](https://insersalud.com/equipamiento-rehabilitacion-pulmonar). Se vende con envío a todo el país; $2.800.000, aprobado por ANMAT.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Por qué un concentrador de 10 litros?
 
 La mayoría de los concentradores domiciliarios entregan hasta 5 L/min. El de 10 litros duplica ese flujo, lo que lo hace apto para quienes necesitan altas concentraciones de oxígeno de forma sostenida y para uso intensivo en instituciones.
 
-Es un equipo estacionario de uso continuo (24 hs), con ruedas para trasladarlo dentro del hogar o el centro.
+Es un equipo estacionario de uso continuo, de día y de noche, con ruedas para trasladarlo dentro del hogar o el centro.
 
 ## 5 L/min o 10 L/min: cómo se define cuál corresponde
 
@@ -3488,7 +3514,7 @@ El dato que lo define está en la indicación médica: el flujo, expresado en li
 
 El concentrador domiciliario estándar entrega hasta 5 L/min. Cubre la mayoría de los tratamientos de oxigenoterapia en casa y es el equipo que corresponde cuando la indicación queda dentro de ese rango.
 
-Este YUWELL trabaja entre 1 y 10 L/min, es decir el doble del estándar, y sostiene ese flujo en uso continuo las 24 horas. Ese margen es lo que lo hace apto para dos situaciones concretas.
+Este YUWELL trabaja entre 1 y 10 L/min, es decir el doble del estándar, y sostiene ese flujo en uso continuo, de día y de noche. Ese margen es lo que lo hace apto para dos situaciones concretas.
 
 La primera es la alta demanda de oxígeno: cuando la indicación supera los 5 L/min, o cuando el paciente desatura al esfuerzo y necesita subir el flujo durante la actividad para sostener la saturación. Un equipo de 5 L/min ya está en su tope y no deja margen; uno de 10 L/min sí.
 
@@ -3568,7 +3594,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Alto flujo (CNAF), con simulador y casos](https://insersalud.com/academia/ebook/alto-flujo)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Concentrador%20de%20ox%C3%ADgeno%20de%2010%20litros%20(alto%20flujo)%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -3594,7 +3620,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 La máscara es la mitad del éxito del tratamiento con CPAP o BiPAP: una interfaz incómoda es la principal causa de abandono. En INSER SALUD tenés máscaras nasales, nasobucales (full face), almohadillas y línea pediátrica, con precios visibles y envío a todo el país. Te ayudamos a elegir el modelo y el talle correcto para tu equipo.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · Garantía oficial del fabricante · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · Garantía oficial del fabricante · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## ¿Máscara nasal, nasobucal o almohadillas?
 
@@ -3690,7 +3716,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Apnea del sueño](https://insersalud.com/patologia/apnea-del-sueno)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22M%C3%A1scaras%20para%20CPAP%20y%20BiPAP%3A%20nasales%2C%20nasobucales%20y%20pedi%C3%A1tricas%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -3716,7 +3742,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 La línea pediátrica es difícil de conseguir en Argentina. Nosotros tenemos las tres, con talles desde neonatal y precios publicados. Y algo que importa tanto como el precio: te ayudamos a elegir cuál y qué talle, porque en un chico una máscara incómoda muchas veces está detrás del abandono del tratamiento.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · Garantía oficial del fabricante · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · Garantía oficial del fabricante · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Una máscara pediátrica no es una de adulto en talle chico
 
@@ -3826,7 +3852,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [BiPAP en Córdoba](https://insersalud.com/bipap-cordoba)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22M%C3%A1scaras%20pedi%C3%A1tricas%20para%20CPAP%20y%20BiPAP%3A%20los%203%20modelos%20que%20tenemos%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -3852,7 +3878,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 Equipamos centros de rehabilitación pulmonar, consultorios de kinesiología respiratoria e instituciones de salud en todo el país: concentradores de oxígeno de alto flujo para uso intensivo, ventilación no invasiva, máscaras e insumos de reposición. Presupuesto formal, factura y soporte técnico continuo.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Qué necesita un centro de rehabilitación pulmonar
 
@@ -3862,7 +3888,7 @@ Por eso el equipo central es el concentrador de ALTO FLUJO (10 L/min, el doble d
 
 ## El equipo central: concentrador de oxígeno de 10 litros
 
-Concentrador YUWELL de 10 litros (alto flujo) — $2.800.000. Hasta 10 L/min, uso continuo 24 hs, display digital, alarmas de seguridad y ruedas para moverlo entre boxes o consultorios. Aprobado por ANMAT, con garantía.
+Concentrador YUWELL de 10 litros (alto flujo) — $2.800.000. Hasta 10 L/min, uso continuo, display digital, alarmas de seguridad y ruedas para moverlo entre boxes o consultorios. Aprobado por ANMAT, con garantía.
 
 Para demanda muy alta, se pueden combinar dos equipos o complementar con tubos de oxígeno de respaldo.
 
@@ -3880,9 +3906,9 @@ Emitimos presupuesto formal y factura para instituciones, obras sociales y compr
 
 No hay una receta única: el equipamiento se define por cuántos pacientes trabajan en simultáneo y por los flujos que indican los médicos derivantes.
 
-Para los pacientes de mayor demanda, el concentrador de alto flujo es el que da margen: el YUWELL de 10 litros trabaja de 1 a 10 L/min, con uso continuo declarado de 24 hs, display digital de flujo, alarmas de corte de energía y de baja concentración, y ruedas para moverlo entre boxes.
+Para los pacientes de mayor demanda, el concentrador de alto flujo es el que da margen: el YUWELL de 10 litros trabaja de 1 a 10 L/min, con uso continuo declarado, display digital de flujo, alarmas de corte de energía y de baja concentración, y ruedas para moverlo entre boxes.
 
-Donde el requerimiento de flujo es menor, un estacionario de 5 L/min cubre y baja bastante la inversión: el BMC estacionario está a $999.000, con flujo de 0,5 a 5 L/min, pureza ≥93%, uso continuo 24 hs y 2 años de garantía. Trae medidor de oxígeno integrado y display digital de pureza, flujo y horas, dos cosas que en una institución sirven para verificar la concentración entregada y llevar el control del mantenimiento.
+Donde el requerimiento de flujo es menor, un estacionario de 5 L/min cubre y baja bastante la inversión: el BMC estacionario está a $999.000, con flujo de 0,5 a 5 L/min, pureza ≥93%, uso continuo y 2 años de garantía. Trae medidor de oxígeno integrado y display digital de pureza, flujo y horas, dos cosas que en una institución sirven para verificar la concentración entregada y llevar el control del mantenimiento.
 
 El esquema habitual es mixto: uno o dos equipos de alto flujo para los pacientes de alta demanda y estacionarios de 5 L para el resto. Como respaldo para salidas cortas y traslados, la mochila de oxígeno (tubo de 0,415 m³ con regulador, bolso y carga inicial, U$S 270) da entre 1 y 3 horas según el flujo.
 
@@ -3892,7 +3918,7 @@ Un equipo que trabaja toda la jornada exige más que uno domiciliario. Estas son
 
 ¿Qué garantía tiene ese modelo en particular? No es la misma en todos: el concentrador YUWELL de 10 litros tiene 1 año de garantía oficial, mientras que el BMC estacionario de 5 L/min, el BiPAP BMC G3 y el ventilador STELLAR 150 tienen 2 años. Toda la aparatología está aprobada por ANMAT.
 
-¿Está declarado para uso continuo? Los dos concentradores estacionarios (el de 10 litros y el BMC de 5 L/min) declaran uso continuo 24 hs, y el STELLAR 150 está especificado para 24 hs continuas en pacientes adultos y pediátricos.
+¿Está declarado para uso continuo? Los dos concentradores estacionarios (el de 10 litros y el BMC de 5 L/min) declaran uso continuo, y el STELLAR 150 está especificado para uso continuo, de día y de noche, en pacientes adultos y pediátricos.
 
 ¿Qué rango cubre? En oxígeno importa el flujo máximo; en ventilación, la presión y los modos. El BiPAP BMC G3 trabaja en CPAP, S, T y S/T, con IPAP de 4 a 25 cm H₂O y frecuencia de respaldo de 4 a 40 rpm. El STELLAR 150 llega a 40 cm H₂O, suma los modos PAC e iVAPS y tiene batería interna de hasta 2 hs, que se extiende a 8 hs con la Power Station II.
 
@@ -3996,7 +4022,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Diagnóstico por imágenes respiratorias (RX, TC y ecografía)](https://insersalud.com/academia/ebook/imagenes-respiratorias)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Equipamiento%20para%20centros%20de%20rehabilitaci%C3%B3n%20pulmonar%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -4007,7 +4033,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Concentrador de Oxígeno Portátil desde U$S 3.747 | INSER"
-description: "GCE Zen-O (U$S 3.747) y Philips SimplyGo (U$S 3.887), con pulso y flujo continuo de 0,5 a 2 L/min, aptos para vuelos. ANMAT, garantía de 3 años y envío a todo el país."
+description: "GCE Zen-O (U$S 3.747) y Philips SimplyGo (U$S 3.887): pulso y flujo continuo hasta 2 L/min, aptos para vuelos. ANMAT, 3 años de garantía y envío."
 url: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 canonical: https://insersalud.com/comprar-concentrador-oxigeno-portatil-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4020,17 +4046,17 @@ publisher: INSER SALUD (https://insersalud.com)
 
 ![Comprar concentrador de oxígeno portátil: envío a todo el país](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg)
 
-Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles de pulso y de flujo continuo con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.
+Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles con modo pulso y flujo continuo, con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Pulso o flujo continuo: la primera decisión
 
-Los portátiles de PULSO entregan oxígeno al detectar la inspiración: son los más livianos y de mayor autonomía, ideales para caminar y salir.
+Un portátil puede entregar el oxígeno de dos maneras. En modo PULSO libera oxígeno cuando detecta la inspiración: la batería rinde más y es el modo habitual para caminar y salir.
 
-Los de FLUJO CONTINUO entregan oxígeno constante como un equipo fijo: son la opción cuando el médico indica flujo continuo o para usar con equipos de presión (CPAP/BiPAP) durante el sueño.
+En FLUJO CONTINUO el oxígeno sale de forma constante, como en un equipo fijo: es la opción cuando el médico indica flujo continuo o para usar con equipos de presión (CPAP/BiPAP) durante el sueño.
 
-La indicación médica (litros por minuto y modalidad) define el modelo correcto; te asesoramos antes de comprar.
+Los dos modelos que vendemos, el GCE Zen-O y el Philips SimplyGo, tienen los dos modos, con flujo continuo de 0,5 a 2 L/min. La indicación médica (litros por minuto y modalidad) define si alcanzan para tu caso; te asesoramos antes de comprar.
 
 ## Modelos y precios
 
@@ -4067,7 +4093,7 @@ La garantía es oficial de fábrica: el GCE Zen-O y el Philips SimplyGo tienen 3
 
 Muchos pacientes combinan los dos equipos: un concentrador estacionario para las horas en casa y el portátil para salir. No es venta doble, es cómo suele quedar armado el esquema.
 
-El motivo es técnico. Los portátiles a pulso entregan oxígeno en demanda, cuando detectan la inspiración. Para flujos continuos o para el uso nocturno se recomienda complementar con un [concentrador estacionario](https://insersalud.com/comprar-concentrador-oxigeno-argentina), que entrega flujo constante y está pensado para funcionar de forma continua las 24 horas. El BMC estacionario, por ejemplo, va de 0,5 a 5 L/min y está $999.000.
+El motivo es técnico. En modo pulso el portátil entrega oxígeno en demanda, cuando detecta la inspiración; en flujo continuo llega hasta 2 L/min y la batería dura menos. Para flujos continuos más altos o para el uso nocturno se recomienda complementar con un [concentrador estacionario](https://insersalud.com/comprar-concentrador-oxigeno-argentina), que entrega flujo constante y está pensado para funcionar de forma continua, de día y de noche. El BMC estacionario, por ejemplo, va de 0,5 a 5 L/min y está $999.000.
 
 Para salidas cortas hay además una opción más económica que un portátil: la mochila de oxígeno, con tubo, regulador, bolso y carga inicial, a U$S 270. Pesa alrededor de 1,8 kg y rinde entre 1 y 3 horas según el flujo, así que sirve para un trámite o un turno médico, no para una jornada completa.
 
@@ -4105,7 +4131,7 @@ Sí, con los modelos aprobados FAA (GCE Zen-O, Philips SimplyGo). Las aerolínea
 
 ### ¿Pulso o flujo continuo?
 
-Depende de tu indicación médica. Pulso: más liviano y autónomo, para actividad. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. Te ayudamos a elegir.
+Depende de tu indicación médica. En pulso la batería rinde más y es el modo para la actividad diaria. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. El GCE Zen-O y el Philips SimplyGo tienen los dos modos. Te ayudamos a elegir.
 
 ### ¿Envían a todo el país?
 
@@ -4141,7 +4167,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Oxigenoterapia, de la guardia a casa (equipos domiciliarios)](https://insersalud.com/academia/ebook/oxigenoterapia)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Comprar%20concentrador%20de%20ox%C3%ADgeno%20port%C3%A1til%3A%20env%C3%ADo%20a%20todo%20el%20pa%C3%ADs%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -4167,7 +4193,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 El ResMed STELLAR 150 es un ventilador de soporte vital para uso domiciliario e institucional: ventilación invasiva y no invasiva, pacientes adultos y pediátricos, con batería interna para traslados y cortes de luz. En INSER SALUD lo vendemos con envío a todo el país y acompañamiento en la puesta en marcha.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Qué es el STELLAR 150
 
@@ -4197,7 +4223,7 @@ La ficha del equipo lista seis modos: CPAP, S, ST, T, PAC e iVAPS, con un rango 
 
 Entre esos modos está el ST: el modo S/T es el que suma frecuencia respiratoria de respaldo, que garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio. Es la función por la que este tipo de equipo aparece en enfermedades neuromusculares como la [ELA](https://insersalud.com/patologia/esclerosis-lateral-amiotrofica).
 
-El otro dato de la ficha que conviene leer es el uso previsto: 24 horas continuas, en pacientes adultos y pediátricos. No es un equipo pensado solo para la noche.
+El otro dato de la ficha que conviene leer es el uso previsto: continuo, de día y de noche, en pacientes adultos y pediátricos. No es un equipo pensado solo para la noche.
 
 Los modos, las presiones y las horas de uso los define el médico tratante, siempre. Lo que hacemos nosotros es leer tu prescripción antes de la compra y confirmarte que el equipo cubre lo indicado.
 
@@ -4205,7 +4231,7 @@ Los modos, las presiones y las horas de uso los define el médico tratante, siem
 
 Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](https://insersalud.com/bipap-cordoba) está en $1.300.000 y el STELLAR 150 en U$S 7.342.
 
-En números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es de 24 horas continuas en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.
+En números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es continuo, de día y de noche, en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.
 
 La diferencia de fondo no es solo de números. El BiPAP es un equipo de ventilación no invasiva; el STELLAR 150 soporta además ventilación invasiva por traqueostomía, con alarmas clínicas completas. Por eso lo describimos como el paso siguiente cuando un BiPAP ya no alcanza.
 
@@ -4215,9 +4241,9 @@ En ELA, por ejemplo, la ventilación no invasiva suele indicarse primero solo du
 
 La batería interna del STELLAR 150 da hasta 2 horas de autonomía y viene incluida con el equipo, junto con el humidificador. Con la batería externa Power Station II, la ficha declara hasta 8 horas.
 
-Esa autonomía está pensada para dos situaciones concretas: los cortes de luz y los traslados, para mover al paciente sin desconectar el equipo. En un ventilador cuyo uso previsto es de 24 horas continuas, no es un accesorio: es parte de lo que estás comprando.
+Esa autonomía está pensada para dos situaciones concretas: los cortes de luz y los traslados, para mover al paciente sin desconectar el equipo. En un ventilador cuyo uso previsto es continuo, de día y de noche, no es un accesorio: es parte de lo que estás comprando.
 
-Una aclaración para que no te lleves una sorpresa. Dos horas son una autonomía de contingencia, no un plan de respaldo para un corte largo: si vivís en una zona con cortes frecuentes, planteanoslo antes de comprar. Y si buscás la autonomía de 8 horas, consultanos por WhatsApp disponibilidad y precio de la Power Station II antes de contar con ella.
+Una aclaración para que no te lleves una sorpresa. Dos horas son una autonomía de contingencia, no un plan de respaldo para un corte largo: si vivís en una zona con cortes frecuentes, planteánoslo antes de comprar. Y si buscás la autonomía de 8 horas, consultanos por WhatsApp disponibilidad y precio de la Power Station II antes de contar con ella.
 
 ## Qué máscara corresponde: ventilada o sin fuga
 
@@ -4293,7 +4319,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (guía interactiva): Extubación, decanulación y deglución](https://insersalud.com/academia/ebook/extubacion-decanulacion-deglucion)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Ventilador%20ResMed%20STELLAR%20150%3A%20precio%20y%20venta%20en%20Argentina%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -4304,7 +4330,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Polígrafo Respiratorio: precio U$S 1.570 | INSER SALUD"
-description: "Polígrafo respiratorio BMC YH-600B PRO a U$S 1.570, para neumonólogos, clínicas del sueño y kinesiólogos. ANMAT, envío a todo el país y capacitación."
+description: "Polígrafo respiratorio BMC YH-600B PRO a U$S 1.570 para profesionales, con ANMAT y envío. ¿Sos paciente? Hacemos la poligrafía a domicilio en Córdoba."
 url: https://insersalud.com/comprar-poligrafo-argentina
 canonical: https://insersalud.com/comprar-poligrafo-argentina
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4319,7 +4345,9 @@ publisher: INSER SALUD (https://insersalud.com)
 
 El polígrafo respiratorio permite estudiar la apnea del sueño en el domicilio del paciente, sin laboratorio. En INSER SALUD vendemos el BMC YH-600B PRO a profesionales de la salud (neumonólogos, clínicas del sueño, kinesiólogos y centros de diagnóstico) con envío a todo el país, capacitación de uso y soporte técnico.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+[Soy paciente: quiero hacerme el estudio](https://wa.me/5493512065320?text=Hola%2C%20quiero%20hacerme%20la%20poligraf%C3%ADa%20respiratoria%20a%20domicilio%20en%20C%C3%B3rdoba.%20%C2%BFMe%20pasan%20el%20precio%20y%20los%20turnos%3F)
+
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Para quién es este equipo
 
@@ -4341,7 +4369,7 @@ Enviamos a todo el país, con capacitación de uso y del software incluida (pres
 
 ## ¿Buscás hacerte un estudio del sueño?
 
-Esta página es para profesionales que compran el equipo. Si sos paciente y querés hacerte una poligrafía en Córdoba, la hacemos nosotros: mirá [poligrafía respiratoria domiciliaria en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba), donde te explicamos cómo es el estudio y cómo seguir si el resultado da apnea.
+El precio de esta página es el del equipo, para profesionales que lo compran. Si sos paciente y querés hacerte una poligrafía en Córdoba, la hacemos nosotros en tu casa: dormís una noche con el polígrafo y te entregamos el informe para tu médico. El precio del estudio te lo pasamos por WhatsApp. Mirá [poligrafía respiratoria domiciliaria en Córdoba](https://insersalud.com/estudio-del-sueno-cordoba), donde te explicamos cómo es y cómo seguir si el resultado da apnea.
 
 ## Opción con 30 cánulas Luer Lock incluidas
 
@@ -4409,7 +4437,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Apnea del sueño, de la sospecha al CPAP](https://insersalud.com/academia/ebook/apnea-del-sueno)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Pol%C3%ADgrafo%20respiratorio%20BMC%20YH-600B%20PRO%3A%20precio%20y%20venta%20a%20profesionales%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -4435,7 +4463,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 El Cough Assist es un asistente de tos mecánico: mediante insuflación-exuflación reproduce una tos eficaz en pacientes que perdieron la fuerza para toser, ayudando a eliminar secreciones y prevenir infecciones respiratorias. Es un equipo clave en ELA, AME y otras enfermedades neuromusculares. Lo vendemos con envío a todo el país y capacitación para la familia.
 
-Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes.
+Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · [Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)](https://insersalud.com/sobre-nosotros).
 
 ## Qué es y cómo funciona
 
@@ -4481,7 +4509,7 @@ Si el paciente ya usa ventilación no invasiva o está por empezarla, contanos q
 
 ## Cómo se usa en casa, día a día
 
-No es un equipo de uso continuo como un concentrador de oxígeno, que está preparado para funcionar las 24 horas: el asistente de tos se usa en sesiones. La pauta habitual es de 2 a 3 sesiones por día, de alrededor de 5 ciclos cada una, y durante una infección respiratoria el médico puede indicar aumentar la frecuencia.
+No es un equipo de uso continuo como un concentrador de oxígeno, que está preparado para funcionar de día y de noche: el asistente de tos se usa en sesiones. La pauta habitual es de 2 a 3 sesiones por día, de alrededor de 5 ciclos cada una, y durante una infección respiratoria el médico puede indicar aumentar la frecuencia.
 
 Lo puede usar la familia en el domicilio con entrenamiento previo. Esa capacitación es parte de la entrega: formamos a familiares y cuidadores en el uso seguro del equipo, presencial en Córdoba y guiada a distancia en el resto del país, y después quedamos como soporte.
 
@@ -4553,7 +4581,7 @@ Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%)
 
 - [Curso gratuito (ebook): Ventilación en enfermedades neuromusculares, con simulador](https://insersalud.com/academia/ebook/ventilacion-neuromuscular)
 
-INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
+INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me/5493512065320?text=Hola%2C%20estoy%20viendo%20%22Cough%20Assist%20(asistente%20de%20tos%20mec%C3%A1nico)%3A%20precio%20y%20venta%20en%20Argentina%22%20en%20insersalud.com%20y%20quiero%20hacer%20una%20consulta.) · [Llamar](tel:+5493512065320) · inser.salud@gmail.com
 
 ---
 
@@ -5063,7 +5091,7 @@ Empezar por el pre-test (10 preguntas)
 
 Ir directo al simulador TECME
 
-15 capítulos · unas 4 horas de lectura y práctica · progreso guardado en este navegador
+16 capítulos · unas 4 horas de lectura y práctica · progreso guardado en este navegador
 
 Imagen contextual generada por IA · el monitor didáctico está recreado en SVG
 
@@ -5716,6 +5744,25 @@ PUNTOS CLAVE
 
 12
 
+CAPÍTULO AVANZADO
+
+## Driving pressure, frecuencia respiratoria y presión de soporte
+
+Después del destete, el paso que sigue: qué mide la ΔP, por qué se suma la frecuencia respiratoria (4ΔP + FR) y cómo vigilar el esfuerzo del paciente en presión de soporte.
+
+CAPÍTULO 12 · ΔP + FR
+
+- **4ΔP + FR y poder mecánico** El índice de Costa 2021 y la evidencia 2024–2026.
+- **ΔP medida en presión de soporte** Oclusión al final de la inspiración y cuándo el dato es válido.
+- **P0.1, Pocc y PMI** Zonas objetivo para titular la presión de soporte y elegir la PEEP.
+- **Práctica** Dos simuladores, ocho casos clínicos, cuatro videos y autoevaluación.
+
+Abrir el capítulo 12 →
+
+Se abre en una página propia. Al terminar, el capítulo lo devuelve a este punto del ebook.
+
+13
+
 AUTOEVALUACIÓN
 
 ## Mida lo que aprendió, con curvas de verdad
@@ -5759,7 +5806,7 @@ PUNTOS CLAVE
 - Repita solo lo que falló: es la forma más eficiente de estudiar.
 - Una curva generada al azar por el simulador es la mejor prueba de que aprendió a leerla.
 
-13
+14
 
 GUÍAS Y LÍMITES
 
@@ -5851,7 +5898,7 @@ PUNTOS CLAVE
 
 - Toda recomendación se adapta al protocolo de cada institución.
 
-14
+15
 
 GLOSARIO
 
@@ -6057,7 +6104,7 @@ PUNTOS CLAVE
 
 - Si una palabra no está clara, no siga: búsquela acá y vuelva.
 
-15
+16
 
 CONTACTO
 
@@ -10961,6 +11008,8 @@ La glotis se abre de forma brusca y el aire sale a gran flujo. Ese flujo produce
 
 Qué puede fallar:
 poca presión o apertura lenta producen flujo bajo: se oye tos, pero la secreción no se mueve.
+
+Recreaciones anatómicas generadas con IA con fines docentes; no representan a una persona real.
 
 Fase
 

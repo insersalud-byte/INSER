@@ -8,6 +8,7 @@ import AIFloat from './components/AIFloat';
 import WhatsAppFloat from './components/WhatsAppFloat';
 import ScrollToTop from './components/ScrollToTop';
 import { adsConversion, ADS_CONTACTO } from './adsConversions';
+import { waConOrigen, waUbicacion } from './utils/waOrigen';
 
 // Rutas privadas/pesadas en lazy: sacan admin, login y chat (con Supabase y
 // dashboard) del bundle publico. Landing/patologias/locales quedan eager para
@@ -61,9 +62,23 @@ function App() {
     const onClick = (e) => {
       const a = e.target.closest && e.target.closest('a[href*="wa.me"], a[href^="tel:"]');
       if (!a) return;
-      const href = a.getAttribute('href') || '';
-      track(href.startsWith('tel:') ? 'contact_phone' : 'contact_whatsapp', { transport_type: 'beacon', link_url: href });
-      if (typeof window.fbq === 'function') window.fbq('track', 'Contact', { method: href.startsWith('tel:') ? 'phone' : 'whatsapp' });
+      let href = a.getAttribute('href') || '';
+      const esTel = href.startsWith('tel:');
+      if (!esTel) {
+        // El mensaje sale con la pagina de origen (ver utils/waOrigen.js). Se cambia el href
+        // en la fase de captura, antes de que el navegador abra el enlace.
+        const conOrigen = waConOrigen(href, window.location.pathname);
+        if (conOrigen !== href) {
+          // Se devuelve el href original un instante despues: asi el mismo boton (flotante, Santi)
+          // arma el mensaje con la pagina correcta si la persona navega y vuelve a tocarlo.
+          const original = href;
+          a.setAttribute('href', conOrigen);
+          href = conOrigen;
+          setTimeout(() => { if (a.getAttribute('href') === conOrigen) a.setAttribute('href', original); }, 1000);
+        }
+      }
+      track(esTel ? 'contact_phone' : 'contact_whatsapp', { transport_type: 'beacon', link_url: href, ubicacion: waUbicacion(a), pagina: window.location.pathname });
+      if (typeof window.fbq === 'function') window.fbq('track', 'Contact', { method: esTel ? 'phone' : 'whatsapp' });
       adsConversion(ADS_CONTACTO); // lo que la campaña de Ads usa para pujar
     };
     const onSanti = () => { track('open_santi'); if (typeof window !== 'undefined' && typeof window.fbq === 'function') window.fbq('trackCustom', 'OpenSanti'); };

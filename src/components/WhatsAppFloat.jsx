@@ -19,6 +19,7 @@ const WhatsAppFloat = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Escribinos por WhatsApp"
+            data-wa="flotante"
             title="Escribinos por WhatsApp"
             style={{
                 position: 'fixed',

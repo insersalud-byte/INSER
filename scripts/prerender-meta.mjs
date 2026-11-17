@@ -40,7 +40,7 @@ const INSER_HOME = {
 const PRODUCTS = [
     ['CPAP BMC G2S con humidificador', '$499.000', 'CPAP fijo, el más vendido; oferta vigente: envío sin cargo a todo el país'],
     ['AutoCPAP BMC G2S con humidificador', '$630.000', 'presión automática, equipo completo con bolso; oferta vigente: envío sin cargo a todo el país'],
-    ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, con almohadillas nasales'],
+    ['AutoCPAP BMC G2S Mini', 'U$S 1.400', 'presión automática, formato mini con humidificador p2H'],
     ['CPAP Philips DreamStation', 'U$S 579', 'CPAP fijo con humidificador y conectividad'],
     ['AutoCPAP Philips DreamStation', 'U$S 758', 'con humidificador y conectividad'],
     ['CPAP ResMed AirSense 10', '$974.000', 'oferta, equipo completo, el CPAP de gama alta de nuestro catálogo'],
@@ -535,6 +535,7 @@ function applyMeta(tpl, { title, desc, url }) {
     html = html.replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/, (m, a, b) => a + attr(title) + b);
     html = html.replace(/(<meta\s+property="og:description"\s+content=")[^"]*(")/, (m, a, b) => a + attr(desc) + b);
     html = html.replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/, (m, a, b) => a + attr(url) + b);
+    html = html.replace(/(<meta\s+name="twitter:title"\s+content=")[^"]*(")/, (m, a, b) => a + attr(title) + b);
     html = html.replace(/(<meta\s+name="twitter:description"\s+content=")[^"]*(")/, (m, a, b) => a + attr(desc) + b);
     if (/<link\s+rel="canonical"/.test(html)) {
         html = html.replace(/(<link\s+rel="canonical"\s+href=")[^"]*(")/, (m, a, b) => a + attr(url) + b);
@@ -710,7 +711,7 @@ ${serviciosLocales}
 ${proceso}
 ${paths}
 ${about}
-<p>Contacto: <a href="https://wa.me/5493512065320">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a> · inser.salud@gmail.com · Córdoba, Argentina</p>
+<p>Contacto: <a href="https://wa.me/5493512065320?text=${encodeURIComponent('Hola, vengo de insersalud.com y quiero hacer una consulta.')}">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a> · inser.salud@gmail.com · Córdoba, Argentina</p>
 </main></div>`;
 }
 
@@ -757,7 +758,7 @@ ${profesionales}
 <p>Última revisión: ${REVISION_CLINICA}.</p>
 <p>Esta información es orientativa y no reemplaza la consulta médica. El equipo y los parámetros de uso los indica tu médico tratante.</p>
 </section>
-<p>INSER SALUD — equipos y asesoramiento para ${esc(p.title)} en Córdoba. <a href="https://wa.me/5493512065320">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a>.</p>
+<p>INSER SALUD — equipos y asesoramiento para ${esc(p.title)} en Córdoba. <a href="https://wa.me/5493512065320?text=${encodeURIComponent(`Hola, estoy viendo la página de ${p.title} en insersalud.com y quiero hacer una consulta.`)}">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a>.</p>
 </main></div>`;
 }
 
@@ -1002,7 +1003,7 @@ function buildLocalBody(p) {
 <nav><a href="/">Inicio</a> › <span>${esc(p.h1)}</span></nav>
 <h1>${esc(p.h1)}</h1>
 ${p.heroImg ? `<p>${heroTag(p.heroImg, p.h1)}</p>\n` : ''}<p>${inlineLinks(esc(p.intro))}</p>
-<p>Aparatología aprobada por ANMAT · ${p.national ? 'Envío a todo el país' : 'Entrega a domicilio en el día en Córdoba'}${p.garantia ? ' · ' + esc(p.garantia) : ''} · +500 pacientes.</p>
+${p.waPrecio ? `<p><a href="https://wa.me/5493512065320?text=${encodeURIComponent(p.waPrecio)}">${esc(p.waPrecioLabel || 'Ver precio por WhatsApp')}</a></p>\n` : ''}<p>Aparatología aprobada por ANMAT · ${p.national ? 'Envío a todo el país' : 'Entrega a domicilio en el día en Córdoba'}${p.garantia ? ' · ' + esc(p.garantia) : ''} · +500 pacientes · <a href="/sobre-nosotros">Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)</a>.</p>
 ${secs}
 ${prods}
 <h2>Preguntas frecuentes</h2>
@@ -1011,7 +1012,7 @@ ${faq}
 <ul>
 ${rel}
 </ul>
-<p>INSER SALUD — Córdoba, Argentina. <a href="https://wa.me/5493512065320">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a> · inser.salud@gmail.com</p>
+<p>INSER SALUD — Córdoba, Argentina. <a href="https://wa.me/5493512065320?text=${encodeURIComponent(`Hola, estoy viendo "${p.h1}" en insersalud.com y quiero hacer una consulta.`)}">WhatsApp ${esc(WA)}</a> · <a href="tel:+5493512065320">Llamar</a> · inser.salud@gmail.com</p>
 </main></div>`;
 }
 

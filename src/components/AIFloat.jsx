@@ -184,6 +184,7 @@ const AIFloat = () => {
                         <div className={css.headerActions}>
                             <a
                                 href="https://wa.me/5493512065320"
+                                data-wa="santi"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={css.waLink}

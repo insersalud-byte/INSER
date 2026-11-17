@@ -147,7 +147,7 @@ const LocalPage = ({ slug }) => {
                                     <span style={c.cardName}>{p.name}</span>
                                     <span style={c.cardPrice}>{p.price}</span>
                                     {p.note && <span style={c.cardNote}>{p.note}</span>}
-                                    <a href={waProducto(p)} target="_blank" rel="noopener noreferrer" style={c.cardBtn}>
+                                    <a href={waProducto(p)} data-wa="tarjeta-producto" target="_blank" rel="noopener noreferrer" style={c.cardBtn}>
                                         <MessageCircle size={16} /> Lo quiero
                                     </a>
                                 </div>
@@ -155,22 +155,22 @@ const LocalPage = ({ slug }) => {
                         </div>
                     )}
                     {data.waPrecio && (
-                        <a href={`${WA}?text=${encodeURIComponent(data.waPrecio)}`} target="_blank" rel="noopener noreferrer"
+                        <a href={`${WA}?text=${encodeURIComponent(data.waPrecio)}`} data-wa="boton-precio" target="_blank" rel="noopener noreferrer"
                             style={{ ...c.ctaWa, fontSize: '1.08rem', padding: '0.9rem 1.4rem', marginBottom: '0.6rem' }}>
-                            <MessageCircle size={18} /> Ver precio por WhatsApp
+                            <MessageCircle size={18} /> {data.waPrecioLabel || 'Ver precio por WhatsApp'}
                         </a>
                     )}
                     <div style={c.ctas}>
                         {data.national ? (
                             <>
-                                <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><MessageCircle size={16} /> Comprar por WhatsApp</a>
+                                <a style={c.ctaWa} href={waCtx(data.h1)} data-wa="boton-comprar" target="_blank" rel="noopener noreferrer"><MessageCircle size={16} /> Comprar por WhatsApp</a>
                                 <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
                             </>
                         ) : (
                             <>
                                 <button style={c.ctaPrimary} onClick={() => openSanti(data.ctaSanti)}>Consultar con Santi</button>
                                 {!data.waPrecio && (
-                                    <a style={c.ctaWa} href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
+                                    <a style={c.ctaWa} href={waCtx(data.h1)} data-wa="boton-directo" target="_blank" rel="noopener noreferrer"><Phone size={16} /> WhatsApp directo</a>
                                 )}
                             </>
                         )}
@@ -194,6 +194,7 @@ const LocalPage = ({ slug }) => {
                         Hoy la declaran las 2 landings de mascaras. */}
                     {data.garantia && <span style={c.trustItem}><Clock size={16} /> {data.garantia}</span>}
                     <span style={c.trustItem}><Star size={16} /> {data.national ? '+500 pacientes' : '+500 pacientes en Córdoba'}</span>
+                    <a href="/sobre-nosotros" style={{ ...c.trustItem, color: 'inherit', textDecoration: 'underline' }}><CheckCircle size={16} /> Dirige: Lic. Sergio Giorda, kinesiólogo (MP 2123)</a>
                 </div>
             </div>
 
@@ -212,7 +213,7 @@ const LocalPage = ({ slug }) => {
                         {data.national && i === 1 && (
                             <div style={c.midCta}>
                                 <span style={{ fontWeight: 600, color: '#0f172a' }}>¿Ya tenés la indicación de tu médico? Te pasamos el precio del día y el envío a tu provincia.</span>
-                                <a href={waCtx(data.h1)} target="_blank" rel="noopener noreferrer" style={c.cardBtn}><MessageCircle size={16} /> Escribinos</a>
+                                <a href={waCtx(data.h1)} data-wa="medio" target="_blank" rel="noopener noreferrer" style={c.cardBtn}><MessageCircle size={16} /> Escribinos</a>
                             </div>
                         )}
                     </section>
@@ -294,7 +295,7 @@ const LocalPage = ({ slug }) => {
                     <Link to="/comprar-cpap-cordoba" style={{ color: '#93c5fd' }}>Comprar CPAP</Link>
                     <Link to="/alquiler-cpap-cordoba" style={{ color: '#93c5fd' }}>Alquiler CPAP</Link>
                     <Link to="/alquiler-concentrador-oxigeno-cordoba" style={{ color: '#93c5fd' }}>Alquiler oxígeno</Link>
-                    <a href={WA} target="_blank" rel="noopener noreferrer" style={{ color: '#93c5fd' }}>WhatsApp</a>
+                    <a href={waCtx(data.h1)} data-wa="pie" target="_blank" rel="noopener noreferrer" style={{ color: '#93c5fd' }}>WhatsApp</a>
                 </div>
             </footer>
         </div>

@@ -47,7 +47,16 @@
 .inser-form-status{grid-column:1/-1;margin:0;color:#34565e;font-size:.82rem}\
 .inser-form-privacy{grid-column:1/-1;color:#61777d;font-size:.76rem;line-height:1.45}\
 @media (max-width:760px){.inser-form-grid{grid-template-columns:1fr}.inser-form form{grid-template-columns:1fr}}\
-@media print{.inser-form{display:none!important}}';
+@media print{.inser-form{display:none!important}}\
+.inser-deriv{box-sizing:border-box;width:calc(100% - 2rem);margin:2rem auto;max-width:1100px;padding:clamp(20px,3.5vw,38px);border:1px solid #cfe0dd;border-radius:14px;background:#f2faf8;color:#1c2a30;font-family:inherit;line-height:1.5}\
+.inser-deriv *{box-sizing:border-box}\
+.inser-deriv h2{margin:.4rem 0 .6rem;font-size:clamp(1.35rem,2.6vw,1.9rem);line-height:1.15;letter-spacing:-.02em;color:#0f2a2e}\
+.inser-deriv p{margin:0 0 .9rem;max-width:70ch;color:#3f5b60;font-size:.98rem}\
+.inser-deriv-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.8rem 1.2rem;border-radius:999px;background:#087b6e;color:#fff!important;font-size:.95rem;font-weight:800;text-decoration:none}\
+.inser-deriv-btn:hover{background:#075f56}\
+.inser-deriv-btn:focus-visible{outline:3px solid #f0b83a;outline-offset:3px}\
+.inser-deriv small{display:block;margin-top:.8rem;color:#61777d;font-size:.8rem}\
+@media print{.inser-deriv{display:none!important}}';
 
   var ICON_CHAT = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#087b6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>';
   var ICON_SEND = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>';
@@ -70,6 +79,24 @@
     if (!opts.optional && name !== 'type') control = control.replace('>', ' aria-required="true">');
     return '<div class="inser-form-field' + (opts.full ? ' inser-form-full' : '') + '" data-field="' + name + '">' +
       '<label for="' + id + '">' + label + (opts.optional ? ' <span>(opcional)</span>' : name === 'type' ? '' : ' <span>(obligatorio)</span>') + '</label>' + control + '</div>';
+  }
+
+  // Bloque de derivación de pacientes: va al final de cada ebook. Abre el WhatsApp comercial (351 206-5320)
+  // con el mensaje ya armado; no es un formulario.
+  var WHATSAPP_EQUIPOS = '5493512065320';
+  function buildDerivacion(el) {
+    var ebook = ebookName(el);
+    var msg = 'Hola, soy profesional de la salud y vengo del ebook "' + ebook + '" de la Academia INSER SALUD. Tengo un paciente que se va de alta y necesita equipamiento respiratorio en su domicilio.';
+    el.className = 'inser-deriv';
+    el.setAttribute('role', 'region');
+    el.setAttribute('aria-label', 'Derivación de pacientes a INSER SALUD');
+    el.innerHTML = '<span class="inser-form-eyebrow">Para su paciente</span>' +
+      '<h2>¿Su paciente se va de alta con oxígeno o VNI?</h2>' +
+      '<p>En INSER SALUD llevamos el equipo a la casa de su paciente en Córdoba y lo dejamos instalado y configurado según la indicación médica: concentradores de oxígeno, CPAP, BiPAP, ventiladores y asistente de tos, en alquiler o en venta. Al resto del país vendemos con envío.</p>' +
+      '<a class="inser-deriv-btn" data-wa="academia-derivacion" target="_blank" rel="noopener noreferrer" href="https://wa.me/' + WHATSAPP_EQUIPOS + '?text=' + encodeURIComponent(msg) + '">' + ICON_SEND + ' Derivar un paciente por WhatsApp</a>' +
+      '<small>Respondemos todos los días de 8 a 20 hs. No atendemos urgencias.</small>';
+    var a = el.querySelector('a');
+    if (a) a.addEventListener('click', function () { medir('derivacion_paciente', {}); });
   }
 
   function build(el, kind, uid) {
@@ -174,6 +201,8 @@
   var cfg = me
     ? { ebook: me.getAttribute('data-ebook') || '', simulador: me.getAttribute('data-simulador') || '', simuladorTexto: me.getAttribute('data-simulador-texto') || '', sugerencias: me.getAttribute('data-sugerencias') || '' }
     : { ebook: '', simulador: '', simuladorTexto: '', sugerencias: '' };
+  // La derivación de pacientes va en todos los ebooks: usa el ancla de las sugerencias o, si la página no la declara, el final del ebook.
+  cfg.derivacion = (me && me.getAttribute('data-derivacion')) || cfg.sugerencias || 'aside.ebook-desarrollo, main > footer, body > footer, footer, main';
 
   function placeholder(kind, anchorSel, where) {
     if (!anchorSel) return;
@@ -190,13 +219,20 @@
 
   function init() {
     placeholder('simulador', cfg.simulador, 'append');
+    // Primero la derivación y después las sugerencias: las dos se insertan antes de la misma ancla,
+    // así que la derivación queda arriba y las sugerencias cierran el ebook.
+    placeholder('derivacion', cfg.derivacion, 'before');
     placeholder('sugerencias', cfg.sugerencias, 'before');
     var nodes = document.querySelectorAll('[data-inser-form]');
     if (!nodes.length) return;
     if (!document.getElementById('inser-form-css')) { var st = document.createElement('style'); st.id = 'inser-form-css'; st.textContent = CSS; document.head.appendChild(st); }
     for (var i = 0; i < nodes.length; i++) {
-      var kind = nodes[i].getAttribute('data-inser-form') === 'simulador' ? 'simulador' : 'sugerencias';
-      if (!nodes[i].getAttribute('data-inser-ready')) { build(nodes[i], kind, i + 1); nodes[i].setAttribute('data-inser-ready', '1'); }
+      var tipo = nodes[i].getAttribute('data-inser-form');
+      var kind = tipo === 'simulador' ? 'simulador' : 'sugerencias';
+      if (!nodes[i].getAttribute('data-inser-ready')) {
+        if (tipo === 'derivacion') buildDerivacion(nodes[i]); else build(nodes[i], kind, i + 1);
+        nodes[i].setAttribute('data-inser-ready', '1');
+      }
     }
   }
 
@@ -219,7 +255,8 @@
   // Arranca con el DOM listo (no espera a que carguen todas las imágenes); en páginas sin React, hydrated() da true enseguida.
   var tries = 0;
   function pending() {
-    return (cfg.simulador && !document.querySelector('[data-inser-form="simulador"]')) ||
+    return (cfg.derivacion && !document.querySelector('[data-inser-form="derivacion"]')) ||
+      (cfg.simulador && !document.querySelector('[data-inser-form="simulador"]')) ||
       (cfg.sugerencias && !document.querySelector('[data-inser-form="sugerencias"]'));
   }
   function start() {

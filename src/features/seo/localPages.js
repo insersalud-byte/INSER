@@ -15,6 +15,8 @@
 export const localPages = [
     {
         slug: 'alquiler-equipos-respiratorios-cordoba',
+        waPrecio: 'Hola, quiero saber el precio del alquiler de un equipo respiratorio en Córdoba.',
+        waPrecioLabel: 'Pedir precio de alquiler por WhatsApp',
         formularioEquipos: true,
         h1: 'Alquiler de respiradores y equipos respiratorios en Córdoba',
         metaTitle: 'Alquiler de Equipos Respiratorios en Córdoba | Entrega e Instalación | INSER SALUD',
@@ -71,6 +73,8 @@ export const localPages = [
     },
     {
         slug: 'alquiler-cpap-cordoba',
+        waPrecio: 'Hola, quiero saber el precio del alquiler de un CPAP en Córdoba.',
+        waPrecioLabel: 'Pedir precio de alquiler por WhatsApp',
         h1: 'Alquiler de CPAP y AutoCPAP en Córdoba',
         metaTitle: 'Alquiler de CPAP en Córdoba | Entrega a Domicilio en el Día | INSER SALUD',
         metaTitleSalud: 'Alquiler de CPAP y AutoCPAP a Domicilio en Córdoba | INSER',
@@ -136,6 +140,8 @@ export const localPages = [
     },
     {
         slug: 'alquiler-concentrador-oxigeno-cordoba',
+        waPrecio: 'Hola, quiero saber el precio del alquiler de un concentrador de oxígeno en Córdoba.',
+        waPrecioLabel: 'Pedir precio de alquiler por WhatsApp',
         h1: 'Alquiler de concentrador de oxígeno en Córdoba',
         metaTitle: 'Alquiler de Concentrador de Oxígeno en Córdoba | INSER',
         metaTitleSalud: 'Alquiler de Concentrador de Oxígeno en Córdoba | INSER',
@@ -146,7 +152,7 @@ export const localPages = [
         sections: [
             {
                 title: 'Concentrador fijo o portátil: ¿cuál necesito?',
-                content: 'El concentrador estacionario (fijo) es para uso continuo en el hogar, las 24 horas, y entrega mayor flujo de oxígeno. El concentrador portátil tiene batería y es para quienes necesitan moverse, salir o viajar manteniendo el oxígeno.\n\nTe ayudamos a elegir según el flujo que indicó tu médico (litros por minuto) y tu estilo de vida.',
+                content: 'El concentrador estacionario (fijo) es para uso continuo en el hogar, de día y de noche, y entrega mayor flujo de oxígeno. El concentrador portátil tiene batería y es para quienes necesitan moverse, salir o viajar manteniendo el oxígeno.\n\nTe ayudamos a elegir según el flujo que indicó tu médico (litros por minuto) y tu estilo de vida.',
             },
             {
                 title: 'Entrega e instalación a domicilio',
@@ -157,12 +163,12 @@ export const localPages = [
                 content: 'La oxigenoterapia domiciliaria está indicada cuando la saturación de oxígeno en sangre es baja, situación frecuente en EPOC, fibrosis pulmonar, secuelas post-COVID y cuadros respiratorios crónicos. Siempre se usa según indicación médica.',
             },
             {
-                title: 'No te entregamos una caja',
-                content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
+                title: 'Cómo queda instalado el concentrador en tu casa',
+                content: 'El concentrador llega regulado en el flujo que indicó tu médico, en litros por minuto. No tenés que calcular nada ni tocar la configuración.\n\nQuien lo instala es personal profesional especializado: lo deja funcionando, te muestra cómo encenderlo, cómo colocarte la cánula y cómo limpiar el filtro, y se lo explica también a quien te acompaña en casa.\n\nAntes de irse revisa con vos dónde conviene ubicarlo, con espacio alrededor para que tome aire y lejos de cualquier llama o fuente de calor. Si lo que buscás es comparar con la compra o con otras formas de recibir oxígeno, mirá [oxígeno a domicilio en Córdoba](/oxigeno-a-domicilio-cordoba).',
             },
             {
-                title: 'Qué significa "oxígeno 24 horas"',
-                content: 'Cuando se habla de oxígeno 24 horas se mezclan dos cosas distintas, y conviene separarlas.\n\nUna es el equipo. Los concentradores estacionarios que entregamos están preparados para uso continuo las 24 horas del día: toman el aire del ambiente y de ahí extraen el oxígeno, así que no dependen de la recarga de un tubo ni hay que estar pendiente de que se termine.\n\nLa otra son las horas que te corresponde usarlo, y eso lo define tu médico según tus estudios. En oxigenoterapia domiciliaria la evidencia muestra que el tratamiento es efectivo cuando se usa un mínimo de 15 a 18 horas por día, idealmente todo el día: usarlo pocas horas no aporta los beneficios que demostraron los estudios.\n\nPor eso, cuando la indicación es de muchas horas, el concentrador suele ser la opción más práctica: produce oxígeno mientras está enchufado, sin costo de recarga.',
+                title: 'Oxígeno todo el día: el equipo y las horas de uso',
+                content: 'Cuando se habla de usar oxígeno todo el día se mezclan dos cosas distintas, y conviene separarlas.\n\nUna es el equipo. Los concentradores estacionarios que entregamos están preparados para uso continuo, de día y de noche: toman el aire del ambiente y de ahí extraen el oxígeno, así que no dependen de la recarga de un tubo ni hay que estar pendiente de que se termine.\n\nLa otra son las horas que te corresponde usarlo, y eso lo define tu médico según tus estudios. En oxigenoterapia domiciliaria la evidencia muestra que el tratamiento es efectivo cuando se usa un mínimo de 15 a 18 horas por día, idealmente todo el día: usarlo pocas horas no aporta los beneficios que demostraron los estudios.\n\nPor eso, cuando la indicación es de muchas horas, el concentrador suele ser la opción más práctica: produce oxígeno mientras está enchufado, sin costo de recarga.',
             },
             {
                 title: 'Los litros por minuto son el dato que manda',
@@ -182,7 +188,7 @@ export const localPages = [
             { name: 'Concentrador portátil GCE Zen-O (2 baterías + carro)', price: 'consultar' },
         ],
         faq: [
-            { q: '¿Atienden las 24 horas o los fines de semana?', a: 'Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.' },
+            { q: '¿En qué horario atienden? ¿Hay guardia?', a: 'Respondemos por WhatsApp y teléfono todos los días, incluidos sábados y domingos, de 8 a 20 hs. No tenemos guardia técnica y no atendemos urgencias: si es una emergencia, llamá a tu servicio de emergencias. La entrega y la instalación del concentrador en Córdoba se coordinan con vos, normalmente en el día.' },
             { q: '¿Cuánto cuesta alquilar un concentrador de oxígeno en Córdoba?', a: 'Depende de si es fijo o portátil y del plazo. Escribinos por WhatsApp y te damos el valor mensual actualizado, con entrega e instalación incluidas.' },
             { q: '¿Entregan e instalan a domicilio?', a: 'Sí, hacemos entrega, instalación y capacitación de uso a domicilio en Córdoba Capital y alrededores.' },
             { q: '¿Necesito receta médica?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo que indicó tu médico.' },
@@ -192,6 +198,7 @@ export const localPages = [
             { q: '¿Qué pasa si el equipo falla durante el alquiler?', a: 'El soporte técnico está incluido durante todo el período de alquiler. Si el equipo presenta una falla, lo reemplazamos: escribinos por WhatsApp y coordinamos el cambio. Respondemos todos los días de 8 a 20 hs.' },
         ],
         related: [
+            { label: 'Oxígeno a domicilio en Córdoba', href: '/oxigeno-a-domicilio-cordoba' },
             { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
             { label: 'EPOC', href: '/patologia/epoc' },
             { label: 'Fibrosis pulmonar', href: '/patologia/fibrosis-pulmonar' },
@@ -220,11 +227,11 @@ export const localPages = [
             },
             {
                 title: 'Garantía y respaldo',
-                content: 'Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial del fabricante. Incluimos asesoramiento para la adaptación, repuestos (máscaras, filtros, tubuladuras) y soporte técnico continuo en Córdoba.',
+                content: 'Los CPAP y AutoCPAP que vendemos son aparatología aprobada por ANMAT y declaran 2 años de garantía oficial del fabricante. Te asesoramos en la adaptación y damos soporte técnico continuo en Córdoba. Los repuestos (máscaras, filtros y tubuladuras) los tenemos acá y se compran aparte.',
             },
             {
                 title: 'Qué incluye el equipo cuando lo comprás',
-                content: 'Cuando comprás un CPAP con nosotros no te llevás solo el motor. El equipo viene completo: la unidad, el humidificador, la tubuladura, la fuente de alimentación, la tarjeta de memoria y el bolso de traslado.\n\nLa máscara la elegimos juntos, porque es la pieza que define si el tratamiento funciona o no. Es donde más pacientes abandonan, y casi siempre es por una máscara mal elegida, no por el equipo.\n\nAdemás te configuramos la presión que indicó tu médico y te explicamos cómo usarlo. No entregamos equipos en una caja para que los descubras solo.',
+                content: 'Cuando comprás un CPAP con nosotros no te llevás solo el motor. El equipo viene completo: la unidad, el humidificador, la tubuladura, la fuente de alimentación, la tarjeta de memoria y el bolso de traslado.\n\nLa máscara no viene incluida en el precio del equipo: se compra aparte y la elegimos juntos, porque es la pieza que define si el tratamiento funciona o no. Es donde más pacientes abandonan, y casi siempre es por una máscara mal elegida, no por el equipo.\n\nAdemás te configuramos la presión que indicó tu médico y te explicamos cómo usarlo. No entregamos equipos en una caja para que los descubras solo.',
             },
             {
                 title: 'Cómo elegir la máscara',
@@ -268,8 +275,8 @@ export const localPages = [
     {
         slug: 'estudio-del-sueno-cordoba',
         h1: 'Poligrafía respiratoria domiciliaria en Córdoba: el estudio del sueño en tu casa',
-        metaTitle: 'Poligrafía domiciliaria en Córdoba: precio por WhatsApp',
-        metaTitleSalud: 'Poligrafía domiciliaria en Córdoba: precio por WhatsApp',
+        metaTitle: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa',
+        metaTitleSalud: 'Poligrafía domiciliaria en Córdoba: estudio del sueño en casa',
         description: 'Poligrafía respiratoria en tu casa, en Córdoba: una noche, sin internación y con informe de IAH para tu médico. Pedí el precio y el turno por WhatsApp.',
         waPrecio: 'Hola, quiero saber el precio de la poligrafía respiratoria a domicilio en Córdoba y qué turnos hay.',
         heroImg: '/artifacts/oximetria/poligrafia-respiratoria-domicilio.jpg',
@@ -288,7 +295,7 @@ export const localPages = [
             },
             {
                 title: 'Poligrafía o polisomnografía: cuál es la diferencia',
-                content: 'Las dos son estudios del sueño. La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo del tórax y el abdomen, el oxígeno en sangre y el ronquido. Es la que se hace en tu casa.\n\nLa polisomnografía suma la actividad del cerebro, de los ojos y de los músculos para conocer las etapas del sueño, y habitualmente se hace en un laboratorio.\n\nCuál te corresponde lo decide tu médico.',
+                content: 'Las dos son estudios del sueño. La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo del tórax y el abdomen, el oxígeno en sangre y el ronquido. Es la que se hace en tu casa.\n\nLa polisomnografía suma la actividad del cerebro, de los ojos y de los músculos para conocer las etapas del sueño, y habitualmente se hace en un laboratorio o clínica del sueño.\n\nCuál te corresponde lo decide tu médico. Si te indicaron una poligrafía respiratoria, en Córdoba la hacemos en tu casa.',
             },
             {
                 title: 'Roncar no siempre es apnea: el estudio lo define',
@@ -331,6 +338,8 @@ export const localPages = [
             { q: '¿Se puede hacer el estudio del sueño en casa?', a: 'Sí. La poligrafía respiratoria domiciliaria se hace en tu propia casa: dormís una noche con el polígrafo, que registra la respiración, el oxígeno en sangre y el ronquido. En Córdoba lo hacemos nosotros: coordinalo por WhatsApp.' },
             { q: '¿Hacen la poligrafía respiratoria domiciliaria?', a: 'Sí. En INSER SALUD hacemos la poligrafía respiratoria domiciliaria en Córdoba: dormís una noche en tu casa con el polígrafo y del registro sale el informe con el IAH para tu médico. Lo coordinamos por WhatsApp.' },
             { q: '¿Qué diferencia hay entre poligrafía y polisomnografía?', a: 'La poligrafía respiratoria registra la respiración, el flujo de aire, el esfuerzo respiratorio, el oxígeno en sangre y el ronquido, y se hace en tu casa. La polisomnografía agrega la actividad del cerebro para conocer las etapas del sueño y habitualmente se hace en un laboratorio. Cuál te corresponde lo decide tu médico.' },
+            { q: '¿Tengo que ir a una clínica del sueño en Córdoba para hacerme el estudio?', a: 'Depende de lo que te indicaron. La polisomnografía se hace habitualmente en un laboratorio o clínica del sueño, donde pasás la noche. La poligrafía respiratoria se hace en tu casa: en Córdoba se entrega el polígrafo, dormís una noche en tu cama y te entregamos el informe para tu médico. Cuál de los dos estudios corresponde lo decide tu médico.' },
+            { q: '¿Hay tratamiento para dejar de roncar?', a: 'Primero hay que saber qué hay detrás del ronquido. Si viene con pausas en la respiración puede ser apnea del sueño, y eso se confirma con el estudio. Si la poligrafía da apnea, el tratamiento estándar es el CPAP; si no la da, tu médico te indica cómo seguir. Podés leer más en [tratamiento de la apnea del sueño](/patologia/apnea-del-sueno).' },
             { q: '¿Qué pasa si el estudio da apnea del sueño?', a: 'El tratamiento estándar es el CPAP o AutoCPAP. Te ayudamos a elegir el equipo según tu indicación médica y te acompañamos en la adaptación.' },
             { q: '¿Cómo sé si tengo apnea del sueño?', a: 'Los signos más comunes son ronquidos fuertes, pausas al respirar mientras dormís, somnolencia diurna y cansancio. El estudio del sueño lo confirma.' },
             { q: '¿Atienden en Córdoba?', a: 'Sí, somos de Córdoba y trabajamos a domicilio en Córdoba Capital y alrededores. Consultanos por WhatsApp.' },
@@ -423,6 +432,8 @@ export const localPages = [
     },
     {
         slug: 'bipap-cordoba',
+        waPrecio: 'Hola, quiero saber el precio del alquiler de un BiPAP en Córdoba.',
+        waPrecioLabel: 'Pedir precio de alquiler por WhatsApp',
         h1: 'BiPAP en Córdoba: venta y alquiler',
         metaTitle: 'BiPAP en Córdoba | Venta y Alquiler | EPOC y ELA | INSER SALUD',
         metaTitleSalud: 'BiPAP a Domicilio en Córdoba | Venta y Alquiler | INSER',
@@ -466,6 +477,8 @@ export const localPages = [
     },
     {
         slug: 'oxigeno-a-domicilio-cordoba',
+        waPrecio: 'Hola, quiero saber el precio del alquiler de oxígeno a domicilio en Córdoba.',
+        waPrecioLabel: 'Pedir precio de alquiler por WhatsApp',
         h1: 'Oxígeno a domicilio en Córdoba',
         metaTitle: 'Oxígeno a domicilio en Córdoba: cotización en el día | INSER',
         metaTitleSalud: 'Oxígeno a domicilio en Córdoba: cotización en el día | INSER',
@@ -482,8 +495,8 @@ export const localPages = [
                 content: 'Tu equipo llega configurado según la indicación de tu médico (presión, flujo, modo), listo para usar desde la primera noche. No tenés que aprender a programarlo ni adivinar valores.\n\nLa instalación la hace personal profesional especializado, que te explica cómo usarlo, cómo limpiarlo y qué esperar los primeros días. Te quedás con el equipo funcionando y sabiendo usarlo, no con un manual.\n\nEsto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un aparato y empezar un tratamiento.',
             },
             {
-                title: 'Qué quiere decir "oxígeno 24 horas"',
-                content: 'Es una consulta que mezcla dos cosas distintas.\n\nUna es el equipo. Los concentradores estacionarios que entregamos están declarados para uso continuo las 24 horas, así que soportan cualquier esquema que te hayan indicado. El BMC trabaja entre 0,5 y 5 litros por minuto con pureza igual o mayor al 93%, y el [Yuwell de 10 litros](/concentrador-oxigeno-10-litros) llega hasta 10 L/min para casos de alta demanda.\n\nLa otra es cuántas horas por día tenés que usarlo, y eso lo define tu médico según los resultados de saturación y gases en sangre. En oxigenoterapia domiciliaria las indicaciones suelen ser de muchas horas diarias, generalmente entre 16 y 24.\n\nY una aclaración práctica: respondemos por WhatsApp todos los días de 8 a 20 hs; no hay guardia ni atención de urgencias. La entrega y la instalación en Córdoba las coordinamos con vos.',
+                title: 'Oxígeno todo el día: qué quiere decir',
+                content: 'Es una consulta que mezcla dos cosas distintas.\n\nUna es el equipo. Los concentradores estacionarios que entregamos están declarados para uso continuo, de día y de noche, así que soportan cualquier esquema que te hayan indicado. El BMC trabaja entre 0,5 y 5 litros por minuto con pureza igual o mayor al 93%, y el [Yuwell de 10 litros](/concentrador-oxigeno-10-litros) llega hasta 10 L/min para casos de alta demanda.\n\nLa otra es cuántas horas por día tenés que usarlo, y eso lo define tu médico según los resultados de saturación y gases en sangre. En oxigenoterapia domiciliaria las indicaciones suelen ser de muchas horas diarias, generalmente de 16 o más.\n\nY una aclaración práctica: respondemos por WhatsApp todos los días de 8 a 20 hs; no hay guardia ni atención de urgencias. La entrega y la instalación en Córdoba las coordinamos con vos.',
             },
             {
                 title: 'Qué trae cada opción de oxígeno',
@@ -505,18 +518,18 @@ export const localPages = [
         faq: [
             { q: '¿Cuánto cuesta alquilar oxígeno a domicilio en Córdoba?', a: 'El alquiler se cotiza por WhatsApp en el día, según el equipo y el flujo que indicó tu médico, e incluye la entrega y la instalación a cargo de personal especializado. Para comprar, el concentrador BMC estacionario sale $999.000 y el Yuwell 7F-5B de 5 litros $1.170.000, con cuotas fijas con Banco Galicia.' },
             { q: '¿Dónde alquilar oxígeno a domicilio en Córdoba?', a: 'En INSER SALUD alquilamos y vendemos concentradores de oxígeno en Córdoba: te lo llevamos a tu casa, lo dejamos configurado según la indicación médica y te explicamos cómo usarlo. Escribinos por WhatsApp al +54 9 351 206-5320; el soporte es de 8 a 20 hs. No atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias.' },
-            { q: '¿Atienden las 24 horas o los fines de semana?', a: 'Atendemos todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo las 24 horas del día, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.' },
+            { q: '¿Atienden de noche o los fines de semana?', a: 'Atendemos todos los días, también sábados y domingos, de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atendemos urgencias: ante una emergencia, llamá a tu servicio de emergencias. Los concentradores que entregamos sí están preparados para uso continuo, de día y de noche, y la entrega e instalación en Córdoba la coordinamos con vos, normalmente en el día.' },
             { q: '¿Hacen entrega de oxígeno a domicilio en Córdoba?', a: 'Sí, entregamos e instalamos concentradores de oxígeno a domicilio en Córdoba Capital y alrededores, normalmente en el día.' },
             { q: '¿Necesito receta médica para el oxígeno?', a: 'La oxigenoterapia se usa según indicación médica (flujo en litros por minuto). Te asesoramos para que el equipo cumpla con lo prescripto.' },
             { q: '¿Conviene concentrador fijo o portátil?', a: 'El fijo es para uso continuo en casa; el portátil tiene batería para salir o viajar. Muchos pacientes combinan ambos.' },
-            { q: '¿Venden o alquilan?', a: 'Las dos cosas. Tenés el concentrador BMC estacionario desde $999.000 y opciones de alquiler.' },
-            { q: '¿Puedo usar el concentrador toda la noche mientras duermo?', a: 'Los concentradores estacionarios que entregamos están declarados para uso continuo las 24 horas y entregan flujo continuo. Los portátiles a pulso liberan oxígeno cuando detectan la inspiración, y durante el sueño la respiración se vuelve más suave: por eso solo se usan de noche si son de flujo continuo y tu médico lo autorizó. Cuántas horas por día usarlo lo define tu médico.' },
+            { q: '¿Venden o alquilan?', a: 'Las dos cosas. Tenés el concentrador BMC estacionario desde $999.000 y el [alquiler de concentrador de oxígeno en Córdoba](/alquiler-concentrador-oxigeno-cordoba), que se cotiza por WhatsApp.' },
+            { q: '¿Puedo usar el concentrador toda la noche mientras duermo?', a: 'Los concentradores estacionarios que entregamos están declarados para uso continuo, de día y de noche, y entregan flujo continuo. Los portátiles a pulso liberan oxígeno cuando detectan la inspiración, y durante el sueño la respiración se vuelve más suave: por eso solo se usan de noche si son de flujo continuo y tu médico lo autorizó. Cuántas horas por día usarlo lo define tu médico.' },
             { q: '¿Cuánta electricidad consume un concentrador de oxígeno?', a: 'Poca para lo que hace. El concentrador estacionario Yuwell de 5 L/min declara alrededor de 300 W. A cambio no tenés costo de recarga: el equipo produce oxígeno a partir del aire del ambiente todo el tiempo que esté enchufado, sin tubos que reponer.' },
             { q: '¿Qué pasa si se corta la luz?', a: 'El concentrador necesita estar enchufado para funcionar. Para esos casos está la mochila de oxígeno, que es un tubo con regulador y bolso, no depende de electricidad ni de batería y rinde entre 1 y 3 horas según el flujo indicado. Si querés tener ese respaldo, decínoslo cuando cotizamos y lo incluimos en el presupuesto. Qué respaldo corresponde en tu caso conviene consultarlo con tu médico.' },
         ],
         related: [
             { label: 'Todo el alquiler de equipos respiratorios en Córdoba', href: '/alquiler-equipos-respiratorios-cordoba' },
-            { label: 'Alquiler de concentrador de oxígeno', href: '/alquiler-concentrador-oxigeno-cordoba' },
+            { label: 'Alquiler de concentrador de oxígeno en Córdoba', href: '/alquiler-concentrador-oxigeno-cordoba' },
             { label: 'Concentrador de oxígeno portátil', href: '/concentrador-oxigeno-portatil-cordoba' },
             { label: 'Comprar concentrador de oxígeno portátil (envío nacional)', href: '/comprar-concentrador-oxigeno-portatil-argentina' },
             { label: 'Oximetría nocturna a domicilio', href: '/oximetria-nocturna-cordoba' },
@@ -526,6 +539,8 @@ export const localPages = [
     },
     {
         slug: 'concentrador-oxigeno-portatil-cordoba',
+        waPrecio: 'Hola, quiero saber el precio del alquiler de un concentrador de oxígeno portátil en Córdoba.',
+        waPrecioLabel: 'Pedir precio de alquiler por WhatsApp',
         h1: 'Concentrador de oxígeno portátil en Córdoba',
         metaTitle: 'Concentrador de Oxígeno Portátil en Córdoba | Venta y Alquiler | INSER SALUD',
         metaTitleSalud: 'Concentrador de Oxígeno Portátil en Córdoba | INSER SALUD',
@@ -588,7 +603,7 @@ export const localPages = [
         sections: [
             {
                 title: '¿Cuánto cuesta un CPAP en Argentina? Precios publicados',
-                content: 'Estos son los precios de los CPAP y AutoCPAP de nuestro catálogo, con envío a todo el país. Te los mostramos antes de que preguntes, sin "consultar precio".\nCPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nOferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.\nCPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\n[BiPAP BMC G3](/comprar-bipap-argentina): $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
+                content: 'Estos son los precios de los CPAP y AutoCPAP de nuestro catálogo, con envío a todo el país. Te los mostramos antes de que preguntes.\nCPAP BMC G2S con humidificador: $499.000 (el más vendido).\nAutoCPAP BMC G2S con humidificador: $630.000 (presión automática, más confort).\nOferta vigente: el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país.\nCPAP ResMed AirSense 10: $974.000 (equipo completo, el CPAP de gama alta de nuestro catálogo).\n[BiPAP BMC G3](/comprar-bipap-argentina): $1.300.000 (para EPOC y enfermedades neuromusculares).\n\nLos precios se actualizan; confirmá el valor del día y el costo de envío por WhatsApp.',
             },
             {
                 title: '¿Se puede pagar un CPAP en cuotas?',
@@ -814,11 +829,11 @@ export const localPages = [
         sections: [
             {
                 title: '¿Por qué un concentrador de 10 litros?',
-                content: 'La mayoría de los concentradores domiciliarios entregan hasta 5 L/min. El de 10 litros duplica ese flujo, lo que lo hace apto para quienes necesitan altas concentraciones de oxígeno de forma sostenida y para uso intensivo en instituciones.\n\nEs un equipo estacionario de uso continuo (24 hs), con ruedas para trasladarlo dentro del hogar o el centro.',
+                content: 'La mayoría de los concentradores domiciliarios entregan hasta 5 L/min. El de 10 litros duplica ese flujo, lo que lo hace apto para quienes necesitan altas concentraciones de oxígeno de forma sostenida y para uso intensivo en instituciones.\n\nEs un equipo estacionario de uso continuo, de día y de noche, con ruedas para trasladarlo dentro del hogar o el centro.',
             },
             {
                 title: '5 L/min o 10 L/min: cómo se define cuál corresponde',
-                content: 'El dato que lo define está en la indicación médica: el flujo, expresado en litros por minuto.\n\nEl concentrador domiciliario estándar entrega hasta 5 L/min. Cubre la mayoría de los tratamientos de oxigenoterapia en casa y es el equipo que corresponde cuando la indicación queda dentro de ese rango.\n\nEste YUWELL trabaja entre 1 y 10 L/min, es decir el doble del estándar, y sostiene ese flujo en uso continuo las 24 horas. Ese margen es lo que lo hace apto para dos situaciones concretas.\n\nLa primera es la alta demanda de oxígeno: cuando la indicación supera los 5 L/min, o cuando el paciente desatura al esfuerzo y necesita subir el flujo durante la actividad para sostener la saturación. Un equipo de 5 L/min ya está en su tope y no deja margen; uno de 10 L/min sí.\n\nLa segunda es el uso institucional. En un centro de [rehabilitación pulmonar](/equipamiento-rehabilitacion-pulmonar) o de kinesiología respiratoria el equipo trabaja muchas horas por día, con pacientes distintos y con un flujo distinto en cada sesión. Un solo concentrador de alto flujo cubre todo ese rango, en lugar de depender de un equipo por nivel de requerimiento.\n\nAl comparar equipos, el número a mirar es el flujo máximo en litros por minuto que declara la ficha técnica, y compararlo contra el que figura en la indicación médica. Si tenés dudas, mandanos la indicación por WhatsApp y te decimos si te corresponde el estándar de 5 L o este de alto flujo.',
+                content: 'El dato que lo define está en la indicación médica: el flujo, expresado en litros por minuto.\n\nEl concentrador domiciliario estándar entrega hasta 5 L/min. Cubre la mayoría de los tratamientos de oxigenoterapia en casa y es el equipo que corresponde cuando la indicación queda dentro de ese rango.\n\nEste YUWELL trabaja entre 1 y 10 L/min, es decir el doble del estándar, y sostiene ese flujo en uso continuo, de día y de noche. Ese margen es lo que lo hace apto para dos situaciones concretas.\n\nLa primera es la alta demanda de oxígeno: cuando la indicación supera los 5 L/min, o cuando el paciente desatura al esfuerzo y necesita subir el flujo durante la actividad para sostener la saturación. Un equipo de 5 L/min ya está en su tope y no deja margen; uno de 10 L/min sí.\n\nLa segunda es el uso institucional. En un centro de [rehabilitación pulmonar](/equipamiento-rehabilitacion-pulmonar) o de kinesiología respiratoria el equipo trabaja muchas horas por día, con pacientes distintos y con un flujo distinto en cada sesión. Un solo concentrador de alto flujo cubre todo ese rango, en lugar de depender de un equipo por nivel de requerimiento.\n\nAl comparar equipos, el número a mirar es el flujo máximo en litros por minuto que declara la ficha técnica, y compararlo contra el que figura en la indicación médica. Si tenés dudas, mandanos la indicación por WhatsApp y te decimos si te corresponde el estándar de 5 L o este de alto flujo.',
             },
             {
                 title: 'Ideal para alta demanda y rehabilitación pulmonar',
@@ -984,7 +999,7 @@ export const localPages = [
             },
             {
                 title: 'El equipo central: concentrador de oxígeno de 10 litros',
-                content: 'Concentrador YUWELL de 10 litros (alto flujo) — $2.800.000. Hasta 10 L/min, uso continuo 24 hs, display digital, alarmas de seguridad y ruedas para moverlo entre boxes o consultorios. Aprobado por ANMAT, con garantía.\n\nPara demanda muy alta, se pueden combinar dos equipos o complementar con tubos de oxígeno de respaldo.',
+                content: 'Concentrador YUWELL de 10 litros (alto flujo) — $2.800.000. Hasta 10 L/min, uso continuo, display digital, alarmas de seguridad y ruedas para moverlo entre boxes o consultorios. Aprobado por ANMAT, con garantía.\n\nPara demanda muy alta, se pueden combinar dos equipos o complementar con tubos de oxígeno de respaldo.',
             },
             {
                 title: 'Complementos: ventilación, máscaras e insumos',
@@ -996,11 +1011,11 @@ export const localPages = [
             },
             {
                 title: 'Cómo dimensionar el equipamiento del centro',
-                content: 'No hay una receta única: el equipamiento se define por cuántos pacientes trabajan en simultáneo y por los flujos que indican los médicos derivantes.\n\nPara los pacientes de mayor demanda, el concentrador de alto flujo es el que da margen: el YUWELL de 10 litros trabaja de 1 a 10 L/min, con uso continuo declarado de 24 hs, display digital de flujo, alarmas de corte de energía y de baja concentración, y ruedas para moverlo entre boxes.\n\nDonde el requerimiento de flujo es menor, un estacionario de 5 L/min cubre y baja bastante la inversión: el BMC estacionario está a $999.000, con flujo de 0,5 a 5 L/min, pureza ≥93%, uso continuo 24 hs y 2 años de garantía. Trae medidor de oxígeno integrado y display digital de pureza, flujo y horas, dos cosas que en una institución sirven para verificar la concentración entregada y llevar el control del mantenimiento.\n\nEl esquema habitual es mixto: uno o dos equipos de alto flujo para los pacientes de alta demanda y estacionarios de 5 L para el resto. Como respaldo para salidas cortas y traslados, la mochila de oxígeno (tubo de 0,415 m³ con regulador, bolso y carga inicial, U$S 270) da entre 1 y 3 horas según el flujo.',
+                content: 'No hay una receta única: el equipamiento se define por cuántos pacientes trabajan en simultáneo y por los flujos que indican los médicos derivantes.\n\nPara los pacientes de mayor demanda, el concentrador de alto flujo es el que da margen: el YUWELL de 10 litros trabaja de 1 a 10 L/min, con uso continuo declarado, display digital de flujo, alarmas de corte de energía y de baja concentración, y ruedas para moverlo entre boxes.\n\nDonde el requerimiento de flujo es menor, un estacionario de 5 L/min cubre y baja bastante la inversión: el BMC estacionario está a $999.000, con flujo de 0,5 a 5 L/min, pureza ≥93%, uso continuo y 2 años de garantía. Trae medidor de oxígeno integrado y display digital de pureza, flujo y horas, dos cosas que en una institución sirven para verificar la concentración entregada y llevar el control del mantenimiento.\n\nEl esquema habitual es mixto: uno o dos equipos de alto flujo para los pacientes de alta demanda y estacionarios de 5 L para el resto. Como respaldo para salidas cortas y traslados, la mochila de oxígeno (tubo de 0,415 m³ con regulador, bolso y carga inicial, U$S 270) da entre 1 y 3 horas según el flujo.',
             },
             {
                 title: 'Qué preguntar antes de comprar equipamiento institucional',
-                content: 'Un equipo que trabaja toda la jornada exige más que uno domiciliario. Estas son las preguntas que conviene hacerle a cualquier proveedor, incluidos nosotros.\n\n¿Qué garantía tiene ese modelo en particular? No es la misma en todos: el concentrador YUWELL de 10 litros tiene 1 año de garantía oficial, mientras que el BMC estacionario de 5 L/min, el BiPAP BMC G3 y el ventilador STELLAR 150 tienen 2 años. Toda la aparatología está aprobada por ANMAT.\n\n¿Está declarado para uso continuo? Los dos concentradores estacionarios (el de 10 litros y el BMC de 5 L/min) declaran uso continuo 24 hs, y el STELLAR 150 está especificado para 24 hs continuas en pacientes adultos y pediátricos.\n\n¿Qué rango cubre? En oxígeno importa el flujo máximo; en ventilación, la presión y los modos. El BiPAP BMC G3 trabaja en CPAP, S, T y S/T, con IPAP de 4 a 25 cm H₂O y frecuencia de respaldo de 4 a 40 rpm. El STELLAR 150 llega a 40 cm H₂O, suma los modos PAC e iVAPS y tiene batería interna de hasta 2 hs, que se extiende a 8 hs con la Power Station II.\n\n¿Hay reposición de insumos y repuestos? Es lo que más se nota con los meses. Nosotros proveemos máscaras, tubuladuras, filtros, cánulas y humidificadores de reposición con envío a todo el país.',
+                content: 'Un equipo que trabaja toda la jornada exige más que uno domiciliario. Estas son las preguntas que conviene hacerle a cualquier proveedor, incluidos nosotros.\n\n¿Qué garantía tiene ese modelo en particular? No es la misma en todos: el concentrador YUWELL de 10 litros tiene 1 año de garantía oficial, mientras que el BMC estacionario de 5 L/min, el BiPAP BMC G3 y el ventilador STELLAR 150 tienen 2 años. Toda la aparatología está aprobada por ANMAT.\n\n¿Está declarado para uso continuo? Los dos concentradores estacionarios (el de 10 litros y el BMC de 5 L/min) declaran uso continuo, y el STELLAR 150 está especificado para uso continuo, de día y de noche, en pacientes adultos y pediátricos.\n\n¿Qué rango cubre? En oxígeno importa el flujo máximo; en ventilación, la presión y los modos. El BiPAP BMC G3 trabaja en CPAP, S, T y S/T, con IPAP de 4 a 25 cm H₂O y frecuencia de respaldo de 4 a 40 rpm. El STELLAR 150 llega a 40 cm H₂O, suma los modos PAC e iVAPS y tiene batería interna de hasta 2 hs, que se extiende a 8 hs con la Power Station II.\n\n¿Hay reposición de insumos y repuestos? Es lo que más se nota con los meses. Nosotros proveemos máscaras, tubuladuras, filtros, cánulas y humidificadores de reposición con envío a todo el país.',
             },
             {
                 title: 'Los insumos son el gasto que se repite',
@@ -1047,14 +1062,16 @@ export const localPages = [
         h1: 'Comprar concentrador de oxígeno portátil: envío a todo el país',
         metaTitle: 'Concentrador de Oxígeno Portátil desde U$S 3.747 | INSER',
         metaTitleSalud: 'Concentrador de Oxígeno Portátil desde U$S 3.747 | INSER',
-        description: 'GCE Zen-O (U$S 3.747) y Philips SimplyGo (U$S 3.887), con pulso y flujo continuo de 0,5 a 2 L/min, aptos para vuelos. ANMAT, garantía de 3 años y envío a todo el país.',
+        description: 'GCE Zen-O (U$S 3.747) y Philips SimplyGo (U$S 3.887): pulso y flujo continuo hasta 2 L/min, aptos para vuelos. ANMAT, 3 años de garantía y envío.',
+        priceCards: true,
+        offerLine: 'Garantía oficial de 3 años · Aptos para vuelos · Para salidas cortas, mochila de oxígeno a U$S 270 · En Córdoba también se alquila',
         heroImg: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg',
-        intro: 'Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles de pulso y de flujo continuo con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.',
+        intro: 'Un concentrador portátil te devuelve la movilidad: funciona a batería para salir, trabajar o viajar sin depender de tubos. En INSER SALUD vendemos portátiles con modo pulso y flujo continuo, con envío a todo el país, y te ayudamos a elegir el modelo según el flujo que indicó tu médico.',
         ctaSanti: 'Hola Santi, quiero comprar un concentrador de oxígeno portátil. ¿Qué modelos tienen, precios y cuál me conviene según mi flujo?',
         sections: [
             {
                 title: 'Pulso o flujo continuo: la primera decisión',
-                content: 'Los portátiles de PULSO entregan oxígeno al detectar la inspiración: son los más livianos y de mayor autonomía, ideales para caminar y salir.\n\nLos de FLUJO CONTINUO entregan oxígeno constante como un equipo fijo: son la opción cuando el médico indica flujo continuo o para usar con equipos de presión (CPAP/BiPAP) durante el sueño.\n\nLa indicación médica (litros por minuto y modalidad) define el modelo correcto; te asesoramos antes de comprar.',
+                content: 'Un portátil puede entregar el oxígeno de dos maneras. En modo PULSO libera oxígeno cuando detecta la inspiración: la batería rinde más y es el modo habitual para caminar y salir.\n\nEn FLUJO CONTINUO el oxígeno sale de forma constante, como en un equipo fijo: es la opción cuando el médico indica flujo continuo o para usar con equipos de presión (CPAP/BiPAP) durante el sueño.\n\nLos dos modelos que vendemos, el GCE Zen-O y el Philips SimplyGo, tienen los dos modos, con flujo continuo de 0,5 a 2 L/min. La indicación médica (litros por minuto y modalidad) define si alcanzan para tu caso; te asesoramos antes de comprar.',
             },
             {
                 title: 'Modelos y precios',
@@ -1078,7 +1095,7 @@ export const localPages = [
             },
             {
                 title: 'El portátil muchas veces no es el único equipo',
-                content: 'Muchos pacientes combinan los dos equipos: un concentrador estacionario para las horas en casa y el portátil para salir. No es venta doble, es cómo suele quedar armado el esquema.\n\nEl motivo es técnico. Los portátiles a pulso entregan oxígeno en demanda, cuando detectan la inspiración. Para flujos continuos o para el uso nocturno se recomienda complementar con un [concentrador estacionario](/comprar-concentrador-oxigeno-argentina), que entrega flujo constante y está pensado para funcionar de forma continua las 24 horas. El BMC estacionario, por ejemplo, va de 0,5 a 5 L/min y está $999.000.\n\nPara salidas cortas hay además una opción más económica que un portátil: la mochila de oxígeno, con tubo, regulador, bolso y carga inicial, a U$S 270. Pesa alrededor de 1,8 kg y rinde entre 1 y 3 horas según el flujo, así que sirve para un trámite o un turno médico, no para una jornada completa.\n\nDecinos cuántas horas por día te indicaron y cuántas de esas estás fuera de casa: con esos dos datos armamos la combinación que te sirve, sin que compres de más.',
+                content: 'Muchos pacientes combinan los dos equipos: un concentrador estacionario para las horas en casa y el portátil para salir. No es venta doble, es cómo suele quedar armado el esquema.\n\nEl motivo es técnico. En modo pulso el portátil entrega oxígeno en demanda, cuando detecta la inspiración; en flujo continuo llega hasta 2 L/min y la batería dura menos. Para flujos continuos más altos o para el uso nocturno se recomienda complementar con un [concentrador estacionario](/comprar-concentrador-oxigeno-argentina), que entrega flujo constante y está pensado para funcionar de forma continua, de día y de noche. El BMC estacionario, por ejemplo, va de 0,5 a 5 L/min y está $999.000.\n\nPara salidas cortas hay además una opción más económica que un portátil: la mochila de oxígeno, con tubo, regulador, bolso y carga inicial, a U$S 270. Pesa alrededor de 1,8 kg y rinde entre 1 y 3 horas según el flujo, así que sirve para un trámite o un turno médico, no para una jornada completa.\n\nDecinos cuántas horas por día te indicaron y cuántas de esas estás fuera de casa: con esos dos datos armamos la combinación que te sirve, sin que compres de más.',
             },
             {
                 title: 'Qué tener a mano antes de escribirnos',
@@ -1086,14 +1103,14 @@ export const localPages = [
             },
         ],
         products: [
-            { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: 'U$S 3.747' },
-            { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887' },
+            { name: 'GCE Zen-O (2 baterías + carro, apto vuelos)', price: 'U$S 3.747', img: '/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg', note: 'Pulso y flujo continuo · hasta 8 h con 2 baterías' },
+            { name: 'Philips SimplyGo (continuo + pulso)', price: 'U$S 3.887', img: '/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg', note: 'Pulso y flujo continuo · 4,5 kg' },
         ],
         faq: [
             { q: '¿Cuánto tarda y cuánto cuesta el envío?', a: 'En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.' },
             { q: '¿Qué concentradores portátiles tienen y cuánto salen?', a: 'El GCE Zen-O, con 2 baterías y carro, a U$S 3.747, y el Philips SimplyGo, a U$S 3.887. Los dos entregan pulso y flujo continuo de 0,5 a 2 L/min. Los dos son aptos para vuelos y tienen 3 años de garantía oficial.' },
             { q: '¿Puedo viajar en avión con un concentrador portátil?', a: 'Sí, con los modelos aprobados FAA (GCE Zen-O, Philips SimplyGo). Las aerolíneas piden batería suficiente y aviso previo; te asesoramos con el trámite.' },
-            { q: '¿Pulso o flujo continuo?', a: 'Depende de tu indicación médica. Pulso: más liviano y autónomo, para actividad. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. Te ayudamos a elegir.' },
+            { q: '¿Pulso o flujo continuo?', a: 'Depende de tu indicación médica. En pulso la batería rinde más y es el modo para la actividad diaria. Continuo: cuando el médico lo indica o para usar durmiendo con CPAP/BiPAP. El GCE Zen-O y el Philips SimplyGo tienen los dos modos. Te ayudamos a elegir.' },
             { q: '¿Envían a todo el país?', a: 'Sí, enviamos a cualquier provincia con capacitación de uso guiada y garantía oficial. En Córdoba también hay alquiler para probar antes de comprar.' },
             { q: '¿Cuántas horas de batería tiene cada modelo?', a: 'El GCE Zen-O llega hasta 8 horas con sus dos baterías. La autonomía depende del flujo configurado: a mayor flujo, menos dura la batería. Decinos cuántas horas necesitás estar fuera de casa y en qué nivel, y te confirmamos qué modelo llega.' },
             { q: '¿Qué garantía tienen los concentradores portátiles?', a: 'La garantía es oficial: el GCE Zen-O y el Philips SimplyGo tienen 3 años. Toda la aparatología está aprobada por ANMAT, y después de la compra tenés capacitación de uso, servicio técnico y provisión de baterías y accesorios.' },
@@ -1135,15 +1152,15 @@ export const localPages = [
             },
             {
                 title: 'Los modos ventilatorios: qué chequear contra tu prescripción',
-                content: 'La ficha del equipo lista seis modos: CPAP, S, ST, T, PAC e iVAPS, con un rango de presión de 2 a 40 cm H₂O. Antes de comprar, lo primero es simple: chequear que el modo y las presiones que figuran en tu prescripción entren en esa lista.\n\nEntre esos modos está el ST: el modo S/T es el que suma frecuencia respiratoria de respaldo, que garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio. Es la función por la que este tipo de equipo aparece en enfermedades neuromusculares como la [ELA](/patologia/esclerosis-lateral-amiotrofica).\n\nEl otro dato de la ficha que conviene leer es el uso previsto: 24 horas continuas, en pacientes adultos y pediátricos. No es un equipo pensado solo para la noche.\n\nLos modos, las presiones y las horas de uso los define el médico tratante, siempre. Lo que hacemos nosotros es leer tu prescripción antes de la compra y confirmarte que el equipo cubre lo indicado.',
+                content: 'La ficha del equipo lista seis modos: CPAP, S, ST, T, PAC e iVAPS, con un rango de presión de 2 a 40 cm H₂O. Antes de comprar, lo primero es simple: chequear que el modo y las presiones que figuran en tu prescripción entren en esa lista.\n\nEntre esos modos está el ST: el modo S/T es el que suma frecuencia respiratoria de respaldo, que garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio. Es la función por la que este tipo de equipo aparece en enfermedades neuromusculares como la [ELA](/patologia/esclerosis-lateral-amiotrofica).\n\nEl otro dato de la ficha que conviene leer es el uso previsto: continuo, de día y de noche, en pacientes adultos y pediátricos. No es un equipo pensado solo para la noche.\n\nLos modos, las presiones y las horas de uso los define el médico tratante, siempre. Lo que hacemos nosotros es leer tu prescripción antes de la compra y confirmarte que el equipo cubre lo indicado.',
             },
             {
                 title: 'STELLAR 150 o BiPAP: cómo se decide',
-                content: 'Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](/bipap-cordoba) está en $1.300.000 y el STELLAR 150 en U$S 7.342.\n\nEn números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es de 24 horas continuas en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.\n\nLa diferencia de fondo no es solo de números. El BiPAP es un equipo de ventilación no invasiva; el STELLAR 150 soporta además ventilación invasiva por traqueostomía, con alarmas clínicas completas. Por eso lo describimos como el paso siguiente cuando un BiPAP ya no alcanza.\n\nEn ELA, por ejemplo, la ventilación no invasiva suele indicarse primero solo durante el sueño (8 a 10 horas) y, a medida que la enfermedad avanza, el médico puede indicar uso diurno parcial o continuo. Cuál de los dos equipos corresponde lo define tu médico tratante: pasanos la prescripción y te confirmamos cuál cubre los modos y las presiones indicadas antes de que gastes de más.',
+                content: 'Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](/bipap-cordoba) está en $1.300.000 y el STELLAR 150 en U$S 7.342.\n\nEn números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es continuo, de día y de noche, en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.\n\nLa diferencia de fondo no es solo de números. El BiPAP es un equipo de ventilación no invasiva; el STELLAR 150 soporta además ventilación invasiva por traqueostomía, con alarmas clínicas completas. Por eso lo describimos como el paso siguiente cuando un BiPAP ya no alcanza.\n\nEn ELA, por ejemplo, la ventilación no invasiva suele indicarse primero solo durante el sueño (8 a 10 horas) y, a medida que la enfermedad avanza, el médico puede indicar uso diurno parcial o continuo. Cuál de los dos equipos corresponde lo define tu médico tratante: pasanos la prescripción y te confirmamos cuál cubre los modos y las presiones indicadas antes de que gastes de más.',
             },
             {
                 title: 'La batería: cuánto dura y para qué sirve',
-                content: 'La batería interna del STELLAR 150 da hasta 2 horas de autonomía y viene incluida con el equipo, junto con el humidificador. Con la batería externa Power Station II, la ficha declara hasta 8 horas.\n\nEsa autonomía está pensada para dos situaciones concretas: los cortes de luz y los traslados, para mover al paciente sin desconectar el equipo. En un ventilador cuyo uso previsto es de 24 horas continuas, no es un accesorio: es parte de lo que estás comprando.\n\nUna aclaración para que no te lleves una sorpresa. Dos horas son una autonomía de contingencia, no un plan de respaldo para un corte largo: si vivís en una zona con cortes frecuentes, planteanoslo antes de comprar. Y si buscás la autonomía de 8 horas, consultanos por WhatsApp disponibilidad y precio de la Power Station II antes de contar con ella.',
+                content: 'La batería interna del STELLAR 150 da hasta 2 horas de autonomía y viene incluida con el equipo, junto con el humidificador. Con la batería externa Power Station II, la ficha declara hasta 8 horas.\n\nEsa autonomía está pensada para dos situaciones concretas: los cortes de luz y los traslados, para mover al paciente sin desconectar el equipo. En un ventilador cuyo uso previsto es continuo, de día y de noche, no es un accesorio: es parte de lo que estás comprando.\n\nUna aclaración para que no te lleves una sorpresa. Dos horas son una autonomía de contingencia, no un plan de respaldo para un corte largo: si vivís en una zona con cortes frecuentes, planteánoslo antes de comprar. Y si buscás la autonomía de 8 horas, consultanos por WhatsApp disponibilidad y precio de la Power Station II antes de contar con ella.',
             },
             {
                 title: 'Qué máscara corresponde: ventilada o sin fuga',
@@ -1176,12 +1193,14 @@ export const localPages = [
     },
     {
         slug: 'comprar-poligrafo-argentina',
+        waPrecio: 'Hola, quiero hacerme la poligrafía respiratoria a domicilio en Córdoba. ¿Me pasan el precio y los turnos?',
+        waPrecioLabel: 'Soy paciente: quiero hacerme el estudio',
         national: true,
-        aviso: { texto: '¿Querés hacerte el estudio, no comprar el equipo? Hacemos la poligrafía a domicilio en Córdoba', href: '/estudio-del-sueno-cordoba' },
+        aviso: { texto: '¿Sos paciente y querés hacerte el estudio? Hacemos la poligrafía a domicilio en Córdoba', href: '/estudio-del-sueno-cordoba' },
         h1: 'Polígrafo respiratorio BMC YH-600B PRO: precio y venta a profesionales',
         metaTitle: 'Polígrafo respiratorio: precio U$S 1.570 y venta a profesionales | INSER',
         metaTitleSalud: 'Polígrafo Respiratorio: precio U$S 1.570 | INSER SALUD',
-        description: 'Polígrafo respiratorio BMC YH-600B PRO a U$S 1.570, para neumonólogos, clínicas del sueño y kinesiólogos. ANMAT, envío a todo el país y capacitación.',
+        description: 'Polígrafo respiratorio BMC YH-600B PRO a U$S 1.570 para profesionales, con ANMAT y envío. ¿Sos paciente? Hacemos la poligrafía a domicilio en Córdoba.',
         heroImg: '/artifacts/products/1752508033704-poligrafobmc.jpg',
         intro: 'El polígrafo respiratorio permite estudiar la apnea del sueño en el domicilio del paciente, sin laboratorio. En INSER SALUD vendemos el BMC YH-600B PRO a profesionales de la salud (neumonólogos, clínicas del sueño, kinesiólogos y centros de diagnóstico) con envío a todo el país, capacitación de uso y soporte técnico.',
         ctaSanti: 'Hola Santi, soy profesional de la salud y me interesa comprar el polígrafo BMC YH-600B PRO. ¿Me pasás precio, qué incluye y disponibilidad?',
@@ -1200,7 +1219,7 @@ export const localPages = [
             },
             {
                 title: '¿Buscás hacerte un estudio del sueño?',
-                content: 'Esta página es para profesionales que compran el equipo. Si sos paciente y querés hacerte una poligrafía en Córdoba, la hacemos nosotros: mirá [poligrafía respiratoria domiciliaria en Córdoba](/estudio-del-sueno-cordoba), donde te explicamos cómo es el estudio y cómo seguir si el resultado da apnea.',
+                content: 'El precio de esta página es el del equipo, para profesionales que lo compran. Si sos paciente y querés hacerte una poligrafía en Córdoba, la hacemos nosotros en tu casa: dormís una noche con el polígrafo y te entregamos el informe para tu médico. El precio del estudio te lo pasamos por WhatsApp. Mirá [poligrafía respiratoria domiciliaria en Córdoba](/estudio-del-sueno-cordoba), donde te explicamos cómo es y cómo seguir si el resultado da apnea.',
             },
             {
                 title: 'Opción con 30 cánulas Luer Lock incluidas',
@@ -1266,7 +1285,7 @@ export const localPages = [
             },
             {
                 title: 'Cómo se usa en casa, día a día',
-                content: 'No es un equipo de uso continuo como un concentrador de oxígeno, que está preparado para funcionar las 24 horas: el asistente de tos se usa en sesiones. La pauta habitual es de 2 a 3 sesiones por día, de alrededor de 5 ciclos cada una, y durante una infección respiratoria el médico puede indicar aumentar la frecuencia.\n\nLo puede usar la familia en el domicilio con entrenamiento previo. Esa capacitación es parte de la entrega: formamos a familiares y cuidadores en el uso seguro del equipo, presencial en Córdoba y guiada a distancia en el resto del país, y después quedamos como soporte.\n\nLa frecuencia y los valores de cada sesión salen de la indicación médica o kinésica de cada paciente, así que no hay una pauta única. Si te queda una duda sobre el uso, escribinos por WhatsApp: respondemos todos los días de 8 a 20 hs.\n\nEs habitual que el asistente de tos se combine con ventilación no invasiva. Si el médico también indicó VNI, podés ver los equipos en [BiPAP con frecuencia respiratoria de respaldo](/bipap-cordoba) y en el [ventilador ResMed STELLAR 150](/ventilador-stellar-150).',
+                content: 'No es un equipo de uso continuo como un concentrador de oxígeno, que está preparado para funcionar de día y de noche: el asistente de tos se usa en sesiones. La pauta habitual es de 2 a 3 sesiones por día, de alrededor de 5 ciclos cada una, y durante una infección respiratoria el médico puede indicar aumentar la frecuencia.\n\nLo puede usar la familia en el domicilio con entrenamiento previo. Esa capacitación es parte de la entrega: formamos a familiares y cuidadores en el uso seguro del equipo, presencial en Córdoba y guiada a distancia en el resto del país, y después quedamos como soporte.\n\nLa frecuencia y los valores de cada sesión salen de la indicación médica o kinésica de cada paciente, así que no hay una pauta única. Si te queda una duda sobre el uso, escribinos por WhatsApp: respondemos todos los días de 8 a 20 hs.\n\nEs habitual que el asistente de tos se combine con ventilación no invasiva. Si el médico también indicó VNI, podés ver los equipos en [BiPAP con frecuencia respiratoria de respaldo](/bipap-cordoba) y en el [ventilador ResMed STELLAR 150](/ventilador-stellar-150).',
             },
         ],
         products: [
