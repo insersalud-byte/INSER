@@ -190,7 +190,7 @@ const ofertas = [
         name: 'Máscara Nasobucal BMC F6 Multitalle', slug: 'mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-', price: 'U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'OFERTA', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
-            ['Tipo', 'Nasobucal (full face) con apoya frente'],
+            ['Tipo', 'Nasobucal (full face) sin apoya frente'],
             ['Tallas', 'S / M / L (multitalle)'],
             ['Compatibilidad', 'CPAP / BiPAP'],
             ['Ventaja', 'Tan cómoda como la DreamWear pero más económica'],
@@ -435,7 +435,7 @@ const tienda = [
         name: 'Máscara Nasobucal BMC F6 Multitalle', slug: 'mascara-cpap-bipap-bmc-f6-nasobucal-con-apoya-frontal-', price: 'U$S 124', img: '/artifacts/products/bmc_f2_1.jpg', images: ['/artifacts/products/bmc_f2_1.jpg', '/artifacts/products/bmc_f2_2.jpg', '/artifacts/products/bmc_f2_3.jpg'], badge: 'OFERTA', note: 'Tan cómoda como la DreamWear, a mejor precio.', category: 'Máscara',
         specs: [
             ['Fabricante', 'BMC Medical'],
-            ['Tipo', 'Nasobucal (full face) con apoya frente'],
+            ['Tipo', 'Nasobucal (full face) sin apoya frente'],
             ['Tallas', 'S / M / L (multitalle)'],
             ['Compatibilidad', 'CPAP / BiPAP'],
             ['Ventaja', 'Tan cómoda como la DreamWear pero más económica'],

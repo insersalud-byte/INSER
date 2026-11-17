@@ -44,7 +44,7 @@ export const FICHAS = [
     { id: 'mascara-almohadillas-yuwell-yp-01', familia: 'pillow', cat: 'mascaras', nombre: 'Almohadillas nasales Yuwell YP-01 (pillow)', titulo: 'Yuwell YP-01: almohadillas nasales para CPAP' },
     // ---- Mascaras nasobucales ----
     { id: 'mascara-nasobucal-philips-dreamwear', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara nasobucal Philips DreamWear Full Face', titulo: 'Philips DreamWear Full Face: máscara nasobucal' },
-    { id: 'mascara-nasobucal-bmc-f6', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara nasobucal BMC F6 con apoya frente', titulo: 'BMC F6: máscara nasobucal para CPAP y BiPAP' },
+    { id: 'mascara-nasobucal-bmc-f6', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara nasobucal BMC F6 multitalle', titulo: 'BMC F6: máscara nasobucal multitalle para CPAP' },
     { id: 'mascara-buconasal-yuwell-apoya-frente', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara buconasal Yuwell con apoya frente', titulo: 'Yuwell con apoya frente: máscara buconasal CPAP' },
     { id: 'mascara-buconasal-yuwell-yf02', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara buconasal Yuwell YF02 sin apoya frente', titulo: 'Yuwell YF02: máscara buconasal sin apoya frente' },
     { id: 'mascara-buconasal-bmc-f5a', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara buconasal BMC F5A sin apoya frente', titulo: 'BMC F5A: máscara buconasal sin apoya frente' },
