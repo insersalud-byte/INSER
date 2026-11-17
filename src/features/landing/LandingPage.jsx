@@ -191,7 +191,7 @@ const ofertas = [
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Nasobucal (full face) sin apoya frente'],
-            ['Tallas', 'S / M / L (multitalle)'],
+            ['Tallas', 'Multitalle: trae las almohadillas S, M y L'],
             ['Compatibilidad', 'CPAP / BiPAP'],
             ['Ventaja', 'Tan cómoda como la DreamWear pero más económica'],
             ['Material', 'Silicona médica suave'],
@@ -436,7 +436,7 @@ const tienda = [
         specs: [
             ['Fabricante', 'BMC Medical'],
             ['Tipo', 'Nasobucal (full face) sin apoya frente'],
-            ['Tallas', 'S / M / L (multitalle)'],
+            ['Tallas', 'Multitalle: trae las almohadillas S, M y L'],
             ['Compatibilidad', 'CPAP / BiPAP'],
             ['Ventaja', 'Tan cómoda como la DreamWear pero más económica'],
             ['Material', 'Silicona médica suave'],

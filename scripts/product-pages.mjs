@@ -33,6 +33,7 @@ const CATEGORIAS = {
 // titulo: va en <title> (marca y modelo adelante, para no competir con la pagina de categoria).
 // resumen (opcional): primera frase de la meta description cuando la del feed es muy larga.
 // h1 (opcional): encabezado de la pagina cuando conviene que arranque por marca y modelo.
+// multitalle (opcional): talles de almohadilla que trae la caja (dato confirmado por el dueño).
 export const FICHAS = [
     // ---- Mascaras nasales ----
     { id: 'mascara-nasal-philips-dreamwear', familia: 'nasal', cat: 'mascaras', nombre: 'Máscara nasal Philips DreamWear de mínimo contacto', titulo: 'Philips DreamWear nasal: máscara para CPAP y BiPAP' },
@@ -44,7 +45,7 @@ export const FICHAS = [
     { id: 'mascara-almohadillas-yuwell-yp-01', familia: 'pillow', cat: 'mascaras', nombre: 'Almohadillas nasales Yuwell YP-01 (pillow)', titulo: 'Yuwell YP-01: almohadillas nasales para CPAP' },
     // ---- Mascaras nasobucales ----
     { id: 'mascara-nasobucal-philips-dreamwear', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara nasobucal Philips DreamWear Full Face', titulo: 'Philips DreamWear Full Face: máscara nasobucal' },
-    { id: 'mascara-nasobucal-bmc-f6', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara nasobucal BMC F6 multitalle', titulo: 'BMC F6: máscara nasobucal multitalle para CPAP' },
+    { id: 'mascara-nasobucal-bmc-f6', familia: 'nasobucal', cat: 'mascaras', multitalle: 'S, M y L', resumen: 'Máscara nasobucal (full face) BMC F6 multitalle, sin apoya frente: trae las almohadillas S, M y L.', nombre: 'Máscara nasobucal BMC F6 multitalle', titulo: 'BMC F6: máscara nasobucal multitalle para CPAP' },
     { id: 'mascara-buconasal-yuwell-apoya-frente', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara buconasal Yuwell con apoya frente', titulo: 'Yuwell con apoya frente: máscara buconasal CPAP' },
     { id: 'mascara-buconasal-yuwell-yf02', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara buconasal Yuwell YF02 sin apoya frente', titulo: 'Yuwell YF02: máscara buconasal sin apoya frente' },
     { id: 'mascara-buconasal-bmc-f5a', familia: 'nasobucal', cat: 'mascaras', nombre: 'Máscara buconasal BMC F5A sin apoya frente', titulo: 'BMC F5A: máscara buconasal sin apoya frente' },
@@ -147,7 +148,7 @@ function guia(f, d) {
                     : 'Las almohadillas nasales apoyan directo en las fosas nasales, con mínima presencia en la cara. Sirven si respirás por la nariz al dormir; si respirás por la boca, tenés congestión frecuente o usás presiones altas, suele corresponder una nasobucal.';
             return `<h2>¿Es el tipo de máscara que necesitás?</h2>
 <p>${tipo} En <a href="${cat.href}">máscaras para CPAP y BiPAP</a> comparamos los tres tipos.</p>
-<p>El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.</p>
+<p>${f.multitalle ? `El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Este modelo es multitalle: la caja trae las almohadillas ${f.multitalle}. Si tenés dudas sobre el modelo, contanos por WhatsApp cómo dormís y qué equipo usás.` : 'El talle importa tanto como el tipo: una máscara del talle equivocado pierde aire y te despierta. Contanos por WhatsApp cómo dormís y qué equipo usás, y te ayudamos a elegir el modelo y el talle antes de comprar.'}</p>
 <p>La máscara se vende por separado del equipo. Si alquilás un CPAP en Córdoba, <a href="/alquiler-cpap-cordoba">el alquiler ya incluye la máscara</a>.</p>
 <h2>Cambio y cuidado</h2>
 <p>La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene: la silicona pierde sellado con el tiempo y aparecen fugas. Se limpia con agua y jabón neutro.</p>`;
@@ -202,7 +203,9 @@ function preguntas(f, d) {
         a: `${d.precio.texto}. ${usd ? 'Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.' : 'Los precios se actualizan: confirmá el valor del día por WhatsApp.'}`,
     });
     const talles = (d.specs.find(([k]) => /^tallas?$/i.test(String(k).trim())) || [])[1];
-    if (talles && MASCARAS.has(f.familia)) {
+    if (f.multitalle) {
+        qs.push({ q: '¿En qué talles viene?', a: `Es multitalle: la caja trae las almohadillas ${f.multitalle}.` });
+    } else if (talles && MASCARAS.has(f.familia)) {
         qs.push({ q: /^l[ao]s /.test(f.corto) ? '¿En qué talles vienen?' : '¿En qué talles viene?', a: `${talles}. Si no sabés cuál te corresponde, escribinos por WhatsApp y te ayudamos a elegir antes de comprar.` });
     }
     if (['nasal', 'nasobucal', 'pillow'].includes(f.familia)) {
@@ -425,7 +428,8 @@ export function construirFichas({ FEED, catalogo, SALUD, esc, attr, imageSize, w
         if (f.familia === 'mochila') puntos.push('Entrega en Córdoba; la recarga se hace en INSER SALUD');
         else if (d.envioGratis) puntos.push('Envío sin cargo a todo el país (oferta vigente)');
         else puntos.push('Envío a todo el país · En Córdoba Capital, entrega en el día');
-        if (MASCARAS.has(f.familia) && f.familia !== 'uti') puntos.push('Te ayudamos a elegir el talle antes de comprar');
+        if (f.multitalle) puntos.push(`Multitalle: trae las almohadillas ${f.multitalle}`);
+        else if (MASCARAS.has(f.familia) && f.familia !== 'uti') puntos.push('Te ayudamos a elegir el talle antes de comprar');
         if (f.familia === 'estacionario') puntos.push('En Córdoba también alquilamos concentradores, con entrega e instalación');
         if (f.familia === 'portatil') puntos.push('En Córdoba también alquilamos concentradores portátiles');
         puntos.push('Factura para gestionar el reintegro ante tu obra social o prepaga');
