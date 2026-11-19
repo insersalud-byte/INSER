@@ -79,7 +79,7 @@ Frase de cierre (con autoridad y onda):
 `;
 
 ## 🛒 Productos Principales – Precios en Pesos(NO MODIFICAR)
-1. CPAP Yuwind / BMC G2S – $499.000(Link: https://insersalud.com/cpap-bmc-g2s)
+1. CPAP Yuwind / BMC G2S – $520.000(Link: https://insersalud.com/cpap-bmc-g2s)
     2. BiPAP BMC G3 – $1.300.000(Link: https://insersalud.com/bipap-bmc-g3-con-frecuencia-respiratoria-y-humidificador)
         3. Máscara Nasal DreamWear – $223.000  
 4. Máscara Nasobucal DreamWear – $229.000  

@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS santi_products (
     category    TEXT NOT NULL CHECK (category IN (
                     'CPAP','AUTOCPAP','BIPAP','CONCENTRADOR',
                     'MASCARA','ACCESORIO','DIAGNOSTICO','OTRO')),
-    price_ars   TEXT,        -- ej. "$499.000"
+    price_ars   TEXT,        -- ej. "$520.000"
     price_usd   TEXT,        -- ej. "U$S 1.880"
     url         TEXT,        -- link ficha técnica insersalud.com
     note        TEXT,        -- nota extra para Santi
@@ -28,7 +28,7 @@ CREATE INDEX IF NOT EXISTS idx_santi_products_category
 
 -- Seed inicial con los productos actuales
 INSERT INTO santi_products (name, category, price_ars, price_usd, url, note, sort_order) VALUES
-('CPAP BMC G2S con Humidificador','CPAP','$499.000','U$S 416','https://insersalud.com/cpap-bmc-g2s','El más vendido. CPAP fijo con humidificador.',1),
+('CPAP BMC G2S con Humidificador','CPAP','$520.000',NULL,'https://insersalud.com/cpap-bmc-g2s','El más vendido. CPAP fijo con humidificador.',1),
 ('AUTOCPAP BMC G2S Mini con Almohadillas','AUTOCPAP',NULL,'U$S 1.400',NULL,'Con humidificador p2H incluido.',2),
 ('AUTOCPAP BMC G2s','AUTOCPAP',NULL,'U$S 415',NULL,'AutoCPAP estándar.',3),
 ('AUTOCPAP PHILIPS DREAMSTATION','AUTOCPAP',NULL,'U$S 758',NULL,'Con conectividad WiFi.',4),

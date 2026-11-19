@@ -60,7 +60,7 @@ const ofertas = [
         ],
     },
     {
-        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo. Envío sin cargo a todo el país (oferta vigente).', category: 'CPAP',
+        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$520.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo. Envío sin cargo a todo el país (oferta vigente).', category: 'CPAP',
         specs: [
             ['Fabricante', 'BMC Medical (China)'],
             ['Tipo', 'CPAP fijo (presión constante)'],
@@ -229,7 +229,7 @@ const ofertas = [
 const tienda = [
     // ── CPAP / AUTOCPAP ──────────────────────────────────────────────────────
     {
-        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$499.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo. Envío sin cargo a todo el país (oferta vigente).', category: 'CPAP',
+        name: 'CPAP BMC G2S con Humidificador', slug: 'cpap-bmc-g2s', price: '$520.000', img: '/artifacts/products/1752160942319-bmcg2.2.jpg', badge: 'OFERTA', note: 'El más vendido. CPAP fijo. Envío sin cargo a todo el país (oferta vigente).', category: 'CPAP',
         specs: [
             ['Fabricante', 'BMC Medical (China)'],
             ['Tipo', 'CPAP fijo'],
@@ -1013,7 +1013,7 @@ const guides = [
             'Se recomienda usarlo todas las noches durante al menos 4-6 horas para obtener sus beneficios: mejor descanso, menos somnolencia diurna y reducción del riesgo cardiovascular.',
         ],
         color: '#1e40af',
-        priceFrom: 'Desde $499.000 · CPAP BMC G2S',
+        priceFrom: 'Desde $520.000 · CPAP BMC G2S',
     },
     {
         icon: Activity,
@@ -1179,7 +1179,7 @@ const comparativeRows = [
     ['Indicación principal', 'Apnea obstructiva leve a moderada', 'Apnea con presiones variables (por postura, etapas del sueño)', 'EPOC, ENM, apnea compleja, hipoventilación'],
     ['Confort', 'Estándar', 'Mayor (se adapta al paciente)', 'Muy alto al exhalar'],
     ['Costo', 'Más económico', 'Medio', 'Más elevado'],
-    ['Desde', '$499.000', '$630.000', '$1.300.000'],
+    ['Desde', '$520.000', '$630.000', '$1.300.000'],
 ];
 
 // ── Cursos gratuitos de la Academia (enlaces directos en el footer) ─────────

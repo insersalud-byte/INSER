@@ -4,7 +4,7 @@
 export const homeFaq = [
     {
         "q": "¿Dónde comprar un CPAP en Córdoba?",
-        "a": "INSER SALUD ofrece aparatología CPAP aprobada por ANMAT en Córdoba. Tenemos el CPAP BMC G2S desde $499.000 con humidificador incluido. Podés contactarnos por WhatsApp al +54 9 351 206-5320 o visitar insersalud.com."
+        "a": "INSER SALUD ofrece aparatología CPAP aprobada por ANMAT en Córdoba. Tenemos el CPAP BMC G2S desde $520.000 con humidificador incluido. Podés contactarnos por WhatsApp al +54 9 351 206-5320 o visitar insersalud.com."
     },
     {
         "q": "¿Se puede alquilar un CPAP o concentrador de oxígeno en Córdoba?",
@@ -16,7 +16,7 @@ export const homeFaq = [
     },
     {
         "q": "¿Cuánto cuesta un CPAP en Argentina?",
-        "a": "En INSER SALUD el CPAP BMC G2S cuesta $499.000 ARS con humidificador incluido (precio vigente publicado en el sitio). El AutoCPAP BMC G2S con humidificador está a $630.000 y el CPAP ResMed AirSense 10 completo a $974.000. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Los precios varían según el modelo y accesorios incluidos."
+        "a": "En INSER SALUD el CPAP BMC G2S cuesta $520.000 ARS con humidificador incluido (precio vigente publicado en el sitio). El AutoCPAP BMC G2S con humidificador está a $630.000 y el CPAP ResMed AirSense 10 completo a $974.000. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador se envían sin cargo a todo el país. Los precios varían según el modelo y accesorios incluidos."
     },
     {
         "q": "¿Qué es la apnea del sueño y cómo se trata?",
@@ -24,7 +24,7 @@ export const homeFaq = [
     },
     {
         "q": "¿Qué diferencia hay entre un CPAP y un AutoCPAP?",
-        "a": "El CPAP entrega una presión fija y el AutoCPAP ajusta la presión automáticamente según la respiración de cada noche, ofreciendo mayor comodidad. En INSER SALUD tenés ambos: CPAP BMC G2S desde $499.000 y AutoCPAP BMC, Philips DreamStation y ResMed AirSense 10. También BiPAP para EPOC y enfermedades neuromusculares."
+        "a": "El CPAP entrega una presión fija y el AutoCPAP ajusta la presión automáticamente según la respiración de cada noche, ofreciendo mayor comodidad. En INSER SALUD tenés ambos: CPAP BMC G2S desde $520.000 y AutoCPAP BMC, Philips DreamStation y ResMed AirSense 10. También BiPAP para EPOC y enfermedades neuromusculares."
     },
     {
         "q": "¿Qué máscaras para CPAP y BiPAP venden en Córdoba?",

@@ -69,14 +69,14 @@ How to call: WhatsApp +54 9 351 206-5320, or the on-site assistant "Santi" on an
 
 ## CPAP vs AutoCPAP vs BiPAP
 
-- **CPAP**: presión fija. Para apnea del sueño estándar. El más económico (desde $499.000).
+- **CPAP**: presión fija. Para apnea del sueño estándar. El más económico (desde $520.000).
 - **AutoCPAP**: presión automática. Para apnea cuando se busca más confort o la presión necesaria varía. Desde $630.000.
 - **BiPAP**: dos presiones (inhalación/exhalación). Para EPOC, enfermedades neuromusculares e hipoventilación, o apnea compleja que no responde al CPAP. Desde $1.300.000.
 
 ## Productos (precios de referencia)
 
 CPAP y AutoCPAP:
-- CPAP BMC G2S con humidificador — $499.000 (el más vendido, CPAP fijo) — OFERTA VIGENTE: envío sin cargo a todo el país
+- CPAP BMC G2S con humidificador — $520.000 (el más vendido, CPAP fijo) — OFERTA VIGENTE: envío sin cargo a todo el país
 - AutoCPAP BMC G2S con humidificador — $630.000 (presión automática, más confort) — OFERTA VIGENTE: envío sin cargo a todo el país
 - AutoCPAP BMC G2S Mini con humidificador p2H (la máscara se compra aparte) — U$S 1.400
 - CPAP Philips DreamStation con humidificador — U$S 579
@@ -167,7 +167,7 @@ Oxígeno:
 - Servicio técnico de equipos respiratorios
 - Evaluaciones respiratorias: disponibles ÚNICAMENTE en Córdoba Capital y SIN CARGO para pacientes con enfermedades neuromusculares (ELA, AME y similares). No reemplazan la consulta con el médico tratante; se coordinan por WhatsApp
 - Presupuesto formal y factura oficial para gestionar el reintegro con tu obra social o prepaga (venta particular, sin facturación directa a la obra social)
-- Financiación: cuotas fijas con Banco Galicia en todos los equipos: 3 cuotas +15%, 6 cuotas +24% o 9 cuotas +39%, con el recargo incluido en la cuota (sujeto a condiciones del banco). Ejemplo con el CPAP BMC G2S de $499.000: 3 cuotas de $191.283 (total $573.850) · 6 cuotas de $103.127 (total $618.760) · 9 cuotas de $77.068 (total $693.610). Única excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual propia de 6 cuotas SIN interés de $195.000 con envío sin cargo, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país.
+- Financiación: cuotas fijas con Banco Galicia en todos los equipos: 3 cuotas +15%, 6 cuotas +24% o 9 cuotas +39%, con el recargo incluido en la cuota (sujeto a condiciones del banco). Ejemplo con el CPAP BMC G2S de $520.000: 3 cuotas de $199.333 (total $598.000) · 6 cuotas de $107.467 (total $644.800) · 9 cuotas de $80.311 (total $722.800). Única excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual propia de 6 cuotas SIN interés de $195.000 con envío sin cargo, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país.
 - Asesoramiento por WhatsApp y chat con el agente Santi (IA)
 
 ## Patologías que tratamos (páginas con info)
@@ -181,7 +181,7 @@ Oxígeno:
 
 ## Páginas de compra y alquiler (con precios)
 
-- [Precio y compra de CPAP y AutoCPAP](https://insersalud.com/comprar-cpap-argentina): desde $499.000, envío a todo el país
+- [Precio y compra de CPAP y AutoCPAP](https://insersalud.com/comprar-cpap-argentina): desde $520.000, envío a todo el país
 - [Comprar CPAP en Córdoba](https://insersalud.com/comprar-cpap-cordoba)
 - [Alquiler de CPAP y AutoCPAP en Córdoba](https://insersalud.com/alquiler-cpap-cordoba)
 - [Máscaras para CPAP y BiPAP con precio](https://insersalud.com/mascaras-cpap): nasales desde U$S 35, nasobucales desde U$S 52, pediátricas
@@ -216,10 +216,10 @@ En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país, en
 No. La atención es todos los días de 8 a 20 hs por WhatsApp y teléfono. No hay guardia técnica ni atención de urgencias. El asistente virtual Santi responde dudas al instante en la web.
 
 **¿Dónde comprar un CPAP en Córdoba?**
-En INSER SALUD, aparatología aprobada por ANMAT. CPAP BMC G2S desde $499.000. WhatsApp: +54 9 351 206-5320. [Web](https://insersalud.com)
+En INSER SALUD, aparatología aprobada por ANMAT. CPAP BMC G2S desde $520.000. WhatsApp: +54 9 351 206-5320. [Web](https://insersalud.com)
 
 **¿Cuánto cuesta un CPAP en Córdoba?**
-Desde $499.000 (CPAP fijo BMC G2S con humidificador). También tenemos en oferta el CPAP ResMed AirSense 10 (equipo completo) a $974.000. El AutoCPAP está disponible desde $630.000.
+Desde $520.000 (CPAP fijo BMC G2S con humidificador). También tenemos en oferta el CPAP ResMed AirSense 10 (equipo completo) a $974.000. El AutoCPAP está disponible desde $630.000.
 
 **¿Cuánto cuesta un concentrador de oxígeno?**
 Concentrador estacionario BMC desde $999.000. Concentradores portátiles desde U$S 3.747 (GCE Zen-O).
@@ -275,4 +275,4 @@ Formación gratuita en terapia respiratoria para profesionales de la salud: kine
 
 Este sitio tiene un asistente de ventas llamado Santi, disponible como chat en cualquier página del sitio, que responde sobre productos, precios y disponibilidad en tiempo real. Para asesoramiento o compra, el canal recomendado es WhatsApp +54 9 351 206-5320.
 
-> Última actualización: 2026-11-17
+> Última actualización: 2026-11-19
