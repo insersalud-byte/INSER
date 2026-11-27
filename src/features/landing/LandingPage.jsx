@@ -27,16 +27,18 @@ const getGallery = (p) => {
 // Precio doble moneda ("$ARS · U$S USD"): si va en una sola linea grande,
 // el navegador la corta donde cae y parte el simbolo del monto. Lo separamos a
 // proposito: pesos en grande, dolares abajo en chico, cada uno sin cortarse.
-// Precio en dolares: "U$S 153" en grande y al lado, en chico, los pesos al dolar BNA del dia.
+// Precio en dolares: en grande los PESOS al dolar BNA del dia y al lado, en chico, "U$S 153".
+// (Pedido del dueño, 27-nov-2026: precios en pesos. El precio sale de la app de gestion.)
 const Precio = ({ valor, className }) => {
     const partes = String(valor || '').split('·').map((s) => s.trim()).filter(Boolean);
     const usd = partes.length === 1 && String(valor).match(/^(U\$S\s?[\d.,]+)$/);
     if (usd) {
         const enPesos = conPesos(usd[1]).match(/\(≈ (\$[\d.]+)\)/);
+        if (!enPesos) return <div className={className}><span style={{ whiteSpace: 'nowrap' }}>{usd[1]}</span></div>;
         return (
             <div className={className}>
-                <span style={{ whiteSpace: 'nowrap' }}>{usd[1]}</span>
-                {enPesos && <span style={{ fontSize: '0.6em', fontWeight: 600, opacity: 0.75, whiteSpace: 'nowrap', marginLeft: '0.4em' }}>≈ {enPesos[1]}</span>}
+                <span style={{ whiteSpace: 'nowrap' }}>{enPesos[1]}</span>
+                <span style={{ fontSize: '0.6em', fontWeight: 600, opacity: 0.75, whiteSpace: 'nowrap', marginLeft: '0.4em' }}>{usd[1]}</span>
             </div>
         );
     }
