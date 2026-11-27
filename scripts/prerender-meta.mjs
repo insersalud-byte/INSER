@@ -1341,6 +1341,32 @@ try {
         console.warn('[prerender] merchant feed no generado (queda el del build anterior):', e?.message);
     }
 
+    // Precios de venta de la web para la app de gestion (aplicacion-beta.vercel.app): la app los
+    // copia en Equipos nuevos y Mascarillas (precio en pesos; los de dolares, al dolar BNA del dia).
+    // Pedido del dueño 27-nov-2026: la web manda, la app copia. Sale de las mismas fichas que el home.
+    try {
+        const dolar = JSON.parse(readFileSync(new URL('../src/data/dolar.json', import.meta.url), 'utf8'));
+        const { leerCatalogo } = await import('./merchant-feed.mjs');
+        const fichasCat = leerCatalogo(readFileSync(resolve(__dirname, '..', 'src', 'features', 'landing', 'LandingPage.jsx'), 'utf8'));
+        const productos = {};
+        for (const f of fichasCat) {
+            if (!f.slug || productos[f.slug]) continue;
+            const txt = String(f.price || '').trim();
+            const usd = txt.match(/^U\$S\s*([\d.]+(?:,\d{1,2})?)$/i), ars = txt.match(/^\$\s*([\d.]+)$/);
+            if (!usd && !ars) { console.warn(`[prerender] precios-web.json: ${f.slug} sin precio legible ("${txt}"), la app no lo copia`); continue; }
+            const monto = Number((usd || ars)[1].replace(/\./g, '').replace(',', '.'));
+            if (!(monto > 0)) continue;
+            productos[f.slug] = { nombre: f.name, texto: txt, moneda: usd ? 'USD' : 'ARS', monto, pesos: Math.round(usd ? monto * dolar.bnaVenta : monto) };
+        }
+        const cuerpo = { dolar: dolar.bnaVenta, fechaDolar: dolar.fecha, productos };
+        const version = Object.keys(productos).sort().map((k) => k + ':' + productos[k].pesos).join('|');
+        let h = 0; for (let i = 0; i < version.length; i++) h = (h * 31 + version.charCodeAt(i)) >>> 0;
+        writeFileSync(resolve(DIST, 'precios-web.json'), JSON.stringify({ version: h.toString(36), generado: new Date().toISOString(), ...cuerpo }), 'utf8');
+        console.log(`[prerender] precios-web.json: ${Object.keys(productos).length} productos para la app de gestion`);
+    } catch (e) {
+        console.warn('[prerender] precios-web.json no generado:', e?.message);
+    }
+
     // Markdown de las fichas de producto: version limpia (sin botones ni iconos).
     for (const f of fichas) {
         addMd(`producto/${f.id}.md`, { title: f.titulo, description: f.descripcion, url: SALUD + f.ruta }, f.cuerpoMd);
