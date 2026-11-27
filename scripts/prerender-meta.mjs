@@ -20,6 +20,12 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { crearConversor } from '../src/data/pesos.js';
+
+// Pesos al dolar oficial BNA del dia (src/data/dolar.json, lo actualiza la tarea diaria): todo
+// "U$S N" del contenido visible y del markdown sale con "(≈ $pesos)" al lado. Titulos, meta y
+// precios del schema quedan en dolares (no cambian todos los dias).
+const { conPesos } = crearConversor(JSON.parse(readFileSync(new URL('../src/data/dolar.json', import.meta.url), 'utf8')).bnaVenta);
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = resolve(__dirname, '..', 'dist');
@@ -491,7 +497,7 @@ function buildPathologySchema(p, base) {
             mainEntity: p.faq.map(f => ({
                 '@type': 'Question',
                 name: f.q,
-                acceptedAnswer: { '@type': 'Answer', text: sinMarkdown(f.a) },
+                acceptedAnswer: { '@type': 'Answer', text: conPesos(sinMarkdown(f.a)) },
             })),
         });
     }
@@ -584,7 +590,7 @@ function withRouteHints(html, tipo) {
 }
 
 function injectBody(html, contentHtml) {
-    return html.replace(/<div id="root">\s*<\/div>/, `<div id="root">${contentHtml}</div>`);
+    return html.replace(/<div id="root">\s*<\/div>/, () => `<div id="root">${conPesos(contentHtml)}</div>`);
 }
 
 function write(dir, html) {
@@ -838,7 +844,7 @@ function buildMarkdownPage(meta, bodyHtml, cuerpoMd) {
         '---',
     ].join('\n');
     const pie = `Índice del sitio para agentes: https://insersalud.com/llms.txt · Contenido completo: https://insersalud.com/llms-full.txt`;
-    return `${fm}\n\n${cuerpoMd ?? htmlToMarkdown(bodyHtml)}\n\n---\n\n${pie}\n`;
+    return `${fm}\n\n${conPesos(cuerpoMd ?? htmlToMarkdown(bodyHtml))}\n\n---\n\n${pie}\n`;
 }
 // <link rel="alternate" type="text/markdown"> en el <head>: asi un agente descubre el .md sin adivinar.
 function withMdLink(html, mdPath) {
@@ -1052,7 +1058,7 @@ function buildLocalSchema(p, base) {
                 mainEntity: (p.faq || []).map(f => ({
                     '@type': 'Question',
                     name: f.q,
-                    acceptedAnswer: { '@type': 'Answer', text: sinMarkdown(f.a) },
+                    acceptedAnswer: { '@type': 'Answer', text: conPesos(sinMarkdown(f.a)) },
                 })),
             },
         ],

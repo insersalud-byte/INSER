@@ -15,6 +15,7 @@ import { localPagesIndex } from '../seo/localPagesIndex';
 import { homeFaq } from './homeFaq';
 
 import { webp } from '../../utils/webp';
+import { conPesos } from '../../data/dolar';
 // Resuelve la galería de imágenes de un producto.
 // Prioridad: (1) product.images si existe, (2) productGalleries[slug], (3) [product.img]
 const getGallery = (p) => {
@@ -26,9 +27,20 @@ const getGallery = (p) => {
 // Precio doble moneda ("$ARS · U$S USD"): si va en una sola linea grande,
 // el navegador la corta donde cae y parte el simbolo del monto. Lo separamos a
 // proposito: pesos en grande, dolares abajo en chico, cada uno sin cortarse.
+// Precio en dolares: "U$S 153" en grande y al lado, en chico, los pesos al dolar BNA del dia.
 const Precio = ({ valor, className }) => {
     const partes = String(valor || '').split('·').map((s) => s.trim()).filter(Boolean);
-    if (partes.length < 2) return <div className={className}>{valor}</div>;
+    const usd = partes.length === 1 && String(valor).match(/^(U\$S\s?[\d.,]+)$/);
+    if (usd) {
+        const enPesos = conPesos(usd[1]).match(/\(≈ (\$[\d.]+)\)/);
+        return (
+            <div className={className}>
+                <span style={{ whiteSpace: 'nowrap' }}>{usd[1]}</span>
+                {enPesos && <span style={{ fontSize: '0.6em', fontWeight: 600, opacity: 0.75, whiteSpace: 'nowrap', marginLeft: '0.4em' }}>≈ {enPesos[1]}</span>}
+            </div>
+        );
+    }
+    if (partes.length < 2) return <div className={className}>{conPesos(valor)}</div>;
     return (
         <div className={className}>
             <span style={{ whiteSpace: 'nowrap' }}>{partes[0]}</span>
@@ -1740,9 +1752,9 @@ const LandingPage = () => {
                                     {isOpen && (
                                         <div className={css.guiaLong}>
                                             {g.long.map((para, j) => (
-                                                <p key={j}>{para}</p>
+                                                <p key={j}>{conPesos(para)}</p>
                                             ))}
-                                            <div className={css.guiaPrice}>{g.priceFrom}</div>
+                                            <div className={css.guiaPrice}>{conPesos(g.priceFrom)}</div>
                                         </div>
                                     )}
 
@@ -1853,9 +1865,9 @@ const LandingPage = () => {
                                     {isOpen && (
                                         <div className={css.guiaLong}>
                                             {m.long.map((para, j) => (
-                                                <p key={j}>{para}</p>
+                                                <p key={j}>{conPesos(para)}</p>
                                             ))}
-                                            <div className={css.guiaPrice}>{m.priceFrom}</div>
+                                            <div className={css.guiaPrice}>{conPesos(m.priceFrom)}</div>
                                         </div>
                                     )}
 

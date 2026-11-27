@@ -6,6 +6,7 @@ import { useSEO } from '../../hooks/useSEO';
 import LeadForm from '../../components/LeadForm';
 
 import { webp } from '../../utils/webp';
+import { pesificar } from '../../data/dolar';
 const openSanti = (message) => {
     window.dispatchEvent(new CustomEvent('open-santi', { detail: { message } }));
 };
@@ -51,14 +52,16 @@ const conEnlaces = (texto) => {
  * El HTML estático para crawlers lo genera scripts/prerender-meta.mjs desde localPages.js.
  */
 const LocalPage = ({ slug }) => {
-    const data = getLocalPageBySlug(slug);
+    const dataRaw = getLocalPageBySlug(slug);
+    // Textos visibles con pesos al dolar del dia; titulo y meta quedan en dolares.
+    const data = pesificar(dataRaw);
 
     // Un solo dominio canonico (inser.ar redirige 308 a insersalud.com; el middleware sirve esta variante en todo host).
     const isInsersaludHost = true;
     const seoBase = 'https://insersalud.com';
     useSEO({
-        title: isInsersaludHost && data?.metaTitleSalud ? data.metaTitleSalud : data?.metaTitle,
-        description: data?.description,
+        title: isInsersaludHost && dataRaw?.metaTitleSalud ? dataRaw.metaTitleSalud : dataRaw?.metaTitle,
+        description: dataRaw?.description,
         canonical: data ? `${seoBase}/${data.slug}` : undefined,
     });
 

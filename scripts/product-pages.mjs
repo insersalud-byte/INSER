@@ -20,6 +20,16 @@
  * CPAP/AutoCPAP no incluye mascara.
  */
 
+import { readFileSync } from 'node:fs';
+import { crearConversor } from '../src/data/pesos.js';
+
+// Pesos al dolar oficial BNA del dia (src/data/dolar.json, lo actualiza la tarea diaria).
+const { conPesos, dolarTxt } = crearConversor(JSON.parse(readFileSync(new URL('../src/data/dolar.json', import.meta.url), 'utf8')).bnaVenta);
+const NOTA_USD = `Precio en dólares; en pesos, al dólar oficial BNA del día (${dolarTxt}). Te confirmamos el importe final por WhatsApp.`;
+// "U$S 153 (≈ $248.625)" -> pesos al lado, en chico
+const escTxt = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const precioHtml = (texto) => escTxt(conPesos(texto)).replace(/ \(≈ (\$[\d.]+)\)/g, ' <span class="precio-pesos">≈ $1</span>');
+
 const WA_NUM = '5493512065320';
 
 const CATEGORIAS = {
@@ -200,7 +210,7 @@ function preguntas(f, d) {
     const usd = d.precio.moneda === 'USD';
     qs.push({
         q: `¿Cuánto ${/^l[ao]s /.test(f.corto) ? 'cuestan' : 'cuesta'} ${f.corto}?`,
-        a: `${d.precio.texto}. ${usd ? 'Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.' : 'Los precios se actualizan: confirmá el valor del día por WhatsApp.'}`,
+        a: `${conPesos(d.precio.texto)}. ${usd ? NOTA_USD : 'Los precios se actualizan: confirmá el valor del día por WhatsApp.'}`,
     });
     const talles = (d.specs.find(([k]) => /^tallas?$/i.test(String(k).trim())) || [])[1];
     if (f.multitalle) {
@@ -301,6 +311,7 @@ img{max-width:100%;height:auto}
 .marca{font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#64748b;margin:0 0 .3rem}
 h1{font-size:clamp(1.5rem,4.2vw,2.1rem);line-height:1.18;margin:0 0 .75rem}
 .precio{font-size:2.1rem;font-weight:800;color:var(--azul);line-height:1.1;margin:0}
+.precio-pesos{font-size:1.15rem;font-weight:700;color:var(--suave);white-space:nowrap}
 .precio-nota{font-size:.88rem;color:var(--suave);margin:.35rem 0 1rem}
 .oferta{display:inline-block;background:#ecfdf5;color:#065f46;border:1px solid #a7f3d0;border-radius:.6rem;padding:.4rem .7rem;font-size:.9rem;font-weight:600;margin:0 0 1rem}
 .acciones{display:grid;gap:.6rem;margin:0 0 1rem}
@@ -447,8 +458,8 @@ ${imagenes.length > 1 ? `<div class="minis">\n${imagenes.map((src, i) => `<a hre
 ${galeria}
 <div class="compra">
 ${p.brand ? `<p class="marca">${esc(p.brand)}</p>\n` : ''}<h1>${esc(f.h1 || f.nombre)}</h1>
-<p class="precio">${esc(precio.texto)}</p>
-<p class="precio-nota">${usd ? 'Precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.' : 'Los precios se actualizan: confirmá el valor del día por WhatsApp.'}</p>
+<p class="precio">${precioHtml(precio.texto)}</p>
+<p class="precio-nota">${usd ? NOTA_USD : 'Los precios se actualizan: confirmá el valor del día por WhatsApp.'}</p>
 ${d.nota ? `<p class="oferta">${esc(d.nota)}</p>` : ''}
 <div class="acciones">
 <a class="btn grande" data-wa="ficha-comprar" href="${attr(waComprar)}" target="_blank" rel="noopener noreferrer">${ICON_WA} Lo quiero</a>
@@ -475,7 +486,7 @@ ${qs.map((x) => `<div class="faq"><h3>${esc(x.q)}</h3><p>${esc(x.a)}</p></div>`)
 ${otros.length ? `<div class="otros">
 <h2>${cat.otros}</h2>
 <div class="grilla">
-${otros.map((o) => `<a class="tarjeta" href="${rutaFicha(o.f.id)}">${picture(o.imagenes[0], o.f.nombre, ' loading="lazy" decoding="async"')}<span>${esc(o.f.nombre)}</span><strong>${esc(o.precio.texto)}</strong></a>`).join('\n')}
+${otros.map((o) => `<a class="tarjeta" href="${rutaFicha(o.f.id)}">${picture(o.imagenes[0], o.f.nombre, ' loading="lazy" decoding="async"')}<span>${esc(o.f.nombre)}</span><strong>${esc(conPesos(o.precio.texto))}</strong></a>`).join('\n')}
 </div>
 <p style="margin:1rem 0 0"><a href="${cat.href}">${esc(cat.ver)}</a></p>
 </div>` : ''}
@@ -597,7 +608,7 @@ ${imagenes.length > 1 ? GALERIA_JS : ''}
 `;
         // Version para el .md (llms): mismo contenido, sin botones ni iconos, con las tablas como listas.
         const cuerpoMd = `<h1>${esc(f.h1 || f.nombre)}</h1>
-<p><strong>Precio:</strong> ${esc(precio.texto)}. ${usd ? 'Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.' : 'Los precios se actualizan: el valor del día se confirma por WhatsApp.'}</p>
+<p><strong>Precio:</strong> ${esc(conPesos(precio.texto))}. ${usd ? NOTA_USD : 'Los precios se actualizan: el valor del día se confirma por WhatsApp.'}</p>
 ${d.nota ? `<p>${esc(d.nota)}</p>` : ''}
 <p>Categoría: <a href="${cat.href}">${esc(cat.label)}</a>${p.brand ? ` · Marca: ${esc(p.brand)}` : ''}</p>
 <h2>Descripción</h2>
@@ -608,7 +619,7 @@ ${guia(f, d)}
 ${compraYGarantia(f, d).replace(' class="lista"', '')}
 <h2>Preguntas frecuentes</h2>
 ${qs.map((x) => `<h3>${esc(x.q)}</h3>\n<p>${esc(x.a)}</p>`).join('\n')}
-${otros.length ? `<h2>${cat.otros}</h2>\n<ul>\n${otros.map((o) => `<li><a href="${rutaFicha(o.f.id)}">${esc(o.f.nombre)}</a>: ${esc(o.precio.texto)}</li>`).join('\n')}\n</ul>` : ''}
+${otros.length ? `<h2>${cat.otros}</h2>\n<ul>\n${otros.map((o) => `<li><a href="${rutaFicha(o.f.id)}">${esc(o.f.nombre)}</a>: ${esc(conPesos(o.precio.texto))}</li>`).join('\n')}\n</ul>` : ''}
 <p>Consultas y compra por WhatsApp: <a href="https://wa.me/${WA_NUM}">+54 9 351 206-5320</a>, todos los días de 8 a 20 hs.</p>`;
         salida.push({ id: f.id, ruta: rutaFicha(f.id), html, cuerpo, cuerpoMd, titulo, descripcion, nombre: f.nombre, imagenes, cat: f.cat, precio: precio.texto });
     }

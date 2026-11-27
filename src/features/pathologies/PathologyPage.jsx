@@ -11,6 +11,7 @@ import LeadForm from '../../components/LeadForm';
 import css from './PathologyPage.module.css';
 
 import { webp } from '../../utils/webp';
+import { pesificar } from '../../data/dolar';
 // Enlaces internos escritos como [texto](/ruta) en las respuestas de las FAQ. Misma sintaxis que LocalPage.jsx y que
 // inlineLinks() del prerender: MANTENER LOS TRES SINCRONIZADOS.
 const LINK_RE = /\[([^\]]+)\]\((\/[^)\s]*)\)/g;
@@ -231,7 +232,9 @@ const SectionModal = ({ section, data, onClose }) => {
 const PathologyPage = () => {
     const { slug } = useParams();
     const navigate = useNavigate();
-    const data = getPathologyBySlug(slug);
+    const dataRaw = getPathologyBySlug(slug);
+    // Textos visibles con pesos al dolar del dia; titulo y meta quedan en dolares.
+    const data = pesificar(dataRaw);
     const [activeSection, setActiveSection] = useState(null);
     const [specsProduct, setSpecsProduct] = useState(null);
 
@@ -241,10 +244,10 @@ const PathologyPage = () => {
     const isInsersaludHost = true;
     const seoBase = 'https://insersalud.com';
     useSEO({
-        title: isInsersaludHost && data?.metaTitle
-            ? (data.metaTitleSalud || data.metaTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD'))
-            : data?.metaTitle,
-        description: data?.subtitle || data?.intro,
+        title: isInsersaludHost && dataRaw?.metaTitle
+            ? (dataRaw.metaTitleSalud || dataRaw.metaTitle.replace('| INSER SALUD', '· Tratamiento Domiciliario | INSER SALUD'))
+            : dataRaw?.metaTitle,
+        description: dataRaw?.subtitle || dataRaw?.intro,
         canonical: slug ? `${seoBase}/patologia/${slug}` : undefined,
     });
 
