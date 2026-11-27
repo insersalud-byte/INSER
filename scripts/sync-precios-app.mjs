@@ -5,7 +5,8 @@
  * "Precio en insersalud.com"). Lo corre la tarea diaria de las 10:20.
  *
  * Uso:  node scripts/sync-precios-app.mjs <entrada.json> [--aplicar]
- *   entrada.json = { "productos": [ { "slug": "...", "moneda": "ARS"|"USD", "monto": 520000, "nombreApp": "..." } ] }
+ *   entrada.json = { "productos": [ { "slug": "...", "moneda": "ARS"|"USD", "monto": 520000, "nombreApp": "...", "confirmado": bool } ] }
+ *   o filas compactas: { "productos": [ ["slug", "ARS", 520000, 0|1], ... ] }
  *   (la arma la tarea leyendo la app). Sin --aplicar solo informa que cambiaria.
  *
  * Que toca: SOLO el campo price de las fichas de ofertas[] y tienda[] de
@@ -60,7 +61,9 @@ export function sincronizar(fuente, productos) {
     // Agrupa por slug: varios registros de la app pueden apuntar al mismo producto web
     // (unidades con distinto N° de serie, talles de una mascara).
     const porSlug = new Map();
-    for (const p of productos || []) {
+    for (const item of productos || []) {
+        // Tambien acepta filas compactas [slug, moneda, monto, confirmado] (asi las lee la tarea).
+        const p = Array.isArray(item) ? { slug: item[0], moneda: item[1], monto: item[2], confirmado: item[3] === 1 || item[3] === true } : item;
         const slug = String(p.slug || '').trim();
         if (!slug) continue;
         if (!porSlug.has(slug)) porSlug.set(slug, []);
