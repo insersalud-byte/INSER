@@ -25,10 +25,12 @@ import { crearConversor } from '../src/data/pesos.js';
 
 // Pesos al dolar oficial BNA del dia (src/data/dolar.json, lo actualiza la tarea diaria).
 const { conPesos, dolarTxt } = crearConversor(JSON.parse(readFileSync(new URL('../src/data/dolar.json', import.meta.url), 'utf8')).bnaVenta);
-const NOTA_USD = `Precio en dólares; en pesos, al dólar oficial BNA del día (${dolarTxt}). Te confirmamos el importe final por WhatsApp.`;
-// "U$S 153 (≈ $248.625)" -> pesos al lado, en chico
+const NOTA_USD = `Precio en pesos al dólar oficial BNA del día (${dolarTxt}); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.`;
+// "U$S 153" -> "$248.625" en grande y "U$S 153" al lado, en chico (precios en pesos, pedido del dueño 27-nov-2026)
 const escTxt = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const precioHtml = (texto) => escTxt(conPesos(texto)).replace(/ \(≈ (\$[\d.]+)\)/g, ' <span class="precio-pesos">≈ $1</span>');
+// Texto plano con los pesos primero: "U$S 153" -> "$248.625 (U$S 153)".
+const pesosPrimero = (texto) => conPesos(texto).replace(/(U\$S\s?[\d.,]+) \(≈ (\$[\d.]+)\)/g, '$2 ($1)');
+const precioHtml = (texto) => escTxt(conPesos(texto)).replace(/(U\$S\s?[\d.,]+) \(≈ (\$[\d.]+)\)/g, '$2 <span class="precio-pesos">$1</span>');
 
 const WA_NUM = '5493512065320';
 
@@ -138,7 +140,8 @@ function metaDescripcion(nombre, precio, desc, cola, resumen) {
         intro = intro ? intro + ' ' + frase : frase;
     }
     if (!intro) intro = nombre.replace(/\s*\([^)]*\)/g, '') + '.';
-    let out = `${intro} Precio: ${precio.texto}.`;
+    let out = `${intro} Precio: ${pesosPrimero(precio.texto)}.`;
+    if (out.length > 155) out = `${intro} Precio: ${pesosPrimero(precio.texto).replace(/ \(U\$S [\d.,]+\)/, '')}.`;
     if ((out + ' ' + cola).length <= 155) out += ' ' + cola;
     return out;
 }
@@ -210,7 +213,7 @@ function preguntas(f, d) {
     const usd = d.precio.moneda === 'USD';
     qs.push({
         q: `¿Cuánto ${/^l[ao]s /.test(f.corto) ? 'cuestan' : 'cuesta'} ${f.corto}?`,
-        a: `${conPesos(d.precio.texto)}. ${usd ? NOTA_USD : 'Los precios se actualizan: confirmá el valor del día por WhatsApp.'}`,
+        a: `${pesosPrimero(d.precio.texto)}. ${usd ? NOTA_USD : 'Los precios se actualizan: confirmá el valor del día por WhatsApp.'}`,
     });
     const talles = (d.specs.find(([k]) => /^tallas?$/i.test(String(k).trim())) || [])[1];
     if (f.multitalle) {
@@ -486,7 +489,7 @@ ${qs.map((x) => `<div class="faq"><h3>${esc(x.q)}</h3><p>${esc(x.a)}</p></div>`)
 ${otros.length ? `<div class="otros">
 <h2>${cat.otros}</h2>
 <div class="grilla">
-${otros.map((o) => `<a class="tarjeta" href="${rutaFicha(o.f.id)}">${picture(o.imagenes[0], o.f.nombre, ' loading="lazy" decoding="async"')}<span>${esc(o.f.nombre)}</span><strong>${esc(conPesos(o.precio.texto))}</strong></a>`).join('\n')}
+${otros.map((o) => `<a class="tarjeta" href="${rutaFicha(o.f.id)}">${picture(o.imagenes[0], o.f.nombre, ' loading="lazy" decoding="async"')}<span>${esc(o.f.nombre)}</span><strong>${esc(pesosPrimero(o.precio.texto))}</strong></a>`).join('\n')}
 </div>
 <p style="margin:1rem 0 0"><a href="${cat.href}">${esc(cat.ver)}</a></p>
 </div>` : ''}
@@ -608,7 +611,7 @@ ${imagenes.length > 1 ? GALERIA_JS : ''}
 `;
         // Version para el .md (llms): mismo contenido, sin botones ni iconos, con las tablas como listas.
         const cuerpoMd = `<h1>${esc(f.h1 || f.nombre)}</h1>
-<p><strong>Precio:</strong> ${esc(conPesos(precio.texto))}. ${usd ? NOTA_USD : 'Los precios se actualizan: el valor del día se confirma por WhatsApp.'}</p>
+<p><strong>Precio:</strong> ${esc(pesosPrimero(precio.texto))}. ${usd ? NOTA_USD : 'Los precios se actualizan: el valor del día se confirma por WhatsApp.'}</p>
 ${d.nota ? `<p>${esc(d.nota)}</p>` : ''}
 <p>Categoría: <a href="${cat.href}">${esc(cat.label)}</a>${p.brand ? ` · Marca: ${esc(p.brand)}` : ''}</p>
 <h2>Descripción</h2>
@@ -619,7 +622,7 @@ ${guia(f, d)}
 ${compraYGarantia(f, d).replace(' class="lista"', '')}
 <h2>Preguntas frecuentes</h2>
 ${qs.map((x) => `<h3>${esc(x.q)}</h3>\n<p>${esc(x.a)}</p>`).join('\n')}
-${otros.length ? `<h2>${cat.otros}</h2>\n<ul>\n${otros.map((o) => `<li><a href="${rutaFicha(o.f.id)}">${esc(o.f.nombre)}</a>: ${esc(conPesos(o.precio.texto))}</li>`).join('\n')}\n</ul>` : ''}
+${otros.length ? `<h2>${cat.otros}</h2>\n<ul>\n${otros.map((o) => `<li><a href="${rutaFicha(o.f.id)}">${esc(o.f.nombre)}</a>: ${esc(pesosPrimero(o.precio.texto))}</li>`).join('\n')}\n</ul>` : ''}
 <p>Consultas y compra por WhatsApp: <a href="https://wa.me/${WA_NUM}">+54 9 351 206-5320</a>, todos los días de 8 a 20 hs.</p>`;
         salida.push({ id: f.id, ruta: rutaFicha(f.id), html, cuerpo, cuerpoMd, titulo, descripcion, nombre: f.nombre, imagenes, cat: f.cat, precio: precio.texto });
     }
