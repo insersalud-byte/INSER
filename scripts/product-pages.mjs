@@ -262,7 +262,7 @@ function compraYGarantia(f, d) {
         const stock = (d.specsTodas.find(([k]) => /^stock$/i.test(k)) || [])[1];
         li.push(`<strong>Pago:</strong> ${d.esc(cuotas)}${stock ? ' ' + d.esc(stock) + '.' : ''} También efectivo, transferencia y tarjeta.`);
     } else {
-        li.push('<strong>Pago:</strong> cuotas fijas con Banco Galicia: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.');
+        li.push('<strong>Pago:</strong> cuotas fijas con Banco Galicia: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.');
     }
     const garantia = (d.specs.find(([k]) => /^garant[ií]a$/i.test(k)) || [])[1];
     if (garantia) { const g = garantia.replace(/\s*\(premium\)/i, ''); li.push(`<strong>Garantía:</strong> ${d.esc(g.charAt(0).toLowerCase() + g.slice(1))}.`); }

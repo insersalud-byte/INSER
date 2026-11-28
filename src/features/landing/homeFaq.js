@@ -40,6 +40,6 @@ export const homeFaq = [
     },
     {
         "q": "¿Se puede pagar en cuotas?",
-        "a": "Sí. Con Banco Galicia hay cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Se acepta efectivo, transferencia y tarjeta."
+        "a": "Sí. Con Banco Galicia hay cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Se acepta efectivo, transferencia y tarjeta."
     }
 ];

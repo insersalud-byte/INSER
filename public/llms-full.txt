@@ -93,7 +93,7 @@ Trabajamos de forma particular y ayudamos con el reintegro: entregamos presupues
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia hay cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Se acepta efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia hay cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Se acepta efectivo, transferencia y tarjeta.
 
 ### ¿Qué es un CPAP?
 
@@ -139,11 +139,11 @@ Cubre solo la nariz, con un arnés liviano. Es la más usada y la que mejor tole
 
 **A tener en cuenta:** Si dormís con la boca abierta se escapa el aire y perdés presión. En ese caso conviene una nasobucal o sumar una mentonera.
 
-- Máscara Nasal RESCOMF — U$S 35
-- Máscara Nasal BMC N4 con apoya frente — U$S 36
-- Máscara Nasal BMC N5a sin apoya frente — U$S 60
-- Máscara Nasal AirFit mínimo contacto ResMed — U$S 157
-- Mascarilla Nasal DreamWear Philips — U$S 153
+- Máscara Nasal RESCOMF — U$S 35 (≈ $56.875)
+- Máscara Nasal BMC N4 con apoya frente — U$S 36 (≈ $58.500)
+- Máscara Nasal BMC N5a sin apoya frente — U$S 60 (≈ $97.500)
+- Máscara Nasal AirFit mínimo contacto ResMed — U$S 157 (≈ $255.125)
+- Mascarilla Nasal DreamWear Philips — U$S 153 (≈ $248.625)
 
 ### Máscara Nasobucal (full face)
 
@@ -153,11 +153,11 @@ Cubre nariz y boca a la vez, con un sellado más amplio sobre la cara.
 
 **A tener en cuenta:** Pesa y apoya más que la nasal, así que el talle correcto es clave: una nasobucal grande de más pierde aire y marca la cara.
 
-- Máscara Nasobucal BMC F6 multitalle — U$S 124
-- Mascarilla Nasobucal DreamWear Philips — U$S 157
-- Buconasal BMC F5A sin apoya frente — U$S 52
-- Buconasal Yuwell con apoya frente — U$S 52
-- Nasobucal AirFit F30 ResMed — U$S 212
+- Máscara Nasobucal BMC F6 multitalle — U$S 124 (≈ $201.500)
+- Mascarilla Nasobucal DreamWear Philips — U$S 157 (≈ $255.125)
+- Buconasal BMC F5A sin apoya frente — U$S 52 (≈ $84.500)
+- Buconasal Yuwell con apoya frente — U$S 52 (≈ $84.500)
+- Nasobucal AirFit F30 ResMed — U$S 212 (≈ $344.500)
 
 ### Máscara Almohadillas nasales
 
@@ -167,7 +167,7 @@ No cubren la nariz: apoyan directamente en las fosas nasales con dos almohadilla
 
 **A tener en cuenta:** Al ser el contacto más chico, en presiones altas puede molestar el chorro de aire directo en la nariz.
 
-- Máscara Pillow nasal Yuwell YP-01 — U$S 42
+- Máscara Pillow nasal Yuwell YP-01 — U$S 42 (≈ $68.250)
 
 ### Máscara Pediátricas
 
@@ -177,9 +177,9 @@ Diseñadas con medidas y materiales para bebés y chicos, no son máscaras de ad
 
 **A tener en cuenta:** La Philips Wisp pediátrica es la que más eligen los padres, y se reconoce por su funda con estampado de jirafa: en un nene, que acepte la máscara es la mitad del tratamiento, y una máscara que no le da miedo se tolera mucho mejor noche tras noche. Tiene armazón compacto y almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, compatible con CPAP y BiPAP. La línea pediátrica es difícil de conseguir en el país; tenemos tres opciones y talles desde neonatal, y el talle no se elige por catálogo: se asesora según la edad, la anatomía del paciente y la indicación médica.
 
-- Máscara Nasal Pediátrica HSINER Cirri Mini — U$S 105
-- Máscara Nasal Pediátrica Philips Wisp (jirafa) — U$S 227
-- Infant CPAP Kit neonatal (talles 00 a 5) — U$S 97
+- Máscara Nasal Pediátrica HSINER Cirri Mini — U$S 105 (≈ $170.625)
+- Máscara Nasal Pediátrica Philips Wisp (jirafa) — U$S 227 (≈ $368.875)
+- Infant CPAP Kit neonatal (talles 00 a 5) — U$S 97 (≈ $157.625)
 
 ### Máscara Sin fuga (terapia intensiva)
 
@@ -199,75 +199,75 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - **AutoCPAP BMC G2S con humidificador** — $630.000 — presión automática, equipo completo con bolso; oferta vigente: envío sin cargo a todo el país
 
-- **AutoCPAP BMC G2S Mini** — U$S 1.400 — presión automática, formato mini con humidificador p2H
+- **AutoCPAP BMC G2S Mini** — U$S 1.400 (≈ $2.275.000) — presión automática, formato mini con humidificador p2H
 
-- **CPAP Philips DreamStation** — U$S 579 — CPAP fijo con humidificador y conectividad
+- **CPAP Philips DreamStation** — U$S 579 (≈ $940.875) — CPAP fijo con humidificador y conectividad
 
-- **AutoCPAP Philips DreamStation** — U$S 758 — con humidificador y conectividad
+- **AutoCPAP Philips DreamStation** — U$S 758 (≈ $1.231.750) — con humidificador y conectividad
 
 - **CPAP ResMed AirSense 10** — $974.000 — oferta, equipo completo, el CPAP de gama alta de nuestro catálogo
 
-- **AutoCPAP ResMed AirSense 10** — U$S 907 — presión automática, app myAir
+- **AutoCPAP ResMed AirSense 10** — U$S 907 (≈ $1.473.875) — presión automática, app myAir
 
-- **CPAP Yuwell YH-360** — U$S 416 — con humidificador, silencioso
+- **CPAP Yuwell YH-360** — U$S 416 (≈ $676.000) — con humidificador, silencioso
 
 - **BiPAP BMC G3 con frecuencia respiratoria** — $1.300.000 — para EPOC y enfermedades neuromusculares
 
-- **Ventilador STELLAR 150 ResMed** — U$S 7.342 — ventilación de alta gama con batería
+- **Ventilador STELLAR 150 ResMed** — U$S 7.342 (≈ $11.930.750) — ventilación de alta gama con batería
 
-- **Cough Assist (asistente de tos)** — U$S 9.084 — insuflación-exuflación para tos débil
+- **Cough Assist (asistente de tos)** — U$S 9.084 (≈ $14.761.500) — insuflación-exuflación para tos débil
 
 - **Concentrador de oxígeno BMC estacionario** — $999.000 — con control remoto y medidor de O₂
 
 - **Concentrador de oxígeno YUWELL 10 litros (alto flujo)** — $2.800.000 — hasta 10 L/min, para alta demanda de oxígeno y centros de rehabilitación pulmonar
 
-- **Concentrador estacionario Yuwell 5 L/min** — U$S 713 — para uso domiciliario continuo
+- **Concentrador estacionario Yuwell 5 L/min** — U$S 713 (≈ $1.158.625) — para uso domiciliario continuo
 
 - **Concentrador estacionario Yuwell 7F-5B de 5 litros** — $1.170.000 — con humidificador incorporado, flujo continuo de 0,5 a 5 L/min — oferta puntual: 6 cuotas sin interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock
 
-- **Concentrador portátil GCE Zen-O** — U$S 3.747 — 2 baterías + carro, homologado para vuelos
+- **Concentrador portátil GCE Zen-O** — U$S 3.747 (≈ $6.088.875) — 2 baterías + carro, homologado para vuelos
 
-- **Concentrador portátil Philips SimplyGo** — U$S 3.887 — continuo + pulso, apto vuelos
+- **Concentrador portátil Philips SimplyGo** — U$S 3.887 (≈ $6.316.375) — continuo + pulso, apto vuelos
 
-- **Mochila de oxígeno** — U$S 270 — tubo 0,415 + regulador + bolso, para traslados
+- **Mochila de oxígeno** — U$S 270 (≈ $438.750) — tubo 0,415 + regulador + bolso, para traslados
 
-- **Máscara nasal DreamWear** — U$S 153 — mínimo contacto, CPAP/BiPAP
+- **Máscara nasal DreamWear** — U$S 153 (≈ $248.625) — mínimo contacto, CPAP/BiPAP
 
-- **Máscara nasal RESCOMF** — U$S 35 — la más económica de nuestro catálogo, multitalle
+- **Máscara nasal RESCOMF** — U$S 35 (≈ $56.875) — la más económica de nuestro catálogo, multitalle
 
-- **Máscara nasal BMC N4** — U$S 36 — con apoya frente, económica
+- **Máscara nasal BMC N4** — U$S 36 (≈ $58.500) — con apoya frente, económica
 
-- **Máscara nasal BMC N5a** — U$S 60 — sin apoya frente, campo visual amplio
+- **Máscara nasal BMC N5a** — U$S 60 (≈ $97.500) — sin apoya frente, campo visual amplio
 
-- **Máscara nasal BMC multitalle** — U$S 89,50 — compatible CPAP/BiPAP
+- **Máscara nasal BMC multitalle** — U$S 89,50 (≈ $145.438) — compatible CPAP/BiPAP
 
-- **Máscara nasal AirFit mínimo contacto ResMed** — U$S 157 — sin apoya frente
+- **Máscara nasal AirFit mínimo contacto ResMed** — U$S 157 (≈ $255.125) — sin apoya frente
 
-- **Máscara almohadilla nasal Pillow Yuwell YP-01** — U$S 42 — mínima presencia facial
+- **Máscara almohadilla nasal Pillow Yuwell YP-01** — U$S 42 (≈ $68.250) — mínima presencia facial
 
-- **Máscara nasobucal DreamWear Philips** — U$S 157 — full face, cubre nariz y boca
+- **Máscara nasobucal DreamWear Philips** — U$S 157 (≈ $255.125) — full face, cubre nariz y boca
 
-- **Máscara nasobucal BMC F6 multitalle** — U$S 124 — tan cómoda como la DreamWear, más económica
+- **Máscara nasobucal BMC F6 multitalle** — U$S 124 (≈ $201.500) — tan cómoda como la DreamWear, más económica
 
-- **Máscara buconasal Yuwell con apoya frente** — U$S 52 — full face estándar
+- **Máscara buconasal Yuwell con apoya frente** — U$S 52 (≈ $84.500) — full face estándar
 
-- **Máscara buconasal Yuwell YF02** — U$S 55 — sin apoya frente
+- **Máscara buconasal Yuwell YF02** — U$S 55 (≈ $89.375) — sin apoya frente
 
-- **Máscara buconasal BMC F5A** — U$S 52 — sin apoya frente
+- **Máscara buconasal BMC F5A** — U$S 52 (≈ $84.500) — sin apoya frente
 
 - **Máscara buconasal BMC F2 codo azul (terapia intensiva)** — $68.000 — SIN FUGA, para respiradores / VNI con válvula espiratoria
 
-- **Máscara nasobucal ResMed AirFit F20 / F30** — U$S 189,50 / U$S 212 — full face premium
+- **Máscara nasobucal ResMed AirFit F20 / F30** — U$S 189,50 (≈ $307.938) / U$S 212 (≈ $344.500) — full face premium
 
-- **Máscara pediátrica HSINER Cirri Mini** — U$S 105 — nasal pediátrica XS/S/M/L
+- **Máscara pediátrica HSINER Cirri Mini** — U$S 105 (≈ $170.625) — nasal pediátrica XS/S/M/L
 
-- **Máscara pediátrica Philips Wisp (jirafa)** — U$S 227 — nasal pediátrica, diseño amigable
+- **Máscara pediátrica Philips Wisp (jirafa)** — U$S 227 (≈ $368.875) — nasal pediátrica, diseño amigable
 
-- **Infant CPAP Kit neonatal** — U$S 97 — tallas 00 a 5
+- **Infant CPAP Kit neonatal** — U$S 97 (≈ $157.625) — tallas 00 a 5
 
-- **Polígrafo BMC YH-600B PRO** — U$S 1.570 — equipo para profesionales; no es el precio del estudio
+- **Polígrafo BMC YH-600B PRO** — U$S 1.570 (≈ $2.551.250) — equipo para profesionales; no es el precio del estudio
 
-- **Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock** — U$S 1.794 — con insumos incluidos para arrancar
+- **Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock** — U$S 1.794 (≈ $2.915.250) — con insumos incluidos para arrancar
 
 - **Tubuladura para CPAP / BiPAP** — $50.000 — repuesto universal
 
@@ -289,7 +289,7 @@ El talle importa tanto como el tipo: una máscara del talle equivocado pierde ai
 
 - Presupuesto formal y factura oficial para gestionar el reintegro con tu obra social o prepaga (venta particular)
 
-- Financiación: cuotas fijas con Banco Galicia en todos los equipos (3 cuotas +15%, 6 cuotas +24%, 9 cuotas +39%, recargo incluido en la cuota)
+- Financiación: cuotas fijas con Banco Galicia en todos los equipos (3 cuotas +17%, 6 cuotas +29%, 9 cuotas +44%, recargo incluido en la cuota)
 
 ## Servicios en Córdoba
 
@@ -526,15 +526,15 @@ Si la máscara que tenés no te resulta cómoda, o tenés escapes, presión en e
 
 - ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
-- ![AUTOCPAP PHILIPS DREAMSTATION](https://insersalud.com/artifacts/products/bbb738c4-8671-4228-b86d-6f1ffd179569.jpg) AUTOCPAP PHILIPS DREAMSTATION — U$S 758
+- ![AUTOCPAP PHILIPS DREAMSTATION](https://insersalud.com/artifacts/products/bbb738c4-8671-4228-b86d-6f1ffd179569.jpg) AUTOCPAP PHILIPS DREAMSTATION — U$S 758 (≈ $1.231.750)
 
 - ![CPAP RESMED AIRSENSE 10](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP RESMED AIRSENSE 10 — $974.000
 
-- ![Máscara Nasal DreamWear (mínimo contacto)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (mínimo contacto) — U$S 153
+- ![Máscara Nasal DreamWear (mínimo contacto)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (mínimo contacto) — U$S 153 (≈ $248.625)
 
-- ![Máscara Nasobucal DreamWear Philips](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara Nasobucal DreamWear Philips — U$S 157
+- ![Máscara Nasobucal DreamWear Philips](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara Nasobucal DreamWear Philips — U$S 157 (≈ $255.125)
 
-- ![Máscara Nasal RESCOMF CPAP/BIPAP](https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg) Máscara Nasal RESCOMF CPAP/BIPAP — U$S 35
+- ![Máscara Nasal RESCOMF CPAP/BIPAP](https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg) Máscara Nasal RESCOMF CPAP/BIPAP — U$S 35 (≈ $56.875)
 
 ## Preguntas frecuentes sobre Apnea del Sueño
 
@@ -552,7 +552,7 @@ En Córdoba sí: [alquilamos CPAP](https://insersalud.com/alquiler-cpap-cordoba)
 
 ### ¿Cada cuánto se cambia la máscara del CPAP?
 
-La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos [máscaras nasales desde U$S 35 y nasobucales](https://insersalud.com/mascaras-cpap), con asesoramiento para elegir la talla correcta.
+La máscara es el consumible que más se recambia y su duración depende del uso y de la limpieza. Cuando pierde sello o marca la piel, conviene cambiarla. Tenemos [máscaras nasales desde U$S 35 (≈ $56.875) y nasobucales](https://insersalud.com/mascaras-cpap), con asesoramiento para elegir la talla correcta.
 
 ## Para profesionales: formación gratuita sobre Apnea del Sueño
 
@@ -673,12 +673,12 @@ Tipos de sistemas de oxígeno disponibles en Inser Salud:
 • Produce oxígeno a partir del aire ambiente
 • Flujo continuo sin costo de recarga
 • Modelos hasta 5 L/min — YUWELL y otras marcas
-• Precio referencia: U$S 713
+• Precio referencia: U$S 713 (≈ $1.158.625)
 
 🎒 Concentrador portátil (para salir de casa):
 • Permite mantener la actividad diaria y la autonomía
-• GCE Zen-O: pulso y flujo continuo de 0,5 a 2 L/min, con carrito y 2 baterías (U$S 3.747)
-• Philips SimplyGo: pulso y flujo continuo de 0,5 a 2 L/min (U$S 3.887)
+• GCE Zen-O: pulso y flujo continuo de 0,5 a 2 L/min, con carrito y 2 baterías (U$S 3.747 (≈ $6.088.875))
+• Philips SimplyGo: pulso y flujo continuo de 0,5 a 2 L/min (U$S 3.887 (≈ $6.316.375))
 
 💧 Oxígeno líquido:
 • Mayor autonomía en menor peso
@@ -739,11 +739,11 @@ En Inser Salud te orientamos sobre cómo acceder a programas de rehabilitación 
 
 ## Equipos para EPOC
 
-- ![GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) GCE Zen-O (2 baterías + carro) — U$S 3.747
+- ![GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) GCE Zen-O (2 baterías + carro) — U$S 3.747 (≈ $6.088.875)
 
-- ![Concentrador de Oxígeno YUWELL Estacionario](https://insersalud.com/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg) Concentrador de Oxígeno YUWELL Estacionario — U$S 713
+- ![Concentrador de Oxígeno YUWELL Estacionario](https://insersalud.com/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg) Concentrador de Oxígeno YUWELL Estacionario — U$S 713 (≈ $1.158.625)
 
-- ![Mochila de Oxígeno Portátil](https://insersalud.com/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg) Mochila de Oxígeno Portátil — U$S 270
+- ![Mochila de Oxígeno Portátil](https://insersalud.com/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg) Mochila de Oxígeno Portátil — U$S 270 (≈ $438.750)
 
 ## Preguntas frecuentes sobre EPOC
 
@@ -850,7 +850,7 @@ Ventajas del concentrador estacionario:
 ✅ Disponible en alquiler con entrega e instalación en el día en Córdoba
 
 Modelos en venta (el alquiler se cotiza por WhatsApp, solo en Córdoba):
-• YUWELL Estacionario 5L — U$S 713
+• YUWELL Estacionario 5L — U$S 713 (≈ $1.158.625)
 • Otros modelos según disponibilidad
 
 El concentrador estacionario es la opción ideal para usar durante la noche y en las horas en que el paciente está en el hogar. Para salir, se complementa con concentrador portátil o mochila.
@@ -864,14 +864,14 @@ Los concentradores portátiles te permiten mantener la actividad diaria fuera de
 Modelos disponibles en Inser Salud:
 
 👑 GCE Zen-O — Premium con carrito y 2 baterías
-• Precio: U$S 3.747
+• Precio: U$S 3.747 (≈ $6.088.875)
 • Pulso y flujo continuo de 0,5 a 2 L/min
 • Incluye carrito y 2 baterías para máxima autonomía
 • Homologado para vuelos comerciales
 • La opción premium para el paciente más activo
 
 💨 Philips SimplyGo — Pulso y flujo continuo
-• Precio: U$S 3.887
+• Precio: U$S 3.887 (≈ $6.316.375)
 • Flujo continuo de 0,5 a 2 L/min, además del modo pulso
 • Apto para viajes
 
@@ -886,7 +886,7 @@ Contenido del kit mochila de Inser Salud:
 • 1 regulador de flujo
 • 1 bolso transportador especializado
 • Carga de oxígeno incluida
-• Precio referencia: U$S 270
+• Precio referencia: U$S 270 (≈ $438.750)
 
 ¿Cuándo conviene la mochila de oxígeno?
 • Salidas de 2 a 4 horas fuera del hogar
@@ -937,11 +937,11 @@ Importante: el ejercicio debe realizarse siempre con oxígeno suplementario si e
 
 ## Equipos para Fibrosis Pulmonar
 
-- ![GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) GCE Zen-O (2 baterías + carro) — U$S 3.747
+- ![GCE Zen-O (2 baterías + carro)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) GCE Zen-O (2 baterías + carro) — U$S 3.747 (≈ $6.088.875)
 
-- ![Concentrador YUWELL Estacionario](https://insersalud.com/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg) Concentrador YUWELL Estacionario — U$S 713
+- ![Concentrador YUWELL Estacionario](https://insersalud.com/artifacts/products/b9875919-47d8-482e-ba62-800aff89739d.jpeg) Concentrador YUWELL Estacionario — U$S 713 (≈ $1.158.625)
 
-- ![Mochila de Oxígeno Portátil](https://insersalud.com/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg) Mochila de Oxígeno Portátil — U$S 270
+- ![Mochila de Oxígeno Portátil](https://insersalud.com/artifacts/products/c1aa3c71-a9fb-422a-82ac-222625d0bd3a.jpg) Mochila de Oxígeno Portátil — U$S 270 (≈ $438.750)
 
 ## Preguntas frecuentes sobre Fibrosis Pulmonar
 
@@ -1085,7 +1085,7 @@ Beneficios demostrados:
 ✅ Puede usarse de forma segura en domicilio (familiar capacitado)
 ✅ Mejora el bienestar y la tranquilidad del paciente y la familia
 
-Precio referencia: U$S 9.084
+Precio referencia: U$S 9.084 (≈ $14.761.500)
 Consultanos disponibilidad y financiación.
 
 ## 🛠️ ¿Cuándo Iniciar la Ventilación No Invasiva (VNI)?
@@ -1109,7 +1109,7 @@ Equipo de elección para ELA:
 BiPAP con frecuencia respiratoria de respaldo (FR): esencial porque garantiza un número mínimo de respiraciones por minuto aunque el paciente no inicie el ciclo inspiratorio.
 
 • BiPAP BMC G3 con FR y humidificador — $1.300.000
-• STELLAR 150 RESMED con humidificador y batería — U$S 7.342 (etapas avanzadas)
+• STELLAR 150 RESMED con humidificador y batería — U$S 7.342 (≈ $11.930.750) (etapas avanzadas)
 
 Adaptarse al BiPAP, paso a paso:
 
@@ -1136,13 +1136,13 @@ En enfermedades neuromusculares, saber cuándo comenzar a ventilar puede ser det
 
 ## Equipos para Esclerosis Lateral Amiotrófica
 
-- ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084
+- ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084 (≈ $14.761.500)
 
 - ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
-- ![STELLAR 150 RESMED (con humidificador y batería)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) STELLAR 150 RESMED (con humidificador y batería) — U$S 7.342
+- ![STELLAR 150 RESMED (con humidificador y batería)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) STELLAR 150 RESMED (con humidificador y batería) — U$S 7.342 (≈ $11.930.750)
 
-- ![Máscara Nasobucal DreamWear Philips](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara Nasobucal DreamWear Philips — U$S 157
+- ![Máscara Nasobucal DreamWear Philips](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara Nasobucal DreamWear Philips — U$S 157 (≈ $255.125)
 
 ## Preguntas frecuentes sobre Esclerosis Lateral Amiotrófica
 
@@ -1302,7 +1302,7 @@ El Cough Assist puede usarlo la familia en domicilio con entrenamiento previo. E
 
 Frecuencia de uso: según indicación médica, generalmente 2-3 sesiones/día de 5 ciclos cada una. En infecciones respiratorias, puede aumentarse la frecuencia.
 
-Precio referencia: U$S 9.084
+Precio referencia: U$S 9.084 (≈ $14.761.500)
 
 ## Máscaras Pediátricas y de Adultos para BiPAP
 
@@ -1311,13 +1311,13 @@ La elección correcta de la máscara es fundamental para la adherencia al tratam
 Máscaras pediátricas disponibles:
 
 👶 HSINER Cirri Mini — Máscara nasal pediátrica
-• Precio: U$S 105
+• Precio: U$S 105 (≈ $170.625)
 • Talles XS, S, M, L para niños desde recién nacidos
 • Diseño ergonómico adaptado al rostro pediátrico
 • Máxima comodidad para uso continuo
 
 🦒 Máscara Philips Wisp pediátrica (jirafa)
-• Precio: U$S 227
+• Precio: U$S 227 (≈ $368.875)
 • Diseño lúdico para facilitar la aceptación en niños
 • Talles infantiles
 
@@ -1325,7 +1325,7 @@ Máscaras de adultos para AME tipo 2 y 3:
 
 👃 Nasales: DreamWear (mínimo contacto), BMC N4, BMC N5a, RESMED AirFit N20
 😮 Nasobucales: DreamWear Full Face, BMC F6, RESMED AirFit F20/F30
-🌟 DreamWear (mínimo contacto nasal): U$S 153
+🌟 DreamWear (mínimo contacto nasal): U$S 153 (≈ $248.625)
 
 Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabajamos con interfaces de todos los tipos y talles. El incumplimiento del tratamiento muchas veces se debe a una máscara inadecuada.
 
@@ -1333,11 +1333,11 @@ Importante: si la máscara actual no es cómoda, hay muchas alternativas. Trabaj
 
 - ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
-- ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084
+- ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084 (≈ $14.761.500)
 
-- ![Máscara Nasal DreamWear (talles S/M/L)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (talles S/M/L) — U$S 153
+- ![Máscara Nasal DreamWear (talles S/M/L)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (talles S/M/L) — U$S 153 (≈ $248.625)
 
-- ![Máscara Nasobucal DreamWear Philips](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara Nasobucal DreamWear Philips — U$S 157
+- ![Máscara Nasobucal DreamWear Philips](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara Nasobucal DreamWear Philips — U$S 157 (≈ $255.125)
 
 ## Preguntas frecuentes sobre Atrofia Muscular Espinal
 
@@ -1441,25 +1441,25 @@ Principales problemas respiratorios en PC:
 Trabajamos con máscaras para BiPAP y CPAP en todos los tipos y talles: nasales, nasobucales, de almohadillas y pediátricas. La elección correcta de la interfaz es fundamental: una máscara inadecuada puede arruinar el tratamiento aunque el equipo sea excelente.
 
 👃 Máscaras Nasales (cubren solo la nariz):
-• DreamWear Philips — Mínimo contacto — U$S 153
+• DreamWear Philips — Mínimo contacto — U$S 153 (≈ $248.625)
 • BMC N4 — Diseño ergonómico — Consultá precio
 • BMC N5a — Ultra-slim — Consultá precio
 • RESMED AirFit N20 — Sellado silicona suave — Consultá precio
 • YUWELL — Opción económica — Consultá precio
 
 😮 Máscaras Nasobucales / Full-Face (cubren nariz y boca):
-• DreamWear Full Face Philips — Mínimo contacto — U$S 157
+• DreamWear Full Face Philips — Mínimo contacto — U$S 157 (≈ $255.125)
 • BMC F6 — Amplia visibilidad — Consultá precio
 • RESMED AirFit F20 — Mayor sellado — Consultá precio
 • RESMED AirFit F30 — Mínimo contacto nasobucal — Consultá precio
 • YUWELL YF02 — Opción económica — Consultá precio
 
 👶 Máscaras Pediátricas:
-• HSINER Cirri Mini — Talles XS/S/M/L — U$S 105
-• Máscara Philips Wisp pediátrica (jirafa) — Diseño infantil — U$S 227
+• HSINER Cirri Mini — Talles XS/S/M/L — U$S 105 (≈ $170.625)
+• Máscara Philips Wisp pediátrica (jirafa) — Diseño infantil — U$S 227 (≈ $368.875)
 
 💰 Opción económica:
-• Máscara Nasal RESCOMF — U$S 35
+• Máscara Nasal RESCOMF — U$S 35 (≈ $56.875)
 
 Si la máscara que tenés no te resulta cómoda, o presenta escapes, presión en la piel o intolerancia, tenemos alternativas para encontrar la indicada.
 
@@ -1536,22 +1536,22 @@ Beneficios en PC:
 ✅ Puede usarlo la familia en domicilio con entrenamiento
 ✅ Mejora el bienestar general del paciente
 
-Precio referencia: U$S 9.084
+Precio referencia: U$S 9.084 (≈ $14.761.500)
 Consultanos disponibilidad y opciones de financiación.
 
 ## Equipos para Parálisis Cerebral
 
 - ![BiPAP BMC G3 (con FR y humidificador)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 (con FR y humidificador) — $1.300.000
 
-- ![Máscara Nasal DreamWear (mínimo contacto)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (mínimo contacto) — U$S 153
+- ![Máscara Nasal DreamWear (mínimo contacto)](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) Máscara Nasal DreamWear (mínimo contacto) — U$S 153 (≈ $248.625)
 
-- ![Máscara Nasobucal DreamWear Philips](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara Nasobucal DreamWear Philips — U$S 157
+- ![Máscara Nasobucal DreamWear Philips](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) Máscara Nasobucal DreamWear Philips — U$S 157 (≈ $255.125)
 
-- ![Máscara Nasal RESCOMF CPAP/BIPAP](https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg) Máscara Nasal RESCOMF CPAP/BIPAP — U$S 35
+- ![Máscara Nasal RESCOMF CPAP/BIPAP](https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg) Máscara Nasal RESCOMF CPAP/BIPAP — U$S 35 (≈ $56.875)
 
-- ![Máscara Nasal Philips Wisp pediátrica (jirafa)](https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg) Máscara Nasal Philips Wisp pediátrica (jirafa) — U$S 227
+- ![Máscara Nasal Philips Wisp pediátrica (jirafa)](https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg) Máscara Nasal Philips Wisp pediátrica (jirafa) — U$S 227 (≈ $368.875)
 
-- ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084
+- ![COUGH ASSIST — Asistente de Tos](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) COUGH ASSIST — Asistente de Tos — U$S 9.084 (≈ $14.761.500)
 
 ## Preguntas frecuentes sobre Parálisis Cerebral
 
@@ -1703,7 +1703,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -1841,7 +1841,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -1997,7 +1997,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -2139,7 +2139,7 @@ Sí, ofrecemos alquiler de CPAP en Córdoba con entrega a domicilio, ideal para 
 
 ### ¿Puedo pagar el CPAP en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a las condiciones del banco. Consultanos por WhatsApp y te pasamos el valor exacto de la cuota de tu equipo.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a las condiciones del banco. Consultanos por WhatsApp y te pasamos el valor exacto de la cuota de tu equipo.
 
 ### ¿Puedo probar el equipo antes de comprarlo?
 
@@ -2155,7 +2155,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -2351,7 +2351,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -2549,7 +2549,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -2631,7 +2631,7 @@ Esto vale tanto si comprás como si alquilás. Es la diferencia entre recibir un
 
 - ![BiPAP BMC G3 con frecuencia respiratoria y humidificador](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000
 
-- ![Ventilador STELLAR 150 ResMed con humidificador y batería](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342
+- ![Ventilador STELLAR 150 ResMed con humidificador y batería](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342 (≈ $11.930.750)
 
 ## Preguntas frecuentes
 
@@ -2657,7 +2657,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -2823,7 +2823,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -2957,7 +2957,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -3011,17 +3011,17 @@ Los precios se actualizan; confirmá el valor del día y el costo de envío por 
 ## ¿Se puede pagar un CPAP en cuotas?
 
 Sí. Todos los equipos se pueden pagar en cuotas fijas con Banco Galicia. El recargo ya está incluido en la cuota, así que sabés desde el primer día cuánto vas a pagar en total:
-3 cuotas: +15% sobre el precio.
-6 cuotas: +24% sobre el precio.
-9 cuotas: +39% sobre el precio.
+3 cuotas: +17% sobre el precio.
+6 cuotas: +29% sobre el precio.
+9 cuotas: +44% sobre el precio.
 
-Por ejemplo, el CPAP BMC G2S de $520.000 queda en $598.000 en 3 cuotas (unos $199.333 cada una), en $644.800 en 6 cuotas (unos $107.467 cada una) o en $722.800 en 9 cuotas (unos $80.311 cada una).
+Por ejemplo, el CPAP BMC G2S de $520.000 queda en $608.400 en 3 cuotas (unos $202.800 cada una), en $670.800 en 6 cuotas (unos $111.800 cada una) o en $748.800 en 9 cuotas (unos $83.200 cada una).
 
 Confirmá el precio del día y el plan de cuotas por WhatsApp antes de pagar.
 
 ## El CPAP no trae máscara: sumala al presupuesto
 
-Los CPAP y AutoCPAP que vendemos traen el equipo, el humidificador y la tubuladura, pero no la máscara: se compra aparte y la elegimos con vos según cómo respirás al dormir y el talle de tu cara. Cuando armes el presupuesto del tratamiento, sumá la [máscara](https://insersalud.com/mascaras-cpap). Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124.
+Los CPAP y AutoCPAP que vendemos traen el equipo, el humidificador y la tubuladura, pero no la máscara: se compra aparte y la elegimos con vos según cómo respirás al dormir y el talle de tu cara. Cuando armes el presupuesto del tratamiento, sumá la [máscara](https://insersalud.com/mascaras-cpap). Es la pieza que más influye en que te adaptes: una máscara del tipo o del talle equivocado pierde aire y te despierta. En nuestro catálogo las nasales arrancan en U$S 35 (≈ $56.875) y la nasobucal BMC F6 sale U$S 124 (≈ $201.500).
 
 Con el uso también se reponen los filtros, la almohadilla de la máscara y la tubuladura (la tubuladura universal sale $50.000). Conviene comprar el equipo donde después consigas esos repuestos sin tener que importarlos.
 
@@ -3116,7 +3116,7 @@ El AutoCPAP BMC G2S con humidificador sale $630.000, con envío sin cargo a todo
 
 ### ¿Puedo pagar el CPAP en cuotas?
 
-Sí, en cuotas fijas con Banco Galicia: 3 cuotas con 15% de recargo, 6 cuotas con 24% o 9 cuotas con 39%, con el recargo ya incluido en la cuota. Por ejemplo, el CPAP BMC G2S de $520.000 queda en 6 cuotas de unos $107.467.
+Sí, en cuotas fijas con Banco Galicia: 3 cuotas con 17% de recargo, 6 cuotas con 29% o 9 cuotas con 44%, con el recargo ya incluido en la cuota. Por ejemplo, el CPAP BMC G2S de $520.000 queda en 6 cuotas de unos $111.800.
 
 ### ¿La obra social cubre el CPAP?
 
@@ -3124,7 +3124,7 @@ Depende de tu obra social o prepaga y de tu plan. Nosotros vendemos de forma par
 
 ### ¿El CPAP viene con máscara?
 
-No. El CPAP y el AutoCPAP se venden con humidificador y tubuladura, y la máscara se compra aparte. Te ayudamos a elegir el tipo y el talle: las nasales arrancan en U$S 35 y la nasobucal BMC F6 sale U$S 124. Si alquilás en Córdoba, el alquiler sí incluye la máscara.
+No. El CPAP y el AutoCPAP se venden con humidificador y tubuladura, y la máscara se compra aparte. Te ayudamos a elegir el tipo y el talle: las nasales arrancan en U$S 35 (≈ $56.875) y la nasobucal BMC F6 sale U$S 124 (≈ $201.500). Si alquilás en Córdoba, el alquiler sí incluye la máscara.
 
 ### ¿Envían CPAP a todo el país?
 
@@ -3156,7 +3156,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -3204,9 +3204,9 @@ Aparatología aprobada por ANMAT · Envío a todo el país · +500 pacientes · 
 
 Este es el precio del BiPAP de nuestro catálogo, con venta y envío a todo el país. Te lo mostramos antes de que preguntes.
 BiPAP BMC G3 con frecuencia respiratoria y humidificador: $1.300.000. Es un BiPAP S/T con modos CPAP, S, T y S/T, IPAP de 4 a 25 cm H₂O, EPAP de 4 a 20 cm H₂O, frecuencia respiratoria de respaldo de 4 a 40 rpm y humidificador calefactado integrado.
-Ventilador ResMed STELLAR 150 con humidificador y batería: U$S 7.342 (precio de referencia). Es un ventilador de alta gama para dependencia ventilatoria de mayor complejidad, cuando lo indica el médico tratante: mirá el detalle en [ventilador ResMed STELLAR 150](https://insersalud.com/ventilador-stellar-150).
+Ventilador ResMed STELLAR 150 con humidificador y batería: U$S 7.342 (≈ $11.930.750) (precio de referencia). Es un ventilador de alta gama para dependencia ventilatoria de mayor complejidad, cuando lo indica el médico tratante: mirá el detalle en [ventilador ResMed STELLAR 150](https://insersalud.com/ventilador-stellar-150).
 
-Financiación: cuotas fijas con Banco Galicia en 3 (+15%), 6 (+24%) o 9 (+39%), con el recargo incluido en la cuota y sujeto a condiciones del banco.
+Financiación: cuotas fijas con Banco Galicia en 3 (+17%), 6 (+29%) o 9 (+44%), con el recargo incluido en la cuota y sujeto a condiciones del banco.
 
 El envío no está incluido en el precio: su costo depende del destino y te lo confirmamos por WhatsApp junto con el valor del día, antes de que compres. Los precios se actualizan.
 
@@ -3278,13 +3278,13 @@ En Córdoba la instalación la hace personal profesional en tu domicilio. Al res
 
 - ![BiPAP BMC G3 con frecuencia respiratoria y humidificador](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria y humidificador — $1.300.000
 
-- ![Ventilador STELLAR 150 ResMed con humidificador y batería](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342
+- ![Ventilador STELLAR 150 ResMed con humidificador y batería](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador STELLAR 150 ResMed con humidificador y batería — U$S 7.342 (≈ $11.930.750)
 
 ## Preguntas frecuentes
 
 ### ¿Cuánto cuesta un BiPAP en Argentina?
 
-En nuestro catálogo el BiPAP BMC G3 con frecuencia respiratoria y humidificador sale $1.300.000, con venta y envío a todo el país. Si el médico indicó un ventilador de mayor complejidad, el [ResMed STELLAR 150](https://insersalud.com/ventilador-stellar-150) tiene un precio de referencia de U$S 7.342. El costo del envío depende del destino. Los precios se actualizan: confirmá el valor del día por WhatsApp.
+En nuestro catálogo el BiPAP BMC G3 con frecuencia respiratoria y humidificador sale $1.300.000, con venta y envío a todo el país. Si el médico indicó un ventilador de mayor complejidad, el [ResMed STELLAR 150](https://insersalud.com/ventilador-stellar-150) tiene un precio de referencia de U$S 7.342 (≈ $11.930.750). El costo del envío depende del destino. Los precios se actualizan: confirmá el valor del día por WhatsApp.
 
 ### ¿El envío del BiPAP tiene costo?
 
@@ -3316,7 +3316,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -3460,7 +3460,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -3578,7 +3578,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -3634,15 +3634,15 @@ Todas nuestras máscaras son compatibles con equipos CPAP, AutoCPAP y BiPAP de c
 
 ## Precios de máscaras (referencia)
 
-Nasales: [RESCOMF multitalle](https://insersalud.com/producto/mascara-nasal-rescomf) U$S 35 (la más económica de nuestro catálogo) · [BMC N4](https://insersalud.com/producto/mascara-nasal-bmc-n4) U$S 36 · [BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a) U$S 60 · [BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle) U$S 89,50 · [Philips DreamWear mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear) U$S 153 · [ResMed AirFit](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto) U$S 157 · [Almohadillas Yuwell YP-01](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01) U$S 42.
+Nasales: [RESCOMF multitalle](https://insersalud.com/producto/mascara-nasal-rescomf) U$S 35 (≈ $56.875) (la más económica de nuestro catálogo) · [BMC N4](https://insersalud.com/producto/mascara-nasal-bmc-n4) U$S 36 (≈ $58.500) · [BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a) U$S 60 (≈ $97.500) · [BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle) U$S 89,50 (≈ $145.438) · [Philips DreamWear mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear) U$S 153 (≈ $248.625) · [ResMed AirFit](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto) U$S 157 (≈ $255.125) · [Almohadillas Yuwell YP-01](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01) U$S 42 (≈ $68.250).
 
-Nasobucales (full face): [BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6) U$S 124 (oferta, tan cómoda como la DreamWear) · [Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear) U$S 157 · [BMC F2 codo azul](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul) SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · [Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente) U$S 52 · [Yuwell YF02](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02) U$S 55 · [BMC F5A](https://insersalud.com/producto/mascara-buconasal-bmc-f5a) U$S 52 · [ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20) U$S 189,50 · [AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30) U$S 212.
+Nasobucales (full face): [BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6) U$S 124 (≈ $201.500) (oferta, tan cómoda como la DreamWear) · [Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear) U$S 157 (≈ $255.125) · [BMC F2 codo azul](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul) SIN FUGA para respiradores de terapia intensiva $68.000 (oferta) · [Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente) U$S 52 (≈ $84.500) · [Yuwell YF02](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02) U$S 55 (≈ $89.375) · [BMC F5A](https://insersalud.com/producto/mascara-buconasal-bmc-f5a) U$S 52 (≈ $84.500) · [ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20) U$S 189,50 (≈ $307.938) · [AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30) U$S 212 (≈ $344.500).
 
 Los precios se actualizan; confirmá el valor del día por WhatsApp.
 
 ## Máscaras pediátricas
 
-Contamos con línea pediátrica completa, algo poco frecuente en el país: HSINER Cirri Mini nasal XS/S/M/L (U$S 105), máscara Philips Wisp pediátrica con su diseño de jirafa (U$S 227) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97). Fundamentales en AME, [parálisis cerebral](https://insersalud.com/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.
+Contamos con línea pediátrica completa, algo poco frecuente en el país: HSINER Cirri Mini nasal XS/S/M/L (U$S 105 (≈ $170.625)), máscara Philips Wisp pediátrica con su diseño de jirafa (U$S 227 (≈ $368.875)) e Infant CPAP Kit neonatal tallas 00 a 5 (U$S 97 (≈ $157.625)). Fundamentales en AME, [parálisis cerebral](https://insersalud.com/patologia/paralisis-cerebral) y cuadros respiratorios pediátricos, siempre con indicación médica.
 
 Si buscás específicamente para un chico, tenemos una página aparte con los tres modelos en detalle: [máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas).
 
@@ -3654,17 +3654,17 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos co
 
 ## Equipos relacionados
 
-- ![Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)](https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg) [Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)](https://insersalud.com/producto/mascara-nasal-rescomf) — U$S 35
+- ![Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)](https://insersalud.com/artifacts/products/1751037583753-1000306949.jpg) [Máscara nasal RESCOMF multitalle (la más económica de nuestro catálogo)](https://insersalud.com/producto/mascara-nasal-rescomf) — U$S 35 (≈ $56.875)
 
-- ![Máscara nasal Philips DreamWear — mínimo contacto](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) [Máscara nasal Philips DreamWear — mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear) — U$S 153
+- ![Máscara nasal Philips DreamWear — mínimo contacto](https://insersalud.com/artifacts/products/1751037116992-1000306910.jpg) [Máscara nasal Philips DreamWear — mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear) — U$S 153 (≈ $248.625)
 
-- ![Máscara nasobucal BMC F6 multitalle (oferta)](https://insersalud.com/artifacts/products/bmc_f2_1.jpg) [Máscara nasobucal BMC F6 multitalle (oferta)](https://insersalud.com/producto/mascara-nasobucal-bmc-f6) — U$S 124
+- ![Máscara nasobucal BMC F6 multitalle (oferta)](https://insersalud.com/artifacts/products/bmc_f2_1.jpg) [Máscara nasobucal BMC F6 multitalle (oferta)](https://insersalud.com/producto/mascara-nasobucal-bmc-f6) — U$S 124 (≈ $201.500)
 
-- ![Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear) — U$S 157
+- ![Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/artifacts/products/1752247435824-666541bd-3849-490c-bb8b-efd84470de78.jpg) [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear) — U$S 157 (≈ $255.125)
 
 - ![Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva](https://insersalud.com/artifacts/products/bmc_f2_codo_azul_2.jpg) [Máscara buconasal BMC F2 codo azul — SIN FUGA, para respiradores de terapia intensiva](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul) — $68.000
 
-- Máscaras pediátricas (Cirri Mini, Philips Wisp, Infant CPAP Kit) — desde U$S 97
+- Máscaras pediátricas (Cirri Mini, Philips Wisp, Infant CPAP Kit) — desde U$S 97 (≈ $157.625)
 
 - ![Tubuladura para CPAP / BiPAP](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) [Tubuladura para CPAP / BiPAP](https://insersalud.com/producto/tubuladura-cpap-bipap) — $50.000
 
@@ -3676,15 +3676,15 @@ En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el 
 
 ### ¿Qué máscara elijo si respiro por la boca?
 
-Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face (U$S 157), BMC F6 (U$S 124) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.
+Una nasobucal (full face) que cubre nariz y boca: DreamWear Full Face (U$S 157 (≈ $255.125)), BMC F6 (U$S 124 (≈ $201.500)) o ResMed AirFit F20/F30. Si respirás por la nariz, una nasal alcanza y es más liviana.
 
 ### ¿Cuánto cuesta una máscara nasobucal?
 
-La nasobucal BMC F6 multitalle está en oferta a U$S 124 y la Philips DreamWear Full Face sale U$S 157, con envío a todo el país. La BMC F2 codo azul ($68.000) es sin fuga, para respiradores de terapia intensiva: no sirve para un CPAP o BiPAP domiciliario. Cuál te corresponde depende de tu equipo y de si respirás por la boca: te asesoramos por WhatsApp.
+La nasobucal BMC F6 multitalle está en oferta a U$S 124 (≈ $201.500) y la Philips DreamWear Full Face sale U$S 157 (≈ $255.125), con envío a todo el país. La BMC F2 codo azul ($68.000) es sin fuga, para respiradores de terapia intensiva: no sirve para un CPAP o BiPAP domiciliario. Cuál te corresponde depende de tu equipo y de si respirás por la boca: te asesoramos por WhatsApp.
 
 ### ¿Cuánto cuesta una máscara para CPAP?
 
-Desde U$S 35 (nasal RESCOMF multitalle). La DreamWear de Philips está a U$S 153 y las nasobucales desde U$S 52. Enviamos a todo el país.
+Desde U$S 35 (≈ $56.875) (nasal RESCOMF multitalle). La DreamWear de Philips está a U$S 153 (≈ $248.625) y las nasobucales desde U$S 52 (≈ $84.500). Enviamos a todo el país.
 
 ### ¿Son compatibles con cualquier equipo CPAP o BiPAP?
 
@@ -3704,7 +3704,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -3760,13 +3760,13 @@ Ese detalle no es decorativo, es la parte funcional del diseño: en un chico, qu
 
 Tiene armazón compacto y almohadilla de silicona hipoalergénica que apoya solo sobre la nariz, y es compatible con equipos de CPAP, AutoCPAP y BiPAP.
 
-Precio: U$S 227, con envío a todo el país.
+Precio: U$S 227 (≈ $368.875), con envío a todo el país.
 
 ## Los otros dos modelos, y cuándo conviene cada uno
 
-HSINER Cirri Mini — nasal pediátrica en cuatro talles (XS, S, M y L). U$S 105. Es la opción más accesible de la línea y la que da más margen para acertar el talle sin cambiar de modelo.
+HSINER Cirri Mini — nasal pediátrica en cuatro talles (XS, S, M y L). U$S 105 (≈ $170.625). Es la opción más accesible de la línea y la que da más margen para acertar el talle sin cambiar de modelo.
 
-Infant CPAP Kit neonatal — un kit con las tallas 00, 0, 1, 2, 3, 4 y 5, para neonatos, lactantes y niños. Desde U$S 97. Es la respuesta cuando el paciente es muy chico y ninguna máscara nasal común le sirve.
+Infant CPAP Kit neonatal — un kit con las tallas 00, 0, 1, 2, 3, 4 y 5, para neonatos, lactantes y niños. Desde U$S 97 (≈ $157.625). Es la respuesta cuando el paciente es muy chico y ninguna máscara nasal común le sirve.
 
 Las tres son compatibles con equipos de CPAP, AutoCPAP y BiPAP. Antes de comprar te confirmamos por WhatsApp que la máscara le entre a tu equipo.
 
@@ -3796,11 +3796,11 @@ Enviamos repuestos y máscaras a todo el país, y por WhatsApp te confirmamos la
 
 ## Equipos relacionados
 
-- ![Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)](https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg) [Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp) — U$S 227
+- ![Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)](https://insersalud.com/artifacts/products/876bc618-e07c-4007-8341-8660f0226cb4.jpg) [Máscara Nasal Pediátrica Philips Wisp (la de la jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp) — U$S 227 (≈ $368.875)
 
-- ![Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)](https://insersalud.com/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg) [Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini) — U$S 105
+- ![Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)](https://insersalud.com/artifacts/products/0714643b-30ed-48d5-bf66-1d41dbfd5805.jpg) [Máscara Nasal Pediátrica HSINER Cirri Mini (XS/S/M/L)](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini) — U$S 105 (≈ $170.625)
 
-- ![Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg) [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal) — U$S 97
+- ![Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/artifacts/products/7ed94670-d1a4-4454-8f1a-71ce4cf90af6.jpg) [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal) — U$S 97 (≈ $157.625)
 
 - ![Tubuladura para CPAP / BiPAP (repuesto universal)](https://insersalud.com/artifacts/products/tubuladura_cpap_bipap.jpg) [Tubuladura para CPAP / BiPAP (repuesto universal)](https://insersalud.com/producto/tubuladura-cpap-bipap) — $50.000
 
@@ -3816,7 +3816,7 @@ No es recomendable. La cara de un chico tiene proporciones distintas, no es una 
 
 ### ¿Cuál es la máscara pediátrica más elegida?
 
-La Philips Wisp, que viene con la funda estampada de jirafa (U$S 227). Ese diseño ayuda a que el chico la acepte, que es la mitad del tratamiento. También tenemos la HSINER Cirri Mini (U$S 105) y el Infant CPAP Kit neonatal (desde U$S 97).
+La Philips Wisp, que viene con la funda estampada de jirafa (U$S 227 (≈ $368.875)). Ese diseño ayuda a que el chico la acepte, que es la mitad del tratamiento. También tenemos la HSINER Cirri Mini (U$S 105 (≈ $170.625)) y el Infant CPAP Kit neonatal (desde U$S 97 (≈ $157.625)).
 
 ### ¿Tienen máscaras para bebés y recién nacidos?
 
@@ -3840,7 +3840,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -3895,8 +3895,8 @@ Para demanda muy alta, se pueden combinar dos equipos o complementar con tubos d
 ## Complementos: ventilación, máscaras e insumos
 
 BiPAP BMC G3 con frecuencia respiratoria ($1.300.000) para ventilación no invasiva en sesiones y titulación.
-Ventilador ResMed STELLAR 150 (U$S 7.342) para soporte ventilatorio invasivo/no invasivo de mayor complejidad.
-Máscaras nasales y nasobucales en todos los talles (desde U$S 35), incluida línea pediátrica, e insumos de reposición: tubuladuras, filtros y cánulas.
+Ventilador ResMed STELLAR 150 (U$S 7.342 (≈ $11.930.750)) para soporte ventilatorio invasivo/no invasivo de mayor complejidad.
+Máscaras nasales y nasobucales en todos los talles (desde U$S 35 (≈ $56.875)), incluida línea pediátrica, e insumos de reposición: tubuladuras, filtros y cánulas.
 
 ## Compra institucional
 
@@ -3910,7 +3910,7 @@ Para los pacientes de mayor demanda, el concentrador de alto flujo es el que da 
 
 Donde el requerimiento de flujo es menor, un estacionario de 5 L/min cubre y baja bastante la inversión: el BMC estacionario está a $999.000, con flujo de 0,5 a 5 L/min, pureza ≥93%, uso continuo y 2 años de garantía. Trae medidor de oxígeno integrado y display digital de pureza, flujo y horas, dos cosas que en una institución sirven para verificar la concentración entregada y llevar el control del mantenimiento.
 
-El esquema habitual es mixto: uno o dos equipos de alto flujo para los pacientes de alta demanda y estacionarios de 5 L para el resto. Como respaldo para salidas cortas y traslados, la mochila de oxígeno (tubo de 0,415 m³ con regulador, bolso y carga inicial, U$S 270) da entre 1 y 3 horas según el flujo.
+El esquema habitual es mixto: uno o dos equipos de alto flujo para los pacientes de alta demanda y estacionarios de 5 L para el resto. Como respaldo para salidas cortas y traslados, la mochila de oxígeno (tubo de 0,415 m³ con regulador, bolso y carga inicial, U$S 270 (≈ $438.750)) da entre 1 y 3 horas según el flujo.
 
 ## Qué preguntar antes de comprar equipamiento institucional
 
@@ -3928,7 +3928,7 @@ Un equipo que trabaja toda la jornada exige más que uno domiciliario. Estas son
 
 El equipo se compra una vez; las máscaras, las tubuladuras y los filtros se renuevan todo el tiempo. En un centro con rotación de pacientes, ese es el rubro que conviene tener resuelto de entrada.
 
-Nasales desde U$S 35 (RESCOMF multitalle) y nasobucales desde U$S 52 (Yuwell con apoya frente y BMC F5A); la BMC F6 multitalle está a U$S 124. En pediátrico, la HSINER Cirri Mini en talles XS/S/M/L (U$S 105) y el Infant CPAP Kit con tallas 00 a 5 (U$S 97), una línea difícil de conseguir en el país. El listado completo con precios está en [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap).
+Nasales desde U$S 35 (≈ $56.875) (RESCOMF multitalle) y nasobucales desde U$S 52 (≈ $84.500) (Yuwell con apoya frente y BMC F5A); la BMC F6 multitalle está a U$S 124 (≈ $201.500). En pediátrico, la HSINER Cirri Mini en talles XS/S/M/L (U$S 105 (≈ $170.625)) y el Infant CPAP Kit con tallas 00 a 5 (U$S 97 (≈ $157.625)), una línea difícil de conseguir en el país. El listado completo con precios está en [máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap).
 
 Como referencia de recambio: la almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara completa cada 6 a 12 meses, según uso e higiene. En una institución eso es lo que define el volumen de reposición.
 
@@ -3940,9 +3940,9 @@ La tubuladura de recambio para CPAP/BiPAP está a $50.000: 22 mm de diámetro es
 
 Si el centro también atiende sospecha de apnea del sueño, el polígrafo respiratorio permite hacer el estudio en el domicilio del paciente, sin laboratorio.
 
-El BMC YH-600B PRO (U$S 1.570) registra 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca, con software de descarga y análisis para armar el informe. Es un equipo pensado para rotar entre pacientes: se entrega a la noche, se retira a la mañana y queda listo para el siguiente estudio.
+El BMC YH-600B PRO (U$S 1.570 (≈ $2.551.250)) registra 4 canales: flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca, con software de descarga y análisis para armar el informe. Es un equipo pensado para rotar entre pacientes: se entrega a la noche, se retira a la mañana y queda listo para el siguiente estudio.
 
-También está la versión con 30 cánulas Luer Lock incluidas, a U$S 1.794. La cánula es descartable y se cambia en cada estudio, así que sirve para arrancar sin depender de otra compra.
+También está la versión con 30 cánulas Luer Lock incluidas, a U$S 1.794 (≈ $2.915.250). La cánula es descartable y se cambia en cada estudio, así que sirve para arrancar sin depender de otra compra.
 
 La capacitación de uso del equipo y del software está incluida (presencial en Córdoba, guiada a distancia en el resto del país) y la interpretación del estudio la hace el médico. El detalle completo está en [comprar polígrafo respiratorio](https://insersalud.com/comprar-poligrafo-argentina).
 
@@ -3952,9 +3952,9 @@ La capacitación de uso del equipo y del software está incluida (presencial en 
 
 - ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — $1.300.000
 
-- ![Ventilador ResMed STELLAR 150](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 — U$S 7.342
+- ![Ventilador ResMed STELLAR 150](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 — U$S 7.342 (≈ $11.930.750)
 
-- Máscaras e insumos de reposición — desde U$S 35
+- Máscaras e insumos de reposición — desde U$S 35 (≈ $56.875)
 
 ## Preguntas frecuentes
 
@@ -3988,7 +3988,7 @@ Depende de cuántos pacientes trabajen en simultáneo y de los flujos que indiqu
 
 ### ¿Se puede sumar el estudio del sueño al centro?
 
-Sí. El polígrafo respiratorio BMC YH-600B PRO (U$S 1.570) registra 4 canales — flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca — con software de descarga y análisis para el informe, y el paciente duerme en su casa. También hay una versión con 30 cánulas Luer Lock incluidas por U$S 1.794. La capacitación de uso del equipo y del software está incluida (presencial en Córdoba, guiada a distancia en el resto del país); la interpretación del estudio la hace el médico.
+Sí. El polígrafo respiratorio BMC YH-600B PRO (U$S 1.570 (≈ $2.551.250)) registra 4 canales — flujo aéreo nasal, ronquido, saturación de oxígeno y frecuencia cardíaca — con software de descarga y análisis para el informe, y el paciente duerme en su casa. También hay una versión con 30 cánulas Luer Lock incluidas por U$S 1.794 (≈ $2.915.250). La capacitación de uso del equipo y del software está incluida (presencial en Córdoba, guiada a distancia en el resto del país); la interpretación del estudio la hace el médico.
 
 ### ¿Trabajan con obras sociales o prepagas?
 
@@ -3996,7 +3996,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -4060,8 +4060,8 @@ Los dos modelos que vendemos, el GCE Zen-O y el Philips SimplyGo, tienen los dos
 
 ## Modelos y precios
 
-GCE Zen-O — U$S 3.747: premium europeo, pulso y flujo continuo de 0,5 a 2 L/min, 2 baterías + carro, homologado para vuelos.
-Philips SimplyGo — U$S 3.887: continuo + pulso, apto vuelos.
+GCE Zen-O — U$S 3.747 (≈ $6.088.875): premium europeo, pulso y flujo continuo de 0,5 a 2 L/min, 2 baterías + carro, homologado para vuelos.
+Philips SimplyGo — U$S 3.887 (≈ $6.316.375): continuo + pulso, apto vuelos.
 
 Precios de referencia; confirmá el valor del día por WhatsApp.
 
@@ -4095,7 +4095,7 @@ Muchos pacientes combinan los dos equipos: un concentrador estacionario para las
 
 El motivo es técnico. En modo pulso el portátil entrega oxígeno en demanda, cuando detecta la inspiración; en flujo continuo llega hasta 2 L/min y la batería dura menos. Para flujos continuos más altos o para el uso nocturno se recomienda complementar con un [concentrador estacionario](https://insersalud.com/comprar-concentrador-oxigeno-argentina), que entrega flujo constante y está pensado para funcionar de forma continua, de día y de noche. El BMC estacionario, por ejemplo, va de 0,5 a 5 L/min y está $999.000.
 
-Para salidas cortas hay además una opción más económica que un portátil: la mochila de oxígeno, con tubo, regulador, bolso y carga inicial, a U$S 270. Pesa alrededor de 1,8 kg y rinde entre 1 y 3 horas según el flujo, así que sirve para un trámite o un turno médico, no para una jornada completa.
+Para salidas cortas hay además una opción más económica que un portátil: la mochila de oxígeno, con tubo, regulador, bolso y carga inicial, a U$S 270 (≈ $438.750). Pesa alrededor de 1,8 kg y rinde entre 1 y 3 horas según el flujo, así que sirve para un trámite o un turno médico, no para una jornada completa.
 
 Decinos cuántas horas por día te indicaron y cuántas de esas estás fuera de casa: con esos dos datos armamos la combinación que te sirve, sin que compres de más.
 
@@ -4111,9 +4111,9 @@ Respondemos por WhatsApp todos los días, también fines de semana.
 
 ## Equipos relacionados
 
-- ![GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) [GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/producto/gce-zen-o) — U$S 3.747
+- ![GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/artifacts/products/47b7a3ad-17b0-41c1-a9a9-0b26530f595e.jpg) [GCE Zen-O (2 baterías + carro, apto vuelos)](https://insersalud.com/producto/gce-zen-o) — U$S 3.747 (≈ $6.088.875)
 
-- ![Philips SimplyGo (continuo + pulso)](https://insersalud.com/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg) [Philips SimplyGo (continuo + pulso)](https://insersalud.com/producto/philips-simplygo) — U$S 3.887
+- ![Philips SimplyGo (continuo + pulso)](https://insersalud.com/artifacts/products/e5627e6c-819d-40b2-8c96-9d96340f5ebc.jpg) [Philips SimplyGo (continuo + pulso)](https://insersalud.com/producto/philips-simplygo) — U$S 3.887 (≈ $6.316.375)
 
 ## Preguntas frecuentes
 
@@ -4123,7 +4123,7 @@ En Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el 
 
 ### ¿Qué concentradores portátiles tienen y cuánto salen?
 
-El GCE Zen-O, con 2 baterías y carro, a U$S 3.747, y el Philips SimplyGo, a U$S 3.887. Los dos entregan pulso y flujo continuo de 0,5 a 2 L/min. Los dos son aptos para vuelos y tienen 3 años de garantía oficial.
+El GCE Zen-O, con 2 baterías y carro, a U$S 3.747 (≈ $6.088.875), y el Philips SimplyGo, a U$S 3.887 (≈ $6.316.375). Los dos entregan pulso y flujo continuo de 0,5 a 2 L/min. Los dos son aptos para vuelos y tienen 3 años de garantía oficial.
 
 ### ¿Puedo viajar en avión con un concentrador portátil?
 
@@ -4155,7 +4155,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -4209,9 +4209,9 @@ SIEMPRE con prescripción y configuración indicada por el médico tratante: nos
 
 ## Precio y qué incluye
 
-Precio de referencia: U$S 7.342 (consultá la cotización del día por WhatsApp). Incluye humidificador y batería interna. Aprobado por ANMAT, con garantía oficial del fabricante y acceso a servicio técnico y repuestos.
+Precio de referencia: U$S 7.342 (≈ $11.930.750) (consultá la cotización del día por WhatsApp). Incluye humidificador y batería interna. Aprobado por ANMAT, con garantía oficial del fabricante y acceso a servicio técnico y repuestos.
 
-Complementos habituales: Cough Assist (asistente de tos, U$S 9.084) para el manejo de secreciones en ELA/AME, y máscaras de ventilación no invasiva en todos los talles.
+Complementos habituales: Cough Assist (asistente de tos, U$S 9.084 (≈ $14.761.500)) para el manejo de secreciones en ELA/AME, y máscaras de ventilación no invasiva en todos los talles.
 
 ## Compra con acompañamiento
 
@@ -4229,7 +4229,7 @@ Los modos, las presiones y las horas de uso los define el médico tratante, siem
 
 ## STELLAR 150 o BiPAP: cómo se decide
 
-Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](https://insersalud.com/bipap-cordoba) está en $1.300.000 y el STELLAR 150 en U$S 7.342.
+Es la pregunta que ordena la compra, porque entre las dos opciones hay una diferencia de precio grande: el [BiPAP BMC G3](https://insersalud.com/bipap-cordoba) está en $1.300.000 y el STELLAR 150 en U$S 7.342 (≈ $11.930.750).
 
 En números: el G3 trabaja con modos CPAP, S, T y S/T, llega hasta 25 cm H₂O de IPAP y 20 de EPAP, con frecuencia respiratoria de respaldo de 4 a 40 rpm, y está indicado en EPOC, enfermedades neuromusculares e hipoventilación. El STELLAR 150 suma modos (PAC e iVAPS además de CPAP, S, ST y T), llega hasta 40 cm H₂O, trae humidificador H4i y batería interna, y su uso previsto es continuo, de día y de noche, en adultos y pediátricos, con indicación en ELA, AME, fibrosis y EPOC severa.
 
@@ -4249,7 +4249,7 @@ Una aclaración para que no te lleves una sorpresa. Dos horas son una autonomía
 
 Con un ventilador la interfaz no es un detalle de confort, es parte del circuito. Hay dos familias de máscaras y no son intercambiables.
 
-Las máscaras ventiladas tienen orificios de fuga controlada (puertos de exhalación) y son las que corresponden a un CPAP o BiPAP domiciliario estándar: la BMC F6 multitalle a U$S 124 o las DreamWear de Philips, entre otras.
+Las máscaras ventiladas tienen orificios de fuga controlada (puertos de exhalación) y son las que corresponden a un CPAP o BiPAP domiciliario estándar: la BMC F6 multitalle a U$S 124 (≈ $201.500) o las DreamWear de Philips, entre otras.
 
 Las máscaras no ventiladas no tienen puertos de exhalación y se reconocen por el codo azul. Son la interfaz correcta para respiradores de terapia intensiva y para ventilación no invasiva con circuito de doble rama o válvula espiratoria, donde la exhalación se maneja por el circuito y no por la máscara. En nuestro catálogo es la BMC F2 codo azul, a $68.000, con conexión estándar de 22 mm.
 
@@ -4257,13 +4257,13 @@ Cuál de las dos corresponde depende del circuito con el que se configure el equ
 
 ## Equipos relacionados
 
-- ![Ventilador ResMed STELLAR 150 (humidificador + batería)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 (humidificador + batería) — U$S 7.342
+- ![Ventilador ResMed STELLAR 150 (humidificador + batería)](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 (humidificador + batería) — U$S 7.342 (≈ $11.930.750)
 
-- ![Cough Assist — asistente de tos (complemento ELA/AME)](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) Cough Assist — asistente de tos (complemento ELA/AME) — U$S 9.084
+- ![Cough Assist — asistente de tos (complemento ELA/AME)](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) Cough Assist — asistente de tos (complemento ELA/AME) — U$S 9.084 (≈ $14.761.500)
 
 - ![BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva)](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria (alternativa no invasiva) — $1.300.000
 
-- Máscaras de ventilación no invasiva — desde U$S 35
+- Máscaras de ventilación no invasiva — desde U$S 35 (≈ $56.875)
 
 ## Preguntas frecuentes
 
@@ -4277,7 +4277,7 @@ Sí, soporta ambas: por traqueostomía (invasiva) y por máscara (no invasiva), 
 
 ### ¿Cuánto cuesta el STELLAR 150 en Argentina?
 
-Precio de referencia U$S 7.342, con humidificador y batería interna incluidos. Confirmá la cotización del día por WhatsApp. Aprobado por ANMAT, con garantía oficial del fabricante.
+Precio de referencia U$S 7.342 (≈ $11.930.750), con humidificador y batería interna incluidos. Confirmá la cotización del día por WhatsApp. Aprobado por ANMAT, con garantía oficial del fabricante.
 
 ### ¿Necesito prescripción médica?
 
@@ -4305,7 +4305,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -4363,7 +4363,7 @@ Es un equipo robusto pensado para rotar entre pacientes: se entrega a la noche, 
 
 ## Precio y compra
 
-Precio de referencia: U$S 1.570 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial del fabricante.
+Precio de referencia: U$S 1.570 (≈ $2.551.250) (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial del fabricante.
 
 Enviamos a todo el país, con capacitación de uso y del software incluida (presencial en Córdoba, guiada a distancia en el resto del país), y quedamos como soporte técnico permanente. Emitimos factura y presupuesto formal para instituciones.
 
@@ -4377,17 +4377,17 @@ El polígrafo se puede comprar solo o con 30 cánulas Luer Lock incluidas.
 
 La cánula es el insumo descartable que va en cada estudio: se cambia por paciente, así que si vas a empezar a hacer estudios de entrada, la opción con 30 unidades te evita tener que conseguirlas por separado en las primeras semanas.
 
-El equipo solo cuesta U$S 1.570. La versión con las 30 cánulas Luer Lock incluidas cuesta U$S 1.794. Consultanos por WhatsApp y te confirmamos el valor en pesos del día.
+El equipo solo cuesta U$S 1.570 (≈ $2.551.250). La versión con las 30 cánulas Luer Lock incluidas cuesta U$S 1.794 (≈ $2.915.250). Consultanos por WhatsApp y te confirmamos el valor en pesos del día.
 
 ## Equipos relacionados
 
-- ![Polígrafo BMC YH-600B PRO (4 canales + software)](https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg) Polígrafo BMC YH-600B PRO (4 canales + software) — U$S 1.570
+- ![Polígrafo BMC YH-600B PRO (4 canales + software)](https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg) Polígrafo BMC YH-600B PRO (4 canales + software) — U$S 1.570 (≈ $2.551.250)
 
 - ![CPAP BMC G2S (tratamiento post-diagnóstico)](https://insersalud.com/artifacts/products/1752160942319-bmcg2.2.jpg) CPAP BMC G2S (tratamiento post-diagnóstico) — $520.000
 
 - ![CPAP ResMed AirSense 10 (equipo completo)](https://insersalud.com/artifacts/products/resmed_airsense10_3.jpg) CPAP ResMed AirSense 10 (equipo completo) — $974.000
 
-- ![Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock](https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg) Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock — U$S 1.794
+- ![Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock](https://insersalud.com/artifacts/products/1752508033704-poligrafobmc.jpg) Polígrafo BMC YH-600B PRO + 30 cánulas Luer Lock — U$S 1.794 (≈ $2.915.250)
 
 ## Preguntas frecuentes
 
@@ -4409,7 +4409,7 @@ En esta página vendemos el equipo, para profesionales y centros. Si lo que busc
 
 ### ¿Cuánto cuesta el polígrafo?
 
-Precio de referencia U$S 1.570, aprobado por ANMAT y con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.
+Precio de referencia U$S 1.570 (≈ $2.551.250), aprobado por ANMAT y con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Emitimos factura para instituciones.
 
 ### ¿Incluye capacitación?
 
@@ -4417,7 +4417,7 @@ Sí: capacitación de uso del equipo y del software, presencial en Córdoba o gu
 
 ### ¿El polígrafo viene con cánulas?
 
-Hay dos opciones: el equipo solo, o el equipo con 30 cánulas Luer Lock incluidas por U$S 1.794. La cánula es descartable y se cambia en cada estudio, así que la versión con insumos sirve para arrancar sin depender de otra compra.
+Hay dos opciones: el equipo solo, o el equipo con 30 cánulas Luer Lock incluidas por U$S 1.794 (≈ $2.915.250). La cánula es descartable y se cambia en cada estudio, así que la versión con insumos sirve para arrancar sin depender de otra compra.
 
 ### ¿Trabajan con obras sociales o prepagas?
 
@@ -4425,7 +4425,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -4479,13 +4479,13 @@ Los consensos internacionales de cuidado respiratorio en enfermedades neuromuscu
 
 ## Precio y compra
 
-Precio de referencia: U$S 9.084 (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial del fabricante.
+Precio de referencia: U$S 9.084 (≈ $14.761.500) (consultá la cotización del día por WhatsApp). Aprobado por ANMAT, con garantía oficial del fabricante.
 
 Enviamos a todo el país y capacitamos a la familia y a los cuidadores en el uso seguro del equipo (presencial en Córdoba, guiada a distancia en el resto del país). Entregamos presupuesto formal y factura para gestionar el reintegro o la cobertura con la obra social.
 
 ## El circuito completo para el paciente neuromuscular
 
-El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo ($1.300.000) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.
+El Cough Assist suele combinarse con ventilación no invasiva: BiPAP con frecuencia respiratoria de respaldo ($1.300.000) en etapas iniciales, o ventilador ResMed STELLAR 150 (U$S 7.342 (≈ $11.930.750)) cuando la dependencia ventilatoria es mayor, más las máscaras adecuadas en cada etapa, incluida la línea pediátrica para AME. Podemos equipar el cuidado respiratorio completo con un solo proveedor.
 
 ## Cuándo se indica: los valores que mira el equipo médico
 
@@ -4519,13 +4519,13 @@ Es habitual que el asistente de tos se combine con ventilación no invasiva. Si 
 
 ## Equipos relacionados
 
-- ![Cough Assist — asistente de tos mecánico](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) Cough Assist — asistente de tos mecánico — U$S 9.084
+- ![Cough Assist — asistente de tos mecánico](https://insersalud.com/artifacts/products/a44d34ae-c159-4f83-8c8d-41c2fcfc4e49.jpg) Cough Assist — asistente de tos mecánico — U$S 9.084 (≈ $14.761.500)
 
 - ![BiPAP BMC G3 con frecuencia respiratoria](https://insersalud.com/artifacts/products/2cffdc89-7433-4bcb-80cd-7f2862733ec0.jpg) BiPAP BMC G3 con frecuencia respiratoria — $1.300.000
 
-- ![Ventilador ResMed STELLAR 150](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 — U$S 7.342
+- ![Ventilador ResMed STELLAR 150](https://insersalud.com/artifacts/products/b3205a47-2021-4f73-b11a-a48ac33e29ce.jpg) Ventilador ResMed STELLAR 150 — U$S 7.342 (≈ $11.930.750)
 
-- Máscaras de ventilación (adultos y pediátricas) — desde U$S 35
+- Máscaras de ventilación (adultos y pediátricas) — desde U$S 35 (≈ $56.875)
 
 ## Preguntas frecuentes
 
@@ -4543,7 +4543,7 @@ Para tos débil o ineficaz por enfermedades neuromusculares: ELA, AME, distrofia
 
 ### ¿Cuánto cuesta el Cough Assist en Argentina?
 
-Precio de referencia U$S 9.084, aprobado por ANMAT, con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Entregamos presupuesto y factura para el reintegro de la obra social.
+Precio de referencia U$S 9.084 (≈ $14.761.500), aprobado por ANMAT, con garantía oficial del fabricante. Confirmá la cotización del día por WhatsApp. Entregamos presupuesto y factura para el reintegro de la obra social.
 
 ### ¿La familia puede aprender a usarlo?
 
@@ -4567,7 +4567,7 @@ Trabajamos de forma particular y te ayudamos con el reintegro: te entregamos pre
 
 ### ¿Se puede pagar en cuotas?
 
-Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
+Sí. Con Banco Galicia tenés cuotas fijas en todos los equipos: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. Hay una excepción: el concentrador estacionario Yuwell 7F-5B de 5 litros tiene una oferta puntual de 6 cuotas SIN interés de $195.000 y envío sin cargo a todo el país, hasta agotar stock; las 6 cuotas sin interés son solo de ese equipo. Por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país. Además aceptamos efectivo, transferencia y tarjeta.
 
 ## También te puede servir
 
@@ -4592,7 +4592,7 @@ INSER SALUD — Córdoba, Argentina. [WhatsApp +54 9 351 206-5320](https://wa.me
 
 ---
 title: "Philips DreamWear nasal: máscara para CPAP y BiPAP | INSER"
-description: "Máscara nasal Philips Respironics DreamWear de mínimo contacto, en silicona hipoalergénica. Precio: U$S 153. Envío a todo el país."
+description: "Máscara nasal Philips Respironics DreamWear de mínimo contacto, en silicona hipoalergénica. Precio: $248.625 (U$S 153). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasal-philips-dreamwear
 canonical: https://insersalud.com/producto/mascara-nasal-philips-dreamwear
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4602,7 +4602,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasal Philips DreamWear de mínimo contacto
 
-**Precio:** U$S 153. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $248.625 (U$S 153 (≈ $248.625)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Philips Respironics
 
@@ -4652,7 +4652,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasal Philips DreamWear de mínimo contacto?
 
-U$S 153. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$248.625 (U$S 153 (≈ $248.625)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -4668,13 +4668,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): U$S 35
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): $56.875 (U$S 35 (≈ $56.875))
 
-- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): U$S 36
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): $58.500 (U$S 36 (≈ $58.500))
 
-- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): U$S 60
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): $97.500 (U$S 60 (≈ $97.500))
 
-- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): U$S 89,50
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): $145.438 (U$S 89,50 (≈ $145.438))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -4687,7 +4687,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "RESCOMF: máscara nasal para CPAP y BiPAP | INSER"
-description: "Máscara nasal RESCOMF con apoya frente y arnés de 4 puntos de fijación. Talles S, M y L. Precio: U$S 35. Envío a todo el país."
+description: "Máscara nasal RESCOMF con apoya frente y arnés de 4 puntos de fijación. Talles S, M y L. Precio: $56.875 (U$S 35). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasal-rescomf
 canonical: https://insersalud.com/producto/mascara-nasal-rescomf
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4697,7 +4697,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasal RESCOMF con apoya frente
 
-**Precio:** U$S 35. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $56.875 (U$S 35 (≈ $56.875)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: RESCOMF
 
@@ -4749,7 +4749,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasal RESCOMF con apoya frente?
 
-U$S 35. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$56.875 (U$S 35 (≈ $56.875)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -4765,13 +4765,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): U$S 36
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): $58.500 (U$S 36 (≈ $58.500))
 
-- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): U$S 60
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): $97.500 (U$S 60 (≈ $97.500))
 
-- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): U$S 89,50
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): $145.438 (U$S 89,50 (≈ $145.438))
 
-- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): U$S 157
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): $255.125 (U$S 157 (≈ $255.125))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -4784,7 +4784,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "BMC N4: máscara nasal con apoya frente para CPAP | INSER"
-description: "Máscara nasal BMC N4 (BMC Medical) con apoya frente y almohadilla de gel suave. Talles M y L. Precio: U$S 36. Envío a todo el país."
+description: "Máscara nasal BMC N4 (BMC Medical) con apoya frente y almohadilla de gel suave. Talles M y L. Precio: $58.500 (U$S 36). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasal-bmc-n4
 canonical: https://insersalud.com/producto/mascara-nasal-bmc-n4
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4794,7 +4794,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasal BMC N4 con apoya frente
 
-**Precio:** U$S 36. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $58.500 (U$S 36 (≈ $58.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
 
@@ -4842,7 +4842,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasal BMC N4 con apoya frente?
 
-U$S 36. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$58.500 (U$S 36 (≈ $58.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -4858,13 +4858,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): U$S 60
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): $97.500 (U$S 60 (≈ $97.500))
 
-- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): U$S 89,50
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): $145.438 (U$S 89,50 (≈ $145.438))
 
-- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): U$S 157
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): $255.125 (U$S 157 (≈ $255.125))
 
-- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): U$S 42
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): $68.250 (U$S 42 (≈ $68.250))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -4877,7 +4877,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "BMC N5a: máscara nasal sin apoya frente para CPAP | INSER"
-description: "Máscara nasal BMC N5a (BMC Medical) sin apoya frente, que deja un amplio campo visual. Talles SW, S y M. Precio: U$S 60. Envío a todo el país."
+description: "Máscara nasal BMC N5a (BMC Medical) sin apoya frente, que deja un amplio campo visual. Talles SW, S y M. Precio: $97.500 (U$S 60). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasal-bmc-n5a
 canonical: https://insersalud.com/producto/mascara-nasal-bmc-n5a
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4887,7 +4887,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasal BMC N5a sin apoya frente
 
-**Precio:** U$S 60. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $97.500 (U$S 60 (≈ $97.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
 
@@ -4935,7 +4935,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasal BMC N5a sin apoya frente?
 
-U$S 60. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$97.500 (U$S 60 (≈ $97.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -4951,13 +4951,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): U$S 89,50
+- [Máscara nasal BMC multitalle](https://insersalud.com/producto/mascara-nasal-bmc-multitalle): $145.438 (U$S 89,50 (≈ $145.438))
 
-- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): U$S 157
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): $255.125 (U$S 157 (≈ $255.125))
 
-- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): U$S 42
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): $68.250 (U$S 42 (≈ $68.250))
 
-- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): U$S 157
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): $255.125 (U$S 157 (≈ $255.125))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -4970,7 +4970,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "BMC multitalle: máscara nasal para CPAP y BiPAP | INSER"
-description: "Máscara nasal multitalle BMC Medical que se adapta a distintas morfologías faciales. Precio: U$S 89,50. Envío a todo el país."
+description: "Máscara nasal multitalle BMC Medical que se adapta a distintas morfologías faciales. Precio: $145.438 (U$S 89,50). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasal-bmc-multitalle
 canonical: https://insersalud.com/producto/mascara-nasal-bmc-multitalle
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -4980,7 +4980,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasal BMC multitalle
 
-**Precio:** U$S 89,50. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $145.438 (U$S 89,50 (≈ $145.438)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
 
@@ -5026,7 +5026,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasal BMC multitalle?
 
-U$S 89,50. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$145.438 (U$S 89,50 (≈ $145.438)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿Es compatible con mi CPAP o BiPAP?
 
@@ -5038,13 +5038,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): U$S 157
+- [Máscara nasal ResMed AirFit de mínimo contacto](https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto): $255.125 (U$S 157 (≈ $255.125))
 
-- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): U$S 42
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): $68.250 (U$S 42 (≈ $68.250))
 
-- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): U$S 157
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): $255.125 (U$S 157 (≈ $255.125))
 
-- [Máscara nasobucal BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): U$S 124
+- [Máscara nasobucal BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): $201.500 (U$S 124 (≈ $201.500))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5057,7 +5057,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "ResMed AirFit nasal: máscara de mínimo contacto | INSER"
-description: "Máscara nasal ResMed AirFit de mínimo contacto, sin apoya frente. Talles SW, S y M. Precio: U$S 157. Envío a todo el país."
+description: "Máscara nasal ResMed AirFit de mínimo contacto, sin apoya frente. Talles SW, S y M. Precio: $255.125 (U$S 157). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto
 canonical: https://insersalud.com/producto/mascara-nasal-resmed-airfit-minimo-contacto
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5067,7 +5067,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasal ResMed AirFit de mínimo contacto
 
-**Precio:** U$S 157. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $255.125 (U$S 157 (≈ $255.125)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: ResMed
 
@@ -5115,7 +5115,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasal ResMed AirFit de mínimo contacto?
 
-U$S 157. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$255.125 (U$S 157 (≈ $255.125)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -5131,13 +5131,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): U$S 42
+- [Almohadillas nasales Yuwell YP-01 (pillow)](https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01): $68.250 (U$S 42 (≈ $68.250))
 
-- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): U$S 157
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): $255.125 (U$S 157 (≈ $255.125))
 
-- [Máscara nasobucal BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): U$S 124
+- [Máscara nasobucal BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): $201.500 (U$S 124 (≈ $201.500))
 
-- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): U$S 52
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): $84.500 (U$S 52 (≈ $84.500))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5150,7 +5150,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "Yuwell YP-01: almohadillas nasales para CPAP | INSER"
-description: "Máscara de almohadillas nasales (pillow) Yuwell YP-01, de mínima presencia facial. Talles M y L. Precio: U$S 42. Envío a todo el país."
+description: "Máscara de almohadillas nasales (pillow) Yuwell YP-01, de mínima presencia facial. Talles M y L. Precio: $68.250 (U$S 42). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01
 canonical: https://insersalud.com/producto/mascara-almohadillas-yuwell-yp-01
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5160,7 +5160,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Almohadillas nasales Yuwell YP-01 (pillow)
 
-**Precio:** U$S 42. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $68.250 (U$S 42 (≈ $68.250)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Yuwell
 
@@ -5208,7 +5208,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuestan las almohadillas nasales Yuwell YP-01?
 
-U$S 42. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$68.250 (U$S 42 (≈ $68.250)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles vienen?
 
@@ -5224,13 +5224,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): U$S 157
+- [Máscara nasobucal Philips DreamWear Full Face](https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear): $255.125 (U$S 157 (≈ $255.125))
 
-- [Máscara nasobucal BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): U$S 124
+- [Máscara nasobucal BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): $201.500 (U$S 124 (≈ $201.500))
 
-- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): U$S 52
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): $84.500 (U$S 52 (≈ $84.500))
 
-- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): U$S 55
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): $89.375 (U$S 55 (≈ $89.375))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5243,7 +5243,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "Philips DreamWear Full Face: máscara nasobucal | INSER"
-description: "Máscara nasobucal (full face) Philips Respironics DreamWear: cubre nariz y boca con mínimo contacto. Precio: U$S 157. Envío a todo el país."
+description: "Máscara nasobucal (full face) Philips Respironics DreamWear: cubre nariz y boca con mínimo contacto. Precio: $255.125 (U$S 157). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear
 canonical: https://insersalud.com/producto/mascara-nasobucal-philips-dreamwear
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5253,7 +5253,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasobucal Philips DreamWear Full Face
 
-**Precio:** U$S 157. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $255.125 (U$S 157 (≈ $255.125)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Philips Respironics
 
@@ -5303,7 +5303,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasobucal Philips DreamWear Full Face?
 
-U$S 157. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$255.125 (U$S 157 (≈ $255.125)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -5319,13 +5319,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasobucal BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): U$S 124
+- [Máscara nasobucal BMC F6 multitalle](https://insersalud.com/producto/mascara-nasobucal-bmc-f6): $201.500 (U$S 124 (≈ $201.500))
 
-- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): U$S 52
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): $84.500 (U$S 52 (≈ $84.500))
 
-- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): U$S 55
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): $89.375 (U$S 55 (≈ $89.375))
 
-- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): U$S 52
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): $84.500 (U$S 52 (≈ $84.500))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5338,7 +5338,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "BMC F6: máscara nasobucal multitalle para CPAP | INSER"
-description: "Máscara nasobucal (full face) BMC F6 multitalle, sin apoya frente: trae las almohadillas S, M y L. Precio: U$S 124. Envío a todo el país."
+description: "Máscara nasobucal (full face) BMC F6 multitalle, sin apoya frente: trae las almohadillas S, M y L. Precio: $201.500 (U$S 124). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasobucal-bmc-f6
 canonical: https://insersalud.com/producto/mascara-nasobucal-bmc-f6
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5348,7 +5348,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasobucal BMC F6 multitalle
 
-**Precio:** U$S 124. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $201.500 (U$S 124 (≈ $201.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
 
@@ -5398,7 +5398,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasobucal BMC F6 multitalle?
 
-U$S 124. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$201.500 (U$S 124 (≈ $201.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -5414,13 +5414,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): U$S 52
+- [Máscara buconasal Yuwell con apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente): $84.500 (U$S 52 (≈ $84.500))
 
-- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): U$S 55
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): $89.375 (U$S 55 (≈ $89.375))
 
-- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): U$S 52
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): $84.500 (U$S 52 (≈ $84.500))
 
-- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): U$S 189,50
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): $307.938 (U$S 189,50 (≈ $307.938))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5433,7 +5433,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "Yuwell con apoya frente: máscara buconasal CPAP | INSER"
-description: "Máscara buconasal (full face) Yuwell con apoya frente. Talles S, M y L. Precio: U$S 52. Envío a todo el país."
+description: "Máscara buconasal (full face) Yuwell con apoya frente. Talles S, M y L. Precio: $84.500 (U$S 52). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente
 canonical: https://insersalud.com/producto/mascara-buconasal-yuwell-apoya-frente
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5443,7 +5443,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara buconasal Yuwell con apoya frente
 
-**Precio:** U$S 52. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $84.500 (U$S 52 (≈ $84.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Yuwell
 
@@ -5489,7 +5489,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara buconasal Yuwell con apoya frente?
 
-U$S 52. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$84.500 (U$S 52 (≈ $84.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -5505,13 +5505,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): U$S 55
+- [Máscara buconasal Yuwell YF02 sin apoya frente](https://insersalud.com/producto/mascara-buconasal-yuwell-yf02): $89.375 (U$S 55 (≈ $89.375))
 
-- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): U$S 52
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): $84.500 (U$S 52 (≈ $84.500))
 
-- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): U$S 189,50
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): $307.938 (U$S 189,50 (≈ $307.938))
 
-- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): U$S 212
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): $344.500 (U$S 212 (≈ $344.500))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5524,7 +5524,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "Yuwell YF02: máscara buconasal sin apoya frente | INSER"
-description: "Máscara buconasal (full face) Yuwell YF02 sin apoya frente, con campo visual amplio. Talles S, M y L. Precio: U$S 55. Envío a todo el país."
+description: "Máscara buconasal (full face) Yuwell YF02 sin apoya frente, con campo visual amplio. Talles S, M y L. Precio: $89.375 (U$S 55). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-buconasal-yuwell-yf02
 canonical: https://insersalud.com/producto/mascara-buconasal-yuwell-yf02
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5534,7 +5534,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara buconasal Yuwell YF02 sin apoya frente
 
-**Precio:** U$S 55. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $89.375 (U$S 55 (≈ $89.375)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: Yuwell
 
@@ -5582,7 +5582,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara buconasal Yuwell YF02 sin apoya frente?
 
-U$S 55. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$89.375 (U$S 55 (≈ $89.375)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -5598,11 +5598,11 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): U$S 52
+- [Máscara buconasal BMC F5A sin apoya frente](https://insersalud.com/producto/mascara-buconasal-bmc-f5a): $84.500 (U$S 52 (≈ $84.500))
 
-- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): U$S 189,50
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): $307.938 (U$S 189,50 (≈ $307.938))
 
-- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): U$S 212
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): $344.500 (U$S 212 (≈ $344.500))
 
 - [Máscara buconasal BMC F2 codo azul (no ventilada)](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul): $68.000
 
@@ -5617,7 +5617,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "BMC F5A: máscara buconasal sin apoya frente | INSER"
-description: "Máscara buconasal (full face) BMC F5A (BMC Medical) sin apoya frente, con amplia visión. Talles S, M y L. Precio: U$S 52. Envío a todo el país."
+description: "Máscara buconasal (full face) BMC F5A (BMC Medical) sin apoya frente, con amplia visión. Talles S, M y L. Precio: $84.500 (U$S 52). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-buconasal-bmc-f5a
 canonical: https://insersalud.com/producto/mascara-buconasal-bmc-f5a
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5627,7 +5627,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara buconasal BMC F5A sin apoya frente
 
-**Precio:** U$S 52. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $84.500 (U$S 52 (≈ $84.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: BMC Medical
 
@@ -5675,7 +5675,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara buconasal BMC F5A sin apoya frente?
 
-U$S 52. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$84.500 (U$S 52 (≈ $84.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -5691,9 +5691,9 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): U$S 189,50
+- [Máscara nasobucal ResMed AirFit F20](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20): $307.938 (U$S 189,50 (≈ $307.938))
 
-- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): U$S 212
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): $344.500 (U$S 212 (≈ $344.500))
 
 - [Máscara buconasal BMC F2 codo azul (no ventilada)](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul): $68.000
 
@@ -5710,7 +5710,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "ResMed AirFit F20: máscara nasobucal para CPAP | INSER"
-description: "Máscara nasobucal (full face) ResMed AirFit F20, de sellado amplio. Talles S, M y L. Precio: U$S 189,50. Envío a todo el país."
+description: "Máscara nasobucal (full face) ResMed AirFit F20, de sellado amplio. Talles S, M y L. Precio: $307.938 (U$S 189,50). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20
 canonical: https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f20
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5720,7 +5720,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasobucal ResMed AirFit F20
 
-**Precio:** U$S 189,50. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $307.938 (U$S 189,50 (≈ $307.938)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: ResMed
 
@@ -5768,7 +5768,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasobucal ResMed AirFit F20?
 
-U$S 189,50. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$307.938 (U$S 189,50 (≈ $307.938)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -5784,13 +5784,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): U$S 212
+- [Máscara nasobucal ResMed AirFit F30](https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30): $344.500 (U$S 212 (≈ $344.500))
 
 - [Máscara buconasal BMC F2 codo azul (no ventilada)](https://insersalud.com/producto/mascara-buconasal-bmc-f2-codo-azul): $68.000
 
 - [Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)](https://insersalud.com/producto/tubuladura-cpap-bipap): $50.000
 
-- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): U$S 153
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): $248.625 (U$S 153 (≈ $248.625))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5803,7 +5803,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "ResMed AirFit F30: máscara nasobucal de bajo perfil | INSER"
-description: "Máscara nasobucal ResMed AirFit F30 de bajo perfil: apoya por debajo de la nariz. Para CPAP y BiPAP. Precio: U$S 212. Envío a todo el país."
+description: "Máscara nasobucal ResMed AirFit F30 de bajo perfil: apoya por debajo de la nariz. Para CPAP y BiPAP. Precio: $344.500 (U$S 212). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30
 canonical: https://insersalud.com/producto/mascara-nasobucal-resmed-airfit-f30
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5813,7 +5813,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasobucal ResMed AirFit F30
 
-**Precio:** U$S 212. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $344.500 (U$S 212 (≈ $344.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras para CPAP y BiPAP](https://insersalud.com/mascaras-cpap) · Marca: ResMed
 
@@ -5861,7 +5861,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasobucal ResMed AirFit F30?
 
-U$S 212. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$344.500 (U$S 212 (≈ $344.500)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -5881,9 +5881,9 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 - [Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)](https://insersalud.com/producto/tubuladura-cpap-bipap): $50.000
 
-- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): U$S 153
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): $248.625 (U$S 153 (≈ $248.625))
 
-- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): U$S 35
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): $56.875 (U$S 35 (≈ $56.875))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5970,11 +5970,11 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 - [Tubuladura para CPAP y BiPAP (22 mm, 1,8 m)](https://insersalud.com/producto/tubuladura-cpap-bipap): $50.000
 
-- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): U$S 153
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): $248.625 (U$S 153 (≈ $248.625))
 
-- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): U$S 35
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): $56.875 (U$S 35 (≈ $56.875))
 
-- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): U$S 36
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): $58.500 (U$S 36 (≈ $58.500))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -5987,7 +5987,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "Philips Wisp pediátrica (jirafa): máscara nasal | INSER"
-description: "Máscara nasal pediátrica Philips Respironics Wisp, con funda de diseño de jirafa. Para CPAP y BiPAP. Precio: U$S 227. Envío a todo el país."
+description: "Máscara nasal pediátrica Philips Respironics Wisp, con funda de diseño de jirafa. Para CPAP y BiPAP. Precio: $368.875 (U$S 227). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-pediatrica-philips-wisp
 canonical: https://insersalud.com/producto/mascara-pediatrica-philips-wisp
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -5997,7 +5997,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasal pediátrica Philips Wisp (jirafa)
 
-**Precio:** U$S 227. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $368.875 (U$S 227 (≈ $368.875)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas) · Marca: Philips Respironics
 
@@ -6047,7 +6047,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasal pediátrica Philips Wisp?
 
-U$S 227. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$368.875 (U$S 227 (≈ $368.875)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿Es compatible con el equipo que usa mi hijo?
 
@@ -6059,9 +6059,9 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras pediátricas
 
-- [Máscara nasal pediátrica HSINER Cirri Mini](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini): U$S 105
+- [Máscara nasal pediátrica HSINER Cirri Mini](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini): $170.625 (U$S 105 (≈ $170.625))
 
-- [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal): U$S 97
+- [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal): $157.625 (U$S 97 (≈ $157.625))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -6074,7 +6074,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "HSINER Cirri Mini: máscara nasal pediátrica | INSER"
-description: "Máscara nasal pediátrica HSINER Cirri Mini para CPAP y BiPAP. Talles XS, S, M y L. Precio: U$S 105. Envío a todo el país."
+description: "Máscara nasal pediátrica HSINER Cirri Mini para CPAP y BiPAP. Talles XS, S, M y L. Precio: $170.625 (U$S 105). Envío a todo el país."
 url: https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini
 canonical: https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -6084,7 +6084,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Máscara nasal pediátrica HSINER Cirri Mini
 
-**Precio:** U$S 105. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $170.625 (U$S 105 (≈ $170.625)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas) · Marca: HSINER
 
@@ -6132,7 +6132,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta la máscara nasal pediátrica HSINER Cirri Mini?
 
-U$S 105. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$170.625 (U$S 105 (≈ $170.625)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿En qué talles viene?
 
@@ -6148,9 +6148,9 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras pediátricas
 
-- [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal): U$S 97
+- [Infant CPAP Kit neonatal (tallas 00 a 5)](https://insersalud.com/producto/infant-cpap-kit-neonatal): $157.625 (U$S 97 (≈ $157.625))
 
-- [Máscara nasal pediátrica Philips Wisp (jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp): U$S 227
+- [Máscara nasal pediátrica Philips Wisp (jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp): $368.875 (U$S 227 (≈ $368.875))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -6163,7 +6163,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "Infant CPAP Kit neonatal: tallas 00 a 5 | INSER"
-description: "Kit de CPAP neonatal con tallas 00, 0, 1, 2, 3, 4 y 5. Precio: U$S 97. Envío a todo el país."
+description: "Kit de CPAP neonatal con tallas 00, 0, 1, 2, 3, 4 y 5. Precio: $157.625 (U$S 97). Envío a todo el país."
 url: https://insersalud.com/producto/infant-cpap-kit-neonatal
 canonical: https://insersalud.com/producto/infant-cpap-kit-neonatal
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -6173,7 +6173,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Infant CPAP Kit neonatal (tallas 00 a 5)
 
-**Precio:** U$S 97. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $157.625 (U$S 97 (≈ $157.625)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Categoría: [Máscaras pediátricas para CPAP y BiPAP](https://insersalud.com/mascaras-pediatricas)
 
@@ -6219,7 +6219,7 @@ La almohadilla de silicona conviene renovarla cada 2 a 4 semanas y la máscara c
 
 ### ¿Cuánto cuesta el Infant CPAP Kit neonatal?
 
-U$S 97. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$157.625 (U$S 97 (≈ $157.625)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿Es compatible con el equipo que usa mi hijo?
 
@@ -6231,9 +6231,9 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras pediátricas
 
-- [Máscara nasal pediátrica Philips Wisp (jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp): U$S 227
+- [Máscara nasal pediátrica Philips Wisp (jirafa)](https://insersalud.com/producto/mascara-pediatrica-philips-wisp): $368.875 (U$S 227 (≈ $368.875))
 
-- [Máscara nasal pediátrica HSINER Cirri Mini](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini): U$S 105
+- [Máscara nasal pediátrica HSINER Cirri Mini](https://insersalud.com/producto/mascara-pediatrica-hsiner-cirri-mini): $170.625 (U$S 105 (≈ $170.625))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -6310,13 +6310,13 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otras máscaras e insumos
 
-- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): U$S 153
+- [Máscara nasal Philips DreamWear de mínimo contacto](https://insersalud.com/producto/mascara-nasal-philips-dreamwear): $248.625 (U$S 153 (≈ $248.625))
 
-- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): U$S 35
+- [Máscara nasal RESCOMF con apoya frente](https://insersalud.com/producto/mascara-nasal-rescomf): $56.875 (U$S 35 (≈ $56.875))
 
-- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): U$S 36
+- [Máscara nasal BMC N4 con apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n4): $58.500 (U$S 36 (≈ $58.500))
 
-- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): U$S 60
+- [Máscara nasal BMC N5a sin apoya frente](https://insersalud.com/producto/mascara-nasal-bmc-n5a): $97.500 (U$S 60 (≈ $97.500))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -6385,7 +6385,7 @@ En Córdoba también alquilamos concentradores con entrega e instalación a domi
 
 - **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
 
-- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
+- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
 
 - **Garantía:** 2 años.
 
@@ -6521,7 +6521,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "GCE Zen-O: concentrador de oxígeno portátil | INSER"
-description: "Concentrador de oxígeno portátil GCE Zen-O con pulso y flujo continuo de 0,5 a 2 L/min, 2 baterías y carro. Apto para vuelos. Precio: U$S 3.747."
+description: "Concentrador de oxígeno portátil GCE Zen-O con pulso y flujo continuo de 0,5 a 2 L/min, 2 baterías y carro. Apto para vuelos. Precio: $6.088.875."
 url: https://insersalud.com/producto/gce-zen-o
 canonical: https://insersalud.com/producto/gce-zen-o
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -6531,7 +6531,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # GCE Zen-O: concentrador de oxígeno portátil con 2 baterías y carro
 
-**Precio:** U$S 3.747. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $6.088.875 (U$S 3.747 (≈ $6.088.875)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Homologado para vuelos.
 
@@ -6579,7 +6579,7 @@ En Córdoba también alquilamos concentradores portátiles: mirá [concentrador 
 
 - **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
 
-- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
+- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
 
 - **Garantía:** 3 años oficiales.
 
@@ -6591,7 +6591,7 @@ En Córdoba también alquilamos concentradores portátiles: mirá [concentrador 
 
 ### ¿Cuánto cuesta el concentrador de oxígeno portátil GCE Zen-O?
 
-U$S 3.747. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$6.088.875 (U$S 3.747 (≈ $6.088.875)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿Se puede usar en un avión?
 
@@ -6607,7 +6607,7 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otros equipos de oxígeno portátil
 
-- [Concentrador de oxígeno portátil Philips SimplyGo](https://insersalud.com/producto/philips-simplygo): U$S 3.887
+- [Concentrador de oxígeno portátil Philips SimplyGo](https://insersalud.com/producto/philips-simplygo): $6.316.375 (U$S 3.887 (≈ $6.316.375))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 
@@ -6620,7 +6620,7 @@ Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/549351206532
 
 ---
 title: "Philips SimplyGo: concentrador de oxígeno portátil | INSER"
-description: "Concentrador de oxígeno portátil Philips Respironics SimplyGo con flujo continuo y modo pulso. Precio: U$S 3.887. Envío a todo el país."
+description: "Concentrador de oxígeno portátil Philips Respironics SimplyGo con flujo continuo y modo pulso. Precio: $6.316.375 (U$S 3.887). Envío a todo el país."
 url: https://insersalud.com/producto/philips-simplygo
 canonical: https://insersalud.com/producto/philips-simplygo
 author: "Lic. Sergio Giorda, Kinesiólogo y Fisioterapeuta, MP 2123 (director de INSER SALUD)"
@@ -6630,7 +6630,7 @@ publisher: INSER SALUD (https://insersalud.com)
 
 # Philips SimplyGo: concentrador de oxígeno portátil
 
-**Precio:** U$S 3.887. Precio de referencia en dólares: el valor en pesos del día se confirma por WhatsApp.
+**Precio:** $6.316.375 (U$S 3.887 (≈ $6.316.375)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 Flujo continuo + pulso.
 
@@ -6676,7 +6676,7 @@ En Córdoba también alquilamos concentradores portátiles: mirá [concentrador 
 
 - **Envío:** en Córdoba Capital la entrega es sin cargo y en el día. Al resto del país el envío tiene costo y tarda de 3 a 7 días hábiles; te confirmamos el valor para tu destino por WhatsApp.
 
-- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+15%), 6 cuotas (+24%) o 9 cuotas (+39%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
+- **Pago:** cuotas fijas con Banco Galicia: 3 cuotas (+17%), 6 cuotas (+29%) o 9 cuotas (+44%), con el recargo ya incluido en la cuota y sujeto a condiciones del banco. También efectivo, transferencia y tarjeta.
 
 - **Garantía:** 3 años oficiales.
 
@@ -6688,7 +6688,7 @@ En Córdoba también alquilamos concentradores portátiles: mirá [concentrador 
 
 ### ¿Cuánto cuesta el concentrador de oxígeno portátil Philips SimplyGo?
 
-U$S 3.887. Es un precio de referencia en dólares: te confirmamos el valor en pesos del día por WhatsApp.
+$6.316.375 (U$S 3.887 (≈ $6.316.375)). Precio en pesos al dólar oficial BNA del día ($1.625); el precio de lista es en dólares. Te confirmamos el importe final por WhatsApp.
 
 ### ¿Se puede usar en un avión?
 
@@ -6704,7 +6704,7 @@ Sí. En Córdoba Capital la entrega es sin cargo y en el día. Al resto del paí
 
 ## Otros equipos de oxígeno portátil
 
-- [Concentrador de oxígeno portátil GCE Zen-O](https://insersalud.com/producto/gce-zen-o): U$S 3.747
+- [Concentrador de oxígeno portátil GCE Zen-O](https://insersalud.com/producto/gce-zen-o): $6.088.875 (U$S 3.747 (≈ $6.088.875))
 
 Consultas y compra por WhatsApp: [+54 9 351 206-5320](https://wa.me/5493512065320), todos los días de 8 a 20 hs.
 

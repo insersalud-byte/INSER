@@ -1926,7 +1926,7 @@ const LandingPage = () => {
                             💳 CUOTAS FIJAS con Banco Galicia
                         </div>
                         <div style={{ fontSize: '0.9rem', opacity: 0.95 }}>
-                            En todos los equipos: 3 cuotas +15% · 6 cuotas +24% · 9 cuotas +39%. El recargo ya va incluido en la cuota.
+                            En todos los equipos: 3 cuotas +17% · 6 cuotas +29% · 9 cuotas +44%. El recargo ya va incluido en la cuota.
                         </div>
                         <div style={{ fontSize: '0.86rem', opacity: 0.95, marginTop: '0.4rem' }}>
                             Excepción: el Concentrador de Oxígeno YUWELL 7F-5B 5 Litros tiene una oferta propia de 6 cuotas sin interés de $195.000, con envío sin cargo, hasta agotar stock. Y por la oferta vigente, el CPAP BMC G2S y el AutoCPAP BMC G2S con humidificador también se envían sin cargo a todo el país.

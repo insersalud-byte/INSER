@@ -102,11 +102,11 @@ const OTROS = ['src/features/landing/LandingPage.jsx', 'src/features/landing/hom
     'index.html', 'public/llms.txt', 'server/index.js'];
 const esc = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // Importes que salen del precio y tambien estan escritos (cuotas del prompt de Santi y de la web):
-// 3 cuotas x1,15 · 6 x1,24 · 9 x1,39, y 6 sin interes. Se buscan cuota y total.
+// 3 cuotas x1,17 · 6 x1,29 · 9 x1,44, y 6 sin interes. Se buscan cuota y total.
 function derivados(p) {
     if (p.moneda !== 'ARS') return [];
     const out = [p.monto / 6];
-    for (const [n, k] of [[3, 1.15], [6, 1.24], [9, 1.39]]) out.push((p.monto * k) / n, p.monto * k);
+    for (const [n, k] of [[3, 1.17], [6, 1.29], [9, 1.44]]) out.push((p.monto * k) / n, p.monto * k);
     return out.map((v) => '$' + miles(v));
 }
 export function buscarMenciones(cambios, leer) {
